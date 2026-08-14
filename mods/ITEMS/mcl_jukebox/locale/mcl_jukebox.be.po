@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-06 22:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: mods/ITEMS/mcl_jukebox/init.lua:29 mods/ITEMS/mcl_jukebox/init.lua:33
+msgid "Music Disc"
+msgstr ""
+
+#: mods/ITEMS/mcl_jukebox/init.lua:30
+msgid ""
+"A music disc holds a single music track which can be used in a jukebox to "
+"play music."
+msgstr ""
+
+#: mods/ITEMS/mcl_jukebox/init.lua:31
+msgid ""
+"Place a music disc into an empty jukebox to play the music. Use the jukebox "
+"again to retrieve the music disc. The music can only be heard by you, not by "
+"other players."
+msgstr ""
+
+#: mods/ITEMS/mcl_jukebox/init.lua:34
+msgid "@1—@2"
+msgstr ""
+
+#: mods/ITEMS/mcl_jukebox/init.lua:64
+msgid "Now playing: @1—@2"
+msgstr ""
+
+#: mods/ITEMS/mcl_jukebox/init.lua:157
+msgid "Jukebox"
+msgstr ""
+
+#: mods/ITEMS/mcl_jukebox/init.lua:158
+msgid "Uses music discs to play music"
+msgstr ""
+
+#: mods/ITEMS/mcl_jukebox/init.lua:159
+msgid "Jukeboxes play music when they're supplied with a music disc."
+msgstr ""
+
+#: mods/ITEMS/mcl_jukebox/init.lua:160
+msgid ""
+"Place a music disc into an empty jukebox to insert the music disc and play "
+"music. If the jukebox already has a music disc, you will retrieve this music "
+"disc first. The music can only be heard by you, not by other players."
+msgstr ""

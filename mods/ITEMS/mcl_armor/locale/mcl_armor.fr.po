@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_armor x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_armor/api.lua:234
+msgid " "
+msgstr ""
+
+#: mods/ITEMS/mcl_armor/api.lua:508
+msgid "Upgrade:"
+msgstr "Amélioration :"
+
+#: mods/ITEMS/mcl_armor/init.lua:4
+msgid ""
+"This is a piece of equippable armor which reduces the amount of damage you "
+"receive."
+msgstr ""
+"Il s'agit d'une pièce d'armure équipable qui réduit la quantité de dégâts "
+"que vous recevez."
+
+#: mods/ITEMS/mcl_armor/init.lua:5
+msgid ""
+"To equip it, put it on the corresponding armor slot in your inventory menu."
+msgstr ""
+"Pour l'équiper, placez-la sur l'emplacement d'armure correspondant dans "
+"votre inventaire."
+
+#: mods/ITEMS/mcl_armor/leather.lua:66
+msgid "Leather Cap"
+msgstr "Chapeau en cuir"
+
+#: mods/ITEMS/mcl_armor/leather.lua:67
+msgid "Leather Tunic"
+msgstr "Tunique en cuir"
+
+#: mods/ITEMS/mcl_armor/leather.lua:68
+msgid "Leather Pants"
+msgstr "Pantalon en cuir"
+
+#: mods/ITEMS/mcl_armor/leather.lua:69
+msgid "Leather Boots"
+msgstr "Bottes en cuir"
+
+#: mods/ITEMS/mcl_armor/leather.lua:153
+msgid "Colorize a piece of leather armor, or wash it"
+msgstr "Colorer une pièce d'armure en cuir ou la laver"
+
+#: mods/ITEMS/mcl_armor/leather.lua:160
+msgid "Not leather armor."
+msgstr "N'est pas une armure en cuir."
+
+#: mods/ITEMS/mcl_armor/leather.lua:164
+msgid "Washed."
+msgstr "Lavée."
+
+#: mods/ITEMS/mcl_armor/leather.lua:169
+msgid "Done: @1"
+msgstr "Résultat : @1"
+
+#: mods/ITEMS/mcl_armor/leather.lua:171
+msgid "Player isn't online"
+msgstr "Le joueur n'est pas en ligne"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:1
+msgid "Bolt Armor Trim"
+msgstr "Ornement des boulons"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:2
+msgid "Coast Armor Trim"
+msgstr "Ornement des littoraux"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:3
+msgid "Dune Armor Trim"
+msgstr "Ornement des dunes"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:4
+msgid "Eye Armor Trim"
+msgstr "Ornement de l'oeil"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:5
+msgid "Flow Armor Trim"
+msgstr "Ornement des tourbillons"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:6
+msgid "Rib Armor Trim"
+msgstr "Ornement des côtes"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:7
+msgid "Sentry Armor Trim"
+msgstr "Ornement des sentinelles"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:8
+msgid "Silence Armor Trim"
+msgstr "Ornement du silence"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:9
+msgid "Snout Armor Trim"
+msgstr "Ornement des groins"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:10
+msgid "Spire Armor Trim"
+msgstr "Ornement des tours"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:11
+msgid "Tide Armor Trim"
+msgstr "Ornement des marées"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:12
+msgid "Vex Armor Trim"
+msgstr "Ornement des Vex"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:13
+msgid "Ward Armor Trim"
+msgstr "Ornement des abîmes"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:14
+msgid "Wayfinder Armor Trim"
+msgstr "Ornement des éclaireurs"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:15
+msgid "Wild Armor Trim"
+msgstr "Ornement des jungles"
+
+#: mods/ITEMS/mcl_armor/register.lua:6
+msgid "Golden Helmet"
+msgstr "Casque en or"
+
+#: mods/ITEMS/mcl_armor/register.lua:7
+msgid "Golden Chestplate"
+msgstr "Plastron en or"
+
+#: mods/ITEMS/mcl_armor/register.lua:8
+msgid "Golden Leggings"
+msgstr "Jambières en or"
+
+#: mods/ITEMS/mcl_armor/register.lua:9
+msgid "Golden Boots"
+msgstr "Bottes en or"
+
+#: mods/ITEMS/mcl_armor/register.lua:29
+msgid "Chainmail Helmet"
+msgstr "Casque de mailles"
+
+#: mods/ITEMS/mcl_armor/register.lua:30
+msgid "Chainmail Chestplate"
+msgstr "Cotte de mailles"
+
+#: mods/ITEMS/mcl_armor/register.lua:31
+msgid "Chainmail Leggings"
+msgstr "Jambières de mailles"
+
+#: mods/ITEMS/mcl_armor/register.lua:32
+msgid "Chainmail Boots"
+msgstr "Bottes de mailles"
+
+#: mods/ITEMS/mcl_armor/register.lua:52
+msgid "Copper Helmet"
+msgstr "Casque en cuivre"
+
+#: mods/ITEMS/mcl_armor/register.lua:53
+msgid "Copper Chestplate"
+msgstr "Plastron en cuivre"
+
+#: mods/ITEMS/mcl_armor/register.lua:54
+msgid "Copper Leggings"
+msgstr "Jambières en cuivre"
+
+#: mods/ITEMS/mcl_armor/register.lua:55
+msgid "Copper Boots"
+msgstr "Bottes en cuivre"
+
+#: mods/ITEMS/mcl_armor/register.lua:75
+msgid "Iron Helmet"
+msgstr "Casque en fer"
+
+#: mods/ITEMS/mcl_armor/register.lua:76
+msgid "Iron Chestplate"
+msgstr "Plastron en fer"
+
+#: mods/ITEMS/mcl_armor/register.lua:77
+msgid "Iron Leggings"
+msgstr "Jambières en fer"
+
+#: mods/ITEMS/mcl_armor/register.lua:78
+msgid "Iron Boots"
+msgstr "Bottes en fer"
+
+#: mods/ITEMS/mcl_armor/register.lua:98
+msgid "Diamond Helmet"
+msgstr "Casque en diamant"
+
+#: mods/ITEMS/mcl_armor/register.lua:99
+msgid "Diamond Chestplate"
+msgstr "Plastron en diamant"
+
+#: mods/ITEMS/mcl_armor/register.lua:100
+msgid "Diamond Leggings"
+msgstr "Jambières en diamant"
+
+#: mods/ITEMS/mcl_armor/register.lua:101
+msgid "Diamond Boots"
+msgstr "Bottes en diamant"
+
+#: mods/ITEMS/mcl_armor/register.lua:122
+msgid "Netherite Helmet"
+msgstr "Casque en Netherite"
+
+#: mods/ITEMS/mcl_armor/register.lua:123
+msgid "Netherite Chestplate"
+msgstr "Plastron en Netherite"
+
+#: mods/ITEMS/mcl_armor/register.lua:124
+msgid "Netherite Leggings"
+msgstr "Jambières en Netherite"
+
+#: mods/ITEMS/mcl_armor/register.lua:125
+msgid "Netherite Boots"
+msgstr "Bottes en Netherite"
+
+#: mods/ITEMS/mcl_armor/register.lua:143
+msgid "Projectile Protection"
+msgstr "Protection contre les projectiles"
+
+#: mods/ITEMS/mcl_armor/register.lua:144
+msgid "Reduces projectile damage."
+msgstr "Réduit les dommages causés par les projectiles."
+
+#: mods/ITEMS/mcl_armor/register.lua:153
+msgid "Blast Protection"
+msgstr "Protection contre les explosions"
+
+#: mods/ITEMS/mcl_armor/register.lua:154
+msgid "Reduces explosion damage and knockback."
+msgstr "Réduit les dégâts d'explosion et de recul."
+
+#: mods/ITEMS/mcl_armor/register.lua:164
+msgid "Fire Protection"
+msgstr "Protection contre le feu"
+
+#: mods/ITEMS/mcl_armor/register.lua:165
+msgid "Reduces fire damage."
+msgstr "Reduit les dégats de feu."
+
+#: mods/ITEMS/mcl_armor/register.lua:174
+msgid "Protection"
+msgstr "Protection"
+
+#: mods/ITEMS/mcl_armor/register.lua:175
+msgid "Reduces most types of damage by 4% for each level."
+msgstr "Réduit la plupart des types de dégâts de 4% pour chaque niveau."
+
+#: mods/ITEMS/mcl_armor/register.lua:183
+msgid "Feather Falling"
+msgstr "Chute amortie"
+
+#: mods/ITEMS/mcl_armor/register.lua:184
+msgid "Reduces fall damage."
+msgstr "Réduit les dégats de chute."
+
+#: mods/ITEMS/mcl_armor/register.lua:211
+msgid "Curse of Binding"
+msgstr "Malédiction du lien éternel"
+
+#: mods/ITEMS/mcl_armor/register.lua:218
+msgid ""
+"Item cannot be removed from armor slots except due to death, breaking or in "
+"Creative Mode."
+msgstr ""
+"L'objet ne peut être retiré des emplacements d'armure sauf en cas de mort, "
+"de casse ou en mode créatif."
+
+#: mods/ITEMS/mcl_armor/register.lua:229
+msgid "Thorns"
+msgstr "Épines"
+
+#: mods/ITEMS/mcl_armor/register.lua:236
+msgid ""
+"Reflects some of the damage taken when hit, at the cost of reducing "
+"durability with each proc."
+msgstr ""
+"Reflète une partie des dégâts subis lors de la frappe, au prix d'une "
+"réduction de la durabilité à chaque déclenchement."
+
+#: mods/ITEMS/mcl_armor/register.lua:249
+msgid "Elytra"
+msgstr "Élytres"
+
+#: mods/ITEMS/mcl_armor/trims.lua:10
+msgid "Smithing Template"
+msgstr "Modèle de forge"
+
+#: mods/ITEMS/mcl_armor/trims.lua:11
+msgid "Applies to:"
+msgstr "S'applique à :"
+
+#: mods/ITEMS/mcl_armor/trims.lua:11
+msgid "Armor"
+msgstr "Armure"
+
+#: mods/ITEMS/mcl_armor/trims.lua:12
+msgid "Ingredients:"
+msgstr "Ingrédients :"
+
+#: mods/ITEMS/mcl_armor/trims.lua:12
+msgid "Ingot & Crystals"
+msgstr "Lingots & Cristaux"
+
+#~ msgid "Aqua Affinity"
+#~ msgstr "Affinité aquatique"
+
+#~ msgid "Increases underwater mining speed."
+#~ msgstr "Augmente la vitesse de minage sous-marine."

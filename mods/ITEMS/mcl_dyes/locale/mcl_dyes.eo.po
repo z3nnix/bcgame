@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_dyes x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_dyes/init.lua:167
+msgid "This item is a dye which is used for dyeing and crafting."
+msgstr "Ĉi tiu portaĵo estas farbo uzata por farbado kaj kunmetado."
+
+#: mods/ITEMS/mcl_dyes/init.lua:168
+msgid ""
+"Rightclick on a sheep to dye its wool. Other things are dyed by crafting."
+msgstr ""
+"Dekstre alklaku ŝafon por farbi ĝian lanon. Aliajn aĵojn farbu per kunmeto."
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:1
+msgid "Black Dye"
+msgstr "Nigra Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:2
+msgid "Blue Dye"
+msgstr "Blua Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:3
+msgid "Brown Dye"
+msgstr "Bruna Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:4
+msgid "Cyan Dye"
+msgstr "Cejana Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:5
+msgid "Green Dye"
+msgstr "Verda Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:6
+msgid "Grey Dye"
+msgstr "Griza Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:7
+msgid "Light Blue Dye"
+msgstr "Helblua Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:8
+msgid "Light Grey Dye"
+msgstr "Helverda Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:9
+msgid "Lime Dye"
+msgstr "Verdcitrona Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:10
+msgid "Magenta Dye"
+msgstr "Fuĥsia Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:11
+msgid "Orange Dye"
+msgstr "Oranĝa Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:12
+msgid "Pink Dye"
+msgstr "Roza Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:13
+msgid "Purple Dye"
+msgstr "Viola Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:14
+msgid "Red Dye"
+msgstr "Ruĝa Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:15
+msgid "White Dye"
+msgstr "Blanka Farbo"
+
+#: mods/ITEMS/mcl_dyes/mcl_dyes_translations_tmp.lua:16
+msgid "Yellow Dye"
+msgstr "Flava Farbo"

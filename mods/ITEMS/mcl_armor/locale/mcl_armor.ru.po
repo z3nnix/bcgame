@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_armor x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-05-07 10:19+0000\n"
+"Last-Translator: Nana M <nana_m@noreply.codeberg.org>\n"
+"Language-Team: Russian <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_armor/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17.1\n"
+
+#: mods/ITEMS/mcl_armor/api.lua:234
+msgid " "
+msgstr " "
+
+#: mods/ITEMS/mcl_armor/api.lua:508
+msgid "Upgrade:"
+msgstr "Обновление:"
+
+#: mods/ITEMS/mcl_armor/init.lua:4
+msgid ""
+"This is a piece of equippable armor which reduces the amount of damage you "
+"receive."
+msgstr "Это часть надеваемой брони, уменьшающая получаемый вами урон."
+
+#: mods/ITEMS/mcl_armor/init.lua:5
+msgid ""
+"To equip it, put it on the corresponding armor slot in your inventory menu."
+msgstr ""
+"Чтобы надеть, поместите в соответствующий слот брони в вашем инвентаря."
+
+#: mods/ITEMS/mcl_armor/leather.lua:66
+msgid "Leather Cap"
+msgstr "Кожаный шлем"
+
+#: mods/ITEMS/mcl_armor/leather.lua:67
+msgid "Leather Tunic"
+msgstr "Кожаная кираса"
+
+#: mods/ITEMS/mcl_armor/leather.lua:68
+msgid "Leather Pants"
+msgstr "Кожаные поножи"
+
+#: mods/ITEMS/mcl_armor/leather.lua:69
+msgid "Leather Boots"
+msgstr "Кожаные ботинки"
+
+#: mods/ITEMS/mcl_armor/leather.lua:153
+msgid "Colorize a piece of leather armor, or wash it"
+msgstr "Раскрасьте кожаную броню или почистите ее"
+
+#: mods/ITEMS/mcl_armor/leather.lua:160
+msgid "Not leather armor."
+msgstr "Не кожаные доспехи."
+
+#: mods/ITEMS/mcl_armor/leather.lua:164
+msgid "Washed."
+msgstr "Вымытый."
+
+#: mods/ITEMS/mcl_armor/leather.lua:169
+msgid "Done: @1"
+msgstr "Выполнено: @1"
+
+#: mods/ITEMS/mcl_armor/leather.lua:171
+msgid "Player isn't online"
+msgstr "Игрок не в сети"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:1
+msgid "Bolt Armor Trim"
+msgstr "Отделка брони «Ось»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:2
+msgid "Coast Armor Trim"
+msgstr "Отделка брони «Берег»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:3
+msgid "Dune Armor Trim"
+msgstr "Отделка брони «Дюна»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:4
+msgid "Eye Armor Trim"
+msgstr "Отделка брони «Око»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:5
+msgid "Flow Armor Trim"
+msgstr "Отделка брони «Поток»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:6
+msgid "Rib Armor Trim"
+msgstr "Отделка брони «Ребро»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:7
+msgid "Sentry Armor Trim"
+msgstr "Отделка брони «Страж»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:8
+msgid "Silence Armor Trim"
+msgstr "Отделка брони «Тишина»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:9
+msgid "Snout Armor Trim"
+msgstr "Отделка брони «Рыло»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:10
+msgid "Spire Armor Trim"
+msgstr "Отделка брони «Шпиль»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:11
+msgid "Tide Armor Trim"
+msgstr "Отделка брони «Прилив»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:12
+msgid "Vex Armor Trim"
+msgstr "Отделка брони «Досаждатель»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:13
+msgid "Ward Armor Trim"
+msgstr "Отделка брони «Хранитель»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:14
+msgid "Wayfinder Armor Trim"
+msgstr "Отделка брони «Искатель»"
+
+#: mods/ITEMS/mcl_armor/mcl_armor_translations_tmp.lua:15
+msgid "Wild Armor Trim"
+msgstr "Отделка брони «Дебри»"
+
+#: mods/ITEMS/mcl_armor/register.lua:6
+msgid "Golden Helmet"
+msgstr "Золотой шлем"
+
+#: mods/ITEMS/mcl_armor/register.lua:7
+msgid "Golden Chestplate"
+msgstr "Золотая кираса"
+
+#: mods/ITEMS/mcl_armor/register.lua:8
+msgid "Golden Leggings"
+msgstr "Золотые поножи"
+
+#: mods/ITEMS/mcl_armor/register.lua:9
+msgid "Golden Boots"
+msgstr "Золотые ботинки"
+
+#: mods/ITEMS/mcl_armor/register.lua:29
+msgid "Chainmail Helmet"
+msgstr "Кольчужный шлем"
+
+#: mods/ITEMS/mcl_armor/register.lua:30
+msgid "Chainmail Chestplate"
+msgstr "Кольчуга"
+
+#: mods/ITEMS/mcl_armor/register.lua:31
+msgid "Chainmail Leggings"
+msgstr "Кольчужные поножи"
+
+#: mods/ITEMS/mcl_armor/register.lua:32
+msgid "Chainmail Boots"
+msgstr "Кольчужные ботинки"
+
+#: mods/ITEMS/mcl_armor/register.lua:52
+msgid "Copper Helmet"
+msgstr "Медный шлем"
+
+#: mods/ITEMS/mcl_armor/register.lua:53
+msgid "Copper Chestplate"
+msgstr "Медная кираса"
+
+#: mods/ITEMS/mcl_armor/register.lua:54
+msgid "Copper Leggings"
+msgstr "Медные поножи"
+
+#: mods/ITEMS/mcl_armor/register.lua:55
+msgid "Copper Boots"
+msgstr "Медные ботинки"
+
+#: mods/ITEMS/mcl_armor/register.lua:75
+msgid "Iron Helmet"
+msgstr "Железный шлем"
+
+#: mods/ITEMS/mcl_armor/register.lua:76
+msgid "Iron Chestplate"
+msgstr "Железная кираса"
+
+#: mods/ITEMS/mcl_armor/register.lua:77
+msgid "Iron Leggings"
+msgstr "Железные поножи"
+
+#: mods/ITEMS/mcl_armor/register.lua:78
+msgid "Iron Boots"
+msgstr "Железные ботинки"
+
+#: mods/ITEMS/mcl_armor/register.lua:98
+msgid "Diamond Helmet"
+msgstr "Алмазный шлем"
+
+#: mods/ITEMS/mcl_armor/register.lua:99
+msgid "Diamond Chestplate"
+msgstr "Алмазная кираса"
+
+#: mods/ITEMS/mcl_armor/register.lua:100
+msgid "Diamond Leggings"
+msgstr "Алмазные поножи"
+
+#: mods/ITEMS/mcl_armor/register.lua:101
+msgid "Diamond Boots"
+msgstr "Алмазные ботинки"
+
+#: mods/ITEMS/mcl_armor/register.lua:122
+msgid "Netherite Helmet"
+msgstr "Незеритовый шлем"
+
+#: mods/ITEMS/mcl_armor/register.lua:123
+msgid "Netherite Chestplate"
+msgstr "Незеритовая кираса"
+
+#: mods/ITEMS/mcl_armor/register.lua:124
+msgid "Netherite Leggings"
+msgstr "Незеритовые поножи"
+
+#: mods/ITEMS/mcl_armor/register.lua:125
+msgid "Netherite Boots"
+msgstr "Незеритовые ботинки"
+
+#: mods/ITEMS/mcl_armor/register.lua:143
+msgid "Projectile Protection"
+msgstr "Защита от снарядов"
+
+#: mods/ITEMS/mcl_armor/register.lua:144
+msgid "Reduces projectile damage."
+msgstr "Уменьшает урон от летящих снарядов."
+
+#: mods/ITEMS/mcl_armor/register.lua:153
+msgid "Blast Protection"
+msgstr "Взрывоустойчивость"
+
+#: mods/ITEMS/mcl_armor/register.lua:154
+msgid "Reduces explosion damage and knockback."
+msgstr "Уменьшает урон и отбрасывание от взрывов."
+
+#: mods/ITEMS/mcl_armor/register.lua:164
+msgid "Fire Protection"
+msgstr "Огнеупорность"
+
+#: mods/ITEMS/mcl_armor/register.lua:165
+msgid "Reduces fire damage."
+msgstr "Уменьшает урон от огня."
+
+#: mods/ITEMS/mcl_armor/register.lua:174
+msgid "Protection"
+msgstr "Защита"
+
+#: mods/ITEMS/mcl_armor/register.lua:175
+msgid "Reduces most types of damage by 4% for each level."
+msgstr "Уменьшает большинство типов урона на 4% за каждый уровень."
+
+#: mods/ITEMS/mcl_armor/register.lua:183
+msgid "Feather Falling"
+msgstr "Невесомость"
+
+#: mods/ITEMS/mcl_armor/register.lua:184
+msgid "Reduces fall damage."
+msgstr "Уменьшает урон от падения."
+
+#: mods/ITEMS/mcl_armor/register.lua:211
+msgid "Curse of Binding"
+msgstr "Проклятие несъёмности"
+
+#: mods/ITEMS/mcl_armor/register.lua:218
+msgid ""
+"Item cannot be removed from armor slots except due to death, breaking or in "
+"Creative Mode."
+msgstr ""
+"Броню нельзя снять из слота, кроме как умерев, сломав или в режиме "
+"творчества."
+
+#: mods/ITEMS/mcl_armor/register.lua:229
+msgid "Thorns"
+msgstr "Шипы"
+
+#: mods/ITEMS/mcl_armor/register.lua:236
+msgid ""
+"Reflects some of the damage taken when hit, at the cost of reducing "
+"durability with each proc."
+msgstr ""
+"Отражает немного полученного урона при ударе ценой снижения прочности при "
+"срабатывании."
+
+#: mods/ITEMS/mcl_armor/register.lua:249
+msgid "Elytra"
+msgstr "Элитра"
+
+#: mods/ITEMS/mcl_armor/trims.lua:10
+msgid "Smithing Template"
+msgstr "Кузнечный шаблон"
+
+#: mods/ITEMS/mcl_armor/trims.lua:11
+msgid "Applies to:"
+msgstr "Применяется для:"
+
+#: mods/ITEMS/mcl_armor/trims.lua:11
+msgid "Armor"
+msgstr "Защита"
+
+#: mods/ITEMS/mcl_armor/trims.lua:12
+msgid "Ingredients:"
+msgstr "Ингредиенты:"
+
+#: mods/ITEMS/mcl_armor/trims.lua:12
+msgid "Ingot & Crystals"
+msgstr "Слитки и кристаллы"
+
+#~ msgid "Aqua Affinity"
+#~ msgstr "Подводник"
+
+#~ msgid "Increases underwater mining speed."
+#~ msgstr "Увеличивает скорость добычи под водой."

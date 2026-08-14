@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_amethyst x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:10
+msgid "Block of Amethyst"
+msgstr "Bloco de Ametista"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:11
+msgid ""
+"The Block of Amethyst is a decoration block crafted from amethyst shards."
+msgstr ""
+"O bloco de Ametista é um bloco decorativo produzido a partir de fragmentos "
+"de ametista."
+
+#: mods/ITEMS/mcl_amethyst/init.lua:19
+msgid "Budding Amethyst"
+msgstr "Ametista Brotando"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:20
+msgid "The Budding Amethyst can grow amethyst"
+msgstr "A ametista brotando pode crescer ametista"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:34
+msgid "Amethyst Shard"
+msgstr "Fragmento de Ametista"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:35
+msgid "An amethyst shard is a crystalline mineral."
+msgstr "Um fragmento de ametista é um mineral cristalino."
+
+#: mods/ITEMS/mcl_amethyst/init.lua:39
+msgid "Amethyst Material"
+msgstr "Material de Ametista"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:45
+msgid "Calcite"
+msgstr "Calcita"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:46
+msgid "Calcite can be found as part of amethyst geodes."
+msgstr "Calcita pode ser encontrada como parte dos geodos de ametista."
+
+#: mods/ITEMS/mcl_amethyst/init.lua:55
+msgid "Tinted Glass"
+msgstr "Vidro Tingido"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:56
+msgid ""
+"Tinted Glass is a type of glass which blocks lights while it is visually "
+"transparent."
+msgstr ""
+"Vidro tingido é um tipo de vidro que bloqueia luzes enquanto é visualmente "
+"transparente."
+
+#: mods/ITEMS/mcl_amethyst/init.lua:70
+msgid "Small Amethyst Bud"
+msgstr "Broto de Ametista Pequeno"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:71
+msgid "Small Amethyst Bud is the first growth of amethyst bud."
+msgstr ""
+"Broto de Ametista Pequeno é a primeira etapa de crescimento do broto de "
+"ametista."
+
+#: mods/ITEMS/mcl_amethyst/init.lua:80
+msgid "Medium Amethyst Bud"
+msgstr "Broto de Ametista Médio"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:81
+msgid "Medium Amethyst Bud is the second growth of amethyst bud."
+msgstr ""
+"Broto de Ametista Médio é a segunda etapa de crescimento do broto de "
+"ametista."
+
+#: mods/ITEMS/mcl_amethyst/init.lua:90
+msgid "Large Amethyst Bud"
+msgstr "Broto de Ametista Grande"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:91
+msgid "Large Amethyst Bud is the third growth of amethyst bud."
+msgstr ""
+"Broto de Ametista Grande é a terceira etapa de crescimento do broto de "
+"ametista."
+
+#: mods/ITEMS/mcl_amethyst/init.lua:127
+msgid "Amethyst Cluster"
+msgstr "Aglomerado de Ametista"
+
+#: mods/ITEMS/mcl_amethyst/init.lua:129
+msgid "Amethyst Cluster is the final growth of amethyst bud."
+msgstr ""
+"O aglomerado de ametista é o final do crescimento do broto de ametista."

@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_beds x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_beds/api.lua:104
+msgid "Beds allow you to sleep at night and make the time pass faster."
+msgstr ""
+"Les lits vous permettent de dormir la nuit et de faire passer le temps plus "
+"rapidement."
+
+#: mods/ITEMS/mcl_beds/api.lua:105
+msgid ""
+"To use a bed, stand close to it and right-click the bed to sleep in it. "
+"Sleeping only works when the sun sets, at night or during a thunderstorm. "
+"The bed must also be clear of any danger."
+msgstr ""
+"Pour utiliser un lit, tenez-vous près de lui et faites un clic droit dessus "
+"pour y dormir. Dormir ne fonctionne qu'au couché du soleil, durant la nuit "
+"ou pendant un orage. Le lit doit également être à l'abri de tout danger."
+
+#: mods/ITEMS/mcl_beds/api.lua:107
+msgid ""
+"You have heard of other worlds in which a bed would set the start point for "
+"your next life. But this world is not one of them."
+msgstr ""
+"Vous avez entendu parler d'autres mondes dans lesquels un lit serait le "
+"point de départ de votre prochaine vie. Mais ce monde n'en fait pas partie."
+
+#: mods/ITEMS/mcl_beds/api.lua:109
+msgid ""
+"By using a bed, you set the starting point for your next life. If you die, "
+"you will start your next life at this bed, unless it is obstructed or "
+"destroyed."
+msgstr ""
+"En utilisant un lit, vous définissez le point de départ de votre prochaine "
+"vie. Si vous mourez, vous commencerez votre prochaine vie dans ce lit, à "
+"moins qu'il ne soit obstrué ou détruit."
+
+#: mods/ITEMS/mcl_beds/api.lua:112
+msgid ""
+"In this world, going to bed won't skip the night, but it will skip "
+"thunderstorms."
+msgstr ""
+"Dans ce monde, aller au lit ne sautera pas la nuit, mais cela évitera les "
+"orages."
+
+#: mods/ITEMS/mcl_beds/api.lua:114
+msgid ""
+"Sleeping allows you to skip the night. The night is skipped when all players "
+"in this world went to sleep. The night is skipped after sleeping for a few "
+"seconds. Thunderstorms can be skipped in the same manner."
+msgstr ""
+"Dormir vous permet de passer la nuit. La nuit est passée lorsque tous les "
+"joueurs de ce monde se sont endormis. La nuit est passée après avoir dormi "
+"quelques secondes. Les orages peuvent être évités de la même manière."
+
+#: mods/ITEMS/mcl_beds/api.lua:129
+msgid "Allows you to sleep"
+msgstr "Vous permet de dormir"
+
+#: mods/ITEMS/mcl_beds/beds.lua:21
+msgid "Bed"
+msgstr "Lit"
+
+#: mods/ITEMS/mcl_beds/functions.lua:85
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:27
+msgid "New respawn position set!"
+msgstr "Nouvelle position de réapparition définie !"
+
+#: mods/ITEMS/mcl_beds/functions.lua:90
+msgid "You can only sleep at night or during a thunderstorm."
+msgstr "Vous ne pouvez dormir que la nuit ou pendant un orage."
+
+#: mods/ITEMS/mcl_beds/functions.lua:95
+msgid "You can't sleep, the bed's too far away!"
+msgstr "Vous ne pouvez pas dormir, le lit est trop loin !"
+
+#: mods/ITEMS/mcl_beds/functions.lua:100
+msgid "This bed is already occupied!"
+msgstr "Ce lit est déjà occupé !"
+
+#: mods/ITEMS/mcl_beds/functions.lua:113
+msgid "You can't sleep now, monsters are nearby!"
+msgstr "Vous ne pouvez pas dormir maintenant, des monstres sont à proximité !"
+
+#: mods/ITEMS/mcl_beds/functions.lua:158
+msgid "You can't sleep, the bed is obstructed!"
+msgstr "Vous ne pouvez pas dormir, le lit est obstrué !"
+
+#: mods/ITEMS/mcl_beds/functions.lua:160
+msgid "It's too dangerous to sleep here!"
+msgstr "C'est trop dangereux de dormir ici !"
+
+#: mods/ITEMS/mcl_beds/functions.lua:213
+msgid "Leave bed"
+msgstr "Quitter le lit"
+
+#: mods/ITEMS/mcl_beds/functions.lua:214
+msgid "Abort sleep"
+msgstr "Sortir du sommeil"
+
+#: mods/ITEMS/mcl_beds/functions.lua:217
+msgid "Chat:"
+msgstr "Chat :"
+
+#: mods/ITEMS/mcl_beds/functions.lua:218
+msgid "send!"
+msgstr "Envoyer !"
+
+#: mods/ITEMS/mcl_beds/functions.lua:229
+msgid "Players in bed: @1/@2"
+msgstr "Joueurs au lit : @1/@2"
+
+#: mods/ITEMS/mcl_beds/functions.lua:231 mods/ITEMS/mcl_beds/functions.lua:258
+msgid "Note: Night skip is disabled."
+msgstr "Remarque : Le saut de nuit est désactivé."
+
+#: mods/ITEMS/mcl_beds/functions.lua:235 mods/ITEMS/mcl_beds/functions.lua:254
+msgid "You're sleeping."
+msgstr "Vous dormez."
+
+#: mods/ITEMS/mcl_beds/functions.lua:241
+msgid "You will fall asleep when all players are in bed."
+msgstr "Vous vous endormirez lorsque tous les joueurs seront au lit."
+
+#: mods/ITEMS/mcl_beds/functions.lua:243
+msgid "You will fall asleep when @1% of all players are in bed."
+msgstr "Vous vous endormirez lorsque @1% de tous les joueurs seront au lit."
+
+#: mods/ITEMS/mcl_beds/functions.lua:258
+msgid "You're in bed."
+msgstr "Vous êtes au lit."
+
+#: mods/ITEMS/mcl_beds/functions.lua:379
+msgid "@1/@2 players currently in bed."
+msgstr "@1/@2 joueurs actuellement couchés."
+
+#: mods/ITEMS/mcl_beds/functions.lua:452
+msgid "You exceeded the maximum number of messages per 10 seconds!"
+msgstr "Vous avez dépassé le nombre maximum de messages par 10 secondes !"
+
+#: mods/ITEMS/mcl_beds/functions.lua:461
+msgid ""
+"You are missing the 'shout' privilege! It's required in order to talk in "
+"chat..."
+msgstr ""
+"Il vous manque le privilège « shout » ! Il est nécessaire pour parler dans "
+"le chat..."
+
+#: mods/ITEMS/mcl_beds/functions.lua:480
+msgid ""
+"Sorry, but you have to wait @1 seconds until you may use this button again!"
+msgstr ""
+"Désolé, mais vous devez attendre @1 secondes avant de pouvoir utiliser à "
+"nouveau ce bouton !"
+
+#: mods/ITEMS/mcl_beds/functions.lua:486
+msgid "Hey! Would you guys mind sleeping?"
+msgstr "Hé ! Ça vous dérangerait de dormir ?"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:1
+msgid "Black Bed"
+msgstr "Lit noir"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:2
+msgid "Blue Bed"
+msgstr "Lit bleu"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:3
+msgid "Brown Bed"
+msgstr "Lit marron"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:4
+msgid "Cyan Bed"
+msgstr "Lit cyan"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:5
+msgid "Green Bed"
+msgstr "Lit vert"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:6
+msgid "Grey Bed"
+msgstr "Lit gris"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:7
+msgid "Light Blue Bed"
+msgstr "Lit bleu clair"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:8
+msgid "Light Grey Bed"
+msgstr "Lit gris clair"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:9
+msgid "Lime Bed"
+msgstr "Lit vert clair"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:10
+msgid "Magenta Bed"
+msgstr "Lit magenta"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:11
+msgid "Orange Bed"
+msgstr "Lit orange"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:12
+msgid "Pink Bed"
+msgstr "Lit rose"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:13
+msgid "Purple Bed"
+msgstr "Lit violet"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:14
+msgid "Red Bed"
+msgstr "Lit rouge"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:15
+msgid "White Bed"
+msgstr "Lit blanc"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:16
+msgid "Yellow Bed"
+msgstr "Lit jaune"
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:38
+msgid "Respawn Anchor"
+msgstr "Ancre de réapparition"
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:48
+msgid ""
+"The respawn anchor is a block that allows the player to set their spawn "
+"point in the Nether. It will only work if fueled using glowstone blocks."
+msgstr ""
+"L'ancre de réapparition est un bloc qui permet au joueur de définir son "
+"point d'apparition dans le Nether. Il ne fonctionnera que s'il est alimenté "
+"à l'aide de pierres lumineuses."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:49
+msgid "Use a glowstone block to add a charge."
+msgstr "Utilisez une pierre lumineuse pour ajouter une charge."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:50
+msgid ""
+"Respawn anchors can be charged up to four times. Rightclick on a charged "
+"anchor to set a new spawn point."
+msgstr ""
+"L'ancre de réapparition peut être chargée jusqu'à quatre fois. Faites clic "
+"droit sur une ancre chargée pour définir un nouveau point d'apparition."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:51
+msgid ""
+"A respawn anchor only works in the Nether. Attempting to use a charged "
+"anchor to set a new spawn point outside the Nether will cause it to explode."
+msgstr ""
+"Une ancre de réapparition fonctionne uniquement dans le Nether. Tenter "
+"d'utiliser une ancre chargée pour définir un nouveau point d'apparition "
+"ailleurs que dans le Nether la fera exploser."

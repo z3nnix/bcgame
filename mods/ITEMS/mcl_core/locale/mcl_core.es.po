@@ -1,0 +1,1951 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_core x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: 2026-05-30 21:07+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_core-1/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:4
+msgid "Stick"
+msgstr "Palo"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:5
+msgid ""
+"Sticks are a very versatile crafting material; used in countless crafting "
+"recipes."
+msgstr ""
+"Los palitos son un material muy versátil para las manualidades; se utilizan "
+"en innumerables proyectos de manualidades."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:14
+msgid "Paper"
+msgstr "Papel"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:15
+msgid "Paper is used to craft books and maps."
+msgstr "El papel se usa para fabricar libros y mapas."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:21
+msgid "Coal"
+msgstr "Carbón"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:22
+msgid ""
+"“Coal” refers to coal lumps obtained by digging coal ore which can be found "
+"underground. Coal is your standard furnace fuel, but it can also be used to "
+"make torches, coal blocks and a few other things."
+msgstr ""
+"\"Carbón\" se refiere a trozos de carbón obtenidos al excavar mineral de "
+"carbón que se puede encontrar bajo tierra. El carbón es el combustible "
+"estándar de su horno, pero también se puede usar para hacer antorchas, "
+"bloques de carbón y algunas otras cosas."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:31
+msgid "Charcoal"
+msgstr "Carbón vegetal"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:32
+msgid ""
+"Charcoal is an alternative furnace fuel created by cooking wood in a "
+"furnace. It has the same burning time as coal and also shares many of its "
+"crafting recipes, but it can not be used to create coal blocks."
+msgstr ""
+"El carbón vegetal es un combustible alternativo para hornos creado al "
+"cocinar leña en un horno. Tiene el mismo tiempo de combustión que el carbón "
+"y también comparte muchas de sus recetas de fabricación, pero no se puede "
+"usar para crear bloques de carbón."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:40
+msgid "Iron Nugget"
+msgstr "Pepita de hierro"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:41
+msgid ""
+"Iron nuggets are very small pieces of molten iron; the main purpose is to "
+"create iron ingots."
+msgstr ""
+"Las pepitas de hierro son piezas muy pequeñas de hierro fundido; El objetivo "
+"principal es crear lingotes de hierro."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:48
+msgid "Gold Nugget"
+msgstr "Pepita de oro"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:49
+msgid ""
+"Gold nuggets are very small pieces of molten gold; the main purpose is to "
+"create gold ingots."
+msgstr ""
+"Las pepitas de oro son piezas muy pequeñas de oro fundido; El objetivo "
+"principal es crear lingotes de oro."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:56
+msgid "Diamond"
+msgstr "Diamante"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:57
+msgid ""
+"Diamonds are precious minerals and useful to create the highest tier of "
+"armor and tools."
+msgstr ""
+"Los diamantes son minerales preciosos y útiles para crear el nivel más alto "
+"de armadura y herramientas."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:61
+msgid "Diamond Material"
+msgstr "Material de diamante"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:66
+msgid "Clay Ball"
+msgstr "Bola de arcilla"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:67
+msgid ""
+"Clay balls are a raw material, mainly used to create bricks in the furnace."
+msgstr ""
+"Las bolas de arcilla son una materia prima, utilizada principalmente para "
+"crear ladrillos en el horno."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:76
+msgid "Iron Ingot"
+msgstr "Lingote de hierro"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:77
+msgid "Molten iron. It is used to craft armor, tools, and whatnot."
+msgstr ""
+"Hierro fundido. Se utiliza para fabricar armaduras, herramientas y otras "
+"cosas."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:81
+msgid "Iron Material"
+msgstr "Material de hierro"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:89
+msgid "Gold Ingot"
+msgstr "Lingote de oro"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:90
+msgid "Molten gold. It is used to craft armor, tools, and whatnot."
+msgstr ""
+"Oro fundido Se utiliza para fabricar armaduras, herramientas y otras cosas."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:94
+msgid "Gold Material"
+msgstr "Material de oro"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:102
+msgid "Emerald"
+msgstr "Esmeralda"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:103
+msgid "Emeralds are used in villager trades as currency."
+msgstr "Las esmeraldas se utilizan en el comercio de los aldeanos como moneda."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:107
+msgid "Emerald Material"
+msgstr "Material de esmeralda"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:112
+msgid "Lapis Lazuli"
+msgstr "Lapislázuli"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:113
+msgid "Lapis Lazuli are required for enchanting items on an enchanting table."
+msgstr ""
+"Los lapislázuli son necesarios para encantar ítems en una mesa de "
+"encantamiento."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:117
+msgid "Lapis Material"
+msgstr "Material de lapislázuli"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:125
+msgid "Brick"
+msgstr "Ladrillo"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:126
+msgid "Bricks are used to craft brick blocks."
+msgstr "Los ladrillos se utilizan para fabricar bloques de ladrillos."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:133
+msgid "Flint"
+msgstr "Pedernal"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:134
+msgid "Flint is a raw material."
+msgstr "El pedernal es una materia prima."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:140
+msgid "Sugar"
+msgstr "Azúcar"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:141
+msgid "Sugar comes from sugar canes and is used to make sweet foods."
+msgstr ""
+"El azúcar proviene de las cañas de azúcar y se usa para hacer alimentos "
+"dulces."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:147
+msgid "Bowl"
+msgstr "Cuenco"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:148
+msgid "Bowls are mainly used to hold tasty soups."
+msgstr "Los cuencos se usan principalmente para contener sabrosas sopas."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:155
+msgid "Apple"
+msgstr "Manzana"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:156
+msgid "Apples are food items which can be eaten."
+msgstr "Las manzanas se pueden comer."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:165
+msgid "Golden Apple"
+msgstr "Manzana dorada"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:166
+#: mods/ITEMS/mcl_core/craftitems.lua:183
+msgid "Golden apples are precious food items which can be eaten."
+msgstr "Las manzanas doradas son alimentos preciosos que se pueden comer."
+
+#: mods/ITEMS/mcl_core/craftitems.lua:182
+msgid "Enchanted Golden Apple"
+msgstr "Manzana dorada encantada"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:1
+msgid "Acacia Bark"
+msgstr "Corteza de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:2
+msgid "Acacia Bark Slab"
+msgstr "Losa de corteza de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:3
+msgid "Acacia Bark Stairs"
+msgstr "Escaleras de corteza de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:4
+msgid "Acacia Boat"
+msgstr "Barca de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:5
+msgid "Acacia Button"
+msgstr "Botón de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:6
+msgid "Acacia Chest Boat"
+msgstr "Barca de acacia con cofre"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:7
+msgid "Acacia Door"
+msgstr "Puerta de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:8
+msgid "Acacia Fence"
+msgstr "Valla de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:9
+msgid "Acacia Fence Gate"
+msgstr "Puerta de valla de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:10
+msgid "Acacia Hanging Sign"
+msgstr "Letrero colgante de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:11
+msgid "Acacia Leaves"
+msgstr "Hojas de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:12
+msgid "Acacia Log"
+msgstr "Tronco de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:13
+msgid "Acacia Planks"
+msgstr "Tablones de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:14
+msgid "Acacia Pressure Plate"
+msgstr "Placa de presión de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:15
+msgid "Acacia Sapling"
+msgstr "Brote de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:16
+msgid "Acacia Sign"
+msgstr "Cartel de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:17
+msgid "Acacia Slab"
+msgstr "Losa de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:18
+msgid "Acacia Stairs"
+msgstr "Escaleras de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:19
+msgid "Acacia Trapdoor"
+msgstr "Trampilla de acacia"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:20
+msgid "Acacia leaves are grown from Acacia trees."
+msgstr "Las hojas de Acacia crecen en los árboles de Acacia."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:21
+msgid "Birch Bark"
+msgstr "Corteza de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:22
+msgid "Birch Bark Slab"
+msgstr "Losa de corteza de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:23
+msgid "Birch Bark Stairs"
+msgstr "Escaleras de corteza de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:24
+msgid "Birch Boat"
+msgstr "Barca de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:25
+msgid "Birch Button"
+msgstr "Botón de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:26
+msgid "Birch Chest Boat"
+msgstr "Barca de abedul con cofre"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:27
+msgid "Birch Door"
+msgstr "Puerta de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:28
+msgid "Birch Fence"
+msgstr "Valla de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:29
+msgid "Birch Fence Gate"
+msgstr "Puerta de valla de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:30
+msgid "Birch Hanging Sign"
+msgstr "Letrero colgante de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:31
+msgid "Birch Leaves"
+msgstr "Hojas de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:32
+msgid "Birch Log"
+msgstr "Tronco de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:33
+msgid "Birch Planks"
+msgstr "Tablones de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:34
+msgid "Birch Pressure Plate"
+msgstr "Placa de presión de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:35
+msgid "Birch Sapling"
+msgstr "Brote de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:36
+msgid "Birch Sign"
+msgstr "Cartel de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:37
+msgid "Birch Slab"
+msgstr "Losa de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:38
+msgid "Birch Stairs"
+msgstr "Escaleras de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:39
+msgid "Birch Trapdoor"
+msgstr "Trampilla de abedul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:40
+msgid "Birch leaves are grown from Birch trees."
+msgstr "Las hojas de Abedul crecen en los árboles de Abedul."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:41
+msgid "Black Stained Glass"
+msgstr "Cristal tintado de negro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:42
+msgid "Blue Stained Glass"
+msgstr "Cristal tintado de azul"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:43
+msgid "Brown Stained Glass"
+msgstr "Cristal tintado de marrón"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:44
+msgid "Cyan Stained Glass"
+msgstr "Cristal tintado de cian"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:45
+msgid "Dark Oak Bark"
+msgstr "Corteza de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:46
+msgid "Dark Oak Bark Slab"
+msgstr "Losa de corteza de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:47
+msgid "Dark Oak Bark Stairs"
+msgstr "Escaleras de corteza de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:48
+msgid "Dark Oak Boat"
+msgstr "Barca de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:49
+msgid "Dark Oak Button"
+msgstr "Botón de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:50
+msgid "Dark Oak Chest Boat"
+msgstr "Barca de roble oscuro con cofre"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:51
+msgid "Dark Oak Door"
+msgstr "Puerta de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:52
+msgid "Dark Oak Fence"
+msgstr "Valla de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:53
+msgid "Dark Oak Fence Gate"
+msgstr "Puerta de valla de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:54
+msgid "Dark Oak Hanging Sign"
+msgstr "Letrero colgante de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:55
+msgid "Dark Oak Leaves"
+msgstr "Hojas de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:56
+msgid "Dark Oak Log"
+msgstr "Tronco de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:57
+msgid "Dark Oak Planks"
+msgstr "Tablones de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:58
+msgid "Dark Oak Pressure Plate"
+msgstr "Placa de presión de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:59
+msgid "Dark Oak Sapling"
+msgstr "Brote de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:60
+msgid "Dark Oak Sign"
+msgstr "Cartel de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:61
+msgid "Dark Oak Slab"
+msgstr "Losa de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:62
+msgid "Dark Oak Stairs"
+msgstr "Escaleras de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:63
+msgid "Dark Oak Trapdoor"
+msgstr "Trampilla de roble oscuro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:64
+msgid "Dark Oak leaves are grown from Dark Oak trees."
+msgstr "Las hojas de Roble Oscuro crecen en los árboles de Roble Oscuro."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:65
+msgid "Green Stained Glass"
+msgstr "Cristal tintado de verde"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:66
+msgid "Grey Stained Glass"
+msgstr "Cristal tintado de gris"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:67
+msgid "Jungle Bark"
+msgstr "Corteza de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:68
+msgid "Jungle Bark Slab"
+msgstr "Losa de corteza de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:69
+msgid "Jungle Bark Stairs"
+msgstr "Escaleras de corteza de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:70
+msgid "Jungle Boat"
+msgstr "Barca de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:71
+msgid "Jungle Button"
+msgstr "Botón de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:72
+msgid "Jungle Chest Boat"
+msgstr "Barca de jungla con cofre"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:73
+msgid "Jungle Door"
+msgstr "Puerta de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:74
+msgid "Jungle Fence"
+msgstr "Valla de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:75
+msgid "Jungle Fence Gate"
+msgstr "Puerta de valla de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:76
+msgid "Jungle Hanging Sign"
+msgstr "Letrero colgante de la jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:77
+msgid "Jungle Leaves"
+msgstr "Hojas de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:78
+msgid "Jungle Log"
+msgstr "Tronco de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:79
+msgid "Jungle Planks"
+msgstr "Tablones de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:80
+msgid "Jungle Pressure Plate"
+msgstr "Placa de presión de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:81
+msgid "Jungle Sapling"
+msgstr "Brote de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:82
+msgid "Jungle Sign"
+msgstr "Cartel de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:83
+msgid "Jungle Slab"
+msgstr "Losa de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:84
+msgid "Jungle Stairs"
+msgstr "Escaleras de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:85
+msgid "Jungle Trapdoor"
+msgstr "Trampilla de jungla"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:86
+msgid "Jungle leaves are grown from Jungle trees."
+msgstr "Las hojas de Jungla crecen en los árboles de Jungla."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:87
+msgid "Light Blue Stained Glass"
+msgstr "Cristal tintado de azul claro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:88
+msgid "Light Grey Stained Glass"
+msgstr "Cristal tintado de gris claro"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:89
+msgid "Lime Stained Glass"
+msgstr "Cristal tintado de verde lima"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:90
+msgid "Magenta Stained Glass"
+msgstr "Cristal tintado de magenta"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:91
+msgid "Oak Bark"
+msgstr "Corteza de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:92
+msgid "Oak Bark Slab"
+msgstr "Losa de corteza de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:93
+msgid "Oak Bark Stairs"
+msgstr "Escaleras de corteza de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:94
+msgid "Oak Boat"
+msgstr "Barca de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:95
+msgid "Oak Button"
+msgstr "Botón de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:96
+msgid "Oak Chest Boat"
+msgstr "Barca de roble con cofre"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:97
+msgid "Oak Door"
+msgstr "Puerta de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:98
+msgid "Oak Fence"
+msgstr "Valla de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:99
+msgid "Oak Fence Gate"
+msgstr "Puerta de valla de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:100
+msgid "Oak Hanging Sign"
+msgstr "Letrero colgante de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:101
+msgid "Oak Leaves"
+msgstr "Hojas de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:102
+msgid "Oak Log"
+msgstr "Tronco de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:103
+msgid "Oak Planks"
+msgstr "Tablones de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:104
+msgid "Oak Pressure Plate"
+msgstr "Placa de presión de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:105
+msgid "Oak Sapling"
+msgstr "Brote de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:106
+msgid "Oak Sign"
+msgstr "Cartel de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:107
+msgid "Oak Slab"
+msgstr "Losa de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:108
+msgid "Oak Stairs"
+msgstr "Escaleras de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:109
+msgid "Oak Trapdoor"
+msgstr "Trampilla de roble"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:110
+msgid "Oak leaves are grown from Oak trees."
+msgstr "Las hojas de Roble crecen en los árboles de Roble."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:111
+msgid "Orange Stained Glass"
+msgstr "Cristal tintado de naranja"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:112
+msgid "Pink Stained Glass"
+msgstr "Cristal tintado de rosa"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:113
+msgid "Purple Stained Glass"
+msgstr "Cristal tintado de morado"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:114
+msgid "Red Stained Glass"
+msgstr "Cristal tintado de rojo"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:115
+msgid "Spruce Bark"
+msgstr "Corteza de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:116
+msgid "Spruce Bark Slab"
+msgstr "Losa de corteza de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:117
+msgid "Spruce Bark Stairs"
+msgstr "Escaleras de corteza de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:118
+msgid "Spruce Boat"
+msgstr "Barca de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:119
+msgid "Spruce Button"
+msgstr "Botón de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:120
+msgid "Spruce Chest Boat"
+msgstr "Barca de abeto con cofre"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:121
+msgid "Spruce Door"
+msgstr "Puerta de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:122
+msgid "Spruce Fence"
+msgstr "Valla de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:123
+msgid "Spruce Fence Gate"
+msgstr "Puerta de valla de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:124
+msgid "Spruce Hanging Sign"
+msgstr "Letrero colgante de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:125
+msgid "Spruce Leaves"
+msgstr "Hojas de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:126
+msgid "Spruce Log"
+msgstr "Tronco de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:127
+msgid "Spruce Planks"
+msgstr "Tablones de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:128
+msgid "Spruce Pressure Plate"
+msgstr "Placa de presión de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:129
+msgid "Spruce Sapling"
+msgstr "Brote de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:130
+msgid "Spruce Sign"
+msgstr "Cartel de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:131
+msgid "Spruce Slab"
+msgstr "Losa de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:132
+msgid "Spruce Stairs"
+msgstr "Escaleras de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:133
+msgid "Spruce Trapdoor"
+msgstr "Trampilla de abeto"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:134
+msgid "Spruce leaves are grown from Spruce trees."
+msgstr "Las hojas de Abeto crecen en los árboles de Abeto."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:135
+msgid "Stripped Acacia Bark"
+msgstr "Leño de acacia sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:136
+msgid "Stripped Acacia Log"
+msgstr "Tronco de acacia sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:137
+msgid "Stripped Birch Bark"
+msgstr "Leño de abedul sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:138
+msgid "Stripped Birch Log"
+msgstr "Tronco de abedul sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:139
+msgid "Stripped Dark Oak Bark"
+msgstr "Leño de roble oscuro sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:140
+msgid "Stripped Dark Oak Log"
+msgstr "Tronco de roble oscuro sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:141
+msgid "Stripped Jungle Bark"
+msgstr "Leño de jungla sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:142
+msgid "Stripped Jungle Log"
+msgstr "Tronco de jungla sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:143
+msgid "Stripped Oak Bark"
+msgstr "Leño de roble sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:144
+msgid "Stripped Oak Log"
+msgstr "Tronco de roble sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:145
+msgid "Stripped Spruce Bark"
+msgstr "Leño de abeto sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:146
+msgid "Stripped Spruce Log"
+msgstr "Tronco de abeto sin corteza"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:147
+msgid "The stripped trunk of an Acacia tree."
+msgstr "El tronco sin corteza de un árbol de Acacia."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:148
+msgid "The stripped trunk of an Birch tree."
+msgstr "El tronco sin corteza de un árbol de Abedul."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:149
+msgid "The stripped trunk of an Dark Oak tree."
+msgstr "El tronco sin corteza de un árbol de Roble Oscuro."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:150
+msgid "The stripped trunk of an Jungle tree."
+msgstr "El tronco sin corteza de un árbol de Jungla."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:151
+msgid "The stripped trunk of an Oak tree."
+msgstr "El tronco sin corteza de un árbol de Roble."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:152
+msgid "The stripped trunk of an Spruce tree."
+msgstr "El tronco sin corteza de un árbol de Abeto."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:153
+msgid "The stripped wood of an Acacia tree."
+msgstr "La madera sin corteza de un árbol de Acacia."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:154
+msgid "The stripped wood of an Birch tree."
+msgstr "La madera sin corteza de un árbol de Abedul."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:155
+msgid "The stripped wood of an Dark Oak tree."
+msgstr "La madera sin corteza de un árbol de Roble Oscuro."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:156
+msgid "The stripped wood of an Jungle tree."
+msgstr "La madera sin corteza de un árbol de Jungla."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:157
+msgid "The stripped wood of an Oak tree."
+msgstr "La madera sin corteza de un árbol de Roble."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:158
+msgid "The stripped wood of an Spruce tree."
+msgstr "La madera sin corteza de un árbol de Abeto."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:159
+msgid "The trunk of a Acacia tree."
+msgstr "El tronco de un árbol de Acacia."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:160
+msgid "The trunk of a Birch tree."
+msgstr "El tronco de un árbol de Abedul."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:161
+msgid "The trunk of a Dark Oak tree."
+msgstr "El tronco de un árbol de Roble Oscuro."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:162
+msgid "The trunk of a Jungle tree."
+msgstr "El tronco de un árbol de Jungla."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:163
+msgid "The trunk of a Oak tree."
+msgstr "El tronco de un árbol de Roble."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:164
+msgid "The trunk of a Spruce tree."
+msgstr "El tronco de un árbol de Abeto."
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:165
+msgid "White Stained Glass"
+msgstr "Cristal tintado de blanco"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:166
+msgid "Yellow Stained Glass"
+msgstr "Cristal tintado de amarillo"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:16
+msgid "Stone"
+msgstr "Piedra"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:17
+msgid ""
+"One of the most common blocks in the world, almost the entire underground "
+"consists of stone. It sometimes contains ores. Stone may be created when "
+"water meets lava."
+msgstr ""
+"Uno de los bloques más comunes en el mundo, casi todo el subsuelo consiste "
+"en piedra. A veces contiene minerales. Se puede crear piedra cuando el agua "
+"se encuentra con la lava."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:31
+msgid "Coal Ore"
+msgstr "Mineral de carbón"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:32
+msgid ""
+"Some coal contained in stone, it is very common and can be found inside "
+"stone in medium to large clusters at nearly every height."
+msgstr ""
+"Algo de carbón contenido en la piedra, es muy común y se puede encontrar "
+"dentro de la piedra en grupos medianos a grandes en casi todas las alturas."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:45
+msgid "Iron Ore"
+msgstr "Mineral de hierro"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:46
+msgid ""
+"Some iron contained in stone, it is prety common and can be found below sea "
+"level."
+msgstr ""
+"Algo de hierro contenido en piedra, es bastante común y se puede encontrar "
+"debajo del nivel del mar."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:59
+msgid "Gold Ore"
+msgstr "Mineral de oro"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:60
+msgid "This stone contains pure gold, a rare metal."
+msgstr "Esta piedra contiene oro puro, un metal raro."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:83
+msgid "Redstone Ore"
+msgstr "Mineral de redstone"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:84
+msgid ""
+"Redstone ore is commonly found near the bottom of the world. It glows when "
+"it is punched or walked upon."
+msgstr ""
+"El mineral de redstone se encuentra comúnmente cerca del fondo del mundo. "
+"Brilla cuando es golpeado o pisado."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:118
+msgid "Lit Redstone Ore"
+msgstr "Mineral de redstone encendido"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:152
+msgid "Lapis Lazuli Ore"
+msgstr "Mineral de lapislázuli"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:153
+msgid ""
+"Lapis lazuli ore is the ore of lapis lazuli. It can be rarely found in "
+"clusters near the bottom of the world."
+msgstr ""
+"El mineral de lapislázuli produce lapislázuli. Rara vez se puede encontrar "
+"en vetas cercanas al fondo del mundo."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:175
+msgid "Emerald Ore"
+msgstr "Mineral de esmeralda"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:176
+msgid ""
+"Emerald ore is the ore of emeralds. It is very rare and can be found alone, "
+"not in clusters."
+msgstr ""
+"El mineral de esmeralda da esmeraldas. Es muy raro y solo se puede encontrar "
+"uno, no más."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:188
+msgid "Diamond Ore"
+msgstr "Mineral de diamante"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:189
+msgid ""
+"Diamond ore is rare and can be found in clusters near the bottom of the "
+"world."
+msgstr ""
+"El mineral de diamante es raro y se puede encontrar en grupos cerca del "
+"fondo del mundo."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:201
+msgid "Stone Bricks"
+msgstr "Ladrillos de piedra"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:214
+msgid "Chiseled Stone Bricks"
+msgstr "Ladrillos de piedra cincelados"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:226
+msgid "Cracked Stone Bricks"
+msgstr "Ladrillos de piedra agrietados"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:237
+msgid "Mossy Stone Bricks"
+msgstr "Ladrillos de piedra musgosos"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:248
+msgid "Smooth Stone"
+msgstr "Piedra lisa"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:259
+msgid "Granite"
+msgstr "Granito"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:260
+msgid "Granite is an igneous rock."
+msgstr "El granito es una roca ígnea."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:270
+msgid "Polished Granite"
+msgstr "Granito pulido"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:271
+msgid "Polished granite is a decorative building block made from granite."
+msgstr "El granito pulido es un bloque decorativo hecho de granito."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:282
+msgid "Andesite"
+msgstr "Andesita"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:283
+msgid "Andesite is an igneous rock."
+msgstr "La andesita es una roca ígnea."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:293
+msgid "Polished Andesite"
+msgstr "Andesita pulida"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:294
+msgid "Polished andesite is a decorative building block made from andesite."
+msgstr ""
+"La andesita pulida es un bloque de construcción decorativo hecho de andesita."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:305
+msgid "Diorite"
+msgstr "Diorita"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:306
+msgid "Diorite is an igneous rock."
+msgstr "La diorita es una roca ígnea."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:316
+msgid "Polished Diorite"
+msgstr "Diorita pulida"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:317
+msgid "Polished diorite is a decorative building block made from diorite."
+msgstr ""
+"La diorita pulida es un bloque de construcción decorativo hecho de diorita."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:329
+msgid "Grass Block"
+msgstr "Bloque de césped"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:330
+msgid ""
+"A grass block is dirt with a grass cover. Grass blocks are resourceful "
+"blocks which allow the growth of all sorts of plants. They can be turned "
+"into farmland with a hoe and turned into grass paths with a shovel. In "
+"light, the grass slowly spreads onto dirt nearby. Under an opaque block or a "
+"liquid, a grass block may turn back to dirt."
+msgstr ""
+"Un bloque de césped es tierra con una cubierta de césped. Los bloques de "
+"césped son bloques ingeniosos que permiten el crecimiento de todo tipo de "
+"plantas. Pueden convertirse en tierras de cultivo con una azada y "
+"convertirse en caminos de césped con una pala. A la luz, el césped se "
+"extiende lentamente sobre la tierra cercana. Debajo de un bloque opaco o un "
+"líquido, un bloque de césped puede volverse tierra."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:368
+msgid "Dirt with Snow"
+msgstr "Tierra con nieve"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:372
+msgid "Grass Path"
+msgstr "Camino de césped"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:373
+msgid ""
+"Grass paths are a decorative variant of grass blocks. Their top has a "
+"different color and they are a bit lower than grass blocks, making them "
+"useful to build footpaths. Grass paths can be created with a shovel. A grass "
+"path turns into dirt when it is below a solid block."
+msgstr ""
+"Los caminos de césped son una variante decorativa del bloques de césped. Su "
+"parte superior tiene un color diferente y son un poco más bajos que los "
+"bloques de césped, lo que los hace útiles para construir senderos. Los "
+"caminos de césped se pueden crear con una pala. Un camino de césped se "
+"convierte en tierra cuando está debajo de un bloque sólido."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:392
+msgid "Mycelium"
+msgstr "Micelio"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:393
+msgid ""
+"Mycelium is a type of dirt and the ideal soil for mushrooms. Unlike other "
+"dirt-type blocks, it can not be turned into farmland with a hoe. In light, "
+"mycelium slowly spreads over nearby dirt. Under an opaque block or a liquid, "
+"it eventually turns back into dirt."
+msgstr ""
+"El micelio es un tipo de tierra y el suelo ideal para los hongos. A "
+"diferencia de otros bloques de tipo de tierra, no se puede convertir en "
+"tierras de cultivo con una azada. A la luz, el micelio se extiende "
+"lentamente sobre la tierra cercana. Debajo de un bloque opaco o un líquido, "
+"eventualmente se convierte nuevamente en tierra."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:407
+msgid "Mycelium with Snow"
+msgstr "Micelio con nieve"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:454
+msgid "Podzol"
+msgstr "Podsol"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:455
+msgid ""
+"Podzol is a type of dirt found in taiga forests. Only a few plants are able "
+"to survive on it."
+msgstr ""
+"El podsol es un tipo de tierra que se encuentra en los bosques de taiga. "
+"Solo unas pocas plantas pueden sobrevivir en él."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:466
+msgid "Podzol with Snow"
+msgstr "Podsol con nieve"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:469
+msgid "Dirt"
+msgstr "Tierra"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:470
+msgid ""
+"Dirt acts as a soil for a few plants. When in light, this block may grow a "
+"grass or mycelium cover if such blocks are nearby."
+msgstr ""
+"La tierra actúa como un suelo para algunas plantas. Cuando está a la luz, "
+"este bloque puede crecer una cubierta de césped o micelio si tales bloques "
+"están cerca."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:481
+msgid "Coarse Dirt"
+msgstr "Tierra estéril"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:482
+msgid ""
+"Coarse dirt acts as a soil for some plants and is similar to dirt, but it "
+"will never grow a cover."
+msgstr ""
+"La tierra estéril actúa como un suelo para algunas plantas y es similar a la "
+"tierra, pero nunca crecerá una cubierta."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:492
+msgid "Gravel"
+msgstr "Grava"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:493
+msgid ""
+"This block consists of a couple of loose stones and can't support itself."
+msgstr "Este bloque consta de un par de piedras sueltas y no puede sostenerse."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:527
+msgid "Sand"
+msgstr "Arena"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:528
+msgid "Sand is found in large quantities at beaches and deserts."
+msgstr "La arena se encuentra en grandes cantidades en playas y desiertos."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:539
+msgid "Sandstone"
+msgstr "Arenisca"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:541
+msgid "Sandstone is compressed sand and is a rather soft kind of stone."
+msgstr "La arenisca es arena comprimida y es un tipo de piedra bastante suave."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:551
+msgid "Cut Sandstone"
+msgstr "Arenisca cortada"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:552
+msgid "Cut sandstone is a decorative building block."
+msgstr "La arenisca cortada es un elemento decorativo."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:562
+msgid "Chiseled Sandstone"
+msgstr "Arenisca cincelada"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:563
+msgid "Chiseled sandstone is a decorative building block."
+msgstr "La piedra arenisca cincelada es un bloque de construcción decorativo."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:573
+msgid "Smooth Sandstone"
+msgstr "Arenisca lisa"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:575
+msgid "Smooth sandstone is compressed sand and is a rather soft kind of stone."
+msgstr ""
+"La arenisca lisa es arena comprimida y es un tipo de piedra bastante blanda."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:588
+msgid "Red Sand"
+msgstr "Arena roja"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:589
+msgid "Red sand is found in large quantities in mesa biomes."
+msgstr "La arena roja se encuentra en grandes cantidades en los desiertos."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:599
+msgid "Red Sandstone"
+msgstr "Arenisca roja"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:600
+msgid ""
+"Red sandstone is compressed red sand and is a rather soft kind of stone."
+msgstr ""
+"La arenisca roja es arena roja comprimida y es un tipo de piedra bastante "
+"suave."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:610
+msgid "Cut Red Sandstone"
+msgstr "Arenisca roja cortada"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:611
+msgid "Cut red sandstone is a decorative building block."
+msgstr "La arenisca roja cortada es un elemento decorativo."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:621
+msgid "Chiseled Red Sandstone"
+msgstr "Arenisca roja cincelada"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:622
+msgid "Chiseled red sandstone is a decorative building block."
+msgstr "La piedra arenisca roja cincelada es un elemento decorativo."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:632
+msgid "Smooth Red Sandstone"
+msgstr "Arenisca roja lisa"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:633
+msgid "Smooth red sandstone is a decorative building block."
+msgstr "La piedra arenisca roja lisa es un elemento decorativo."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:645
+msgid "Clay"
+msgstr "Bloque de arcilla"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:646
+msgid "Clay is a versatile kind of earth commonly found at beaches underwater."
+msgstr ""
+"La arcilla es un tipo de tierra versátil que se encuentra comúnmente en las "
+"playas bajo el agua."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:659
+msgid "Brick Block"
+msgstr "Bloque de ladrillos"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:660
+msgid ""
+"Brick blocks are a good building material for building solid houses and can "
+"take quite a punch."
+msgstr ""
+"Los bloques de ladrillos son un buen material de construcción para edificar "
+"casas sólidas y pueden aguantar bastantes golpes."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:671
+msgid "Bedrock"
+msgstr "Piedra base"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:672
+msgid ""
+"Bedrock is a very hard type of rock. It can not be broken, destroyed, "
+"collected or moved by normal means, unless in Creative Mode."
+msgstr ""
+"La piedra base es un tipo de roca muy duro. No se puede romper, destruir, "
+"recoger o mover por medios normales, a menos que esté en modo creativo."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:673
+msgid ""
+"In the End dimension, starting a fire on this block will create an eternal "
+"fire."
+msgstr ""
+"En la dimensión del end, encender un fuego en este bloque creará un fuego "
+"que nunca se apagará."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:715
+msgid "Cobblestone"
+msgstr "Adoquín"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:729
+msgid "Mossy Cobblestone"
+msgstr "Adoquín musgoso"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:740
+msgid "Block of Coal"
+msgstr "Bloque de carbón"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:741
+msgid ""
+"Blocks of coal are useful as a compact storage of coal and very useful as a "
+"furnace fuel. A block of coal is as efficient as 10 coal."
+msgstr ""
+"Los bloques de carbón son útiles como almacenamiento compacto de carbón y "
+"muy útiles como combustible para hornos. Un bloque de carbón es tan "
+"eficiente como 10 de carbón."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:753
+msgid "Block of Iron"
+msgstr "Bloque de hierro"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:754
+msgid ""
+"A block of iron is mostly a decorative block but also useful as a compact "
+"storage of iron ingots."
+msgstr ""
+"Un bloque de hierro es principalmente un bloque decorativo, pero también es "
+"útil como almacenamiento compacto de lingotes de hierro."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:765
+msgid "Block of Gold"
+msgstr "Bloque de oro"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:766
+msgid ""
+"A block of gold is mostly a shiny decorative block but also useful as a "
+"compact storage of gold ingots."
+msgstr ""
+"Un bloque de oro es principalmente un bloque decorativo brillante, pero "
+"también es útil como almacenamiento compacto de lingotes de oro."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:777
+msgid "Block of Diamond"
+msgstr "Bloque de diamante"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:778
+msgid ""
+"A block of diamond is mostly a shiny decorative block but also useful as a "
+"compact storage of diamonds."
+msgstr ""
+"Un bloque de diamante es sobre todo un bloque decorativo reluciente, pero "
+"también es útil como almacén compacto de diamantes."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:789
+msgid "Block of Lapis Lazuli"
+msgstr "Bloque de lapislázuli"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:790
+msgid ""
+"A lapis lazuli block is mostly a decorative block but also useful as a "
+"compact storage of lapis lazuli."
+msgstr ""
+"Un bloque de lapislázuli es principalmente un bloque decorativo , pero "
+"también resulta útil como recipiente compacto para almacenar lapislázuli."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:800
+msgid "Block of Emerald"
+msgstr "Bloque de esmeralda"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:801
+msgid ""
+"A block of emerald is mostly a shiny decorative block but also useful as a "
+"compact storage of emeralds."
+msgstr ""
+"Un bloque de esmeraldas es principalmente un bloque decorativo reluciente "
+"pero también es útil como un almacenamiento compacto de esmeraldas."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:812
+msgid "Obsidian"
+msgstr "Obsidiana"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:813
+msgid ""
+"Obsidian is an extremely hard mineral with an enourmous blast-resistance. "
+"Obsidian is formed when water meets lava."
+msgstr ""
+"La obsidiana es un mineral extremadamente duro con una enorme resistencia a "
+"la explosión. La obsidiana se forma cuando el agua se encuentra con la lava."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:823
+msgid "Crying Obsidian"
+msgstr "Obsidiana llorosa"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:824
+msgid ""
+"Crying obsidian is a luminous obsidian that can generate as part of ruined "
+"portals."
+msgstr ""
+"La obsidiana llorosa es una obsidiana luminosa que se genera como parte de "
+"los portales en ruinas."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:835
+msgid "Ice"
+msgstr "Hielo"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:836
+msgid ""
+"Ice is a solid block usually found in cold areas. It melts near block light "
+"sources at a light level of 12 or higher. When it melts or is broken while "
+"resting on top of another block, it will turn into a water source."
+msgstr ""
+"El hielo es un bloque sólido que suele encontrarse en zonas frías. Se "
+"derrite cerca de fuentes de luz con un nivel de luz de 12 o superior. Cuando "
+"se derrite o se rompe mientras está encima otro bloque, se convertirá en una "
+"fuente de agua."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:854
+msgid "Packed Ice"
+msgstr "Hielo compacto"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:855
+msgid "Packed ice is a compressed form of ice. It is opaque and solid."
+msgstr "El hielo compacto es una forma comprimida de hielo. Es opaco y sólido."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:870
+msgid "Blue Ice"
+msgstr "Hielo azul"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:871
+msgid ""
+"Blue Ice is a still more compressed form of ice.  It is opaque and solid."
+msgstr ""
+"El hielo azul es una forma de hielo aún más comprimida.  Es opaco y sólido."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:914
+msgid ""
+"Frosted ice is a short-lived solid block. It melts into a water source "
+"within a few seconds."
+msgstr ""
+"El hielo escarchado es un bloque sólido de corta duración. Se funde en una "
+"fuente de agua en pocos segundos."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:917
+msgid "Frosted Ice"
+msgstr "Hielo escarchado"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1012
+msgid "Top Snow"
+msgstr "Nieve"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1013
+msgid "Stackable"
+msgstr "Apilable"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1014
+msgid ""
+"Top snow is a layer of snow. It melts near light sources other than the sun "
+"with a light level of 12 or higher."
+msgstr ""
+"La nieve es una capa de nieve. Se derrite cerca de fuentes de luz distintas "
+"al sol con un nivel 12 de luz o más."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1014
+msgid ""
+"Top snow can be stacked and has one of 8 different height levels. At levels "
+"2-8, top snow is collidable. Top snow drops 2-9 snowballs, depending on its "
+"height."
+msgstr ""
+"La nieve puede apilarse y tiene de 1 a 8 niveles de altura. En los niveles "
+"2-8, la nieve es colisionable. La nieve deja caer entre 2 a 9 bolas de "
+"nieve, dependiendo de su altura."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1015
+msgid ""
+"This block can only be placed on full solid blocks and on another top snow "
+"(which increases its height)."
+msgstr ""
+"Este bloque solo se puede colocar en bloques sólidos completos y en otra "
+"nieve (lo que aumenta su altura)."
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1066
+msgid "Snow"
+msgstr "Bloque de nieve"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1067
+msgid ""
+"This is a full block of snow. Snow of this thickness is usually found in "
+"areas of extreme cold."
+msgstr ""
+"Este es un bloque lleno de nieve. La nieve de este espesor generalmente se "
+"encuentra en áreas de frío extremo."
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:6
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:54
+msgid "Cactus"
+msgstr "Cactus"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:7
+msgid "Grows on sand"
+msgstr "Crece en la arena"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:7
+msgid "Contact damage: @1 per half second"
+msgstr "Daño por contacto: @1 por medio segundo"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:8
+msgid ""
+"This is a piece of cactus commonly found in dry areas, especially deserts. "
+"Over time, cacti will grow up to 3 blocks high on sand or red sand. A cactus "
+"hurts living beings touching it with a damage of 1 HP every half second. "
+"When a cactus block is broken, all cactus blocks connected above it will "
+"break as well."
+msgstr ""
+"Se trata de un cactus que suele encontrarse en zonas secas, especialmente "
+"desérticas. Con el tiempo, los cactus crecerán hasta 3 bloques de altura "
+"sobre arena o arena roja. Un cactus daña a los seres vivos que lo tocan con "
+"un daño de 1 PS cada medio segundo. Cuando un bloque de cactus se rompe, "
+"todos los bloques de cactus conectados por encima se romperán también."
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:9
+msgid "A cactus can only be placed on top of another cactus or any sand."
+msgstr "Un cactus solo se puede colocar encima de otro cactus o arena."
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:77
+msgid "Cactus Flower"
+msgstr "Flor del cactus"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:78
+msgid "Grows on cacti"
+msgstr "Crece en los cactus"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:101
+msgid "Sugar Canes"
+msgstr "Caña de azúcar"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:102
+msgid "Grows on sand or dirt next to water"
+msgstr "Crece en la arena o en la tierra junto al agua"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:103
+msgid ""
+"Sugar canes are a plant which has some uses in crafting. Sugar canes will "
+"slowly grow up to 3 blocks when they are next to water and are placed on a "
+"grass block, dirt, sand, red sand, podzol or coarse dirt. When a sugar cane "
+"is broken, all sugar canes connected above will break as well."
+msgstr ""
+"Las cañas de azúcar son una planta que tiene algunos usos en la fabricación. "
+"Las cañas de azúcar crecerán lentamente hasta 3 bloques cuando estén cerca "
+"del agua y se colocan en un bloque de césped, tierra, arena, arena roja, "
+"podsol o tierra estéril. Cuando se rompe una caña de azúcar, todas las cañas "
+"de azúcar conectadas arriba también se romperán."
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:104
+msgid ""
+"Sugar canes can only be placed top of other sugar canes and on top of blocks "
+"on which they would grow."
+msgstr ""
+"Las cañas de azúcar solo se pueden colocar encima de otras cañas de azúcar y "
+"encima de los bloques en los que crecerían."
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:15
+msgid "Ladder"
+msgstr "Escalera"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:16
+msgid ""
+"A piece of ladder which allows you to climb vertically. Ladders can only be "
+"placed on the side of solid blocks and not on glass, leaves, ice, slabs, "
+"glowstone, nor sea lanterns."
+msgstr ""
+"Una escalera de mano te permite subir verticalmente. Las escaleras solo se "
+"pueden colocar al lado de bloques sólidos y no en cristal, hojas, hielo, "
+"losas, piedra luminosa ni linternas marinas."
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:83
+msgid "Vines"
+msgstr "Enredadera"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:84
+msgid ""
+"Vines are climbable blocks which can be placed on the sides of solid full-"
+"cube blocks. Vines slowly grow and spread."
+msgstr ""
+"Las enredaderas son bloques escalables que se pueden colocar a los laterales "
+"de bloques sólidos completos. Las enredaderas crecen y se extienden "
+"lentamente."
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:6
+msgid "Glass"
+msgstr "Cristal"
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:7
+msgid "A decorative and mostly transparent block."
+msgstr "Un bloque decorativo y mayormente transparente."
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:33
+msgid ""
+"Stained glass is a decorative and mostly transparent block which comes in "
+"various different colors."
+msgstr ""
+"Los cristales teñidos son bloques decorativos, en su mayoría transparentes, "
+"que se presentan en varios colores diferentes."
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:34
+msgid "Stained Glass"
+msgstr "Cristal teñido"
+
+#: mods/ITEMS/mcl_core/nodes_glow_lichen.lua:60
+msgid "Glow Lichen"
+msgstr "Líquen luminoso"
+
+#: mods/ITEMS/mcl_core/nodes_glow_lichen.lua:61
+msgid ""
+"Naturally generating non-solid block that emits a faint light and can attach "
+"to any surface of a solid block."
+msgstr ""
+"Se genera de forma natural un bloque no sólido que emite una luz tenue y "
+"puede adherirse a cualquier superficie de un bloque sólido ."
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:11
+msgid "Flowing Water"
+msgstr "Agua que fluye"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:55
+msgid "Water Source"
+msgstr "Fuente de agua"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:56
+msgid "Water"
+msgstr "Agua"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:58
+msgid ""
+"Water is abundant in oceans and also appears in a few springs in the ground. "
+"You can swim easily in water, but you need to catch your breath from time to "
+"time."
+msgstr ""
+"El agua es abundante en los océanos y también aparece en algunas fuentes en "
+"el suelo. Puede nadar fácilmente en el agua, pero necesita recuperar el "
+"aliento de vez en cuando."
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:59
+msgid "Water interacts with lava in various ways:"
+msgstr "El agua interactúa con la lava de varias maneras:"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:60
+msgid ""
+"• When water is directly above or horizontally next to a lava source, the "
+"lava turns into obsidian."
+msgstr ""
+"• Cuando el agua está directamente arriba u horizontalmente al lado de una "
+"fuente de lava, la lava se convierte en obsidiana."
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:61
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:165
+msgid ""
+"• When flowing water touches flowing lava either from above or horizontally, "
+"the lava turns into cobblestone."
+msgstr ""
+"• Cuando el agua que fluye toca la lava que fluye desde arriba u "
+"horizontalmente, la lava se convierte en adoquín."
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:62
+msgid "• When water is directly below lava, the water turns into stone."
+msgstr ""
+"• Cuando el agua está directamente debajo de la lava, el agua se convierte "
+"en piedra."
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:103
+msgid "Flowing Lava"
+msgstr "Lava que fluye"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:152
+msgid ""
+"A lava source sets fire to a couple of air blocks above when they're next to "
+"a flammable block."
+msgstr ""
+"Una fuente de lava prende fuego a un par de bloques de aire arriba cuando "
+"están al lado de un bloque inflamable."
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:158
+msgid "Lava Source"
+msgstr "Fuente de lava"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:161
+msgid ""
+"Lava is hot and rather dangerous. Don't touch it, it will hurt you a lot and "
+"it is hard to get out."
+msgstr ""
+"La lava es caliente y bastante peligrosa. No lo toques, te dolerá mucho y es "
+"difícil salir."
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:163
+msgid "Lava interacts with water various ways:"
+msgstr "La lava interactúa con el agua de varias maneras:"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:164
+msgid ""
+"• When a lava source is directly below or horizontally next to water, the "
+"lava turns into obsidian."
+msgstr ""
+"• Cuando una fuente de lava está directamente debajo u horizontalmente al "
+"lado del agua, la lava se convierte en obsidiana."
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:166
+msgid "• When lava is directly above water, the water turns into stone."
+msgstr ""
+"• Cuando la lava está directamente sobre el agua, el agua se convierte en "
+"piedra."
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:5
+msgid "Bone Block"
+msgstr "Bloque de hueso"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:6
+msgid "Bone blocks are decorative blocks and a compact storage of bone meal."
+msgstr ""
+"Los bloques de hueso son bloques decorativos y un almacenamiento compacto de "
+"hueso molido."
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:19
+msgid "Slime Block"
+msgstr "Bloque de Slime"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:20
+msgid "Slime blocks are very bouncy and prevent fall damage."
+msgstr "Los bloques de slime rebotan mucho y evitan los daños por caída."
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:53
+msgid "Cobweb"
+msgstr "Telaraña"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:54
+msgid "Slows down movement"
+msgstr "Ralentiza el movimiento"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:55
+msgid "Cobwebs can be walked through, but significantly slow you down."
+msgstr ""
+"Las telarañas se pueden atravesar, pero disminuyen significativamente la "
+"velocidad."
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:74 mods/ITEMS/mcl_core/nodes_misc.lua:113
+msgid "Dead Bush"
+msgstr "Arbusto muerto"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:75
+msgid ""
+"Dead bushes are unremarkable plants often found in dry areas. They can be "
+"harvested for sticks."
+msgstr ""
+"Los arbustos muertos son plantas poco comunes que a menudo se encuentran en "
+"áreas secas. Se pueden cosechar para obtener palos."
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:122
+msgid "Barrier"
+msgstr "Barrera"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:123
+msgid ""
+"Barriers are invisible walkable blocks. They are used to create boundaries "
+"of adventure maps and the like. Monsters and animals won't appear on "
+"barriers, and fences do not connect to barriers. Other blocks can be built "
+"on barriers like on any other block."
+msgstr ""
+"Las barreras son bloques invisibles transitables. Se utilizan para crear "
+"límites de mapas de aventura. Los monstruos y animales no aparecerán en las "
+"barreras, y las vallas no se conectan a las barreras. Se pueden construir "
+"otros bloques sobre las barreras como sobre cualquier otro bloque."
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:124
+msgid ""
+"When you hold a barrier in hand, you reveal all placed barriers in a short "
+"distance around you."
+msgstr ""
+"Cuando sostienes una barrera en la mano, puedes ver todas las barreras "
+"colocadas a corta distancia de tu alrededor."
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:176
+msgid "Realm Barrier"
+msgstr "Barrera del reino"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:209
+msgid "Light"
+msgstr "Luz"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:210
+msgid ""
+"Lights are invisible blocks. They are used to light up adventure maps and "
+"the like."
+msgstr ""
+"Las luces son bloques invisibles. Se utilizan para iluminar mapas de "
+"aventuras."
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:211
+msgid ""
+"When you hold a light in hand, you reveal all placed lights in a short "
+"distance around you."
+msgstr ""
+"Cuando sostienes una luz en la mano, puedes ver todas las luces colocadas a "
+"una corta distancia de tu alrededor."
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:263
+msgid "Void"
+msgstr "Vacío"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:5
+msgid "Stone Stairs"
+msgstr "Escaleras de piedra"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:6
+msgid "Stone Slab"
+msgstr "Losa de piedra"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:12
+msgid "Smooth Stone Slab"
+msgstr "Losa de piedra lisa"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:19
+msgid "Andesite Stairs"
+msgstr "Escaleras de andesita"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:20
+msgid "Andesite Slab"
+msgstr "Losa de andesita"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:25
+msgid "Granite Stairs"
+msgstr "Escaleras de granito"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:26
+msgid "Granite Slab"
+msgstr "Losa de granito"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:31
+msgid "Diorite Stairs"
+msgstr "Escaleras de diorita"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:32
+msgid "Diorite Slab"
+msgstr "Losa de diorita"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:38
+msgid "Cobblestone Stairs"
+msgstr "Escaleras de adoquín"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:39
+msgid "Cobblestone Slab"
+msgstr "Losa de adoquín"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:44
+msgid "Mossy Cobblestone Stairs"
+msgstr "Escaleras de adoquín musgoso"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:45
+msgid "Mossy Cobblestone Slab"
+msgstr "Losa de adoquín musgoso"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:51
+msgid "Brick Stairs"
+msgstr "Escaleras de ladrillo"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:52
+msgid "Brick Slab"
+msgstr "Losa de ladrillo"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:59
+msgid "Sandstone Stairs"
+msgstr "Escaleras de arenisca"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:60
+msgid "Sandstone Slab"
+msgstr "Losa de arenisca"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:65
+msgid "Smooth Sandstone Stairs"
+msgstr "Escaleras de arenisca lisa"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:66
+msgid "Smooth Sandstone Slab"
+msgstr "Losa de arenisca lisa"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:71
+msgid "Cut Sandstone Stairs"
+msgstr "Escalera de arenisca cortada"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:72
+msgid "Cut Sandstone Slab"
+msgstr "Losa de arenisca cortada"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:82
+msgid "Red Sandstone Stairs"
+msgstr "Escaleras de arenisca roja"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:83
+msgid "Red Sandstone Slab"
+msgstr "Losa de arenisca roja"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:88
+msgid "Smooth Red Sandstone Stairs"
+msgstr "Escaleras de arenisca roja lisa"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:89
+msgid "Smooth Red Sandstone Slab"
+msgstr "Losa de arenisca roja lisa"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:94
+msgid "Cut Red Sandstone Stairs"
+msgstr "Escalera de arenisca roja cortada"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:95
+msgid "Cut Red Sandstone Slab"
+msgstr "Losa de arenisca roja cortada"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:105
+msgid "Stone Brick Stairs"
+msgstr "Escaleras de ladrillo de piedra"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:106
+msgid "Stone Brick Slab"
+msgstr "Losa de ladrillo de piedra"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:112
+msgid "Polished Andesite Stairs"
+msgstr "Escaleras de andesita pulida"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:117
+msgid "Polished Andesite Slab"
+msgstr "Losa de andesita pulida"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:124
+msgid "Polished Granite Stairs"
+msgstr "Escaleras de granito pulido"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:129
+msgid "Polished Granite Slab"
+msgstr "Losa de granito pulido"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:136
+msgid "Polished Diorite Stairs"
+msgstr "Escaleras de diorita pulida"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:141
+msgid "Polished Diorite Slab"
+msgstr "Losa de diorita pulida"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:148
+msgid "Mossy Stone Brick Stairs"
+msgstr "Escaleras de ladrillo de piedra musgosa"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:149
+msgid "Mossy Stone Brick Slab"
+msgstr "Losa de ladrillo de piedra musgosa"

@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_buckets/init.lua:255
+msgid "Empty Bucket"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/init.lua:256
+msgid "A bucket can be used to collect and release liquids."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/init.lua:257
+msgid ""
+"Punch a liquid source to collect it. You can then use the filled bucket to "
+"place the liquid somewhere else."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/init.lua:258
+msgid "Collects liquids"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:1
+msgid "Bucket of Axolotl"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:2
+msgid "Bucket of Cod"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:3
+msgid "Bucket of Pufferfish"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:4
+msgid "Bucket of Salmon"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:5
+msgid "Bucket of Tropical Fish"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:6
+msgid ""
+"Place it to empty the bucket and place a Cod. Obtain by right clicking on a "
+"Cod with a bucket of water."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:7
+msgid ""
+"Place it to empty the bucket and place a Pufferfish. Obtain by right "
+"clicking on a Pufferfish with a bucket of water."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:8
+msgid ""
+"Place it to empty the bucket and place a Salmon. Obtain by right clicking on "
+"a Salmon with a bucket of water."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:9
+msgid ""
+"Place it to empty the bucket and place a Tropical Fish. Obtain by right "
+"clicking on a Tropical Fish with a bucket of water."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:10
+msgid ""
+"Place it to empty the bucket and place an Axolotl. Obtain by right clicking "
+"on an Axolotl with a bucket of water."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:11
+msgid "Places a water source and a Cod."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:12
+msgid "Places a water source and a Pufferfish."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:13
+msgid "Places a water source and a Salmon."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:14
+msgid "Places a water source and a Tropical Fish."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:15
+msgid "Places a water source and an Axolotl."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:16
+msgid "This bucket is filled with water and a Cod."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:17
+msgid "This bucket is filled with water and a Pufferfish."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:18
+msgid "This bucket is filled with water and a Salmon."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:19
+msgid "This bucket is filled with water and a Tropical Fish."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:20
+msgid "This bucket is filled with water and an Axolotl."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:22
+msgid "Lava Bucket"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:23
+msgid ""
+"A bucket can be used to collect and release liquids. This one is filled with "
+"hot lava, safely contained inside. Use with caution."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:24
+msgid ""
+"Get in a safe distance and place the bucket to empty it and create a lava "
+"source at this spot. Don't burn yourself!"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:25
+msgid "Places a lava source"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:37
+msgid "Water Bucket"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:38
+msgid ""
+"A bucket can be used to collect and release liquids. This one is filled with "
+"water."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:39
+msgid "Place it to empty the bucket and create a water source."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:40
+msgid "Places a water source"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:58
+msgid "River Water Bucket"
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:59
+msgid ""
+"A bucket can be used to collect and release liquids. This one is filled with "
+"river water."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:60
+msgid "Place it to empty the bucket and create a river water source."
+msgstr ""
+
+#: mods/ITEMS/mcl_buckets/register.lua:61
+msgid "Places a river water source"
+msgstr ""

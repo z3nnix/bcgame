@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_observers x.x.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+msgid "Observer"
+msgstr "관측기"
+
+msgid "Emits redstone pulse when block in front changes"
+msgstr "정면 블록 변경 시 레드스톤 신호 출력"
+
+msgid "An observer is a redstone component which observes the block in front of it and sends a very short redstone pulse whenever this block changes."
+msgstr "관측기는 앞의 블록을 관찰하고 이 블록이 변경될 때마다 매우 짧은 레드스톤 펄스를 보냅니다."
+
+msgid "Place the observer directly in front of the block you want to observe with the “face” looking at the block. The arrow points to the side of the output, which is at the opposite side of the “face”. You can place your redstone dust or any other component here."
+msgstr "관측기를 관찰하려는 블록의 바로 앞에 놓되, '얼굴'이 그 블록을 향하도록 합니다. 화살표는 출력 쪽을 가리키며, 이는 '얼굴'의 반대편에 있다. 여기에는 레드스톤 가루나 다른 부품을 놓을 수 있다."
+

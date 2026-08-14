@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_powder_snow x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_powder_snow/init.lua:4
+msgid "Powder Snow"
+msgstr "Рыхлый снег"
+
+#: mods/ITEMS/mcl_powder_snow/init.lua:5
+msgid ""
+"This is a block of snow thats extra fluffy, this means players can sink in it"
+msgstr "Этот блок снега очень рыхлый, и игроки могут провалиться в него"
+
+#: mods/ITEMS/mcl_powder_snow/init.lua:48
+msgid "Powder Snow Bucket"
+msgstr "Ведро рыхлого снега"
+
+#: mods/ITEMS/mcl_powder_snow/init.lua:49
+msgid "This bucket is filled powder snow"
+msgstr "Это ведро наполнено рыхлым снегом"
+
+#: mods/ITEMS/mcl_powder_snow/init.lua:50
+msgid ""
+"Place it to empty the bucket and place powder snow. Obtain by right clicking "
+"on a block of powder snow with an empty bucket."
+msgstr ""
+"Используйте, чтобы опустошить ведро и установить блок рыхлого снега. Можно "
+"получить, использовав пустое ведро на блоке рыхлого снега."
+
+#: mods/ITEMS/mcl_powder_snow/init.lua:51
+msgid "Places a powder snow block"
+msgstr "Переносит блок рыхлого снега"

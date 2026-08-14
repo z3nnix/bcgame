@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mclx_stairs x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mclx_stairs/init.lua:7
+msgid "Lapis Lazuli Stairs"
+msgstr "Лазуритовые ступени"
+
+#: mods/ITEMS/mclx_stairs/init.lua:13
+msgid "Lapis Lazuli Slab"
+msgstr "Лазуритовая плита"
+
+#: mods/ITEMS/mclx_stairs/init.lua:21
+msgid "Gold Stairs"
+msgstr "Золотые ступени"
+
+#: mods/ITEMS/mclx_stairs/init.lua:27
+msgid "Gold Slab"
+msgstr "Плита из золота"
+
+#: mods/ITEMS/mclx_stairs/init.lua:35
+msgid "Iron Stairs"
+msgstr "Железные ступени"
+
+#: mods/ITEMS/mclx_stairs/init.lua:41
+msgid "Iron Slab"
+msgstr "Железная плита"
+
+#: mods/ITEMS/mclx_stairs/init.lua:49
+msgid "Cracked Stone Brick Stairs"
+msgstr "Ступени из потрескавшегося каменного кирпича"
+
+#: mods/ITEMS/mclx_stairs/init.lua:50
+msgid "Cracked Stone Brick Slab"
+msgstr "Плита из потрескавшегося каменного кирпича"
+
+#: mods/ITEMS/mclx_stairs/init.lua:56
+msgid "Cracked Deepslate Brick Stairs"
+msgstr "Ступени из потрескавшегося сланцевого кирпича"
+
+#: mods/ITEMS/mclx_stairs/init.lua:57
+msgid "Cracked Deepslate Brick Slab"
+msgstr "Плита из потрескавшегося сланцевого кирпича"
+
+#: mods/ITEMS/mclx_stairs/init.lua:63
+msgid "Cracked Deepslate Tile Stairs"
+msgstr "Ступени из потрескавшейся сланцевой плитки"
+
+#: mods/ITEMS/mclx_stairs/init.lua:64
+msgid "Cracked Deepslate Tile Slab"
+msgstr "Плита из потрескавшейся сланцевой плитки"
+
+#: mods/ITEMS/mclx_stairs/init.lua:71
+msgid "End Stone Stairs"
+msgstr "Ступени из камня Края"
+
+#: mods/ITEMS/mclx_stairs/init.lua:72
+msgid "End Stone Slab"
+msgstr "Плита из камня Края"
+
+#: mods/ITEMS/mclx_stairs/init.lua:80
+msgid "Smooth Stone Stairs"
+msgstr "Ступени из гладкого камня"
+
+#: mods/ITEMS/mclx_stairs/init.lua:91 mods/ITEMS/mclx_stairs/init.lua:149
+msgid "Terracotta Stairs"
+msgstr "Терракотовые ступени"
+
+#: mods/ITEMS/mclx_stairs/init.lua:92 mods/ITEMS/mclx_stairs/init.lua:147
+msgid "Terracotta Slab"
+msgstr "Терракотовая плита"
+
+#: mods/ITEMS/mclx_stairs/init.lua:134
+msgid "Concrete Slab"
+msgstr "Бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/init.lua:135
+msgid "Double Concrete Slab"
+msgstr "Двойная бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/init.lua:136
+msgid "Concrete Stairs"
+msgstr "Бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/init.lua:148
+msgid "Double Terracotta Slab"
+msgstr "Двойная терракотовая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:1
+msgid "Black Concrete Slab"
+msgstr "Чёрная бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:2
+msgid "Black Concrete Stairs"
+msgstr "Чёрные бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:3
+msgid "Black Terracotta Slab"
+msgstr "Чёрная керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:4
+msgid "Black Terracotta Stairs"
+msgstr "Чёрные керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:5
+msgid "Blue Concrete Slab"
+msgstr "Синяя бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:6
+msgid "Blue Concrete Stairs"
+msgstr "Синие бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:7
+msgid "Blue Terracotta Slab"
+msgstr "Синяя керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:8
+msgid "Blue Terracotta Stairs"
+msgstr "Синие керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:9
+msgid "Brown Concrete Slab"
+msgstr "Коричневая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:10
+msgid "Brown Concrete Stairs"
+msgstr "Коричневые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:11
+msgid "Brown Terracotta Slab"
+msgstr "Коричневая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:12
+msgid "Brown Terracotta Stairs"
+msgstr "Коричневые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:13
+msgid "Cyan Concrete Slab"
+msgstr "Бирюзовая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:14
+msgid "Cyan Concrete Stairs"
+msgstr "Бирюзовые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:15
+msgid "Cyan Terracotta Slab"
+msgstr "Бирюзовая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:16
+msgid "Cyan Terracotta Stairs"
+msgstr "Бирюзовые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:17
+msgid "Green Concrete Slab"
+msgstr "Зелёная бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:18
+msgid "Green Concrete Stairs"
+msgstr "Зелёные бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:19
+msgid "Green Terracotta Slab"
+msgstr "Зелёная керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:20
+msgid "Green Terracotta Stairs"
+msgstr "Зелёные керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:21
+msgid "Grey Concrete Slab"
+msgstr "Серая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:22
+msgid "Grey Concrete Stairs"
+msgstr "Серые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:23
+msgid "Grey Terracotta Slab"
+msgstr "Серая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:24
+msgid "Grey Terracotta Stairs"
+msgstr "Серые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:25
+msgid "Light Blue Concrete Slab"
+msgstr "Голубая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:26
+msgid "Light Blue Concrete Stairs"
+msgstr "Голубые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:27
+msgid "Light Blue Terracotta Slab"
+msgstr "Голубая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:28
+msgid "Light Blue Terracotta Stairs"
+msgstr "Голубые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:29
+msgid "Light Grey Concrete Slab"
+msgstr "Светло-серая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:30
+msgid "Light Grey Concrete Stairs"
+msgstr "Светло-серые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:31
+msgid "Light Grey Terracotta Slab"
+msgstr "Светло-серая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:32
+msgid "Light Grey Terracotta Stairs"
+msgstr "Светло-серые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:33
+msgid "Lime Concrete Slab"
+msgstr "Лаймовая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:34
+msgid "Lime Concrete Stairs"
+msgstr "Лаймовые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:35
+msgid "Lime Terracotta Slab"
+msgstr "Лаймовая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:36
+msgid "Lime Terracotta Stairs"
+msgstr "Лаймовые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:37
+msgid "Magenta Concrete Slab"
+msgstr "Сиреневая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:38
+msgid "Magenta Concrete Stairs"
+msgstr "Сиреневые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:39
+msgid "Magenta Terracotta Slab"
+msgstr "Сиреневая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:40
+msgid "Magenta Terracotta Stairs"
+msgstr "Сиреневые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:41
+msgid "Orange Concrete Slab"
+msgstr "Оранжевая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:42
+msgid "Orange Concrete Stairs"
+msgstr "Оранжевые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:43
+msgid "Orange Terracotta Slab"
+msgstr "Оранжевая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:44
+msgid "Orange Terracotta Stairs"
+msgstr "Оранжевые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:45
+msgid "Pink Concrete Slab"
+msgstr "Розовая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:46
+msgid "Pink Concrete Stairs"
+msgstr "Розовые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:47
+msgid "Pink Terracotta Slab"
+msgstr "Розовая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:48
+msgid "Pink Terracotta Stairs"
+msgstr "Розовые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:49
+msgid "Purple Concrete Slab"
+msgstr "Фиолетовая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:50
+msgid "Purple Concrete Stairs"
+msgstr "Фиолетовые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:51
+msgid "Purple Terracotta Slab"
+msgstr "Фиолетовая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:52
+msgid "Purple Terracotta Stairs"
+msgstr "Фиолетовые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:53
+msgid "Red Concrete Slab"
+msgstr "Красная бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:54
+msgid "Red Concrete Stairs"
+msgstr "Красные бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:55
+msgid "Red Terracotta Slab"
+msgstr "Красная керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:56
+msgid "Red Terracotta Stairs"
+msgstr "Красные керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:57
+msgid "White Concrete Slab"
+msgstr "Белая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:58
+msgid "White Concrete Stairs"
+msgstr "Белые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:59
+msgid "White Terracotta Slab"
+msgstr "Белая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:60
+msgid "White Terracotta Stairs"
+msgstr "Белые керамические ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:61
+msgid "Yellow Concrete Slab"
+msgstr "Жёлтая бетонная плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:62
+msgid "Yellow Concrete Stairs"
+msgstr "Жёлтые бетонные ступени"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:63
+msgid "Yellow Terracotta Slab"
+msgstr "Жёлтая керамическая плита"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:64
+msgid "Yellow Terracotta Stairs"
+msgstr "Жёлтые керамические ступени"

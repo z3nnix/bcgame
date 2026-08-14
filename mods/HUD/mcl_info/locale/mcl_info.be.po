@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-06 22:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: mods/HUD/mcl_info/init.lua:111
+msgid ""
+"Set debug bit mask: 0 = disable, 1 = player coords, 2 = coordinates, 3 = "
+"biome name, 4 = all"
+msgstr ""
+
+#: mods/HUD/mcl_info/init.lua:112 mods/HUD/mcl_info/init.lua:129
+msgid "<bitmask>"
+msgstr ""
+
+#: mods/HUD/mcl_info/init.lua:119 mods/HUD/mcl_info/init.lua:138
+msgid "Error! Possible values are integer numbers from @1 to @2"
+msgstr ""
+
+#: mods/HUD/mcl_info/init.lua:128
+msgid "Set location bit mask: 0 = disable, 1 = coordinates"
+msgstr ""

@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_cherry_blossom x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:1
+msgid "Cherry Bark"
+msgstr "Gereziondo azala"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:2
+msgid "Cherry Bark Slab"
+msgstr "Gereziondo azaleko lauza"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:3
+msgid "Cherry Bark Stairs"
+msgstr "Gereziondo azaleko eskailerak"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:4
+msgid "Cherry Boat"
+msgstr "Gereziondo txalupa"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:5
+msgid "Cherry Button"
+msgstr "Gereziondoaren botoia"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:6
+msgid "Cherry Chest Boat"
+msgstr "Gereziondo txalupa kutxarekin"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:7
+msgid "Cherry Door"
+msgstr "Gereziondo atea"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:8
+msgid "Cherry Fence"
+msgstr "Gereziondo hesia"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:9
+msgid "Cherry Fence Gate"
+msgstr "Gereziondo hesiko atea"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:10
+msgid "Cherry Hanging Sign"
+msgstr "Gerezi Seinale Zintzilikaria"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:11
+msgid "Cherry Leaves"
+msgstr "Gereziondo hostoak"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:12
+msgid "Cherry Log"
+msgstr "Gereziondo enborra"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:13
+msgid "Cherry Planks"
+msgstr "Gereziondo oholak"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:14
+msgid "Cherry Pressure Plate"
+msgstr "Gereziondoaren presio-plaka"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:15
+msgid "Cherry Sapling"
+msgstr "Gereziondo ernamuina"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:16
+msgid "Cherry Sign"
+msgstr "Gereziondo kartela"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:17
+msgid "Cherry Slab"
+msgstr "Gereziondo lauza"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:18
+msgid "Cherry Stairs"
+msgstr "Gereziondo eskailerak"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:19
+msgid "Cherry Trapdoor"
+msgstr "Gereziondo tranpola"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:20
+msgid "Cherry leaves are grown from Cherry trees."
+msgstr "Gereziondoaren hostoak Gereziondoaren zuhaitzetan hazten dira."
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:21
+msgid "Stripped Cherry Bark"
+msgstr "Azalik gabeko gereziondo egurra"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:22
+msgid "Stripped Cherry Log"
+msgstr "Azalik gabeko gereziondo enborra"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:23
+msgid "The stripped trunk of an Cherry tree."
+msgstr "Gereziondo zuhaitz baten azalik gabeko enborra."
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:24
+msgid "The stripped wood of an Cherry tree."
+msgstr "Gereziondo zuhaitz baten azalik gabeko egurra."
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:25
+msgid "The trunk of a Cherry tree."
+msgstr "Gereziondo zuhaitz baten enborra."

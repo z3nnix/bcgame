@@ -1,0 +1,683 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_copper x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_copper/items.lua:4
+msgid "Copper Ingot"
+msgstr "Мыс құймасы"
+
+#: mods/ITEMS/mcl_copper/items.lua:5
+msgid "Molten Copper. It is used to craft armor, tools, and blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/items.lua:9
+msgid "Copper Material"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/items.lua:18
+msgid "Copper Nugget"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/items.lua:19
+msgid ""
+"Copper nuggets are very small pieces of molten copper; the main purpose is "
+"to create copper ingots."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/items.lua:26
+msgid "Raw Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/items.lua:27
+msgid "Raw Copper. Mine a Copper Ore to get it."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:1
+msgid "Block of Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:2
+msgid "Block of Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:3
+msgid "Chiseled Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:4
+msgid "Chiseled Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:5
+msgid "Copper Bars"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:6
+msgid "Copper Bulb"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:7
+msgid "Copper Bulb On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:8
+msgid "Copper Bulb Powered Off"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:9
+msgid "Copper Bulb Powered On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:10
+msgid "Copper Bulb is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:11
+msgid "Copper Chain"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:12
+msgid "Copper Chains are metallic decoration blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:13
+msgid "Copper Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:14
+msgid "Copper Grate"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:15
+msgid "Copper Grate is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:16
+msgid "Copper Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:17
+msgid ""
+"Copper Lanterns are light sources which can be placed on the top or the "
+"bottom of most blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:18
+msgid "Copper Trapdoor"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:19
+msgid "Cut Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:20
+msgid "Cut Copper Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:21
+msgid "Cut Copper Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:22
+msgid "Cut Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:23
+msgid "Exposed Chiseled Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:24
+msgid "Exposed Chiseled Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:25
+msgid "Exposed Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:26
+msgid "Exposed Copper Bars"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:27
+msgid "Exposed Copper Bulb"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:28
+msgid "Exposed Copper Bulb On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:29
+msgid "Exposed Copper Bulb Powered Off"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:30
+msgid "Exposed Copper Bulb Powered On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:31
+msgid "Exposed Copper Bulb is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:32
+msgid "Exposed Copper Chain"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:33
+msgid "Exposed Copper Chains are metallic decoration blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:34
+msgid "Exposed Copper Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:35
+msgid "Exposed Copper Grate"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:36
+msgid "Exposed Copper Grate is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:37
+msgid "Exposed Copper Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:38
+msgid ""
+"Exposed Copper Lanterns are light sources which can be placed on the top or "
+"the bottom of most blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:39
+msgid "Exposed Copper Trapdoor"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:40
+msgid "Exposed Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:41
+msgid "Exposed Cut Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:42
+msgid "Exposed Cut Copper Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:43
+msgid "Exposed Cut Copper Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:44
+msgid "Exposed Cut Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:45
+msgid "Oxidized Chiseled Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:46
+msgid "Oxidized Chiseled Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:47
+msgid "Oxidized Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:48
+msgid "Oxidized Copper Bars"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:49
+msgid "Oxidized Copper Bulb"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:50
+msgid "Oxidized Copper Bulb On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:51
+msgid "Oxidized Copper Bulb Powered Off"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:52
+msgid "Oxidized Copper Bulb Powered On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:53
+msgid "Oxidized Copper Bulb is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:54
+msgid "Oxidized Copper Chain"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:55
+msgid "Oxidized Copper Chains are metallic decoration blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:56
+msgid "Oxidized Copper Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:57
+msgid "Oxidized Copper Grate"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:58
+msgid "Oxidized Copper Grate is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:59
+msgid "Oxidized Copper Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:60
+msgid ""
+"Oxidized Copper Lanterns are light sources which can be placed on the top or "
+"the bottom of most blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:61
+msgid "Oxidized Copper Trapdoor"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:62
+msgid "Oxidized Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:63
+msgid "Oxidized Cut Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:64
+msgid "Oxidized Cut Copper Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:65
+msgid "Oxidized Cut Copper Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:66
+msgid "Oxidized Cut Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:67
+msgid "Waxed Block of Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:68
+msgid "Waxed Chiseled Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:69
+msgid "Waxed Copper Bars"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:70
+msgid "Waxed Copper Bulb"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:71
+msgid "Waxed Copper Bulb On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:72
+msgid "Waxed Copper Bulb Powered Off"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:73
+msgid "Waxed Copper Bulb Powered On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:74
+msgid "Waxed Copper Chain"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:75
+msgid "Waxed Copper Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:76
+msgid "Waxed Copper Grate"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:77
+msgid "Waxed Copper Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:78
+msgid "Waxed Copper Trapdoor"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:79
+msgid "Waxed Cut Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:80
+msgid "Waxed Cut Copper Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:81
+msgid "Waxed Cut Copper Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:82
+msgid "Waxed Double @1"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:83
+msgid "Waxed Exposed Chiseled Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:84
+msgid "Waxed Exposed Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:85
+msgid "Waxed Exposed Copper Bars"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:86
+msgid "Waxed Exposed Copper Bulb"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:87
+msgid "Waxed Exposed Copper Bulb On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:88
+msgid "Waxed Exposed Copper Bulb Powered Off"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:89
+msgid "Waxed Exposed Copper Bulb Powered On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:90
+msgid "Waxed Exposed Copper Chain"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:91
+msgid "Waxed Exposed Copper Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:92
+msgid "Waxed Exposed Copper Grate"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:93
+msgid "Waxed Exposed Copper Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:94
+msgid "Waxed Exposed Copper Trapdoor"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:95
+msgid "Waxed Exposed Cut Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:96
+msgid "Waxed Exposed Cut Copper Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:97
+msgid "Waxed Exposed Cut Copper Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:98
+msgid "Waxed Oxidized Chiseled Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:99
+msgid "Waxed Oxidized Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:100
+msgid "Waxed Oxidized Copper Bars"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:101
+msgid "Waxed Oxidized Copper Bulb"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:102
+msgid "Waxed Oxidized Copper Bulb On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:103
+msgid "Waxed Oxidized Copper Bulb Powered Off"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:104
+msgid "Waxed Oxidized Copper Bulb Powered On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:105
+msgid "Waxed Oxidized Copper Chain"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:106
+msgid "Waxed Oxidized Copper Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:107
+msgid "Waxed Oxidized Copper Grate"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:108
+msgid "Waxed Oxidized Copper Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:109
+msgid "Waxed Oxidized Copper Trapdoor"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:110
+msgid "Waxed Oxidized Cut Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:111
+msgid "Waxed Oxidized Cut Copper Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:112
+msgid "Waxed Oxidized Cut Copper Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:113
+msgid "Waxed Upper @1"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:114
+msgid "Waxed Weathered Chiseled Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:115
+msgid "Waxed Weathered Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:116
+msgid "Waxed Weathered Copper Bars"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:117
+msgid "Waxed Weathered Copper Bulb"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:118
+msgid "Waxed Weathered Copper Bulb On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:119
+msgid "Waxed Weathered Copper Bulb Powered Off"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:120
+msgid "Waxed Weathered Copper Bulb Powered On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:121
+msgid "Waxed Weathered Copper Chain"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:122
+msgid "Waxed Weathered Copper Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:123
+msgid "Waxed Weathered Copper Grate"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:124
+msgid "Waxed Weathered Copper Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:125
+msgid "Waxed Weathered Copper Trapdoor"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:126
+msgid "Waxed Weathered Cut Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:127
+msgid "Waxed Weathered Cut Copper Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:128
+msgid "Waxed Weathered Cut Copper Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:129
+msgid "Weathered Chiseled Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:130
+msgid "Weathered Chiseled Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:131
+msgid "Weathered Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:132
+msgid "Weathered Copper Bars"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:133
+msgid "Weathered Copper Bulb"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:134
+msgid "Weathered Copper Bulb On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:135
+msgid "Weathered Copper Bulb Powered Off"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:136
+msgid "Weathered Copper Bulb Powered On"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:137
+msgid "Weathered Copper Bulb is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:138
+msgid "Weathered Copper Chain"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:139
+msgid "Weathered Copper Chains are metallic decoration blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:140
+msgid "Weathered Copper Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:141
+msgid "Weathered Copper Grate"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:142
+msgid "Weathered Copper Grate is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:143
+msgid "Weathered Copper Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:144
+msgid ""
+"Weathered Copper Lanterns are light sources which can be placed on the top "
+"or the bottom of most blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:145
+msgid "Weathered Copper Trapdoor"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:146
+msgid "Weathered Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:147
+msgid "Weathered Cut Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:148
+msgid "Weathered Cut Copper Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:149
+msgid "Weathered Cut Copper Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:150
+msgid "Weathered Cut Copper is mostly a decorative block."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/nodes.lua:42
+msgid "Copper Ore"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/nodes.lua:43
+msgid ""
+"Some copper contained in stone, it is pretty common and can be found below "
+"sea level."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/nodes.lua:63
+msgid "Block of Raw Copper"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/nodes.lua:64
+msgid "A block used for compact raw copper storage."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/nodes.lua:247
+msgid "Copper Bars neatly connect to their neighbors as you build them."
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/nodes.lua:290
+msgid "Copper Torch"
+msgstr ""
+
+#: mods/ITEMS/mcl_copper/nodes.lua:291
+msgid ""
+"Copper Torches are light sources which can be placed at the side or on the "
+"top of most blocks."
+msgstr ""

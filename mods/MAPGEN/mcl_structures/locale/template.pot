@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-30 22:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/MAPGEN/mcl_structures/init.lua:126
+msgid "Generate a pre-defined structure near your position."
+msgstr ""
+
+#: mods/MAPGEN/mcl_structures/init.lua:138
+msgid "Structure placed."
+msgstr ""
+
+#: mods/MAPGEN/mcl_structures/init.lua:142
+msgid "Error: No structure type given. Please use “/spawnstruct <type>”."
+msgstr ""
+
+#: mods/MAPGEN/mcl_structures/init.lua:151
+msgid "Error: Unknown structure type. Please use “/spawnstruct <type>”."
+msgstr ""
+
+#: mods/MAPGEN/mcl_structures/init.lua:156
+msgid "Use /help spawnstruct to see a list of available types."
+msgstr ""

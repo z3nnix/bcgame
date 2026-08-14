@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_furnaces x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:32 mods/ITEMS/mcl_furnaces/init.lua:71
+msgid "Inventory"
+msgstr "Inventar"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:40 mods/ITEMS/mcl_furnaces/init.lua:79
+msgid "Recipe book"
+msgstr "Fertigungsbuch"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:424 mods/ITEMS/mcl_furnaces/init.lua:585
+#: mods/ITEMS/mcl_furnaces/init.lua:615 mods/ITEMS/mcl_furnaces/init.lua:664
+msgid "Furnace"
+msgstr "Ofen"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:616
+msgid "Uses fuel to smelt or cook items"
+msgstr "Benutzt Brennstoff, um Dinge zu schmelzen oder zu kochen"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:617
+msgid ""
+"Furnaces cook or smelt several items, using a furnace fuel, into something "
+"else."
+msgstr ""
+"Ofen kochen oder schmelzen diverse Gegenstände, unter Zuhilfenahme eines "
+"Brennstoffs, zu etwas anderem."
+
+#: mods/ITEMS/mcl_furnaces/init.lua:619
+msgid "Use the furnace to open the furnace menu."
+msgstr "Verwenden Sie den Ofen, um das Ofenmenü zu öffnen."
+
+#: mods/ITEMS/mcl_furnaces/init.lua:620
+msgid ""
+"Place a furnace fuel in the lower slot and the source material in the upper "
+"slot."
+msgstr ""
+"Legen Sie einen Ofenbrennstoff in den unteren Schlitz und das "
+"Ausgangsmaterial in den oberen Schlitz."
+
+#: mods/ITEMS/mcl_furnaces/init.lua:621
+msgid "The furnace will slowly use its fuel to smelt the item."
+msgstr ""
+"Der Ofen wird langsam seinen Brennstoff verbrauchen, um den Gegenstand zu "
+"schmelzen."
+
+#: mods/ITEMS/mcl_furnaces/init.lua:622
+msgid "The result will be placed into the output slot at the right side."
+msgstr ""
+"Das Ergebnis wird in den Ausgabeschlitz auf der rechten Seite eingefügt."
+
+#: mods/ITEMS/mcl_furnaces/init.lua:623
+msgid ""
+"Use the recipe book to see what you can smelt, what you can use as fuel and "
+"how long it will burn."
+msgstr ""
+"Benutzen Sie das Rezeptbuch, um zu sehen, was Sie schmelzen können und was "
+"Sie als Brennstoff benutzen können und wie lange dieser brennt."
+
+#: mods/ITEMS/mcl_furnaces/init.lua:631
+msgid "Burning Furnace"
+msgstr "Aktiver Ofen"

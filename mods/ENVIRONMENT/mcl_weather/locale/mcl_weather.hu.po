@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_weather x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 18:07+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ENVIRONMENT/mcl_weather/nether_dust.lua:71
+msgid "Enable dust particles in the nether"
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/skycolor.lua:7
+msgid "Enable clouds"
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:219
+msgid "Gives ability to control weather"
+msgstr "Befolyásolhatod az időjárást"
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:226
+msgid "Changes the weather to the specified parameter."
+msgstr "Megváltoztatja az időjárást."
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:230
+msgid "Error: No weather specified."
+msgstr "Hiba: nem adtál meg időjárást."
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:241
+msgid "Error: Invalid parameters."
+msgstr "Hiba: érvénytelen paraméter."
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:247
+msgid "Error: Duration can't be less than 1 second."
+msgstr "Hiba: az időtartam nem lehet 1 másodpercnél rövidebb."
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:257
+msgid "Error: Invalid weather specified. Use “clear”, “rain”, or “thunder”."
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:264
+msgid ""
+"Toggles between clear weather and weather with downfall (randomly rain, "
+"thunderstorm or snow)"
+msgstr ""
+"Váltogat a tiszta idő és a csapadék között (véletlenszerűen eső, vihar vagy "
+"hó)"

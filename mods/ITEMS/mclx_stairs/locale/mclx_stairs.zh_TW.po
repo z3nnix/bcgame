@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mclx_stairs x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mclx_stairs/init.lua:7
+msgid "Lapis Lazuli Stairs"
+msgstr "青金石階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:13
+msgid "Lapis Lazuli Slab"
+msgstr "青金石台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:21
+msgid "Gold Stairs"
+msgstr "金階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:27
+msgid "Gold Slab"
+msgstr "金台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:35
+msgid "Iron Stairs"
+msgstr "鐵階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:41
+msgid "Iron Slab"
+msgstr "鐵台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:49
+msgid "Cracked Stone Brick Stairs"
+msgstr "裂紋石磚階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:50
+msgid "Cracked Stone Brick Slab"
+msgstr "裂紋石磚台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:56
+msgid "Cracked Deepslate Brick Stairs"
+msgstr "裂紋深板岩磚階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:57
+msgid "Cracked Deepslate Brick Slab"
+msgstr "裂紋深板岩磚台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:63
+msgid "Cracked Deepslate Tile Stairs"
+msgstr "裂紋深板岩磚瓦階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:64
+msgid "Cracked Deepslate Tile Slab"
+msgstr "裂紋深板岩磚瓦台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:71
+msgid "End Stone Stairs"
+msgstr "終界石階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:72
+msgid "End Stone Slab"
+msgstr "終界石台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:80
+msgid "Smooth Stone Stairs"
+msgstr "平滑石階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:91 mods/ITEMS/mclx_stairs/init.lua:149
+msgid "Terracotta Stairs"
+msgstr "陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:92 mods/ITEMS/mclx_stairs/init.lua:147
+msgid "Terracotta Slab"
+msgstr "陶土台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:134
+msgid "Concrete Slab"
+msgstr "混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:135
+msgid "Double Concrete Slab"
+msgstr "雙層混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/init.lua:136
+msgid "Concrete Stairs"
+msgstr "混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/init.lua:148
+msgid "Double Terracotta Slab"
+msgstr "雙層陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:1
+msgid "Black Concrete Slab"
+msgstr "黑色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:2
+msgid "Black Concrete Stairs"
+msgstr "黑色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:3
+msgid "Black Terracotta Slab"
+msgstr "黑色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:4
+msgid "Black Terracotta Stairs"
+msgstr "黑色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:5
+msgid "Blue Concrete Slab"
+msgstr "藍色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:6
+msgid "Blue Concrete Stairs"
+msgstr "藍色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:7
+msgid "Blue Terracotta Slab"
+msgstr "藍色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:8
+msgid "Blue Terracotta Stairs"
+msgstr "藍色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:9
+msgid "Brown Concrete Slab"
+msgstr "棕色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:10
+msgid "Brown Concrete Stairs"
+msgstr "棕色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:11
+msgid "Brown Terracotta Slab"
+msgstr "棕色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:12
+msgid "Brown Terracotta Stairs"
+msgstr "棕色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:13
+msgid "Cyan Concrete Slab"
+msgstr "青色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:14
+msgid "Cyan Concrete Stairs"
+msgstr "青色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:15
+msgid "Cyan Terracotta Slab"
+msgstr "青色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:16
+msgid "Cyan Terracotta Stairs"
+msgstr "青色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:17
+msgid "Green Concrete Slab"
+msgstr "綠色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:18
+msgid "Green Concrete Stairs"
+msgstr "綠色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:19
+msgid "Green Terracotta Slab"
+msgstr "綠色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:20
+msgid "Green Terracotta Stairs"
+msgstr "綠色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:21
+msgid "Grey Concrete Slab"
+msgstr "灰色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:22
+msgid "Grey Concrete Stairs"
+msgstr "灰色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:23
+msgid "Grey Terracotta Slab"
+msgstr "灰色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:24
+msgid "Grey Terracotta Stairs"
+msgstr "灰色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:25
+msgid "Light Blue Concrete Slab"
+msgstr "淺藍色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:26
+msgid "Light Blue Concrete Stairs"
+msgstr "淺藍色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:27
+msgid "Light Blue Terracotta Slab"
+msgstr "淺藍色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:28
+msgid "Light Blue Terracotta Stairs"
+msgstr "淺藍色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:29
+msgid "Light Grey Concrete Slab"
+msgstr "淺灰色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:30
+msgid "Light Grey Concrete Stairs"
+msgstr "淺灰色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:31
+msgid "Light Grey Terracotta Slab"
+msgstr "淺灰色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:32
+msgid "Light Grey Terracotta Stairs"
+msgstr "淺灰色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:33
+msgid "Lime Concrete Slab"
+msgstr "淺綠色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:34
+msgid "Lime Concrete Stairs"
+msgstr "淺綠色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:35
+msgid "Lime Terracotta Slab"
+msgstr "淺綠色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:36
+msgid "Lime Terracotta Stairs"
+msgstr "淺綠色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:37
+msgid "Magenta Concrete Slab"
+msgstr "洋紅色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:38
+msgid "Magenta Concrete Stairs"
+msgstr "洋紅色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:39
+msgid "Magenta Terracotta Slab"
+msgstr "洋紅色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:40
+msgid "Magenta Terracotta Stairs"
+msgstr "洋紅色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:41
+msgid "Orange Concrete Slab"
+msgstr "橙色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:42
+msgid "Orange Concrete Stairs"
+msgstr "橙色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:43
+msgid "Orange Terracotta Slab"
+msgstr "橙色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:44
+msgid "Orange Terracotta Stairs"
+msgstr "橙色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:45
+msgid "Pink Concrete Slab"
+msgstr "粉紅色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:46
+msgid "Pink Concrete Stairs"
+msgstr "粉紅色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:47
+msgid "Pink Terracotta Slab"
+msgstr "粉紅色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:48
+msgid "Pink Terracotta Stairs"
+msgstr "粉紅色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:49
+msgid "Purple Concrete Slab"
+msgstr "紫色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:50
+msgid "Purple Concrete Stairs"
+msgstr "紫色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:51
+msgid "Purple Terracotta Slab"
+msgstr "紫色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:52
+msgid "Purple Terracotta Stairs"
+msgstr "紫色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:53
+msgid "Red Concrete Slab"
+msgstr "紅色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:54
+msgid "Red Concrete Stairs"
+msgstr "紅色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:55
+msgid "Red Terracotta Slab"
+msgstr "紅色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:56
+msgid "Red Terracotta Stairs"
+msgstr "紅色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:57
+msgid "White Concrete Slab"
+msgstr "白色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:58
+msgid "White Concrete Stairs"
+msgstr "白色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:59
+msgid "White Terracotta Slab"
+msgstr "白色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:60
+msgid "White Terracotta Stairs"
+msgstr "白色陶土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:61
+msgid "Yellow Concrete Slab"
+msgstr "黃色混凝土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:62
+msgid "Yellow Concrete Stairs"
+msgstr "黃色混凝土階梯"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:63
+msgid "Yellow Terracotta Slab"
+msgstr "黃色陶土台階"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:64
+msgid "Yellow Terracotta Stairs"
+msgstr "黃色陶土階梯"

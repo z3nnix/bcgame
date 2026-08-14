@@ -1,0 +1,900 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_mobs x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-12 07:46+0200\n"
+"PO-Revision-Date: 2026-06-05 08:08+0000\n"
+"Last-Translator: bo_chan <bo_chan@noreply.codeberg.org>\n"
+"Language-Team: Japanese <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_mobs/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.5\n"
+
+#: mods/ENTITIES/mcl_mobs/api.lua:738
+msgid ""
+"Remove all, nametagged or tamed mobs within the specified distance or "
+"everywhere. When unspecified remove all mobs except tamed and nametagged "
+"ones."
+msgstr ""
+"指定した距離内、または全域のモブを削除します。指定がない場合は、手懐けられた"
+"モブと名札が付いたモブを除くすべてのモブを削除します。"
+
+#: mods/ENTITIES/mcl_mobs/api.lua:751 mods/ENTITIES/mcl_mobs/api.lua:758
+msgid "Invalid syntax."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/init.lua:682
+msgid "This allows you to place a single mob."
+msgstr "これにより、1体のMOBを配置できます。"
+
+#: mods/ENTITIES/mcl_mobs/init.lua:683
+msgid ""
+"Just place it where you want the mob to appear. Animals will spawn tamed, "
+"unless you hold down the sneak key while placing. If you place this on a mob "
+"spawner, you change the mob it spawns."
+msgstr ""
+"MOBを出現させたい場所に、置くだけです。スニークキーを押しながら配置しない限"
+"り、動物は飼いならされた状態でスポーンします。MOBスポナーに設置すると、スポー"
+"ンするMOBが変わります。"
+
+#. ~amana/research/grid.pdf
+#. The ubiquitous slab method of intersecting rays with
+#. AABBs.
+#. This is a Minetest internal function that enables this frequently
+#. invoked function to avoid table allocation and consequently
+#. generated garbage.
+#. X face.
+#. Y face.
+#. Z face.
+#. Intersection with furthest near face is within the
+#. vector.
+#. Intersection with closest far face
+#. falls after the origin.
+#. luacheck: push ignore 581
+#. luacheck: pop
+#. Move pos1 and pos2 by minuscule values to avoid generating
+#. Inf or NaN.
+#. Precompute reciprocal.
+#. Read the height of every colliding node in moveresult,
+#. and the node above.
+#. Verify that the direction from which the collision
+#. is registered substantially matches the direction
+#. of movement.
+#. ~40 deg.
+#. should mob follow what I'm holding ?
+#. ----------------------------------------------------------------------
+#. Jockeys.
+#. ----------------------------------------------------------------------
+#. Controlling mobs in jockeys are not saved directly, but in
+#. the staticdata of their vehicles.
+#. Fix the visual size of this mob.
+#. Caveat emptor: it is far too involved to get this to
+#. function correctly in the presence of nested attachments
+#. that differ in visual size, and consequently, if multiple
+#. objects are to be jocked above each other, they _must_
+#. share a visual_size of 1.
+#. Remove any jockey that is no longer valid and was not
+#. expressly removed.
+#. If this mob's mount has vanished, remove itself also.
+#. Dismount the jockey if this mob is to be
+#. permanantly removed, and otherwise, save its
+#. staticdata into its vehicle.
+#. XXX: is it possible that a jockey's
+#. passenger should be unloaded
+#. independently of its vehicle?
+#. Save the rider's staticdata.
+#. Don't serialize name.
+#. XXX: what about mobs which alter their visual
+#. sizes?
+#. ------------------------------------------------------------------------------
+#. - Movement mechanics for flying/swimming/landed mobs.
+#. ------------------------------------------------------------------------------
+#. Be more eager to jump if it is really certain that
+#. this mob expects to do so.
+#. Jump again if the collision remains after
+#. the next step.
+#. Continue accelerating until contact is made with the
+#. ground, but do not rotate while jumping.
+#. "Normalize" direction if greater than 1.
+#. Don't jump off ledges or head into unwalkable nodes if
+#. strafing in reverse or to the sides.
+#. Scale the delta to reflect the
+#. quantity of movement applied in one
+#. Minecraft tick.
+#. Begin strafing.
+#. Arrest movement.
+#. ----------------------------------------------------------------------
+#. Mob navigation.
+#. ----------------------------------------------------------------------
+#. ----------------------------------------------------------------------
+#. Navigation wrapper.
+#. ----------------------------------------------------------------------
+#. Return the state of the current navigation session.
+#. Value is:
+#.
+#. "failed", if navigation failed to bring this mob to its
+#. destination.
+#.
+#. "wait", if navigation is proceeding or a timeout is being
+#. processed.
+#.
+#. "arrived", if navigation completed successfully or was
+#. terminated.
+#. If pathfinding is still in progress, wait for its
+#. completion.
+#. A path was just requested.  If no path now exists, this
+#. navigation should be considered to have failed; likewise
+#. if the terminus of this path.
+#. If the distance between the current position and
+#. the destination is within the defined tolerance,
+#. this mob has arrived at its destination.
+#. Retry in a staggered fashion.
+#. Always use a new target if specified.
+#. Has this mob strayed very far from the next waypoint along
+#. the path?  If so, recompute this path.
+#. Check for frustration...  If the destination is
+#. identical to the previous partial position,
+#. increment the frustration counter.
+#. mob.waypoints.target is set if the path is
+#. complete.
+#. Navigation has completed.  Attempt to detect whether this
+#. mob has arrived at its destination, and if not, attempt to
+#. return to the destination.
+#. Always use a new target if specified.
+#. Remember the position of the waypoint just
+#. passed.  If another partial path is created
+#. to the same position, indicate failure.
+#. ----------------------------------------------------------------------
+#. Mob AI.
+#. ----------------------------------------------------------------------
+#. Otherwise move to the air node above.
+#. Make ten attempts to select a node within the
+#. restriction or one that is eligible.
+#. Minecraft tries ten times every tick.
+#. Last mob to have attacked this mob within the past five
+#. seconds.
+#. If spawned in a proto-chunk, suspend the mob's AI until
+#. such time as the chunk where it resides is completely
+#. generated.
+#. Number of seconds since mob was last punched.
+#. Search for nearby mobs to avoid.
+#. Can this mob continue to follow its target?
+#. check_head_swivel is responsible for
+#. looking at the target.
+#. Still seeking sunlight?
+#. Still frightened?
+#. If this mob is burning, search for water.
+#. Still pacing?
+#. Should pace?
+#. Minecraft mobs pace to random positions
+#. within a 20 block distance lengthwise and
+#. 14 blocks vertically.
+#. If this is an aquatic mob, search
+#. for nodes in which it is capable of
+#. swimming.
+#. Cancel the current activity.
+#. Don't run AI if controlled as a jockey.
+#. Check all inactive AI functions if the current
+#. activity can be interrupted.
+#. Or tick the active activity if not.
+#. ----------------------------------------------------------------------
+#. Aquatic mob behavior.
+#. ----------------------------------------------------------------------
+#. Make ten attempts to select a node within the
+#. restriction.
+#. Designate one of the school's fish as its leader.
+#. This fish already leads a school.  Remove invalid
+#. entries from its list of members.
+#. Assign nearby unassigned mobs other than the
+#. selected leader to its school.
+#. Was this mob assigned to a leader, or has it gained
+#. a school?
+#. ----------------------------------------------------------------------
+#. Amphibious mobs.  These are very akin to landed mobs in their
+#. pathfinding mechanics, but not in their movement.
+#. ----------------------------------------------------------------------
+#. Orient the mob vertically.
+#. ~50 degrees.
+#. Not moving horizontally.
+#. Fish cannot change their pitch outside a body of
+#. water.
+#. Otherwise attempt to move onto land, if possible.
+#. ----------------------------------------------------------------------
+#. Flying mob behavior.  This only applies to mobs that are truly
+#. adapted to flight in all respects, which excludes bats, whose
+#. flight is implemented in their AI loop, or ghasts, which do not
+#. pathfind.
+#. ----------------------------------------------------------------------
+#. Replace movement_speed with airborne_speed if airborne.
+#. Vertical acceleration is not adjusted by the pitch
+#. in order to simulate real world flight.
+#. Arrest movement.
+#. First, generate a position within 90 degrees of this mob's
+#. current direction of sight.
+#. Is this node walkable?
+#. Move an arbitrary number of blocks
+#. into the air above this node.
+#. ----------------------------------------------------------------------
+#. Mob restrictions.
+#. ----------------------------------------------------------------------
+#. ----------------------------------------------------------------------
+#. Mob attribute randomization.
+#. ----------------------------------------------------------------------
+#. This was once 0.05 but has been increased to ~1/9 in MC
+#. 1.20.
+#. ----------------------------------------------------------------------
+#. Utility functions.
+#. ----------------------------------------------------------------------
+#. Return position of the node containing this mob's base, providing
+#. for minor deviations below the surface of any colliding supporting
+#. node that may have been produced by imprecisions in collision
+#. detection.
+#. Collect all vertices around the complete collision box in
+#. order to anticipate the amount of movement which might be
+#. applied on other axes.
+#. Perform another collision test with axes other than
+#. this one, adjusted so as to exclude any
+#. obstructions which might subsequently be evaded by
+#. such movement.
+#. Move the bbox for subsequent tests.
+#. Move the bbox for subsequent tests.
+#. Move the bbox for subsequent tests.
+#. No collisions were detected.
+#. Swap node positions.
+#. idx is now the proper depth of this node in the tree.
+#. Break early if it is known that no nodes exist
+#. greater than this.
+#. Extensible A* pathfinder.
+#.
+#. Notably, it is capable of moving diagonally, assigning deterrence
+#. values to blocks, navigating to multiple targets, and returning
+#. incomplete paths.
+#. assert (x % 1 == 0 and y % 1 == 0 and z % 1 == 0)
+#. 3d Manhattan distance of closest_node.
+#. Visited node nearest to the target.
+#. Class and penalty of this node.
+#. Deal with soul sand and slabs.
+#. It is possible for mobs to turn around during a repath if
+#. the start position returned is inconsistent with that of
+#. the last waypoint reached, for this will frequently produce
+#. a path containing the new start position, followed by that
+#. of the previous waypoint, while gwp_next_waypoint is only
+#. capable of eliminating one overrun waypoint at a time.
+#. If standing in water...
+#. Find the first water source beneath a
+#. non-source block.
+#. If touching ground, return the position of the node
+#. at the center of this mob, which will prompt
+#. gwp_start to return a position derived from one of
+#. the corners of the bounding box if the mob is stuck
+#. with its center over the edge of a long drop.
+#. Check for valid start positions at every block on
+#. which this mob is standing.
+#. `optional' indicates that the selected POS
+#. is sub-optimal and should be overridden by
+#. any other walkable node contacting this
+#. mob's bounding box.
+#. If this mob is supported by a suspended carpet or analogous
+#. node which is too thin to be classified as a valid surface
+#. but which is still capable of supporting objects, accept
+#. the initial position as-is.
+#. If this mob is stuck inside a fence-like node (by which it
+#. is meant any node narrower than a full node) placed upon a
+#. ledge, attempt to locate a corner that is aloft.  If no
+#. such corner is available, evaluate the six corners
+#. surrounding the fence and attempt to exit from the corner
+#. nearest to the fence.
+#. As a final attempt, try to exit any solid node in which
+#. this mob is stuck.
+#. Save the nearest node into the target for use in
+#. reconstruction of partial paths.
+#. This limit is decided by the values `hashpos' is capable of
+#. handling.
+#. Compute pathfinding bounds.
+#. Establish a limit on the distance of routes and on the
+#. number of nodes examined.
+#. Return positions touching the surfaces of the nodes below.
+#. Calculate entity dimensions.
+#. Map target positions to acceptable nodes.
+#. Save information that may be accessed in deriving a start
+#. position.
+#. Derive a valid start position if suspended in water or the
+#. like.
+#. Construct initial open set and initialize context for first
+#. cycle.
+#. Derive this distance from difficulty and remaining
+#. health.  get_properties produces too much garbage.
+#. Be willing to sacrifice more health in pursuit of a
+#. target as difficulty increases.
+#. Convert this timeout to us.
+#. Evaluate this node...does it constitute an arrival
+#. at any target?
+#. Enter each neighbor into the queue.
+#. What is the distance from hence to this
+#. neighbor?
+#. Minecraft value.
+#. Re-enqueue this neighbor if this
+#. path to it is shorter.
+#. N.B. in this branch neighbor.g and
+#. .h might not yet have been
+#. computed.
+#. Adjust waypoint position so as to center the mob on
+#. the path.
+#. Adjust waypoint position so as to center the mob on
+#. the path.
+#. Return the path traversing the fewest nodes.
+#. If real_dest is set, replace the best node
+#. with it.  This facility is only exercised
+#. by the Ender Dragon.
+#. Generate a list of paths to nodes nearest their respective
+#. targets, and select that crossing the fewest nodes.
+#. ----------------------------------------------------------------------------
+#. - Graph edge generation.  It is expected that different versions of
+#. - these functions will be provided by mobs according to how they
+#. - move.
+#. ----------------------------------------------------------------------------
+#. Classify the block above the parent's position, unless
+#. already classified.
+#. And make sure it both the target and the parent are
+#. navigable.
+#. Return true if this node is walkable or water.
+#. But first, verify that the node is not too far
+#. above the current node.
+#. Walkable?
+#. Try to descend from the second (or higher) block of a wooden door.
+#. This is necessary for the reason that doors will otherwise always
+#. be considered equivalent to walkable surfaces.
+#. No need to descend; reuse the input
+#. object.
+#. It's doors all the way down.
+#. Can this mob climb from PARENT to this node on the same
+#. level without jumping?
+#. Is the node traversable?  Return fences though they
+#. are not, as they are needed to validate diagonal
+#. movements.
+#. Is the node unusable?
+#. Should there be an attempt to jump onto
+#. this node?
+#. This explicitly excludes trapdoors
+#. and suchlike from consideration.
+#. Any test for `IGNORE' here would simply be
+#. redundant, as it is always assigned a
+#. penalty of -1.
+#. elseif class == "IGNORE" then
+#. object = nil
+#. A penalty < 0 indicates unconditional rejection, while one
+#. greater than zero compounds the heuristic distance.
+#. Return whether the node is the default cube.
+#. ALways read from the default box.
+#. The assumption is that any node whose cbox
+#. intersects with a centered half cube obstructs mob
+#. movement.
+#. local record_pathfinding_stats = true
+#. local bc_stats = { }
+#. Treat non-walkable nodes as identical to air, although this
+#. is far from their true bounding boxes, to avoid certain
+#. inconsistencies.
+#. Pre-compute node classes for efficiency.  Beware that
+#. DOOR_IRON_CLOSED and DOOR_WOOD_CLOSED must still be processed
+#. specially to establish whether doors are open.
+#. Minecraft assigns blocks to one of these classes:
+#. (See: https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.12.2/net/minecraft/pathfinding/PathNodeType.html)
+#. BLOCKED
+#. DAMAGE_CACTUS (not necessary in Mineclonia)
+#. DAMAGE_FIRE
+#. DAMAGE_OTHER
+#. DANGER_CACTUS (not necessary in Mineclonia)
+#. DANGER_FIRE
+#. DANGER_OTHER
+#. DOOR_IRON_CLOSED
+#. DOOR_OPEN
+#. DOOR_WOOD_CLOSED
+#. FENCE
+#. LAVA
+#. OPEN
+#. RAIL (not necessary in Mineclonia)
+#. TRAPDOOR
+#. WALKABLE
+#. WATER
+#.
+#. Danger-inflicting nodes are penalized in the pathfinding
+#. process but not categorically avoided.
+#. Damage-inflicting nodes are penalized more, and
+#. encompass LAVA and the like.
+#. If a hazardous node adjoins a node, the latter will be
+#. classified as damage-inflicting.
+#. A value of nil indicates a door whose state must be
+#. checked.
+#. Unknown nodes.
+#. if record_pathfinding_stats then
+#. bc_stats[value] = (bc_stats[value] or 0) + 1
+#. end
+#. If this block (the block in which the mob stands) is air,
+#. evaluate the node below.
+#. Don't cons a new vector.
+#. An OPEN node resting on an OPEN surface
+#. above a FENCE should be reset to WALKABLE,
+#. as the collision box of the FENCE will
+#. extend into the node above, becoming
+#. something of a slab.
+#. Otherwise, this is walkable.  Adjust its
+#. class according to its surroundings.
+#. Evaluate the approximate traversability of nodes that would contact
+#. this mob at POS, examining them, and if open, the node(s) beneath
+#. them.
+#. local gwp_cc_hits, gwp_cc_misses = 0, 0
+#. This is very expensive, as core.get_node conses too
+#. much.
+#. if record_pathfinding_stats then
+#. gwp_cc_hits = gwp_cc_hits + 1
+#. end
+#. if record_pathfinding_stats then
+#. gwp_cc_misses = gwp_cc_misses + 1
+#. end
+#. Report impassible nodes
+#. immediately.
+#. Otherwise select the worst class possible.
+#. Report impassible nodes
+#. immediately.
+#. Otherwise select the worst class possible.
+#. Nodes above fences should be regarded as slabs, as
+#. their collision boxes extend into nodes above.
+#. Otherwise the node is walkable.
+#. flanking1 and flanking2 are to be the two nodes flanking
+#. the path from NODE to the target.
+#. Reject movements over nonexistent flanking nodes or those
+#. taller than the origin.
+#. Reject open doors, which obstruct diagonal movement.
+#. Special treatment for movements flanked by fences on both
+#. sides being performed by mobs smaller than half a block in
+#. width.
+#. Reject a diagonal jump if the jump would be
+#. obstructed if performed from either of the flanking
+#. nodes.
+#. Consider neighbors in the four cardinal directions.
+#. Consider diagonal neighbors at an angle.
+#. jit.off (mob_class.gwp_edges, true)
+#. jit.off (gwp_edges_1, true)
+#. jit.off (mob_class.gwp_classify_node, true)
+#. jit.off (gwp_basic_classify, true)
+#. jit.off (mob_class.gwp_essay_drop, true)
+#. jit.off (mob_class.gwp_essay_jump, true)
+#. --------------------------------------------------------------------------------
+#. Pathfinder testing command `/mobpathfind'
+#.
+#. Some code adopted from the devtest mod `testpathfinder', which is
+#. Copyright (C) 2020 Wuzzy <Wuzzy@disroot.org>
+#.
+#. This program is free software; you can redistribute it and/or modify
+#. it under the terms of the GNU Lesser General Public License as published by
+#. the Free Software Foundation; either version 2.1 of the License, or
+#. (at your option) any later version.
+#.
+#. This program is distributed in the hope that it will be useful,
+#. but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. GNU Lesser General Public License for more details.
+#.
+#. You should have received a copy of the GNU Lesser General Public License along
+#. with this program; if not, write to the Free Software Foundation, Inc.,
+#. 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+#. --------------------------------------------------------------------------------
+#. Target position is immaterial here.
+#. Target position is immaterial here.
+#. Target position is immaterial here.
+#. Number of seconds per step permissible for pathfinding.
+#. Number of seconds spent pathfinding during this step.
+#. local pathfinding_history = {  }
+#. if record_pathfinding_stats then
+#. if #pathfinding_history >= 20 then
+#. local total, max = 0, 0
+#. for _, item in ipairs (pathfinding_history) do
+#. total = total + item
+#. if item > max then
+#. max = item
+#. end
+#. end
+#. core.log ("action", "During the previous 20 steps, an average"
+#. .. " of " .. string.format ("%.2f", total / 20 * 1000)
+#. .. " ms, and a maximum of "
+#. .. string.format ("%.2f", max * 1000)
+#. .. " ms, were spent pathfinding on behalf of ~"
+#. .. mobs_this_step .. " mobs (amounting to "
+#. .. string.format ("%.2f", max * 1000 / mobs_this_step)
+#. .. "/mob).")
+#. total = 0
+#. for nodetype, n in pairs (bc_stats) do
+#. total = total + n
+#. end
+#. core.log ("action", "In the process, " .. total .. " nodes were examined,"
+#. .. " distributed between: ")
+#. local t = {}
+#. for nodetype, n in pairs (bc_stats) do
+#. table.insert (t, { n, nodetype, })
+#. end
+#. table.sort (t, function (a, b) return a[1] < b[1] end)
+#. for _, item in ipairs (t) do
+#. core.log ("action", string.format ("   %s: %d nodes (%.2f %%)",
+#. item[2], item[1],
+#. item[1] / total * 100))
+#. end
+#. core.log ("action", string.format ("%.2f%% of classification attempts registered cache hits", (gwp_cc_hits / (gwp_cc_hits + gwp_cc_misses)) * 100))
+#. gwp_cc_hits = 0
+#. gwp_cc_misses = 0
+#. bc_stats = {}
+#. pathfinding_history = { }
+#. mobs_this_step = 0
+#. end
+#. table.insert (pathfinding_history, PATHFIND_PER_STEP - pathfinding_quota)
+#. end
+#. ----------------------------------------------------------------------
+#. Pathfinding for swimming mobs.
+#. ----------------------------------------------------------------------
+#. if record_pathfinding_stats then
+#. gwp_cc_hits = gwp_cc_hits + 1
+#. end
+#. if record_pathfinding_stats then
+#. gwp_cc_misses = gwp_cc_misses + 1
+#. end
+#. Water should be reported as walkable, to match callers'
+#. expectations.
+#. The final two elements of each vector define the indices of nodes
+#. on either side of a diagonal movement that must be checked in
+#. validating it.
+#. Cardinal directions.
+#. North.
+#. West.
+#. South.
+#. East.
+#. Bottom.
+#. Top.
+#. Level diagonal movement.
+#. Record this class and update the node's
+#. pathfinding penalty.
+#. Save the result.
+#. Offset Y positions of reconstructed path nodes so as to
+#. center the mob in the said nodes if it is sufficiently
+#. small.
+#. ----------------------------------------------------------------------
+#. Pathfinding for amphibious mobs.
+#. ----------------------------------------------------------------------
+#. Impassible node.
+#. Consider neighbors in the four cardinal directions.
+#. Consider diagonal neighbors at an angle.
+#. Consider neighbors vertically above and below, but only if
+#. they be water.
+#. ----------------------------------------------------------------------
+#. Pathfinding for airborne mobs.
+#. ----------------------------------------------------------------------
+#. Prefer direct paths to paths over land.
+#. TODO: ascend to surface of water if floating.
+#. Offset Y positions of reconstructed nodes so as to center
+#. the mob itself, if it is less than one node in height, in
+#. the said nodes.
+#. If this block (the block in which the mob stands) is air,
+#. evaluate the node below.
+#. Don't cons a new vector.
+#. Open nodes should also be modified by their
+#. surroundings with airborne mobs.
+#. An OPEN node resting on an OPEN
+#. surface above a FENCE should be
+#. reset to WALKABLE, as the collision
+#. box of the FENCE will extend into
+#. the node above, becoming something
+#. of a slab.
+#. This duplicates much of `gwp_classify_node', but the performance
+#. improvement yielded by calling an upvalue is substantial.
+#. This is very expensive, as core.get_node conses too
+#. much.
+#. if record_pathfinding_stats then
+#. gwp_cc_hits = gwp_cc_hits + 1
+#. end
+#. if record_pathfinding_stats then
+#. gwp_cc_misses = gwp_cc_misses + 1
+#. end
+#. Report impassible nodes
+#. immediately.
+#. Otherwise select the worst class possible.
+#. Report impassible nodes
+#. immediately.
+#. Otherwise select the worst class possible.
+#. ----------------------------------------------------------------------
+#. External interface.
+#. ----------------------------------------------------------------------
+#. Attempt to reuse existing paths if possible.
+#. Cancel navigation if pathing is impossible.
+#. The speed won't be scaled by itself.
+#. Pathfind for at most half the remaining quota.
+#. Continue pathfinding till either the process times
+#. out, or the pathfinding time quota is exhausted.
+#. TODO: some criteria for rejecting partial
+#. destinations that are too distant.
+#. if self.name == "mobs_mc:drowned" then
+#. create_path_particles (waypoints, "repetitivestrain", 1, 0.1)
+#. end
+#. Continue navigating even if another pathfinding operation
+#. is in progress.  This appears to reduce jank.
+#. Locate users of this door besides `self' who are within two
+#. blocks of the said door and are pathfinding through it, or
+#. are within 0.5 blocks and preparing to close it.
+#. Copy this position, lest it be modified by
+#. the right click handler.
+#. Don't open any doors that are still in or bordering
+#. proto-chunks, lest a subsequent regeneration
+#. operation restore a closed door node without
+#. replacing its metadata.
+#. Does the current position fall between the target
+#. waypoint and the waypoint ahead of it?
+#. Is it safe to pass directly onto the next waypoint?
+#. Otherwise, is the horizontal direction from
+#. the current position to the waypoint ahead
+#. approximately identical to that from the
+#. target waypoint behind to the current?
+#. Be less tolerant on the approach to a door.
+#. Is this mob already en route to the next waypoint?
+#. Head to the center of the waypoint.
+#. Open doors that are encountered, but remember to
+#. close them behind us.
+#. If a waypoint that has been put behind is a closed door,
+#. open it also.
+#. Water source blocks are always traversible.
+#. Test a position slightly above the
+#. target position to deal with
+#. grazing lines of sight.
+#. Always drop mob heads when killed by a charged creeper explosion.
+#. item does not exist
+#. move mob in facing direction
+#. Minecraft scales forward acceleration by desired
+#. velocity in blocks/tick.
+#. calculate mob velocity
+#. check if mob is dead or only hurt
+#. Don't display death animations when no damage was dealt,
+#. e.g. when it was all neutralized by fire resistance or
+#. water breathing.
+#. Make mob flash red.
+#. Still got some health?
+#. Limit health to defined maximum value.
+#. Remove damage overlay.
+#. Execute custom death function
+#. default death function and die animation (if defined)
+#. Drop items and xp
+#. Remove body after a few seconds
+#. ----------------------------------------------------------------------
+#. Environmental damage.
+#. ----------------------------------------------------------------------
+#. See: https://minecraft.wiki/w/Light#Internal_light_level
+#. Don't return natural light till the artificial light at
+#. this position exceeds the threshold at which natural light
+#. becomes significant, for natural light tests are expensive.
+#. See: https://minecraft.wiki/w/Light#Internal_light_level
+#. Apply wear to head armor.
+#. ----------------------------------------------------------------------
+#. Fall damage.
+#. ----------------------------------------------------------------------
+#. Integrate fall damage.
+#. Be certain that the area beneath this mob is actually
+#. loaded.
+#. Apply `fall_damage_add_percent' node
+#. definitions.
+#. Gravity-induced collision.
+#. ----------------------------------------------------------------------
+#. Miscellaneous functions.
+#. ----------------------------------------------------------------------
+#. ----------------------------------------------------------------------
+#. Attribute modifiers.
+#. Ref: https://minecraft.wiki/w/Attribute#Modifiers.
+#. ----------------------------------------------------------------------
+#. Rescale gowp velocity (or stupid_velocity) to match
+#. the new movement_speed.
+#.
+#. A velocity of nil is a placeholder for
+#. movement_speed anyway, and as such no adjustment is
+#. necessary in these cases.
+#. Do not apply physics factors redundantly.
+#. Upgrade obsolete numerical factors.
+#. ----------------------------------------------------------------------
+#. Soul Speed & enchantment modifiers.
+#. ----------------------------------------------------------------------
+#. ----------------------------------------------------------------------
+#. Mob motion routines.  Do not tamper with the mechanics or constants
+#. in this section without reference to
+#. https://minecraft.wiki/w/Physics and a number of documents
+#. available online, and a copy of Minecraft for visual comparison.
+#. ----------------------------------------------------------------------
+#. - Constants.  These remain constant for the duration of the game but
+#. - are adjusted so as to reflect the global step time.
+#. Apply acceleration if sprinting.
+#. can mob be pushed, if so calculate direction
+#. Crude collision detection that does not take movement into
+#. account.
+#. Note that mobs being controlled by a player should sink.
+#. Note: this does not exist in Minecraft and is only meant to
+#. approximate floating in liquids for striders.
+#. Enable this mob to step out of this liquid
+#. pseudo-surface.
+#. If standing on a climable block and jumping or impeded
+#. horizontally, begin climbing, and prevent fall speed from
+#. exceeding 3.0 blocks/s.
+#. In Minecraft, gravity is applied after being attenuated by
+#. gravity_drag, but acceleration is unaffected.
+#. Consequently, fv.y must be applied after fall_speed, with
+#. gravity_drag in between.
+#. Apply depth strider.
+#. Adjust speed by friction.  Minecraft applies
+#. friction to acceleration (speed), not just the
+#. previous velocity.
+#. Apply friction and acceleration.
+#. Apply vertical acceleration.
+#. Apply gravity unless this mob is sprinting.
+#. If colliding horizontally within water, detect
+#. whether the result of this movement is vertically
+#. within 0.6 nodes of a position clear of water and
+#. collisions, and apply a force to this mob so as to
+#. breach the water if so.
+#. If this mob is not submerged in lava to a
+#. depth of LIQUID_JUMP_THRESHOLD, apply a
+#. reduced drag.
+#. If colliding horizontally within lava,
+#. detect whether the result of this movement
+#. is vertically within 0.6 nodes of a
+#. position clear of lava and collisions, and
+#. apply a force to this mob so as to breach
+#. the water if so.
+#. If not standing on air, apply slippery to a base value of
+#. 0.6.
+#. The order in which Minecraft applies velocity is
+#. such that it is scaled by ground friction after
+#. application even if vertical acceleration would
+#. render the mob airborne.  Emulate this behavior, in
+#. order to avoid a marked disparity in the speed of
+#. mobs that jump while in motion or walk off ledges.
+#. Apply friction, relative movement, and speed.
+#. 0.4 blocks/s
+#. Apply friction (velocity_factor) from Soul Sand and
+#. the like.  NOTE: this friction is supposed to be
+#. applied after movement, just as with standard
+#. friction.
+#. Adjust speed by friction.  Minecraft applies
+#. friction to acceleration (speed), not just the
+#. previous velocity.  The manner in which friction is
+#. applied to acceleration is very peculiar, in that
+#. mobs are moved by the original speed each tick,
+#. before the modified speed is integrated into the
+#. velocity.
+#.
+#. In Minetest, this is emulated by integrating the
+#. full speed into the velocity after applying
+#. friction to the same, which is more logical anyway.
+#. Step height should always be configured to zero while not
+#. standing.  This might be slightly counter-intuitive, but it
+#. enables jumping to function correctly when the mob is
+#. accelerating forward.
+#. Clear the jump flag even when jumping is not yet possible.
+#. Simplified `motion_step' for true (i.e., not birds or blazes)
+#. flying mobs unaffected by gravity (i.e., not ghasts).
+#. Simplified `motion_step' for true (i.e., not birds or blazes)
+#. swimming mobs.
+#. Apply gravity unless attacking mob.
+#. Don't display such particles if standing in a liquid or
+#. similar block.
+#. Integrate liquid current.
+#. N.B. that in fact this is equivalent to:
+#. ((def && def->groups[group]) ? def->groups[group] : 0)
+#. Apply slowdowns from blocks that should impede movement.
+#. Indicate that the velocity must be reset
+#. upon the next globalstep
+#. --------------------------------------------------------------
+#. Sprinting particles.
+#. --------------------------------------------------------------
+#. Generate sprinting particles if and standing on a surface
+#. appropriate.
+#. This is a workaround to prevent excess table allocations
+#. lua locals
+#. do mobs spawn?
+#. _just_portaled mobs should not despawn to allow
+#. mapblocks containing them to be unloaded if no
+#. players are nearby.
+#. Mobs that are attached to other objects should
+#. never despawn.
+#. This timer should be reset once a
+#. player approaches, or when damage
+#. is sustained from any source.
+#. Detach this rider.
+#: mods/ENTITIES/mcl_mobs/spawning.lua:137
+msgid ""
+"spawn_mob is a chatcommand that allows you to type in the name of a mob "
+"without 'typing mobs_mc:' all the time like so; 'spawn_mob spider'. however, "
+"there is more you can do with this special command, currently you can edit "
+"any number, boolean, and string variable you choose with this format: "
+"spawn_mob 'any_mob:var<mobs_variable=variable_value>:'. any_mob being your "
+"mob of choice, mobs_variable being the variable, and variable value being "
+"the value of the chosen variable. and example of this format: \n"
+" spawn_mob skeleton:var<passive=true>:\n"
+" this would spawn a skeleton that wouldn't attack you. REMEMBER-THIS> when "
+"changing a number value always prefix it with 'NUM', example: \n"
+" spawn_mob skeleton:var<jump_height=NUM10>:\n"
+" this setting the skelly's jump height to 10. if you want to make multiple "
+"changes to a mob, you can, example: \n"
+" spawn_mob "
+"skeleton:var<passive=true>::var<jump_height=NUM10>::var<fly_in=air>::var<fly=true>:\n"
+" etc."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1210
+msgid ""
+"This mob will spawn on solid and opaque nodes with a surface occupying a "
+"full node when no obstructions exist within a volume @1 nodes in size around "
+"the center of such a node's upper surface."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1213
+msgid ""
+"This mob will spawn in water when the node above is not opaque and no "
+"obstructions exist within a volume @1 nodes in size around the center of the "
+"base of the fluid node in question."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1216
+msgid ""
+"This mob will spawn on flowing lava and lava sources when no liquid or solid "
+"obstructions exist within a volume @1 nodes in size."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1219
+msgid "This mob does not document its spawning requirements."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1227
+msgid "Mobs will spawn in individual groups of 1."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1229
+msgid "Up to @1 mobs will spawn as a single group upon each spawning attempt."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1231
+msgid ""
+"A group of @1 to @2 mobs will attempt to be spawned upon each spawning "
+"attempt."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1381
+msgid "Dumped spawners for biome: @1"
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1478
+msgid "Environmental spawning requirements and mechanics:"
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1482
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1485
+msgid ""
+"\n"
+"When spawned from spawner:"
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1488
+msgid ""
+"\n"
+"Mob does not spawn environmentally."
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1494
+msgid ""
+"\n"
+"When spawned in biome(s): "
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1500
+msgid "and when spawned in structure(s): "
+msgstr ""
+
+#: mods/ENTITIES/mcl_mobs/spawning.lua:1502
+msgid ""
+"\n"
+"When spawned in structure(s): "
+msgstr ""

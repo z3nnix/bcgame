@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_books x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_books/chiseled_bookshelf.lua:253
+msgid "Chiseled Bookshelf"
+msgstr ""
+
+#: mods/ITEMS/mcl_books/chiseled_bookshelf.lua:254
+msgid "Chiseled bookshelf holds up to six books."
+msgstr ""
+
+#: mods/ITEMS/mcl_books/init.lua:15
+msgid "Book"
+msgstr "Bog"
+
+#: mods/ITEMS/mcl_books/init.lua:16
+msgid "Books are used to make bookshelves and book and quills."
+msgstr "Bøger bruges til at lave bogreoler og bog og fjerpen "
+
+#: mods/ITEMS/mcl_books/init.lua:39
+msgid "“@1”"
+msgstr "\"@1\""
+
+#: mods/ITEMS/mcl_books/init.lua:41
+msgid "Copy of “@1”"
+msgstr "Kopi af \"@1\""
+
+#: mods/ITEMS/mcl_books/init.lua:43
+msgid "Copy of Copy of “@1”"
+msgstr "Kopi af kopi af \"@1\""
+
+#: mods/ITEMS/mcl_books/init.lua:45
+msgid "Tattered Book"
+msgstr "Flosset bog"
+
+#: mods/ITEMS/mcl_books/init.lua:47 mods/ITEMS/mcl_books/init.lua:123
+msgid "by @1"
+msgstr "af @1"
+
+#: mods/ITEMS/mcl_books/init.lua:64
+msgid "Sign"
+msgstr "Underskriv"
+
+#: mods/ITEMS/mcl_books/init.lua:65 mods/ITEMS/mcl_books/init.lua:78
+msgid "Done"
+msgstr "Færdig"
+
+#: mods/ITEMS/mcl_books/init.lua:84
+msgid "Book and Quill"
+msgstr "Bog og fjerdpen"
+
+#: mods/ITEMS/mcl_books/init.lua:85
+msgid "Write down some notes"
+msgstr "Skriv nogle notater"
+
+#: mods/ITEMS/mcl_books/init.lua:86
+msgid "This item can be used to write down some notes."
+msgstr "Denne genstand kan bruges til at skrive notater."
+
+#: mods/ITEMS/mcl_books/init.lua:88
+msgid ""
+"Hold it in the hand, then rightclick to read the current notes and edit "
+"then. You can edit the text as often as you like. You can also sign the book "
+"which turns it into a written book which you can stack, but it can't be "
+"edited anymore."
+msgstr ""
+"Hold den i hånden, højre-klik så for at læse og redigere aktuelle notater. "
+"Du kan redigere teksten så ofte du har lyst. Du kan også signere bogen "
+"hvilken gør den til en skrevet bog som du kan gemme, men som ikke kan "
+"redigeres mere."
+
+#: mods/ITEMS/mcl_books/init.lua:90
+msgid ""
+"A book can hold up to @1 characters. The title length is limited to @2 "
+"characters."
+msgstr ""
+
+#: mods/ITEMS/mcl_books/init.lua:111
+msgid ""
+"Text is @1 characters too long for one book.\n"
+"It will be capped at @2 characters."
+msgstr ""
+
+#: mods/ITEMS/mcl_books/init.lua:121
+msgid "Enter book title:"
+msgstr "Indtast bogens titel:"
+
+#: mods/ITEMS/mcl_books/init.lua:125
+msgid "Sign and Close"
+msgstr "Signér og luk"
+
+#: mods/ITEMS/mcl_books/init.lua:127
+msgid "Note: The book will no longer be editable after signing"
+msgstr "Bemærk: Bogen vil ikke længere kunne redigeres efter signering."
+
+#: mods/ITEMS/mcl_books/init.lua:128
+msgid "Cancel"
+msgstr "Afbryd"
+
+#: mods/ITEMS/mcl_books/init.lua:139
+msgid "Nameless Book"
+msgstr "Unavngiven bog"
+
+#: mods/ITEMS/mcl_books/init.lua:173
+msgid "Written Book"
+msgstr "Skrevet bog"
+
+#: mods/ITEMS/mcl_books/init.lua:175
+msgid ""
+"Written books contain some text written by someone. They can be read and "
+"copied, but not edited."
+msgstr ""
+"Skrevne bøger indeholder tekst som nogen har skrevet. De kan læses og "
+"kopieres, men ikke redigeres."
+
+#: mods/ITEMS/mcl_books/init.lua:177
+msgid "Hold it in your hand, then rightclick to read the book."
+msgstr "Hold den i hånden og højre-klik for at læse bogen."
+
+#: mods/ITEMS/mcl_books/init.lua:180
+msgid ""
+"To copy the text of the written book, place it into the crafting grid "
+"together with a book and quill (or multiple of those) and craft. The written "
+"book will not be consumed. Copies of copies can not be copied."
+msgstr ""
+"For at kopiere teksten i den skrevne bog skal du placere den i "
+"arbejdsgitteret sammen med en (eller flere) bog og fjerdpen og udfør. Den "
+"skrevne bog bliver ikke opbrugt. Kopier kan ikke kopieres."
+
+#: mods/ITEMS/mcl_books/init.lua:282 mods/ITEMS/mcl_books/init.lua:318
+msgid "Bookshelf"
+msgstr "Bogreol"
+
+#: mods/ITEMS/mcl_books/init.lua:297
+msgid "Inventory"
+msgstr ""
+
+#: mods/ITEMS/mcl_books/init.lua:319
+msgid "Bookshelves are used for decoration."
+msgstr "Bogreoler bruges til udsmykning."

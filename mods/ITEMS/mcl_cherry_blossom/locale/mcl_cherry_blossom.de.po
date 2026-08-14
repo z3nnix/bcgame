@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_cherry_blossom x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-05-31 07:08+0000\n"
+"Last-Translator: Fhelron <fhelron@noreply.codeberg.org>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_cherry_blossom/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:1
+msgid "Cherry Bark"
+msgstr "Kirschbaumrinde"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:2
+msgid "Cherry Bark Slab"
+msgstr "Kirschbaumrindenplatte"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:3
+msgid "Cherry Bark Stairs"
+msgstr "Kirschrinden Treppe"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:4
+msgid "Cherry Boat"
+msgstr "Kirschbaumboot"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:5
+msgid "Cherry Button"
+msgstr "Kirschbaumknopf"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:6
+msgid "Cherry Chest Boat"
+msgstr "Kirschbaumkistenboot"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:7
+msgid "Cherry Door"
+msgstr "Kirschbaumtür"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:8
+msgid "Cherry Fence"
+msgstr "Kirschbaumzaun"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:9
+msgid "Cherry Fence Gate"
+msgstr "Kirschbaumzauntor"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:10
+msgid "Cherry Hanging Sign"
+msgstr "Kirschbaumhängeschild"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:11
+msgid "Cherry Leaves"
+msgstr "Kirschbaumblätter"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:12
+msgid "Cherry Log"
+msgstr "Kirschbaumstamm"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:13
+msgid "Cherry Planks"
+msgstr "Kirschbaumplanken"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:14
+msgid "Cherry Pressure Plate"
+msgstr "Kirschbaumdruckplatte"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:15
+msgid "Cherry Sapling"
+msgstr "Kirschbaumsetzling"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:16
+msgid "Cherry Sign"
+msgstr "Kirschbaumschild"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:17
+msgid "Cherry Slab"
+msgstr "Kirschbaumplatte"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:18
+msgid "Cherry Stairs"
+msgstr "Kirschbaumtreppe"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:19
+msgid "Cherry Trapdoor"
+msgstr "Kirschbaumfalltür"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:20
+msgid "Cherry leaves are grown from Cherry trees."
+msgstr "Kirschbaumblätter wachsen auf Kirschbäumen."
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:21
+msgid "Stripped Cherry Bark"
+msgstr "Entrindete Kirschbaumrinde"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:22
+msgid "Stripped Cherry Log"
+msgstr "Entrindeter Kirschbaumstamm"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:23
+msgid "The stripped trunk of an Cherry tree."
+msgstr "Der entrindete Stamm eines Kirschbaumes."
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:24
+msgid "The stripped wood of an Cherry tree."
+msgstr "Das entrindete Holz eines Kirschbaumes."
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:25
+msgid "The trunk of a Cherry tree."
+msgstr "Der Stamm eines Kirschbaumes."

@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_commands x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-01 03:10+0200\n"
+"PO-Revision-Date: 2026-04-27 10:40+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_commands/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#: mods/MISC/mcl_commands/alias.lua:17
+msgid "List bans"
+msgstr "Lista de prohibiciones"
+
+#: mods/MISC/mcl_commands/alias.lua:20
+msgid "Ban list: @1"
+msgstr "Lista de baneados: @1"
+
+#: mods/MISC/mcl_commands/kill.lua:5
+msgid "Players can't be killed right now, damage has been disabled."
+msgstr ""
+"Los jugadores no pueden ser asesinados en este momento, el daño ha sido "
+"desactivado."
+
+#: mods/MISC/mcl_commands/kill.lua:9
+msgid "Player @1 does not exist."
+msgstr "El jugador @1 no existe."
+
+#: mods/MISC/mcl_commands/kill.lua:12
+msgid "You are already dead"
+msgstr "Ya estas muerto"
+
+#: mods/MISC/mcl_commands/kill.lua:14
+msgid "@1 is already dead"
+msgstr "@1 ya esta muerto"
+
+#: mods/MISC/mcl_commands/kill.lua:33
+msgid "[<name>]"
+msgstr "[<Nombre>]"
+
+#: mods/MISC/mcl_commands/kill.lua:34
+msgid "Kill player or yourself"
+msgstr "Mata al jugador o a ti mismo"
+
+#: mods/MISC/mcl_commands/list.lua:4
+msgid "Show who is logged on"
+msgstr "Mostrar quién ha iniciado sesión"
+
+#: mods/MISC/mcl_commands/say.lua:4
+msgid "Can use /say"
+msgstr "Puedes usar /say"
+
+#: mods/MISC/mcl_commands/say.lua:8
+msgid "<message>"
+msgstr "<Mensaje>"
+
+#: mods/MISC/mcl_commands/say.lua:9
+msgid "Send a message to every player"
+msgstr "Envía un mensaje a todos los jugadores"
+
+#: mods/MISC/mcl_commands/say.lua:13
+msgid "Invalid usage, see /help say."
+msgstr "Uso inválido, consulta /help say."
+
+#: mods/MISC/mcl_commands/seed.lua:4
+msgid "Displays the world seed"
+msgstr "Muestra la semilla del mundo"
+
+#: mods/MISC/mcl_commands/setblock.lua:4
+msgid "<X>,<Y>,<Z> <NodeString>"
+msgstr "<X>,<Y>,<Z> <Nombre del bloque>"
+
+#: mods/MISC/mcl_commands/setblock.lua:5
+msgid "Set node at given position"
+msgstr "Establecer nodo en la posición dada"
+
+#: mods/MISC/mcl_commands/setblock.lua:19
+msgid "Invalid node"
+msgstr "Nodo no válido"
+
+#: mods/MISC/mcl_commands/setblock.lua:22
+msgid "@1 spawned."
+msgstr "@1 generado."
+
+#: mods/MISC/mcl_commands/setblock.lua:24
+msgid "Invalid parameters (see /help setblock)"
+msgstr "Parámetros no válidos (Revisa el comando \"/help setblock\")"
+
+#: mods/MISC/mcl_commands/sound.lua:4
+msgid "<sound> <target>"
+msgstr "<sound> <target>"
+
+#: mods/MISC/mcl_commands/sound.lua:5
+msgid "Play a sound. Arguments: <sound>: name of the sound. <target>: Target."
+msgstr ""
+"Reproduce un sonido. Argumentos: <sound>: nombre del sonido. <target>: "
+"objetivo."
+
+#: mods/MISC/mcl_commands/sound.lua:18
+msgid "Sound name is invalid!"
+msgstr "¡El nombre del sonido no es válido!"
+
+#: mods/MISC/mcl_commands/sound.lua:23
+msgid "Target is invalid!!"
+msgstr "¡¡El objetivo no es válido!!"
+
+#: mods/MISC/mcl_commands/summon.lua:8
+msgid "Only peaceful mobs allowed!"
+msgstr "¡Solo se permiten animales pacíficos!"
+
+#: mods/MISC/mcl_commands/version.lua:65
+msgid "Displays the Mineclonia version"
+msgstr ""

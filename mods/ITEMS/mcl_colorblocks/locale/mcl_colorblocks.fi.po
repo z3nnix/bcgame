@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_colorblocks x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:4
+msgid ""
+"Terracotta is a basic building material. It comes in many different colors."
+msgstr "Terrakotta on yksinkertainen rakennusmateriaali. Sen voi värjätä."
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:5
+msgid ""
+"Glazed terracotta is a decorative block with a complex pattern. It can be "
+"rotated by placing it in different directions."
+msgstr ""
+"Lasitettu terrakotta on koristekuutio, jossa on monimutkainen kuosi. Sen voi "
+"kääntää sijoittamalla eri suunnista."
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:6
+msgid ""
+"Concrete powder is used for creating concrete, but it can also be used as "
+"decoration itself. It comes in different colors. Concrete powder turns into "
+"concrete of the same color when it comes in contact with water."
+msgstr ""
+"Betonijauheesta voidaan valmistaa betonia, mutta sitä voi myös käyttää "
+"koristeena sellaisenaan. Sen voi värjätä. Betonijauheesta syntyy "
+"samanväristä betonia, kun se koskettaa vettä."
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:7
+msgid ""
+"Concrete is a decorative block which comes in many different colors. It is "
+"notable for having a very strong and clean color."
+msgstr ""
+"Betoni on koristekuutio, jonka voi värjätä. Sillä on huomattavan vahva ja "
+"puhdas väri."
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:8
+msgid "Turns into concrete on water contact"
+msgstr "Muuttuu betoniksi koskiessaan vettä"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:11
+msgid "Terracotta"
+msgstr "Terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:12
+msgid ""
+"Terracotta is a basic building material which comes in many different "
+"colors. This particular block is uncolored."
+msgstr ""
+"Terrakotta on yksinkertainen rakennusmateriaali, jonka voi värjätä. Tämä "
+"kuutio on värjäämätön."
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:37
+msgid "Colored Terracotta"
+msgstr "Värjätty terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:38
+msgid "Glazed Terracotta"
+msgstr "Lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:39
+msgid "Concrete Powder"
+msgstr "Betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:40
+msgid "Concrete"
+msgstr "Betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:1
+msgid "Black Concrete"
+msgstr "Musta betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:2
+msgid "Black Concrete Powder"
+msgstr "Musta betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:3
+msgid "Black Glazed Terracotta"
+msgstr "Musta lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:4
+msgid "Black Terracotta"
+msgstr "Musta terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:5
+msgid "Blue Concrete"
+msgstr "Sininen betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:6
+msgid "Blue Concrete Powder"
+msgstr "Sininen betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:7
+msgid "Blue Glazed Terracotta"
+msgstr "Sininen lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:8
+msgid "Blue Terracotta"
+msgstr "Sininen terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:9
+msgid "Brown Concrete"
+msgstr "Ruskea betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:10
+msgid "Brown Concrete Powder"
+msgstr "Ruskea betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:11
+msgid "Brown Glazed Terracotta"
+msgstr "Ruskea lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:12
+msgid "Brown Terracotta"
+msgstr "Ruskea terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:13
+msgid "Cyan Concrete"
+msgstr "Sinivihreä betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:14
+msgid "Cyan Concrete Powder"
+msgstr "Sinivihreä betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:15
+msgid "Cyan Glazed Terracotta"
+msgstr "Sinivihreä lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:16
+msgid "Cyan Terracotta"
+msgstr "Sinivihreä terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:17
+msgid "Green Concrete"
+msgstr "Vihreä betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:18
+msgid "Green Concrete Powder"
+msgstr "Vihreä betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:19
+msgid "Green Glazed Terracotta"
+msgstr "Vihreä lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:20
+msgid "Green Terracotta"
+msgstr "Vihreä terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:21
+msgid "Grey Concrete"
+msgstr "Harmaa betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:22
+msgid "Grey Concrete Powder"
+msgstr "Harmaa betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:23
+msgid "Grey Glazed Terracotta"
+msgstr "Harmaa lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:24
+msgid "Grey Terracotta"
+msgstr "Harmaa terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:25
+msgid "Light Blue Concrete"
+msgstr "Vaaleansininen betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:26
+msgid "Light Blue Concrete Powder"
+msgstr "Vaaleansininen betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:27
+msgid "Light Blue Glazed Terracotta"
+msgstr "Vaaleansininen lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:28
+msgid "Light Blue Terracotta"
+msgstr "Vaaleansininen terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:29
+msgid "Light Grey Concrete"
+msgstr "Vaaleanharmaa betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:30
+msgid "Light Grey Concrete Powder"
+msgstr "Vaaleanharmaa betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:31
+msgid "Light Grey Glazed Terracotta"
+msgstr "Vaaleanharmaa lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:32
+msgid "Light Grey Terracotta"
+msgstr "Vaaleanharmaa terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:33
+msgid "Lime Concrete"
+msgstr "Vaaleanvihreä betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:34
+msgid "Lime Concrete Powder"
+msgstr "Vaaleanvihreä betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:35
+msgid "Lime Glazed Terracotta"
+msgstr "Vaaleanvihreä lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:36
+msgid "Lime Terracotta"
+msgstr "Vaaleanvihreä terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:37
+msgid "Magenta Concrete"
+msgstr "Purppuranpunainen betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:38
+msgid "Magenta Concrete Powder"
+msgstr "Purppuranpunainen betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:39
+msgid "Magenta Glazed Terracotta"
+msgstr "Purppuranpunainen lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:40
+msgid "Magenta Terracotta"
+msgstr "Purppuranpunainen terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:41
+msgid "Orange Concrete"
+msgstr "Oranssi betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:42
+msgid "Orange Concrete Powder"
+msgstr "Oranssi betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:43
+msgid "Orange Glazed Terracotta"
+msgstr "Oranssi lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:44
+msgid "Orange Terracotta"
+msgstr "Oranssi terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:45
+msgid "Pink Concrete"
+msgstr "Vaaleanpunainen betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:46
+msgid "Pink Concrete Powder"
+msgstr "Vaaleanpunainen betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:47
+msgid "Pink Glazed Terracotta"
+msgstr "Vaaleanpunainen lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:48
+msgid "Pink Terracotta"
+msgstr "Vaaleanpunainen terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:49
+msgid "Purple Concrete"
+msgstr "Violetti betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:50
+msgid "Purple Concrete Powder"
+msgstr "Violetti betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:51
+msgid "Purple Glazed Terracotta"
+msgstr "Violetti lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:52
+msgid "Purple Terracotta"
+msgstr "Violetti terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:53
+msgid "Red Concrete"
+msgstr "Punainen betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:54
+msgid "Red Concrete Powder"
+msgstr "Punainen betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:55
+msgid "Red Glazed Terracotta"
+msgstr "Punainen lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:56
+msgid "Red Terracotta"
+msgstr "Punainen terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:57
+msgid "White Concrete"
+msgstr "Valkoinen betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:58
+msgid "White Concrete Powder"
+msgstr "Valkoinen betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:59
+msgid "White Glazed Terracotta"
+msgstr "Valkoinen lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:60
+msgid "White Terracotta"
+msgstr "Valkoinen terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:61
+msgid "Yellow Concrete"
+msgstr "Keltainen betoni"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:62
+msgid "Yellow Concrete Powder"
+msgstr "Keltainen betonijauhe"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:63
+msgid "Yellow Glazed Terracotta"
+msgstr "Keltainen lasitettu terrakotta"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:64
+msgid "Yellow Terracotta"
+msgstr "Keltainen terrakotta"

@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_wool x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_wool/init.lua:25
+msgid "Carpet"
+msgstr "Ковёр"
+
+#: mods/ITEMS/mcl_wool/init.lua:26
+msgid "Wool"
+msgstr "Шерсть"
+
+#: mods/ITEMS/mcl_wool/init.lua:27
+msgid "Wool is a decorative block which comes in many different colors."
+msgstr "Шерсть — это декоративный блок, который может быть разных цветов."
+
+#: mods/ITEMS/mcl_wool/init.lua:28
+msgid "Carpets are thin floor covers which come in many different colors."
+msgstr "Ковры — это тонкие напольные покрытия, которые бывают разных цветов."
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:1
+msgid "Black Carpet"
+msgstr "Чёрный ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:2
+msgid "Black Wool"
+msgstr "Чёрная шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:3
+msgid "Blue Carpet"
+msgstr "Синий ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:4
+msgid "Blue Wool"
+msgstr "Синяя шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:5
+msgid "Brown Carpet"
+msgstr "Коричневый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:6
+msgid "Brown Wool"
+msgstr "Коричневая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:7
+msgid "Cyan Carpet"
+msgstr "Бирюзовый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:8
+msgid "Cyan Wool"
+msgstr "Бирюзовая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:9
+msgid "Green Carpet"
+msgstr "Зелёный ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:10
+msgid "Green Wool"
+msgstr "Зелёная шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:11
+msgid "Grey Carpet"
+msgstr "Серый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:12
+msgid "Grey Wool"
+msgstr "Серая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:13
+msgid "Light Blue Carpet"
+msgstr "Голубой ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:14
+msgid "Light Blue Wool"
+msgstr "Голубая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:15
+msgid "Light Grey Carpet"
+msgstr "Светло-серый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:16
+msgid "Light Grey Wool"
+msgstr "Светло-серая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:17
+msgid "Lime Carpet"
+msgstr "Лаймовый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:18
+msgid "Lime Wool"
+msgstr "Лаймовая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:19
+msgid "Magenta Carpet"
+msgstr "Сиреневый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:20
+msgid "Magenta Wool"
+msgstr "Сиреневая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:21
+msgid "Orange Carpet"
+msgstr "Оранжевый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:22
+msgid "Orange Wool"
+msgstr "Оранжевая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:23
+msgid "Pink Carpet"
+msgstr "Розовый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:24
+msgid "Pink Wool"
+msgstr "Розовая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:25
+msgid "Purple Carpet"
+msgstr "Фиолетовый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:26
+msgid "Purple Wool"
+msgstr "Фиолетовая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:27
+msgid "Red Carpet"
+msgstr "Красный ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:28
+msgid "Red Wool"
+msgstr "Красная шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:29
+msgid "White Carpet"
+msgstr "Белый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:30
+msgid "White Wool"
+msgstr "Белая шерсть"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:31
+msgid "Yellow Carpet"
+msgstr "Жёлтый ковёр"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:32
+msgid "Yellow Wool"
+msgstr "Жёлтая шерсть"

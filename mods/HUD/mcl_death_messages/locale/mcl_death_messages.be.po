@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-06 22:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: mods/HUD/mcl_death_messages/init.lua:8
+msgid "@1 went up in flames"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:9
+msgid "@1 walked into fire whilst fighting @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:12
+msgid "@1 was struck by lightning"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:13
+msgid "@1 was struck by lightning whilst fighting @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:16
+msgid "@1 burned to death"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:17
+msgid "@1 was burnt to a crisp whilst fighting @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:20
+msgid "@1 tried to swim in lava"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:21
+msgid "@1 tried to swim in lava to escape @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:24
+msgid "@1 discovered the floor was lava"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:25
+msgid "@1 walked into danger zone due to @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:28
+msgid "@1 suffocated in a wall"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:29
+msgid "@1 suffocated in a wall whilst fighting @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:32
+msgid "@1 drowned"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:33
+msgid "@1 drowned whilst trying to escape @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:36
+msgid "@1 starved to death"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:37
+msgid "@1 starved to death whilst fighting @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:40
+msgid "@1 was pricked to death"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:41
+msgid "@1 walked into a cactus whilst trying to escape @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:44
+msgid "@1 hit the ground too hard"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:45
+msgid "@1 hit the ground too hard whilst trying to escape @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:55
+msgid "@1 experienced kinetic energy"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:56
+msgid "@1 experienced kinetic energy whilst trying to escape @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:59
+msgid "@1 fell out of the world"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:60
+msgid "@1 didn't want to live in the same world as @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:63
+msgid "@1 died"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:64
+msgid "@1 died because of @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:67
+#: mods/HUD/mcl_death_messages/init.lua:81
+msgid "@1 was killed by magic"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:68
+msgid "@1 was killed by magic whilst trying to escape @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:69
+msgid "@1 was killed by @2 using magic"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:70
+msgid "@1 was killed by @2 using @3"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:73
+msgid "@1 was roasted in dragon breath"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:74
+msgid "@1 was roasted in dragon breath by @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:77
+msgid "@1 withered away"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:78
+msgid "@1 withered away whilst fighting @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:82
+msgid "@1 was shot by a skull from @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:85
+msgid "@1 was squashed by a falling anvil"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:86
+msgid "@1 was squashed by a falling anvil whilst fighting @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:89
+msgid "@1 was squashed by a falling block"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:90
+msgid "@1 was squashed by a falling block whilst fighting @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:93
+#: mods/HUD/mcl_death_messages/init.lua:97
+msgid "@1 was slain by @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:94
+#: mods/HUD/mcl_death_messages/init.lua:98
+msgid "@1 was slain by @2 using @3"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:101
+msgid "@1 was shot by @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:102
+msgid "@1 was shot by @2 using @3"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:105
+msgid "@1 was spitballed by @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:106
+msgid "@1 was spitballed by @2 using @3"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:109
+msgid "@1 was fireballed by @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:110
+msgid "@1 was fireballed by @2 using @3"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:113
+msgid "@1 was killed trying to hurt @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:114
+msgid "@1 tried to hurt @2 and died by @3"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:117
+msgid "@1 blew up"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:118
+msgid "@1 was blown up by @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:119
+msgid "@1 was blown up by @2 using @3"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:123
+msgid "@1 was squished too much"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:124
+msgid "@1 was squashed by @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:127
+msgid "@1 went off with a bang"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:128
+msgid "@1 went off with a bang due to a firework fired by @2 from @3"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:131
+msgid "@1 was poked to death by a sweet berry bush"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:132
+msgid "@1 was poked to death by a sweet berry bush whilst trying to escape @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:135
+msgid "@1 froze to death"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:136
+msgid "@1 was frozen to death by @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:139
+msgid "@1 was impaled by @2"
+msgstr ""
+
+#: mods/HUD/mcl_death_messages/init.lua:140
+msgid "@1 was impaled by @2 with @3"
+msgstr ""

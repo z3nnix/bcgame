@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_doors x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 18:07+0200\n"
+"PO-Revision-Date: 2026-06-01 13:07+0000\n"
+"Last-Translator: cuche <cuche@noreply.codeberg.org>\n"
+"Language-Team: Italian <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_doors/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
+
+#: mods/ITEMS/mcl_doors/api_doors.lua:45
+msgid ""
+"This door is a 2-block high barrier which can be opened or closed by hand or "
+"by redstone power."
+msgstr ""
+"Questa porta è una barriera alta 2 blocchi. Può essere aperta o chiusa "
+"manualmente o con la corrente pietrarossa."
+
+#: mods/ITEMS/mcl_doors/api_doors.lua:47
+msgid ""
+"This door is a 2-block high barrier which can only be opened by redstone "
+"power, not by hand."
+msgstr ""
+"Questa porta è una barriera alta 2 blocchi. Può essere aperta o chiusa con "
+"la corrente pietrarossa, ma non manualmente."
+
+#: mods/ITEMS/mcl_doors/api_doors.lua:53
+msgid "To open or close this door, send a redstone signal to its bottom half."
+msgstr ""
+"Per aprire o chiudere questa porta, invia un segnale pietrarossa alla metà "
+"inferiore."
+
+#: mods/ITEMS/mcl_doors/api_doors.lua:55
+msgid ""
+"To open or close this door, rightclick it or send a redstone signal to its "
+"bottom half."
+msgstr ""
+"Per aprire o chiudere una porta, fai clic col tasto destro o invia un "
+"segnale di pietrarossa nella metà inferiore."
+
+#: mods/ITEMS/mcl_doors/api_doors.lua:61
+#: mods/ITEMS/mcl_doors/api_trapdoors.lua:106
+msgid "Openable by redstone power"
+msgstr "Apribile con corrente pietrarossa"
+
+#: mods/ITEMS/mcl_doors/api_doors.lua:63
+#: mods/ITEMS/mcl_doors/api_trapdoors.lua:108
+msgid "Openable by players and redstone power"
+msgstr "Apribile dai giocatori e dalla corrente pietrarossa"
+
+#: mods/ITEMS/mcl_doors/api_trapdoors.lua:95
+msgid ""
+"Trapdoors are horizontal barriers which can be opened or closed and climbed "
+"like a ladder when open. They occupy the upper or lower part of a block, "
+"depending on how they have been placed. This trapdoor can only be opened or "
+"closed by redstone power."
+msgstr ""
+"Le botole sono barriere orizzontali che si possono aprire e chiudere a "
+"piacimento e ci si può arrampicare sopra se aperte. Occupano la parte "
+"inferiore di un blocco, a seconda di dove è stata posizionata. Questa botola "
+"può essere aperta o chiusa dalla corrente pietrarossa."
+
+#: mods/ITEMS/mcl_doors/api_trapdoors.lua:97
+msgid ""
+"Trapdoors are horizontal barriers which can be opened or closed and climbed "
+"like a ladder when open. They occupy the upper or lower part of a block, "
+"depending on how they have been placed. This trapdoor can be opened or "
+"closed by hand or redstone power."
+msgstr ""
+"Le botole sono barriere orizzontali che si possono aprire e chiudere a "
+"piacimento e ci si può arrampicare sopra se aperte. Occupano la parte "
+"inferiore di un blocco, a seconda di dove è stata posizionata. Questa botola "
+"può essere aperta o chiusa a mano o dalla corrente pietrarossa."
+
+#: mods/ITEMS/mcl_doors/api_trapdoors.lua:102
+msgid ""
+"To open or close this trapdoor, rightclick it or send a redstone signal to "
+"it."
+msgstr ""
+"Per aprire o chiudere questa botola, fai clic col tasto destro o invia della "
+"corrente pietrarossa."
+
+#: mods/ITEMS/mcl_doors/register.lua:5
+msgid "Iron Door"
+msgstr "Porta di ferro"
+
+#: mods/ITEMS/mcl_doors/register.lua:6
+msgid ""
+"Iron doors are 2-block high barriers which can only be opened or closed by a "
+"redstone signal, but not by hand."
+msgstr ""
+"Le porte di ferro sono barriere alte 2 blocchi che possono essere aperte o "
+"chiuse con la corrente pietrarossa, ma non a mano."
+
+#: mods/ITEMS/mcl_doors/register.lua:7
+msgid ""
+"To open or close an iron door, supply its lower half with a redstone signal."
+msgstr ""
+"Per aprire o chiudere una porta di ferro, applica della corrente pietrarossa "
+"nella metà inferiore."
+
+#: mods/ITEMS/mcl_doors/register.lua:30
+msgid "Iron Trapdoor"
+msgstr "Botola di ferro"
+
+#: mods/ITEMS/mcl_doors/register.lua:31
+msgid ""
+"Iron trapdoors are horizontal barriers which can only be opened and closed "
+"by redstone signals, but not by hand. They occupy the upper or lower part of "
+"a block, depending on how they have been placed. When open, they can be "
+"climbed like a ladder."
+msgstr ""
+"Le botole di ferro sono barriere orizzontali che si possono aprire e "
+"chiudere a piacimento e ci si può arrampicare sopra se aperte. Occupano la "
+"parte inferiore di un blocco, a seconda di dove è stata posizionata. Questa "
+"botola può essere aperta o chiusa solo dalla corrente pietrarossa."

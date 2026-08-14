@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-06 22:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: mods/ENVIRONMENT/mcl_weather/nether_dust.lua:71
+msgid "Enable dust particles in the nether"
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/skycolor.lua:7
+msgid "Enable clouds"
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:219
+msgid "Gives ability to control weather"
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:226
+msgid "Changes the weather to the specified parameter."
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:230
+msgid "Error: No weather specified."
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:241
+msgid "Error: Invalid parameters."
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:247
+msgid "Error: Duration can't be less than 1 second."
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:257
+msgid "Error: Invalid weather specified. Use “clear”, “rain”, or “thunder”."
+msgstr ""
+
+#: mods/ENVIRONMENT/mcl_weather/weather_core.lua:264
+msgid ""
+"Toggles between clear weather and weather with downfall (randomly rain, "
+"thunderstorm or snow)"
+msgstr ""

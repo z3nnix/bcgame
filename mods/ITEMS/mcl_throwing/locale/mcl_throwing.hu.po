@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_throwing x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-20 14:05+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_throwing/register.lua:319
+msgid "Use the place key to throw."
+msgstr ""
+
+#: mods/ITEMS/mcl_throwing/register.lua:323
+msgid "Snowball"
+msgstr ""
+
+#: mods/ITEMS/mcl_throwing/register.lua:324
+#: mods/ITEMS/mcl_throwing/register.lua:339
+#: mods/ITEMS/mcl_throwing/register.lua:354
+msgid "Throwable"
+msgstr ""
+
+#: mods/ITEMS/mcl_throwing/register.lua:325
+msgid ""
+"Snowballs can be thrown or launched from a dispenser for fun. Hitting "
+"something with a snowball does nothing."
+msgstr ""
+
+#: mods/ITEMS/mcl_throwing/register.lua:338
+msgid "Egg"
+msgstr ""
+
+#: mods/ITEMS/mcl_throwing/register.lua:339
+msgid "Chance to hatch chicks when broken"
+msgstr ""
+
+#: mods/ITEMS/mcl_throwing/register.lua:340
+msgid ""
+"Eggs can be thrown or launched from a dispenser and breaks on impact. There "
+"is a small chance that 1 or even 4 chicks will pop out of the egg."
+msgstr ""
+
+#: mods/ITEMS/mcl_throwing/register.lua:353
+msgid "Ender Pearl"
+msgstr ""
+
+#: mods/ITEMS/mcl_throwing/register.lua:354
+msgid "Teleports you on impact for cost of 5 HP"
+msgstr ""
+
+#: mods/ITEMS/mcl_throwing/register.lua:355
+msgid ""
+"An ender pearl is an item which can be used for teleportation at the cost of "
+"health. It can be thrown and teleport the thrower to its impact location "
+"when it hits a solid block or a plant. Each teleportation hurts the user by "
+"5 hit points."
+msgstr ""

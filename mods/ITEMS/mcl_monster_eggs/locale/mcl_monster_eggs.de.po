@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_monster_eggs x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-04-30 19:57+0000\n"
+"Last-Translator: Fhelron <fhelron@noreply.codeberg.org>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_monster_eggs/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:14
+msgid "Hides a silverfish"
+msgstr "Verbirgt ein Silberfischchen"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:15
+msgid ""
+"\t\t\tAn infested block is a block from which a silverfish will pop out when "
+"it is broken.\n"
+"\t\t\tIt looks identical to its normal counterpart.\n"
+"\t\t"
+msgstr ""
+"\t\t\tEin befallener Block ist ein Block, aus dem ein Silberfischchen "
+"herausspringt, wenn er zerbrochen wird.\n"
+"\t\t\tEr sieht genauso aus wie sein normales Gegenstück.\n"
+"\t\t"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:48
+msgid "Infested Stone"
+msgstr "Verseuchter Stein"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:49
+msgid "Infested Cobblestone"
+msgstr "Verseuchtes Kopfsteinpflaster"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:50
+msgid "Infested Stone Bricks"
+msgstr "Verseuchte Steinziegel"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:51
+msgid "Infested Cracked Stone Bricks"
+msgstr "Verseuchte rissige Steinziegel"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:52
+msgid "Infested Mossy Stone Bricks"
+msgstr "Verseuchte moosige Steinziegel"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:53
+msgid "Infested Chiseled Stone Bricks"
+msgstr "Verseuchte gemeißelte Steinziegel"

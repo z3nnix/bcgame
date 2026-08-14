@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_player x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-05-03 10:57+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_player/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#: mods/PLAYER/mcl_player/mcl_player_translations_tmp.lua:1
+msgid "Graphics"
+msgstr "Gráficos"
+
+#: mods/PLAYER/mcl_player/mcl_player_translations_tmp.lua:2
+msgid "HUD"
+msgstr "HUD"
+
+#: mods/PLAYER/mcl_player/mcl_player_translations_tmp.lua:3
+msgid "Inventory"
+msgstr "Inventario"
+
+#: mods/PLAYER/mcl_player/settings.lua:88
+msgid "Misc"
+msgstr "Varios"
+
+#: mods/PLAYER/mcl_player/settings.lua:133
+msgid "Adapt UI for a better experience on touchscreen devices"
+msgstr ""
+"Adaptar la interfaz de usuario para mejorar la experiencia en dispositivos "
+"con pantalla táctil"
+
+#: mods/PLAYER/mcl_player/settings.lua:134
+msgid ""
+"May enlarge elements, add additional space, and change elements, e.g. add "
+"buttons to replace the missing enter key.\n"
+"Note that currently this is only implemented for a very limited number of "
+"formspecs."
+msgstr ""
+"Puede ampliar elementos, añadir espacio adicional y modificar elementos; por "
+"ejemplo, añadir botones para sustituir la tecla Intro que falta.\n"
+"Ten en cuenta que, actualmente, esto solo está implementado para un número "
+"muy limitado de especificaciones de formulario."
+
+#: mods/PLAYER/mcl_player/settings.lua:166
+msgid "Setting \"@1\" is not available on your Luanti version"
+msgstr "La configuración «@1» no está disponible en tu versión de Luanti"
+
+#: mods/PLAYER/mcl_player/settings.lua:177
+msgid "Revert to default"
+msgstr "Restablecer valores predeterminados"
+
+#: mods/PLAYER/mcl_player/settings.lua:208
+msgid "(currently selected)"
+msgstr "(seleccionado actualmente)"
+
+#: mods/PLAYER/mcl_player/settings.lua:211
+#: mods/PLAYER/mcl_player/settings.lua:244
+msgid "(default)"
+msgstr "(por defecto)"
+
+#: mods/PLAYER/mcl_player/settings.lua:217
+msgid "(currently selected, but INVALID! PLEASE choose a valid setting)"
+msgstr ""
+"(seleccionado actualmente, ¡pero NO VÁLIDO! POR FAVOR, elige una "
+"configuración válida)"
+
+#: mods/PLAYER/mcl_player/settings.lua:254
+msgid "(invalid)"
+msgstr "(inválido)"
+
+#: mods/PLAYER/mcl_player/settings.lua:295
+msgid "Player specific settings and customization"
+msgstr "Configuración y personalización específicas para cada jugador"

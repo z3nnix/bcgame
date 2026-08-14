@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_pottery_sherds x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-05-31 07:08+0000\n"
+"Last-Translator: Fhelron <fhelron@noreply.codeberg.org>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_pottery_sherds/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:49
+msgid "Used for crafting decorated pots"
+msgstr "Wird benutzt um dekorative Gefäße herzustellen"
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:171
+msgid "Decorated Pot"
+msgstr "Dekorations Topf"
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:172
+msgid "Pots are decorative blocks."
+msgstr "Krüge sind dekorative Blöcke."
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:173
+msgid "Specially decorated pots can be crafted using pottery sherds"
+msgstr "Speziell verzierte Töpfe können mit Tonscherben hergestellt werden"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:1
+msgid "Angler Pottery Sherd"
+msgstr "Angler Tonscherbe"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:2
+msgid "Archer Pottery Sherd"
+msgstr "Schützen Tonscherbe"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:3
+msgid "Arms Up Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:4
+msgid "Blade Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:5
+msgid "Brewer Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:6
+msgid "Burn Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:7
+msgid "Danger Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:8
+msgid "Explorer Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:9
+msgid "Flow Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:10
+msgid "Friend Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:11
+msgid "Guster Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:12
+msgid "Heart Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:13
+msgid "Heartbreak Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:14
+msgid "Howl Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:15
+msgid "Miner Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:16
+msgid "Mourner Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:17
+msgid "Plenty Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:18
+msgid "Prize Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:19
+msgid "Scrape Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:20
+msgid "Sheaf Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:21
+msgid "Shelter Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:22
+msgid "Skull Pottery Sherd"
+msgstr ""
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:23
+msgid "Snort Pottery Sherd"
+msgstr ""

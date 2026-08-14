@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_raids x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-05-01 06:57+0000\n"
+"Last-Translator: Fhelron <fhelron@noreply.codeberg.org>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_raids/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:36
+msgid "Ominous Banner"
+msgstr "Unheilvolles Banner"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:217
+#: mods/ENVIRONMENT/mcl_raids/init.lua:223
+msgid "Raid (@1 of @2)"
+msgstr "Überfall (@1 von @2)"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:230
+msgid "Raid"
+msgstr "Überfall"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:233
+msgid "Raid (defeat)"
+msgstr "Überfall (besiegt)"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:236
+msgid "Raid (victory)"
+msgstr ""

@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_buckets x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_buckets/init.lua:255
+msgid "Empty Bucket"
+msgstr "Ontzi hutsa"
+
+#: mods/ITEMS/mcl_buckets/init.lua:256
+msgid "A bucket can be used to collect and release liquids."
+msgstr "Likidoak biltzeko eta askatzeko ontzia erabil daiteke."
+
+#: mods/ITEMS/mcl_buckets/init.lua:257
+msgid ""
+"Punch a liquid source to collect it. You can then use the filled bucket to "
+"place the liquid somewhere else."
+msgstr ""
+"Likido-iturri bat jotzen du biltzeko. Gero, ontzi betea erabil dezakezu "
+"likidoa beste leku batean jartzeko."
+
+#: mods/ITEMS/mcl_buckets/init.lua:258
+msgid "Collects liquids"
+msgstr "Likidoak biltzen ditu"
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:1
+msgid "Bucket of Axolotl"
+msgstr "Axolotea duen ontzia"
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:2
+msgid "Bucket of Cod"
+msgstr "Bakailaoa duen ontzia"
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:3
+msgid "Bucket of Pufferfish"
+msgstr "Fugu Ontzia"
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:4
+msgid "Bucket of Salmon"
+msgstr "Izokina duen ontzia"
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:5
+msgid "Bucket of Tropical Fish"
+msgstr "Arrain tropikala duen ontzia"
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:6
+msgid ""
+"Place it to empty the bucket and place a Cod. Obtain by right clicking on a "
+"Cod with a bucket of water."
+msgstr ""
+"Jarri ontzia husteko eta bakailao bat jartzeko. Lortu ezazu bakailao baten "
+"gainean zuzen klik eginez ur-ontzi batekin."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:7
+msgid ""
+"Place it to empty the bucket and place a Pufferfish. Obtain by right "
+"clicking on a Pufferfish with a bucket of water."
+msgstr ""
+"Utzi ezazu ontzi huts batean eta jarri Fugu bat. Lortu Fugu batean eskuin-"
+"klik eginez urez betetako ontzi batekin."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:8
+msgid ""
+"Place it to empty the bucket and place a Salmon. Obtain by right clicking on "
+"a Salmon with a bucket of water."
+msgstr ""
+"Jarri ontzia husteko eta izokin bat jartzeko. Lortu ezazu ur ontzi batekin "
+"izokin baten gainean zuzen klik eginez."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:9
+msgid ""
+"Place it to empty the bucket and place a Tropical Fish. Obtain by right "
+"clicking on a Tropical Fish with a bucket of water."
+msgstr ""
+"Jarri ontzia husteko eta arrain tropikal bat jartzeko. Lortu ezazu ur ontzi "
+"batekin Arrain Tropikal baten gainean zuzen klik eginez."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:10
+msgid ""
+"Place it to empty the bucket and place an Axolotl. Obtain by right clicking "
+"on an Axolotl with a bucket of water."
+msgstr ""
+"Jarri ontzia husteko eta Axolote bat jartzeko. Lor ezazu ur ontzi batekin "
+"Axolote baten gainean zuzen klik eginez."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:11
+msgid "Places a water source and a Cod."
+msgstr "Jarri ur-iturri bat eta bakailao bat."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:12
+msgid "Places a water source and a Pufferfish."
+msgstr "Ur-iturri bat jartzen du Fugu batekin."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:13
+msgid "Places a water source and a Salmon."
+msgstr "Jarri ur-iturri bat eta izokin bat."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:14
+msgid "Places a water source and a Tropical Fish."
+msgstr "Jarri ur iturri bat eta arrain tropikal bat."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:15
+msgid "Places a water source and an Axolotl."
+msgstr "Jarri ur iturri bat eta Axolote bat."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:16
+msgid "This bucket is filled with water and a Cod."
+msgstr "Ontzi hau urez eta bakailaoz beteta dago."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:17
+msgid "This bucket is filled with water and a Pufferfish."
+msgstr "Ontzi hau ura eta Fugu batekin beteta dago."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:18
+msgid "This bucket is filled with water and a Salmon."
+msgstr "Ontzi hau urez eta izokinez beteta dago."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:19
+msgid "This bucket is filled with water and a Tropical Fish."
+msgstr "Ontzi hau urez eta Arrain Tropikalez beteta dago."
+
+#: mods/ITEMS/mcl_buckets/mcl_buckets_translations_tmp.lua:20
+msgid "This bucket is filled with water and an Axolotl."
+msgstr "Ontzi hau urez eta Axolote batez beteta dago."
+
+#: mods/ITEMS/mcl_buckets/register.lua:22
+msgid "Lava Bucket"
+msgstr "Laba duen ontzia"
+
+#: mods/ITEMS/mcl_buckets/register.lua:23
+msgid ""
+"A bucket can be used to collect and release liquids. This one is filled with "
+"hot lava, safely contained inside. Use with caution."
+msgstr ""
+"Likidoak biltzeko eta askatzeko ontzia erabil daiteke. Barruan modu seguruan "
+"dagoen laba beroz beteta dago. Kontuz erabili."
+
+#: mods/ITEMS/mcl_buckets/register.lua:24
+msgid ""
+"Get in a safe distance and place the bucket to empty it and create a lava "
+"source at this spot. Don't burn yourself!"
+msgstr ""
+"Urrundu distantzia seguru batera eta utzi husteko ontzia eta sortu laba "
+"iturri bat leku honetan. Ez zaitez erre!"
+
+#: mods/ITEMS/mcl_buckets/register.lua:25
+msgid "Places a lava source"
+msgstr "Jarri laba-iturri bat"
+
+#: mods/ITEMS/mcl_buckets/register.lua:37
+msgid "Water Bucket"
+msgstr "Urez betetako ontzia"
+
+#: mods/ITEMS/mcl_buckets/register.lua:38
+msgid ""
+"A bucket can be used to collect and release liquids. This one is filled with "
+"water."
+msgstr ""
+"Likidoak biltzeko eta askatzeko ontzia erabil daiteke. Hau urez beteta dago."
+
+#: mods/ITEMS/mcl_buckets/register.lua:39
+msgid "Place it to empty the bucket and create a water source."
+msgstr "Jarri ontzia hustu eta ur-iturri bat sortzeko."
+
+#: mods/ITEMS/mcl_buckets/register.lua:40
+msgid "Places a water source"
+msgstr "Jarri ur-iturri bat"
+
+#: mods/ITEMS/mcl_buckets/register.lua:58
+msgid "River Water Bucket"
+msgstr "Ibaiko ur-ontzia"
+
+#: mods/ITEMS/mcl_buckets/register.lua:59
+msgid ""
+"A bucket can be used to collect and release liquids. This one is filled with "
+"river water."
+msgstr ""
+"Likidoak biltzeko eta askatzeko ontzia erabil daiteke. Hau ibai-urez beteta "
+"dago."
+
+#: mods/ITEMS/mcl_buckets/register.lua:60
+msgid "Place it to empty the bucket and create a river water source."
+msgstr "Jarri ontzia husteko eta ibaiko ur-iturri bat sortzeko."
+
+#: mods/ITEMS/mcl_buckets/register.lua:61
+msgid "Places a river water source"
+msgstr "Jarri ibaiko ur-iturri bat"

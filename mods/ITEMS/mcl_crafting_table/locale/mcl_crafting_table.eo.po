@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_crafting_table x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-05-15 17:58+0000\n"
+"Last-Translator: Notxor <notxor@noreply.codeberg.org>\n"
+"Language-Team: Esperanto <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_crafting_table/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17.1\n"
+
+#: mods/ITEMS/mcl_crafting_table/init.lua:10
+msgid "Crafting"
+msgstr "Kunmetado"
+
+#: mods/ITEMS/mcl_crafting_table/init.lua:20
+msgid "Inventory"
+msgstr "Portaĵujo"
+
+#: mods/ITEMS/mcl_crafting_table/init.lua:33
+msgid "Recipe book"
+msgstr "Receptaro"
+
+#: mods/ITEMS/mcl_crafting_table/init.lua:36
+msgid "Fill Craft Grid"
+msgstr "Plenigi la metian kradraĵon"
+
+#: mods/ITEMS/mcl_crafting_table/init.lua:80
+msgid "Crafting Table"
+msgstr "Labortablo"
+
+#: mods/ITEMS/mcl_crafting_table/init.lua:81
+msgid "3×3 crafting grid"
+msgstr "3×3a kunmeta krado"
+
+#: mods/ITEMS/mcl_crafting_table/init.lua:82
+msgid ""
+"A crafting table is a block which grants you access to a 3×3 crafting grid "
+"which allows you to perform advanced crafts."
+msgstr ""
+"Labortablo estas bloko kiu donas al vi aliron al 3×3a kunmeta krado kiu "
+"ebligas vin fari altnivelajn kunmetojn."
+
+#: mods/ITEMS/mcl_crafting_table/init.lua:83
+msgid "Rightclick the crafting table to access the 3×3 crafting grid."
+msgstr "Dekstre klaku la kunmetan tablon por aliri la kunmetejon kun 3×3 ingoj."

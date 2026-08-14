@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_beehives x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 15:26+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_beehives/init.lua:97 mods/ITEMS/mcl_beehives/init.lua:117
+#: mods/ITEMS/mcl_beehives/init.lua:135
+msgid "Beehive"
+msgstr "Bikupa"
+
+#: mods/ITEMS/mcl_beehives/init.lua:98 mods/ITEMS/mcl_beehives/init.lua:118
+#: mods/ITEMS/mcl_beehives/init.lua:136
+msgid "Artificial bee nest."
+msgstr "Konstgjort bisamhälle."
+
+#: mods/ITEMS/mcl_beehives/init.lua:154 mods/ITEMS/mcl_beehives/init.lua:174
+#: mods/ITEMS/mcl_beehives/init.lua:192
+msgid "Bee Nest"
+msgstr "Bisamhälle"
+
+#: mods/ITEMS/mcl_beehives/init.lua:155 mods/ITEMS/mcl_beehives/init.lua:175
+#: mods/ITEMS/mcl_beehives/init.lua:193
+msgid ""
+"A naturally generating block that houses bees and a tasty treat...if you can "
+"get it."
+msgstr ""
+"Ett naturligt genererat block som inhyser bin och en mumsig överraskning... "
+"om du kan få tag på den."

@@ -1,0 +1,263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_beds x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_beds/api.lua:104
+msgid "Beds allow you to sleep at night and make the time pass faster."
+msgstr "Sängyssä voit nukkua yöllä, jolloin aika kuluu nopeammin."
+
+#: mods/ITEMS/mcl_beds/api.lua:105
+msgid ""
+"To use a bed, stand close to it and right-click the bed to sleep in it. "
+"Sleeping only works when the sun sets, at night or during a thunderstorm. "
+"The bed must also be clear of any danger."
+msgstr ""
+"Nukkuaksesi sängyssä seiso sen vieressä ja klikkaa sitä oikealla "
+"hiirennäppäimellä. Voit nukkua vain auringon laskiessa, yöllä ja "
+"ukkosmyrskyn aikana. Sängyn lähistöllä ei myöskään saa olla vaaroja."
+
+#: mods/ITEMS/mcl_beds/api.lua:107
+msgid ""
+"You have heard of other worlds in which a bed would set the start point for "
+"your next life. But this world is not one of them."
+msgstr ""
+"Olet saattanut kuulla toisista maailmoista, joissa sänky asettaa seuraavan "
+"elämäsi alkupisteen. Tämä maailma ei kuitenkaan ole sellainen."
+
+#: mods/ITEMS/mcl_beds/api.lua:109
+msgid ""
+"By using a bed, you set the starting point for your next life. If you die, "
+"you will start your next life at this bed, unless it is obstructed or "
+"destroyed."
+msgstr ""
+"Käyttämällä sänkyä asetat seuraavan elämäsi aloituspisteen. Jos kuolet, uusi "
+"elämäsi alkaa tämän sängyn luota, ellei sitä ole peitetty tai tuhottu."
+
+#: mods/ITEMS/mcl_beds/api.lua:112
+msgid ""
+"In this world, going to bed won't skip the night, but it will skip "
+"thunderstorms."
+msgstr ""
+"Tässä maailmassa sänkyyn meneminen ei ohita yötä, mutta se ohittaa "
+"ukkosmyrkyt."
+
+#: mods/ITEMS/mcl_beds/api.lua:114
+msgid ""
+"Sleeping allows you to skip the night. The night is skipped when all players "
+"in this world went to sleep. The night is skipped after sleeping for a few "
+"seconds. Thunderstorms can be skipped in the same manner."
+msgstr ""
+"Nukkumalla voit ohittaa yön. Yö ohitetaan, kun kaikki tämän maailman "
+"pelaajat menevät nukkumaan. Yö ohitetaan, kun on nukuttu muutaman sekunnin "
+"ajan. Ukkosmyrskyt voi ohittaa samalla tavoin."
+
+#: mods/ITEMS/mcl_beds/api.lua:129
+msgid "Allows you to sleep"
+msgstr "Voit nukkua siinä"
+
+#: mods/ITEMS/mcl_beds/beds.lua:21
+msgid "Bed"
+msgstr "Sänky"
+
+#: mods/ITEMS/mcl_beds/functions.lua:85
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:27
+msgid "New respawn position set!"
+msgstr "Uudelleensyntymispaikka asetettu!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:90
+msgid "You can only sleep at night or during a thunderstorm."
+msgstr "Voit nukkua vain öisin tai ukkosmyrskyn aikana."
+
+#: mods/ITEMS/mcl_beds/functions.lua:95
+msgid "You can't sleep, the bed's too far away!"
+msgstr "Et voi nukkua. Sänky on liian kaukana!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:100
+msgid "This bed is already occupied!"
+msgstr "Sänky on jo varattu!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:113
+msgid "You can't sleep now, monsters are nearby!"
+msgstr "Et voi nukkua nyt. Lähistöllä on hirviöitä!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:158
+msgid "You can't sleep, the bed is obstructed!"
+msgstr "Et voi nukkua. Sängyn tiellä on esteitä!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:160
+msgid "It's too dangerous to sleep here!"
+msgstr "Tässä on liian vaarallista nukkua!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:213
+msgid "Leave bed"
+msgstr "Poistu sängystä"
+
+#: mods/ITEMS/mcl_beds/functions.lua:214
+msgid "Abort sleep"
+msgstr "Keskeytä nukkuminen"
+
+#: mods/ITEMS/mcl_beds/functions.lua:217
+msgid "Chat:"
+msgstr "Keskustelukenttä:"
+
+#: mods/ITEMS/mcl_beds/functions.lua:218
+msgid "send!"
+msgstr "lähetä!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:229
+msgid "Players in bed: @1/@2"
+msgstr "Pelaajia nukkumassa: @1 / @2"
+
+#: mods/ITEMS/mcl_beds/functions.lua:231 mods/ITEMS/mcl_beds/functions.lua:258
+msgid "Note: Night skip is disabled."
+msgstr "Huomautus: Yön ohittaminen on kytketty pois."
+
+#: mods/ITEMS/mcl_beds/functions.lua:235 mods/ITEMS/mcl_beds/functions.lua:254
+msgid "You're sleeping."
+msgstr "Nukut."
+
+#: mods/ITEMS/mcl_beds/functions.lua:241
+msgid "You will fall asleep when all players are in bed."
+msgstr "Nukahdat, kun kaikki pelaajat ovat sängyssä."
+
+#: mods/ITEMS/mcl_beds/functions.lua:243
+msgid "You will fall asleep when @1% of all players are in bed."
+msgstr "Nukahdat, kun @1 % pelaajista on sängyssä."
+
+#: mods/ITEMS/mcl_beds/functions.lua:258
+msgid "You're in bed."
+msgstr "Olet sängyssä."
+
+#: mods/ITEMS/mcl_beds/functions.lua:379
+msgid "@1/@2 players currently in bed."
+msgstr "@1 / @2 pelaajaa on tällä hetkellä sängyssä."
+
+#: mods/ITEMS/mcl_beds/functions.lua:452
+msgid "You exceeded the maximum number of messages per 10 seconds!"
+msgstr "Yritit lähettää sallittua enemmän viestejä 10 sekunnin sisällä!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:461
+msgid ""
+"You are missing the 'shout' privilege! It's required in order to talk in "
+"chat..."
+msgstr ""
+"Sinulta puuttuu \"shout\"-oikeus! Se täytyy olla, jotta voi viestitellä "
+"keskustelukentässä..."
+
+#: mods/ITEMS/mcl_beds/functions.lua:480
+msgid ""
+"Sorry, but you have to wait @1 seconds until you may use this button again!"
+msgstr ""
+"Pahoittelut. Sinun tulee odottaa @1 sekuntia ennen kuin voit käyttää tätä "
+"näppäintä uudelleen!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:486
+msgid "Hey! Would you guys mind sleeping?"
+msgstr "Hei! Olisiko mahdollista mennä nukkumaan?"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:1
+msgid "Black Bed"
+msgstr "Musta sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:2
+msgid "Blue Bed"
+msgstr "Sininen sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:3
+msgid "Brown Bed"
+msgstr "Ruskea sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:4
+msgid "Cyan Bed"
+msgstr "Sinivihreä sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:5
+msgid "Green Bed"
+msgstr "Vihreä sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:6
+msgid "Grey Bed"
+msgstr "Harmaa sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:7
+msgid "Light Blue Bed"
+msgstr "Vaaleansininen sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:8
+msgid "Light Grey Bed"
+msgstr "Vaaleanharmaa sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:9
+msgid "Lime Bed"
+msgstr "Vaaleanvihreä sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:10
+msgid "Magenta Bed"
+msgstr "Purppuranpunainen sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:11
+msgid "Orange Bed"
+msgstr "Oranssi sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:12
+msgid "Pink Bed"
+msgstr "Vaaleanpunainen sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:13
+msgid "Purple Bed"
+msgstr "Violetti sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:14
+msgid "Red Bed"
+msgstr "Punainen sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:15
+msgid "White Bed"
+msgstr "Valkoinen sänky"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:16
+msgid "Yellow Bed"
+msgstr "Keltainen sänky"
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:38
+msgid "Respawn Anchor"
+msgstr "Uudelleensyntymisankkuri"
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:48
+msgid ""
+"The respawn anchor is a block that allows the player to set their spawn "
+"point in the Nether. It will only work if fueled using glowstone blocks."
+msgstr ""
+"Uudelleensyntymisankkuri on kuutio, jonka avulla pelaaja voi asettaa "
+"uudelleensyntymispaikkansa Hornaan. Se toimii vain, jos sen lataa "
+"hehkukivikuutioilla."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:49
+msgid "Use a glowstone block to add a charge."
+msgstr "Lataa hehkukivikuutiolla."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:50
+msgid ""
+"Respawn anchors can be charged up to four times. Rightclick on a charged "
+"anchor to set a new spawn point."
+msgstr ""
+"Uudelleensyntymisankkurin voi ladata enintään neljä kertaa. Paina ladattua "
+"ankkuria oikealla hiirennäppäimellä asettaaksesi uudelleensyntymispaikan."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:51
+msgid ""
+"A respawn anchor only works in the Nether. Attempting to use a charged "
+"anchor to set a new spawn point outside the Nether will cause it to explode."
+msgstr ""
+"Uudelleensyntymisankkuri toimii vain Hornassa. Jos ladattua ankkuria yrittää "
+"käyttää Hornan ulkopuolella, se räjähtää."

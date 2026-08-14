@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_commands x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-01 03:10+0200\n"
+"PO-Revision-Date: 2026-07-10 00:08+0000\n"
+"Last-Translator: baka_bo <baka_bo@noreply.codeberg.org>\n"
+"Language-Team: Japanese <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_commands/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/MISC/mcl_commands/alias.lua:17
+msgid "List bans"
+msgstr "バンのリスト"
+
+#: mods/MISC/mcl_commands/alias.lua:20
+msgid "Ban list: @1"
+msgstr "バンリスト： @1"
+
+#: mods/MISC/mcl_commands/kill.lua:5
+msgid "Players can't be killed right now, damage has been disabled."
+msgstr "今、プレイヤーを殺ることはできません。ダメージは無効になっています。"
+
+#: mods/MISC/mcl_commands/kill.lua:9
+msgid "Player @1 does not exist."
+msgstr "プレイヤー@1は存在しません。"
+
+#: mods/MISC/mcl_commands/kill.lua:12
+msgid "You are already dead"
+msgstr "あなたはもう死んでいる"
+
+#: mods/MISC/mcl_commands/kill.lua:14
+msgid "@1 is already dead"
+msgstr "@1はもう死んでいる"
+
+#: mods/MISC/mcl_commands/kill.lua:33
+msgid "[<name>]"
+msgstr "[<名前>]"
+
+#: mods/MISC/mcl_commands/kill.lua:34
+msgid "Kill player or yourself"
+msgstr "プレイヤーまたは自分自身を殺害"
+
+#: mods/MISC/mcl_commands/list.lua:4
+msgid "Show who is logged on"
+msgstr "誰がログオンしているかを表示"
+
+#: mods/MISC/mcl_commands/say.lua:4
+msgid "Can use /say"
+msgstr "/say を使用可能"
+
+#: mods/MISC/mcl_commands/say.lua:8
+msgid "<message>"
+msgstr "<メッセージ>"
+
+#: mods/MISC/mcl_commands/say.lua:9
+msgid "Send a message to every player"
+msgstr "全プレイヤーにメッセージを送信"
+
+#: mods/MISC/mcl_commands/say.lua:13
+msgid "Invalid usage, see /help say."
+msgstr "無効な使用方法です、 /help say を参照してください。"
+
+#: mods/MISC/mcl_commands/seed.lua:4
+msgid "Displays the world seed"
+msgstr "ワールドのシードを表示"
+
+#: mods/MISC/mcl_commands/setblock.lua:4
+msgid "<X>,<Y>,<Z> <NodeString>"
+msgstr "<X>,<Y>,<Z> <ノード文字列>"
+
+#: mods/MISC/mcl_commands/setblock.lua:5
+msgid "Set node at given position"
+msgstr "指定された位置にノードを設定"
+
+#: mods/MISC/mcl_commands/setblock.lua:19
+msgid "Invalid node"
+msgstr "無効なノード"
+
+#: mods/MISC/mcl_commands/setblock.lua:22
+msgid "@1 spawned."
+msgstr "@1がスポーンしました。"
+
+#: mods/MISC/mcl_commands/setblock.lua:24
+msgid "Invalid parameters (see /help setblock)"
+msgstr "無効なパラメータ（/help setblock を参照の事）"
+
+#: mods/MISC/mcl_commands/sound.lua:4
+msgid "<sound> <target>"
+msgstr "<音> <対象>"
+
+#: mods/MISC/mcl_commands/sound.lua:5
+msgid "Play a sound. Arguments: <sound>: name of the sound. <target>: Target."
+msgstr "音を再生します。引数：<sound>：音の名前。<target>：対象。"
+
+#: mods/MISC/mcl_commands/sound.lua:18
+msgid "Sound name is invalid!"
+msgstr "サウンド名が無効です！"
+
+#: mods/MISC/mcl_commands/sound.lua:23
+msgid "Target is invalid!!"
+msgstr "対象が無効です！！"
+
+#: mods/MISC/mcl_commands/summon.lua:8
+msgid "Only peaceful mobs allowed!"
+msgstr "平和的なモブのみ許されます！"
+
+#: mods/MISC/mcl_commands/version.lua:65
+msgid "Displays the Mineclonia version"
+msgstr ""

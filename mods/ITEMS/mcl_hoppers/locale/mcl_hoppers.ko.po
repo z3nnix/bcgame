@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_hoppers x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_hoppers/init.lua:190 mods/ITEMS/mcl_hoppers/init.lua:329
+msgid "Hopper"
+msgstr "호퍼"
+
+#: mods/ITEMS/mcl_hoppers/init.lua:195
+msgid "Inventory"
+msgstr "인벤토리"
+
+#: mods/ITEMS/mcl_hoppers/init.lua:330
+msgid "5 inventory slots"
+msgstr "5개의 인벤토리 슬롯"
+
+#: mods/ITEMS/mcl_hoppers/init.lua:330
+msgid "Collects items from above, moves items to container below"
+msgstr "상단의 아이템을 수집하고 아래의 컨테이너로 아이템을 옮김"
+
+#: mods/ITEMS/mcl_hoppers/init.lua:330
+msgid "Can be disabled with redstone power"
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:331
+msgid ""
+"Hoppers are containers with 5 inventory slots. They collect dropped items "
+"from above, take items from a container above and attempt to put its items "
+"it into an adjacent container. Hoppers can go either downwards or sideways. "
+"Hoppers interact with chests, droppers, dispensers, shulker boxes, furnaces "
+"and hoppers."
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:333
+msgid "Hoppers interact with containers the following way:"
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:334
+msgid ""
+"• Furnaces: Hoppers from above will put items into the source slot. Hoppers "
+"from below take items from the output slot. They also take items from the "
+"fuel slot when they can't be used as a fuel. Sideway hoppers that point to "
+"the furnace put items into the fuel slot"
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:335
+msgid "• Ender chests: No interaction."
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:336
+msgid "• Other containers: Normal interaction."
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:338
+msgid ""
+"Hoppers can be disabled when supplied with redstone power. Disabled hoppers "
+"don't move items."
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:339
+msgid ""
+"To place a hopper vertically, place it on the floor or a ceiling. To place "
+"it sideways, place it at the side of a block. Use the hopper to access its "
+"inventory."
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:367
+msgid "Disabled Hopper"
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:413
+msgid "Side Hopper"
+msgstr ""
+
+#: mods/ITEMS/mcl_hoppers/init.lua:420
+msgid "Disabled Side Hopper"
+msgstr ""

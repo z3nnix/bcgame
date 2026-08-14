@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_beds x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_beds/api.lua:104
+msgid "Beds allow you to sleep at night and make the time pass faster."
+msgstr "На кровати можно спать по ночам и заставлять время идти быстрее."
+
+#: mods/ITEMS/mcl_beds/api.lua:105
+msgid ""
+"To use a bed, stand close to it and right-click the bed to sleep in it. "
+"Sleeping only works when the sun sets, at night or during a thunderstorm. "
+"The bed must also be clear of any danger."
+msgstr ""
+"Чтобы использовать кровать, встаньте рядом и кликните по ней правой кнопкой. "
+"Вы сможете уснуть, только если солнце в закате, либо уже наступила ночь, "
+"либо идёт гроза. Кровать при этом должна в безопасном месте."
+
+#: mods/ITEMS/mcl_beds/api.lua:107
+msgid ""
+"You have heard of other worlds in which a bed would set the start point for "
+"your next life. But this world is not one of them."
+msgstr ""
+"Вы слышали о других мирах, где кровать становится стартовой точкой для вашей "
+"следующей жизни. Но этот мир не такой."
+
+#: mods/ITEMS/mcl_beds/api.lua:109
+msgid ""
+"By using a bed, you set the starting point for your next life. If you die, "
+"you will start your next life at this bed, unless it is obstructed or "
+"destroyed."
+msgstr ""
+"Воспользовавшись кроватью, вы устанавливаете стартовую точку для вашей "
+"следующей жизни. Если вы умрёте, ваша новая жизнь начнётся в этой кровати, "
+"если она не уничтожена и не загромождена."
+
+#: mods/ITEMS/mcl_beds/api.lua:112
+msgid ""
+"In this world, going to bed won't skip the night, but it will skip "
+"thunderstorms."
+msgstr ""
+"В этом мире использование кровати не заставит ночь пройти быстрее, но может "
+"сократить время грозового шторма."
+
+#: mods/ITEMS/mcl_beds/api.lua:114
+msgid ""
+"Sleeping allows you to skip the night. The night is skipped when all players "
+"in this world went to sleep. The night is skipped after sleeping for a few "
+"seconds. Thunderstorms can be skipped in the same manner."
+msgstr ""
+"Сон позволяет вам пропустить ночь. Если все игроки в этом мире лягут спать, "
+"ночь будет пропущена. Она пропустится через несколько секунд после сна. "
+"Таким же способом можно пропускать грозу."
+
+#: mods/ITEMS/mcl_beds/api.lua:129
+msgid "Allows you to sleep"
+msgstr "Можно спать"
+
+#: mods/ITEMS/mcl_beds/beds.lua:21
+msgid "Bed"
+msgstr "Кровать"
+
+#: mods/ITEMS/mcl_beds/functions.lua:85
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:27
+msgid "New respawn position set!"
+msgstr "Задана новая точка возрождения!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:90
+msgid "You can only sleep at night or during a thunderstorm."
+msgstr "Вы можете спать только ночью или во время грозы."
+
+#: mods/ITEMS/mcl_beds/functions.lua:95
+msgid "You can't sleep, the bed's too far away!"
+msgstr "Вы не можете спать, кровать слишком далеко!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:100
+msgid "This bed is already occupied!"
+msgstr "Эта кровать уже занята!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:113
+msgid "You can't sleep now, monsters are nearby!"
+msgstr "Вы не можете спать, монстры слишком близко!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:158
+msgid "You can't sleep, the bed is obstructed!"
+msgstr "Здесь не удастся поспать, кровать загромождена!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:160
+msgid "It's too dangerous to sleep here!"
+msgstr "Спать здесь слишком опасно!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:213
+msgid "Leave bed"
+msgstr "Встать с кровати"
+
+#: mods/ITEMS/mcl_beds/functions.lua:214
+msgid "Abort sleep"
+msgstr "Проснуться"
+
+#: mods/ITEMS/mcl_beds/functions.lua:217
+msgid "Chat:"
+msgstr "Чат:"
+
+#: mods/ITEMS/mcl_beds/functions.lua:218
+msgid "send!"
+msgstr "Отправить!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:229
+msgid "Players in bed: @1/@2"
+msgstr "Игроков в кроватях: @1/@2"
+
+#: mods/ITEMS/mcl_beds/functions.lua:231 mods/ITEMS/mcl_beds/functions.lua:258
+msgid "Note: Night skip is disabled."
+msgstr "Предупреждение: Пропуск ночи отключен."
+
+#: mods/ITEMS/mcl_beds/functions.lua:235 mods/ITEMS/mcl_beds/functions.lua:254
+msgid "You're sleeping."
+msgstr "Вы засыпаете..."
+
+#: mods/ITEMS/mcl_beds/functions.lua:241
+msgid "You will fall asleep when all players are in bed."
+msgstr "Вы уснёте когда все игроки лягут в кровати."
+
+#: mods/ITEMS/mcl_beds/functions.lua:243
+msgid "You will fall asleep when @1% of all players are in bed."
+msgstr "Вы уснёте когда @1% игроков лягут в кровати."
+
+#: mods/ITEMS/mcl_beds/functions.lua:258
+msgid "You're in bed."
+msgstr "Вы в кровати."
+
+#: mods/ITEMS/mcl_beds/functions.lua:379
+msgid "@1/@2 players currently in bed."
+msgstr "@1/@2 игроков сейчас в кроватях."
+
+#: mods/ITEMS/mcl_beds/functions.lua:452
+msgid "You exceeded the maximum number of messages per 10 seconds!"
+msgstr "Вы превысили максимальный лимит сообщений в 10 секунд!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:461
+msgid ""
+"You are missing the 'shout' privilege! It's required in order to talk in "
+"chat..."
+msgstr "Вам нужна привилегия «shout», чтобы писать в чат."
+
+#: mods/ITEMS/mcl_beds/functions.lua:480
+msgid ""
+"Sorry, but you have to wait @1 seconds until you may use this button again!"
+msgstr ""
+"Вам нужно подождать еще @1 с. прежде чем вы сможете нажать эту кнопку снова!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:486
+msgid "Hey! Would you guys mind sleeping?"
+msgstr "Эй, ребята, не хотите поспать?"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:1
+msgid "Black Bed"
+msgstr "Чёрная кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:2
+msgid "Blue Bed"
+msgstr "Синяя кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:3
+msgid "Brown Bed"
+msgstr "Коричневая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:4
+msgid "Cyan Bed"
+msgstr "Бирюзовая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:5
+msgid "Green Bed"
+msgstr "Зелёная кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:6
+msgid "Grey Bed"
+msgstr "Серая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:7
+msgid "Light Blue Bed"
+msgstr "Голубая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:8
+msgid "Light Grey Bed"
+msgstr "Светло-серая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:9
+msgid "Lime Bed"
+msgstr "Лаймовая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:10
+msgid "Magenta Bed"
+msgstr "Сиреневая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:11
+msgid "Orange Bed"
+msgstr "Оранжевая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:12
+msgid "Pink Bed"
+msgstr "Розовая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:13
+msgid "Purple Bed"
+msgstr "Фиолетовая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:14
+msgid "Red Bed"
+msgstr "Красная кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:15
+msgid "White Bed"
+msgstr "Белая кровать"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:16
+msgid "Yellow Bed"
+msgstr "Жёлтая кровать"
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:38
+msgid "Respawn Anchor"
+msgstr "Якорь возрождения"
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:48
+msgid ""
+"The respawn anchor is a block that allows the player to set their spawn "
+"point in the Nether. It will only work if fueled using glowstone blocks."
+msgstr ""
+"Якорь возрождения — это блок, позволяющий игроку установить точку своего "
+"возрождения в Незере. Он работает только если заряжен блоками светокамня."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:49
+msgid "Use a glowstone block to add a charge."
+msgstr "Используйте на нём блок светокамня, чтобы добавить заряд."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:50
+msgid ""
+"Respawn anchors can be charged up to four times. Rightclick on a charged "
+"anchor to set a new spawn point."
+msgstr ""
+"Якорь возрождения может быть заряжен до 4 раз. Правый клик на заряженном "
+"якоре установит новую точку возрождения."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:51
+msgid ""
+"A respawn anchor only works in the Nether. Attempting to use a charged "
+"anchor to set a new spawn point outside the Nether will cause it to explode."
+msgstr ""
+"Якорь возрождения работает только в Незере. Попытка использовать заряженный "
+"якорь для установки новой точки возрождения вне Незера приведёт к его взрыву."

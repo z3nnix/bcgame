@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_beds x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_beds/api.lua:104
+msgid "Beds allow you to sleep at night and make the time pass faster."
+msgstr ""
+"Oheek gauez lo egiteko eta denbora azkarrago pasatzeko aukera ematen diote."
+
+#: mods/ITEMS/mcl_beds/api.lua:105
+msgid ""
+"To use a bed, stand close to it and right-click the bed to sleep in it. "
+"Sleeping only works when the sun sets, at night or during a thunderstorm. "
+"The bed must also be clear of any danger."
+msgstr ""
+"Ohe bat erabiltzeko, jar zaitez ohearen ondoan eta egin eskuin-klik ohean lo "
+"egiteko. Eguzkia ezkutatzen denean bakarrik lo egiten da, gauean edo ekaitz "
+"elektriko batean. Oheak ere edozein arriskutik libre egon behar du."
+
+#: mods/ITEMS/mcl_beds/api.lua:107
+msgid ""
+"You have heard of other worlds in which a bed would set the start point for "
+"your next life. But this world is not one of them."
+msgstr ""
+"Beste mundu batzuen berri ere izan duzu, non ohe batek ezarriko bailuke zure "
+"hurrengo bizitzarako abiapuntua. Baina mundu hau ez da horietako bat."
+
+#: mods/ITEMS/mcl_beds/api.lua:109
+msgid ""
+"By using a bed, you set the starting point for your next life. If you die, "
+"you will start your next life at this bed, unless it is obstructed or "
+"destroyed."
+msgstr ""
+"Ohe bat erabiltzean, hurrengo bizitzarako abiapuntu gisa ezartzen da. "
+"Hiltzen bazara, hurrengo bizitza ohe honetan hasiko duzu, buxatuta edo "
+"suntsituta ez badago."
+
+#: mods/ITEMS/mcl_beds/api.lua:112
+msgid ""
+"In this world, going to bed won't skip the night, but it will skip "
+"thunderstorms."
+msgstr ""
+"Mundu honetan, ohera ez da gaua pasako, baina ekaitz elektrikoak gaindituko "
+"dira."
+
+#: mods/ITEMS/mcl_beds/api.lua:114
+msgid ""
+"Sleeping allows you to skip the night. The night is skipped when all players "
+"in this world went to sleep. The night is skipped after sleeping for a few "
+"seconds. Thunderstorms can be skipped in the same manner."
+msgstr ""
+"Lo egiteak gauari aurre egiteko aukera ematen dizu. Mundu honetako jokalari "
+"guztiak lotara joan zirenean ez zen gaua igaro. Gauak salto egiten du lo "
+"egin ondoren segundo batzuetan. Ekaitz elektrikoak modu berean alde batera "
+"utz daitezke."
+
+#: mods/ITEMS/mcl_beds/api.lua:129
+msgid "Allows you to sleep"
+msgstr "Lo egin dezakezu"
+
+#: mods/ITEMS/mcl_beds/beds.lua:21
+msgid "Bed"
+msgstr "Ohea"
+
+#: mods/ITEMS/mcl_beds/functions.lua:85
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:27
+msgid "New respawn position set!"
+msgstr "Berragertze-posizio berria ezarrita!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:90
+msgid "You can only sleep at night or during a thunderstorm."
+msgstr "Gauez edo ekaitz elektrikoetan bakarrik egin dezakezu lo."
+
+#: mods/ITEMS/mcl_beds/functions.lua:95
+msgid "You can't sleep, the bed's too far away!"
+msgstr "Ezin duzu lorik egin, ohea oso urrun dago!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:100
+msgid "This bed is already occupied!"
+msgstr "Ohea okupatuta dago!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:113
+msgid "You can't sleep now, monsters are nearby!"
+msgstr "Orain ezin duzu lorik egin, munstroak daude inguruan!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:158
+msgid "You can't sleep, the bed is obstructed!"
+msgstr "Ezin duzu lo egin, ohea itxita dago!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:160
+msgid "It's too dangerous to sleep here!"
+msgstr "Arriskutsua da hemen lo egitea!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:213
+msgid "Leave bed"
+msgstr "Ohetik irtetea"
+
+#: mods/ITEMS/mcl_beds/functions.lua:214
+msgid "Abort sleep"
+msgstr "Utzi lo egiteari"
+
+#: mods/ITEMS/mcl_beds/functions.lua:217
+msgid "Chat:"
+msgstr "Txata:"
+
+#: mods/ITEMS/mcl_beds/functions.lua:218
+msgid "send!"
+msgstr "bidali!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:229
+msgid "Players in bed: @1/@2"
+msgstr "Jokalariak ohean: @1/@2"
+
+#: mods/ITEMS/mcl_beds/functions.lua:231 mods/ITEMS/mcl_beds/functions.lua:258
+msgid "Note: Night skip is disabled."
+msgstr "Oharra: Gaueko jauzia desgaituta dago."
+
+#: mods/ITEMS/mcl_beds/functions.lua:235 mods/ITEMS/mcl_beds/functions.lua:254
+msgid "You're sleeping."
+msgstr "Lotan zaude."
+
+#: mods/ITEMS/mcl_beds/functions.lua:241
+msgid "You will fall asleep when all players are in bed."
+msgstr "Lotan geratuko zara jokalari guztiak ohean daudenean."
+
+#: mods/ITEMS/mcl_beds/functions.lua:243
+msgid "You will fall asleep when @1% of all players are in bed."
+msgstr "Jokalarien %@1 ohean dagoenean lo egin ahal izango duzu."
+
+#: mods/ITEMS/mcl_beds/functions.lua:258
+msgid "You're in bed."
+msgstr "Ohean zaude."
+
+#: mods/ITEMS/mcl_beds/functions.lua:379
+msgid "@1/@2 players currently in bed."
+msgstr "Une honetan @1/@2 jokalari daude ohean."
+
+#: mods/ITEMS/mcl_beds/functions.lua:452
+msgid "You exceeded the maximum number of messages per 10 seconds!"
+msgstr "Mezu kopuru maximoa gainditu duzu 10 segundoko!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:461
+msgid ""
+"You are missing the 'shout' privilege! It's required in order to talk in "
+"chat..."
+msgstr ""
+"Shout pribilegioa falta zaizu! Beharrezkoa da txatean hitz egin ahal "
+"izateko..."
+
+#: mods/ITEMS/mcl_beds/functions.lua:480
+msgid ""
+"Sorry, but you have to wait @1 seconds until you may use this button again!"
+msgstr ""
+"Sentitzen dugu, baina @1 segundo itxaron behar duzu botoi hau berriro "
+"erabili arte!"
+
+#: mods/ITEMS/mcl_beds/functions.lua:486
+msgid "Hey! Would you guys mind sleeping?"
+msgstr "Kaixo! Lo egitea gustatuko litzaizueke?"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:1
+msgid "Black Bed"
+msgstr "Ohe beltza"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:2
+msgid "Blue Bed"
+msgstr "Ohe urdina"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:3
+msgid "Brown Bed"
+msgstr "Ohe marroia"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:4
+msgid "Cyan Bed"
+msgstr "Ohe ziana"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:5
+msgid "Green Bed"
+msgstr "Ohe berdea"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:6
+msgid "Grey Bed"
+msgstr "Ohe grisa"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:7
+msgid "Light Blue Bed"
+msgstr "Ohe urdin argia"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:8
+msgid "Light Grey Bed"
+msgstr "Ohe gris argia"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:9
+msgid "Lime Bed"
+msgstr "Ohe berde lima"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:10
+msgid "Magenta Bed"
+msgstr "Ohe magenta"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:11
+msgid "Orange Bed"
+msgstr "Ohe laranja"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:12
+msgid "Pink Bed"
+msgstr "Ohe arrosa"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:13
+msgid "Purple Bed"
+msgstr "Ohe morea"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:14
+msgid "Red Bed"
+msgstr "Ohe gorria"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:15
+msgid "White Bed"
+msgstr "Ohe zuria"
+
+#: mods/ITEMS/mcl_beds/mcl_beds_translations_tmp.lua:16
+msgid "Yellow Bed"
+msgstr "Ohe horia"
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:38
+msgid "Respawn Anchor"
+msgstr "Berragertze Puntua"
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:48
+msgid ""
+"The respawn anchor is a block that allows the player to set their spawn "
+"point in the Nether. It will only work if fueled using glowstone blocks."
+msgstr ""
+"Agertze puntua jokalaria Nether-en agertuko den blokea da. Harri distiratsu "
+"blokearekin gaituta baldin badago bakarrik funtzionatuko du."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:49
+msgid "Use a glowstone block to add a charge."
+msgstr "Erabili harri distiratsua karga gehitzeko."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:50
+msgid ""
+"Respawn anchors can be charged up to four times. Rightclick on a charged "
+"anchor to set a new spawn point."
+msgstr ""
+"Agertze puntuak gehienez lau aldiz kargatu daitezke. Eskuin-klik egin "
+"kargatutako puntu batean agertze puntua ezartzeko."
+
+#: mods/ITEMS/mcl_beds/respawn_anchor.lua:51
+msgid ""
+"A respawn anchor only works in the Nether. Attempting to use a charged "
+"anchor to set a new spawn point outside the Nether will cause it to explode."
+msgstr ""
+"Agertze puntuak Nether-en bakarrik funtzionatzen du. Nether-etik kanpo "
+"kargatutako puntu batean agertze puntua ezartzen saiatzeak leherketa sortuko "
+"du."

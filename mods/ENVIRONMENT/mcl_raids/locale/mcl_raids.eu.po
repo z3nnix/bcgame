@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_raids x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:36
+msgid "Ominous Banner"
+msgstr "Zorigaiztoko Estandartea"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:217
+#: mods/ENVIRONMENT/mcl_raids/init.lua:223
+msgid "Raid (@1 of @2)"
+msgstr "Erasoa (@2tik @1)"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:230
+msgid "Raid"
+msgstr "Erasoa"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:233
+msgid "Raid (defeat)"
+msgstr "Erasoa (galdua)"
+
+#: mods/ENVIRONMENT/mcl_raids/init.lua:236
+msgid "Raid (victory)"
+msgstr "Erasoa (garaitua)"

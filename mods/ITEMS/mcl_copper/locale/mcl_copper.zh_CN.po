@@ -1,0 +1,685 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_copper x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: 2026-06-12 05:07+0000\n"
+"Last-Translator: chenhe <chenhe@noreply.codeberg.org>\n"
+"Language-Team: Chinese (Simplified Han script) <https://"
+"translate.codeberg.org/projects/mineclonia/mcl_copper/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/ITEMS/mcl_copper/items.lua:4
+msgid "Copper Ingot"
+msgstr "铜锭"
+
+#: mods/ITEMS/mcl_copper/items.lua:5
+msgid "Molten Copper. It is used to craft armor, tools, and blocks."
+msgstr "熔融铜材，可用来合成盔甲、工具与各类方块。"
+
+#: mods/ITEMS/mcl_copper/items.lua:9
+msgid "Copper Material"
+msgstr "铜质材料"
+
+#: mods/ITEMS/mcl_copper/items.lua:18
+msgid "Copper Nugget"
+msgstr "铜粒"
+
+#: mods/ITEMS/mcl_copper/items.lua:19
+msgid ""
+"Copper nuggets are very small pieces of molten copper; the main purpose is "
+"to create copper ingots."
+msgstr "铜粒是极小的熔融铜碎屑，主要用途是熔炼成铜锭。"
+
+#: mods/ITEMS/mcl_copper/items.lua:26
+msgid "Raw Copper"
+msgstr "粗铜"
+
+#: mods/ITEMS/mcl_copper/items.lua:27
+msgid "Raw Copper. Mine a Copper Ore to get it."
+msgstr "粗铜，开采铜矿石可获得它。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:1
+msgid "Block of Copper"
+msgstr "铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:2
+msgid "Block of Copper is mostly a decorative block."
+msgstr "铜块主要是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:3
+msgid "Chiseled Copper"
+msgstr "雕纹铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:4
+msgid "Chiseled Copper is mostly a decorative block."
+msgstr "雕纹铜块主要是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:5
+msgid "Copper Bars"
+msgstr "铜栏杆"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:6
+msgid "Copper Bulb"
+msgstr "铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:7
+msgid "Copper Bulb On"
+msgstr "亮起的铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:8
+msgid "Copper Bulb Powered Off"
+msgstr "未激活的铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:9
+msgid "Copper Bulb Powered On"
+msgstr "激活的铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:10
+msgid "Copper Bulb is mostly a decorative block."
+msgstr "铜灯主要是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:11
+msgid "Copper Chain"
+msgstr "铜锁链"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:12
+msgid "Copper Chains are metallic decoration blocks."
+msgstr "铜锁链属于金属装饰方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:13
+msgid "Copper Door"
+msgstr "铜门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:14
+msgid "Copper Grate"
+msgstr "铜格栅"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:15
+msgid "Copper Grate is mostly a decorative block."
+msgstr "铜格栅大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:16
+msgid "Copper Lantern"
+msgstr "铜灯笼"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:17
+msgid ""
+"Copper Lanterns are light sources which can be placed on the top or the "
+"bottom of most blocks."
+msgstr "铜灯笼是光源方块，可放置在大多数方块的顶面或底面。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:18
+msgid "Copper Trapdoor"
+msgstr "铜质活板门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:19
+msgid "Cut Copper"
+msgstr "切制铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:20
+msgid "Cut Copper Slab"
+msgstr "切制铜质台阶"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:21
+msgid "Cut Copper Stairs"
+msgstr "切制铜质楼梯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:22
+msgid "Cut Copper is mostly a decorative block."
+msgstr "切制铜块主要是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:23
+msgid "Exposed Chiseled Copper"
+msgstr "外露雕纹铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:24
+msgid "Exposed Chiseled Copper is mostly a decorative block."
+msgstr "外露雕纹铜块大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:25
+msgid "Exposed Copper"
+msgstr "外露铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:26
+msgid "Exposed Copper Bars"
+msgstr "外露铜栏杆"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:27
+msgid "Exposed Copper Bulb"
+msgstr "斑驳的铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:28
+msgid "Exposed Copper Bulb On"
+msgstr "亮起的斑驳铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:29
+msgid "Exposed Copper Bulb Powered Off"
+msgstr "未激活的斑驳铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:30
+msgid "Exposed Copper Bulb Powered On"
+msgstr "激活的斑驳铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:31
+msgid "Exposed Copper Bulb is mostly a decorative block."
+msgstr "斑驳的铜灯主要是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:32
+msgid "Exposed Copper Chain"
+msgstr "外露铜锁链"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:33
+msgid "Exposed Copper Chains are metallic decoration blocks."
+msgstr "外露铜锁链属于金属装饰方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:34
+msgid "Exposed Copper Door"
+msgstr "外露铜门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:35
+msgid "Exposed Copper Grate"
+msgstr "外露铜格栅"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:36
+msgid "Exposed Copper Grate is mostly a decorative block."
+msgstr "外露铜格栅大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:37
+msgid "Exposed Copper Lantern"
+msgstr "斑驳铜灯笼"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:38
+msgid ""
+"Exposed Copper Lanterns are light sources which can be placed on the top or "
+"the bottom of most blocks."
+msgstr "斑驳铜灯笼是光源方块，可放置在大多数方块的顶面或底面。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:39
+msgid "Exposed Copper Trapdoor"
+msgstr "外露铜质活板门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:40
+msgid "Exposed Copper is mostly a decorative block."
+msgstr "外露铜块大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:41
+msgid "Exposed Cut Copper"
+msgstr "外露切制铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:42
+msgid "Exposed Cut Copper Slab"
+msgstr "外露切制铜质台阶"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:43
+msgid "Exposed Cut Copper Stairs"
+msgstr "外露切制铜质楼梯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:44
+msgid "Exposed Cut Copper is mostly a decorative block."
+msgstr "外露切制铜块大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:45
+msgid "Oxidized Chiseled Copper"
+msgstr "氧化的雕纹铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:46
+msgid "Oxidized Chiseled Copper is mostly a decorative block."
+msgstr "氧化的雕纹铜块大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:47
+msgid "Oxidized Copper"
+msgstr "氧化铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:48
+msgid "Oxidized Copper Bars"
+msgstr "氧化铜栏杆"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:49
+msgid "Oxidized Copper Bulb"
+msgstr "氧化的铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:50
+msgid "Oxidized Copper Bulb On"
+msgstr "亮起的氧化铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:51
+msgid "Oxidized Copper Bulb Powered Off"
+msgstr "未激活的氧化铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:52
+msgid "Oxidized Copper Bulb Powered On"
+msgstr "激活的氧化铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:53
+msgid "Oxidized Copper Bulb is mostly a decorative block."
+msgstr "氧化的铜灯主要是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:54
+msgid "Oxidized Copper Chain"
+msgstr "氧化铜锁链"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:55
+msgid "Oxidized Copper Chains are metallic decoration blocks."
+msgstr "氧化铜锁链属于金属装饰方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:56
+msgid "Oxidized Copper Door"
+msgstr "氧化铜门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:57
+msgid "Oxidized Copper Grate"
+msgstr "氧化铜格栅"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:58
+msgid "Oxidized Copper Grate is mostly a decorative block."
+msgstr "氧化铜格栅大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:59
+msgid "Oxidized Copper Lantern"
+msgstr "氧化铜灯笼"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:60
+msgid ""
+"Oxidized Copper Lanterns are light sources which can be placed on the top or "
+"the bottom of most blocks."
+msgstr "氧化铜灯笼是光源方块，可放置在大多数方块的顶面或底面。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:61
+msgid "Oxidized Copper Trapdoor"
+msgstr "氧化铜质活板门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:62
+msgid "Oxidized Copper is mostly a decorative block."
+msgstr "氧化铜块大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:63
+msgid "Oxidized Cut Copper"
+msgstr "氧化切制铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:64
+msgid "Oxidized Cut Copper Slab"
+msgstr "氧化切制铜质半砖"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:65
+msgid "Oxidized Cut Copper Stairs"
+msgstr "氧化切制铜楼梯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:66
+msgid "Oxidized Cut Copper is mostly a decorative block."
+msgstr "氧化切制铜块大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:67
+msgid "Waxed Block of Copper"
+msgstr "涂蜡铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:68
+msgid "Waxed Chiseled Copper"
+msgstr "涂蜡雕纹铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:69
+msgid "Waxed Copper Bars"
+msgstr "涂蜡铜栏杆"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:70
+msgid "Waxed Copper Bulb"
+msgstr "涂蜡的铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:71
+msgid "Waxed Copper Bulb On"
+msgstr "亮起的涂蜡铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:72
+msgid "Waxed Copper Bulb Powered Off"
+msgstr "未激活的涂蜡铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:73
+msgid "Waxed Copper Bulb Powered On"
+msgstr "激活的涂蜡铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:74
+msgid "Waxed Copper Chain"
+msgstr "涂蜡铜锁链"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:75
+msgid "Waxed Copper Door"
+msgstr "涂蜡铜门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:76
+msgid "Waxed Copper Grate"
+msgstr "涂蜡铜格栅"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:77
+msgid "Waxed Copper Lantern"
+msgstr "涂蜡铜灯笼"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:78
+msgid "Waxed Copper Trapdoor"
+msgstr "涂蜡铜质活板门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:79
+msgid "Waxed Cut Copper"
+msgstr "涂蜡切制铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:80
+msgid "Waxed Cut Copper Slab"
+msgstr "涂蜡切制铜半砖"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:81
+msgid "Waxed Cut Copper Stairs"
+msgstr "涂蜡切制铜楼梯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:82
+msgid "Waxed Double @1"
+msgstr "涂蜡双层@1"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:83
+msgid "Waxed Exposed Chiseled Copper"
+msgstr "涂蜡外露雕纹铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:84
+msgid "Waxed Exposed Copper"
+msgstr "涂蜡外露铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:85
+msgid "Waxed Exposed Copper Bars"
+msgstr "涂蜡外露铜栏杆"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:86
+msgid "Waxed Exposed Copper Bulb"
+msgstr "涂蜡的斑驳铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:87
+msgid "Waxed Exposed Copper Bulb On"
+msgstr "亮起的涂蜡斑驳铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:88
+msgid "Waxed Exposed Copper Bulb Powered Off"
+msgstr "未激活的涂蜡斑驳铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:89
+msgid "Waxed Exposed Copper Bulb Powered On"
+msgstr "激活的涂蜡斑驳铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:90
+msgid "Waxed Exposed Copper Chain"
+msgstr "涂蜡外露铜锁链"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:91
+msgid "Waxed Exposed Copper Door"
+msgstr "涂蜡外露铜门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:92
+msgid "Waxed Exposed Copper Grate"
+msgstr "涂蜡外露铜格栅"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:93
+msgid "Waxed Exposed Copper Lantern"
+msgstr "涂蜡斑驳铜灯笼"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:94
+msgid "Waxed Exposed Copper Trapdoor"
+msgstr "涂蜡外露铜质活板门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:95
+msgid "Waxed Exposed Cut Copper"
+msgstr "涂蜡外露切制铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:96
+msgid "Waxed Exposed Cut Copper Slab"
+msgstr "涂蜡外露切制铜半砖"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:97
+msgid "Waxed Exposed Cut Copper Stairs"
+msgstr "涂蜡外露切制铜楼梯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:98
+msgid "Waxed Oxidized Chiseled Copper"
+msgstr "涂蜡氧化雕纹铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:99
+msgid "Waxed Oxidized Copper"
+msgstr "涂蜡氧化铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:100
+msgid "Waxed Oxidized Copper Bars"
+msgstr "涂蜡氧化铜栏杆"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:101
+msgid "Waxed Oxidized Copper Bulb"
+msgstr "涂蜡的氧化铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:102
+msgid "Waxed Oxidized Copper Bulb On"
+msgstr "亮起的涂蜡氧化铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:103
+msgid "Waxed Oxidized Copper Bulb Powered Off"
+msgstr "未激活的涂蜡氧化铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:104
+msgid "Waxed Oxidized Copper Bulb Powered On"
+msgstr "激活的涂蜡氧化铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:105
+msgid "Waxed Oxidized Copper Chain"
+msgstr "涂蜡氧化铜锁链"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:106
+msgid "Waxed Oxidized Copper Door"
+msgstr "涂蜡氧化铜门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:107
+msgid "Waxed Oxidized Copper Grate"
+msgstr "涂蜡氧化铜格栅"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:108
+msgid "Waxed Oxidized Copper Lantern"
+msgstr "涂蜡氧化铜灯笼"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:109
+msgid "Waxed Oxidized Copper Trapdoor"
+msgstr "涂蜡氧化铜活板门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:110
+msgid "Waxed Oxidized Cut Copper"
+msgstr "涂蜡氧化切制铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:111
+msgid "Waxed Oxidized Cut Copper Slab"
+msgstr "涂蜡氧化切制铜半砖"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:112
+msgid "Waxed Oxidized Cut Copper Stairs"
+msgstr "涂蜡氧化切制铜楼梯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:113
+msgid "Waxed Upper @1"
+msgstr "涂蜡上部 @1"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:114
+msgid "Waxed Weathered Chiseled Copper"
+msgstr "涂蜡风化雕纹铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:115
+msgid "Waxed Weathered Copper"
+msgstr "涂蜡风化铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:116
+msgid "Waxed Weathered Copper Bars"
+msgstr "涂蜡风化铜栏杆"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:117
+msgid "Waxed Weathered Copper Bulb"
+msgstr "涂蜡的锈蚀铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:118
+msgid "Waxed Weathered Copper Bulb On"
+msgstr "亮起的涂蜡锈蚀铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:119
+msgid "Waxed Weathered Copper Bulb Powered Off"
+msgstr "未激活的涂蜡锈蚀铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:120
+msgid "Waxed Weathered Copper Bulb Powered On"
+msgstr "激活的涂蜡锈蚀铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:121
+msgid "Waxed Weathered Copper Chain"
+msgstr "涂蜡风化铜锁链"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:122
+msgid "Waxed Weathered Copper Door"
+msgstr "涂蜡风化铜门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:123
+msgid "Waxed Weathered Copper Grate"
+msgstr "涂蜡风化铜格栅"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:124
+msgid "Waxed Weathered Copper Lantern"
+msgstr "涂蜡风化铜灯笼"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:125
+msgid "Waxed Weathered Copper Trapdoor"
+msgstr "涂蜡风化铜活板门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:126
+msgid "Waxed Weathered Cut Copper"
+msgstr "涂蜡风化切制铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:127
+msgid "Waxed Weathered Cut Copper Slab"
+msgstr "涂蜡风化切制铜质半砖"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:128
+msgid "Waxed Weathered Cut Copper Stairs"
+msgstr "涂蜡风化切制铜楼梯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:129
+msgid "Weathered Chiseled Copper"
+msgstr "风化的雕纹铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:130
+msgid "Weathered Chiseled Copper is mostly a decorative block."
+msgstr "风化的雕纹铜块主要是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:131
+msgid "Weathered Copper"
+msgstr "风化铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:132
+msgid "Weathered Copper Bars"
+msgstr "风化铜栏杆"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:133
+msgid "Weathered Copper Bulb"
+msgstr "锈蚀的铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:134
+msgid "Weathered Copper Bulb On"
+msgstr "亮起的锈蚀铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:135
+msgid "Weathered Copper Bulb Powered Off"
+msgstr "未激活的锈蚀铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:136
+msgid "Weathered Copper Bulb Powered On"
+msgstr "激活的锈蚀铜灯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:137
+msgid "Weathered Copper Bulb is mostly a decorative block."
+msgstr "锈蚀的铜灯主要是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:138
+msgid "Weathered Copper Chain"
+msgstr "风化铜锁链"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:139
+msgid "Weathered Copper Chains are metallic decoration blocks."
+msgstr "风化铜锁链属于金属装饰方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:140
+msgid "Weathered Copper Door"
+msgstr "风化铜门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:141
+msgid "Weathered Copper Grate"
+msgstr "风化铜格栅"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:142
+msgid "Weathered Copper Grate is mostly a decorative block."
+msgstr "风化铜格栅大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:143
+msgid "Weathered Copper Lantern"
+msgstr "风化铜灯笼"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:144
+msgid ""
+"Weathered Copper Lanterns are light sources which can be placed on the top "
+"or the bottom of most blocks."
+msgstr "风化铜灯笼是光源方块，可放置在大多数方块的顶面或底面。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:145
+msgid "Weathered Copper Trapdoor"
+msgstr "风化铜活板门"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:146
+msgid "Weathered Copper is mostly a decorative block."
+msgstr "风化铜块大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:147
+msgid "Weathered Cut Copper"
+msgstr "风化切制铜块"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:148
+msgid "Weathered Cut Copper Slab"
+msgstr "风化切制铜质半砖"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:149
+msgid "Weathered Cut Copper Stairs"
+msgstr "风化切制铜楼梯"
+
+#: mods/ITEMS/mcl_copper/mcl_copper_translations_tmp.lua:150
+msgid "Weathered Cut Copper is mostly a decorative block."
+msgstr "风化切制铜块大多是一种装饰性方块。"
+
+#: mods/ITEMS/mcl_copper/nodes.lua:42
+msgid "Copper Ore"
+msgstr "铜矿石"
+
+#: mods/ITEMS/mcl_copper/nodes.lua:43
+msgid ""
+"Some copper contained in stone, it is pretty common and can be found below "
+"sea level."
+msgstr "石头中含有一些铜，这种矿石十分常见，在海平面之下即可找到。"
+
+#: mods/ITEMS/mcl_copper/nodes.lua:63
+msgid "Block of Raw Copper"
+msgstr "粗铜块"
+
+#: mods/ITEMS/mcl_copper/nodes.lua:64
+msgid "A block used for compact raw copper storage."
+msgstr "用于紧凑存放粗铜的方块。"
+
+#: mods/ITEMS/mcl_copper/nodes.lua:247
+msgid "Copper Bars neatly connect to their neighbors as you build them."
+msgstr "放置铜栏杆时，会自动整齐地与相邻栏杆衔接。"
+
+#: mods/ITEMS/mcl_copper/nodes.lua:290
+msgid "Copper Torch"
+msgstr "铜火把"
+
+#: mods/ITEMS/mcl_copper/nodes.lua:291
+msgid ""
+"Copper Torches are light sources which can be placed at the side or on the "
+"top of most blocks."
+msgstr "铜火把属于光源，能够放置在大多数方块的侧面或顶面。"

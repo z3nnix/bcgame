@@ -1,0 +1,1812 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_core x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: 2026-06-12 05:08+0000\n"
+"Last-Translator: chenhe <chenhe@noreply.codeberg.org>\n"
+"Language-Team: Chinese (Simplified Han script) <https://"
+"translate.codeberg.org/projects/mineclonia/mcl_core-1/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:4
+msgid "Stick"
+msgstr "木棍"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:5
+msgid ""
+"Sticks are a very versatile crafting material; used in countless crafting "
+"recipes."
+msgstr "木棍用途广泛，是大量合成配方的基础材料。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:14
+msgid "Paper"
+msgstr "纸"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:15
+msgid "Paper is used to craft books and maps."
+msgstr "纸可用来合成书与地图。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:21
+msgid "Coal"
+msgstr "煤炭"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:22
+msgid ""
+"“Coal” refers to coal lumps obtained by digging coal ore which can be found "
+"underground. Coal is your standard furnace fuel, but it can also be used to "
+"make torches, coal blocks and a few other things."
+msgstr ""
+"煤炭是开采地下煤矿获得的煤块，是熔炉常规燃料，还能制作火把、煤炭块等物品。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:31
+msgid "Charcoal"
+msgstr "木炭"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:32
+msgid ""
+"Charcoal is an alternative furnace fuel created by cooking wood in a "
+"furnace. It has the same burning time as coal and also shares many of its "
+"crafting recipes, but it can not be used to create coal blocks."
+msgstr ""
+"木炭是将木头放入熔炉烧制得到的替代燃料，燃烧时长与煤炭一致，多数合成配方通"
+"用，但无法合成煤炭块。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:40
+msgid "Iron Nugget"
+msgstr "铁粒"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:41
+msgid ""
+"Iron nuggets are very small pieces of molten iron; the main purpose is to "
+"create iron ingots."
+msgstr "铁粒是熔融铁的细小碎屑，主要用于熔炼成铁锭。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:48
+msgid "Gold Nugget"
+msgstr "金粒"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:49
+msgid ""
+"Gold nuggets are very small pieces of molten gold; the main purpose is to "
+"create gold ingots."
+msgstr "金粒是熔融黄金的细小碎屑，主要用于熔炼成金锭。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:56
+msgid "Diamond"
+msgstr "钻石"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:57
+msgid ""
+"Diamonds are precious minerals and useful to create the highest tier of "
+"armor and tools."
+msgstr "钻石是珍贵矿物，可制作最高品级的盔甲与工具。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:61
+msgid "Diamond Material"
+msgstr "钻石材质"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:66
+msgid "Clay Ball"
+msgstr "黏土球"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:67
+msgid ""
+"Clay balls are a raw material, mainly used to create bricks in the furnace."
+msgstr "黏土球为原材料，主要放入熔炉烧制成砖块。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:76
+msgid "Iron Ingot"
+msgstr "铁锭"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:77
+msgid "Molten iron. It is used to craft armor, tools, and whatnot."
+msgstr "熔融铁材，可合成盔甲、工具等各类物品。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:81
+msgid "Iron Material"
+msgstr "铁质材料"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:89
+msgid "Gold Ingot"
+msgstr "金锭"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:90
+msgid "Molten gold. It is used to craft armor, tools, and whatnot."
+msgstr "熔融金材，可合成盔甲、工具等各类物品。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:94
+msgid "Gold Material"
+msgstr "金质材料"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:102
+msgid "Emerald"
+msgstr "绿宝石"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:103
+msgid "Emeralds are used in villager trades as currency."
+msgstr "绿宝石是与村民交易的通用货币。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:107
+msgid "Emerald Material"
+msgstr "绿宝石材质"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:112
+msgid "Lapis Lazuli"
+msgstr "青金石"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:113
+msgid "Lapis Lazuli are required for enchanting items on an enchanting table."
+msgstr "青金石是附魔台附魔装备的必备材料。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:117
+msgid "Lapis Material"
+msgstr "青金石材质"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:125
+msgid "Brick"
+msgstr "红砖"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:126
+msgid "Bricks are used to craft brick blocks."
+msgstr "红砖用于合成砖块方块。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:133
+msgid "Flint"
+msgstr "燧石"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:134
+msgid "Flint is a raw material."
+msgstr "燧石是一种基础原材料。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:140
+msgid "Sugar"
+msgstr "糖"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:141
+msgid "Sugar comes from sugar canes and is used to make sweet foods."
+msgstr "糖由甘蔗提炼而来，用于制作甜食。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:147
+msgid "Bowl"
+msgstr "碗"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:148
+msgid "Bowls are mainly used to hold tasty soups."
+msgstr "碗主要用来盛放各类浓汤。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:155
+msgid "Apple"
+msgstr "苹果"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:156
+msgid "Apples are food items which can be eaten."
+msgstr "苹果是可食用的食物。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:165
+msgid "Golden Apple"
+msgstr "金苹果"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:166
+#: mods/ITEMS/mcl_core/craftitems.lua:183
+msgid "Golden apples are precious food items which can be eaten."
+msgstr "金苹果是珍贵的可食用食物。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:182
+msgid "Enchanted Golden Apple"
+msgstr "附魔金苹果"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:1
+msgid "Acacia Bark"
+msgstr "金合欢树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:2
+msgid "Acacia Bark Slab"
+msgstr "金合欢树皮台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:3
+msgid "Acacia Bark Stairs"
+msgstr "金合欢树皮楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:4
+msgid "Acacia Boat"
+msgstr "金合欢木船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:5
+msgid "Acacia Button"
+msgstr "金合欢木按钮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:6
+msgid "Acacia Chest Boat"
+msgstr "金合欢储物船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:7
+msgid "Acacia Door"
+msgstr "金合欢木门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:8
+msgid "Acacia Fence"
+msgstr "金合欢栅栏"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:9
+msgid "Acacia Fence Gate"
+msgstr "金合欢栅栏门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:10
+msgid "Acacia Hanging Sign"
+msgstr "金合欢悬挂告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:11
+msgid "Acacia Leaves"
+msgstr "金合欢树叶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:12
+msgid "Acacia Log"
+msgstr "金合欢原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:13
+msgid "Acacia Planks"
+msgstr "金合欢木板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:14
+msgid "Acacia Pressure Plate"
+msgstr "金合欢压力板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:15
+msgid "Acacia Sapling"
+msgstr "金合欢树苗"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:16
+msgid "Acacia Sign"
+msgstr "金合欢告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:17
+msgid "Acacia Slab"
+msgstr "金合欢台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:18
+msgid "Acacia Stairs"
+msgstr "金合欢楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:19
+msgid "Acacia Trapdoor"
+msgstr "金合欢活板门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:20
+msgid "Acacia leaves are grown from Acacia trees."
+msgstr "金合欢树叶生长在金合欢树上。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:21
+msgid "Birch Bark"
+msgstr "白桦树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:22
+msgid "Birch Bark Slab"
+msgstr "白桦树皮台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:23
+msgid "Birch Bark Stairs"
+msgstr "白桦树皮楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:24
+msgid "Birch Boat"
+msgstr "白桦木船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:25
+msgid "Birch Button"
+msgstr "白桦木按钮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:26
+msgid "Birch Chest Boat"
+msgstr "白桦储物船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:27
+msgid "Birch Door"
+msgstr "白桦木门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:28
+msgid "Birch Fence"
+msgstr "白桦栅栏"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:29
+msgid "Birch Fence Gate"
+msgstr "白桦栅栏门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:30
+msgid "Birch Hanging Sign"
+msgstr "白桦悬挂告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:31
+msgid "Birch Leaves"
+msgstr "白桦树叶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:32
+msgid "Birch Log"
+msgstr "白桦原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:33
+msgid "Birch Planks"
+msgstr "白桦木板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:34
+msgid "Birch Pressure Plate"
+msgstr "白桦压力板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:35
+msgid "Birch Sapling"
+msgstr "白桦树苗"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:36
+msgid "Birch Sign"
+msgstr "白桦告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:37
+msgid "Birch Slab"
+msgstr "白桦台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:38
+msgid "Birch Stairs"
+msgstr "白桦楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:39
+msgid "Birch Trapdoor"
+msgstr "白桦活板门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:40
+msgid "Birch leaves are grown from Birch trees."
+msgstr "白桦树叶生长在白桦树上。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:41
+msgid "Black Stained Glass"
+msgstr "黑色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:42
+msgid "Blue Stained Glass"
+msgstr "蓝色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:43
+msgid "Brown Stained Glass"
+msgstr "棕色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:44
+msgid "Cyan Stained Glass"
+msgstr "青色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:45
+msgid "Dark Oak Bark"
+msgstr "深色橡树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:46
+msgid "Dark Oak Bark Slab"
+msgstr "深色橡树皮台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:47
+msgid "Dark Oak Bark Stairs"
+msgstr "深色橡树皮楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:48
+msgid "Dark Oak Boat"
+msgstr "深色橡木船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:49
+msgid "Dark Oak Button"
+msgstr "深色橡木按钮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:50
+msgid "Dark Oak Chest Boat"
+msgstr "深色橡木储物船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:51
+msgid "Dark Oak Door"
+msgstr "深色橡木门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:52
+msgid "Dark Oak Fence"
+msgstr "深色橡木栅栏"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:53
+msgid "Dark Oak Fence Gate"
+msgstr "深色橡木栅栏门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:54
+msgid "Dark Oak Hanging Sign"
+msgstr "深色橡木悬挂告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:55
+msgid "Dark Oak Leaves"
+msgstr "深色橡木树叶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:56
+msgid "Dark Oak Log"
+msgstr "深色橡木原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:57
+msgid "Dark Oak Planks"
+msgstr "深色橡木木板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:58
+msgid "Dark Oak Pressure Plate"
+msgstr "深色橡木压力板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:59
+msgid "Dark Oak Sapling"
+msgstr "深色橡木树苗"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:60
+msgid "Dark Oak Sign"
+msgstr "深色橡木告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:61
+msgid "Dark Oak Slab"
+msgstr "深色橡木台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:62
+msgid "Dark Oak Stairs"
+msgstr "深色橡木楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:63
+msgid "Dark Oak Trapdoor"
+msgstr "深色橡木活板门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:64
+msgid "Dark Oak leaves are grown from Dark Oak trees."
+msgstr "深色橡木树叶生长在深色橡树上。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:65
+msgid "Green Stained Glass"
+msgstr "绿色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:66
+msgid "Grey Stained Glass"
+msgstr "灰色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:67
+msgid "Jungle Bark"
+msgstr "丛林树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:68
+msgid "Jungle Bark Slab"
+msgstr "丛林树皮台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:69
+msgid "Jungle Bark Stairs"
+msgstr "丛林树皮楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:70
+msgid "Jungle Boat"
+msgstr "丛林木船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:71
+msgid "Jungle Button"
+msgstr "丛林木按钮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:72
+msgid "Jungle Chest Boat"
+msgstr "丛林储物船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:73
+msgid "Jungle Door"
+msgstr "丛林木门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:74
+msgid "Jungle Fence"
+msgstr "丛林栅栏"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:75
+msgid "Jungle Fence Gate"
+msgstr "丛林栅栏门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:76
+msgid "Jungle Hanging Sign"
+msgstr "丛林悬挂告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:77
+msgid "Jungle Leaves"
+msgstr "丛林树叶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:78
+msgid "Jungle Log"
+msgstr "丛林原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:79
+msgid "Jungle Planks"
+msgstr "丛林木板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:80
+msgid "Jungle Pressure Plate"
+msgstr "丛林压力板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:81
+msgid "Jungle Sapling"
+msgstr "丛林树苗"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:82
+msgid "Jungle Sign"
+msgstr "丛林告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:83
+msgid "Jungle Slab"
+msgstr "丛林台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:84
+msgid "Jungle Stairs"
+msgstr "丛林楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:85
+msgid "Jungle Trapdoor"
+msgstr "丛林活板门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:86
+msgid "Jungle leaves are grown from Jungle trees."
+msgstr "丛林树叶生长在丛林树上。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:87
+msgid "Light Blue Stained Glass"
+msgstr "淡蓝色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:88
+msgid "Light Grey Stained Glass"
+msgstr "浅灰色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:89
+msgid "Lime Stained Glass"
+msgstr "酸橙色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:90
+msgid "Magenta Stained Glass"
+msgstr "品红色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:91
+msgid "Oak Bark"
+msgstr "橡树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:92
+msgid "Oak Bark Slab"
+msgstr "橡树皮台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:93
+msgid "Oak Bark Stairs"
+msgstr "橡树皮楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:94
+msgid "Oak Boat"
+msgstr "橡木船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:95
+msgid "Oak Button"
+msgstr "橡木按钮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:96
+msgid "Oak Chest Boat"
+msgstr "橡木储物船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:97
+msgid "Oak Door"
+msgstr "橡木门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:98
+msgid "Oak Fence"
+msgstr "橡木栅栏"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:99
+msgid "Oak Fence Gate"
+msgstr "橡木栅栏门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:100
+msgid "Oak Hanging Sign"
+msgstr "橡木悬挂告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:101
+msgid "Oak Leaves"
+msgstr "橡木树叶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:102
+msgid "Oak Log"
+msgstr "橡木原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:103
+msgid "Oak Planks"
+msgstr "橡木木板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:104
+msgid "Oak Pressure Plate"
+msgstr "橡木压力板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:105
+msgid "Oak Sapling"
+msgstr "橡木树苗"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:106
+msgid "Oak Sign"
+msgstr "橡木告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:107
+msgid "Oak Slab"
+msgstr "橡木台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:108
+msgid "Oak Stairs"
+msgstr "橡木楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:109
+msgid "Oak Trapdoor"
+msgstr "橡木活板门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:110
+msgid "Oak leaves are grown from Oak trees."
+msgstr "橡木树叶生长在橡树上。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:111
+msgid "Orange Stained Glass"
+msgstr "橙色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:112
+msgid "Pink Stained Glass"
+msgstr "粉红色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:113
+msgid "Purple Stained Glass"
+msgstr "紫色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:114
+msgid "Red Stained Glass"
+msgstr "红色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:115
+msgid "Spruce Bark"
+msgstr "云杉树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:116
+msgid "Spruce Bark Slab"
+msgstr "云杉树皮台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:117
+msgid "Spruce Bark Stairs"
+msgstr "云杉树皮楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:118
+msgid "Spruce Boat"
+msgstr "云杉木船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:119
+msgid "Spruce Button"
+msgstr "云杉木按钮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:120
+msgid "Spruce Chest Boat"
+msgstr "云杉储物船"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:121
+msgid "Spruce Door"
+msgstr "云杉木门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:122
+msgid "Spruce Fence"
+msgstr "云杉栅栏"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:123
+msgid "Spruce Fence Gate"
+msgstr "云杉栅栏门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:124
+msgid "Spruce Hanging Sign"
+msgstr "云杉悬挂告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:125
+msgid "Spruce Leaves"
+msgstr "云杉树叶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:126
+msgid "Spruce Log"
+msgstr "云杉原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:127
+msgid "Spruce Planks"
+msgstr "云杉木板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:128
+msgid "Spruce Pressure Plate"
+msgstr "云杉压力板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:129
+msgid "Spruce Sapling"
+msgstr "云杉树苗"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:130
+msgid "Spruce Sign"
+msgstr "云杉告示牌"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:131
+msgid "Spruce Slab"
+msgstr "云杉台阶"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:132
+msgid "Spruce Stairs"
+msgstr "云杉楼梯"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:133
+msgid "Spruce Trapdoor"
+msgstr "云杉活板门"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:134
+msgid "Spruce leaves are grown from Spruce trees."
+msgstr "云杉树叶生长在云杉树上。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:135
+msgid "Stripped Acacia Bark"
+msgstr "去皮金合欢树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:136
+msgid "Stripped Acacia Log"
+msgstr "去皮金合欢原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:137
+msgid "Stripped Birch Bark"
+msgstr "去皮白桦树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:138
+msgid "Stripped Birch Log"
+msgstr "去皮白桦原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:139
+msgid "Stripped Dark Oak Bark"
+msgstr "去皮深色橡树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:140
+msgid "Stripped Dark Oak Log"
+msgstr "去皮深色橡木原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:141
+msgid "Stripped Jungle Bark"
+msgstr "去皮丛林树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:142
+msgid "Stripped Jungle Log"
+msgstr "去皮丛林原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:143
+msgid "Stripped Oak Bark"
+msgstr "去皮橡树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:144
+msgid "Stripped Oak Log"
+msgstr "去皮橡木原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:145
+msgid "Stripped Spruce Bark"
+msgstr "去皮云杉树皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:146
+msgid "Stripped Spruce Log"
+msgstr "去皮云杉原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:147
+msgid "The stripped trunk of an Acacia tree."
+msgstr "剥去外皮的金合欢树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:148
+msgid "The stripped trunk of an Birch tree."
+msgstr "剥去外皮的白桦树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:149
+msgid "The stripped trunk of an Dark Oak tree."
+msgstr "剥去外皮的深色橡木树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:150
+msgid "The stripped trunk of an Jungle tree."
+msgstr "剥去外皮的丛林树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:151
+msgid "The stripped trunk of an Oak tree."
+msgstr "剥去外皮的橡木树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:152
+msgid "The stripped trunk of an Spruce tree."
+msgstr "剥去外皮的云杉树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:153
+msgid "The stripped wood of an Acacia tree."
+msgstr "剥去外皮的金合欢木皮层。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:154
+msgid "The stripped wood of an Birch tree."
+msgstr "剥去外皮的白桦木皮层。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:155
+msgid "The stripped wood of an Dark Oak tree."
+msgstr "剥去外皮的深色橡木皮层。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:156
+msgid "The stripped wood of an Jungle tree."
+msgstr "剥去外皮的丛林木皮层。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:157
+msgid "The stripped wood of an Oak tree."
+msgstr "剥去外皮的橡木皮层。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:158
+msgid "The stripped wood of an Spruce tree."
+msgstr "剥去外皮的云杉木皮层。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:159
+msgid "The trunk of a Acacia tree."
+msgstr "金合欢树的树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:160
+msgid "The trunk of a Birch tree."
+msgstr "白桦树的树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:161
+msgid "The trunk of a Dark Oak tree."
+msgstr "深色橡树的树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:162
+msgid "The trunk of a Jungle tree."
+msgstr "丛林树的树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:163
+msgid "The trunk of a Oak tree."
+msgstr "橡树的树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:164
+msgid "The trunk of a Spruce tree."
+msgstr "云杉树的树干。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:165
+msgid "White Stained Glass"
+msgstr "白色染色玻璃"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:166
+msgid "Yellow Stained Glass"
+msgstr "黄色染色玻璃"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:16
+msgid "Stone"
+msgstr "石头"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:17
+msgid ""
+"One of the most common blocks in the world, almost the entire underground "
+"consists of stone. It sometimes contains ores. Stone may be created when "
+"water meets lava."
+msgstr ""
+"世界中最常见的方块之一，地下几乎全由石头构成，内部有时夹杂矿石。水与岩浆接触"
+"可以生成石头。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:31
+msgid "Coal Ore"
+msgstr "煤矿石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:32
+msgid ""
+"Some coal contained in stone, it is very common and can be found inside "
+"stone in medium to large clusters at nearly every height."
+msgstr "内嵌煤炭的石头，分布十分广泛，在几乎所有高度都能见到大小不一的矿脉。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:45
+msgid "Iron Ore"
+msgstr "铁矿石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:46
+msgid ""
+"Some iron contained in stone, it is prety common and can be found below sea "
+"level."
+msgstr "内嵌铁的石头，产量尚可，在海平面以下区域大量生成。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:59
+msgid "Gold Ore"
+msgstr "金矿石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:60
+msgid "This stone contains pure gold, a rare metal."
+msgstr "这块石头内含纯金，属于稀有金属矿石。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:83
+msgid "Redstone Ore"
+msgstr "红石矿石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:84
+msgid ""
+"Redstone ore is commonly found near the bottom of the world. It glows when "
+"it is punched or walked upon."
+msgstr "红石矿石多生成在世界底层附近，被击打或踩踏时会发出光亮。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:118
+msgid "Lit Redstone Ore"
+msgstr "发光红石矿石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:152
+msgid "Lapis Lazuli Ore"
+msgstr "青金石矿石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:153
+msgid ""
+"Lapis lazuli ore is the ore of lapis lazuli. It can be rarely found in "
+"clusters near the bottom of the world."
+msgstr "青金石矿石用于产出青金石，仅在世界底层零星矿脉中少量生成。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:175
+msgid "Emerald Ore"
+msgstr "绿宝石矿石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:176
+msgid ""
+"Emerald ore is the ore of emeralds. It is very rare and can be found alone, "
+"not in clusters."
+msgstr "绿宝石矿石产出绿宝石，极其稀有，均单独生成，不会形成矿脉群。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:188
+msgid "Diamond Ore"
+msgstr "钻石矿石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:189
+msgid ""
+"Diamond ore is rare and can be found in clusters near the bottom of the "
+"world."
+msgstr "钻石矿石较为稀有，在世界底层以小型矿脉形式生成。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:201
+msgid "Stone Bricks"
+msgstr "石砖"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:214
+msgid "Chiseled Stone Bricks"
+msgstr "雕纹石砖"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:226
+msgid "Cracked Stone Bricks"
+msgstr "裂纹石砖"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:237
+msgid "Mossy Stone Bricks"
+msgstr "苔石砖"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:248
+msgid "Smooth Stone"
+msgstr "平滑石头"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:259
+msgid "Granite"
+msgstr "花岗岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:260
+msgid "Granite is an igneous rock."
+msgstr "花岗岩属于火成岩。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:270
+msgid "Polished Granite"
+msgstr "抛光花岗岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:271
+msgid "Polished granite is a decorative building block made from granite."
+msgstr "抛光花岗岩是由花岗岩加工而成的装饰建筑方块。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:282
+msgid "Andesite"
+msgstr "安山岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:283
+msgid "Andesite is an igneous rock."
+msgstr "安山岩属于火成岩。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:293
+msgid "Polished Andesite"
+msgstr "抛光安山岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:294
+msgid "Polished andesite is a decorative building block made from andesite."
+msgstr "抛光安山岩是由安山岩加工而成的装饰建筑方块。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:305
+msgid "Diorite"
+msgstr "闪长岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:306
+msgid "Diorite is an igneous rock."
+msgstr "闪长岩属于火成岩。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:316
+msgid "Polished Diorite"
+msgstr "抛光闪长岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:317
+msgid "Polished diorite is a decorative building block made from diorite."
+msgstr "抛光闪长岩是由闪长岩加工而成的装饰建筑方块。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:329
+msgid "Grass Block"
+msgstr "草地方块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:330
+msgid ""
+"A grass block is dirt with a grass cover. Grass blocks are resourceful "
+"blocks which allow the growth of all sorts of plants. They can be turned "
+"into farmland with a hoe and turned into grass paths with a shovel. In "
+"light, the grass slowly spreads onto dirt nearby. Under an opaque block or a "
+"liquid, a grass block may turn back to dirt."
+msgstr ""
+"草地方块是表层覆草的泥土，适配绝大多数植物生长。可用锄头耕成农田，铲子修成草"
+"径。光照充足时草皮会蔓延到周边泥土；被不透光方块或液体覆盖时会变回泥土。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:368
+msgid "Dirt with Snow"
+msgstr "覆雪泥土"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:372
+msgid "Grass Path"
+msgstr "草径"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:373
+msgid ""
+"Grass paths are a decorative variant of grass blocks. Their top has a "
+"different color and they are a bit lower than grass blocks, making them "
+"useful to build footpaths. Grass paths can be created with a shovel. A grass "
+"path turns into dirt when it is below a solid block."
+msgstr ""
+"草径是草地的装饰变体，顶面色调不同、高度略低，适合铺设步道。用铲子对草地挖掘"
+"可生成，上方放置实心方块后会变回泥土。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:392
+msgid "Mycelium"
+msgstr "菌丝"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:393
+msgid ""
+"Mycelium is a type of dirt and the ideal soil for mushrooms. Unlike other "
+"dirt-type blocks, it can not be turned into farmland with a hoe. In light, "
+"mycelium slowly spreads over nearby dirt. Under an opaque block or a liquid, "
+"it eventually turns back into dirt."
+msgstr ""
+"菌丝是特殊泥土，最适合蘑菇生长；无法用锄头开垦成农田。光照下会蔓延至周围泥"
+"土，被不透光方块/液体覆盖后会变回泥土。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:407
+msgid "Mycelium with Snow"
+msgstr "覆雪菌丝"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:454
+msgid "Podzol"
+msgstr "灰化土"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:455
+msgid ""
+"Podzol is a type of dirt found in taiga forests. Only a few plants are able "
+"to survive on it."
+msgstr "灰化土生成于针叶林群系，仅有少数植物可以在此生长。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:466
+msgid "Podzol with Snow"
+msgstr "覆雪灰化土"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:469
+msgid "Dirt"
+msgstr "泥土"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:470
+msgid ""
+"Dirt acts as a soil for a few plants. When in light, this block may grow a "
+"grass or mycelium cover if such blocks are nearby."
+msgstr ""
+"泥土可种植部分植物；附近有草地或菌丝且光照充足时，表层会慢慢长出草皮或菌丝。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:481
+msgid "Coarse Dirt"
+msgstr "粗泥土"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:482
+msgid ""
+"Coarse dirt acts as a soil for some plants and is similar to dirt, but it "
+"will never grow a cover."
+msgstr "粗泥土可种植少量植物，材质近似普通泥土，但永远不会长出草皮或菌丝表层。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:492
+msgid "Gravel"
+msgstr "沙砾"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:493
+msgid ""
+"This block consists of a couple of loose stones and can't support itself."
+msgstr "由松散碎石构成，受重力影响会塌陷坠落。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:527
+msgid "Sand"
+msgstr "沙子"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:528
+msgid "Sand is found in large quantities at beaches and deserts."
+msgstr "沙子大量生成在沙滩与沙漠地形。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:539
+msgid "Sandstone"
+msgstr "砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:541
+msgid "Sandstone is compressed sand and is a rather soft kind of stone."
+msgstr "砂岩是压实后的沙子，质地偏松软。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:551
+msgid "Cut Sandstone"
+msgstr "切制砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:552
+msgid "Cut sandstone is a decorative building block."
+msgstr "切制砂岩是装饰类建筑方块。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:562
+msgid "Chiseled Sandstone"
+msgstr "雕纹砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:563
+msgid "Chiseled sandstone is a decorative building block."
+msgstr "雕纹砂岩是装饰类建筑方块。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:573
+msgid "Smooth Sandstone"
+msgstr "平滑砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:575
+msgid "Smooth sandstone is compressed sand and is a rather soft kind of stone."
+msgstr "平滑砂岩由沙子压实制成，质地较为松软。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:588
+msgid "Red Sand"
+msgstr "红沙"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:589
+msgid "Red sand is found in large quantities in mesa biomes."
+msgstr "红沙大量生成在平顶山群系。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:599
+msgid "Red Sandstone"
+msgstr "红砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:600
+msgid ""
+"Red sandstone is compressed red sand and is a rather soft kind of stone."
+msgstr "红砂岩由红沙压实制成，质地较为松软。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:610
+msgid "Cut Red Sandstone"
+msgstr "切制红砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:611
+msgid "Cut red sandstone is a decorative building block."
+msgstr "切制红砂岩是装饰类建筑方块。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:621
+msgid "Chiseled Red Sandstone"
+msgstr "雕纹红砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:622
+msgid "Chiseled red sandstone is a decorative building block."
+msgstr "雕纹红砂岩是装饰类建筑方块。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:632
+msgid "Smooth Red Sandstone"
+msgstr "平滑红砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:633
+msgid "Smooth red sandstone is a decorative building block."
+msgstr "平滑红砂岩是装饰类建筑方块。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:645
+msgid "Clay"
+msgstr "黏土块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:646
+msgid "Clay is a versatile kind of earth commonly found at beaches underwater."
+msgstr "黏土用途广泛，常在水下沙滩区域成片生成。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:659
+msgid "Brick Block"
+msgstr "砖块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:660
+msgid ""
+"Brick blocks are a good building material for building solid houses and can "
+"take quite a punch."
+msgstr "砖块坚固耐用，很适合搭建稳固的房屋建筑，抗爆炸性能良好。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:671
+msgid "Bedrock"
+msgstr "基岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:672
+msgid ""
+"Bedrock is a very hard type of rock. It can not be broken, destroyed, "
+"collected or moved by normal means, unless in Creative Mode."
+msgstr "基岩质地极硬，生存模式下无法破坏、拾取或移动，仅创造模式可操作。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:673
+msgid ""
+"In the End dimension, starting a fire on this block will create an eternal "
+"fire."
+msgstr "在末地维度，基岩上点燃的火焰会永久燃烧永不熄灭。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:715
+msgid "Cobblestone"
+msgstr "圆石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:729
+msgid "Mossy Cobblestone"
+msgstr "苔圆石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:740
+msgid "Block of Coal"
+msgstr "煤炭块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:741
+msgid ""
+"Blocks of coal are useful as a compact storage of coal and very useful as a "
+"furnace fuel. A block of coal is as efficient as 10 coal."
+msgstr ""
+"煤炭块既能紧凑储存煤炭，也是高效熔炉燃料，一块煤炭块燃烧时长等同于10个煤炭。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:753
+msgid "Block of Iron"
+msgstr "铁块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:754
+msgid ""
+"A block of iron is mostly a decorative block but also useful as a compact "
+"storage of iron ingots."
+msgstr "铁块主要用作装饰方块，也可紧凑存放铁锭。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:765
+msgid "Block of Gold"
+msgstr "金块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:766
+msgid ""
+"A block of gold is mostly a shiny decorative block but also useful as a "
+"compact storage of gold ingots."
+msgstr "金块是亮眼的装饰方块，同时可以集中收纳金锭。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:777
+msgid "Block of Diamond"
+msgstr "钻石块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:778
+msgid ""
+"A block of diamond is mostly a shiny decorative block but also useful as a "
+"compact storage of diamonds."
+msgstr "钻石块光泽亮丽，多用于装饰，也能批量存放钻石。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:789
+msgid "Block of Lapis Lazuli"
+msgstr "青金石块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:790
+msgid ""
+"A lapis lazuli block is mostly a decorative block but also useful as a "
+"compact storage of lapis lazuli."
+msgstr "青金石块主要用作装饰方块，也可用来集中存放青金石。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:800
+msgid "Block of Emerald"
+msgstr "绿宝石块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:801
+msgid ""
+"A block of emerald is mostly a shiny decorative block but also useful as a "
+"compact storage of emeralds."
+msgstr "绿宝石块光鲜亮眼，既可以装饰，也能集中存放绿宝石。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:812
+msgid "Obsidian"
+msgstr "黑曜石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:813
+msgid ""
+"Obsidian is an extremely hard mineral with an enourmous blast-resistance. "
+"Obsidian is formed when water meets lava."
+msgstr "黑曜石质地极其坚硬，抗爆炸能力极强，由水与岩浆接触生成。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:823
+msgid "Crying Obsidian"
+msgstr "哭泣黑曜石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:824
+msgid ""
+"Crying obsidian is a luminous obsidian that can generate as part of ruined "
+"portals."
+msgstr "哭泣黑曜石会自身发光，会自然生成在破损传送门结构中。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:835
+msgid "Ice"
+msgstr "冰"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:836
+msgid ""
+"Ice is a solid block usually found in cold areas. It melts near block light "
+"sources at a light level of 12 or higher. When it melts or is broken while "
+"resting on top of another block, it will turn into a water source."
+msgstr ""
+"冰是寒冷区域常见固体方块，亮度12及以上的光源会使其融化。融化或在其他方块上方"
+"被打碎时会变为水源。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:854
+msgid "Packed Ice"
+msgstr "压实冰"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:855
+msgid "Packed ice is a compressed form of ice. It is opaque and solid."
+msgstr "压实冰是经过挤压成型的冰，不透明且质地坚实。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:870
+msgid "Blue Ice"
+msgstr "蓝冰"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:871
+msgid ""
+"Blue Ice is a still more compressed form of ice.  It is opaque and solid."
+msgstr "蓝冰是挤压程度更高的冰，同样不透明、质地坚硬。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:914
+msgid ""
+"Frosted ice is a short-lived solid block. It melts into a water source "
+"within a few seconds."
+msgstr "霜冰存在时间很短，数秒内就会融化成水源方块。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:917
+msgid "Frosted Ice"
+msgstr "霜冰"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1012
+msgid "Top Snow"
+msgstr "雪层"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1013
+msgid "Stackable"
+msgstr "可堆叠"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1014
+msgid ""
+"Top snow is a layer of snow. It melts near light sources other than the sun "
+"with a light level of 12 or higher."
+msgstr "雪层是薄层积雪，除阳光外，亮度12及以上的光源会将其融化。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1014
+msgid ""
+"Top snow can be stacked and has one of 8 different height levels. At levels "
+"2-8, top snow is collidable. Top snow drops 2-9 snowballs, depending on its "
+"height."
+msgstr ""
+"雪层可堆叠，共有8种高度层级；2至8层时具备碰撞体积。根据高度不同，破坏后掉落2"
+"至9个雪球。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1015
+msgid ""
+"This block can only be placed on full solid blocks and on another top snow "
+"(which increases its height)."
+msgstr "雪层仅能放置在完整实心方块或是其他雪层上（堆叠会提升高度）。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1066
+msgid "Snow"
+msgstr "雪块"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1067
+msgid ""
+"This is a full block of snow. Snow of this thickness is usually found in "
+"areas of extreme cold."
+msgstr "完整尺寸的积雪方块，通常生成在极寒地带。"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:6
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:54
+msgid "Cactus"
+msgstr "仙人掌"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:7
+msgid "Grows on sand"
+msgstr "生长于沙子之上"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:7
+msgid "Contact damage: @1 per half second"
+msgstr "触碰伤害：每半秒@1点"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:8
+msgid ""
+"This is a piece of cactus commonly found in dry areas, especially deserts. "
+"Over time, cacti will grow up to 3 blocks high on sand or red sand. A cactus "
+"hurts living beings touching it with a damage of 1 HP every half second. "
+"When a cactus block is broken, all cactus blocks connected above it will "
+"break as well."
+msgstr ""
+"仙人掌多见于干旱地带，尤其是沙漠。可在沙子、红沙上长高至3格。生物触碰每半秒受"
+"到1点伤害；打碎下方仙人掌时，上方相连的仙人掌会一同碎裂。"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:9
+msgid "A cactus can only be placed on top of another cactus or any sand."
+msgstr "仙人掌只能放置在其他仙人掌方块或任意沙子方块顶部。"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:77
+msgid "Cactus Flower"
+msgstr "仙人掌花"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:78
+msgid "Grows on cacti"
+msgstr "依附仙人掌生长"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:101
+msgid "Sugar Canes"
+msgstr "甘蔗"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:102
+msgid "Grows on sand or dirt next to water"
+msgstr "生长在临水的沙子或泥土上"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:103
+msgid ""
+"Sugar canes are a plant which has some uses in crafting. Sugar canes will "
+"slowly grow up to 3 blocks when they are next to water and are placed on a "
+"grass block, dirt, sand, red sand, podzol or coarse dirt. When a sugar cane "
+"is broken, all sugar canes connected above will break as well."
+msgstr ""
+"甘蔗是可用于合成的作物。栽种在草地、泥土、沙子、红沙、灰化土、粗泥土且傍水"
+"时，可缓慢长至3格高。打碎下方甘蔗，上方相连甘蔗会一并断裂。"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:104
+msgid ""
+"Sugar canes can only be placed top of other sugar canes and on top of blocks "
+"on which they would grow."
+msgstr "甘蔗只能摆放在其他甘蔗方块，或是它能够扎根生长的方块顶部。"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:15
+msgid "Ladder"
+msgstr "梯子"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:16
+msgid ""
+"A piece of ladder which allows you to climb vertically. Ladders can only be "
+"placed on the side of solid blocks and not on glass, leaves, ice, slabs, "
+"glowstone, nor sea lanterns."
+msgstr ""
+"梯子可供垂直攀爬，仅能贴附在实心方块侧面，无法放在玻璃、树叶、冰、台阶、荧"
+"石、海灯表面。"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:83
+msgid "Vines"
+msgstr "藤蔓"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:84
+msgid ""
+"Vines are climbable blocks which can be placed on the sides of solid full-"
+"cube blocks. Vines slowly grow and spread."
+msgstr "藤蔓可攀爬，能贴在完整实心方块侧面，会缓慢生长蔓延。"
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:6
+msgid "Glass"
+msgstr "玻璃"
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:7
+msgid "A decorative and mostly transparent block."
+msgstr "以装饰用途为主，整体呈透明状态。"
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:33
+msgid ""
+"Stained glass is a decorative and mostly transparent block which comes in "
+"various different colors."
+msgstr "染色玻璃为装饰方块，大体透明，拥有多种色彩款式。"
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:34
+msgid "Stained Glass"
+msgstr "染色玻璃"
+
+#: mods/ITEMS/mcl_core/nodes_glow_lichen.lua:60
+msgid "Glow Lichen"
+msgstr "发光地衣"
+
+#: mods/ITEMS/mcl_core/nodes_glow_lichen.lua:61
+msgid ""
+"Naturally generating non-solid block that emits a faint light and can attach "
+"to any surface of a solid block."
+msgstr "自然生成的非实心方块，散发微弱光亮，可附着在实心方块任意一面。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:11
+msgid "Flowing Water"
+msgstr "流动水"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:55
+msgid "Water Source"
+msgstr "水源"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:56
+msgid "Water"
+msgstr "水"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:58
+msgid ""
+"Water is abundant in oceans and also appears in a few springs in the ground. "
+"You can swim easily in water, but you need to catch your breath from time to "
+"time."
+msgstr "海水储量巨大，地下也有泉水。水中可以顺畅游泳，但需要时不时换气。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:59
+msgid "Water interacts with lava in various ways:"
+msgstr "水与岩浆存在多种反应方式："
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:60
+msgid ""
+"• When water is directly above or horizontally next to a lava source, the "
+"lava turns into obsidian."
+msgstr "• 水在水源岩浆正上方或水平相邻时，岩浆会转化为黑曜石。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:61
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:165
+msgid ""
+"• When flowing water touches flowing lava either from above or horizontally, "
+"the lava turns into cobblestone."
+msgstr "• 流动水从上方或侧面接触流动岩浆时，岩浆变为圆石。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:62
+msgid "• When water is directly below lava, the water turns into stone."
+msgstr "• 水在岩浆正下方时，水会凝固成石头。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:103
+msgid "Flowing Lava"
+msgstr "流动岩浆"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:152
+msgid ""
+"A lava source sets fire to a couple of air blocks above when they're next to "
+"a flammable block."
+msgstr "水源岩浆上方紧邻可燃方块的空气格会被引燃起火。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:158
+msgid "Lava Source"
+msgstr "岩浆源"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:161
+msgid ""
+"Lava is hot and rather dangerous. Don't touch it, it will hurt you a lot and "
+"it is hard to get out."
+msgstr "岩浆温度极高、危险性大，触碰会承受高额伤害，且很难挣脱。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:163
+msgid "Lava interacts with water various ways:"
+msgstr "岩浆与水存在多种反应方式："
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:164
+msgid ""
+"• When a lava source is directly below or horizontally next to water, the "
+"lava turns into obsidian."
+msgstr "• 岩浆源在水正下方或水平相邻时，岩浆会转化为黑曜石。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:166
+msgid "• When lava is directly above water, the water turns into stone."
+msgstr "• 岩浆在水正上方时，水会凝固成石头。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:5
+msgid "Bone Block"
+msgstr "骨块"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:6
+msgid "Bone blocks are decorative blocks and a compact storage of bone meal."
+msgstr "骨块属于装饰方块，也可集中存放骨粉。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:19
+msgid "Slime Block"
+msgstr "黏液块"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:20
+msgid "Slime blocks are very bouncy and prevent fall damage."
+msgstr "黏液块弹性极强，踩在上面不会受到坠落伤害。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:53
+msgid "Cobweb"
+msgstr "蜘蛛网"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:54
+msgid "Slows down movement"
+msgstr "减缓移动速度"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:55
+msgid "Cobwebs can be walked through, but significantly slow you down."
+msgstr "可以穿过蜘蛛网，但移动速度会大幅降低。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:74 mods/ITEMS/mcl_core/nodes_misc.lua:113
+msgid "Dead Bush"
+msgstr "枯萎灌木"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:75
+msgid ""
+"Dead bushes are unremarkable plants often found in dry areas. They can be "
+"harvested for sticks."
+msgstr "枯萎灌木是干旱地区常见的普通植物，破坏后可收获木棍。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:122
+msgid "Barrier"
+msgstr "屏障方块"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:123
+msgid ""
+"Barriers are invisible walkable blocks. They are used to create boundaries "
+"of adventure maps and the like. Monsters and animals won't appear on "
+"barriers, and fences do not connect to barriers. Other blocks can be built "
+"on barriers like on any other block."
+msgstr ""
+"屏障方块为隐形可行走方块，常用于冒险地图划定边界。生物不会在屏障上生成，栅栏"
+"无法与屏障衔接；其他方块可正常放置在屏障上方。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:124
+msgid ""
+"When you hold a barrier in hand, you reveal all placed barriers in a short "
+"distance around you."
+msgstr "手持屏障方块时，短距离内所有已放置的屏障都会显现轮廓。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:176
+msgid "Realm Barrier"
+msgstr "领域屏障"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:209
+msgid "Light"
+msgstr "光源方块"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:210
+msgid ""
+"Lights are invisible blocks. They are used to light up adventure maps and "
+"the like."
+msgstr "光源方块是隐形方块，用于给冒险地图等场景补光照明。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:211
+msgid ""
+"When you hold a light in hand, you reveal all placed lights in a short "
+"distance around you."
+msgstr "手持光源方块时，短距离内所有放置的光源方块都会显现。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:263
+msgid "Void"
+msgstr "虚空方块"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:5
+msgid "Stone Stairs"
+msgstr "石头楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:6
+msgid "Stone Slab"
+msgstr "石头台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:12
+msgid "Smooth Stone Slab"
+msgstr "平滑石头台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:19
+msgid "Andesite Stairs"
+msgstr "安山岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:20
+msgid "Andesite Slab"
+msgstr "安山岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:25
+msgid "Granite Stairs"
+msgstr "花岗岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:26
+msgid "Granite Slab"
+msgstr "花岗岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:31
+msgid "Diorite Stairs"
+msgstr "闪长岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:32
+msgid "Diorite Slab"
+msgstr "闪长岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:38
+msgid "Cobblestone Stairs"
+msgstr "圆石楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:39
+msgid "Cobblestone Slab"
+msgstr "圆石台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:44
+msgid "Mossy Cobblestone Stairs"
+msgstr "苔圆石楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:45
+msgid "Mossy Cobblestone Slab"
+msgstr "苔圆石台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:51
+msgid "Brick Stairs"
+msgstr "砖块楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:52
+msgid "Brick Slab"
+msgstr "砖块台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:59
+msgid "Sandstone Stairs"
+msgstr "砂岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:60
+msgid "Sandstone Slab"
+msgstr "砂岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:65
+msgid "Smooth Sandstone Stairs"
+msgstr "平滑砂岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:66
+msgid "Smooth Sandstone Slab"
+msgstr "平滑砂岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:71
+msgid "Cut Sandstone Stairs"
+msgstr "切制砂岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:72
+msgid "Cut Sandstone Slab"
+msgstr "切制砂岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:82
+msgid "Red Sandstone Stairs"
+msgstr "红砂岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:83
+msgid "Red Sandstone Slab"
+msgstr "红砂岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:88
+msgid "Smooth Red Sandstone Stairs"
+msgstr "平滑红砂岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:89
+msgid "Smooth Red Sandstone Slab"
+msgstr "平滑红砂岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:94
+msgid "Cut Red Sandstone Stairs"
+msgstr "切制红砂岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:95
+msgid "Cut Red Sandstone Slab"
+msgstr "切制红砂岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:105
+msgid "Stone Brick Stairs"
+msgstr "石砖楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:106
+msgid "Stone Brick Slab"
+msgstr "石砖台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:112
+msgid "Polished Andesite Stairs"
+msgstr "抛光安山岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:117
+msgid "Polished Andesite Slab"
+msgstr "抛光安山岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:124
+msgid "Polished Granite Stairs"
+msgstr "抛光花岗岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:129
+msgid "Polished Granite Slab"
+msgstr "抛光花岗岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:136
+msgid "Polished Diorite Stairs"
+msgstr "抛光闪长岩楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:141
+msgid "Polished Diorite Slab"
+msgstr "抛光闪长岩台阶"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:148
+msgid "Mossy Stone Brick Stairs"
+msgstr "苔石砖楼梯"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:149
+msgid "Mossy Stone Brick Slab"
+msgstr "苔石砖台阶"

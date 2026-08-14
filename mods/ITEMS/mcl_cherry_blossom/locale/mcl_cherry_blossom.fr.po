@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_cherry_blossom x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:1
+msgid "Cherry Bark"
+msgstr "Grume de cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:2
+msgid "Cherry Bark Slab"
+msgstr "Dalle en grume de cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:3
+msgid "Cherry Bark Stairs"
+msgstr "Escaliers en grume de cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:4
+msgid "Cherry Boat"
+msgstr "Bateau en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:5
+msgid "Cherry Button"
+msgstr "Bouton en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:6
+msgid "Cherry Chest Boat"
+msgstr "Bateau de stockage en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:7
+msgid "Cherry Door"
+msgstr "Porte en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:8
+msgid "Cherry Fence"
+msgstr "Barrière en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:9
+msgid "Cherry Fence Gate"
+msgstr "Portillon en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:10
+msgid "Cherry Hanging Sign"
+msgstr "Pancarte suspendue en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:11
+msgid "Cherry Leaves"
+msgstr "Feuilles de cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:12
+msgid "Cherry Log"
+msgstr "Bûche de cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:13
+msgid "Cherry Planks"
+msgstr "Planches de cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:14
+msgid "Cherry Pressure Plate"
+msgstr "Plaque de pression en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:15
+msgid "Cherry Sapling"
+msgstr "Pousse de cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:16
+msgid "Cherry Sign"
+msgstr "Pancarte en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:17
+msgid "Cherry Slab"
+msgstr "Dalle en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:18
+msgid "Cherry Stairs"
+msgstr "Escaliers en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:19
+msgid "Cherry Trapdoor"
+msgstr "Trappe en cerisier"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:20
+msgid "Cherry leaves are grown from Cherry trees."
+msgstr "Les feuilles de cerisier poussent sur des cerisiers."
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:21
+msgid "Stripped Cherry Bark"
+msgstr "Écorce de cerisier décapée"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:22
+msgid "Stripped Cherry Log"
+msgstr "Bûche de cerisier écorcée"
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:23
+msgid "The stripped trunk of an Cherry tree."
+msgstr "Le tronc écorcé d'un cerisier."
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:24
+msgid "The stripped wood of an Cherry tree."
+msgstr "Le bois écorcé d'un ceriser."
+
+#: mods/ITEMS/mcl_cherry_blossom/mcl_cherry_blossom_translations_tmp.lua:25
+msgid "The trunk of a Cherry tree."
+msgstr "Le tronc d'un cerisier."

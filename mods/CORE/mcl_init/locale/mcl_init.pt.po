@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_init x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/CORE/mcl_init/outdated_warning.lua:6
+msgid "Outdated Client version detected!"
+msgstr "Versão do Cliente desatualizada!"
+
+#: mods/CORE/mcl_init/outdated_warning.lua:7
+msgid "Do not show again"
+msgstr "Não mostrar novamente"
+
+#: mods/CORE/mcl_init/outdated_warning.lua:8
+msgid "Leave Server"
+msgstr "Sair do Servidor"
+
+#: mods/CORE/mcl_init/outdated_warning.lua:9
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: mods/CORE/mcl_init/outdated_warning.lua:10
+msgid ""
+"You are connecting with an unsupported client. This will generally not keep "
+"you from playing the game but you should expect some visual issues, "
+"particularly with mobs and certain items.\n"
+"\n"
+"To enjoy the best mineclonia experience use a minetest/luanti client of "
+"version 5.9.0 or greater."
+msgstr ""
+"Está a conectar com um cliente não compatível. Isto geralmente não será "
+"fatal, mas pode esperar alguns erros visuais, especialmente com criaturas e "
+"certos items. \n"
+" \n"
+"Para melhor desfrutar da experiência do mineclonia utilize um cliente de "
+"minetest/luanti com a versão 5.9.0 ou acima."

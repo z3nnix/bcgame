@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_monster_eggs x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-04-27 09:04+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_monster_eggs/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:14
+msgid "Hides a silverfish"
+msgstr "Esconde a una lepisma"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:15
+msgid ""
+"\t\t\tAn infested block is a block from which a silverfish will pop out when "
+"it is broken.\n"
+"\t\t\tIt looks identical to its normal counterpart.\n"
+"\t\t"
+msgstr ""
+"\t\t\tUn bloque infestado es un bloque del que saldrá un pececillo de plata "
+"cuando se rompa.\n"
+"\t\t\tTiene el mismo aspecto que su versión normal.\n"
+"\t\t"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:48
+msgid "Infested Stone"
+msgstr "Piedra infestada"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:49
+msgid "Infested Cobblestone"
+msgstr "Adoquín infestado"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:50
+msgid "Infested Stone Bricks"
+msgstr "Ladrillos de piedra infestados"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:51
+msgid "Infested Cracked Stone Bricks"
+msgstr "Ladrillos de piedra agrietados infestados"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:52
+msgid "Infested Mossy Stone Bricks"
+msgstr "Ladrillos de piedra musgosos infestados"
+
+#: mods/ITEMS/mcl_monster_eggs/init.lua:53
+msgid "Infested Chiseled Stone Bricks"
+msgstr "Ladrillos de piedra cincelados infestados"

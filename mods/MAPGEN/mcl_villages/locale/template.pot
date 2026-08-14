@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-30 22:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/MAPGEN/mcl_villages/api.lua:236
+msgid "Crop type @1 is not supported"
+msgstr ""
+
+#: mods/MAPGEN/mcl_villages/buildings.lua:536
+msgid "The timer for this @1 has not run yet!"
+msgstr ""
+
+#: mods/MAPGEN/mcl_villages/init.lua:188
+msgid ""
+"Prevent paths from being placed during villager generation. Replaced by air "
+"after village path generation"
+msgstr ""
+
+#: mods/MAPGEN/mcl_villages/init.lua:200
+msgid "Mark the node as a good place for paths to connect to"
+msgstr ""
+
+#: mods/MAPGEN/mcl_villages/init.lua:441
+msgid "A place to plant @1 crops"
+msgstr ""
+
+#: mods/MAPGEN/mcl_villages/pois.lua:444
+msgid "Example POI"
+msgstr ""

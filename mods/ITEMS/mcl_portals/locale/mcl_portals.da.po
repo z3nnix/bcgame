@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_portals x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:84
+msgid "End Portal"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:85
+#: mods/ITEMS/mcl_portals/portal_end.lua:362
+#: mods/ITEMS/mcl_portals/portal_end.lua:389
+msgid "Used to construct end portals"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:86
+msgid ""
+"An End portal teleports creatures and objects to the mysterious End "
+"dimension (and back!)."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:87
+msgid ""
+"Hop into the portal to teleport. Entering an End portal in the Overworld "
+"teleports you to a fixed position in the End dimension and creates a 5×5 "
+"obsidian platform at your destination. End portals in the End will lead back "
+"to your spawn point in the Overworld."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:308
+msgid "Leaving the End"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:316
+msgid "Entering the End"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:361
+msgid "End Portal Frame"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:363
+msgid ""
+"End portal frames are used in the construction of End portals. Each block "
+"has a socket for an eye of ender."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:363
+msgid ""
+"NOTE: The End dimension is currently incomplete and might change in future "
+"versions."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:364
+msgid ""
+"To create an End portal, you need 12 end portal frames and 12 eyes of ender. "
+"The end portal frames have to be arranged around a horizontal 3×3 area with "
+"each block facing inward. Any other arrangement will fail."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:364
+msgid ""
+"Place an eye of ender into each block. The end portal appears in the middle "
+"after placing the final eye."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:364
+msgid "Once placed, an eye of ender can not be taken back."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_end.lua:388
+msgid "End Portal Frame with Eye of Ender"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_gateway.lua:45
+msgid "End Gateway Portal"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_gateway.lua:46
+msgid "Used to construct end gateway portals"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_gateway.lua:47
+msgid ""
+"An End gateway portal teleports creatures and objects to the outer End (and "
+"back!)."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_gateway.lua:48
+msgid ""
+"Throw an ender pearl into the portal to teleport. Entering an Gateway portal "
+"near the Overworld teleports you to the outer End. At this destination "
+"another gateway portal will be constructed, which you can use to get back."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_nether.lua:597
+msgid "Entering the Nether"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_nether.lua:598
+msgid "Leaving the Nether"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_nether.lua:675
+msgid "Obsidian is also used as the frame of Nether portals."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_nether.lua:676
+msgid ""
+"To open a Nether portal, place an upright frame of obsidian with a width of "
+"at least 4 blocks and a height of 5 blocks, leaving only air in the center. "
+"After placing this frame, light a fire in the obsidian frame. Nether portals "
+"only work in the Overworld and the Nether."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_nether.lua:742
+msgid "Nether Portal"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_nether.lua:743
+msgid ""
+"A Nether portal teleports creatures and objects to the hot and dangerous "
+"Nether dimension (and back!). Enter at your own risk!"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_nether.lua:744
+msgid ""
+"Stand in the portal for a moment to activate the teleportation. Entering a "
+"Nether portal for the first time will also create a new portal in the other "
+"dimension. If a Nether portal has been built in the Nether, it will lead to "
+"the Overworld. A Nether portal is destroyed if the any of the obsidian which "
+"surrounds it is destroyed, or if it was caught in an explosion."
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_nether.lua:799
+msgid "Dump coordinates of registered portals"
+msgstr ""
+
+#: mods/ITEMS/mcl_portals/portal_nether.lua:804
+msgid "Invalid dimension argument."
+msgstr ""

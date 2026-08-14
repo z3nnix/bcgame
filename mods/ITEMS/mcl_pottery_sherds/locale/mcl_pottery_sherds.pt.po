@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_pottery_sherds x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:49
+msgid "Used for crafting decorated pots"
+msgstr "Usado para craftar vasos decorados"
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:171
+msgid "Decorated Pot"
+msgstr "Vaso Decorado"
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:172
+msgid "Pots are decorative blocks."
+msgstr "Vasos são blocos decorativos."
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:173
+msgid "Specially decorated pots can be crafted using pottery sherds"
+msgstr ""
+"Vasos decorados específicos podem ser craftados utilizando fragmentos de "
+"cerâmica"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:1
+msgid "Angler Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Pesca"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:2
+msgid "Archer Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Arco"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:3
+msgid "Arms Up Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Figura"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:4
+msgid "Blade Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Espada"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:5
+msgid "Brewer Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Poção"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:6
+msgid "Burn Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Fogo"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:7
+msgid "Danger Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Creeper"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:8
+msgid "Explorer Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Mapa"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:9
+msgid "Flow Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Espiral"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:10
+msgid "Friend Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Amigo"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:11
+msgid "Guster Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Vórtice"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:12
+msgid "Heart Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Coração"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:13
+msgid "Heartbreak Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Coração Partido"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:14
+msgid "Howl Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Uivo"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:15
+msgid "Miner Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Mineiro"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:16
+msgid "Mourner Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Luto"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:17
+msgid "Plenty Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Abundância"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:18
+msgid "Prize Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Prémio"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:19
+msgid "Scrape Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Machado"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:20
+msgid "Sheaf Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Trigo"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:21
+msgid "Shelter Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Abrigo"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:22
+msgid "Skull Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Caveira"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:23
+msgid "Snort Pottery Sherd"
+msgstr "Fragmento de Cerâmica de Farejo"

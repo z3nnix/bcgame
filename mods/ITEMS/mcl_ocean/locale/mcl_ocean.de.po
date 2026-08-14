@@ -1,0 +1,292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_ocean x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:4
+msgid "Tube Coral Block"
+msgstr "Trompetenkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:4
+msgid "Dead Tube Coral Block"
+msgstr "Toter Trompetenkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:4
+msgid "Tube Coral"
+msgstr "Trompetenkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:4
+msgid "Dead Tube Coral"
+msgstr "Tote Trompetenkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:4
+msgid "Tube Coral Fan"
+msgstr "Trompetenkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:4
+msgid "Dead Tube Coral Fan"
+msgstr "Toter Trompetenkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:5
+msgid "Brain Coral Block"
+msgstr "Hirnkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:5
+msgid "Dead Brain Coral Block"
+msgstr "Toter Hirnkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:5
+msgid "Brain Coral"
+msgstr "Hirnkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:5
+msgid "Dead Brain Coral"
+msgstr "Tote Hirnkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:5
+msgid "Brain Coral Fan"
+msgstr "Hirnkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:5
+msgid "Dead Brain Coral Fan"
+msgstr "Toter Hirnkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:6
+msgid "Bubble Coral Block"
+msgstr "Blasenkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:6
+msgid "Dead Bubble Coral Block"
+msgstr "Toter Blasenkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:6
+msgid "Bubble Coral"
+msgstr "Blasenkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:6
+msgid "Dead Bubble Coral"
+msgstr "Tote Blasenkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:6
+msgid "Bubble Coral Fan"
+msgstr "Blasenkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:6
+msgid "Dead Bubble Coral Fan"
+msgstr "Toter Blasenkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:7
+msgid "Fire Coral Block"
+msgstr "Feuerkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:7
+msgid "Dead Fire Coral Block"
+msgstr "Toter Feuerkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:7
+msgid "Fire Coral"
+msgstr "Feuerkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:7
+msgid "Dead Fire Coral"
+msgstr "Tote Feuerkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:7
+msgid "Fire Coral Fan"
+msgstr "Feuerkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:7
+msgid "Dead Fire Coral Fan"
+msgstr "Toter Feuerkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:8
+msgid "Horn Coral Block"
+msgstr "Hornkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:8
+msgid "Dead Horn Coral Block"
+msgstr "Toter Hornkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:8
+msgid "Horn Coral"
+msgstr "Hornkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:8
+msgid "Dead Horn Coral"
+msgstr "Tote Hornkoralle"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:8
+msgid "Horn Coral Fan"
+msgstr "Hornkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:8
+msgid "Dead Horn Coral Fan"
+msgstr "Toter Hornkorallenfächer"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:73
+msgid ""
+"Coral blocks live in the oceans and need a water source next to them to "
+"survive. Without water, they die off."
+msgstr ""
+"Korallenblöcke leben im Ozean und benötigen eine Wasserquelle neben ihnen, "
+"um zu überleben. Ohne Wasser sterben sie ab."
+
+#: mods/ITEMS/mcl_ocean/corals.lua:74
+msgid ""
+"Corals grow on top of coral blocks and need to be inside a water source to "
+"survive. Without water, it will die off, as well as the coral block below."
+msgstr ""
+"Korallen wachsen auf Korallenblöcken und müssen sich in einer Wasserquelle "
+"befinden, um zu überleben. Ohne Wasser sterben sie gemeinsam mit dem "
+"Korallenblock ab."
+
+#: mods/ITEMS/mcl_ocean/corals.lua:75
+msgid ""
+"Corals fans grow on top of coral blocks and need to be inside a water source "
+"to survive. Without water, it will die off, as well as the coral block below."
+msgstr ""
+"Korallenfächer wachsen auf Korallenblöcken und müssen sich in einer "
+"Wasserquelle befinden, um zu überleben. Ohne Wasser sterben sie gemeinsam "
+"mit dem Korallenblock ab."
+
+#: mods/ITEMS/mcl_ocean/corals.lua:76 mods/ITEMS/mcl_ocean/corals.lua:78
+msgid "Needs water to live"
+msgstr "Benötigt Wasser zum Leben"
+
+#: mods/ITEMS/mcl_ocean/corals.lua:77
+msgid "Grows on coral block of same species"
+msgstr "Wächst auf Korallenblock der gleichen Art"
+
+#: mods/ITEMS/mcl_ocean/kelp.lua:515 mods/ITEMS/mcl_ocean/kelp.lua:586
+msgid "Kelp"
+msgstr "Seetang"
+
+#: mods/ITEMS/mcl_ocean/kelp.lua:516
+msgid "Kelp grows inside water on top of dirt, sand or gravel."
+msgstr "Seetang wächst im Wasser auf Erde, Sand oder Kies."
+
+#: mods/ITEMS/mcl_ocean/kelp.lua:587 mods/ITEMS/mcl_ocean/seagrass.lua:81
+msgid "Grows in water on dirt, sand, gravel"
+msgstr "Wächst im Wasser auf Erde, Sand, Kies"
+
+#: mods/ITEMS/mcl_ocean/kelp.lua:602
+msgid "Dried Kelp"
+msgstr "Getrockneter Seetang"
+
+#: mods/ITEMS/mcl_ocean/kelp.lua:603
+msgid "Dried kelp is a food item."
+msgstr "Getrockneter Seetang ist ein Lebensmittel."
+
+#: mods/ITEMS/mcl_ocean/kelp.lua:613
+msgid "Dried Kelp Block"
+msgstr "Getrockneter Seetangblock"
+
+#: mods/ITEMS/mcl_ocean/kelp.lua:614
+msgid "A decorative block that serves as a great furnace fuel."
+msgstr "Ein dekorativer Block, der sich gut als Ofenbrennstoff eignet."
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:6
+msgid "Sea Lantern"
+msgstr "Seelaterne"
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:7
+msgid ""
+"Sea lanterns are decorative light sources which look great underwater but "
+"can be placed anywhere."
+msgstr ""
+"Seelaternen sind dekorative Lichtquellen, die im Wasser schick aussehen, "
+"aber sie können überall platziert werden."
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:34
+msgid "Prismarine"
+msgstr "Prismarin"
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:35
+msgid "Prismarine is used as a building block. It slowly changes its color."
+msgstr ""
+"Prismarin wird aus Baumaterial benutzt. Er verändert langsam seine Farbe."
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:46
+msgid "Prismarine Bricks"
+msgstr "Prismarinziegel"
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:56
+msgid "Dark Prismarine"
+msgstr "Dunkelprismarin"
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:67
+msgid "Prismarine Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:68
+msgid "Prismarine Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:73
+msgid "Prismarine Brick Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:74
+msgid "Prismarine Brick Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:79
+msgid "Dark Prismarine Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:80
+msgid "Dark Prismarine Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:87
+msgid "Prismarine Crystals"
+msgstr "Prismarinkristalle"
+
+#: mods/ITEMS/mcl_ocean/prismarine.lua:94
+msgid "Prismarine Shard"
+msgstr "Prismarinsplitter"
+
+#: mods/ITEMS/mcl_ocean/sea_pickle.lua:81
+msgid "Sea Pickle"
+msgstr "Meeresgurke"
+
+#: mods/ITEMS/mcl_ocean/sea_pickle.lua:82
+msgid ""
+"Sea pickles grow on dead brain coral blocks and provide light when "
+"underwater. They come in 4 sizes that vary in brightness."
+msgstr ""
+
+#: mods/ITEMS/mcl_ocean/sea_pickle.lua:83
+msgid ""
+"It can only be placed on top of dead brain coral blocks. Placing a sea "
+"pickle on another sea pickle will make it grow and brighter."
+msgstr ""
+
+#: mods/ITEMS/mcl_ocean/sea_pickle.lua:84
+msgid "Glows in the water"
+msgstr "Leuchtet im Wasser"
+
+#: mods/ITEMS/mcl_ocean/sea_pickle.lua:84
+msgid "4 possible sizes"
+msgstr "4 mögliche Größen"
+
+#: mods/ITEMS/mcl_ocean/sea_pickle.lua:84
+msgid "Grows on dead brain coral block"
+msgstr "Wächst auf totem Hirnkorallenblock"
+
+#: mods/ITEMS/mcl_ocean/seagrass.lua:80 mods/ITEMS/mcl_ocean/seagrass.lua:105
+msgid "Seagrass"
+msgstr "Seegras"
+
+#: mods/ITEMS/mcl_ocean/seagrass.lua:104
+msgid "Seagrass grows inside water on top of dirt, sand or gravel."
+msgstr "Seegras wächst im Wasser auf Erde, Sand oder Kies."

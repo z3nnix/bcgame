@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_enchanting x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:15
+msgid "Bane of Arthropods"
+msgstr "節肢剋星"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:21
+msgid ""
+"Increases damage and applies Slowness IV to arthropod mobs (spiders, cave "
+"spiders, silverfish and endermites)."
+msgstr ""
+"增加對節肢生物（蜘蛛、洞穴蜘蛛、蠹魚和終界蟎）的傷害，並造成 緩速IV 效果。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:30
+msgid "Channeling"
+msgstr "喚雷"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:34
+msgid ""
+"Channels a bolt of lightning toward a target. Works only during "
+"thunderstorms and if target is unobstructed with opaque blocks."
+msgstr "召喚一道閃電擊中目標。僅在暴風雨期間及目標未被不透明方塊阻擋時有效。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:43
+msgid "Curse of Vanishing"
+msgstr "消失詛咒"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:46
+msgid "Item destroyed on death."
+msgstr "使物品在死亡後消失。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:58
+msgid "Depth Strider"
+msgstr "深海漫遊"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:64
+msgid "Increases underwater movement speed."
+msgstr "增加水下移動速度。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:110
+msgid "Efficiency"
+msgstr "效率"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:115
+msgid "Increases mining speed."
+msgstr "提高挖掘效率。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:128
+msgid "Fire Aspect"
+msgstr "燃燒"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:132
+msgid "Sets target on fire."
+msgstr "使目標著火。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:150
+msgid "Flame"
+msgstr "火焰"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:153
+msgid "Arrows set target on fire."
+msgstr "使射出的箭著火。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:162
+msgid "Fortune"
+msgstr "幸運"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:167
+msgid "Increases certain block drops."
+msgstr "增加特定方塊的掉落物數量。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:176
+msgid "Frost Walker"
+msgstr "冰霜行者"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:182
+msgid ""
+"Turns water beneath the player into frosted ice and prevents the damage from "
+"magma blocks."
+msgstr "將玩家腳下的水變成霜冰，並消除岩漿塊造成的傷害。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:209
+msgid "Impaling"
+msgstr "魚叉"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:213
+msgid "Trident deals additional damage to ocean mobs."
+msgstr "使三叉戟對水生生物造成額外傷害。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:222
+msgid "Infinity"
+msgstr "無限"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:226
+msgid "Shooting consumes no regular arrows."
+msgstr "射擊不消耗普通箭矢。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:235
+msgid "Knockback"
+msgstr "擊退"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:239
+msgid "Increases knockback."
+msgstr "增加擊退距離。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:253
+msgid "Looting"
+msgstr "掠奪"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:257
+msgid "Increases mob loot."
+msgstr "增加被殺死生物的掉落物數量。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:265
+msgid "Loyalty"
+msgstr "忠誠"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:270
+msgid "Trident returns after being thrown. Higher levels reduce return time."
+msgstr ""
+"使三叉戟在與任何方塊或實體接觸後返回投擲的玩家。附魔等級越高返回得越快。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:279
+msgid "Luck of the Sea"
+msgstr "海洋的祝福"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:283
+msgid "Increases rate of good loot (enchanting books, etc.)"
+msgstr "增加釣魚時獲取好戰利品（附魔書等）的機率。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:292
+msgid "Lure"
+msgstr "魚餌"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:296
+msgid "Decreases time until rod catches something."
+msgstr "減少釣魚時的上鉤等待時間。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:305
+msgid "Mending"
+msgstr "修補"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:309
+msgid "Repair the item while gaining XP orbs."
+msgstr "在獲得經驗球時修復耐久度。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:371
+msgid "Multishot"
+msgstr "分裂箭矢"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:375
+msgid "Shoot 3 arrows at the cost of one."
+msgstr "使弩一次射出三支箭（僅須消耗一根箭）的附魔。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:383
+msgid "Piercing"
+msgstr "貫穿"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:388
+msgid "Arrows passes through multiple objects."
+msgstr "使射出的箭可擊穿多個實體。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:397
+msgid "Power"
+msgstr "強力"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:401
+msgid "Increases arrow damage."
+msgstr "增加射出的箭矢造成的傷害。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:410
+msgid "Punch"
+msgstr "衝擊"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:414
+msgid "Increases arrow knockback."
+msgstr "增加射出的箭矢的擊退距離。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:422
+msgid "Quick Charge"
+msgstr "快速上弦"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:426
+msgid "Decreases crossbow charging time."
+msgstr "加快弩上弦的速度。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:435
+msgid "Respiration"
+msgstr "水中呼吸"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:440
+msgid "Extends underwater breathing time."
+msgstr "延長水下的呼吸時間。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:448
+msgid "Riptide"
+msgstr "波濤"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:453
+msgid ""
+"Trident launches player with itself when thrown. Works only in water or rain."
+msgstr "投擲三叉戟時，三叉戟會帶著玩家一起飛出。只能在水中或雨中使用。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:462
+msgid "Sharpness"
+msgstr "鋒利"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:468
+msgid "Increases damage."
+msgstr "增加攻擊傷害。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:478
+msgid "Silk Touch"
+msgstr "絲綢之觸"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:483
+msgid "Mined blocks drop themselves."
+msgstr "使被挖掘的方塊掉落自身的方塊物品。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:492
+msgid "Smite"
+msgstr "不死剋星"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:498
+msgid "Increases damage to undead mobs."
+msgstr "對不死生物造成額外傷害。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:508
+msgid "Soul Speed"
+msgstr "靈魂疾走"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:514
+msgid "Increases walking speed on soul sand."
+msgstr "提高玩家在靈魂砂和靈魂土上的移動速度。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:538
+msgid "Unbreaking"
+msgstr "耐久"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:544
+msgid "Increases item durability."
+msgstr "降低物品耐久度消耗機率。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:568
+msgid "Density"
+msgstr "緻密"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:574
+msgid "Increases mace damage when falling."
+msgstr "增加重錘下落攻擊的傷害。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:584
+msgid "Breach"
+msgstr "破甲"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:590
+msgid "Reduces target's armor effectiveness."
+msgstr "降低目標的護甲效果。"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:600
+msgid "Wind Burst"
+msgstr "風爆"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:605
+msgid "Emits a burst of wind from a mace smash attack."
+msgstr "使重錘攻擊後產生風爆。"
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:85
+#: mods/ITEMS/mcl_enchanting/engine.lua:93
+msgid "Unknown Enchantment"
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:604
+msgid "Inventory"
+msgstr "物品欄"
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:633
+msgid "@1 Enchantment Levels"
+msgstr "附魔等級 @1"
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:635
+msgid "Level requirement: @1"
+msgstr "等級花費：@1"
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:654
+msgid "@1 Lapis Lazuli"
+msgstr "青金石花費：@1"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:66
+msgid "Enchant an item"
+msgstr "給物品附魔"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:67 mods/ITEMS/mcl_enchanting/init.lua:109
+msgid "<player> <enchantment> [<level>]"
+msgstr "<玩家> <附魔> [<等級>]"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:76
+msgid "Usage: /enchant <player> <enchantment> [<level>]"
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:80 mods/ITEMS/mcl_enchanting/init.lua:122
+msgid "Player '@1' cannot be found."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:86 mods/ITEMS/mcl_enchanting/init.lua:127
+msgid "There is no such enchantment '@1'."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:88 mods/ITEMS/mcl_enchanting/init.lua:129
+msgid "The target doesn't hold an item."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:90
+msgid "The selected enchantment can't be added to the target item."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:92
+msgid "'@1' is not a valid number"
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:94
+msgid "The number you have entered (@1) is too big, it must be at most @2."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:96
+msgid "The number you have entered (@1) is too small, it must be at least @2."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:98
+msgid "@1 can't be combined with @2."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:102
+#: mods/ITEMS/mcl_enchanting/init.lua:136
+msgid "Enchanting succeded."
+msgstr "成功附魔。"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:108
+msgid "Forcefully enchant an item"
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:118
+msgid "Usage: /forceenchant <player> <enchantment> [<level>]"
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:131
+msgid "The target item is not enchantable."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:133
+msgid "'@1' is not a valid number."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:142
+msgid "Enchanted Book"
+msgstr "附魔書"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:232
+msgid "Enchanting Table"
+msgstr "附魔台"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:233
+msgid "Spend experience, and lapis to enchant various items."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:234
+msgid ""
+"Enchanting Tables will let you enchant armors, tools, weapons, and books "
+"with various abilities. But, at the cost of some experience, and lapis "
+"lazuli."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:236
+msgid "Rightclick the Enchanting Table to open the enchanting menu."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:237
+msgid ""
+"Place a tool, armor, weapon or book into the top left slot, and then place "
+"1-3 Lapis Lazuli in the slot to the right."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:238
+msgid ""
+"After placing your items in the slots, the enchanting options will be shown. "
+"Hover over the options to read what is available to you."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:239
+msgid ""
+"These options are randomized, and dependent on experience level; but the "
+"enchantment strength can be increased."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:240
+msgid ""
+"To increase the enchantment strength, place bookshelves around the "
+"enchanting table. However, you will need to keep 1 air node between the "
+"table, & the bookshelves to empower the enchanting table."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:241
+msgid ""
+"After finally selecting your enchantment; left-click on the selection, and "
+"you will see both the lapis lazuli and your experience levels consumed. And, "
+"an enchanted item left in its place."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:258
+msgid "Enchant"
+msgstr "附魔"
+
+#~ msgid "Sweeping Edge"
+#~ msgstr "橫掃之刃"
+
+#~ msgid "Increases sweeping attack damage."
+#~ msgstr "增加橫掃攻擊的傷害。"

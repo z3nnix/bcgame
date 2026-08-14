@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_mushrooms x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:49
+msgid ""
+"This decorative block is like a huge mushroom stem, but with the stem "
+"texture on all sides."
+msgstr ""
+"Tämä koristekuutio on samanlainen kuin jättisienen jalka, mutta jalan kyljen "
+"kuviointi näkyy joka puolella."
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:107
+msgid ""
+"By placing huge mushroom blocks of the same species next to each other, the "
+"sides that touch each other will turn into pores permanently."
+msgstr ""
+"Kun samanlajiset jättisienikuutiot laittaa vierekkäin, toisiinsa koskettavat "
+"sivut muuttuvat pysyvästi huokoisiksi."
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:166
+msgid ""
+"Huge red mushroom blocks are the cap parts of huge red mushrooms. It "
+"consists of a red skin and can have pores on each of its sides."
+msgstr ""
+"Punainen jättisienikuutio on pala punaisen jättisienen lakkia. Se koostuu "
+"punaisesta pinnasta ja huokoisesta sisuksesta."
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:167
+msgid "The stem part of a huge red mushroom."
+msgstr "Pala punaisen jättisienen jalkaa."
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:168
+msgid "Huge Red Mushroom Block"
+msgstr "Punainen jättisienikuutio"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:168
+msgid "Huge Red Mushroom Stem"
+msgstr "Punaisen jättisienen jalka"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:168
+msgid "Huge Red Mushroom All-Faces Stem"
+msgstr "Punaisen jättisienen täysipintainen jalka"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:171
+msgid ""
+"Huge brown mushroom blocks are the cap parts of huge brown mushrooms. It "
+"consists of a brown skin and can have pores on each of its sides."
+msgstr ""
+"Ruskea jättisienikuutio on pala ruskean jättisienen lakkia. Se koostuu "
+"ruskeasta pinnasta ja huokoisesta sisuksesta."
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:172
+msgid "The stem part of a huge brown mushroom."
+msgstr "Pala ruskean jättisienen jalkaa."
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:173
+msgid "Huge Brown Mushroom Block"
+msgstr "Ruskea jättisienikuutio"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:173
+msgid "Huge Brown Mushroom Stem"
+msgstr "Ruskean jättisienen jalka"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:173
+msgid "Huge Brown Mushroom All-Faces Stem"
+msgstr "Ruskean jättisienen täysipintainen jalka"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:20
+msgid ""
+"Brown mushrooms are fungi which grow and spread in darkness, but are "
+"sensitive to light. They are inedible as such, but they can be used to craft "
+"food items."
+msgstr ""
+"Ruskeat sienet kasvavat ja leviävät pimeässä ja ovat valoherkkiä. Niitä ei "
+"voi syödä sellaisenaan, mutta niistä voi valmistaa ruokaa."
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:21
+msgid ""
+"Red mushrooms are fungi which grow and spread in darkness, but are sensitive "
+"to light. They are inedible as such, but they can be used to craft food "
+"items."
+msgstr ""
+"Punaiset sienet kasvavat ja leviävät pimeässä ja ovat valoherkkiä. Niitä ei "
+"voi syödä sellaisenaan, mutta niistä voi valmistaa ruokaa."
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:23
+msgid ""
+"A single mushroom of this species will slowly spread over time towards a "
+"random solid opaque block with a light level of 12 or lower in a 3×3×3 cube "
+"around the mushroom. It stops spreading when there are 5 or more mushrooms "
+"of the same species within an area of 9×3×9 blocks around the mushroom."
+msgstr ""
+"Yksittäinen tämänlajinen sieni leviää hiljalleen kohti satunnaista kiinteää "
+"läpinäkymätöntä kuutiota, jonka valonmäärä on 12 tai vähemmän ja joka on 3 x "
+"3 x 3 -kokoisen kuution alueella sienen ympärillä. Se lakkaa leviämästä, kun "
+"sen ympärillä 9 x 3 x 9 kuution kokoisella alueella on 5 tai enemmän "
+"samanlajista sientä."
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:24
+msgid ""
+"Mushrooms will eventually uproot at a light level of 12 or higher. On "
+"mycelium or podzol, they survive and spread at any light level."
+msgstr ""
+"Kun valonmäärä on 12 tai enemmän, sienet lähtevät lopulta juuriltaan. "
+"Sienirihmastolla tai podsolilla ne selviävät ja leviävät missä tahansa "
+"valonmäärässä."
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:26
+msgid "Grows on podzol, mycelium and other blocks"
+msgstr "Kasvaa podsolilla, sienirihmastolla ja muilla kuutioilla"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:26
+msgid "Spreads in darkness"
+msgstr "Leviää pimeässä"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:28
+msgid ""
+"This mushroom can be placed on mycelium and podzol at any light level. It "
+"can also be placed on blocks which are both solid and opaque, as long as the "
+"light level at daytime is not higher than 12."
+msgstr ""
+"Tämän sienen voi sijoittaa sienirihmastolle tai podsolille valonmäärästä "
+"riippumatta. Sen voi myös sijoittaa kuutiolle, joka on sekä kiinteä että "
+"läpinäkymätön, kunhan valonmäärä ei ylitä 12 päiväsaikaan."
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:92 mods/ITEMS/mcl_mushrooms/small.lua:150
+msgid "Brown Mushroom"
+msgstr "Ruskea sieni"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:121
+#: mods/ITEMS/mcl_mushrooms/small.lua:156
+msgid "Red Mushroom"
+msgstr "Punainen sieni"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:161
+msgid "Mushroom Stew"
+msgstr "Sienimuhennos"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:162
+msgid ""
+"Mushroom stew is a healthy soup which can be consumed to restore some hunger "
+"points."
+msgstr ""
+"Sienimuhennos on terveellinen keitto, jonka voi syödä nälkäpisteiden "
+"palauttamiseksi."

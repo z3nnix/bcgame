@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 16:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_fences/init.lua:75
+msgid ""
+"Fences are structures which block the way. Fences will connect to each other "
+"and solid blocks. They cannot be jumped over with a simple jump."
+msgstr ""
+
+#: mods/ITEMS/mcl_fences/init.lua:100
+msgid "Openable by players and redstone power"
+msgstr ""
+
+#: mods/ITEMS/mcl_fences/init.lua:101
+msgid ""
+"Fence gates can be opened or closed and can't be jumped over. Fences will "
+"connect nicely to fence gates."
+msgstr ""
+
+#: mods/ITEMS/mcl_fences/init.lua:102
+msgid "Right-click the fence gate to open or close it."
+msgstr ""

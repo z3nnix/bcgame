@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_deepslate x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-06 22:17+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:12
+msgid "Deepslate"
+msgstr "Ardoise des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:13
+msgid ""
+"Deepslate is a stone type found deep underground in the Overworld that "
+"functions similar to regular stone but is harder than the stone."
+msgstr ""
+"L'ardoise des abîmes est un type de roche présente dans les profondeurs de "
+"l'Overworld qui fonctionne de manière similaire à la roche classique mais en "
+"plus dur."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:27
+msgid "Infested Deepslate"
+msgstr "Ardoise des abîmes infestée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:31
+msgid "Reinforced Deepslate"
+msgstr "Ardoise des abîmes renforcée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:32
+msgid ""
+"Reinforced deepslate is a very hard block undestructable by even wither "
+"explosions. It is unobtainable in survival mode."
+msgstr ""
+"L'ardoise des abîmes renforcée est un bloc très dur, indestructible même par "
+"les explosions du wither. Il est impossible de l'obtenir en mode survie."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:51
+msgid "Deepslate Coal Ore"
+msgstr "Minerai de charbon des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:52
+msgid "Deepslate Iron Ore"
+msgstr "Minerai de fer des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:53
+msgid "Deepslate Gold Ore"
+msgstr "Minerai d'or des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:54
+msgid "Deepslate Emerald Ore"
+msgstr "Minerai d'émeraude des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:55
+msgid "Deepslate Diamond Ore"
+msgstr "Minerai de diamant des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:56
+msgid "Deepslate Lapis Lazuli Ore"
+msgstr "Minerai de lapis-lazuli des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:57
+msgid "Deepslate Redstone Ore"
+msgstr "Minerai de redstone des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:62
+msgid "Lit Deepslate Redstone Ore"
+msgstr "Minerai de redstone des abîmes éclairé"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:69
+msgid "Deepslate Copper Ore"
+msgstr "Minerai de cuivre des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:73
+msgid "Cobbled Deepslate"
+msgstr "Pierres des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:74
+msgid ""
+"Cobbled deepslate is a stone variant that functions similar to cobblestone "
+"or blackstone."
+msgstr ""
+"La pierre des abîmes est une variante de roche similaire à la pierre ou la "
+"pierre noire."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:81
+msgid "Cobbled Deepslate Stairs"
+msgstr "Escalier en pierres des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:85
+msgid "Cobbled Deepslate Slab"
+msgstr "Dalle de pierres des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:89
+msgid "Cobbled Deepslate Wall"
+msgstr "Muret de pierres des abîmes"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:96
+msgid "Polished Deepslate"
+msgstr "Ardoise des abîmes polie"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:97
+msgid "Polished deepslate is the stone-like polished version of deepslate."
+msgstr ""
+"L'ardoise des abîmes polie est la version polie de l'ardoise des abîmes, de "
+"manière similaire à la pierre."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:103
+msgid "Polished Deepslate Stairs"
+msgstr "Escalier en ardoise des abîmes polie"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:107
+msgid "Polished Deepslate Slab"
+msgstr "Dalle d'ardoise des abîmes polie"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:111
+msgid "Polished Deepslate Wall"
+msgstr "Muret d'ardoise des abîmes polie"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:118
+msgid "Deepslate Bricks"
+msgstr "Ardoise des abîmes taillée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:119
+msgid "Deepslate bricks are the brick version of deepslate."
+msgstr ""
+"L'ardoise des abîmes taillée est la version brique de l'ardoise des abîmes."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:126
+msgid "Deepslate Brick Stairs"
+msgstr "Escalier en ardoise des abîmes taillée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:130
+msgid "Deepslate Brick Slab"
+msgstr "Dalle d'ardoise des abîmes taillée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:134
+msgid "Deepslate Brick Wall"
+msgstr "Muret d'ardoise des abîmes taillée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:138
+msgid "Cracked Deepslate Bricks"
+msgstr "Ardoise des abîmes taillée craquelée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:144
+msgid "Deepslate Tiles"
+msgstr "Ardoise des abîmes carrelée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:145
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:170
+msgid "Deepslate tiles are a decorative variant of deepslate."
+msgstr ""
+"L'ardoise des abîmes carrelée est une variante décorative de l'ardoise des "
+"abîmes."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:151
+msgid "Deepslate Tile Stairs"
+msgstr "Escalier en ardoise des abîmes carrelée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:155
+msgid "Deepslate Tile Slab"
+msgstr "Dalle d'ardoise des abîmes carrelée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:159
+msgid "Deepslate Tiles Wall"
+msgstr "Muret d'ardoise des abîmes carrelée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:163
+msgid "Cracked Deepslate Tiles"
+msgstr "Ardoise des abîmes carrelée craquelée"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:169
+msgid "Chiseled Deepslate"
+msgstr "Ardoise des abîmes sculptée"
+
+#: mods/ITEMS/mcl_deepslate/init.lua:13
+msgid "@1 is a variant of @2 that can generate in deepslate and tuff blobs."
+msgstr ""
+"Le @1 est une variante de @2 qui apparaît dans l'ardoise des abîmes et les "
+"filons de tuf."
+
+#: mods/ITEMS/mcl_deepslate/init.lua:52
+msgid "@1 are a cracked variant."
+msgstr "@1 sont une variante fissurée."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:14
+msgid "Chiseled Tuff"
+msgstr "Tuf sculpté"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:15
+msgid "Chiseled tuff is a chiseled variant of tuff."
+msgstr "Le tuf sculpté est une variante sculptée du tuf."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:26
+msgid "Chiseled Tuff Bricks"
+msgstr "Tuf taillé sculpté"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:27
+msgid ""
+"Chiseled tuff bricks are a variant of tuff bricks, featuring a large brick "
+"in the center of the block, with geometric design above and below."
+msgstr ""
+"Le tuf taillé sculpté est une variante du tuf sculpté présentant une grande "
+"brique au centre du bloc, avec des motifs géométriques au-dessus et en "
+"dessous."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:39
+msgid "Tuff"
+msgstr "Tuf"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:40
+msgid ""
+"Tuff is an ornamental rock formed from volcanic ash, occurring in "
+"underground blobs below Y=16."
+msgstr ""
+"Le tuf est une roche ornementale formée à partir de cendres volcaniques, qui "
+"se trouve dans des nappes souterraines sous Y=16."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:47
+msgid "Tuff Stairs"
+msgstr "Escalier en tuf"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:51
+msgid "Tuff Slab"
+msgstr "Dalle de tuf"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:55
+msgid "Tuff Wall"
+msgstr "Muret de tuf"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:62
+msgid "Polished Tuff"
+msgstr "Tuf poli"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:63
+msgid "Polished tuff is a polished variant of the tuff block."
+msgstr "Le tuf poli est une variante polie du bloc de tuf."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:68
+msgid "Polished Tuff Stairs"
+msgstr "Escalier en tuf poli"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:72
+msgid "Polished Tuff Slab"
+msgstr "Dalle de tuf poli"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:76
+msgid "Polished Tuff Wall"
+msgstr "Muret de tuf poli"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:83
+msgid "Tuff Bricks"
+msgstr "Tuf taillé"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:84
+msgid "Tuff bricks are a brick variant of tuff."
+msgstr "Le tuf taillé est une variante taillée du tuf."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:89
+msgid "Tuff Bricks Stairs"
+msgstr "Escalier en tuf taillé"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:93
+msgid "Tuff Bricks Slab"
+msgstr "Dalle de tuf taillé"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:97
+msgid "Tuff Bricks Wall"
+msgstr "Muret de tuf taillé"

@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_wool x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_wool/init.lua:25
+msgid "Carpet"
+msgstr "Matto"
+
+#: mods/ITEMS/mcl_wool/init.lua:26
+msgid "Wool"
+msgstr "Villa"
+
+#: mods/ITEMS/mcl_wool/init.lua:27
+msgid "Wool is a decorative block which comes in many different colors."
+msgstr "Villa on koristekuutio, jonka voi värjätä."
+
+#: mods/ITEMS/mcl_wool/init.lua:28
+msgid "Carpets are thin floor covers which come in many different colors."
+msgstr "Matto on ohut lattiapeite, jonka voi värjätä."
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:1
+msgid "Black Carpet"
+msgstr "Musta matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:2
+msgid "Black Wool"
+msgstr "Musta villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:3
+msgid "Blue Carpet"
+msgstr "Sininen matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:4
+msgid "Blue Wool"
+msgstr "Sininen villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:5
+msgid "Brown Carpet"
+msgstr "Ruskea matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:6
+msgid "Brown Wool"
+msgstr "Ruskea villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:7
+msgid "Cyan Carpet"
+msgstr "Sinivihreä matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:8
+msgid "Cyan Wool"
+msgstr "Sinivihreä villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:9
+msgid "Green Carpet"
+msgstr "Vihreä matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:10
+msgid "Green Wool"
+msgstr "Vihreä villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:11
+msgid "Grey Carpet"
+msgstr "Harmaa matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:12
+msgid "Grey Wool"
+msgstr "Harmaa villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:13
+msgid "Light Blue Carpet"
+msgstr "Vaaleansininen matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:14
+msgid "Light Blue Wool"
+msgstr "Vaaleansininen villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:15
+msgid "Light Grey Carpet"
+msgstr "Vaaleanharmaa matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:16
+msgid "Light Grey Wool"
+msgstr "Vaaleanharmaa villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:17
+msgid "Lime Carpet"
+msgstr "Vaaleanvihreä matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:18
+msgid "Lime Wool"
+msgstr "Vaaleanvihreä villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:19
+msgid "Magenta Carpet"
+msgstr "Purppuranpunainen matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:20
+msgid "Magenta Wool"
+msgstr "Purppuranpunainen villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:21
+msgid "Orange Carpet"
+msgstr "Oranssi matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:22
+msgid "Orange Wool"
+msgstr "Oranssi villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:23
+msgid "Pink Carpet"
+msgstr "Vaaleanpunainen matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:24
+msgid "Pink Wool"
+msgstr "Vaaleanpunainen villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:25
+msgid "Purple Carpet"
+msgstr "Violetti matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:26
+msgid "Purple Wool"
+msgstr "Violetti villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:27
+msgid "Red Carpet"
+msgstr "Punainen matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:28
+msgid "Red Wool"
+msgstr "Punainen villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:29
+msgid "White Carpet"
+msgstr "Valkoinen matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:30
+msgid "White Wool"
+msgstr "Valkoinen villa"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:31
+msgid "Yellow Carpet"
+msgstr "Keltainen matto"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:32
+msgid "Yellow Wool"
+msgstr "Keltainen villa"

@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_buttons x.x.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-05-15 20:58+0000\n"
+"Last-Translator: Gergej <gergej@noreply.codeberg.org>\n"
+"Language-Team: Esperanto <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_buttons/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17.1\n"
+
+msgid "Provides redstone power when pushed"
+msgstr "Provizas ruĝŝtonan potencon kiam puŝita"
+
+msgid "Push duration: @1s"
+msgstr "Premodaŭro: @1s"
+
+msgid "Pushable by arrow"
+msgstr "Puŝebla per sago"
+
+msgid "Use the button to push it."
+msgstr "Uzu la butonon por premi ĝin."
+
+msgid "Stone Button"
+msgstr "Ŝtona Butono"
+
+msgid "A stone button is a redstone component made out of stone which can be pushed to provide redstone power. When pushed, it powers adjacent redstone components for 1 second."
+msgstr ""
+
+msgid "Polished Blackstone Button"
+msgstr ""
+
+msgid "A polished blackstone button is a redstone component made out of polished blackstone which can be pushed to provide redstone power. When pushed, it powers adjacent redstone components for 1 second."
+msgstr ""

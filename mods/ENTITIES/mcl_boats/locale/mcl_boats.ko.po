@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_boats x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-06 22:12+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ENTITIES/mcl_boats/init.lua:166
+msgid "Sneak to dismount"
+msgstr "웅크리기로 내리기"
+
+#: mods/ENTITIES/mcl_boats/init.lua:632
+msgid "Boats are used to travel on the surface of water."
+msgstr "보트는 물 표면 위를 이동하는 데 사용됩니다."
+
+#: mods/ENTITIES/mcl_boats/init.lua:633
+msgid ""
+"Rightclick on a water source to place the boat. Rightclick the boat to enter "
+"it. Use [Left] and [Right] to steer, [Forwards] to speed up and [Backwards] "
+"to slow down or move backwards. Use [Sneak] to leave the boat, punch the "
+"boat to make it drop as an item."
+msgstr ""
+"물 원천에 보트를 놓으려면 우클릭합니다. 보트를 우클릭하면 탑승합니다. [왼쪽으"
+"로 걷기]와 [오른쪽으로 걷기]로 방향을 조정하고, [앞으로 걷기]로 속도를 올리"
+"며 [뒤로 걷기]로 속도를 줄이거나 뒤로 이동합니다. [웅크리기]로 보트에서 내리"
+"고, 보트를 때려서 아이템으로 떨어뜨립니다."
+
+#: mods/ENTITIES/mcl_boats/init.lua:634
+msgid "Boat"
+msgstr "보트"
+
+#: mods/ENTITIES/mcl_boats/init.lua:640
+msgid "Water vehicle"
+msgstr "수상 이동 수단"
+
+#: mods/ENTITIES/mcl_boats/init.lua:649
+msgid ""
+"Chest Boats are used to travel on the surface of water. And transport goods"
+msgstr ""
+
+#: mods/ENTITIES/mcl_boats/init.lua:650
+msgid ""
+"Rightclick on a water source to place the boat. Rightclick the boat to enter "
+"it. Use [Left] and [Right] to steer, [Forwards] to speed up and [Backwards] "
+"to slow down or move backwards. Use [Sneak] to leave the boat, punch the "
+"boat to make it drop as an item. Use [Sneak] + [Rightclick] to open the "
+"boat's chest"
+msgstr ""
+
+#: mods/ENTITIES/mcl_boats/init.lua:651
+msgid "Chest Boat"
+msgstr ""
+
+#: mods/ENTITIES/mcl_boats/init.lua:663
+#, fuzzy
+msgid " Boat"
+msgstr "보트"

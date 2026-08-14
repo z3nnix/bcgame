@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_beacons x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-05-01 08:57+0000\n"
+"Last-Translator: Fhelron <fhelron@noreply.codeberg.org>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_beacons/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#: mods/ITEMS/mcl_beacons/init.lua:128 mods/ITEMS/mcl_beacons/init.lua:144
+msgid "Unavailable"
+msgstr "Nicht verfügbar"
+
+#: mods/ITEMS/mcl_beacons/init.lua:131 mods/ITEMS/mcl_beacons/init.lua:147
+msgid "Active"
+msgstr "Aktiv"
+
+#: mods/ITEMS/mcl_beacons/init.lua:166 mods/ITEMS/mcl_beacons/init.lua:397
+msgid "Beacon"
+msgstr "Leuchtfeuer"
+
+#: mods/ITEMS/mcl_beacons/init.lua:167
+msgid "Primary Power:"
+msgstr "Primäre Kraft:"
+
+#: mods/ITEMS/mcl_beacons/init.lua:168
+msgid "Secondary Power:"
+msgstr "Sekundärekraft:"
+
+#: mods/ITEMS/mcl_beacons/init.lua:179
+msgid "Swiftness"
+msgstr "Schnelligkeit"
+
+#: mods/ITEMS/mcl_beacons/init.lua:180
+msgid "Haste"
+msgstr "Eile"
+
+#: mods/ITEMS/mcl_beacons/init.lua:181
+msgid "Resistance"
+msgstr "Widerstand"
+
+#: mods/ITEMS/mcl_beacons/init.lua:182
+msgid "Leaping"
+msgstr "Sprungkraft"
+
+#: mods/ITEMS/mcl_beacons/init.lua:183
+msgid "Strength"
+msgstr "Stärke"
+
+#: mods/ITEMS/mcl_beacons/init.lua:184
+msgid "Regeneration"
+msgstr "Regeneration"
+
+#: mods/ITEMS/mcl_beacons/init.lua:194
+msgid "Inventory"
+msgstr "Inventar"

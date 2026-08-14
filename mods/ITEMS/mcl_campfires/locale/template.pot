@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-03-30 02:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_campfires/api.lua:114 mods/ITEMS/mcl_campfires/api.lua:160
+msgid "Cooks food and keeps bees happy."
+msgstr ""
+
+#: mods/ITEMS/mcl_campfires/api.lua:115 mods/ITEMS/mcl_campfires/api.lua:161
+msgid ""
+"Campfires have multiple uses, including keeping bees happy, cooking raw meat "
+"and fish, and as a trap."
+msgstr ""
+
+#: mods/ITEMS/mcl_campfires/register.lua:5
+msgid "Campfire"
+msgstr ""
+
+#: mods/ITEMS/mcl_campfires/register.lua:16
+msgid "Soul Campfire"
+msgstr ""

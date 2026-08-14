@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_death_messages x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HUD/mcl_death_messages/init.lua:8
+msgid "@1 went up in flames"
+msgstr "@1在火焰中化为灰烬"
+
+#: mods/HUD/mcl_death_messages/init.lua:9
+msgid "@1 walked into fire whilst fighting @2"
+msgstr "与@2战斗时，@1引火烧身"
+
+#: mods/HUD/mcl_death_messages/init.lua:12
+msgid "@1 was struck by lightning"
+msgstr "闪电击中了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:13
+msgid "@1 was struck by lightning whilst fighting @2"
+msgstr "@1在与@2战斗时被闪电击中"
+
+#: mods/HUD/mcl_death_messages/init.lua:16
+msgid "@1 burned to death"
+msgstr "@1被烧死"
+
+#: mods/HUD/mcl_death_messages/init.lua:17
+msgid "@1 was burnt to a crisp whilst fighting @2"
+msgstr "@1在与@2战斗时被烧得焦黑"
+
+#: mods/HUD/mcl_death_messages/init.lua:20
+msgid "@1 tried to swim in lava"
+msgstr "@1试图在岩浆中游泳"
+
+#: mods/HUD/mcl_death_messages/init.lua:21
+msgid "@1 tried to swim in lava to escape @2"
+msgstr "@1试图游过岩浆以逃离@2"
+
+#: mods/HUD/mcl_death_messages/init.lua:24
+msgid "@1 discovered the floor was lava"
+msgstr "@1发现地面是岩浆"
+
+#: mods/HUD/mcl_death_messages/init.lua:25
+msgid "@1 walked into danger zone due to @2"
+msgstr "@1由于@2的缘故走进了危险区域"
+
+#: mods/HUD/mcl_death_messages/init.lua:28
+msgid "@1 suffocated in a wall"
+msgstr "@1在墙里窒息了"
+
+#: mods/HUD/mcl_death_messages/init.lua:29
+msgid "@1 suffocated in a wall whilst fighting @2"
+msgstr "@1在与@2战斗时在墙里窒息了"
+
+#: mods/HUD/mcl_death_messages/init.lua:32
+msgid "@1 drowned"
+msgstr "@1已溺毙"
+
+#: mods/HUD/mcl_death_messages/init.lua:33
+msgid "@1 drowned whilst trying to escape @2"
+msgstr "@1在试图逃离@2时溺水身亡"
+
+#: mods/HUD/mcl_death_messages/init.lua:36
+msgid "@1 starved to death"
+msgstr "@1饿死了"
+
+#: mods/HUD/mcl_death_messages/init.lua:37
+msgid "@1 starved to death whilst fighting @2"
+msgstr "@1在与@2战斗时饿死了"
+
+#: mods/HUD/mcl_death_messages/init.lua:40
+msgid "@1 was pricked to death"
+msgstr "@1被刺死了"
+
+#: mods/HUD/mcl_death_messages/init.lua:41
+msgid "@1 walked into a cactus whilst trying to escape @2"
+msgstr "@1在试图逃离@2时撞上了仙人掌"
+
+#: mods/HUD/mcl_death_messages/init.lua:44
+msgid "@1 hit the ground too hard"
+msgstr "@1撞上了坚硬地面"
+
+#: mods/HUD/mcl_death_messages/init.lua:45
+msgid "@1 hit the ground too hard whilst trying to escape @2"
+msgstr "@1在试图逃离@2时落地撞击过猛"
+
+#: mods/HUD/mcl_death_messages/init.lua:55
+msgid "@1 experienced kinetic energy"
+msgstr "@1受到了动能冲击"
+
+#: mods/HUD/mcl_death_messages/init.lua:56
+msgid "@1 experienced kinetic energy whilst trying to escape @2"
+msgstr "@1在试图逃离@2时受到了动能冲击"
+
+#: mods/HUD/mcl_death_messages/init.lua:59
+msgid "@1 fell out of the world"
+msgstr "@1掉出了这个世界"
+
+#: mods/HUD/mcl_death_messages/init.lua:60
+msgid "@1 didn't want to live in the same world as @2"
+msgstr "@1不想和@2生活在同一个世界里"
+
+#: mods/HUD/mcl_death_messages/init.lua:63
+msgid "@1 died"
+msgstr "@1已殁"
+
+#: mods/HUD/mcl_death_messages/init.lua:64
+msgid "@1 died because of @2"
+msgstr "@1死于@2"
+
+#: mods/HUD/mcl_death_messages/init.lua:67
+#: mods/HUD/mcl_death_messages/init.lua:81
+msgid "@1 was killed by magic"
+msgstr "@1为魔法所杀"
+
+#: mods/HUD/mcl_death_messages/init.lua:68
+msgid "@1 was killed by magic whilst trying to escape @2"
+msgstr "@1逃跑时为@2的魔法所杀"
+
+#: mods/HUD/mcl_death_messages/init.lua:69
+msgid "@1 was killed by @2 using magic"
+msgstr "@2用魔法杀死了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:70
+msgid "@1 was killed by @2 using @3"
+msgstr "@2用@3杀死了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:73
+msgid "@1 was roasted in dragon breath"
+msgstr "@1在龙息中被烤焦了"
+
+#: mods/HUD/mcl_death_messages/init.lua:74
+msgid "@1 was roasted in dragon breath by @2"
+msgstr "@2用龙息烤焦了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:77
+msgid "@1 withered away"
+msgstr "@1虚弱至死"
+
+#: mods/HUD/mcl_death_messages/init.lua:78
+msgid "@1 withered away whilst fighting @2"
+msgstr "@1在与@2的战斗中虚弱至死"
+
+#: mods/HUD/mcl_death_messages/init.lua:82
+msgid "@1 was shot by a skull from @2"
+msgstr "@2射出的头骨击中了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:85
+msgid "@1 was squashed by a falling anvil"
+msgstr "落下的铁砧砸死了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:86
+msgid "@1 was squashed by a falling anvil whilst fighting @2"
+msgstr "在与@2战斗时，@1被落下的铁砧砸死"
+
+#: mods/HUD/mcl_death_messages/init.lua:89
+msgid "@1 was squashed by a falling block"
+msgstr "下落的方块压扁了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:90
+msgid "@1 was squashed by a falling block whilst fighting @2"
+msgstr "与@2战斗时，@1被落下的方块压扁了"
+
+#: mods/HUD/mcl_death_messages/init.lua:93
+#: mods/HUD/mcl_death_messages/init.lua:97
+msgid "@1 was slain by @2"
+msgstr "@1被@2虐杀"
+
+#: mods/HUD/mcl_death_messages/init.lua:94
+#: mods/HUD/mcl_death_messages/init.lua:98
+msgid "@1 was slain by @2 using @3"
+msgstr "@2使用@3虐杀了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:101
+msgid "@1 was shot by @2"
+msgstr "@2射杀了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:102
+msgid "@1 was shot by @2 using @3"
+msgstr "@2使用@3射杀了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:105
+msgid "@1 was spitballed by @2"
+msgstr "@2用口水喷死了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:106
+msgid "@1 was spitballed by @2 using @3"
+msgstr "@2用@3喷死了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:109
+msgid "@1 was fireballed by @2"
+msgstr "@2发射火球击杀了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:110
+msgid "@1 was fireballed by @2 using @3"
+msgstr "@2用@3发射火球击杀了@1"
+
+#: mods/HUD/mcl_death_messages/init.lua:113
+msgid "@1 was killed trying to hurt @2"
+msgstr "@1被@2反杀了"
+
+#: mods/HUD/mcl_death_messages/init.lua:114
+msgid "@1 tried to hurt @2 and died by @3"
+msgstr "@1试图伤害@2，结果被@3杀死了"
+
+#: mods/HUD/mcl_death_messages/init.lua:117
+msgid "@1 blew up"
+msgstr "@1被炸死了"
+
+#: mods/HUD/mcl_death_messages/init.lua:118
+msgid "@1 was blown up by @2"
+msgstr "@1被@2炸飞了"
+
+#: mods/HUD/mcl_death_messages/init.lua:119
+msgid "@1 was blown up by @2 using @3"
+msgstr "@1被@2用@3炸飞了"
+
+#: mods/HUD/mcl_death_messages/init.lua:123
+msgid "@1 was squished too much"
+msgstr "@1被挤压得太厉害了"
+
+#: mods/HUD/mcl_death_messages/init.lua:124
+msgid "@1 was squashed by @2"
+msgstr "@1被@2压扁了"
+
+#: mods/HUD/mcl_death_messages/init.lua:127
+msgid "@1 went off with a bang"
+msgstr "@1伴随着一声巨响消失了"
+
+#: mods/HUD/mcl_death_messages/init.lua:128
+msgid "@1 went off with a bang due to a firework fired by @2 from @3"
+msgstr "@1伴随着由@2从@3处发射的烟花的巨响消失了"
+
+#: mods/HUD/mcl_death_messages/init.lua:131
+msgid "@1 was poked to death by a sweet berry bush"
+msgstr "@1 被甜浆果丛刺死了"
+
+#: mods/HUD/mcl_death_messages/init.lua:132
+msgid "@1 was poked to death by a sweet berry bush whilst trying to escape @2"
+msgstr "@1 在试图逃离 @2 时被甜浆果丛刺死了"
+
+#: mods/HUD/mcl_death_messages/init.lua:135
+msgid "@1 froze to death"
+msgstr "@1被冻死了"
+
+#: mods/HUD/mcl_death_messages/init.lua:136
+msgid "@1 was frozen to death by @2"
+msgstr "@1被@2冻死了"
+
+#: mods/HUD/mcl_death_messages/init.lua:139
+msgid "@1 was impaled by @2"
+msgstr "@1被@2刺穿了"
+
+#: mods/HUD/mcl_death_messages/init.lua:140
+msgid "@1 was impaled by @2 with @3"
+msgstr "@1被@2用@3刺穿了"

@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_flowers x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 18:07+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_flowers/init.lua:8
+msgid ""
+"This is a small flower. Small flowers are mainly used for dye production and "
+"can also be potted."
+msgstr "これは小さな花です。小さな花は主に染料作りに使われ、鉢植えも可能です。"
+
+#: mods/ITEMS/mcl_flowers/init.lua:9
+msgid "It can only be placed on a block on which it would also survive."
+msgstr "生き残るブロックにのみ配置できます。"
+
+#: mods/ITEMS/mcl_flowers/init.lua:385
+msgid "@1 (Top Part)"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowers/register.lua:4
+msgid "Poppy"
+msgstr "ポピー"
+
+#: mods/ITEMS/mcl_flowers/register.lua:15
+msgid "Dandelion"
+msgstr "タンポポ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:26
+msgid "Oxeye Daisy"
+msgstr "フランスギク"
+
+#: mods/ITEMS/mcl_flowers/register.lua:37
+msgid "Orange Tulip"
+msgstr "橙色のチューリップ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:48
+msgid "Pink Tulip"
+msgstr "桃色のチューリップ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:59
+msgid "Red Tulip"
+msgstr "赤色のチューリップ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:70
+msgid "White Tulip"
+msgstr "白色のチューリップ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:81
+msgid "Allium"
+msgstr "アリウム"
+
+#: mods/ITEMS/mcl_flowers/register.lua:92
+msgid "Azure Bluet"
+msgstr "ヒナソウ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:103
+msgid "Blue Orchid"
+msgstr "ヒスイラン"
+
+#: mods/ITEMS/mcl_flowers/register.lua:114
+msgid "Wither Rose"
+msgstr "ウィザーローズ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:127
+msgid "Lily of the Valley"
+msgstr "スズラン"
+
+#: mods/ITEMS/mcl_flowers/register.lua:138
+msgid "Cornflower"
+msgstr "ヤグルマギク"
+
+#: mods/ITEMS/mcl_flowers/register.lua:149
+msgid "Wildflowers"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowers/register.lua:156
+msgid "Leaf Litter"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowers/register.lua:166
+msgid "Pink Petals"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowers/register.lua:167
+msgid "Pink Petals are ground decoration of cherry grove biomes"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowers/register.lua:176
+msgid "Peony"
+msgstr "ボタン"
+
+#: mods/ITEMS/mcl_flowers/register.lua:177
+msgid ""
+"A peony is a large plant which occupies two blocks. It is mainly used in dye "
+"production."
+msgstr "ボタンは、2つのブロックを占める大きな植物です。主に染料に使われます。"
+
+#: mods/ITEMS/mcl_flowers/register.lua:193
+msgid "Rose Bush"
+msgstr "バラの低木"
+
+#: mods/ITEMS/mcl_flowers/register.lua:194
+msgid ""
+"A rose bush is a large plant which occupies two blocks. It is safe to touch "
+"it. Rose bushes are mainly used in dye production."
+msgstr ""
+"バラの低木は、2ブロック分を占める大きな植物です。触っても大丈夫です。バラの低"
+"木は主に染料に使われます。"
+
+#: mods/ITEMS/mcl_flowers/register.lua:209
+msgid "Lilac"
+msgstr "ライラック"
+
+#: mods/ITEMS/mcl_flowers/register.lua:210
+msgid ""
+"A lilac is a large plant which occupies two blocks. It is mainly used in dye "
+"production."
+msgstr ""
+"ライラックは、2つのブロックを占める大きな植物です。主に染料に使われます。"
+
+#: mods/ITEMS/mcl_flowers/register.lua:225
+msgid "Sunflower"
+msgstr "ヒマワリ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:226
+msgid ""
+"A sunflower is a large plant which occupies two blocks. It is mainly used in "
+"dye production."
+msgstr ""
+"ヒマワリは、2つのブロックを占める大きな植物です。主に染料に使われます。"
+
+#: mods/ITEMS/mcl_flowers/register.lua:269
+msgid "Double Tallgrass"
+msgstr "丈が倍高い草"
+
+#: mods/ITEMS/mcl_flowers/register.lua:270
+msgid ""
+"Double tallgrass a variant of tall grass and occupies two blocks. It can be "
+"harvested for wheat seeds."
+msgstr ""
+"丈が倍高い草は、丈が高い草の変種であり、2ブロックを占有します。そこから小麦の"
+"種を収穫できることがあります。"
+
+#: mods/ITEMS/mcl_flowers/register.lua:286
+msgid "Large Fern"
+msgstr "大きなシダ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:287
+msgid ""
+"Large fern is a variant of fern and occupies two blocks. It can be harvested "
+"for wheat seeds."
+msgstr ""
+"大きなシダは、シダの変種であり、2ブロックを占有します。そこから小麦の種を収穫"
+"できることがあります。"
+
+#: mods/ITEMS/mcl_flowers/register.lua:303
+msgid "Tall Grass"
+msgstr "丈が高い草"
+
+#: mods/ITEMS/mcl_flowers/register.lua:305
+msgid ""
+"Tall grass is a small plant which often occurs on the surface of grasslands. "
+"It can be harvested for wheat seeds. By using bone meal, tall grass can be "
+"turned into double tallgrass which is two blocks high."
+msgstr ""
+"丈が高い草は、草原の表面によく見られる小さな植物です。そこから小麦の種を収穫"
+"できることがあります。骨粉を使うことで、高さ2ブロックの、丈が倍高い草に変えら"
+"れます。"
+
+#: mods/ITEMS/mcl_flowers/register.lua:349
+#: mods/ITEMS/mcl_flowers/register.lua:372
+msgid "Fern"
+msgstr "シダ"
+
+#: mods/ITEMS/mcl_flowers/register.lua:350
+msgid ""
+"Ferns are small plants which occur naturally in jungles and taigas. They can "
+"be harvested for wheat seeds. By using bone meal, a fern can be turned into "
+"a large fern which is two blocks high."
+msgstr ""
+"シダは、ジャングルやタイガに自生する小さな植物です。そこから小麦の種を収穫で"
+"きることがあります。骨粉を使うことで、高さ2ブロックの、大きなシダに変えられま"
+"す。"
+
+#: mods/ITEMS/mcl_flowers/register.lua:388
+msgid "Bush"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowers/register.lua:403
+msgid "Firefly Bush"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowers/register.lua:444
+msgid "Short Dry Grass"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowers/register.lua:479
+msgid "Tall Dry Grass"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowers/register.lua:514
+msgid "Lily Pad"
+msgstr "スイレンの葉"
+
+#: mods/ITEMS/mcl_flowers/register.lua:515
+msgid ""
+"A lily pad is a flat plant block which can be walked on. They can be placed "
+"on water sources, ice and frosted ice."
+msgstr ""
+"スイレンの葉は、歩くことができるペラい植物ブロックです。水源や氷、フロストア"
+"イスの上に置けます。"

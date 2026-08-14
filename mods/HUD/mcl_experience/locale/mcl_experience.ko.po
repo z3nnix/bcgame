@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_experience x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HUD/mcl_experience/bottle.lua:66
+msgid "Bottle o' Enchanting"
+msgstr "경험치 병"
+
+#: mods/HUD/mcl_experience/command.lua:4
+msgid "[[<player>] <xp>]"
+msgstr "[[<player>] <xp>]"
+
+#: mods/HUD/mcl_experience/command.lua:5
+msgid "Gives a player some XP"
+msgstr "플레이어에게 경험치를 부여"
+
+#: mods/HUD/mcl_experience/command.lua:15
+msgid "Error: Too many parameters!"
+msgstr "오류: 매개변수가 너무 많습니다!"
+
+#: mods/HUD/mcl_experience/command.lua:28
+msgid "Error: Incorrect value of XP"
+msgstr "오류: 경험치 값이 올바르지 않습니다"
+
+#: mods/HUD/mcl_experience/command.lua:32
+msgid "Error: Player not found"
+msgstr ""
+
+#: mods/HUD/mcl_experience/command.lua:37
+msgid "Added @1 XP to @2, total: @3, experience level: @4"
+msgstr ""

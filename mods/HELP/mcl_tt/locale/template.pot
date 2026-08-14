@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2025-04-22 21:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:35 mods/HELP/mcl_tt/snippets_mcl.lua:104
+msgid "@1 uses"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:37
+msgid "Unlimited uses"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:40 mods/HELP/mcl_tt/snippets_mcl.lua:104
+msgid "Durability: @1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:46
+msgid "Painfully slow"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:47
+msgid "Very slow"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:48
+msgid "Slow"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:49
+msgid "Fast"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:50
+msgid "Very fast"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:51
+msgid "Extremely fast"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:52
+msgid "Instantaneous"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:63
+msgid "Mining speed: @1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:72
+msgid "Block breaking strength: @1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:79
+msgid "Damage: @1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:85
+msgid "Full punch interval: @1s"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:106
+msgid "Food item"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:108
+msgid "+@1 food points"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:124
+msgid "Contact damage: @1 per second"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:127
+msgid "Contact healing: @1 per second"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:132
+msgid "Drowning damage: @1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:137
+msgid "Fall damage: +@1%"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:140
+msgid "No fall damage"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:143
+msgid "Fall damage: @1%"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:150
+msgid "No jumping"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:153
+msgid "No swimming upwards"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:156
+msgid "No rising"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:162
+msgid "Climbable (only downwards)"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:165
+msgid "Climbable"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:170
+msgid "Slippery"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:175
+msgid "Bouncy (@1%)"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_base.lua:182
+msgid "Luminance: @1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:14
+msgid "Head armor"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:15
+msgid "Torso armor"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:16
+msgid "Legs armor"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:17
+msgid "Feet armor"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:21
+msgid "Armor points: @1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:38
+msgid "Armor durability: @1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:47
+msgid "Protection: @1%"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:55
+msgid "Hunger points: +@1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:61
+msgid "Saturation points: +@1"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:68
+msgid "Deals damage when falling"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:75
+msgid "Grows on grass blocks or dirt"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:77
+msgid "Grows on grass blocks, podzol, dirt or coarse dirt"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:83
+msgid "Flammable"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:89
+msgid "Zombie view range: -50%"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:91
+msgid "Skeleton view range: -50%"
+msgstr ""
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:93
+msgid "Creeper view range: -50%"
+msgstr ""

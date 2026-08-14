@@ -1,0 +1,304 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_nether x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-10 05:32+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_nether/init.lua:5
+msgid "Glowstone"
+msgstr "Pedra luminosa"
+
+#: mods/ITEMS/mcl_nether/init.lua:6
+msgid "Glowstone is a naturally-glowing block which is home to the Nether."
+msgstr ""
+"A pedra luminosa é um bloco que brilha naturalmente e nativa do Nether."
+
+#: mods/ITEMS/mcl_nether/init.lua:32
+msgid "Nether Quartz Ore"
+msgstr "Minério de Quartzo do Nether"
+
+#: mods/ITEMS/mcl_nether/init.lua:33
+msgid ""
+"Nether quartz ore is an ore containing nether quartz. It is commonly found "
+"around netherrack in the Nether."
+msgstr ""
+"O minério de Quartzo do Nether é um minério que contém quartzo do Nether. É "
+"comumente encontrado ao redor de netherracks no Nether."
+
+#: mods/ITEMS/mcl_nether/init.lua:45
+msgid "Ancient Debris"
+msgstr "Detritos Anciãos"
+
+#: mods/ITEMS/mcl_nether/init.lua:46
+msgid "Ancient debris can be found in the nether and is very very rare."
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:59
+msgid "Block of Netherite"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:60
+msgid "Netherite block is very hard and can be made of 9 netherite ingots."
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:99
+msgid "Netherrack"
+msgstr "Solo do Nether"
+
+#: mods/ITEMS/mcl_nether/init.lua:100
+msgid ""
+"Netherrack is a stone-like block home to the Nether. Starting a fire on this "
+"block will create an eternal fire."
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:119
+msgid "Magma Block"
+msgstr "Bloco de Magma"
+
+#: mods/ITEMS/mcl_nether/init.lua:120
+msgid "Burns your feet"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:121
+msgid ""
+"Magma blocks are hot solid blocks which hurt anyone standing on it, unless "
+"they have fire resistance. Starting a fire on this block will create an "
+"eternal fire."
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:146
+msgid "Soul Sand"
+msgstr "Areia de Alma"
+
+#: mods/ITEMS/mcl_nether/init.lua:147
+msgid "Reduces walking speed"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:148
+msgid ""
+"Soul sand is a block from the Nether. It has a slowing effect when walked on."
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:199
+msgid "Nether Brick Block"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:215
+msgid "Red Nether Brick Block"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:221
+msgid "Chiseled Nether Brick Block"
+msgstr "Bloco de Tijolos do Nether Entalhado"
+
+#: mods/ITEMS/mcl_nether/init.lua:227
+msgid "Cracked Nether Bricks"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:232
+msgid "Nether Wart Block"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:233
+msgid "A nether wart block is a purely decorative block made from nether wart."
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:247
+msgid "Block of Quartz"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:259
+msgid "Chiseled Quartz Block"
+msgstr "Bloco de Quartzo Entalhado"
+
+#: mods/ITEMS/mcl_nether/init.lua:270
+msgid "Pillar Quartz Block"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:283
+msgid "Smooth Quartz"
+msgstr "Quartzo Liso"
+
+#: mods/ITEMS/mcl_nether/init.lua:296
+msgid "Quartz Stairs"
+msgstr "Escadas de Quartzo"
+
+#: mods/ITEMS/mcl_nether/init.lua:297
+msgid "Quartz Slab"
+msgstr "Laje de Quartzo"
+
+#: mods/ITEMS/mcl_nether/init.lua:304
+msgid "Smooth Quartz Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:305
+msgid "Smooth Quartz Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:312
+msgid "Nether Brick Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:313
+msgid "Nether Brick Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:318
+msgid "Red Nether Brick Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:319
+msgid "Red Nether Brick Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:325
+msgid "Nether Brick Fence"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:338
+msgid "Glowstone Dust"
+msgstr "Pó de Lumipedra"
+
+#: mods/ITEMS/mcl_nether/init.lua:339
+msgid ""
+"Glowstone dust is the dust which comes out of broken glowstones. It is "
+"mainly used in crafting."
+msgstr ""
+"O pó de pedra luminosa é o pó que sai das pedras luminosas quebradas. É "
+"usado principalmente na produção."
+
+#: mods/ITEMS/mcl_nether/init.lua:346
+msgid "Nether Quartz"
+msgstr "Quartzo do Nether"
+
+#: mods/ITEMS/mcl_nether/init.lua:347
+msgid "Nether quartz is a versatile crafting ingredient."
+msgstr "O quartzo do Nether é um ingrediente versátil para produção."
+
+#: mods/ITEMS/mcl_nether/init.lua:351
+msgid "Quartz Material"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:356
+msgid "Netherite Scrap"
+msgstr "Sucata de Netherita"
+
+#: mods/ITEMS/mcl_nether/init.lua:357
+msgid "Netherite scrap is a crafting ingredient for netherite ingots."
+msgstr ""
+"A sucata de netherita é um ingrediente usado na produção de lingotes de "
+"netherita."
+
+#: mods/ITEMS/mcl_nether/init.lua:363 mods/ITEMS/mcl_nether/init.lua:385
+msgid "Netherite Ingot"
+msgstr "Barra de Netherita"
+
+#: mods/ITEMS/mcl_nether/init.lua:364
+msgid ""
+"Netherite ingots can be used with a smithing table to upgrade items to "
+"netherite."
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:369
+msgid "Netherite Material"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:374
+msgid "Nether Brick"
+msgstr "Tijolo do Nether"
+
+#: mods/ITEMS/mcl_nether/init.lua:375
+msgid ""
+"Nether bricks are the main crafting ingredient for crafting nether brick "
+"blocks and nether fences."
+msgstr ""
+"Os tijolos do Nether são o principal ingrediente para a produção de blocos "
+"de tijolos do Nether e cercas do Nether."
+
+#: mods/ITEMS/mcl_nether/init.lua:382
+msgid "Netherite Upgrade Template"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:383
+msgid "Smithing Template"
+msgstr "Molde de Ferraria"
+
+#: mods/ITEMS/mcl_nether/init.lua:384
+msgid "Applies to:"
+msgstr "Aplica-se a:"
+
+#: mods/ITEMS/mcl_nether/init.lua:384
+msgid "Diamond Equipment"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/init.lua:385
+msgid "Ingredients:"
+msgstr "Ingredientes:"
+
+#: mods/ITEMS/mcl_nether/lava.lua:7
+msgid "Nether Lava Source"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/lava.lua:18
+msgid "Flowing Nether Lava"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:4
+msgid "Premature Nether Wart (Stage 1)"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:5
+msgid ""
+"A premature nether wart has just recently been planted on soul sand. Nether "
+"wart slowly grows on soul sand in 4 stages (the second and third stages look "
+"identical). Although nether wart is home to the Nether, it grows in any "
+"dimension."
+msgstr ""
+"Um fungo do nether prematuro foi plantado recentemente na areia das almas. O "
+"fungo do nether cresce lentamente na areia das almas em 4 estágios (o "
+"segundo e o terceiro estágios são idênticos). Embora o fungo do nether seja "
+"nativo do Nether, ela cresce em qualquer dimensão."
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:26
+msgid "Premature Nether Wart (Stage 2)"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:48
+msgid "Premature Nether Wart (Stage 3)"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:70
+msgid "Mature Nether Wart"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:71
+msgid ""
+"The mature nether wart is a plant from the Nether and reached its full size "
+"and won't grow any further. It is ready to be harvested for its items."
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:105
+msgid "Nether Wart"
+msgstr "Fungo do Nether"
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:106
+msgid "Grows on soul sand"
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:107
+msgid ""
+"Nether warts are plants home to the Nether. They can be planted on soul sand "
+"and grow in 4 stages."
+msgstr ""
+
+#: mods/ITEMS/mcl_nether/nether_wart.lua:108
+msgid "Place this item on soul sand to plant it and watch it grow."
+msgstr ""

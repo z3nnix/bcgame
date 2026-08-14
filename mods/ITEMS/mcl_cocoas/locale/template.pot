@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2025-04-06 10:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_cocoas/init.lua:41
+msgid "Cocoa pods grow on the side of jungle trees in 3 stages."
+msgstr ""
+
+#: mods/ITEMS/mcl_cocoas/init.lua:76
+msgid "Premature Cocoa Pod"
+msgstr ""
+
+#: mods/ITEMS/mcl_cocoas/init.lua:77
+msgid "Medium Cocoa Pod"
+msgstr ""
+
+#: mods/ITEMS/mcl_cocoas/init.lua:78
+msgid "Mature Cocoa Pod"
+msgstr ""
+
+#: mods/ITEMS/mcl_cocoas/init.lua:103
+msgid "Cocoa Beans"
+msgstr ""
+
+#: mods/ITEMS/mcl_cocoas/init.lua:104
+msgid "Grows at the side of jungle trees"
+msgstr ""
+
+#: mods/ITEMS/mcl_cocoas/init.lua:105
+msgid ""
+"Cocoa beans can be used to plant cocoa, bake cookies or craft brown dye."
+msgstr ""
+
+#: mods/ITEMS/mcl_cocoas/init.lua:106
+msgid ""
+"Right click on the side of a jungle tree trunk (Jungle Wood) to plant a "
+"young cocoa."
+msgstr ""

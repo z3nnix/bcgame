@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 21:41+0200\n"
+"PO-Revision-Date: 2026-06-14 12:07+0000\n"
+"Last-Translator: AndrewHK <andrewhk@noreply.codeberg.org>\n"
+"Language-Team: Vietnamese <https://translate.codeberg.org/projects/"
+"mineclonia/mcl_candles/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/ITEMS/mcl_candles/init.lua:71
+msgid ""
+"A candle is a block that emits light when lit with a flint and steel. It "
+"comes in the sixteen dye colors. Up to four of the same color of candle can "
+"be placed in one block space, which affects the amount of light produced."
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/init.lua:99
+msgid "Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/init.lua:121
+msgid "Lit Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/init.lua:336
+msgid "Cake"
+msgstr "Bánh kem"
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:1
+msgid "Black Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:2
+msgid "Blue Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:3
+msgid "Brown Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:4
+msgid "Cyan Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:5
+msgid "Green Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:6
+msgid "Grey Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:7
+msgid "Light Blue Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:8
+msgid "Light Grey Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:9
+msgid "Lime Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:10
+msgid "Magenta Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:11
+msgid "Orange Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:12
+msgid "Pink Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:13
+msgid "Purple Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:14
+msgid "Red Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:15
+msgid "White Candle"
+msgstr ""
+
+#: mods/ITEMS/mcl_candles/mcl_candles_translations_tmp.lua:16
+msgid "Yellow Candle"
+msgstr ""

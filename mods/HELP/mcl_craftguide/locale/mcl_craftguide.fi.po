@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_craftguide x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HELP/mcl_craftguide/init.lua:60
+msgid "Any shulker box"
+msgstr "Mikä tahansa kuorvaanijalaatikko"
+
+#: mods/HELP/mcl_craftguide/init.lua:61
+msgid "Any wool"
+msgstr "Mikä tahansa villa"
+
+#: mods/HELP/mcl_craftguide/init.lua:62
+msgid "Any wood planks"
+msgstr "Mitkä tahansa puulankut"
+
+#: mods/HELP/mcl_craftguide/init.lua:63
+msgid "Any wood"
+msgstr "Mikä tahansa puu"
+
+#: mods/HELP/mcl_craftguide/init.lua:64
+msgid "Any sand"
+msgstr "Mikä tahansa hiekka"
+
+#: mods/HELP/mcl_craftguide/init.lua:65
+msgid "Any normal sandstone"
+msgstr "Mikä tahansa tavallinen hiekkakivi"
+
+#: mods/HELP/mcl_craftguide/init.lua:66
+msgid "Any red sandstone"
+msgstr "Mikä tahansa punahiekkakivi"
+
+#: mods/HELP/mcl_craftguide/init.lua:67
+msgid "Any carpet"
+msgstr "Mikä tahansa matto"
+
+#: mods/HELP/mcl_craftguide/init.lua:68
+msgid "Any dye"
+msgstr "Mikä tahansa väriaine"
+
+#: mods/HELP/mcl_craftguide/init.lua:69
+msgid "Any water bucket"
+msgstr "Mikä tahansa vesiämpäri"
+
+#: mods/HELP/mcl_craftguide/init.lua:70
+msgid "Any flower"
+msgstr "Mikä tahansa kukka"
+
+#: mods/HELP/mcl_craftguide/init.lua:71
+msgid "Any mushroom"
+msgstr "Mikä tahansa sieni"
+
+#: mods/HELP/mcl_craftguide/init.lua:72
+msgid "Any wooden slab"
+msgstr "Mikä tahansa puulaatta"
+
+#: mods/HELP/mcl_craftguide/init.lua:73
+msgid "Any wooden stairs"
+msgstr "Mitkä tahansa puuportaat"
+
+#: mods/HELP/mcl_craftguide/init.lua:74
+msgid "Any coal"
+msgstr "Mikä tahansa hiili"
+
+#: mods/HELP/mcl_craftguide/init.lua:75
+msgid "Any kind of quartz block"
+msgstr "Millainen tahansa kvartsikuutio"
+
+#: mods/HELP/mcl_craftguide/init.lua:76
+msgid "Any kind of purpur block"
+msgstr "Millainen tahansa purppurakuutio"
+
+#: mods/HELP/mcl_craftguide/init.lua:77
+msgid "Any stone bricks"
+msgstr "Mikä tahansa kivitiili"
+
+#: mods/HELP/mcl_craftguide/init.lua:78
+msgid "Any stick"
+msgstr "Mikä tahansa keppi"
+
+#: mods/HELP/mcl_craftguide/init.lua:329
+msgid "Any item belonging to the @1 group"
+msgstr "Mikä tahansa esine, joka kuuluu ryhmään @1"
+
+#: mods/HELP/mcl_craftguide/init.lua:340
+msgid "Any item belonging to the groups: @1"
+msgstr "Mikä tahansa esine, joka kuuluu ryhmiin: @1"
+
+#: mods/HELP/mcl_craftguide/init.lua:349
+msgid "Cooking time: @1"
+msgstr "Paistoaika: @1"
+
+#: mods/HELP/mcl_craftguide/init.lua:354
+msgid "Burning time: @1"
+msgstr "Palamisaika: @1"
+
+#: mods/HELP/mcl_craftguide/init.lua:381
+msgid "Usages"
+msgstr "Käyttökohteet"
+
+#: mods/HELP/mcl_craftguide/init.lua:381
+msgid "Recipes"
+msgstr "Reseptit"
+
+#: mods/HELP/mcl_craftguide/init.lua:402
+msgid "Recipe is too big to be displayed (@1×@2)"
+msgstr "Resepti on liian iso näytettäväksi (@1 x @2)"
+
+#: mods/HELP/mcl_craftguide/init.lua:469
+msgid "Shapeless"
+msgstr "Muodoton"
+
+#: mods/HELP/mcl_craftguide/init.lua:469
+msgid "Cooking"
+msgstr "Paistaminen"
+
+#: mods/HELP/mcl_craftguide/init.lua:568
+msgid "Increase window size"
+msgstr "Suurenna ikkunaa"
+
+#: mods/HELP/mcl_craftguide/init.lua:569
+msgid "Decrease window size"
+msgstr "Pienennä ikkunaa"
+
+#: mods/HELP/mcl_craftguide/init.lua:587
+msgid "Search"
+msgstr "Hae"
+
+#: mods/HELP/mcl_craftguide/init.lua:588
+msgid "Reset"
+msgstr "Uudestaan"
+
+#: mods/HELP/mcl_craftguide/init.lua:589
+msgid "Previous page"
+msgstr "Edellinen sivu"
+
+#: mods/HELP/mcl_craftguide/init.lua:590
+msgid "Next page"
+msgstr "Seuraava sivu"
+
+#: mods/HELP/mcl_craftguide/init.lua:606
+msgid "No item to show"
+msgstr "Ei esineitä näytettäväksi"
+
+#: mods/HELP/mcl_craftguide/init.lua:610
+msgid "Collect items to reveal more recipes"
+msgstr "Kerää esineitä avataksesi lisää reseptejä"
+
+#: mods/HELP/mcl_craftguide/init.lua:1114
+msgid "This item can be repaired at an anvil with: @1."
+msgstr "Tämän esineen voi korjata alasimella, ja siihen tarvitsee: @1."
+
+#: mods/HELP/mcl_craftguide/init.lua:1116
+msgid "This item can be repaired at an anvil with any wooden planks."
+msgstr ""
+"Tämän esineen voi korjata alasimella, ja siihen voi käyttää mitä tahansa "
+"puulankkuja."
+
+#: mods/HELP/mcl_craftguide/init.lua:1119
+msgid "This item can be repaired at an anvil with any item in the “@1” group."
+msgstr ""
+"Tämän esineen voi korjata alasimella, ja siihen voi käyttää mitä tahansa "
+"esinettä, joka kuuluu ryhmään \"@1\"."

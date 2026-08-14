@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_bone_meal x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-07-10 00:07+0000\n"
+"Last-Translator: baka_bo <baka_bo@noreply.codeberg.org>\n"
+"Language-Team: Japanese <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_bone_meal/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/ITEMS/mcl_bone_meal/init.lua:62
+msgid "Bone Meal"
+msgstr "骨粉"
+
+#: mods/ITEMS/mcl_bone_meal/init.lua:63
+msgid "Speeds up plant growth"
+msgstr "植物の成長の促進"
+
+#: mods/ITEMS/mcl_bone_meal/init.lua:64
+msgid ""
+"Bone meal is a white dye and also useful as a fertilizer to speed up the "
+"growth of many plants."
+msgstr "骨粉は白色の染料であり、多くの植物の成長を促進する肥料としても使用できる。"
+
+#: mods/ITEMS/mcl_bone_meal/init.lua:65
+msgid ""
+"Rightclick a sheep to turn its wool white. Rightclick a plant to speed up "
+"its growth. Note that not all plants can be fertilized like this. When you "
+"rightclick a grass block, tall grass and flowers will grow all over the "
+"place."
+msgstr ""
+"羊を右クリックすると、羊毛を白くできます。植物を右クリックすると、成長を促進"
+"できます。ただし、すべての植物に骨粉を使用できるわけではありません。草"
+"ブロックを右クリックすると、周囲に背の高い草や花が生えます。"

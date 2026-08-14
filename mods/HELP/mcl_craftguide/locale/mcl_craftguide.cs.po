@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_craftguide x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HELP/mcl_craftguide/init.lua:60
+msgid "Any shulker box"
+msgstr "Jakákoliv shulkerova schránka"
+
+#: mods/HELP/mcl_craftguide/init.lua:61
+msgid "Any wool"
+msgstr "jakákoliv vlna"
+
+#: mods/HELP/mcl_craftguide/init.lua:62
+msgid "Any wood planks"
+msgstr "Prkna jakéhokoliv stromu"
+
+#: mods/HELP/mcl_craftguide/init.lua:63
+msgid "Any wood"
+msgstr "Jakékoliv dřevo"
+
+#: mods/HELP/mcl_craftguide/init.lua:64
+msgid "Any sand"
+msgstr "Jakýkoliv písek"
+
+#: mods/HELP/mcl_craftguide/init.lua:65
+msgid "Any normal sandstone"
+msgstr "Jakýkoli běžný pískovec"
+
+#: mods/HELP/mcl_craftguide/init.lua:66
+msgid "Any red sandstone"
+msgstr "Jakýkoli červený pískovec"
+
+#: mods/HELP/mcl_craftguide/init.lua:67
+msgid "Any carpet"
+msgstr "Jakýkoliv koberec"
+
+#: mods/HELP/mcl_craftguide/init.lua:68
+msgid "Any dye"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:69
+msgid "Any water bucket"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:70
+msgid "Any flower"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:71
+msgid "Any mushroom"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:72
+msgid "Any wooden slab"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:73
+msgid "Any wooden stairs"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:74
+msgid "Any coal"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:75
+msgid "Any kind of quartz block"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:76
+msgid "Any kind of purpur block"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:77
+msgid "Any stone bricks"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:78
+msgid "Any stick"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:329
+msgid "Any item belonging to the @1 group"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:340
+msgid "Any item belonging to the groups: @1"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:349
+msgid "Cooking time: @1"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:354
+msgid "Burning time: @1"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:381
+msgid "Usages"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:381
+msgid "Recipes"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:402
+msgid "Recipe is too big to be displayed (@1×@2)"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:469
+msgid "Shapeless"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:469
+msgid "Cooking"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:568
+msgid "Increase window size"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:569
+msgid "Decrease window size"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:587
+msgid "Search"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:588
+msgid "Reset"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:589
+msgid "Previous page"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:590
+msgid "Next page"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:606
+msgid "No item to show"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:610
+msgid "Collect items to reveal more recipes"
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:1114
+msgid "This item can be repaired at an anvil with: @1."
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:1116
+msgid "This item can be repaired at an anvil with any wooden planks."
+msgstr ""
+
+#: mods/HELP/mcl_craftguide/init.lua:1119
+msgid "This item can be repaired at an anvil with any item in the “@1” group."
+msgstr ""

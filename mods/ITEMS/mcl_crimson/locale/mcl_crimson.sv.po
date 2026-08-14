@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_crimson x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_crimson/init.lua:233 mods/ITEMS/mcl_crimson/init.lua:265
+msgid "Warped Fungus"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:234 mods/ITEMS/mcl_crimson/init.lua:235
+msgid "Warped fungus is a mushroom found in the nether's warped forest."
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:352
+msgid "Twisting Vines"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:362
+msgid "Weeping Vines"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:373
+msgid "Nether Sprouts"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:398 mods/ITEMS/mcl_crimson/init.lua:423
+msgid "Warped Roots"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:429
+msgid "Warped Wart Block"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:441
+msgid "Shroomlight"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:454
+msgid "Warped Nylium"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:478 mods/ITEMS/mcl_crimson/init.lua:510
+msgid "Crimson Fungus"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:479 mods/ITEMS/mcl_crimson/init.lua:480
+msgid "Crimson fungus is a mushroom found in the nether's crimson forest."
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:515 mods/ITEMS/mcl_crimson/init.lua:540
+msgid "Crimson Roots"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/init.lua:545
+msgid "Crimson Nylium"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:1
+msgid "Crimson Bark"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:2
+msgid "Crimson Bark Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:3
+msgid "Crimson Bark Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:4
+msgid "Crimson Button"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:5
+msgid "Crimson Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:6
+msgid "Crimson Fence"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:7
+msgid "Crimson Fence Gate"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:8
+msgid "Crimson Hanging Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:9
+msgid "Crimson Log"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:10
+msgid "Crimson Planks"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:11
+msgid "Crimson Pressure Plate"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:12
+msgid "Crimson Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:13
+msgid "Crimson Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:14
+msgid "Crimson Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:15
+msgid "Crimson Trapdoor"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:16
+msgid "Stripped Crimson Bark"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:17
+msgid "Stripped Crimson Log"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:18
+msgid "Stripped Warped Bark"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:19
+msgid "Stripped Warped Log"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:20
+msgid "The stripped trunk of an Crimson tree."
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:21
+msgid "The stripped trunk of an Warped tree."
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:22
+msgid "The stripped wood of an Crimson tree."
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:23
+msgid "The stripped wood of an Warped tree."
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:24
+msgid "The trunk of a Crimson tree."
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:25
+msgid "The trunk of a Warped tree."
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:26
+msgid "Warped Bark"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:27
+msgid "Warped Bark Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:28
+msgid "Warped Bark Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:29
+msgid "Warped Button"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:30
+msgid "Warped Door"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:31
+msgid "Warped Fence"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:32
+msgid "Warped Fence Gate"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:33
+msgid "Warped Hanging Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:34
+msgid "Warped Log"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:35
+msgid "Warped Planks"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:36
+msgid "Warped Pressure Plate"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:37
+msgid "Warped Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:38
+msgid "Warped Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:39
+msgid "Warped Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_crimson/mcl_crimson_translations_tmp.lua:40
+msgid "Warped Trapdoor"
+msgstr ""

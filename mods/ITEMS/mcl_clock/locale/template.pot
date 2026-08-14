@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-30 22:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_clock/init.lua:68
+msgid "Clock"
+msgstr ""
+
+#: mods/ITEMS/mcl_clock/init.lua:69
+msgid "Displays the time of day in the Overworld"
+msgstr ""
+
+#: mods/ITEMS/mcl_clock/init.lua:70
+msgid "Clocks are tools which shows the current time of day in the Overworld."
+msgstr ""
+
+#: mods/ITEMS/mcl_clock/init.lua:71
+msgid ""
+"The clock contains a rotating disc with a sun symbol (yellow disc) and moon "
+"symbol and a little “pointer” which shows the current time of day by "
+"estimating the real position of the sun and the moon in the sky. Noon is "
+"represented by the sun symbol and midnight is represented by the moon symbol."
+msgstr ""

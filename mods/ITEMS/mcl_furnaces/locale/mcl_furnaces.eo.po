@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_furnaces x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-05-02 18:57+0000\n"
+"Last-Translator: Tirifto <tirifto@noreply.codeberg.org>\n"
+"Language-Team: Esperanto <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_furnaces/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:32 mods/ITEMS/mcl_furnaces/init.lua:71
+msgid "Inventory"
+msgstr "Portaĵujo"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:40 mods/ITEMS/mcl_furnaces/init.lua:79
+msgid "Recipe book"
+msgstr "Receptaro"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:424 mods/ITEMS/mcl_furnaces/init.lua:585
+#: mods/ITEMS/mcl_furnaces/init.lua:615 mods/ITEMS/mcl_furnaces/init.lua:664
+msgid "Furnace"
+msgstr "Forno"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:616
+msgid "Uses fuel to smelt or cook items"
+msgstr "Ĝi uzas brulmaterialon por gisi aŭ kuiri portaĵojn"
+
+#: mods/ITEMS/mcl_furnaces/init.lua:617
+msgid ""
+"Furnaces cook or smelt several items, using a furnace fuel, into something "
+"else."
+msgstr ""
+
+#: mods/ITEMS/mcl_furnaces/init.lua:619
+msgid "Use the furnace to open the furnace menu."
+msgstr ""
+
+#: mods/ITEMS/mcl_furnaces/init.lua:620
+msgid ""
+"Place a furnace fuel in the lower slot and the source material in the upper "
+"slot."
+msgstr ""
+
+#: mods/ITEMS/mcl_furnaces/init.lua:621
+msgid "The furnace will slowly use its fuel to smelt the item."
+msgstr ""
+
+#: mods/ITEMS/mcl_furnaces/init.lua:622
+msgid "The result will be placed into the output slot at the right side."
+msgstr "Rezulto iros elingon sur dekstra flanko."
+
+#: mods/ITEMS/mcl_furnaces/init.lua:623
+msgid ""
+"Use the recipe book to see what you can smelt, what you can use as fuel and "
+"how long it will burn."
+msgstr ""
+
+#: mods/ITEMS/mcl_furnaces/init.lua:631
+msgid "Burning Furnace"
+msgstr "Brulanta Forno"

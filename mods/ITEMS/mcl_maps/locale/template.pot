@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-30 22:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_maps/init.lua:175
+msgid "Empty Map"
+msgstr ""
+
+#: mods/ITEMS/mcl_maps/init.lua:176
+msgid ""
+"Empty maps are not useful as maps, but they can be stacked and turned to "
+"maps which can be used."
+msgstr ""
+
+#: mods/ITEMS/mcl_maps/init.lua:177
+msgid "Rightclick to create a filled map (which can't be stacked anymore)."
+msgstr ""
+
+#: mods/ITEMS/mcl_maps/init.lua:184
+msgid "Map"
+msgstr ""
+
+#: mods/ITEMS/mcl_maps/init.lua:185
+msgid "Shows a map image."
+msgstr ""
+
+#: mods/ITEMS/mcl_maps/init.lua:186
+msgid ""
+"When created, the map saves the nearby area as an image that can be viewed "
+"any time by holding the map."
+msgstr ""
+
+#: mods/ITEMS/mcl_maps/init.lua:187
+msgid "Hold the map in your hand. This will display a map on your screen."
+msgstr ""

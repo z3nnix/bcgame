@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-30 22:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_bows/arrow.lua:50
+msgid "Arrow"
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/arrow.lua:51
+msgid "Ammunition"
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/arrow.lua:51
+msgid "Damage from bow: 1-10"
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/arrow.lua:51
+msgid "Damage from dispenser: 3"
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/arrow.lua:52
+msgid "Arrows are ammunition for bows and dispensers."
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/arrow.lua:53
+msgid ""
+"An arrow fired from a bow has a regular damage of 1-9. At full charge, "
+"there's a 20% chance of a critical hit dealing 10 damage instead. An arrow "
+"fired from a dispenser always deals 3 damage."
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/arrow.lua:54
+msgid ""
+"Arrows might get stuck on solid blocks and can be retrieved again. They are "
+"also capable of pushing wooden buttons."
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/arrow.lua:55
+msgid ""
+"To use arrows as ammunition for a bow, just put them anywhere in your "
+"inventory, they will be used up automatically. To use arrows as ammunition "
+"for a dispenser, place them in the dispenser's inventory. To retrieve an "
+"arrow that sticks in a block, simply walk close to it."
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/bow.lua:158 mods/ITEMS/mcl_bows/bow.lua:224
+msgid "Bow"
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/bow.lua:159 mods/ITEMS/mcl_bows/crossbow.lua:143
+#: mods/ITEMS/mcl_bows/crossbow.lua:173
+msgid "Launches arrows"
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/bow.lua:160
+msgid "Bows are ranged weapons to shoot arrows at your foes."
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/bow.lua:161 mods/ITEMS/mcl_bows/crossbow.lua:145
+#: mods/ITEMS/mcl_bows/crossbow.lua:175
+msgid ""
+"The speed and damage of the arrow increases the longer you charge. The "
+"regular damage of the arrow is between 1 and 9. At full charge, there's also "
+"a 20% of a critical hit, dealing 10 damage instead."
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/bow.lua:162
+msgid ""
+"To use the bow, you first need to have at least one arrow anywhere in your "
+"inventory (unless in Creative Mode). Hold down the right mouse button (or "
+"the zoom key) to charge, release to shoot."
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/crossbow.lua:142 mods/ITEMS/mcl_bows/crossbow.lua:172
+#: mods/ITEMS/mcl_bows/crossbow.lua:235
+msgid "Crossbow"
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/crossbow.lua:144 mods/ITEMS/mcl_bows/crossbow.lua:174
+msgid "Crossbows are ranged weapons to shoot arrows at your foes."
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/crossbow.lua:146
+msgid ""
+"To use the crossbow, you first need to have at least one arrow anywhere in "
+"your inventory (unless in Creative Mode). Hold down the right mouse button "
+"(or zoom key) to charge, release to load an arrow into the chamber, then to "
+"shoot press left mouse."
+msgstr ""
+
+#: mods/ITEMS/mcl_bows/crossbow.lua:176
+msgid ""
+"To use the crossbow, you first need to have at least one arrow anywhere in "
+"your inventory (unless in Creative Mode). Hold down the right mouse button "
+"to charge, release to load an arrow into the chamber, then to shoot press "
+"left mouse."
+msgstr ""

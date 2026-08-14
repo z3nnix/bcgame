@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_wool x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_wool/init.lua:25
+msgid "Carpet"
+msgstr "Tapis"
+
+#: mods/ITEMS/mcl_wool/init.lua:26
+msgid "Wool"
+msgstr "Laine"
+
+#: mods/ITEMS/mcl_wool/init.lua:27
+msgid "Wool is a decorative block which comes in many different colors."
+msgstr "La laine est un bloc décoratif disponible en différentes couleurs."
+
+#: mods/ITEMS/mcl_wool/init.lua:28
+msgid "Carpets are thin floor covers which come in many different colors."
+msgstr ""
+"Les tapis sont des revêtements de sol minces qui viennent dans de nombreuses "
+"couleurs différentes."
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:1
+msgid "Black Carpet"
+msgstr "Tapis noir"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:2
+msgid "Black Wool"
+msgstr "Laine noire"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:3
+msgid "Blue Carpet"
+msgstr "Tapis bleu"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:4
+msgid "Blue Wool"
+msgstr "Laine bleue"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:5
+msgid "Brown Carpet"
+msgstr "Tapis marron"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:6
+msgid "Brown Wool"
+msgstr "Laine marron"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:7
+msgid "Cyan Carpet"
+msgstr "Tapis cyan"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:8
+msgid "Cyan Wool"
+msgstr "Laine cyan"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:9
+msgid "Green Carpet"
+msgstr "Tapis vert"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:10
+msgid "Green Wool"
+msgstr "Laine verte"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:11
+msgid "Grey Carpet"
+msgstr "Tapis gris"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:12
+msgid "Grey Wool"
+msgstr "Laine grise"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:13
+msgid "Light Blue Carpet"
+msgstr "Tapis bleu clair"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:14
+msgid "Light Blue Wool"
+msgstr "Laine bleu clair"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:15
+msgid "Light Grey Carpet"
+msgstr "Tapis gris clair"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:16
+msgid "Light Grey Wool"
+msgstr "Laine gris clair"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:17
+msgid "Lime Carpet"
+msgstr "Tapis vert clair"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:18
+msgid "Lime Wool"
+msgstr "Laine vert clair"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:19
+msgid "Magenta Carpet"
+msgstr "Tapis magenta"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:20
+msgid "Magenta Wool"
+msgstr "Laine magenta"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:21
+msgid "Orange Carpet"
+msgstr "Tapis orange"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:22
+msgid "Orange Wool"
+msgstr "Laine orange"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:23
+msgid "Pink Carpet"
+msgstr "Tapis rose"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:24
+msgid "Pink Wool"
+msgstr "Laine rose"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:25
+msgid "Purple Carpet"
+msgstr "Tapis violet"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:26
+msgid "Purple Wool"
+msgstr "Laine violette"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:27
+msgid "Red Carpet"
+msgstr "Tapis rouge"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:28
+msgid "Red Wool"
+msgstr "Laine rouge"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:29
+msgid "White Carpet"
+msgstr "Tapis blanc"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:30
+msgid "White Wool"
+msgstr "Laine blanche"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:31
+msgid "Yellow Carpet"
+msgstr "Tapis jaune"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:32
+msgid "Yellow Wool"
+msgstr "Laine jaune"

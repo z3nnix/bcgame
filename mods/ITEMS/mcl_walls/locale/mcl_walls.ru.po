@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_walls x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_walls/init.lua:250
+msgid ""
+"A piece of wall. It cannot be jumped over with a simple jump. When multiple "
+"of these are placed to next to each other, they will automatically build a "
+"nice wall structure."
+msgstr ""
+"Часть стены. Её нельзя перепрыгнуть. Когда несколько блоков стены "
+"расположены по соседству, они визуально соединяются друг с другом в "
+"структуру."
+
+#: mods/ITEMS/mcl_walls/register.lua:7
+msgid "Cobblestone Wall"
+msgstr "Стена из булыжника"
+
+#: mods/ITEMS/mcl_walls/register.lua:13
+msgid "Mossy Cobblestone Wall"
+msgstr "Стена из замшелого булыжника"
+
+#: mods/ITEMS/mcl_walls/register.lua:18
+msgid "Andesite Wall"
+msgstr "Андезитовая стена"
+
+#: mods/ITEMS/mcl_walls/register.lua:23
+msgid "Granite Wall"
+msgstr "Гранитная стена"
+
+#: mods/ITEMS/mcl_walls/register.lua:28
+msgid "Diorite Wall"
+msgstr "Диоритовая стена"
+
+#: mods/ITEMS/mcl_walls/register.lua:33
+msgid "Brick Wall"
+msgstr "Кирпичная стена"
+
+#: mods/ITEMS/mcl_walls/register.lua:38
+msgid "Sandstone Wall"
+msgstr "Стена из песчаника"
+
+#: mods/ITEMS/mcl_walls/register.lua:43
+msgid "Red Sandstone Wall"
+msgstr "Стена из красного песчаника"
+
+#: mods/ITEMS/mcl_walls/register.lua:48
+msgid "Stone Brick Wall"
+msgstr "Стена из каменных кирпичей"
+
+#: mods/ITEMS/mcl_walls/register.lua:53
+msgid "Mossy Stone Brick Wall"
+msgstr "Стена из замшелого каменного блока"
+
+#: mods/ITEMS/mcl_walls/register.lua:58
+msgid "Prismarine Wall"
+msgstr "Призмариновая стена"
+
+#: mods/ITEMS/mcl_walls/register.lua:63
+msgid "End Stone Brick Wall"
+msgstr "Стена из кирпичей Края"
+
+#: mods/ITEMS/mcl_walls/register.lua:68
+msgid "Nether Brick Wall"
+msgstr "Стена из адского кирпича"
+
+#: mods/ITEMS/mcl_walls/register.lua:73
+msgid "Red Nether Brick Wall"
+msgstr "Стена из адского красного кирпича"
+
+#: mods/ITEMS/mcl_walls/register.lua:78
+msgid "Mud Brick Wall"
+msgstr "Стена из саманных кирпичей"

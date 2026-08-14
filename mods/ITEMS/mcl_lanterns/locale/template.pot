@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-02-21 00:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_lanterns/register.lua:4
+msgid "Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_lanterns/register.lua:5
+#: mods/ITEMS/mcl_lanterns/register.lua:13
+msgid ""
+"Lanterns are light sources which can be placed on the top or the bottom of "
+"most blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_lanterns/register.lua:12
+msgid "Soul Lantern"
+msgstr ""
+
+#: mods/ITEMS/mcl_lanterns/register.lua:41
+msgid "Chain"
+msgstr ""
+
+#: mods/ITEMS/mcl_lanterns/register.lua:42
+msgid "Chains are metallic decoration blocks."
+msgstr ""

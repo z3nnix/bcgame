@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_tt x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:35 mods/HELP/mcl_tt/snippets_mcl.lua:104
+msgid "@1 uses"
+msgstr "@1 erabilera"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:37
+msgid "Unlimited uses"
+msgstr "Erabilera mugagabeak"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:40 mods/HELP/mcl_tt/snippets_mcl.lua:104
+msgid "Durability: @1"
+msgstr "Iraunkortasuna: @1"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:46
+msgid "Painfully slow"
+msgstr "Mingarriro motela"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:47
+msgid "Very slow"
+msgstr "Oso motela"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:48
+msgid "Slow"
+msgstr "Motela"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:49
+msgid "Fast"
+msgstr "Azkar"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:50
+msgid "Very fast"
+msgstr "Oso azkar"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:51
+msgid "Extremely fast"
+msgstr "Oso-oso azkarra"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:52
+msgid "Instantaneous"
+msgstr "Bat-batekoa"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:63
+msgid "Mining speed: @1"
+msgstr "Ustiatze-abiadura: @1"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:72
+msgid "Block breaking strength: @1"
+msgstr "Blokeak hausteko indarra: @1"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:79
+msgid "Damage: @1"
+msgstr "Mina: @1"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:85
+msgid "Full punch interval: @1s"
+msgstr "Kolpe osoko tartea: @1s"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:106
+msgid "Food item"
+msgstr "Elikagaiak"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:108
+msgid "+@1 food points"
+msgstr "+@1 gose-puntu"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:124
+msgid "Contact damage: @1 per second"
+msgstr "Kontaktuagatiko mina: @1 segundoko"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:127
+msgid "Contact healing: @1 per second"
+msgstr "Kontaktuagatiko sendaketa: @1 segundoko"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:132
+msgid "Drowning damage: @1"
+msgstr "Itotzeagatiko mina: @1"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:137
+msgid "Fall damage: +@1%"
+msgstr "Erorketagatiko mina: +%@1"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:140
+msgid "No fall damage"
+msgstr "Minik ez erorketagatik"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:143
+msgid "Fall damage: @1%"
+msgstr "Erorketagatiko mina: %@1"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:150
+msgid "No jumping"
+msgstr "Ez jauzi egin"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:153
+msgid "No swimming upwards"
+msgstr "Ez igeri egin gorantz"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:156
+msgid "No rising"
+msgstr "Ez altxatu"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:162
+msgid "Climbable (only downwards)"
+msgstr "Eskalagarria (beherantz bakarrik)"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:165
+msgid "Climbable"
+msgstr "Eskalagarria"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:170
+msgid "Slippery"
+msgstr "Irristakorra"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:175
+msgid "Bouncy (@1%)"
+msgstr "Errebotea (%@1)"
+
+#: mods/HELP/mcl_tt/snippets_base.lua:182
+msgid "Luminance: @1"
+msgstr "Argiztapena: @1"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:14
+msgid "Head armor"
+msgstr "Bururako armadura"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:15
+msgid "Torso armor"
+msgstr "Soinerako armadura"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:16
+msgid "Legs armor"
+msgstr "Zangoetarako armadura"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:17
+msgid "Feet armor"
+msgstr "Oinetarako armadura"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:21
+msgid "Armor points: @1"
+msgstr "Armadura-puntuak: @1"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:38
+msgid "Armor durability: @1"
+msgstr "Armaduraren iraunkortasuna: @1"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:47
+msgid "Protection: @1%"
+msgstr "Babesa: %@1"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:55
+msgid "Hunger points: +@1"
+msgstr "Gose-puntuak: +@1"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:61
+msgid "Saturation points: +@1"
+msgstr "Saturazio-puntuak: +@1"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:68
+msgid "Deals damage when falling"
+msgstr "Erortzean kaltea eragiten du"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:75
+msgid "Grows on grass blocks or dirt"
+msgstr "Larre edo lurrezko blokeen gainean hazten da"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:77
+msgid "Grows on grass blocks, podzol, dirt or coarse dirt"
+msgstr "Larre, podsol, lur edo lur antzuko blokeen gainean hazten da"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:83
+msgid "Flammable"
+msgstr "Suharbera"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:89
+msgid "Zombie view range: -50%"
+msgstr "Zonbien ikusmen-eremua: -%50"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:91
+msgid "Skeleton view range: -50%"
+msgstr "Eskeletoaren ikusmen-eremua: -%50"
+
+#: mods/HELP/mcl_tt/snippets_mcl.lua:93
+msgid "Creeper view range: -50%"
+msgstr "Creeperen ikusmen-eremua: -%50"

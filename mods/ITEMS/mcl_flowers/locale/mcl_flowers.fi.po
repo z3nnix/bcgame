@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_flowers x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 18:07+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_flowers/init.lua:8
+msgid ""
+"This is a small flower. Small flowers are mainly used for dye production and "
+"can also be potted."
+msgstr ""
+"Tämä on pieni kukka. Pieniä kukkia käytetään pääasiassa väriaineiden "
+"valmistukseen, mutta niitä voi myös istuttaa ruukkuun."
+
+#: mods/ITEMS/mcl_flowers/init.lua:9
+msgid "It can only be placed on a block on which it would also survive."
+msgstr "Sen voi sijoittaa ainoastaan kuutiolle, jolla se selviäisi."
+
+#: mods/ITEMS/mcl_flowers/init.lua:385
+msgid "@1 (Top Part)"
+msgstr "@1 (Ylempi osa)"
+
+#: mods/ITEMS/mcl_flowers/register.lua:4
+msgid "Poppy"
+msgstr "Unikko"
+
+#: mods/ITEMS/mcl_flowers/register.lua:15
+msgid "Dandelion"
+msgstr "Voikukka"
+
+#: mods/ITEMS/mcl_flowers/register.lua:26
+msgid "Oxeye Daisy"
+msgstr "Päivänkakkara"
+
+#: mods/ITEMS/mcl_flowers/register.lua:37
+msgid "Orange Tulip"
+msgstr "Oranssi tulppaani"
+
+#: mods/ITEMS/mcl_flowers/register.lua:48
+msgid "Pink Tulip"
+msgstr "Vaaleanpunainen tulppaani"
+
+#: mods/ITEMS/mcl_flowers/register.lua:59
+msgid "Red Tulip"
+msgstr "Punainen tulppaani"
+
+#: mods/ITEMS/mcl_flowers/register.lua:70
+msgid "White Tulip"
+msgstr "Valkoinen tulppaani"
+
+#: mods/ITEMS/mcl_flowers/register.lua:81
+msgid "Allium"
+msgstr "Laukka"
+
+#: mods/ITEMS/mcl_flowers/register.lua:92
+msgid "Azure Bluet"
+msgstr "Keijunsilmä"
+
+#: mods/ITEMS/mcl_flowers/register.lua:103
+msgid "Blue Orchid"
+msgstr "Sininen orkidea"
+
+#: mods/ITEMS/mcl_flowers/register.lua:114
+msgid "Wither Rose"
+msgstr "Näivettäjäruusu"
+
+#: mods/ITEMS/mcl_flowers/register.lua:127
+msgid "Lily of the Valley"
+msgstr "Kielo"
+
+#: mods/ITEMS/mcl_flowers/register.lua:138
+msgid "Cornflower"
+msgstr "Ruiskaunokki"
+
+#: mods/ITEMS/mcl_flowers/register.lua:149
+msgid "Wildflowers"
+msgstr "Luonnonkukat"
+
+#: mods/ITEMS/mcl_flowers/register.lua:156
+msgid "Leaf Litter"
+msgstr "Pudonneet lehdet"
+
+#: mods/ITEMS/mcl_flowers/register.lua:166
+msgid "Pink Petals"
+msgstr "Vaaleanpunaiset lehdet"
+
+#: mods/ITEMS/mcl_flowers/register.lua:167
+msgid "Pink Petals are ground decoration of cherry grove biomes"
+msgstr "Vaaleanpunaiset lehdet ovat kirsikkalehtojen maakoristeita"
+
+#: mods/ITEMS/mcl_flowers/register.lua:176
+msgid "Peony"
+msgstr "Pioni"
+
+#: mods/ITEMS/mcl_flowers/register.lua:177
+msgid ""
+"A peony is a large plant which occupies two blocks. It is mainly used in dye "
+"production."
+msgstr ""
+"Pioni on suuri kasvi, joka vie kahden kuution tilan. Sitä käytetään "
+"pääasiassa väriaineiden valmistukseen."
+
+#: mods/ITEMS/mcl_flowers/register.lua:193
+msgid "Rose Bush"
+msgstr "Ruusupensas"
+
+#: mods/ITEMS/mcl_flowers/register.lua:194
+msgid ""
+"A rose bush is a large plant which occupies two blocks. It is safe to touch "
+"it. Rose bushes are mainly used in dye production."
+msgstr ""
+"Ruusupensas on suuri kasvi, joka vie kahden kuution tilan. Sitä on "
+"turvallista koskea. Ruusupensaita käytetään pääasiassa väriaineiden "
+"valmistukseen."
+
+#: mods/ITEMS/mcl_flowers/register.lua:209
+msgid "Lilac"
+msgstr "Syreeni"
+
+#: mods/ITEMS/mcl_flowers/register.lua:210
+msgid ""
+"A lilac is a large plant which occupies two blocks. It is mainly used in dye "
+"production."
+msgstr ""
+"Syreeni on suuri kasvi, joka vie kahden kuution tilan. Sitä käytetään "
+"pääasiassa väriaineiden valmistukseen."
+
+#: mods/ITEMS/mcl_flowers/register.lua:225
+msgid "Sunflower"
+msgstr "Auringonkukka"
+
+#: mods/ITEMS/mcl_flowers/register.lua:226
+msgid ""
+"A sunflower is a large plant which occupies two blocks. It is mainly used in "
+"dye production."
+msgstr ""
+"Auringonkukka on suuri kasvi, joka vie kahden kuution tilan. Sitä käytetään "
+"pääasiassa väriaineiden valmistukseen."
+
+#: mods/ITEMS/mcl_flowers/register.lua:269
+msgid "Double Tallgrass"
+msgstr "Kaksoispitkä ruoho"
+
+#: mods/ITEMS/mcl_flowers/register.lua:270
+msgid ""
+"Double tallgrass a variant of tall grass and occupies two blocks. It can be "
+"harvested for wheat seeds."
+msgstr ""
+"Kaksoispitkä ruoho on pitkän ruohon muunnos, joka vie kahden kuution tilan. "
+"Sen korjaamalla voi saada vehnänsiemeniä."
+
+#: mods/ITEMS/mcl_flowers/register.lua:286
+msgid "Large Fern"
+msgstr "Suuri saniainen"
+
+#: mods/ITEMS/mcl_flowers/register.lua:287
+msgid ""
+"Large fern is a variant of fern and occupies two blocks. It can be harvested "
+"for wheat seeds."
+msgstr ""
+"Suuri saniainen on saniaisen muunnos, joka vie kahden kuution tilan. Sen "
+"korjaamalla voi saada vehnänsiemeniä."
+
+#: mods/ITEMS/mcl_flowers/register.lua:303
+msgid "Tall Grass"
+msgstr "Pitkä ruoho"
+
+#: mods/ITEMS/mcl_flowers/register.lua:305
+msgid ""
+"Tall grass is a small plant which often occurs on the surface of grasslands. "
+"It can be harvested for wheat seeds. By using bone meal, tall grass can be "
+"turned into double tallgrass which is two blocks high."
+msgstr ""
+"Pitkä ruoho on pieni kasvi, jota esiintyy usein ruohotasankojen pinnalla. "
+"Sen korjaamalla voi saada vehnänsiemeniä. Luujauholla pitkän ruohon voi "
+"muuttaa kaksoispitkäksi ruohoksi, joka on kahden kuution korkuinen."
+
+#: mods/ITEMS/mcl_flowers/register.lua:349
+#: mods/ITEMS/mcl_flowers/register.lua:372
+msgid "Fern"
+msgstr "Saniainen"
+
+#: mods/ITEMS/mcl_flowers/register.lua:350
+msgid ""
+"Ferns are small plants which occur naturally in jungles and taigas. They can "
+"be harvested for wheat seeds. By using bone meal, a fern can be turned into "
+"a large fern which is two blocks high."
+msgstr ""
+"Saniainen on pieni kasvi, jota esiintyy luonnostaan viidakoissa ja "
+"havumetsissä. Sen korjaamalla voi saada vehnänsiemeniä. Luujauholla "
+"saniaisen voi muuttaa suureksi saniaiseksi, joka on kahden kuution korkuinen."
+
+#: mods/ITEMS/mcl_flowers/register.lua:388
+msgid "Bush"
+msgstr "Pensas"
+
+#: mods/ITEMS/mcl_flowers/register.lua:403
+msgid "Firefly Bush"
+msgstr "Tulikärpäspensas"
+
+#: mods/ITEMS/mcl_flowers/register.lua:444
+msgid "Short Dry Grass"
+msgstr "Lyhyt kuiva ruoho"
+
+#: mods/ITEMS/mcl_flowers/register.lua:479
+msgid "Tall Dry Grass"
+msgstr "Pitkä kuiva ruoho"
+
+#: mods/ITEMS/mcl_flowers/register.lua:514
+msgid "Lily Pad"
+msgstr "Lumpeenlehti"
+
+#: mods/ITEMS/mcl_flowers/register.lua:515
+msgid ""
+"A lily pad is a flat plant block which can be walked on. They can be placed "
+"on water sources, ice and frosted ice."
+msgstr ""
+"Lumpeenlehti on matala kasvikuutio, jonka päällä voi kävellä. Sen voi "
+"laittaa vesilähteen, jään tai hallajään päälle."

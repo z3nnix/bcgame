@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_deepslate x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-06 22:17+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:12
+msgid "Deepslate"
+msgstr "Ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:13
+msgid ""
+"Deepslate is a stone type found deep underground in the Overworld that "
+"functions similar to regular stone but is harder than the stone."
+msgstr ""
+"L'ardesia profonda è un tipo di pietra trovato sottoterra a grandi "
+"profondità nell'Overworld. Funziona in maniera simile alla roccia classica, "
+"ma è più resistente."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:27
+msgid "Infested Deepslate"
+msgstr "Ardesia oscura infestata"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:31
+msgid "Reinforced Deepslate"
+msgstr "Ardesia oscura armata"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:32
+msgid ""
+"Reinforced deepslate is a very hard block undestructable by even wither "
+"explosions. It is unobtainable in survival mode."
+msgstr ""
+"L'ardesia oscura armata è un blocco indistruttibile anche dalle esplosioni. "
+"Non è ottenibile in modalità sopravvivenza."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:51
+msgid "Deepslate Coal Ore"
+msgstr "Minerale di carbone in ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:52
+msgid "Deepslate Iron Ore"
+msgstr "Minerale di ferro in ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:53
+msgid "Deepslate Gold Ore"
+msgstr "Minerale d'oro in ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:54
+msgid "Deepslate Emerald Ore"
+msgstr "Minerale di smeraldo in ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:55
+msgid "Deepslate Diamond Ore"
+msgstr "Minerale di diamante in ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:56
+msgid "Deepslate Lapis Lazuli Ore"
+msgstr "Minerale di lapislazzuli in ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:57
+msgid "Deepslate Redstone Ore"
+msgstr "Minerale di pietrarossa in ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:62
+msgid "Lit Deepslate Redstone Ore"
+msgstr "Minerale di pietrarossa illuminato in ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:69
+msgid "Deepslate Copper Ore"
+msgstr "Minerale di rame in ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:73
+msgid "Cobbled Deepslate"
+msgstr "Pietrisco di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:74
+msgid ""
+"Cobbled deepslate is a stone variant that functions similar to cobblestone "
+"or blackstone."
+msgstr ""
+"Il pietrisco di ardesia oscura è una variante di pietra che funziona "
+"analogamente al pietrisco o alla pietranera."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:81
+msgid "Cobbled Deepslate Stairs"
+msgstr "Scalini di pietrisco di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:85
+msgid "Cobbled Deepslate Slab"
+msgstr "Lastra di pietrisco di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:89
+msgid "Cobbled Deepslate Wall"
+msgstr "Muretto di pietrisco di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:96
+msgid "Polished Deepslate"
+msgstr "Ardesia oscura levigata"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:97
+msgid "Polished deepslate is the stone-like polished version of deepslate."
+msgstr ""
+"L'ardesia oscura levigata è una variante di ardesia simile alla pietra "
+"levigata."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:103
+msgid "Polished Deepslate Stairs"
+msgstr "Scalini di ardesia oscura levigata"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:107
+msgid "Polished Deepslate Slab"
+msgstr "Lastra di ardesia oscura levigata"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:111
+msgid "Polished Deepslate Wall"
+msgstr "Muretto di ardesia oscura levigata"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:118
+msgid "Deepslate Bricks"
+msgstr "Mattoni di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:119
+msgid "Deepslate bricks are the brick version of deepslate."
+msgstr "I mattoni di ardesia oscura sono simili ai mattoni di pietra."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:126
+msgid "Deepslate Brick Stairs"
+msgstr "Scalini di mattoni di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:130
+msgid "Deepslate Brick Slab"
+msgstr "Lastra di mattoni di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:134
+msgid "Deepslate Brick Wall"
+msgstr "Muretto di mattoni di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:138
+msgid "Cracked Deepslate Bricks"
+msgstr "Mattoni di ardesia oscura crepati"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:144
+msgid "Deepslate Tiles"
+msgstr "Piastrelle di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:145
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:170
+msgid "Deepslate tiles are a decorative variant of deepslate."
+msgstr ""
+"Le piastrelle di ardesia oscura sono una variante decorativa dell'ardesia."
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:151
+msgid "Deepslate Tile Stairs"
+msgstr "Scalini di piastrelle di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:155
+msgid "Deepslate Tile Slab"
+msgstr "Lastra di piastrelle di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:159
+msgid "Deepslate Tiles Wall"
+msgstr "Muretto di piastrelle di ardesia oscura"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:163
+msgid "Cracked Deepslate Tiles"
+msgstr "Piastrelle di ardesia oscura crepate"
+
+#: mods/ITEMS/mcl_deepslate/deepslate.lua:169
+msgid "Chiseled Deepslate"
+msgstr "Ardesia oscura cesellata"
+
+#: mods/ITEMS/mcl_deepslate/init.lua:13
+msgid "@1 is a variant of @2 that can generate in deepslate and tuff blobs."
+msgstr ""
+"@1 è una variante di @2 che viene generata nell'ardesia oscura e nei "
+"conglomerati di tufo."
+
+#: mods/ITEMS/mcl_deepslate/init.lua:52
+msgid "@1 are a cracked variant."
+msgstr "@1 è una variante crepata."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:14
+msgid "Chiseled Tuff"
+msgstr "Tufo cesellato"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:15
+msgid "Chiseled tuff is a chiseled variant of tuff."
+msgstr "Il tufo cesellato è una variante cesellata di tufo."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:26
+msgid "Chiseled Tuff Bricks"
+msgstr "Mattoni di tufo cesellati"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:27
+msgid ""
+"Chiseled tuff bricks are a variant of tuff bricks, featuring a large brick "
+"in the center of the block, with geometric design above and below."
+msgstr ""
+"I mattoni di tufo cesellato sono una variante dei mattoni di tufo, con un "
+"enorme mattone al centro del blocco, ed un motivo geometrico sopra e sotto "
+"di esso."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:39
+msgid "Tuff"
+msgstr "Tufo"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:40
+msgid ""
+"Tuff is an ornamental rock formed from volcanic ash, occurring in "
+"underground blobs below Y=16."
+msgstr ""
+"Il tufo è una pietra ornamentale nata dalle ceneri vulcaniche, che si trova "
+"in agglomerati ad un altezza inferiore a 16."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:47
+msgid "Tuff Stairs"
+msgstr "Scalini di tufo"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:51
+msgid "Tuff Slab"
+msgstr "Lastra di tufo"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:55
+msgid "Tuff Wall"
+msgstr "Muretto di tufo"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:62
+msgid "Polished Tuff"
+msgstr "Tufo levigato"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:63
+msgid "Polished tuff is a polished variant of the tuff block."
+msgstr "Il tufo levigato è una variante del blocco di tufo."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:68
+msgid "Polished Tuff Stairs"
+msgstr "Scalini di tufo levigato"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:72
+msgid "Polished Tuff Slab"
+msgstr "Lastra di tufo levigato"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:76
+msgid "Polished Tuff Wall"
+msgstr "Muretto di tufo levigato"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:83
+msgid "Tuff Bricks"
+msgstr "Mattoni di tufo"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:84
+msgid "Tuff bricks are a brick variant of tuff."
+msgstr "I mattoni di tufo sono una variante del blocco di tufo."
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:89
+msgid "Tuff Bricks Stairs"
+msgstr "Scalini di mattoni di tufo"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:93
+msgid "Tuff Bricks Slab"
+msgstr "Lastra di mattoni di tufo"
+
+#: mods/ITEMS/mcl_deepslate/tuff.lua:97
+msgid "Tuff Bricks Wall"
+msgstr "Muretto di mattoni di tufo"

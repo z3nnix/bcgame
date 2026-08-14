@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-03-28 19:54+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_flowerpots/init.lua:57 mods/ITEMS/mcl_flowerpots/init.lua:99
+#: mods/ITEMS/mcl_flowerpots/init.lua:146
+msgid "Flower Pot"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowerpots/init.lua:58
+msgid "Can hold a small flower or plant"
+msgstr ""
+
+#: mods/ITEMS/mcl_flowerpots/init.lua:59
+msgid ""
+"Flower pots are decorative blocks in which flowers and other small plants "
+"can be placed."
+msgstr ""
+
+#: mods/ITEMS/mcl_flowerpots/init.lua:60
+msgid ""
+"Just place a plant on the flower pot. Flower pots can hold small flowers "
+"(not higher than 1 block), saplings, ferns, dead bushes, mushrooms and "
+"cacti. Rightclick a potted plant to retrieve the plant."
+msgstr ""

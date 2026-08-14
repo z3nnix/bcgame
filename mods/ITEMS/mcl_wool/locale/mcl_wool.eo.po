@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_wool x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_wool/init.lua:25
+msgid "Carpet"
+msgstr "tapiŝo"
+
+#: mods/ITEMS/mcl_wool/init.lua:26
+msgid "Wool"
+msgstr "Lano"
+
+#: mods/ITEMS/mcl_wool/init.lua:27
+msgid "Wool is a decorative block which comes in many different colors."
+msgstr ""
+
+#: mods/ITEMS/mcl_wool/init.lua:28
+msgid "Carpets are thin floor covers which come in many different colors."
+msgstr ""
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:1
+msgid "Black Carpet"
+msgstr "Nigra Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:2
+msgid "Black Wool"
+msgstr "Nigra Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:3
+msgid "Blue Carpet"
+msgstr "Blua Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:4
+msgid "Blue Wool"
+msgstr "Blua Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:5
+msgid "Brown Carpet"
+msgstr "Bruna Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:6
+msgid "Brown Wool"
+msgstr "Bruna Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:7
+msgid "Cyan Carpet"
+msgstr "Cejana Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:8
+msgid "Cyan Wool"
+msgstr "Cejana Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:9
+msgid "Green Carpet"
+msgstr "Verda Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:10
+msgid "Green Wool"
+msgstr "Verda Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:11
+msgid "Grey Carpet"
+msgstr "Griza Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:12
+msgid "Grey Wool"
+msgstr "Griza Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:13
+msgid "Light Blue Carpet"
+msgstr "Helblua Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:14
+msgid "Light Blue Wool"
+msgstr "Helblua Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:15
+msgid "Light Grey Carpet"
+msgstr "Helgriza Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:16
+msgid "Light Grey Wool"
+msgstr "Helgriza Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:17
+msgid "Lime Carpet"
+msgstr "Verdcitrona Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:18
+msgid "Lime Wool"
+msgstr "Verdcitrona Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:19
+msgid "Magenta Carpet"
+msgstr "Fuĥsia Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:20
+msgid "Magenta Wool"
+msgstr "Fuĥsia Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:21
+msgid "Orange Carpet"
+msgstr "Oranĝa Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:22
+msgid "Orange Wool"
+msgstr "Oranĝa Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:23
+msgid "Pink Carpet"
+msgstr "Roza Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:24
+msgid "Pink Wool"
+msgstr "Roza Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:25
+msgid "Purple Carpet"
+msgstr "Viola Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:26
+msgid "Purple Wool"
+msgstr "Viola Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:27
+msgid "Red Carpet"
+msgstr "Ruĝa Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:28
+msgid "Red Wool"
+msgstr "Ruĝa Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:29
+msgid "White Carpet"
+msgstr "Blanka Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:30
+msgid "White Wool"
+msgstr "Blanka Lano"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:31
+msgid "Yellow Carpet"
+msgstr "Flava Tapiŝo"
+
+#: mods/ITEMS/mcl_wool/mcl_wool_translations_tmp.lua:32
+msgid "Yellow Wool"
+msgstr "Flava Lano"

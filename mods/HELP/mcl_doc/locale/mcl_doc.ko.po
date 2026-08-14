@@ -1,0 +1,333 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_doc x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HELP/mcl_doc/init.lua:19
+msgid "Water can flow into this block and cause it to drop as an item."
+msgstr "물이 이 블록으로 흘러들면 아이템으로 떨어질 수 있습니다."
+
+#: mods/HELP/mcl_doc/init.lua:28
+msgid "This block can be turned into dirt with a hoe."
+msgstr "이 블록은 괭이로 흙으로 바꿀 수 있습니다."
+
+#: mods/HELP/mcl_doc/init.lua:30
+msgid "This block can be turned into farmland with a hoe."
+msgstr "이 블록은 괭이로 농지로 바꿀 수 있습니다."
+
+#: mods/HELP/mcl_doc/init.lua:38
+msgid "This block can be turned into grass path with a shovel."
+msgstr "이 블록은 삽으로 잔디길로 바꿀 수 있습니다."
+
+#: mods/HELP/mcl_doc/init.lua:48
+msgid "This block acts as a soil for all saplings."
+msgstr "이 블록은 모든 묘목의 토양으로 작용합니다."
+
+#: mods/HELP/mcl_doc/init.lua:50
+msgid "This block acts as a soil for some saplings."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:53
+msgid "Sugar canes will grow on this block."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:56
+msgid "Nether wart will grow on this block."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:65
+msgid ""
+"This block quickly decays when there is no wood block of any species within "
+"a distance of @1. When decaying, it disappears and may drop one of its "
+"regular drops. The block does not decay when the block has been placed by a "
+"player."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:67
+msgid ""
+"This block quickly decays and disappears when there is no wood block of any "
+"species within a distance of @1. The block does not decay when the block has "
+"been placed by a player."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:77
+msgid ""
+"This plant can only grow on grass blocks and dirt. To survive, it needs to "
+"have an unobstructed view to the sky above or be exposed to a light level of "
+"8 or higher."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:79
+msgid ""
+"This plant can grow on grass blocks, podzol, dirt and coarse dirt. To "
+"survive, it needs to have an unobstructed view to the sky above or be "
+"exposed to a light level of 8 or higher."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:87
+msgid "This block is flammable."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:95
+msgid "This block destroys any item it touches."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:108
+msgid "To eat it, wield it, then rightclick."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:110
+msgid "You can eat this even when your hunger bar is full."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:112
+msgid "You cannot eat this when your hunger bar is full."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:115
+msgid "To drink it, wield it, then rightclick."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:117
+msgid "You cannot drink this when your hunger bar is full."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:120
+msgid "To consume it, wield it, then rightclick."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:122
+msgid "You cannot consume this when your hunger bar is full."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:132
+msgid "Hunger points restored: @1"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:135
+msgid "Saturation points restored: @1%"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:149
+msgid "It can be worn on the head."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:153
+msgid "It can be worn on the torso."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:157
+msgid "It can be worn on the legs."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:161
+msgid "It can be worn on the feet."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:172
+msgid "Armor points: @1"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:176
+msgid "Armor durability: @1"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:183
+msgid "This item cannot be renamed at an anvil."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:192
+msgid "This block crushes any block it falls into."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:200
+msgid ""
+"When this block falls deeper than 1 block, it causes damage to any player it "
+"hits. The damage dealt is B×2−2 hit points with B = number of blocks fallen. "
+"The damage can never be more than 40 HP."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Diamond Pickaxe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Iron Pickaxe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Stone Pickaxe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Golden Pickaxe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Wooden Pickaxe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Diamond Axe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Iron Axe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Stone Axe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Golden Axe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Wooden Axe"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Diamond Shovel"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Iron Shovel"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Stone Shovel"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Golden Shovel"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Wooden Shovel"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:215
+msgid "This block can be mined by any tool instantly."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:238
+msgid "• Shears"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:242
+msgid "• Sword"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:246
+msgid "• Hand"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:251
+msgid "This block can be mined by:"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:260
+msgid "Hardness: ∞"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:262
+msgid "Hardness: @1"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:265
+msgid "Blast Resistance: @1"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:267
+msgid "This block will not be destroyed by TNT explosions."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:275
+msgid "This block drops itself when mined by shears."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:290
+msgid "@1×@2"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:294
+msgid ", "
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:294
+msgid "This blocks drops the following when mined by shears: @1"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:326
+msgid "Painfully slow"
+msgstr "매우 느림"
+
+#: mods/HELP/mcl_doc/init.lua:328
+msgid "Very slow"
+msgstr "아주 느림"
+
+#: mods/HELP/mcl_doc/init.lua:330
+msgid "Slow"
+msgstr "느림"
+
+#: mods/HELP/mcl_doc/init.lua:332
+msgid "Fast"
+msgstr "빠르게"
+
+#: mods/HELP/mcl_doc/init.lua:334
+msgid "Very fast"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:336
+msgid "Extremely fast"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:338
+msgid "Instantaneous"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:350
+msgid "@1 uses"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:352
+msgid "Unlimited uses"
+msgstr "무제한 사용"
+
+#: mods/HELP/mcl_doc/init.lua:357
+msgid "Mining speed: @1"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:360
+msgid "Mining durability: @1"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:367
+msgid "This tool is capable of mining."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:375
+msgid "Block breaking strength: @1"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:394
+msgid "This is a melee weapon which deals damage by punching."
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:398
+msgid "Maximum damage: @1 HP"
+msgstr ""
+
+#: mods/HELP/mcl_doc/init.lua:405
+msgid "Full punch interval: @1 s"
+msgstr ""

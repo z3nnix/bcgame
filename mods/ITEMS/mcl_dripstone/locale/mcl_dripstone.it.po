@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_dripstone x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-06-01 13:07+0000\n"
+"Last-Translator: cuche <cuche@noreply.codeberg.org>\n"
+"Language-Team: Italian <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_dripstone/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
+
+#: mods/ITEMS/mcl_dripstone/init.lua:47
+msgid "Dripstone block"
+msgstr "Blocco di speleotema"
+
+#: mods/ITEMS/mcl_dripstone/init.lua:48
+msgid ""
+"Dripstone is type of stone that allows stalagmites and stalagtites to grow "
+"on it"
+msgstr ""
+"Lo speleotema è un tipo di pietra su cui possono crescere stalattiti e "
+"stalagmiti"
+
+#: mods/ITEMS/mcl_dripstone/init.lua:209
+msgid "Pointed dripstone"
+msgstr "Speleotema appuntito"
+
+#: mods/ITEMS/mcl_dripstone/init.lua:210 mods/ITEMS/mcl_dripstone/init.lua:232
+#: mods/ITEMS/mcl_dripstone/init.lua:257
+msgid "Pointed dripstone is what stalagmites and stalagtites are made of"
+msgstr ""
+"Lo speleotema appuntito è il materiale di cui sono fatte stalattiti e "
+"stalagmiti"
+
+#: mods/ITEMS/mcl_dripstone/init.lua:231 mods/ITEMS/mcl_dripstone/init.lua:256
+msgid "Pointed dripstone (@1/@2)"
+msgstr "Speleotema appuntito (@1/@2)"

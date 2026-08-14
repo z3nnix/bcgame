@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_pottery_sherds x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:49
+msgid "Used for crafting decorated pots"
+msgstr "Utilisé pour fabriquer des vases décorés"
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:171
+msgid "Decorated Pot"
+msgstr "Vase décoré"
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:172
+msgid "Pots are decorative blocks."
+msgstr "Les vases sont des blocs décoratifs."
+
+#: mods/ITEMS/mcl_pottery_sherds/init.lua:173
+msgid "Specially decorated pots can be crafted using pottery sherds"
+msgstr ""
+"Des vases spécialement décorés peuvent être fabriqués à partir de tessons de "
+"poterie"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:1
+msgid "Angler Pottery Sherd"
+msgstr "Tesson de poterie de pêcheur"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:2
+msgid "Archer Pottery Sherd"
+msgstr "Tesson de poterie d'archer"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:3
+msgid "Arms Up Pottery Sherd"
+msgstr "Tesson de poterie de figure"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:4
+msgid "Blade Pottery Sherd"
+msgstr "Tesson de poterie de lame"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:5
+msgid "Brewer Pottery Sherd"
+msgstr "Tesson de poterie d'alchimiste"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:6
+msgid "Burn Pottery Sherd"
+msgstr "Tesson de poterie de feu"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:7
+msgid "Danger Pottery Sherd"
+msgstr "Tesson de poterie de danger"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:8
+msgid "Explorer Pottery Sherd"
+msgstr "Tesson de poterie d'explorateur"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:9
+msgid "Flow Pottery Sherd"
+msgstr "Tesson de poterie de tourbillon"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:10
+msgid "Friend Pottery Sherd"
+msgstr "Tesson de poterie d'ami"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:11
+msgid "Guster Pottery Sherd"
+msgstr "Tesson de poterie de rafaleur"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:12
+msgid "Heart Pottery Sherd"
+msgstr "Tesson de poterie de cœur"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:13
+msgid "Heartbreak Pottery Sherd"
+msgstr "Tesson de poterie de cœur brisé"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:14
+msgid "Howl Pottery Sherd"
+msgstr "Tesson de poterie de loup"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:15
+msgid "Miner Pottery Sherd"
+msgstr "Tesson de poterie de mineur"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:16
+msgid "Mourner Pottery Sherd"
+msgstr "Tesson de poterie de pleureur"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:17
+msgid "Plenty Pottery Sherd"
+msgstr "Tesson de poterie de richesse"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:18
+msgid "Prize Pottery Sherd"
+msgstr "Tesson de poterie de joyau"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:19
+msgid "Scrape Pottery Sherd"
+msgstr "Tesson de poterie de hache"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:20
+msgid "Sheaf Pottery Sherd"
+msgstr "Tesson de poterie d'épis"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:21
+msgid "Shelter Pottery Sherd"
+msgstr "Tesson de poterie d'abri"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:22
+msgid "Skull Pottery Sherd"
+msgstr "Tesson de poterie de crâne"
+
+#: mods/ITEMS/mcl_pottery_sherds/mcl_pottery_sherds_translations_tmp.lua:23
+msgid "Snort Pottery Sherd"
+msgstr "Tesson de poterie de renifleur"

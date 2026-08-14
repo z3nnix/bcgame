@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_structures x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-05-15 17:58+0000\n"
+"Last-Translator: Notxor <notxor@noreply.codeberg.org>\n"
+"Language-Team: Esperanto <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_structures/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17.1\n"
+
+#: mods/MAPGEN/mcl_structures/init.lua:126
+msgid "Generate a pre-defined structure near your position."
+msgstr "Generu antaŭdifinitan strukturon proksime de via pozicio."
+
+#: mods/MAPGEN/mcl_structures/init.lua:138
+msgid "Structure placed."
+msgstr "Lokigita strukturo."
+
+#: mods/MAPGEN/mcl_structures/init.lua:142
+msgid "Error: No structure type given. Please use “/spawnstruct <type>”."
+msgstr ""
+
+#: mods/MAPGEN/mcl_structures/init.lua:151
+msgid "Error: Unknown structure type. Please use “/spawnstruct <type>”."
+msgstr ""
+
+#: mods/MAPGEN/mcl_structures/init.lua:156
+msgid "Use /help spawnstruct to see a list of available types."
+msgstr ""

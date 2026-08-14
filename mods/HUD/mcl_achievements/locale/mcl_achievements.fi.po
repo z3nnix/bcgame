@@ -1,0 +1,643 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_achievements x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HUD/mcl_achievements/init.lua:30
+msgid "Benchmarking"
+msgstr "Alkupiste"
+
+#: mods/HUD/mcl_achievements/init.lua:31
+msgid "Craft a crafting table from 4 wooden planks."
+msgstr "Valmista työpöytä neljästä (4) puulankusta."
+
+#: mods/HUD/mcl_achievements/init.lua:42
+msgid "Time to Mine!"
+msgstr "Nyt kaivamaan!"
+
+#: mods/HUD/mcl_achievements/init.lua:43
+msgid ""
+"Use a crafting table to craft a wooden pickaxe from wooden planks and sticks."
+msgstr "Valmista työpöydällä puuhakku puulankuista ja kepeistä."
+
+#: mods/HUD/mcl_achievements/init.lua:54
+msgid "Hot Topic"
+msgstr "Polttava aihe"
+
+#: mods/HUD/mcl_achievements/init.lua:55
+msgid "Use 8 cobblestones to craft a furnace."
+msgstr "Valmista uuni kahdeksasta (8) mukulakivestä."
+
+#: mods/HUD/mcl_achievements/init.lua:66
+msgid "Time to Farm!"
+msgstr "Nyt viljelemään!"
+
+#: mods/HUD/mcl_achievements/init.lua:67
+msgid ""
+"Use a crafting table to craft a wooden hoe from wooden planks and sticks."
+msgstr "Valmista työpöydällä puukuokka puulankuista ja kepeistä."
+
+#: mods/HUD/mcl_achievements/init.lua:78
+msgid "Bake Bread"
+msgstr "Leivänleivontaa"
+
+#: mods/HUD/mcl_achievements/init.lua:79
+msgid "Use wheat to craft a bread."
+msgstr "Valmista leipä vehnästä."
+
+#: mods/HUD/mcl_achievements/init.lua:91
+msgid "The Lie"
+msgstr "Valhe"
+
+#: mods/HUD/mcl_achievements/init.lua:92
+msgid "Craft a cake using wheat, sugar, milk and an egg."
+msgstr "Valmista kakku vehnästä, sokerista, maidosta ja kananmunasta."
+
+#: mods/HUD/mcl_achievements/init.lua:103
+msgid "Getting an Upgrade"
+msgstr "Kehitystä pukkaa"
+
+#: mods/HUD/mcl_achievements/init.lua:105
+msgid "Craft a stone pickaxe using sticks and cobblestone."
+msgstr "Valmista kivihakku kepeistä ja mukulakivestä."
+
+#: mods/HUD/mcl_achievements/init.lua:116
+msgid "Time to Strike!"
+msgstr "Hyökkäykseen!"
+
+#: mods/HUD/mcl_achievements/init.lua:117
+msgid ""
+"Craft a wooden sword using wooden planks and sticks on a crafting table."
+msgstr "Valmista työpöydällä puumiekka puulankuista ja kepeistä."
+
+#: mods/HUD/mcl_achievements/init.lua:129
+msgid "Librarian"
+msgstr "Kirjastonhoitaja"
+
+#: mods/HUD/mcl_achievements/init.lua:130
+msgid "Craft a bookshelf."
+msgstr "Valmista kirjahylly."
+
+#: mods/HUD/mcl_achievements/init.lua:142
+msgid "Isn't It Iron Pick"
+msgstr "Rautaista ironiaa"
+
+#: mods/HUD/mcl_achievements/init.lua:143
+msgid "Craft a iron pickaxe using sticks and iron."
+msgstr "Valmista rautahakku kepeistä ja raudasta."
+
+#: mods/HUD/mcl_achievements/init.lua:155
+msgid "Bullseye"
+msgstr "Napakymppi"
+
+#: mods/HUD/mcl_achievements/init.lua:156
+msgid "Hit the bullseye of a target block from at least 30 blocks away."
+msgstr "Osu maalitaulun keskelle vähintään 30 kuution päästä."
+
+#: mods/HUD/mcl_achievements/init.lua:165
+msgid "DIAMONDS!"
+msgstr "Timantteja!"
+
+#: mods/HUD/mcl_achievements/init.lua:166
+msgid "Pick up a diamond from the floor."
+msgstr "Nouki maasta timantti."
+
+#: mods/HUD/mcl_achievements/init.lua:171
+msgid "Into Fire"
+msgstr "Leikitään tulella"
+
+#: mods/HUD/mcl_achievements/init.lua:172
+msgid "Pick up a blaze rod from the floor."
+msgstr "Nouki maasta roihusauva."
+
+#: mods/HUD/mcl_achievements/init.lua:179
+msgid "Cow Tipper"
+msgstr "Nahkuri"
+
+#: mods/HUD/mcl_achievements/init.lua:180
+msgid ""
+"Pick up leather from the floor.\n"
+"Hint: Cows and some other animals have a chance to drop leather, when killed."
+msgstr ""
+"Nouki maasta nahkaa.\n"
+"Vinkki: Lehmät ja jotkut muut eläimet saattavat pudottaa nahkaa kuollessaan."
+
+#: mods/HUD/mcl_achievements/init.lua:186
+msgid "Getting Wood"
+msgstr "Metsuri"
+
+#: mods/HUD/mcl_achievements/init.lua:187
+msgid ""
+"Pick up a wood item from the ground.\n"
+"Hint: Punch a tree trunk until it pops out as an item."
+msgstr ""
+"Nouki maasta puuesine.\n"
+"Vinkki: Hakkaa puuta, kunnes se poksahtaa esineeksi."
+
+#: mods/HUD/mcl_achievements/init.lua:194
+msgid "Who is Cutting Onions?"
+msgstr "Kuka leikkelee sipuleita?"
+
+#: mods/HUD/mcl_achievements/init.lua:195
+msgid "Pick up a crying obsidian from the floor."
+msgstr "Nouki maasta itkevä obsidiaani."
+
+#: mods/HUD/mcl_achievements/init.lua:202
+msgid "Hidden in the Depths"
+msgstr "Piilossa syvyyksissä"
+
+#: mods/HUD/mcl_achievements/init.lua:203
+msgid "Pick up an Ancient Debris from the floor."
+msgstr "Nouki maasta muinainen romu."
+
+#: mods/HUD/mcl_achievements/init.lua:210
+msgid "The Next Generation"
+msgstr "Seuraava sukupolvi"
+
+#: mods/HUD/mcl_achievements/init.lua:211
+msgid ""
+"Hold the Dragon Egg.\n"
+"Hint: Pick up the egg from the ground and have it in your inventory."
+msgstr ""
+"Pitele ääriliskon munaa.\n"
+"Vinkki: Nouki muna tavaraluetteloosi."
+
+#: mods/HUD/mcl_achievements/init.lua:218
+msgid "Sky's the Limit"
+msgstr "Taivas on rajana"
+
+#: mods/HUD/mcl_achievements/init.lua:219
+msgid "Find the elytra and prepare to fly above and beyond!"
+msgstr "Löydä siivet ja valmistaudu lentämään ylös ja sitäkin ylemmäs!"
+
+#: mods/HUD/mcl_achievements/init.lua:228
+msgid "Acquire Hardware"
+msgstr "Hanki rautaa"
+
+#: mods/HUD/mcl_achievements/init.lua:229
+msgid ""
+"Take an iron ingot from a furnace's output slot.\n"
+"Hint: To smelt an iron ingot, put a fuel (like coal) and iron ore into a "
+"furnace."
+msgstr ""
+"Ota rautaharkko uunista.\n"
+"Vinkki: Sulattaaksesi rautaharkon laita polttoainetta (kuten hiiltä) ja "
+"rautamalmia uuniin."
+
+#: mods/HUD/mcl_achievements/init.lua:235
+msgid "Delicious Fish"
+msgstr "Herkullista kalaa"
+
+#: mods/HUD/mcl_achievements/init.lua:236
+msgid ""
+"Take any cooked fish after cooking it in a furnace, smoker, campfire or soul "
+"campfire.\n"
+"Hint: Use a fishing rod to catch a fish and cook it in a furnace."
+msgstr ""
+"Ota mitä tahansa kalaa, kun olet paistanut sen uunissa, savustimessa, "
+"nuotiossa tai sielunuotiossa.\n"
+"Vinkki: Narraa kala ongella ja paista se uunissa."
+
+#: mods/HUD/mcl_achievements/init.lua:246
+msgid "On A Rail"
+msgstr "Raiteilla"
+
+#: mods/HUD/mcl_achievements/init.lua:247
+msgid ""
+"Travel by minecart for at least 1000 meters from your starting point in a "
+"single ride."
+msgstr ""
+"Matkusta kaivosvaunulla yhteen kyytiin vähintään 1000 metriä "
+"aloituspisteestäsi."
+
+#: mods/HUD/mcl_achievements/init.lua:255
+msgid "Sniper Duel"
+msgstr "Tarkka-ampujien kaksintaistelu"
+
+#: mods/HUD/mcl_achievements/init.lua:257
+msgid ""
+"Kill a skeleton, wither skeleton or stray by bow and arrow from a distance "
+"of at least 20 meters."
+msgstr ""
+"Tapa luuranko, hornaluuranko tai eksynyt jousella ja nuolella vähintään 20 "
+"metrin etäisyydeltä."
+
+#: mods/HUD/mcl_achievements/init.lua:267
+msgid "Monster Hunter"
+msgstr "Hirviönmetsästäjä"
+
+#: mods/HUD/mcl_achievements/init.lua:268
+msgid "Kill a monster."
+msgstr "Tapa hirviö."
+
+#: mods/HUD/mcl_achievements/init.lua:276
+msgid "We Need to Go Deeper"
+msgstr "Menkäämme syvemmälle"
+
+#: mods/HUD/mcl_achievements/init.lua:277
+msgid "Use obsidian and a fire starter to construct a Nether portal."
+msgstr "Rakenna hornaportaali obsidiaanin ja sytyttimen avulla."
+
+#: mods/HUD/mcl_achievements/init.lua:284
+msgid "The End?"
+msgstr "Loppu?"
+
+#: mods/HUD/mcl_achievements/init.lua:285
+msgid ""
+"Or the beginning?\n"
+"Hint: Enter an end portal."
+msgstr ""
+"Vai sittenkin alku?\n"
+"Vinkki: Astu ääriportaaliin."
+
+#: mods/HUD/mcl_achievements/init.lua:292
+msgid "The Nether"
+msgstr "Horna"
+
+#: mods/HUD/mcl_achievements/init.lua:293
+msgid ""
+"Bring summer clothes.\n"
+"Hint: Enter the Nether."
+msgstr ""
+"Pakkaa mukaasi kesävaatetus.\n"
+"Vinkki: Astu Hornaan."
+
+#: mods/HUD/mcl_achievements/init.lua:301
+msgid "Postmortal"
+msgstr "Kuolemanjälkeinen"
+
+#: mods/HUD/mcl_achievements/init.lua:302
+msgid "Use a Totem of Undying to cheat death."
+msgstr "Vältä kuolema Kuolemattomuuden toteemilla."
+
+#: mods/HUD/mcl_achievements/init.lua:310
+msgid "Sweet Dreams"
+msgstr "Kauniita unia"
+
+#: mods/HUD/mcl_achievements/init.lua:311
+msgid "Sleep in a bed to change your respawn point."
+msgstr "Nuku sängyssä vaihtaaksesi uudelleensyntymispaikkaasi."
+
+#: mods/HUD/mcl_achievements/init.lua:318
+msgid "Not Quite \"Nine\" Lives"
+msgstr "Ei ihan yhdeksää elämää"
+
+#: mods/HUD/mcl_achievements/init.lua:319
+msgid "Charge a Respawn Anchor to the maximum."
+msgstr "Lataa uudelleensyntymisankkuri täyteen."
+
+#: mods/HUD/mcl_achievements/init.lua:327
+msgid "What A Deal!"
+msgstr "Mikä tarjous!"
+
+#: mods/HUD/mcl_achievements/init.lua:328
+msgid "Successfully trade with a Villager."
+msgstr "Tee vaihtokauppa kyläläisen kanssa."
+
+#: mods/HUD/mcl_achievements/init.lua:335
+msgid "Tactical Fishing"
+msgstr "Taktinen kalastus"
+
+#: mods/HUD/mcl_achievements/init.lua:336
+msgid "Catch a fish... without a fishing rod!"
+msgstr "Narraa kala... ilman onkea!"
+
+#: mods/HUD/mcl_achievements/init.lua:343
+msgid "The Cutest Predator"
+msgstr "Suloisin saalistaja"
+
+#: mods/HUD/mcl_achievements/init.lua:344
+msgid "Catch an Axolotl with a bucket!"
+msgstr "Nappaa aksolotli ämpärin avulla!"
+
+#: mods/HUD/mcl_achievements/init.lua:351
+msgid "Withering Heights"
+msgstr "Näivettävä harju"
+
+#: mods/HUD/mcl_achievements/init.lua:352
+msgid "Summon the wither from the dead."
+msgstr "Herätä näivettäjä kuolleista."
+
+#: mods/HUD/mcl_achievements/init.lua:359
+msgid "Free the End"
+msgstr "Vapauta Ääri"
+
+#: mods/HUD/mcl_achievements/init.lua:360
+msgid "Kill the ender dragon. Good Luck!"
+msgstr "Tapa äärilisko. Onnea yritykseen!"
+
+#: mods/HUD/mcl_achievements/init.lua:368
+msgid "Fishy Business"
+msgstr "Lipevää liiketoimintaa"
+
+#: mods/HUD/mcl_achievements/init.lua:369
+msgid ""
+"Catch a fish.\n"
+"Hint: Catch a fish, salmon, clownfish, or pufferfish."
+msgstr ""
+"Narraa kala.\n"
+"Vinkki: Nappaa kala, lohi, klovnikala tai pallokala."
+
+#: mods/HUD/mcl_achievements/init.lua:377
+msgid "Country Lode, Take Me Home"
+msgstr "Vaan kivinen magneetti kotihin vie"
+
+#: mods/HUD/mcl_achievements/init.lua:378
+msgid "Use a compass on a Lodestone."
+msgstr "Käytä kompassia magneettiin."
+
+#: mods/HUD/mcl_achievements/init.lua:386
+msgid "Serious Dedication"
+msgstr "Totinen omistautuminen"
+
+#: mods/HUD/mcl_achievements/init.lua:387
+msgid ""
+"Use a Netherite Ingot to upgrade a hoe, and then completely reevaluate your "
+"life choices."
+msgstr ""
+"Päivitä kuokka horniittiharkolla ja arvioi sitten täysin uudelleen "
+"elämänvalintojasi."
+
+#: mods/HUD/mcl_achievements/init.lua:395
+msgid "Local Brewery"
+msgstr "Paikallinen panimo"
+
+#: mods/HUD/mcl_achievements/init.lua:396
+msgid ""
+"Brew a Potion.\n"
+"Hint: Take a potion or glass bottle out of the brewing stand."
+msgstr ""
+"Valmista taikajuoma.\n"
+"Vinkki: Ota taikajuoma tai lasipullo haudutustelineestä."
+
+#: mods/HUD/mcl_achievements/init.lua:404
+msgid "Enchanter"
+msgstr "Lumoaja"
+
+#: mods/HUD/mcl_achievements/init.lua:405
+msgid "Enchant an item using an Enchantment Table."
+msgstr "Lumoa esine lumouspöydällä."
+
+#: mods/HUD/mcl_achievements/init.lua:413
+msgid "Bring Home the Beacon"
+msgstr "Majakka pitää ansaitseman"
+
+#: mods/HUD/mcl_achievements/init.lua:414
+msgid "Use a beacon."
+msgstr "Käytä majakkaa."
+
+#: mods/HUD/mcl_achievements/init.lua:421
+msgid "Beaconator"
+msgstr "Täyteen loistoon"
+
+#: mods/HUD/mcl_achievements/init.lua:422
+msgid "Use a fully powered beacon."
+msgstr "Käytä täydessä voimassaan olevaa majakkaa."
+
+#: mods/HUD/mcl_achievements/init.lua:430
+msgid "The End... Again..."
+msgstr "Loppu... taas..."
+
+#: mods/HUD/mcl_achievements/init.lua:431
+msgid "Respawn the Ender Dragon."
+msgstr "Luo äärilisko uudelleen."
+
+#: mods/HUD/mcl_achievements/init.lua:439
+msgid "Bee Our Guest"
+msgstr "Mitä ZZZaisi olla"
+
+#: mods/HUD/mcl_achievements/init.lua:440
+msgid ""
+"Use a campfire to collect a bottle of honey from a beehive without "
+"aggrivating the bees inside."
+msgstr ""
+"Kerää pullollinen hunajaa mehiläispesästä nuotion avulla suututtamatta "
+"sisällä olevia mehiläisiä."
+
+#: mods/HUD/mcl_achievements/init.lua:447
+msgid "Total Beelocation"
+msgstr "Makea muutto"
+
+#: mods/HUD/mcl_achievements/init.lua:448
+msgid "Move a bee nest, with 3 bees inside, using a silk touch enchanted tool."
+msgstr ""
+"Siirrä silkkisellä kosketuksella lumotun työkalun avulla mehiläispesä, jonka "
+"sisällä on kolme (3) mehiläistä."
+
+#: mods/HUD/mcl_achievements/init.lua:459
+msgid "Wax On"
+msgstr "Vaha päälle"
+
+#: mods/HUD/mcl_achievements/init.lua:460
+msgid "Apply honeycomb to a copper block to protect it from the elements."
+msgstr "Levitä hunajakenno kuparikuutiolle suojataksesi sen säältä."
+
+#: mods/HUD/mcl_achievements/init.lua:467
+msgid "Wax Off"
+msgstr "Vaha pois"
+
+#: mods/HUD/mcl_achievements/init.lua:468
+msgid "Scrape wax off of a copper block."
+msgstr "Kaavi vaha pois kuparikuutiolta."
+
+#: mods/HUD/mcl_achievements/init.lua:476
+msgid "Crafting a New Look"
+msgstr "Omannäköinen tyyli"
+
+#: mods/HUD/mcl_achievements/init.lua:477
+msgid "Craft a trimmed armor at a Smithing Table"
+msgstr "Valmista koristeltu haarniska taontapöydällä"
+
+#: mods/HUD/mcl_achievements/init.lua:484
+msgid "Smithing with Style"
+msgstr "Muotitietoinen haarniskaseppä"
+
+#: mods/HUD/mcl_achievements/init.lua:485
+msgid ""
+"Apply these smithing templates at least once: Spire, Snout, Rib, Ward, "
+"Silence, Vex, Tide, Wayfinder"
+msgstr ""
+"Käytä näitä taontamuotteja vähintään kerran: Tornin huippu, Kärsä, Kylkiluu, "
+"Suojelija, Hiljaisuus, Kiusanhenki, Vuorovesi, Suunnistaja"
+
+#: mods/HUD/mcl_achievements/init.lua:499
+msgid "Dispense With This"
+msgstr "Anna jakaa"
+
+#: mods/HUD/mcl_achievements/init.lua:500
+msgid "Place a dispenser."
+msgstr "Sijoita jakelulaite."
+
+#: mods/HUD/mcl_achievements/init.lua:511
+msgid "Pork Chop"
+msgstr "Porsaankyljys"
+
+#: mods/HUD/mcl_achievements/init.lua:512
+msgid "Eat a cooked porkchop."
+msgstr "Syö paistettu porsaankyljys."
+
+#: mods/HUD/mcl_achievements/init.lua:521
+msgid "Rabbit Season"
+msgstr "Jänissesonki"
+
+#: mods/HUD/mcl_achievements/init.lua:523
+msgid "Eat a cooked rabbit."
+msgstr "Syö paistettu jänis."
+
+#: mods/HUD/mcl_achievements/init.lua:531
+msgid "Iron Belly"
+msgstr "Rautavatsa"
+
+#: mods/HUD/mcl_achievements/init.lua:532
+msgid "Get really desperate and eat rotten flesh."
+msgstr "Epätoivoisena syö mädäntynyttä lihaa."
+
+#: mods/HUD/mcl_achievements/init.lua:541
+msgid "Pot Planter"
+msgstr "Ruukkukasvatusta"
+
+#: mods/HUD/mcl_achievements/init.lua:542
+msgid "Place a flower pot."
+msgstr "Sijoita kukkaruukku."
+
+#: mods/HUD/mcl_achievements/init.lua:552
+msgid "The Haggler"
+msgstr "Tinkijä"
+
+#: mods/HUD/mcl_achievements/init.lua:553
+msgid "Mine emerald ore."
+msgstr "Kaiva smaragdimalmia."
+
+#: mods/HUD/mcl_achievements/init.lua:573
+msgid "Stone Age"
+msgstr "Kivikausi"
+
+#: mods/HUD/mcl_achievements/init.lua:574
+msgid "Mine a stone with new pickaxe."
+msgstr "Kaiva kiveä uudella hakulla."
+
+#: mods/HUD/mcl_achievements/init.lua:580
+msgid "Hot Stuff"
+msgstr "Kuumaa kamaa"
+
+#: mods/HUD/mcl_achievements/init.lua:581
+msgid "Put lava in a bucket."
+msgstr "Laita laavaa ämpäriin."
+
+#: mods/HUD/mcl_achievements/init.lua:587
+msgid "Ice Bucket Challenge"
+msgstr "Jäävesihaaste"
+
+#: mods/HUD/mcl_achievements/init.lua:588
+msgid "Obtain an obsidian block."
+msgstr "Hanki obsidiaani."
+
+#: mods/HUD/mcl_achievements/init.lua:595
+msgid "Hero of the Village"
+msgstr "Kylän sankari"
+
+#: mods/HUD/mcl_achievements/init.lua:596
+msgid "Successfully defend a village from a raid"
+msgstr "Pelasta kylä ryöväreiden hyökkäykseltä"
+
+#: mods/HUD/mcl_achievements/init.lua:605
+msgid "Voluntary Exile"
+msgstr "Vapaaehtoinen maanpako"
+
+#: mods/HUD/mcl_achievements/init.lua:606
+msgid ""
+"Kill a raid captain. Maybe consider staying away from the local villages for "
+"the time being..."
+msgstr ""
+"Tapa ryövärijoukon kapteeni. Kannattanee toistaiseksi pysytellä etäällä "
+"paikallisista kylistä."
+
+#: mods/HUD/mcl_achievements/init.lua:614
+msgid "Return to Sender"
+msgstr "Paluulähetys"
+
+#: mods/HUD/mcl_achievements/init.lua:615
+msgid "Destroy a Ghast with a Fireball"
+msgstr "Tuhoa hornanhenki tulipallolla"
+
+#: mods/HUD/mcl_achievements/init.lua:623
+msgid "Zombie Doctor"
+msgstr "Zombilääkäri"
+
+#: mods/HUD/mcl_achievements/init.lua:624
+msgid ""
+"Use a golden apple on a zombie villager under the Weakness effect; the "
+"advancement is granted when the zombie villager converts into a villager."
+msgstr ""
+"Käytä kultaomenaa zombikyläläiseen, joka on heikkouden taikajuoman "
+"vaikutuksen alainen; edistysaskel myönnetään, kun zombikyläläinen muuttuu "
+"kyläläiseksi."
+
+#: mods/HUD/mcl_achievements/init.lua:634
+msgid "A Terrible Fortress"
+msgstr "Kammottava linnake"
+
+#: mods/HUD/mcl_achievements/init.lua:635
+msgid "Break your way into a Nether Fortress"
+msgstr "Murtaudu hornalinnakkeeseen"
+
+#: mods/HUD/mcl_achievements/init.lua:646
+msgid "Eye Spy"
+msgstr "Silmänkyttääjä"
+
+#: mods/HUD/mcl_achievements/init.lua:647
+msgid "Follow an Eye of Ender"
+msgstr "Seuraa äärensilmää"
+
+#: mods/HUD/mcl_achievements/init.lua:658
+msgid "The City at the End of the Game"
+msgstr "Loppupelin kaupunki"
+
+#: mods/HUD/mcl_achievements/init.lua:659
+msgid "Go on in, what could happen?"
+msgstr "Mene vain. Mitä voisi tapahtua?"
+
+#: mods/HUD/mcl_achievements/init.lua:670
+msgid "Those Were The Days"
+msgstr "Oi niitä aikoja"
+
+#: mods/HUD/mcl_achievements/init.lua:671
+msgid "Enter a Bastion Remnant"
+msgstr "Astu Linnanraunioihin"
+
+#: mods/HUD/mcl_achievements/init.lua:682
+msgid "Mineclonia: Trial(s) edition"
+msgstr "Otatko haasteen vastaan?"
+
+#: mods/HUD/mcl_achievements/init.lua:683
+msgid "Step foot in a Trial Chamber"
+msgstr "Astu koettelukammioon"
+
+#: mods/HUD/mcl_achievements/init.lua:695
+msgid "A Throwaway Joke"
+msgstr "Vitsillä heitetty"
+
+#: mods/HUD/mcl_achievements/init.lua:696
+msgid ""
+"Throw a Trident at something.\n"
+"Note: Throwing away your only weapon is not a good idea."
+msgstr ""
+"Heitä atrain jotakuta kohti.\n"
+"Huomautus: Ei kannata heittää pois ainoaa asettasi."
+
+#: mods/HUD/mcl_achievements/init.lua:704
+msgid "Very Very Frightening"
+msgstr "Pop-tähti"
+
+#: mods/HUD/mcl_achievements/init.lua:705
+msgid "Strike a Villager with lightning."
+msgstr "Iske kyläläistä salamalla."

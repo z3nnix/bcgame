@@ -1,0 +1,540 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_mobitems x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-01 03:14+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:5
+msgid "Rotten Flesh"
+msgstr "Mädäntynyt liha"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:6
+msgid "80% chance of food poisoning"
+msgstr "80 prosentin mahdollisuus saada ruokamyrkytys"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:7
+msgid ""
+"Yuck! This piece of flesh clearly has seen better days. If you're really "
+"desperate, you can eat it to restore a few hunger points, but there's a 80% "
+"chance it causes food poisoning, which increases your hunger for a while."
+msgstr ""
+"Hyi! Tämä lihanpala on selvästi parhaat päivänsä nähnyt. Jos olet todella "
+"epätoivoinen, voit syödä sen muutaman nälkäpisteen palauttamiseksi, mutta 80 "
+"prosentin todennäköisyydellä saat ruokamyrkytyksen, joka lisää nälkääsi "
+"hetken ajan."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:20
+msgid "Raw Mutton"
+msgstr "Raaka lampaanliha"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:21
+msgid ""
+"Raw mutton is the flesh from a sheep and can be eaten safely. Cooking it "
+"will greatly increase its nutritional value."
+msgstr ""
+"Raakaa lampaanlihaa voi syödä turvallisesti. Sen ravintoarvot paranevat "
+"huomattavasti paistamalla."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:30
+msgid "Cooked Mutton"
+msgstr "Paistettu lampaanliha"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:31
+msgid "Cooked mutton is the cooked flesh from a sheep and is used as food."
+msgstr "Paistettu lampaanliha on ruokaa."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:39
+msgid "Raw Beef"
+msgstr "Raaka naudanliha"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:40
+msgid ""
+"Raw beef is the flesh from cows and can be eaten safely. Cooking it will "
+"greatly increase its nutritional value."
+msgstr ""
+"Raaka naudanliha on lehmien lihaa, ja sitä voi syödä turvallisesti. Sen "
+"ravintoarvot paranevat huomattavasti paistamalla."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:49
+msgid "Steak"
+msgstr "Pihvi"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:50
+msgid "Steak is cooked beef from cows and can be eaten."
+msgstr "Pihvi on paistettua naudanlihaa, ja sitä voi syödä."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:58
+msgid "Raw Chicken"
+msgstr "Raaka kana"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:59
+msgid "30% chance of food poisoning"
+msgstr "30 prosentin mahdollisuus saada ruokamyrkytys"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:60
+msgid ""
+"Raw chicken is a food item which is not safe to consume. You can eat it to "
+"restore a few hunger points, but there's a 30% chance to suffer from food "
+"poisoning, which increases your hunger rate for a while. Cooking raw chicken "
+"will make it safe to eat and increases its nutritional value."
+msgstr ""
+"Raaka kana on ruokaa, jota ei ole turvallista syödä. Voit syödä sitä "
+"muutaman nälkäpisteen palauttamiseksi, mutta 30 prosentin todennäköisyydellä "
+"kärsit ruokamyrkytyksen, joka lisää nälkääsi hetken ajan. Paistettuna sitä "
+"on turvallista syödä ja sen ravintoarvot ovat paremmat."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:74
+msgid "Cooked Chicken"
+msgstr "Paistettu kana"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:75
+msgid "A cooked chicken is a healthy food item which can be eaten."
+msgstr "Paistettu kana on terveellistä ruokaa, jota voi syödä."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:83
+msgid "Raw Porkchop"
+msgstr "Raaka porsaankyljys"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:84
+msgid ""
+"A raw porkchop is the flesh from a pig and can be eaten safely. Cooking it "
+"will greatly increase its nutritional value."
+msgstr ""
+"Raaka porsaankyljys on sianlihaa, ja sitä voi syödä turvallisesti. Sen "
+"ravintoarvot paranevat huomattavasti paistamalla."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:93
+msgid "Cooked Porkchop"
+msgstr "Paistettu porsaankyljys"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:94
+msgid "Cooked porkchop is the cooked flesh of a pig and is used as food."
+msgstr "Paistettu porsaankyljys on paistettua sianlihaa, ja sitä voi syödä."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:102
+msgid "Raw Rabbit"
+msgstr "Raaka jänis"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:103
+msgid ""
+"Raw rabbit is a food item from a dead rabbit. It can be eaten safely. "
+"Cooking it will increase its nutritional value."
+msgstr ""
+"Raaka jänis on kuolleesta jäniksestä peräisin olevaa ruokaa. Sitä voi syödä "
+"turvallisesti. Sen ravintoarvot paranevat paistamalla."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:112
+msgid "Cooked Rabbit"
+msgstr "Paistettu jänis"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:113
+msgid "This is a food item which can be eaten."
+msgstr "Tämä on ruokaa, jonka voi syödä."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:121
+msgid "Milk"
+msgstr "Maito"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:122
+msgid "Removes all status effects"
+msgstr "Poistaa kaikki vaikutukset"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:123
+msgid ""
+"Milk is very refreshing and can be obtained by using a bucket on a cow. "
+"Drinking it will remove all status effects, but restores no hunger points."
+msgstr ""
+"Maito on hyvin virkistävää, ja sitä saa lehmistä ämpärin avulla. Sen "
+"juominen poistaa kaikki vaikutukset mutta ei palauta nälkäpisteitä."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:124
+msgid "Use the placement key to drink the milk."
+msgstr "Paina käytä-näppäintä juodaksesi maidon."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:136
+msgid "Spider Eye"
+msgstr "Hämähäkinsilmä"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:137
+msgid "Poisonous"
+msgstr "Myrkyllinen"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:138
+msgid ""
+"Spider eyes are used mainly in crafting. If you're really desperate, you can "
+"eat a spider eye, but it will poison you briefly."
+msgstr ""
+"Hämähäkinsilmiä käytetään pääasiassa valmistamiseen. Jos olet todella "
+"epätoivoinen, voit syödä hämähäkinsilmän, mutta se myrkyttää sinut hetkeksi."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:149
+msgid "Bone"
+msgstr "Luu"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:150
+msgid ""
+"Bones can be used to tame wolves so they will protect you. They are also "
+"useful as a crafting ingredient."
+msgstr ""
+"Luulla voi kesyttää susia, jolloin ne toimivat suojelijoina. Sitä voi myös "
+"käyttää raaka-aineena."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:151
+msgid ""
+"Wield the bone near wolves to attract them. Use the “Place” key on the wolf "
+"to give it a bone and tame it. You can then give commands to the tamed wolf "
+"by using the “Place” key on it."
+msgstr ""
+"Pidä luuta kädessäsi susien lähettyvillä, jolloin ne kiinnostuvat. Klikkaa "
+"sutta sijoita-näppäimellä antaaksesi sille luun ja kesyttääksesi sen. Voit "
+"sen jälkeen antaa kesytetylle sudelle käskyjä klikkaamalla sitä sijoita-"
+"näppäimellä."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:159
+msgid "Squid Ink Sac"
+msgstr "Kalmarin mustepussi"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:160
+msgid ""
+"This item is dropped by dead squids. Squid ink can be used to as an "
+"ingredient to craft book and quill or black dye."
+msgstr ""
+"Tämän esine on peräisin kuolleesta kalmarista. Kalmarin mustetta voi käyttää "
+"raaka-aineena kirjaan ja sulkakynään sekä mustaan väriaineeseen."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:167
+msgid "String"
+msgstr "Lanka"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:168
+msgid "Strings are used in crafting."
+msgstr "Lankaa käytetään valmistuksessa."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:175
+msgid "Blaze Rod"
+msgstr "Roihusauva"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:176
+msgid "This is a crafting component dropped from dead blazes."
+msgstr "Tämä on valmistusraaka-aine, joka on peräisin kuolleesta roihusta."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:185
+msgid "Breeze Rod"
+msgstr "Tuulenhenkisauva"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:186
+msgid "This is a crafting item dropped from breezes."
+msgstr "Tämä on valmistusraaka-aine, joka on peräisin tuulenhengestä."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:194
+msgid "Blaze Powder"
+msgstr "Roihujauhe"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:195
+msgid "This item is mainly used for crafting."
+msgstr "Tätä esinettä käytetään pääasiassa valmistuksessa."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:202
+msgid "Magma Cream"
+msgstr "Magmavoide"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:203
+msgid "Magma cream is a crafting component."
+msgstr "Magmavoide on valmistusraaka-aine."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:211
+msgid "Ghast Tear"
+msgstr "Hornanhengen kyynel"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:212
+msgid "Place this item in an item frame as decoration."
+msgstr "Sijoita tämä esine kehykseen koristeeksi."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:219
+msgid "Nether Star"
+msgstr "Hornatähti"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:220
+msgid ""
+"A nether star is dropped when the Wither dies. Place it in an item frame to "
+"show the world how hardcore you are! Or just as decoration."
+msgstr ""
+"Hornatähti on peräisin näivettäjästä. Sijoita se kehykseen näyttääksesi "
+"maailmalle, mistä puusta sinut on veistetty! Tai ihan vain koristeeksi."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:228
+msgid "Leather"
+msgstr "Nahka"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:229
+msgid "Leather is a versatile crafting component."
+msgstr "Nahka on monikäyttöinen valmistusraaka-aine."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:236
+msgid "Feather"
+msgstr "Sulka"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:237
+msgid "Feathers are used in crafting and are dropped from chickens."
+msgstr "Sulkia käytetään valmistuksessa, ja ne ovat peräisin kanoista."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:244
+msgid "Rabbit Hide"
+msgstr "Jäniksennahka"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:245
+msgid "Rabbit hide is used to create leather."
+msgstr "Jäniksennahasta valmistetaan nahkaa."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:253
+msgid "Rabbit's Foot"
+msgstr "Jäniksenkäpälä"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:254
+msgid ""
+"Must be your lucky day! Place this item in an item frame for decoration."
+msgstr "Nyt on onnenpäiväsi! Sijoita tämä esine kehykseen koristeeksi."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:261
+msgid "Saddle"
+msgstr "Satula"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:262
+msgid "Can be placed on animals to ride them"
+msgstr "Voidaan pukea eläimelle, jolloin sillä voi ratsastaa"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:263
+msgid "Saddles can be put on some animals in order to mount them."
+msgstr ""
+"Satulan voi pukea tietyille eläimille, jolloin niiden kyytiin voi nousta."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:264
+msgid ""
+"Use the placement key with the saddle in your hand to try to put on the "
+"saddle. Saddles fit on horses, mules, donkeys and pigs. Horses, mules and "
+"donkeys need to be tamed first, otherwise they'll reject the saddle. Saddled "
+"animals can be mounted by using the placement key on them again."
+msgstr ""
+"Voit yrittää pukea satulan sijoita-näppäimellä, kun se on kädessäsi. Satulan "
+"voi pukea hevosille, muuleille, aaseille ja sioille. Hevoset, muulit ja "
+"aasit pitää ensin kesyttää, tai muuten ne kieltäytyvät satulasta. Satuloidun "
+"eläimen selkään voi nousta klikkaamalla sitä jälleen sijoita-näppäimellä."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:272
+msgid "Rabbit Stew"
+msgstr "Jänismuhennos"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:273
+msgid "Rabbit stew is a very nutricious food item."
+msgstr "Jänismuhennos on hyvin ravinteikasta ruokaa."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:283
+msgid "Shulker Shell"
+msgstr "Kuorvaanijan kuori"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:284
+msgid ""
+"Shulker shells are used in crafting. They are dropped from dead shulkers."
+msgstr ""
+"Kuorvaanijan kuorta käytetään valmistuksessa. Niitä saa kuolleista "
+"kuorvaanijoista."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:290
+msgid "Slimeball"
+msgstr "Limapallo"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:291
+msgid "Slimeballs are used in crafting. They are dropped from slimes."
+msgstr ""
+"Limapalloja käytetään valmistuksessa. Niitä saa elävistä limakuutioista."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:298
+msgid "Gunpowder"
+msgstr "Ruuti"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:305
+msgid "Carrot on a Stick"
+msgstr "Porkkanakeppi"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:306
+msgid "Lets you ride a saddled pig"
+msgstr "Mahdollistaa satuloidulla sialla ratsastamisen"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:307
+msgid "A carrot on a stick can be used on saddled pigs to ride them."
+msgstr "Porkkanakepin avulla voi ratsastaa satuloidulla sialla."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:308
+msgid ""
+"Place it on a saddled pig to mount it. You can now ride the pig like a "
+"horse. Pigs will also walk towards you when you just wield the carrot on a "
+"stick."
+msgstr ""
+"Klikkaa satuloitua sikaa sijoita-näppäimellä noustaksesi sen selkään. Kun "
+"porkkanakeppi on kädessäsi, voit ratsastaa sialla hevosen tavoin. Siat myös "
+"kävelevät sinua kohti, kun sinulla on porkkanakeppi kädessäsi."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:317
+msgid "Warped Fungus on a Stick"
+msgstr "Kummasienikeppi"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:318
+msgid "Lets you ride a strider"
+msgstr "Mahdollistaa astelijalla ratsastamisen"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:319
+msgid ""
+"A warped fungus on a stick can be used on saddled striders to ride them."
+msgstr "Kummasienikepin avulla voi ratsastaa satuloidulla astelijalla."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:320
+msgid ""
+"Place it on a saddled strider to mount it. You can now ride the strider like "
+"a horse. Striders will also walk towards you when you just wield the fungus "
+"on a stick."
+msgstr ""
+"Klikkaa satuloitua astelijaa sijoita-näppäimellä noustaksesi sen selkään. "
+"Kun kummasienikeppi on kädessäsi, voit ratsastaa astelijalla hevosen tavoin. "
+"Astelijat myös kävelevät sinua kohti, kun sinulla on kummasienikeppi "
+"kädessäsi."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:329
+msgid "Nautilus Shell"
+msgstr "Helmiveneen kuori"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:330 mods/ITEMS/mcl_mobitems/init.lua:338
+msgid "Used to craft a conduit"
+msgstr "Käytetään johtimen valmistamiseen"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:331
+msgid ""
+"The Nautilus Shell is used to craft a conduit. They can be obtained by "
+"fishing or killing a drowned that is wielding a shell."
+msgstr ""
+"Helmiveneen kuorta käytetään johtimen valmistamiseen. Niitä saa kalastamalla "
+"tai tappamalla hukkuneen, jolla on kuori kädessään."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:337
+msgid "Heart of the Sea"
+msgstr "Meren sydän"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:339
+msgid ""
+"The Heart of the Sea is used to craft a conduit. They can be obtained by "
+"finding them in a buried treasure chest."
+msgstr ""
+"Meren sydäntä käytetään johtimen valmistamiseen. Niitä saa kätketyistä "
+"aarrearkuista."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:344
+msgid ""
+"Place it on a horse to put on the horse armor. Donkeys and mules can't wear "
+"horse armor."
+msgstr ""
+"Pukeaksesi hevoshaarniskan hevoselle klikkaa sitä sijoita-näppäimellä. "
+"Hevoshaarniskaa ei voi pukea aaseille eikä muuleille."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:349
+msgid "Leather Horse Armor"
+msgstr "Nahkahevoshaarniska"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:350
+msgid ""
+"Leather horse armor can be worn by horses to increase their protection from "
+"harm a little."
+msgstr ""
+"Nahkahevoshaarniskan voi pukea hevosille, jolloin niiden suojaus paranee "
+"pikkuisen."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:363
+msgid "Copper Horse Armor"
+msgstr "Kuparihevoshaarniska"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:364
+msgid ""
+"Copper horse armor can be worn by horses to increase their protection from "
+"harm a bit."
+msgstr ""
+"Kuparihevoshaarniskan voi pukea hevosille, jolloin niiden suojaus paranee "
+"pikkuisen."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:379
+msgid "Iron Horse Armor"
+msgstr "Rautahevoshaarniska"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:380
+msgid ""
+"Iron horse armor can be worn by horses to increase their protection from "
+"harm a bit."
+msgstr ""
+"Rautahevoshaarniskan voi pukea hevosille, jolloin niiden suojaus paranee "
+"hieman."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:394
+msgid "Golden Horse Armor"
+msgstr "Kultahevoshaarniska"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:395
+msgid ""
+"Golden horse armor can be worn by horses to increase their protection from "
+"harm."
+msgstr ""
+"Kultahevoshaarniskan voi pukea hevosille, jolloin niiden suojaus paranee."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:408
+msgid "Diamond Horse Armor"
+msgstr "Timanttihevoshaarniska"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:409
+msgid ""
+"Diamond horse armor can be worn by horses to greatly increase their "
+"protection from harm."
+msgstr ""
+"Timanttihevoshaarniskan voi pukea hevosille, jolloin niiden suojaus paranee "
+"huomattavasti."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:425
+msgid "Glow Ink Sac"
+msgstr "Hehkumustepussi"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:426
+msgid "Use it to craft the Glow Item Frame."
+msgstr "Käytetään hehkukehyksen valmistamiseen."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:427
+msgid ""
+"Use the Glow Ink Sac and the normal Item Frame to craft the Glow Item Frame."
+msgstr "Valmista hehkukehys tavallisesta kehyksestä ja hehkumusteesta."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:433
+msgid "Name Tag"
+msgstr "Nimilappu"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:434
+msgid "Give names to mobs"
+msgstr "Nimeä olentoja"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:434
+msgid "Set name at anvil"
+msgstr "Aseta nimi alasimella"
+
+#: mods/ITEMS/mcl_mobitems/init.lua:435
+msgid "A name tag is an item to name a mob."
+msgstr "Nimilappu on esine, jolla voi nimetä olennon."
+
+#: mods/ITEMS/mcl_mobitems/init.lua:436
+msgid ""
+"Before you use the name tag, you need to set a name at an anvil. Then you "
+"can use the name tag to name a mob. This uses up the name tag."
+msgstr ""
+"Ennen kuin käytät nimilappua, sinun tulee antaa sille nimi alasimella. Sen "
+"jälkeen voit klikata olentoa nimilapulla, jolloin olennolle tulee nimi ja "
+"nimilappu katoaa."

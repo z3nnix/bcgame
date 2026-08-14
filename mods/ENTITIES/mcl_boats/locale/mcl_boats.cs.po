@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_boats x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-06 22:12+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ENTITIES/mcl_boats/init.lua:166
+msgid "Sneak to dismount"
+msgstr "Plížením sesedni"
+
+#: mods/ENTITIES/mcl_boats/init.lua:632
+msgid "Boats are used to travel on the surface of water."
+msgstr "Loďky jsou určeny pro plavbu po vodě."
+
+#: mods/ENTITIES/mcl_boats/init.lua:633
+msgid ""
+"Rightclick on a water source to place the boat. Rightclick the boat to enter "
+"it. Use [Left] and [Right] to steer, [Forwards] to speed up and [Backwards] "
+"to slow down or move backwards. Use [Sneak] to leave the boat, punch the "
+"boat to make it drop as an item."
+msgstr ""
+"Kliknutím pravým tlačítkem myši na vodní zdroj umístíte loď. Kliknutím "
+"pravým tlačítkem myši na loď do ní nastoupíte. Pomocí kláves [Vlevo] a "
+"[Vpravo] můžete kormidlovat, klávesou [Vpřed] zrychlit a klávesou [Vzad] "
+"zpomalit nebo se vrátit zpět. Pomocí [Plížit se] můžete opustit člun, úderem "
+"do člunu jej zničíte a vypadne jako předmět."
+
+#: mods/ENTITIES/mcl_boats/init.lua:634
+msgid "Boat"
+msgstr "Loď"
+
+#: mods/ENTITIES/mcl_boats/init.lua:640
+msgid "Water vehicle"
+msgstr "Vodní dopravní prostředek"
+
+#: mods/ENTITIES/mcl_boats/init.lua:649
+msgid ""
+"Chest Boats are used to travel on the surface of water. And transport goods"
+msgstr ""
+"Loďky s truhlou se používají k cestování po vodní hladině a přepravě zboží"
+
+#: mods/ENTITIES/mcl_boats/init.lua:650
+msgid ""
+"Rightclick on a water source to place the boat. Rightclick the boat to enter "
+"it. Use [Left] and [Right] to steer, [Forwards] to speed up and [Backwards] "
+"to slow down or move backwards. Use [Sneak] to leave the boat, punch the "
+"boat to make it drop as an item. Use [Sneak] + [Rightclick] to open the "
+"boat's chest"
+msgstr ""
+"Klikněte pravým tlačítkem na zdroj vody a umístěte loď. Klikněte pravým "
+"tlačítkem na loď a nastupte do ní. Pomocí tlačítek [Vlevo] a [Vpravo] řídíte "
+"loď, tlačítkem [Vpřed] zrychlujete a tlačítkem [Zpět] zpomalujete nebo "
+"couváte. Pomocí tlačítka [Plížit] opustíte loď, úderem do lodi ji můžete "
+"získat jako předmět. Pomocí tlačítek [Plížit] + [Pravé tlačítko] otevřete "
+"truhlu na lodi"
+
+#: mods/ENTITIES/mcl_boats/init.lua:651
+msgid "Chest Boat"
+msgstr "Loď s truhlou"
+
+#: mods/ENTITIES/mcl_boats/init.lua:663
+#, fuzzy
+msgid " Boat"
+msgstr "Loď"

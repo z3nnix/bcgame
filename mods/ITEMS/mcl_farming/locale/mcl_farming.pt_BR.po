@@ -1,0 +1,652 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_farming x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-08 07:24+0200\n"
+"PO-Revision-Date: 2026-06-20 21:07+0000\n"
+"Last-Translator: newrizen <newrizen@noreply.codeberg.org>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.codeberg.org/projects/"
+"mineclonia/mcl_farming/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:10
+msgid "Beetroot Seeds"
+msgstr "Sementes de Beterraba"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:11
+#: mods/ITEMS/mcl_farming/carrots.lua:100 mods/ITEMS/mcl_farming/melon.lua:9
+#: mods/ITEMS/mcl_farming/potatoes.lua:102
+#: mods/ITEMS/mcl_farming/pumpkin.lua:29 mods/ITEMS/mcl_farming/wheat.lua:10
+msgid "Grows on farmland"
+msgstr "Cresce em terras aradas"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:12
+msgid "Grows into a beetroot plant. Chickens like beetroot seeds."
+msgstr ""
+"Cresce em uma planta de beterraba. Galinhas gostam de sementes de beterraba."
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:13
+msgid ""
+"Place the beetroot seeds on farmland (which can be created with a hoe) to "
+"plant a beetroot plant. They grow in sunlight and grow faster on hydrated "
+"farmland. Rightclick an animal to feed it beetroot seeds."
+msgstr ""
+"Coloque as sementes de beterraba em uma terra arada (que pode ser criado com "
+"uma enxada) para plantar uma beterraba. Elas crescem sob a luz do sol e "
+"crescem mais rápido em terras aradas irrigadas. Clique com o botão direito "
+"em um animal para o alimentar com sementes de beterraba."
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:24
+msgid "Premature Beetroot Plant (Stage 1)"
+msgstr "Pé de Beterraba Prematuro (Estágio 1)"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:25
+msgid ""
+"Beetroot plants are plants which grow on farmland under sunlight in 4 "
+"stages. On hydrated farmland, they grow a bit faster. They can be harvested "
+"at any time but will only yield a profit when mature."
+msgstr ""
+"Os pés de beterraba são plantas que crescem em terras aradas sob a luz "
+"solar, em quatro estágios. Em terras aradas irrigadas, crescem um pouco mais "
+"rápido. Podem ser colhidos a qualquer momento, mas só geram lucro quando "
+"estão maduros."
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:26
+msgid "Premature Beetroot Plant"
+msgstr "Pé de Beterraba Prematuro"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:51
+msgid "Premature Beetroot Plant (Stage 2)"
+msgstr "Pé de Beterraba Prematuro (Estágio 2)"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:77
+msgid "Premature Beetroot Plant (Stage 3)"
+msgstr "Pé de Beterraba Prematuro (Estágio 3)"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:103
+msgid "Mature Beetroot Plant"
+msgstr "Pé de Beterraba Maduro"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:104
+msgid ""
+"A mature beetroot plant is a farming plant which is ready to be harvested "
+"for a beetroot and some beetroot seeds. It won't grow any further."
+msgstr ""
+"Um pé de beterraba maduro é uma planta agrícola pronta para ser colhida, "
+"tanto para a obtenção da beterraba quanto de algumas sementes. Ele não "
+"crescerá mais."
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:157
+msgid "Beetroot"
+msgstr "Beterraba"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:158
+msgid ""
+"Beetroots are both used as food item and a dye ingredient. Pigs like "
+"beetroots, too."
+msgstr ""
+"A beterraba é usada tanto como alimento quanto como ingrediente corante. Os "
+"porcos também gostam de beterraba."
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:159
+msgid ""
+"Hold it in your hand and right-click to eat it. Rightclick an animal to feed "
+"it."
+msgstr ""
+"Segure na mão e clique com o botão direito para comer. Clique com o botão "
+"direito em um animal para o alimentar."
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:168
+msgid "Beetroot Soup"
+msgstr "Sopa de Beterraba"
+
+#: mods/ITEMS/mcl_farming/beetroot.lua:169
+msgid "Beetroot soup is a food item."
+msgstr "A sopa de beterraba é um alimento."
+
+#: mods/ITEMS/mcl_farming/carrots.lua:23
+msgid "Premature Carrot Plant"
+msgstr "Pé de Cenoura Prematuro"
+
+#: mods/ITEMS/mcl_farming/carrots.lua:24
+msgid ""
+"Carrot plants are plants which grow on farmland under sunlight in 8 stages, "
+"but only 4 stages can be visually told apart. On hydrated farmland, they "
+"grow a bit faster. They can be harvested at any time but will only yield a "
+"profit when mature."
+msgstr ""
+"Os pés de cenoura são plantas que crescem em terrenos agrícolas sob a luz do "
+"sol em 8 estágios, mas apenas 4 deles são visualmente distinguíveis. Em "
+"terras aradas irrigadas, eles crescem um pouco mais rápido. Podem ser "
+"colhidos a qualquer momento, mas só geram lucro quando maduros."
+
+#: mods/ITEMS/mcl_farming/carrots.lua:29
+msgid "Premature Carrot Plant (Stage @1)"
+msgstr "Pé de Cenoura Prematuro (Estágio @1)"
+
+#: mods/ITEMS/mcl_farming/carrots.lua:58
+msgid "Mature Carrot Plant"
+msgstr "Pé de Cenoura Maduro"
+
+#: mods/ITEMS/mcl_farming/carrots.lua:59
+msgid ""
+"Mature carrot plants are ready to be harvested for carrots. They won't grow "
+"any further."
+msgstr ""
+"Pés de cenoura maduros são prontos para serem colhidos. Eles não crescerão "
+"mais."
+
+#: mods/ITEMS/mcl_farming/carrots.lua:99
+msgid "Carrot"
+msgstr "Cenoura"
+
+#: mods/ITEMS/mcl_farming/carrots.lua:101
+msgid "Carrots can be eaten and planted. Pigs and rabbits like carrots."
+msgstr ""
+"As cenouras podem ser comidas e plantadas. Porcos e coelhos gostam de "
+"cenouras."
+
+#: mods/ITEMS/mcl_farming/carrots.lua:102
+msgid ""
+"Hold it in your hand and rightclick to eat it. Place it on top of farmland "
+"to plant the carrot. It grows in sunlight and grows faster on hydrated "
+"farmland. Rightclick an animal to feed it."
+msgstr ""
+"Segure na mão e clique com o botão direito para comer. Coloque a cenoura "
+"sobre a terra arada para plantar. Ela cresce sob a luz do sol e cresce mais "
+"rápido em terras aradas irrigadas. Clique com o botão direito em um animal "
+"para o alimentar."
+
+#: mods/ITEMS/mcl_farming/carrots.lua:117
+msgid "Golden Carrot"
+msgstr "Cenoura de Ouro"
+
+#: mods/ITEMS/mcl_farming/carrots.lua:118
+msgid ""
+"A golden carrot is a precious food item which can be eaten. It is really, "
+"really filling!"
+msgstr ""
+"Uma cenoura dourada é um alimento precioso que pode ser consumido. É "
+"realmente muito saciante!"
+
+#: mods/ITEMS/mcl_farming/hoes.lua:29
+msgid "Turns block into farmland"
+msgstr "Transforma o bloco em terra arada"
+
+#: mods/ITEMS/mcl_farming/hoes.lua:30
+msgid ""
+"Hoes are essential tools for growing crops. They are used to create farmland "
+"in order to plant seeds on it. Hoes can also be used as very weak weapons in "
+"a pinch."
+msgstr ""
+"As enxadas são ferramentas essenciais para o cultivo. São usadas para "
+"preparar o terreno para o plantio de sementes. Em caso de necessidade, as "
+"enxadas também podem ser usadas como armas improvisadas."
+
+#: mods/ITEMS/mcl_farming/hoes.lua:31
+msgid ""
+"Use the hoe on a cultivatable block (by rightclicking it) to turn it into "
+"farmland. Dirt, grass blocks and grass paths are cultivatable blocks. Using "
+"a hoe on coarse dirt turns it into dirt."
+msgstr ""
+"Use a enxada em um bloco cultivável (clicando com o botão direito do mouse) "
+"para o transformar em terra arada. Blocos de terra, grama e caminhos de "
+"grama são cultiváveis. Usar a enxada em terra grossa a transforma em terra."
+
+#: mods/ITEMS/mcl_farming/hoes.lua:64
+msgid "Wood Hoe"
+msgstr "Enxada de Madeira"
+
+#: mods/ITEMS/mcl_farming/hoes.lua:74
+msgid "Stone Hoe"
+msgstr "Enxada de Pedra"
+
+#: mods/ITEMS/mcl_farming/hoes.lua:82
+msgid "Copper Hoe"
+msgstr "Enxada de Cobre"
+
+#: mods/ITEMS/mcl_farming/hoes.lua:91
+msgid "Iron Hoe"
+msgstr "Enxada de Ferro"
+
+#: mods/ITEMS/mcl_farming/hoes.lua:100
+msgid "Golden Hoe"
+msgstr "Enxada de Ouro"
+
+#: mods/ITEMS/mcl_farming/hoes.lua:109
+msgid "Diamond Hoe"
+msgstr "Enxada de Diamante"
+
+#: mods/ITEMS/mcl_farming/hoes.lua:119
+msgid "Netherite Hoe"
+msgstr "Enxada de Netherita"
+
+#: mods/ITEMS/mcl_farming/melon.lua:8
+msgid "Melon Seeds"
+msgstr "Sementes de Melão"
+
+#: mods/ITEMS/mcl_farming/melon.lua:10
+msgid ""
+"Grows into a melon stem which in turn grows melons. Chickens like melon "
+"seeds."
+msgstr ""
+"Cresce até se tornar um caule de melão, que por sua vez produz melões. "
+"Galinhas gostam de sementes de melão."
+
+#: mods/ITEMS/mcl_farming/melon.lua:11
+msgid ""
+"Place the melon seeds on farmland (which can be created with a hoe) to plant "
+"a melon stem. Melon stems grow in sunlight and grow faster on hydrated "
+"farmland. When mature, the stem will attempt to grow a melon at the side. "
+"Rightclick an animal to feed it melon seeds."
+msgstr ""
+"Coloque as sementes de melão em um terreno arado (que pode ser criado com "
+"uma enxada) para plantar um caule de melão. Os caules de melão crescem sob a "
+"luz do sol e crescem mais rápido em terrenos arados e úmidos. Quando maduro, "
+"o caule tentará produzir um melão ao lado. Clique com o botão direito em um "
+"animal para o alimentar com sementes de melão."
+
+#: mods/ITEMS/mcl_farming/melon.lua:23
+msgid "Melon"
+msgstr "Melão"
+
+#: mods/ITEMS/mcl_farming/melon.lua:24
+msgid ""
+"A melon is a block which can be grown from melon stems, which in turn are "
+"grown from melon seeds. It can be harvested for melon slices."
+msgstr ""
+"O melão é uma planta que pode ser cultivada a partir de caules, que por sua "
+"vez são cultivados a partir de sementes. Ele pode ser colhido para a "
+"obtenção de fatias."
+
+#: mods/ITEMS/mcl_farming/melon.lua:86
+msgid "Premature Melon Stem"
+msgstr "Caule de Melão Prematuro"
+
+#: mods/ITEMS/mcl_farming/melon.lua:87
+msgid ""
+"Melon stems grow on farmland in 8 stages. On hydrated farmland, the growth "
+"is a bit quicker. Mature melon stems are able to grow melons."
+msgstr ""
+"Os caules do melão crescem em terras aradas em 8 estágios. Em terras aradas "
+"irrigadas, o crescimento é um pouco mais rápido. Caules maduros de melão são "
+"capazes de produzir melões."
+
+#: mods/ITEMS/mcl_farming/melon.lua:92
+msgid "Premature Melon Stem (Stage @1)"
+msgstr "Caule de Melão Prematuro (Estágio @1)"
+
+#: mods/ITEMS/mcl_farming/melon.lua:120
+msgid "Mature Melon Stem"
+msgstr "Caule de Melão Maduro"
+
+#: mods/ITEMS/mcl_farming/melon.lua:122
+msgid ""
+"A mature melon stem attempts to grow a melon at one of its four adjacent "
+"blocks. A melon can only grow on top of farmland, dirt, or a grass block. "
+"When a melon is next to a melon stem, the melon stem immediately bends and "
+"connects to the melon. While connected, a melon stem can't grow another "
+"melon. As soon all melons around the stem have been removed, it loses the "
+"connection and is ready to grow another melon."
+msgstr ""
+"O caule de melão maduro tenta gerar um melão em um de seus quatro blocos "
+"adjacentes. Um melão só pode crescer sobre terra arada, terra ou grama. "
+"Quando um melão está próximo a um caule de melão, o caule imediatamente se "
+"curva e se conecta ao melão. Enquanto conectado, um caule de melão não pode "
+"gerar outro melão. Assim que todos os melões ao redor do caule forem "
+"removidos, ele perde a conexão e está pronto para gerar outro melão."
+
+#: mods/ITEMS/mcl_farming/melon.lua:138
+msgid "Melon Slice"
+msgstr "Fatia de Melão"
+
+#: mods/ITEMS/mcl_farming/melon.lua:139 mods/ITEMS/mcl_farming/wheat.lua:140
+#: mods/ITEMS/mcl_farming/wheat.lua:148
+msgid "This is a food item which can be eaten."
+msgstr "Este é um alimento que pode ser consumido."
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:25
+msgid "Premature Potato Plant"
+msgstr "Pé de Batata Prematuro"
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:26
+msgid ""
+"Potato plants are plants which grow on farmland under sunlight in 8 stages, "
+"but only 4 stages can be visually told apart. On hydrated farmland, they "
+"grow a bit faster. They can be harvested at any time but will only yield a "
+"profit when mature."
+msgstr ""
+"Pés de batata são plantas que crescem em terrenos arados sob a luz do sol em "
+"8 estágios, mas apenas 4 deles são visualmente distinguíveis. Em terrenos "
+"arados irrigados, eles crescem um pouco mais rápido. Podem ser colhidos a "
+"qualquer momento, mas só geram lucro quando maduros."
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:33
+msgid "Premature Potato Plant (Stage @1)"
+msgstr "Pé de Batata Prematuro (Estágio @1)"
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:61
+msgid "Mature Potato Plant"
+msgstr "Pé de Batata Maduro"
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:62
+msgid ""
+"Mature potato plants are ready to be harvested for potatoes. They won't grow "
+"any further."
+msgstr ""
+"Pés de batata maduros são prontos para serem colhidas. Eles não crescerão "
+"mais."
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:101
+msgid "Potato"
+msgstr "Batata"
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:103
+msgid ""
+"Potatoes are food items which can be eaten, cooked in the furnace and "
+"planted. Pigs like potatoes."
+msgstr ""
+"As batatas são um alimento que pode ser consumido, cozido no forno e "
+"plantado. Os porcos gostam de batatas."
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:104
+msgid ""
+"Hold it in your hand and rightclick to eat it. Place it on top of farmland "
+"to plant it. It grows in sunlight and grows faster on hydrated farmland. "
+"Rightclick an animal to feed it."
+msgstr ""
+"Segure na mão e clique com o botão direito para comer. Coloque sobre a terra "
+"para plantar. Ele cresce sob a luz do sol e cresce mais rápido em terras "
+"aradas irrigadas. Clique com o botão direito em um animal para o alimentar."
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:120
+msgid "Baked Potato"
+msgstr "Batata Assada"
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:121
+msgid ""
+"Baked potatoes are food items which are more filling than the unbaked ones."
+msgstr "Batatas assadas são alimentos mais saciáveis do que as batatas cruas."
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:128
+msgid "Poisonous Potato"
+msgstr "Batata Venenosa"
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:129
+msgid "60% chance of poisoning"
+msgstr "60% de chance de envenenamento"
+
+#: mods/ITEMS/mcl_farming/potatoes.lua:130
+msgid ""
+"This potato doesn't look too healthy. You can eat it to restore hunger "
+"points, but there's a 60% chance it will poison you briefly."
+msgstr ""
+"Essa batata não parece muito saudável. Você pode comer para recuperar os "
+"pontos de fome, mas há 60% de chance de ela te envenenar temporariamente."
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:28
+msgid "Pumpkin Seeds"
+msgstr "Sementes de Abóbora"
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:30
+msgid ""
+"Grows into a pumpkin stem which in turn grows pumpkins. Chickens like "
+"pumpkin seeds."
+msgstr ""
+"Cresce até virar um caule de abóbora, que por sua vez produz abóboras. "
+"Galinhas gostam de sementes de abóbora."
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:31
+msgid ""
+"Place the pumpkin seeds on farmland (which can be created with a hoe) to "
+"plant a pumpkin stem. Pumpkin stems grow in sunlight and grow faster on "
+"hydrated farmland. When mature, the stem attempts to grow a pumpkin next to "
+"it. Rightclick an animal to feed it pumpkin seeds."
+msgstr ""
+"Coloque as sementes de abóbora em uma terra arada (que pode ser criado com "
+"uma enxada) para plantar uma muda de abóbora. As mudas crescem sob a luz do "
+"sol e crescem mais rápido em terrenos arados irrigados. Quando maduras, as "
+"mudas tentam produzir uma abóbora ao lado. Clique com o botão direito em um "
+"animal para o alimentar com sementes de abóbora."
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:71
+msgid "Premature Pumpkin Stem"
+msgstr "Caule de Abóbora Prematuro"
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:72
+msgid ""
+"Pumpkin stems grow on farmland in 8 stages. On hydrated farmland, the growth "
+"is a bit quicker. Mature pumpkin stems are able to grow pumpkins."
+msgstr ""
+"Os caules de abóbora crescem em terras aradas em 8 estágios. Em terras "
+"aradas irrigadas, o crescimento é um pouco mais rápido. Caules maduros são "
+"capazes de produzir abóboras."
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:77
+msgid "Premature Pumpkin Stem (Stage @1)"
+msgstr "Caule de Abóbora Prematuro (Estágio @1)"
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:105
+msgid "Mature Pumpkin Stem"
+msgstr "Caule de Abóbora Maduro"
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:106
+msgid ""
+"A mature pumpkin stem attempts to grow a pumpkin at one of its four adjacent "
+"blocks. A pumpkin can only grow on top of farmland, dirt or a grass block. "
+"When a pumpkin is next to a pumpkin stem, the pumpkin stem immediately bends "
+"and connects to the pumpkin. A connected pumpkin stem can't grow another "
+"pumpkin. As soon all pumpkins around the stem have been removed, it loses "
+"the connection and is ready to grow another pumpkin."
+msgstr ""
+"Um caule de abóbora maduro tenta gerar uma abóbora em um dos quatro blocos "
+"adjacentes. Uma abóbora só pode crescer sobre terra arada, terra ou grama. "
+"Quando uma abóbora está próxima a um caule, este se curva imediatamente e se "
+"conecta à abóbora. Um caule conectado não pode gerar outra abóbora. Assim "
+"que todas as abóboras ao redor do caule forem removidas, a conexão é "
+"desfeita e ele fica pronto para gerar outra abóbora."
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:115
+msgid "Pumpkin"
+msgstr "Abóbora"
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:116
+msgid ""
+"A pumpkin is a decorative block. It can be carved with shears to obtain "
+"pumpkin seeds."
+msgstr ""
+"A abóbora é um bloco decorativo. Ela pode ser esculpida com tesoura para se "
+"obter as sementes."
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:117
+msgid ""
+"To carve a face into the pumpkin, use the shears on the side you want to "
+"carve."
+msgstr ""
+"Para esculpir um rosto na abóbora, use a tesoura no lado que você deseja "
+"esculpir."
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:132
+msgid "Carved Pumpkin"
+msgstr "Abóbora Esculpida"
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:133
+msgid ""
+"A carved pumpkin can be worn as a helmet. Pumpkins grow from pumpkin stems, "
+"which in turn grow from pumpkin seeds."
+msgstr ""
+"Uma abóbora esculpida pode ser usada como capacete. As abóboras crescem a "
+"partir de caules, que por sua vez crescem a partir de sementes."
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:228
+msgid "Jack o'Lantern"
+msgstr "Abóbora de Halloween"
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:229
+msgid ""
+"A jack o'lantern is a traditional Halloween decoration made from a pumpkin. "
+"It glows brightly."
+msgstr ""
+"A abóbora de Halloween é uma decoração tradicional de Halloween feita a "
+"partir de uma abóbora. Ela brilha intensamente."
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:260
+msgid "Pumpkin Pie"
+msgstr "Torta de Abóbora"
+
+#: mods/ITEMS/mcl_farming/pumpkin.lua:261
+msgid "A pumpkin pie is a tasty food item which can be eaten."
+msgstr "A torta de abóbora é um alimento saboroso que pode ser consumido."
+
+#: mods/ITEMS/mcl_farming/soil.lua:5
+msgid "Farmland"
+msgstr "Terra Arada"
+
+#: mods/ITEMS/mcl_farming/soil.lua:6
+msgid "Surface for crops"
+msgstr "Superfície para cultivos"
+
+#: mods/ITEMS/mcl_farming/soil.lua:6
+msgid "Can become wet"
+msgstr "Pode ficar molhado"
+
+#: mods/ITEMS/mcl_farming/soil.lua:7
+msgid ""
+"Farmland is used for farming, a necessary surface to plant crops. It is "
+"created when a hoe is used on dirt or a similar block. Plants are able to "
+"grow on farmland, but slowly. Farmland will become hydrated farmland (on "
+"which plants grow faster) when it rains or a water source is nearby. This "
+"block will turn back to dirt when a solid block appears above it or a piston "
+"arm extends above it."
+msgstr ""
+"A terra arada é usado para agricultura, uma superfície necessária para o "
+"plantio de cultivos. Ele é criado quando uma enxada é usada na terra ou em "
+"um bloco similar. As plantas conseguem crescer na terra arada, mas "
+"lentamente. A terra arada se torna terra arada irrigada (no qual as plantas "
+"crescem mais rápido) quando chove ou quando há uma fonte de água por perto. "
+"Este bloco volta a ser terra quando um bloco sólido aparece sobre ele ou "
+"quando um braço de pistão se estende sobre ele."
+
+#: mods/ITEMS/mcl_farming/soil.lua:30
+msgid "Hydrated Farmland"
+msgstr "Terra Arada Irrigada"
+
+#: mods/ITEMS/mcl_farming/soil.lua:31
+msgid ""
+"Hydrated farmland is used in farming, this is where you can plant and grow "
+"some plants. It is created when farmland is under rain or near water. "
+"Without water, this block will dry out eventually. This block will turn back "
+"to dirt when a solid block appears above it or a piston arm extends above it."
+msgstr ""
+"A terra arada irrigada é usada na agricultura, onde você pode plantar e "
+"cultivar diversas plantas. Ele é criado quando a terra arada está sob chuva "
+"ou próximo à água. Sem água, esse bloco eventualmente secará. Ele voltará a "
+"ser terra quando um bloco sólido aparecer sobre ele ou quando o braço de um "
+"pistão se estender sobre ele."
+
+#: mods/ITEMS/mcl_farming/sweet_berry.lua:48
+msgid "Sweet Berry Bush (Stage @1)"
+msgstr "Arbusto de Bagas Doces (Estágio @1)"
+
+#: mods/ITEMS/mcl_farming/sweet_berry.lua:91
+msgid "Sweet Berry"
+msgstr "Bagas Doces"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:9
+msgid "Wheat Seeds"
+msgstr "Sementes de Trigo"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:11
+msgid "Grows into a wheat plant. Chickens like wheat seeds."
+msgstr ""
+"Cresce e se transforma em um pé de trigo. Galinhas gostam de sementes de "
+"trigo."
+
+#: mods/ITEMS/mcl_farming/wheat.lua:12
+msgid ""
+"\t\tPlace the wheat seeds on farmland (which can be created with a hoe) to "
+"plant a wheat plant.\n"
+"\t\tThey grow in sunlight and grow faster on hydrated farmland. Rightclick "
+"an animal to feed it wheat seeds.\n"
+"\t"
+msgstr ""
+"\t\tColoque as sementes de trigo em uma terra arada (que pode ser criado com "
+"uma enxada) para plantar um pé de trigo.\n"
+"\t\tEles crescem sob a luz do sol e crescem mais rápido em terrenos arados "
+"irrigados. Clique com o botão direito em um animal para o alimentar com "
+"sementes de trigo.\n"
+"\t"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:39
+msgid "Premature Wheat Plant"
+msgstr "Pé de Trigo Prematuro"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:40
+msgid ""
+"\t\t\tPremature wheat plants grow on farmland under sunlight in 8 stages.\n"
+"\t\t\tOn hydrated farmland, they grow faster. They can be harvested at any "
+"time but will only yield a profit when mature.\n"
+"\t\t"
+msgstr ""
+"\t\t\tPés de trigo prematuros crescem em terras aradas sob a luz solar em 8 "
+"estágios.\n"
+"\t\t\tEm terras aradas irrigadas, elas crescem mais rápido. Podem ser "
+"colhidas a qualquer momento, mas só darão lucro quando estiverem maduras.\n"
+"\t\t"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:49
+msgid "Premature Wheat Plant (Stage @1)"
+msgstr "Pé de Trigo Prematuro (Estágio @1)"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:79
+msgid "Mature Wheat Plant"
+msgstr "Pé de Trigo Maduro"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:80
+msgid ""
+"\t\tMature wheat plants are ready to be harvested for wheat and wheat "
+"seeds.\n"
+"\t\tThey won't grow any further.\n"
+"\t"
+msgstr ""
+"\t\tPés de trigo maduros são prontos para serem colhidos como trigo e "
+"sementes de trigo.\n"
+"\t\tEles não vão crescer mais.\n"
+"\t"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:120
+msgid "Wheat"
+msgstr "Trigo"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:121
+msgid "Wheat is used in crafting. Some animals like wheat."
+msgstr "O trigo é usado na produção. Alguns animais gostam de trigo."
+
+#: mods/ITEMS/mcl_farming/wheat.lua:122
+msgid "Use the “Place” key on an animal to try to feed it wheat."
+msgstr ""
+"Use a tecla \"Colocar\" em um animal para tentar o alimentar com trigo."
+
+#: mods/ITEMS/mcl_farming/wheat.lua:139
+msgid "Cookie"
+msgstr "Biscoito"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:147
+msgid "Bread"
+msgstr "Pão"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:155
+msgid "Hay Bale"
+msgstr "Fardo de Feno"
+
+#: mods/ITEMS/mcl_farming/wheat.lua:156
+msgid "Hay bales are decorative blocks made from wheat."
+msgstr "Os fardos de feno são blocos decorativos feitos de trigo."
+
+#~ msgid "Faceless Pumpkin"
+#~ msgstr "Abóbora sem Rosto"

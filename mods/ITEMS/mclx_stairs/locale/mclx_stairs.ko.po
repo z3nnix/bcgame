@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mclx_stairs x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mclx_stairs/init.lua:7
+msgid "Lapis Lazuli Stairs"
+msgstr "청금석 계단"
+
+#: mods/ITEMS/mclx_stairs/init.lua:13
+msgid "Lapis Lazuli Slab"
+msgstr "청금석 반 블록"
+
+#: mods/ITEMS/mclx_stairs/init.lua:21
+msgid "Gold Stairs"
+msgstr "금 계단"
+
+#: mods/ITEMS/mclx_stairs/init.lua:27
+msgid "Gold Slab"
+msgstr "금 반 블록"
+
+#: mods/ITEMS/mclx_stairs/init.lua:35
+msgid "Iron Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:41
+msgid "Iron Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:49
+msgid "Cracked Stone Brick Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:50
+msgid "Cracked Stone Brick Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:56
+msgid "Cracked Deepslate Brick Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:57
+msgid "Cracked Deepslate Brick Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:63
+msgid "Cracked Deepslate Tile Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:64
+msgid "Cracked Deepslate Tile Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:71
+msgid "End Stone Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:72
+msgid "End Stone Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:80
+msgid "Smooth Stone Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:91 mods/ITEMS/mclx_stairs/init.lua:149
+msgid "Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:92 mods/ITEMS/mclx_stairs/init.lua:147
+msgid "Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:134
+msgid "Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:135
+msgid "Double Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:136
+msgid "Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/init.lua:148
+msgid "Double Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:1
+msgid "Black Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:2
+msgid "Black Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:3
+msgid "Black Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:4
+msgid "Black Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:5
+msgid "Blue Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:6
+msgid "Blue Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:7
+msgid "Blue Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:8
+msgid "Blue Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:9
+msgid "Brown Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:10
+msgid "Brown Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:11
+msgid "Brown Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:12
+msgid "Brown Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:13
+msgid "Cyan Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:14
+msgid "Cyan Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:15
+msgid "Cyan Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:16
+msgid "Cyan Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:17
+msgid "Green Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:18
+msgid "Green Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:19
+msgid "Green Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:20
+msgid "Green Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:21
+msgid "Grey Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:22
+msgid "Grey Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:23
+msgid "Grey Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:24
+msgid "Grey Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:25
+msgid "Light Blue Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:26
+msgid "Light Blue Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:27
+msgid "Light Blue Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:28
+msgid "Light Blue Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:29
+msgid "Light Grey Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:30
+msgid "Light Grey Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:31
+msgid "Light Grey Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:32
+msgid "Light Grey Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:33
+msgid "Lime Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:34
+msgid "Lime Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:35
+msgid "Lime Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:36
+msgid "Lime Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:37
+msgid "Magenta Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:38
+msgid "Magenta Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:39
+msgid "Magenta Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:40
+msgid "Magenta Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:41
+msgid "Orange Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:42
+msgid "Orange Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:43
+msgid "Orange Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:44
+msgid "Orange Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:45
+msgid "Pink Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:46
+msgid "Pink Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:47
+msgid "Pink Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:48
+msgid "Pink Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:49
+msgid "Purple Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:50
+msgid "Purple Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:51
+msgid "Purple Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:52
+msgid "Purple Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:53
+msgid "Red Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:54
+msgid "Red Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:55
+msgid "Red Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:56
+msgid "Red Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:57
+msgid "White Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:58
+msgid "White Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:59
+msgid "White Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:60
+msgid "White Terracotta Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:61
+msgid "Yellow Concrete Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:62
+msgid "Yellow Concrete Stairs"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:63
+msgid "Yellow Terracotta Slab"
+msgstr ""
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:64
+msgid "Yellow Terracotta Stairs"
+msgstr ""

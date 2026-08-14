@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_bamboo x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 18:07+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_bamboo/init.lua:14
+msgid "A Block made of Bamboo stalks. Can be crafted into Bamboo Planks."
+msgstr "Banbuko zurtoinez egindako bloke bat Banbuko oholetan egin daiteke."
+
+#: mods/ITEMS/mcl_bamboo/init.lua:29
+msgid "Block of Bamboo"
+msgstr "Banbuzko blokea"
+
+#: mods/ITEMS/mcl_bamboo/init.lua:36
+msgid "Block of Stripped Bamboo"
+msgstr "Azalik gabeko banbuzko blokea"
+
+#: mods/ITEMS/mcl_bamboo/init.lua:58
+msgid "Bamboo Raft"
+msgstr "Banbuko putzua"
+
+#: mods/ITEMS/mcl_bamboo/init.lua:66
+msgid "Chest Bamboo Raft"
+msgstr "Banbuzko putzua kutxarekin"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:1
+msgid "Bamboo Button"
+msgstr "Banbu botoia"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:2
+msgid "Bamboo Door"
+msgstr "Banbuzko atea"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:3
+msgid "Bamboo Fence"
+msgstr "Banbuzko hesia"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:4
+msgid "Bamboo Fence Gate"
+msgstr "Banbuzko hesi-atea"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:5
+msgid "Bamboo Hanging Sign"
+msgstr "Banbuzko Seinale Zintzilikaria"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:6
+msgid "Bamboo Planks"
+msgstr "Banbuzko oholak"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:7
+msgid "Bamboo Pressure Plate"
+msgstr "Banbuzko presio-plaka"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:8
+msgid "Bamboo Sign"
+msgstr "Banbuzko kartela"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:9
+msgid "Bamboo Slab"
+msgstr "Banbuzko lauza"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:10
+msgid "Bamboo Stairs"
+msgstr "Banbuzko eskailerak"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:11
+msgid "Bamboo Trapdoor"
+msgstr "Banbuzko tranpola"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:67
+msgid "Bamboo"
+msgstr "Banbua"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:185
+msgid "Bamboo Plant"
+msgstr "Banbu landarea"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:190 mods/ITEMS/mcl_bamboo/nodes.lua:191
+msgid "Bamboo Mosaic Plank"
+msgstr "Banbuzko Mosaiko Ohola"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:204
+msgid "Bamboo Mosaic Stairs"
+msgstr "Banbuzko Mosaiko Eskailerak"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:210
+msgid "Bamboo Mosaic Slab"
+msgstr "Banbuzko Mosaiko Lauza"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:383
+msgid "Scaffolding"
+msgstr "Aldamioa"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:384
+msgid ""
+"Scaffolding is a temporary structure to easily climb up while building that "
+"is easily removed"
+msgstr ""
+"Aldamio bat egitura tenporal bat da, eraikuntzan zehar erraz igotzeko aukera "
+"ematen duena eta erraz ken daitekeena"
+
+#~ msgid "Scaffolding horizontal"
+#~ msgstr "Aldamio horizontalak"
+
+#~ msgid "Scaffolding block..."
+#~ msgstr "Aldamio-blokea..."

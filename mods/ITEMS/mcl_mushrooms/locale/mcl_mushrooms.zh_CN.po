@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_mushrooms x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:49
+msgid ""
+"This decorative block is like a huge mushroom stem, but with the stem "
+"texture on all sides."
+msgstr "这种装饰性方块就像一根巨大的蘑菇茎，不过它四面都带有茎的纹理。"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:107
+msgid ""
+"By placing huge mushroom blocks of the same species next to each other, the "
+"sides that touch each other will turn into pores permanently."
+msgstr ""
+"将同种类的巨大蘑菇方块彼此相邻放置时，相互接触的侧面会永久性地变成气孔。"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:166
+msgid ""
+"Huge red mushroom blocks are the cap parts of huge red mushrooms. It "
+"consists of a red skin and can have pores on each of its sides."
+msgstr ""
+"巨大的红色蘑菇方块是巨大红色蘑菇的菌盖部分，它由红色的表皮构成，每一面都可能"
+"有气孔。"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:167
+msgid "The stem part of a huge red mushroom."
+msgstr "巨大红色蘑菇的茎部。"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:168
+msgid "Huge Red Mushroom Block"
+msgstr "巨大红色蘑菇方块"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:168
+msgid "Huge Red Mushroom Stem"
+msgstr "巨大红色蘑菇茎"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:168
+msgid "Huge Red Mushroom All-Faces Stem"
+msgstr "巨大红色蘑菇全纹理茎"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:171
+msgid ""
+"Huge brown mushroom blocks are the cap parts of huge brown mushrooms. It "
+"consists of a brown skin and can have pores on each of its sides."
+msgstr ""
+"巨大的棕色蘑菇方块是巨大棕色蘑菇的菌盖部分，它由棕色的表皮构成，每一面都可能"
+"有气孔。"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:172
+msgid "The stem part of a huge brown mushroom."
+msgstr "巨大棕色蘑菇的茎部。"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:173
+msgid "Huge Brown Mushroom Block"
+msgstr "巨大棕色蘑菇方块"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:173
+msgid "Huge Brown Mushroom Stem"
+msgstr "巨大棕色蘑菇茎"
+
+#: mods/ITEMS/mcl_mushrooms/huge.lua:173
+msgid "Huge Brown Mushroom All-Faces Stem"
+msgstr "巨大棕色蘑菇全纹理茎"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:20
+msgid ""
+"Brown mushrooms are fungi which grow and spread in darkness, but are "
+"sensitive to light. They are inedible as such, but they can be used to craft "
+"food items."
+msgstr ""
+"棕色蘑菇是在黑暗中生长和蔓延的真菌，不过它们对光线敏感，本身不可食用，但可用"
+"于制作食物。"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:21
+msgid ""
+"Red mushrooms are fungi which grow and spread in darkness, but are sensitive "
+"to light. They are inedible as such, but they can be used to craft food "
+"items."
+msgstr ""
+"红色蘑菇是在黑暗中生长和蔓延的真菌，不过它们对光线敏感，本身不可食用，但可用"
+"于制作食物。"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:23
+msgid ""
+"A single mushroom of this species will slowly spread over time towards a "
+"random solid opaque block with a light level of 12 or lower in a 3×3×3 cube "
+"around the mushroom. It stops spreading when there are 5 or more mushrooms "
+"of the same species within an area of 9×3×9 blocks around the mushroom."
+msgstr ""
+"这种品种的单个蘑菇会随着时间的推移，慢慢朝着蘑菇周围3×3×3立方体内光照等级为12"
+"或更低的随机固体不透明方块扩散，当蘑菇周围9×3×9方块区域内有5个或更多同种类蘑"
+"菇时，它就会停止扩散。"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:24
+msgid ""
+"Mushrooms will eventually uproot at a light level of 12 or higher. On "
+"mycelium or podzol, they survive and spread at any light level."
+msgstr ""
+"蘑菇最终会在光照等级达到12或更高时连根拔起，在菌丝体或灰壤上，它们在任何光照"
+"等级下都能存活并扩散。"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:26
+msgid "Grows on podzol, mycelium and other blocks"
+msgstr "生长在灰壤、菌丝体及其他方块上"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:26
+msgid "Spreads in darkness"
+msgstr "在黑暗中扩散"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:28
+msgid ""
+"This mushroom can be placed on mycelium and podzol at any light level. It "
+"can also be placed on blocks which are both solid and opaque, as long as the "
+"light level at daytime is not higher than 12."
+msgstr ""
+"这种蘑菇可以放置在任何光照等级的菌丝体和灰壤上，只要白天光照等级不高于12，它"
+"也能放置在既坚固又不透明的方块上。"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:92 mods/ITEMS/mcl_mushrooms/small.lua:150
+msgid "Brown Mushroom"
+msgstr "棕色蘑菇"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:121
+#: mods/ITEMS/mcl_mushrooms/small.lua:156
+msgid "Red Mushroom"
+msgstr "红色蘑菇"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:161
+msgid "Mushroom Stew"
+msgstr "蘑菇汤"
+
+#: mods/ITEMS/mcl_mushrooms/small.lua:162
+msgid ""
+"Mushroom stew is a healthy soup which can be consumed to restore some hunger "
+"points."
+msgstr "蘑菇汤是一种健康的汤，食用后可恢复一些饥饿值。"

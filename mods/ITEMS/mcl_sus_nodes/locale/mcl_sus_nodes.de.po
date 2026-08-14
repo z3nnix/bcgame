@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_sus_nodes x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 18:07+0200\n"
+"PO-Revision-Date: 2026-05-01 08:57+0000\n"
+"Last-Translator: Fhelron <fhelron@noreply.codeberg.org>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_sus_nodes/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#: mods/ITEMS/mcl_sus_nodes/init.lua:344
+msgid "Suspicious "
+msgstr "Auffälliger "
+
+#: mods/ITEMS/mcl_sus_nodes/init.lua:434
+msgid "Brush"
+msgstr "Pinsel"
+
+#: mods/ITEMS/mcl_sus_nodes/init.lua:435
+msgid "Brushes are used in archeology to discover hidden items"
+msgstr ""
+"Pinsel werden in der Archäologie verwendet um versteckte Gegenstände zu "
+"finden"
+
+#: mods/ITEMS/mcl_sus_nodes/init.lua:436
+msgid "Use the brush on a suspicious node to uncover its secrets"
+msgstr ""
+"Benutze den Pinsel auf verdächtigem Sand, um die Geheimnisse aufzudecken"
+
+#: mods/ITEMS/mcl_sus_nodes/init.lua:456
+msgid "Suspicious Sand"
+msgstr "Verdächtiger Sand"
+
+#: mods/ITEMS/mcl_sus_nodes/init.lua:460
+msgid "Suspicious Gravel"
+msgstr ""

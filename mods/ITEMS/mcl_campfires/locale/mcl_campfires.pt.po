@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_campfires x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_campfires/api.lua:114 mods/ITEMS/mcl_campfires/api.lua:160
+msgid "Cooks food and keeps bees happy."
+msgstr "Cozinha comida e deixa as abelhas felizes."
+
+#: mods/ITEMS/mcl_campfires/api.lua:115 mods/ITEMS/mcl_campfires/api.lua:161
+msgid ""
+"Campfires have multiple uses, including keeping bees happy, cooking raw meat "
+"and fish, and as a trap."
+msgstr ""
+"Fogueiras tem vários usos, incluindo mantendo as abelhas felizes, cozinhar "
+"carne ou peixe cru, ou uma armadilha."
+
+#: mods/ITEMS/mcl_campfires/register.lua:5
+msgid "Campfire"
+msgstr "Fogueira"
+
+#: mods/ITEMS/mcl_campfires/register.lua:16
+msgid "Soul Campfire"
+msgstr "Fogueira de Almas"

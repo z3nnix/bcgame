@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-13 05:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: mods/ITEMS/mcl_heads/init.lua:260
+msgid "Zombie Head"
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:261
+msgid ""
+"A zombie head is a small decorative block which resembles the head of a "
+"zombie. It can also be worn as a helmet, which reduces the detection range "
+"of zombies by 50%."
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:270
+msgid "Creeper Head"
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:271
+msgid ""
+"A creeper head is a small decorative block which resembles the head of a "
+"creeper. It can also be worn as a helmet, which reduces the detection range "
+"of creepers by 50%."
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:281
+msgid "Human Head"
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:282
+msgid ""
+"A human head is a small decorative block which resembles the head of a human "
+"(i.e. a player character). It can also be worn as a helmet for fun, but does "
+"not offer any protection."
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:289
+msgid "Skeleton Skull"
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:290
+msgid ""
+"A skeleton skull is a small decorative block which resembles the skull of a "
+"skeleton. It can also be worn as a helmet, which reduces the detection range "
+"of skeletons by 50%."
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:299
+msgid "Wither Skeleton Skull"
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:300
+msgid ""
+"A wither skeleton skull is a small decorative block which resembles the "
+"skull of a wither skeleton. It can also be worn as a helmet for fun, but "
+"does not offer any protection."
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:309
+msgid "Piglin Head"
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:310
+msgid ""
+"A piglin head is a small decorative block which resembles the head of a "
+"piglin. It can also be worn as a helmet, which reduces the detection range "
+"of piglins by 50%."
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:332
+msgid "Dragon Head"
+msgstr ""
+
+#: mods/ITEMS/mcl_heads/init.lua:333
+msgid ""
+"A dragon head is a decorative block which resembles the head of a dragon. It "
+"can also be worn as a helmet."
+msgstr ""

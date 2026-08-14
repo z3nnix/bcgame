@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_end x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_end/building.lua:5
+msgid "End Stone"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:17
+msgid "End Stone Bricks"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:29
+msgid "Purpur Block"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:40
+msgid "Purpur Pillar"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:55
+msgid "End Rod"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:56
+msgid "End rods are decorative light sources."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:130
+msgid "Dragon Egg"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:131
+msgid "A dragon egg is a decorative item which can be placed."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:181
+msgid "End Stone Brick Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:182
+msgid "End Stone Brick Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:188
+msgid "Purpur Stairs"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/building.lua:189
+msgid "Purpur Slab"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:114
+msgid "Chorus Flower"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:115
+msgid "Grows on end stone"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:116
+msgid ""
+"A chorus flower is the living part of a chorus plant. It can grow into a "
+"tall chorus plant, step by step. When it grows, it may die on old age "
+"eventually. It also dies when it is unable to grow."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:117
+msgid ""
+"Place it and wait for it to grow. It can only be placed on top of end stone, "
+"on top of a chorus plant stem, or at the side of exactly one chorus plant "
+"stem."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:208
+msgid "Dead Chorus Flower"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:209
+msgid ""
+"This is a part of a chorus plant. It doesn't grow. Chorus flowers die of old "
+"age or when they are unable to grow. A dead chorus flower can be harvested "
+"to obtain a fresh chorus flower which is able to grow again."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:243
+msgid "Chorus Plant Stem"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:244
+msgid ""
+"A chorus plant stem is the part of a chorus plant which holds the whole "
+"plant together. It needs end stone as its soil. Stems are grown from chorus "
+"flowers."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:245
+msgid "The stem attaches itself to end stone and other chorus blocks."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:544
+msgid "Chorus Fruit"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:545
+msgid "Randomly teleports you when eaten"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:546
+msgid ""
+"A chorus fruit is an edible fruit from the chorus plant which is home to the "
+"End. Eating it teleports you to the top of a random solid block nearby, "
+"provided you won't end up inside a liquid, solid or harmful blocks. "
+"Teleportation might fail if there are very few or no places to teleport to."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/chorus_plant.lua:559
+msgid "Popped Chorus Fruit"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/end_crystal.lua:199
+msgid "End Crystal"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/end_crystal.lua:219
+msgid "Ignited by a punch or a hit with an arrow"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/end_crystal.lua:219
+msgid "Explosion power: @1"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/end_crystal.lua:220
+msgid ""
+"End Crystals are explosive devices. They can be placed on Obsidian or "
+"Bedrock. Ignite them by a punch or a hit with an arrow. End Crystals can "
+"also be used the spawn the Ender Dragon by placing one at each side of the "
+"End Exit Portal."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/end_crystal.lua:221
+msgid ""
+"Place the End Crystal on Obsidian or Bedrock, then punch it or hit it with "
+"an arrow to cause an huge and probably deadly explosion. To Spawn the Ender "
+"Dragon, place one at each side of the End Exit Portal."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/eye_of_ender.lua:145
+msgid "Eye of Ender"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/eye_of_ender.lua:146
+msgid "Guides the way to the mysterious End dimension"
+msgstr ""
+
+#: mods/ITEMS/mcl_end/eye_of_ender.lua:147
+msgid ""
+"This item is used to locate End portal shrines in the Overworld and to "
+"activate End portals."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/eye_of_ender.lua:147
+msgid ""
+"NOTE: The End dimension is currently incomplete and might change in future "
+"versions."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/eye_of_ender.lua:148
+msgid ""
+"Use the attack key to release the eye of ender. It will rise and fly in the "
+"horizontal direction of the closest end portal shrine. If you're very close, "
+"the eye of ender will take the direct path to the End portal shrine instead. "
+"After a few seconds, it stops. It may drop as an item, but there's a 20% "
+"chance it shatters."
+msgstr ""
+
+#: mods/ITEMS/mcl_end/eye_of_ender.lua:148
+msgid ""
+"To activate an End portal, eyes of ender need to be placed into each block "
+"of an intact End portal frame."
+msgstr ""

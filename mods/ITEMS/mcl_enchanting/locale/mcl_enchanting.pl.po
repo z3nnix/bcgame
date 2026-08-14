@@ -1,0 +1,441 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_enchanting x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:15
+msgid "Bane of Arthropods"
+msgstr "Zmora stawonogów"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:21
+msgid ""
+"Increases damage and applies Slowness IV to arthropod mobs (spiders, cave "
+"spiders, silverfish and endermites)."
+msgstr ""
+"Zwiększa obrażenia i aplikuje Spowolnienie IV stawonogom (pająkom, pająkom "
+"jaskiniowym, rybikom cukrowym i endermitom)."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:30
+msgid "Channeling"
+msgstr "Przekierowanie"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:34
+msgid ""
+"Channels a bolt of lightning toward a target. Works only during "
+"thunderstorms and if target is unobstructed with opaque blocks."
+msgstr ""
+"Przekierowuje błyskawicę w stronę celu. Działa tylko podczas burz jeśli cel "
+"nie jest zasłonięty przez nieprzezroczyste bloki."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:43
+msgid "Curse of Vanishing"
+msgstr "Klątwa znikania"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:46
+msgid "Item destroyed on death."
+msgstr "Przedmiot niszczony przy śmierci."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:58
+msgid "Depth Strider"
+msgstr "Głębinowy wędrowiec"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:64
+msgid "Increases underwater movement speed."
+msgstr "Zwiększa prędkość poruszania pod wodą."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:110
+msgid "Efficiency"
+msgstr "Wydajność"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:115
+msgid "Increases mining speed."
+msgstr "Zwiększa prędkość wydobywania zasobów."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:128
+msgid "Fire Aspect"
+msgstr "Zaklęty ogień"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:132
+msgid "Sets target on fire."
+msgstr "Podpala cel."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:150
+msgid "Flame"
+msgstr "Płomień"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:153
+msgid "Arrows set target on fire."
+msgstr "Strzały podpalają cel."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:162
+msgid "Fortune"
+msgstr "Fortuna"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:167
+msgid "Increases certain block drops."
+msgstr ""
+"Zwiększa prawdopodobieństwo wypadnięcia przedmiotów z niektórych bloków."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:176
+msgid "Frost Walker"
+msgstr "Mroźny piechur"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:182
+msgid ""
+"Turns water beneath the player into frosted ice and prevents the damage from "
+"magma blocks."
+msgstr ""
+"Zamienia wodę pod graczem w oszroniony lód i pozwala uniknąć obrażeń od "
+"bloków magmy."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:209
+msgid "Impaling"
+msgstr "Przebicie"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:213
+msgid "Trident deals additional damage to ocean mobs."
+msgstr "Trójząb zadaje dodatkowe obrażenia podwodnym stworzeniom."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:222
+msgid "Infinity"
+msgstr "Nieskończoność"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:226
+msgid "Shooting consumes no regular arrows."
+msgstr "Strzelanie nie zużywa zwykłych strzał."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:235
+msgid "Knockback"
+msgstr "Odrzut"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:239
+msgid "Increases knockback."
+msgstr "Zwiększa odrzut."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:253
+msgid "Looting"
+msgstr "Grabież"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:257
+msgid "Increases mob loot."
+msgstr "Zwiększa liczbę przedmiotów wypadających z mobów."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:265
+msgid "Loyalty"
+msgstr "Lojalność"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:270
+msgid "Trident returns after being thrown. Higher levels reduce return time."
+msgstr ""
+"Trydent wraca do gracza po rzuceniu. Większy poziom zmniejsza czas powrotu."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:279
+msgid "Luck of the Sea"
+msgstr "Morska fortuna"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:283
+msgid "Increases rate of good loot (enchanting books, etc.)"
+msgstr ""
+"Zwiększa szansę na wypadnięcie dobrych przedmiotów (zaklętych książek itp.)"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:292
+msgid "Lure"
+msgstr "Przynęta"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:296
+msgid "Decreases time until rod catches something."
+msgstr "Zmniejsza czas, po którym coś złapie się na wędkę."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:305
+msgid "Mending"
+msgstr "Naprawa"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:309
+msgid "Repair the item while gaining XP orbs."
+msgstr "Naprawia przedmiot podczas podnoszenia kul doświadczenia."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:371
+msgid "Multishot"
+msgstr "Wielostrzał"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:375
+msgid "Shoot 3 arrows at the cost of one."
+msgstr "Wystrzel 3 strzały kosztem jednej."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:383
+msgid "Piercing"
+msgstr "Przeszycie"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:388
+msgid "Arrows passes through multiple objects."
+msgstr "Strzała przelatuje przez wiele obiektów."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:397
+msgid "Power"
+msgstr "Moc"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:401
+msgid "Increases arrow damage."
+msgstr "Zwiększa obrażenia od strzał."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:410
+msgid "Punch"
+msgstr "Uderzenie"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:414
+msgid "Increases arrow knockback."
+msgstr "Zwiększa odrzut strzał."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:422
+msgid "Quick Charge"
+msgstr "Szybkie ładowanie"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:426
+msgid "Decreases crossbow charging time."
+msgstr "Zmniejsza czas ładowania kuszy."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:435
+msgid "Respiration"
+msgstr "Oddychanie"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:440
+msgid "Extends underwater breathing time."
+msgstr "Zwiększa czas na który można wstrzymać oddech pod wodą."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:448
+msgid "Riptide"
+msgstr "Torpeda"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:453
+msgid ""
+"Trident launches player with itself when thrown. Works only in water or rain."
+msgstr ""
+"Trydent porywa gracza ze sobą podczas rzucania. Działa tylko w wodzie lub w "
+"deszczu."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:462
+msgid "Sharpness"
+msgstr "Ostrość"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:468
+msgid "Increases damage."
+msgstr "Zwiększa obrażenia."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:478
+msgid "Silk Touch"
+msgstr "Jedwabny dotyk"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:483
+msgid "Mined blocks drop themselves."
+msgstr "Z wydobywanych bloków wypadają one same."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:492
+msgid "Smite"
+msgstr "Pogromca nieumarłych"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:498
+msgid "Increases damage to undead mobs."
+msgstr "Zwiększa obrażenia zadawane nieumarłym mobom."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:508
+msgid "Soul Speed"
+msgstr "Prędkość dusz"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:514
+msgid "Increases walking speed on soul sand."
+msgstr "Zwiększa szybkość chodzenia po piasku dusz."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:538
+msgid "Unbreaking"
+msgstr "Niezniszczalność"
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:544
+msgid "Increases item durability."
+msgstr "Zwiększa wytrzymałość przedmiotu."
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:568
+msgid "Density"
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:574
+msgid "Increases mace damage when falling."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:584
+msgid "Breach"
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:590
+msgid "Reduces target's armor effectiveness."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:600
+msgid "Wind Burst"
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/enchantments.lua:605
+msgid "Emits a burst of wind from a mace smash attack."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:85
+#: mods/ITEMS/mcl_enchanting/engine.lua:93
+msgid "Unknown Enchantment"
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:604
+msgid "Inventory"
+msgstr "Ekwipunek"
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:633
+msgid "@1 Enchantment Levels"
+msgstr "@1 poziomów zaklęcia"
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:635
+msgid "Level requirement: @1"
+msgstr "Wymagany poziom: @1"
+
+#: mods/ITEMS/mcl_enchanting/engine.lua:654
+msgid "@1 Lapis Lazuli"
+msgstr "@1 Lazurytów"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:66
+msgid "Enchant an item"
+msgstr "Zaczaruj przedmiot"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:67 mods/ITEMS/mcl_enchanting/init.lua:109
+msgid "<player> <enchantment> [<level>]"
+msgstr "<gracz> <zaklęcie> [<poziom>]"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:76
+msgid "Usage: /enchant <player> <enchantment> [<level>]"
+msgstr "Użycie: /enchant <gracz> <zaklęcie> [<poziom>]"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:80 mods/ITEMS/mcl_enchanting/init.lua:122
+msgid "Player '@1' cannot be found."
+msgstr "Gracz '@1' nie został znaleziony."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:86 mods/ITEMS/mcl_enchanting/init.lua:127
+msgid "There is no such enchantment '@1'."
+msgstr "Nie ma takiego zaklęcia '@1'."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:88 mods/ITEMS/mcl_enchanting/init.lua:129
+msgid "The target doesn't hold an item."
+msgstr "Cel nie trzyma żadnego przedmiotu."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:90
+msgid "The selected enchantment can't be added to the target item."
+msgstr ""
+"Wybrane zaklęcie nie może zostać zaaplikowane do docelowego przedmiotu."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:92
+msgid "'@1' is not a valid number"
+msgstr "'@1' nie jest poprawną liczbą"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:94
+msgid "The number you have entered (@1) is too big, it must be at most @2."
+msgstr ""
+"Liczba którą wpisałaś (@1) jest zbyt duża, nie może być większa niż @2."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:96
+msgid "The number you have entered (@1) is too small, it must be at least @2."
+msgstr ""
+"Liczba którą wpisałaś (@1) jest zbyt mała, nie może być mniejsza niż @2."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:98
+msgid "@1 can't be combined with @2."
+msgstr "@1 nie może być połączone z @2."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:102
+#: mods/ITEMS/mcl_enchanting/init.lua:136
+msgid "Enchanting succeded."
+msgstr "Zaklinanie powiodło się."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:108
+msgid "Forcefully enchant an item"
+msgstr "Bezwzględnie zaczaruj przedmiot"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:118
+msgid "Usage: /forceenchant <player> <enchantment> [<level>]"
+msgstr "Użycie: /forceenchant <gracz> <zaklęcie> [<poziom>]"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:131
+msgid "The target item is not enchantable."
+msgstr "Docelowego przedmiotu nie można zaczarować."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:133
+msgid "'@1' is not a valid number."
+msgstr "'@1' nie jest poprawną liczbą."
+
+#: mods/ITEMS/mcl_enchanting/init.lua:142
+msgid "Enchanted Book"
+msgstr "Zaklęta książka"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:232
+msgid "Enchanting Table"
+msgstr "Stół do zaklinania"
+
+#: mods/ITEMS/mcl_enchanting/init.lua:233
+msgid "Spend experience, and lapis to enchant various items."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:234
+msgid ""
+"Enchanting Tables will let you enchant armors, tools, weapons, and books "
+"with various abilities. But, at the cost of some experience, and lapis "
+"lazuli."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:236
+msgid "Rightclick the Enchanting Table to open the enchanting menu."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:237
+msgid ""
+"Place a tool, armor, weapon or book into the top left slot, and then place "
+"1-3 Lapis Lazuli in the slot to the right."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:238
+msgid ""
+"After placing your items in the slots, the enchanting options will be shown. "
+"Hover over the options to read what is available to you."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:239
+msgid ""
+"These options are randomized, and dependent on experience level; but the "
+"enchantment strength can be increased."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:240
+msgid ""
+"To increase the enchantment strength, place bookshelves around the "
+"enchanting table. However, you will need to keep 1 air node between the "
+"table, & the bookshelves to empower the enchanting table."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:241
+msgid ""
+"After finally selecting your enchantment; left-click on the selection, and "
+"you will see both the lapis lazuli and your experience levels consumed. And, "
+"an enchanted item left in its place."
+msgstr ""
+
+#: mods/ITEMS/mcl_enchanting/init.lua:258
+msgid "Enchant"
+msgstr "Zaczaruj"
+
+#~ msgid "Sweeping Edge"
+#~ msgstr "Szerokie ostrze"
+
+#~ msgid "Increases sweeping attack damage."
+#~ msgstr "Zwiększa obrażenia przy ataku z zamachu."

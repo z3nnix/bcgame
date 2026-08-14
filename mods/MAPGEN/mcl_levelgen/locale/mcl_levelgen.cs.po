@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_levelgen x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-30 22:52+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:157
+msgid "Structure Void"
+msgstr "Prázdná struktura"
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:158
+msgid "Enables structures not to replace existing level contents"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:159
+msgid ""
+"The presence of a structure void block in a structure template indicates to "
+"the level generator that the contents of the level at the position it "
+"occupies mustn't be replaced while the template is being generated.\n"
+"\n"
+"Structure Void nodes are normally invisible unless a Structure Void item is "
+"wielded, in which event any Structure Void blocks near the wielder will be "
+"revealed by particles containing its item image."
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:254
+msgid "Structure Block"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:255
+msgid "Saves, generates, or records structure data"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:256
+msgid ""
+"A structure block is an administrative and programmer block which enables "
+"existing constructs in a map to be recorded for subsequent reuse by "
+"generated structures, and records thereof to be recreated at other positions "
+"in various maps.  Structure blocks alternate between several modes of "
+"operation, each with a unique formspec that reflects its purpose, and which "
+"can be cycled through by a button on the bottom-left corner of each "
+"formspec, to wit:\n"
+"\n"
+"- Load Mode:\n"
+"\n"
+"  Preview or load a structure identified in the Structure Name field of the "
+"formspec as prescribed by the Relative Position, Rotation, and Mirroring "
+"options provided in the formspec.  The first invocation of \"LOAD\" will "
+"load and display an outline of the template's destination position and "
+"extents with all aforementioned options applied, and subsequent invocations "
+"will load the template into the map within those extents.\n"
+"\n"
+"- Save Mode:\n"
+"\n"
+"  Record a portion of the map whose extents are specified by the Relative "
+"Position and Structure Size fields of the formspec into a structure template "
+"identified by the said formspec's Structure Name field and stored as a file "
+"with the extension `.dat' within a `templates' subdirectory of the world "
+"save directory.\n"
+"\n"
+"  Optionally, the Relative Position and Structure Size fields may be derived "
+"from two or more Structure Corner blocks with identical Structure Name "
+"fields placed around the corners or extents of a construct to be recorded, "
+"and selecting \"Detect Structure Size and Position\".\n"
+"\n"
+"- Corner Mode:\n"
+"\n"
+"  Mark the extents of a portion of the map to be recorded by another "
+"structure block in Save mode with an identical value in its Structure Name "
+"field within an 80x80x80 region of this structure block.\n"
+"\n"
+"  The extents occupied by all matching corners within distance are "
+"interpreted as the extents of such a region outset by a single node; a "
+"minimum of two such corners is required to establish a structure's position "
+"and dimensions.\n"
+"\n"
+"All coordinates and/or offsets are expected to be stated in Minecraft's "
+"coordinate system, which principally differs from Luanti's in the inversion "
+"of the Z axis.  When a recorded or loaded, certain blocks and their metadata "
+"carry a special significance and are not always reproduced faithfully from a "
+"structure template's data.  These include Structure Void blocks, Jigsaw "
+"Blocks (only when loaded during jigsaw block expansion), and any structure "
+"blocks in an internal Data Mode."
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:406
+msgid "Template name is not specified"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:415
+msgid "Template `@1' is not available: @2"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:520
+msgid "Invalid dimensions: @1,@2,@3"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:574
+msgid "Metadata storage limit exceeded"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:612
+msgid "Creating file @1: @2"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:802
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:916
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:1016
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:1057
+msgid "`server' privileges are required to utilize structure blocks"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:961
+msgid ""
+"Unable to detect structure size.  Add corners with matching structure names."
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:1217
+msgid "Jigsaw Block"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:1218
+msgid "Facilitates generation of multiple-piece structures"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/jigsaw.lua:1352
+msgid "`server' privileges are required to interact with jigsaw blocks"
+msgstr ""
+
+#. ~= 0 then
+#. print ("Nonempty structuremask",
+#. structuremask[1],
+#. structuremask[2],
+#. structuremask[3])
+#. break
+#. end
+#. end
+#. end
+#. Retain the heightmap assignments of
+#. existing MapBlocks.
+#. But write a heightmap as soon as it
+#. is referenced by a MapBlock.
+#. Heightmap is written twice;
+#. the second map is assigned
+#. an ID 1 MapBlock greater
+#. than the first, which is
+#. never altered and as such
+#. always represents the
+#. terrain of the world at the
+#. time of generation.
+#. Assign this structure mask to this
+#. MapBlock's generation data list.
+#. print ("Writing heightmap " .. id)
+#. print ("Writing heightmap " .. id)
+#. Bit 31 indicates that the true value of `surface' is only
+#. known to be an indeterminate value between the value
+#. returned and the bottom of the level.  Bit 32 means the
+#. same of `motion_blocking'.
+#. Bit 29 indicates that the true value of `surface' is only
+#. known to be an indeterminate value between the value
+#. returned and the bottom of the level.  Bit 30 means the
+#. same of `motion_blocking'.  Bit 31 means that `surface' has
+#. changed; bit 32 means that of `motion_blocking'.
+#. Transform output coordinates.
+#. Transform heightmap coordinates.
+#. Write transformed data into the destination heightmap.
+#. Load any structure masks that intersect the run.
+#. Construct an empty heightmap if this MapBlock is
+#. outside the Luanti map.
+#. Create heightmaps REQUIRED_CONTEXT_XZ * 2 + 1 Minecraft chunks in
+#. width and length for the run RUN, represented in the Minecraft
+#. coordinate system.  Value is the heightmap representing the current
+#. and potentially modified state of the level followed by that which
+#. represents the state of the level at the time of generation.
+#.
+#. Additionally return any structure masks intersecting the run.
+#. Reconciliation of divergent heightmaps.
+#.
+#. Vertically separated runs should be prevented from writing outdated
+#. values to the heightmap.  As runs cannot modify content beyond the
+#. the accessible region of the level, reconciling modifications where
+#. the heightmap value increases is trivial--simply a matter of taking
+#. the greater of the two values.  If a value is reduced, the
+#. reduction must only be applied if the previous value sits within
+#. the region locked by the run whose modifications are being applied,
+#. for otherwise the heightmap has been altered by another run with a
+#. higher accessible region or the code that corrects heightmaps is
+#. defective and has overstepped the run's confines (and in neither
+#. case is it desirable to apply the changes).
+#. Transform output coordinates.
+#. Reject out of bounds heightmaps.
+#. Transform heightmap coordinates.
+#. Restore transformed data from the destination heightmap.
+#. Must only apply these modifications
+#. if RUN was in a position to edit
+#. the previous value.
+#. ----------------------------------------------------------------------
+#. Biome provisioning.
+#. ----------------------------------------------------------------------
+#. Return a table of every biome data string of a MapBlock in RUN
+#. indexed by MapBlock hash including its context.  Coordinates in
+#. this table are expected to be represented in Luanti's standard
+#. coordinate system.
+#. ----------------------------------------------------------------------
+#. Debug HUD.
+#. ----------------------------------------------------------------------
+#: mods/MAPGEN/mcl_levelgen/post_processing.lua:3062
+msgid "Enable or disable the level generation HUD"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/post_processing.lua:3114
+msgid "@1 structure piece(s) were (re-)inserted into the structure database"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/post_processing.lua:3121
+msgid "Regenerate nearby structure pieces for a structure set"
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/post_processing.lua:3124
+msgid "The structure database is currently being repaired.  Please wait."
+msgstr ""
+
+#: mods/MAPGEN/mcl_levelgen/post_processing.lua:3137
+msgid "No level contains the position @1,@2,@3"
+msgstr ""

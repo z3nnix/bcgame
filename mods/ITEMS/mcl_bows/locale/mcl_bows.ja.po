@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_bows x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-07-10 00:07+0000\n"
+"Last-Translator: baka_bo <baka_bo@noreply.codeberg.org>\n"
+"Language-Team: Japanese <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_bows/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/ITEMS/mcl_bows/arrow.lua:50
+msgid "Arrow"
+msgstr "矢"
+
+#: mods/ITEMS/mcl_bows/arrow.lua:51
+msgid "Ammunition"
+msgstr "弾"
+
+#: mods/ITEMS/mcl_bows/arrow.lua:51
+msgid "Damage from bow: 1-10"
+msgstr "弓によるダメージ：1-10"
+
+#: mods/ITEMS/mcl_bows/arrow.lua:51
+msgid "Damage from dispenser: 3"
+msgstr "ディスペンサーによるダメージ：3"
+
+#: mods/ITEMS/mcl_bows/arrow.lua:52
+msgid "Arrows are ammunition for bows and dispensers."
+msgstr "矢は、弓やディスペンサーの弾です。"
+
+#: mods/ITEMS/mcl_bows/arrow.lua:53
+msgid ""
+"An arrow fired from a bow has a regular damage of 1-9. At full charge, "
+"there's a 20% chance of a critical hit dealing 10 damage instead. An arrow "
+"fired from a dispenser always deals 3 damage."
+msgstr ""
+"弓から放たれる矢は通常1～9のダメージです。最大タメで20%の確率でクリティカル"
+"ヒットが発生し、代わりに10ダメージを与えます。ディスペンサーから発射された矢"
+"は、常に3ダメージを与えます。"
+
+#: mods/ITEMS/mcl_bows/arrow.lua:54
+msgid ""
+"Arrows might get stuck on solid blocks and can be retrieved again. They are "
+"also capable of pushing wooden buttons."
+msgstr ""
+"矢は、固体のブロックに刺さる可能性があり、その場合は回収できます。また、木製"
+"のボタンも押せます。"
+
+#: mods/ITEMS/mcl_bows/arrow.lua:55
+msgid ""
+"To use arrows as ammunition for a bow, just put them anywhere in your "
+"inventory, they will be used up automatically. To use arrows as ammunition "
+"for a dispenser, place them in the dispenser's inventory. To retrieve an "
+"arrow that sticks in a block, simply walk close to it."
+msgstr ""
+"矢を弓の弾として使うには、インベントリのどこかに入れるだけでよく、使い切るま"
+"で自動的に装填されます。矢をディスペンサーの弾薬として使用するには、ディスペ"
+"ンサーのインベントリに入れます。ブロックに刺さった矢を回収するには、ブロック"
+"の近くまで歩くだけです。"
+
+#: mods/ITEMS/mcl_bows/bow.lua:158 mods/ITEMS/mcl_bows/bow.lua:224
+msgid "Bow"
+msgstr "弓"
+
+#: mods/ITEMS/mcl_bows/bow.lua:159 mods/ITEMS/mcl_bows/crossbow.lua:143
+#: mods/ITEMS/mcl_bows/crossbow.lua:173
+msgid "Launches arrows"
+msgstr "矢を発射"
+
+#: mods/ITEMS/mcl_bows/bow.lua:160
+msgid "Bows are ranged weapons to shoot arrows at your foes."
+msgstr "弓は、敵に矢を射るための遠距離武器です。"
+
+#: mods/ITEMS/mcl_bows/bow.lua:161 mods/ITEMS/mcl_bows/crossbow.lua:145
+#: mods/ITEMS/mcl_bows/crossbow.lua:175
+msgid ""
+"The speed and damage of the arrow increases the longer you charge. The "
+"regular damage of the arrow is between 1 and 9. At full charge, there's also "
+"a 20% of a critical hit, dealing 10 damage instead."
+msgstr ""
+"矢の速度とダメージは、タメ時間が長いほど増加します。通常の矢のダメージは1～9"
+"です。最大タメ時には20%の確率でクリティカルヒットすることがあり、その場合は代"
+"わりに10ダメージを与えます。"
+
+#: mods/ITEMS/mcl_bows/bow.lua:162
+msgid ""
+"To use the bow, you first need to have at least one arrow anywhere in your "
+"inventory (unless in Creative Mode). Hold down the right mouse button (or "
+"the zoom key) to charge, release to shoot."
+msgstr ""
+"弓を使うには、まずインベントリ内に矢が1本以上必要です（クリエイティブモードを"
+"除く）。右クリック（またはズームキー）を長押しして引き絞り、離すと矢を放ちま"
+"す。"
+
+#: mods/ITEMS/mcl_bows/crossbow.lua:142 mods/ITEMS/mcl_bows/crossbow.lua:172
+#: mods/ITEMS/mcl_bows/crossbow.lua:235
+msgid "Crossbow"
+msgstr "クロスボウ"
+
+#: mods/ITEMS/mcl_bows/crossbow.lua:144 mods/ITEMS/mcl_bows/crossbow.lua:174
+msgid "Crossbows are ranged weapons to shoot arrows at your foes."
+msgstr "クロスボウは、敵に矢を射るための遠距離武器です。"
+
+#: mods/ITEMS/mcl_bows/crossbow.lua:146
+msgid ""
+"To use the crossbow, you first need to have at least one arrow anywhere in "
+"your inventory (unless in Creative Mode). Hold down the right mouse button "
+"(or zoom key) to charge, release to load an arrow into the chamber, then to "
+"shoot press left mouse."
+msgstr ""
+"クロスボウを使うには、まずインベントリ内に矢が1本以上必要です（"
+"クリエイティブモードを除く）。右クリック（またはズームキー）を長押しして装填"
+"し、ボタンを離すと矢をセットします。その後、左クリックで発射します。"
+
+#: mods/ITEMS/mcl_bows/crossbow.lua:176
+msgid ""
+"To use the crossbow, you first need to have at least one arrow anywhere in "
+"your inventory (unless in Creative Mode). Hold down the right mouse button "
+"to charge, release to load an arrow into the chamber, then to shoot press "
+"left mouse."
+msgstr ""
+"クロスボウを使うには、まずインベントリ内に矢が1本以上必要です（"
+"クリエイティブモードを除く）。右クリックを長押しして装填し、ボタンを離すと矢"
+"をセットします。その後、左クリックで発射します。"

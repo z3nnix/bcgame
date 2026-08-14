@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 18:07+0200\n"
+"PO-Revision-Date: 2026-06-14 12:07+0000\n"
+"Last-Translator: AndrewHK <andrewhk@noreply.codeberg.org>\n"
+"Language-Team: Vietnamese <https://translate.codeberg.org/projects/"
+"mineclonia/mcl_fences/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/ITEMS/mcl_fences/init.lua:75
+msgid ""
+"Fences are structures which block the way. Fences will connect to each other "
+"and solid blocks. They cannot be jumped over with a simple jump."
+msgstr ""
+"Hàng rào là công trình chắn đường. Chúng sẽ nối vào các hàng rào khác và các "
+"khối đầy đủ. Bạn không thể nhảy qua hàng rào chỉ với một cú nhảy."
+
+#: mods/ITEMS/mcl_fences/init.lua:100
+msgid "Openable by players and redstone power"
+msgstr "Có thể mở bởi người chơi và tín hiệu redstone"
+
+#: mods/ITEMS/mcl_fences/init.lua:101
+msgid ""
+"Fence gates can be opened or closed and can't be jumped over. Fences will "
+"connect nicely to fence gates."
+msgstr ""
+"Cổng rào có thể được mở hoặc đóng và không thể bị nhảy qua. Hàng rào sẽ tự "
+"mượt mà nối vào cổng."
+
+#: mods/ITEMS/mcl_fences/init.lua:102
+msgid "Right-click the fence gate to open or close it."
+msgstr "Nhấn chuột phải vào cổng để mở hoặc đóng nó."

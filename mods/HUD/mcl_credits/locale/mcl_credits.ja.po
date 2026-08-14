@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_credits x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-06 22:12+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HUD/mcl_credits/init.lua:6
+msgid "A faithful Open Source clone of Minecraft"
+msgstr "オープンソースによるマインクラフトの忠実なクローン"
+
+#: mods/HUD/mcl_credits/init.lua:41
+msgid "Sneak to skip"
+msgstr "スニークでスキップ"
+
+#: mods/HUD/mcl_credits/init.lua:50
+msgid "Jump to speed up (additionally sprint)"
+msgstr "ジャンプでスピードアップ（追加で疾走）"
+
+#: mods/HUD/mcl_credits/init.lua:152
+msgid "Show the Mineclonia end credits"
+msgstr "MineClonia のエンドクレジットを再生"
+
+#: mods/HUD/mcl_credits/people.lua:5
+msgid "Creators of Mineclonia"
+msgstr "MineClonia の創始者"
+
+#: mods/HUD/mcl_credits/people.lua:9
+msgid "Creator of MineClone 2"
+msgstr "MineClone 2 の創始者"
+
+#: mods/HUD/mcl_credits/people.lua:12
+msgid "Creator of MineClone"
+msgstr "MineClone の創始者"
+
+#: mods/HUD/mcl_credits/people.lua:15
+msgid "Active Contributors"
+msgstr "最近の貢献者"
+
+#: mods/HUD/mcl_credits/people.lua:31
+msgid "Previous Contributors"
+msgstr "過去の貢献者"
+
+#: mods/HUD/mcl_credits/people.lua:78
+msgid "Original Mod Authors"
+msgstr "オリジナルMODの作者"
+
+#: mods/HUD/mcl_credits/people.lua:110
+msgid "3D Models"
+msgstr "3Dモデル"
+
+#: mods/HUD/mcl_credits/people.lua:116
+msgid "Textures and menu images"
+msgstr "テクスチャとメニュー画像"
+
+#: mods/HUD/mcl_credits/people.lua:140
+msgid "Translations"
+msgstr "翻訳"
+
+#: mods/HUD/mcl_credits/people.lua:215
+msgid "Special thanks"
+msgstr "スペシャルサンクス"

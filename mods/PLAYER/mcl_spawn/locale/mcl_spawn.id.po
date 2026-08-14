@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_spawn x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/PLAYER/mcl_spawn/init.lua:107
+msgid "Respawn position cleared!"
+msgstr ""
+
+#: mods/PLAYER/mcl_spawn/init.lua:146
+msgid "New respawn position set!"
+msgstr ""
+
+#: mods/PLAYER/mcl_spawn/init.lua:169
+msgid "Couldn't get level of your respawn anchor!"
+msgstr ""
+
+#: mods/PLAYER/mcl_spawn/init.lua:180
+msgid ""
+"Your spawn bed was missing or blocked, and you had no charged respawn anchor!"
+msgstr ""

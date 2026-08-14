@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-01-18 15:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_mud/init.lua:4
+msgid "Mud"
+msgstr ""
+
+#: mods/ITEMS/mcl_mud/init.lua:5
+msgid ""
+"Mud is a decorative block that generates in mangrove swamps. Mud can also be "
+"obtained by using water bottles on dirt or coarse dirt."
+msgstr ""
+
+#: mods/ITEMS/mcl_mud/init.lua:24
+msgid "Packed Mud"
+msgstr ""
+
+#: mods/ITEMS/mcl_mud/init.lua:25
+msgid "Packed mud is a decorative block used to craft mud bricks."
+msgstr ""
+
+#: mods/ITEMS/mcl_mud/init.lua:37
+msgid "Mud Bricks"
+msgstr ""
+
+#: mods/ITEMS/mcl_mud/init.lua:38
+msgid "Decorative block crafted from packed mud."
+msgstr ""
+
+#: mods/ITEMS/mcl_mud/init.lua:50
+msgid "Mud Brick Stair"
+msgstr ""
+
+#: mods/ITEMS/mcl_mud/init.lua:51
+msgid "Mud Brick Slab"
+msgstr ""

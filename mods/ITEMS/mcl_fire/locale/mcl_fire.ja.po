@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_fire x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_fire/fire_charge.lua:5
+msgid "Fire Charge"
+msgstr "発火弾"
+
+#: mods/ITEMS/mcl_fire/fire_charge.lua:6
+msgid "Dispenser projectile"
+msgstr "ディスペンサーの発射体"
+
+#: mods/ITEMS/mcl_fire/fire_charge.lua:6
+#: mods/ITEMS/mcl_fire/flint_and_steel.lua:6
+msgid "Starts fires and ignites blocks"
+msgstr "火起こしやブロックへの着火"
+
+#: mods/ITEMS/mcl_fire/fire_charge.lua:7
+msgid ""
+"Fire charges are primarily projectiles which can be launched from "
+"dispensers, they will fly in a straight line and burst into a fire on "
+"impact. Alternatively, they can be used to ignite fires directly."
+msgstr ""
+"発火弾は、主に発射体としてディスペンサーから射出するもので、一直線に飛んでい"
+"き着弾した場所に火を着けます。あるいは、直接火を着けるのに使うこともできま"
+"す。"
+
+#: mods/ITEMS/mcl_fire/fire_charge.lua:8
+msgid ""
+"Put the fire charge into a dispenser and supply it with redstone power to "
+"launch it. To ignite a fire directly, simply place the fire charge on the "
+"ground, which uses it up."
+msgstr ""
+"発火弾をディスペンサーに入れ、レッドストーン動力を供給すると発射されます。直"
+"接火を着けるには、シンプルに発火弾を地面に置くだけです。なお、使い切りです。"
+
+#: mods/ITEMS/mcl_fire/flint_and_steel.lua:5
+msgid "Flint and Steel"
+msgstr "火打石と打ち金"
+
+#: mods/ITEMS/mcl_fire/flint_and_steel.lua:7
+msgid "Flint and steel is a tool to start fires and ignite blocks."
+msgstr "火打石と打ち金は、火をおこしたり、ブロックに着火するための道具です。"
+
+#: mods/ITEMS/mcl_fire/flint_and_steel.lua:8
+msgid ""
+"Rightclick the surface of a block to attempt to light a fire in front of it "
+"or ignite the block. A few blocks have an unique reaction when ignited."
+msgstr ""
+"ブロックの表面で右クリックすると、ブロックの前で火をつけたり、ブロックへの着"
+"火を試みます。いくつかのブロックは、着火すると独特の反応をします。"
+
+#: mods/ITEMS/mcl_fire/init.lua:42
+msgid ""
+"Fire is a damaging and destructive but short-lived kind of block. It will "
+"destroy and spread towards near flammable blocks, but fire will disappear "
+"when there is nothing to burn left. It will be extinguished by nearby water "
+"and rain. Fire can be destroyed safely by punching it, but it is hurtful if "
+"you stand directly in it. If a fire is started above netherrack or a magma "
+"block, it will immediately turn into an eternal fire."
+msgstr ""
+"炎はダメージが大きく破壊力がありますが、寿命の短いブロックの一種です。近くの"
+"燃えやすいブロックを破壊しながら広がりますが、燃えるものがなくなると消えま"
+"す。近くの水や雨でも消えます。炎はパンチで安全に破壊できますが、直接その中に"
+"立つと酷い目にあいます。ネザーラックやマグマブロックの上で火を起こすと、すぐ"
+"に永続的な炎になります。"
+
+#: mods/ITEMS/mcl_fire/init.lua:44
+msgid ""
+"Fire is a damaging but non-destructive short-lived kind of block. It will "
+"disappear when there is no flammable block around. Fire does not destroy "
+"blocks, at least not in this world. It will be extinguished by nearby water "
+"and rain. Fire can be destroyed safely by punching it, but it is hurtful if "
+"you stand directly in it. If a fire is started above netherrack or a magma "
+"block, it will immediately turn into an eternal fire."
+msgstr ""
+"炎は、ダメージを与えるが破壊されない短命のブロックの一種です。周りに可燃性ブ"
+"ロックがないと消えてしまいます。少なくともこの世界では、炎はブロックを破壊し"
+"ません。近くの水や雨で消えます。炎はパンチで安全に破壊できますが、直接その中"
+"に立つと酷い目にあいます。ネザーラックやマグマブロックの上で火を起こすと、す"
+"ぐに永続的な炎になります。"
+
+#: mods/ITEMS/mcl_fire/init.lua:48
+msgid ""
+"Eternal fire is a damaging block that might create more fire. It will create "
+"fire around it when flammable blocks are nearby. Eternal fire can be "
+"extinguished by punches and nearby water blocks. Other than (normal) fire, "
+"eternal fire does not get extinguished on its own and also continues to burn "
+"under rain. Punching eternal fire is safe, but it hurts if you stand inside."
+msgstr ""
+"永続的な炎は、より多くの炎を生み出す可能性のあるダメージブロックです。可燃性"
+"ブロックが近くにあると、その周囲に炎が発生します。永続的な炎は、パンチや近く"
+"の水ブロックによって消せます。（通常の）炎以外の永続的な炎は、それ自体では消"
+"えず、雨の下でも燃え続けます。永続的な炎をパンチするのは安全ですが、中に立つ"
+"と痛いです。"
+
+#: mods/ITEMS/mcl_fire/init.lua:50
+msgid ""
+"Eternal fire is a damaging block. Eternal fire can be extinguished by "
+"punches and nearby water blocks. Other than (normal) fire, eternal fire does "
+"not get extinguished on its own and also continues to burn under rain. "
+"Punching eternal fire is safe, but it hurts if you stand inside."
+msgstr ""
+"永続的な炎はダメージを与えるブロックです。パンチや近くの水ブロックによって消"
+"せます。（通常の）炎以外の永続的な炎は、それ自体では消えず、雨の下でも燃え続"
+"けます。永続的な炎をパンチするのは安全ですが、中に立つと痛いです。"
+
+#: mods/ITEMS/mcl_fire/init.lua:59
+msgid "Fire"
+msgstr "炎"
+
+#: mods/ITEMS/mcl_fire/init.lua:105
+msgid "Eternal Fire"
+msgstr "永続的な炎"

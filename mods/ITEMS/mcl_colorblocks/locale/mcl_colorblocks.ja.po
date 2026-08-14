@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_colorblocks x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:4
+msgid ""
+"Terracotta is a basic building material. It comes in many different colors."
+msgstr "テラコッタは基本的な建築材料です。さまざまな色があります。"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:5
+msgid ""
+"Glazed terracotta is a decorative block with a complex pattern. It can be "
+"rotated by placing it in different directions."
+msgstr ""
+"彩釉テラコッタは、複雑な模様の装飾ブロックです。 配置するときの向きによって回"
+"転が可能です。"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:6
+msgid ""
+"Concrete powder is used for creating concrete, but it can also be used as "
+"decoration itself. It comes in different colors. Concrete powder turns into "
+"concrete of the same color when it comes in contact with water."
+msgstr ""
+"コンクリートパウダーはコンクリートを作るために使われますが、それ自体も色とり"
+"どりの装飾として使えます。コンクリートパウダーは、水に触れると同じ色のコンク"
+"リートに変化します。"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:7
+msgid ""
+"Concrete is a decorative block which comes in many different colors. It is "
+"notable for having a very strong and clean color."
+msgstr ""
+"コンクリートは、さまざまな色がある装飾ブロックです。非常に強く、すっきりとし"
+"た色合いで知られます。"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:8
+msgid "Turns into concrete on water contact"
+msgstr "水との接触でコンクリートに変化"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:11
+msgid "Terracotta"
+msgstr "テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:12
+msgid ""
+"Terracotta is a basic building material which comes in many different "
+"colors. This particular block is uncolored."
+msgstr ""
+"テラコッタは基本的な建築材料で、さまざまな色があります。このブロックは無着色"
+"です。"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:37
+msgid "Colored Terracotta"
+msgstr "色付きテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:38
+msgid "Glazed Terracotta"
+msgstr "彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:39
+msgid "Concrete Powder"
+msgstr "コンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/init.lua:40
+msgid "Concrete"
+msgstr "コンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:1
+msgid "Black Concrete"
+msgstr "黒色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:2
+msgid "Black Concrete Powder"
+msgstr "黒色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:3
+msgid "Black Glazed Terracotta"
+msgstr "黒色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:4
+msgid "Black Terracotta"
+msgstr "黒色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:5
+msgid "Blue Concrete"
+msgstr "青色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:6
+msgid "Blue Concrete Powder"
+msgstr "青色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:7
+msgid "Blue Glazed Terracotta"
+msgstr "青色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:8
+msgid "Blue Terracotta"
+msgstr "青色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:9
+msgid "Brown Concrete"
+msgstr "茶色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:10
+msgid "Brown Concrete Powder"
+msgstr "茶色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:11
+msgid "Brown Glazed Terracotta"
+msgstr "茶色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:12
+msgid "Brown Terracotta"
+msgstr "茶色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:13
+msgid "Cyan Concrete"
+msgstr "青緑色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:14
+msgid "Cyan Concrete Powder"
+msgstr "青緑色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:15
+msgid "Cyan Glazed Terracotta"
+msgstr "青緑色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:16
+msgid "Cyan Terracotta"
+msgstr "青緑色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:17
+msgid "Green Concrete"
+msgstr "緑色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:18
+msgid "Green Concrete Powder"
+msgstr "緑色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:19
+msgid "Green Glazed Terracotta"
+msgstr "緑色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:20
+msgid "Green Terracotta"
+msgstr "緑色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:21
+msgid "Grey Concrete"
+msgstr "灰色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:22
+msgid "Grey Concrete Powder"
+msgstr "灰色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:23
+msgid "Grey Glazed Terracotta"
+msgstr "灰色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:24
+msgid "Grey Terracotta"
+msgstr "灰色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:25
+msgid "Light Blue Concrete"
+msgstr "空色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:26
+msgid "Light Blue Concrete Powder"
+msgstr "空色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:27
+msgid "Light Blue Glazed Terracotta"
+msgstr "空色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:28
+msgid "Light Blue Terracotta"
+msgstr "空色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:29
+msgid "Light Grey Concrete"
+msgstr "薄灰色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:30
+msgid "Light Grey Concrete Powder"
+msgstr "薄灰色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:31
+msgid "Light Grey Glazed Terracotta"
+msgstr "薄灰色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:32
+msgid "Light Grey Terracotta"
+msgstr "薄灰色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:33
+msgid "Lime Concrete"
+msgstr "黄緑色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:34
+msgid "Lime Concrete Powder"
+msgstr "黄緑色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:35
+msgid "Lime Glazed Terracotta"
+msgstr "黄緑色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:36
+msgid "Lime Terracotta"
+msgstr "黄緑色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:37
+msgid "Magenta Concrete"
+msgstr "赤紫色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:38
+msgid "Magenta Concrete Powder"
+msgstr "赤紫色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:39
+msgid "Magenta Glazed Terracotta"
+msgstr "赤紫色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:40
+msgid "Magenta Terracotta"
+msgstr "赤紫色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:41
+msgid "Orange Concrete"
+msgstr "橙色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:42
+msgid "Orange Concrete Powder"
+msgstr "橙色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:43
+msgid "Orange Glazed Terracotta"
+msgstr "橙色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:44
+msgid "Orange Terracotta"
+msgstr "橙色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:45
+msgid "Pink Concrete"
+msgstr "桃色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:46
+msgid "Pink Concrete Powder"
+msgstr "桃色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:47
+msgid "Pink Glazed Terracotta"
+msgstr "桃色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:48
+msgid "Pink Terracotta"
+msgstr "桃色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:49
+msgid "Purple Concrete"
+msgstr "紫色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:50
+msgid "Purple Concrete Powder"
+msgstr "紫色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:51
+msgid "Purple Glazed Terracotta"
+msgstr "紫色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:52
+msgid "Purple Terracotta"
+msgstr "紫色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:53
+msgid "Red Concrete"
+msgstr "赤色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:54
+msgid "Red Concrete Powder"
+msgstr "赤色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:55
+msgid "Red Glazed Terracotta"
+msgstr "赤色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:56
+msgid "Red Terracotta"
+msgstr "赤色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:57
+msgid "White Concrete"
+msgstr "白色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:58
+msgid "White Concrete Powder"
+msgstr "白色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:59
+msgid "White Glazed Terracotta"
+msgstr "白色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:60
+msgid "White Terracotta"
+msgstr "白色のテラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:61
+msgid "Yellow Concrete"
+msgstr "黄色のコンクリート"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:62
+msgid "Yellow Concrete Powder"
+msgstr "黄色のコンクリートパウダー"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:63
+msgid "Yellow Glazed Terracotta"
+msgstr "黄色の彩釉テラコッタ"
+
+#: mods/ITEMS/mcl_colorblocks/mcl_colorblocks_translations_tmp.lua:64
+msgid "Yellow Terracotta"
+msgstr "黄色のテラコッタ"

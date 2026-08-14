@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mclx_stairs x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mclx_stairs/init.lua:7
+msgid "Lapis Lazuli Stairs"
+msgstr "Lapis Lazulizko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/init.lua:13
+msgid "Lapis Lazuli Slab"
+msgstr "Lapis Lazulizko Lauza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:21
+msgid "Gold Stairs"
+msgstr "Urrezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/init.lua:27
+msgid "Gold Slab"
+msgstr "Urrezko Lauza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:35
+msgid "Iron Stairs"
+msgstr "Burdinazko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/init.lua:41
+msgid "Iron Slab"
+msgstr "Burdinazko Lauza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:49
+msgid "Cracked Stone Brick Stairs"
+msgstr "Harri pitzatuzko adreiluzko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/init.lua:50
+msgid "Cracked Stone Brick Slab"
+msgstr "Harri pitzatuzko adreiluzko Lauza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:56
+msgid "Cracked Deepslate Brick Stairs"
+msgstr "Arbel sakoneko adreiluzko eskailera pitzatuak"
+
+#: mods/ITEMS/mclx_stairs/init.lua:57
+msgid "Cracked Deepslate Brick Slab"
+msgstr "Pitzatutako arbel sakoneko adreiluzko Lauza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:63
+msgid "Cracked Deepslate Tile Stairs"
+msgstr "Arbel sakoneko baldosa pitzatuen Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/init.lua:64
+msgid "Cracked Deepslate Tile Slab"
+msgstr "Arbel sakon pitzatuko baldosazko Lauza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:71
+msgid "End Stone Stairs"
+msgstr "End Harrizko Eskailera"
+
+#: mods/ITEMS/mclx_stairs/init.lua:72
+msgid "End Stone Slab"
+msgstr "End Harrizko Lauza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:80
+msgid "Smooth Stone Stairs"
+msgstr "Harri leuneko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/init.lua:91 mods/ITEMS/mclx_stairs/init.lua:149
+msgid "Terracotta Stairs"
+msgstr "Terrakotazko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/init.lua:92 mods/ITEMS/mclx_stairs/init.lua:147
+msgid "Terracotta Slab"
+msgstr "Terrakotazko Lauza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:134
+msgid "Concrete Slab"
+msgstr "Hormigoizko Lauza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:135
+msgid "Double Concrete Slab"
+msgstr "Hormigoizko Lauza bikoitza"
+
+#: mods/ITEMS/mclx_stairs/init.lua:136
+msgid "Concrete Stairs"
+msgstr "Hormigoizko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/init.lua:148
+msgid "Double Terracotta Slab"
+msgstr "Terrakotazko Lauza bikoitza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:1
+msgid "Black Concrete Slab"
+msgstr "Hormigoi beltzeko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:2
+msgid "Black Concrete Stairs"
+msgstr "Hormigoi beltzeko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:3
+msgid "Black Terracotta Slab"
+msgstr "Terrakota beltzeko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:4
+msgid "Black Terracotta Stairs"
+msgstr "Terrakota Beltzezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:5
+msgid "Blue Concrete Slab"
+msgstr "Hormigoi Urdinezko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:6
+msgid "Blue Concrete Stairs"
+msgstr "Hormigoi Urdinezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:7
+msgid "Blue Terracotta Slab"
+msgstr "Terrakota Urdineko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:8
+msgid "Blue Terracotta Stairs"
+msgstr "Terrakota Urdineko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:9
+msgid "Brown Concrete Slab"
+msgstr "Hormigoizko Lauza marroia"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:10
+msgid "Brown Concrete Stairs"
+msgstr "Hormigoi marroizko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:11
+msgid "Brown Terracotta Slab"
+msgstr "Terrakota marroizko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:12
+msgid "Brown Terracotta Stairs"
+msgstr "Terrakota marroiko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:13
+msgid "Cyan Concrete Slab"
+msgstr "Hormigoi Zianezko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:14
+msgid "Cyan Concrete Stairs"
+msgstr "Hormigoi Zianezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:15
+msgid "Cyan Terracotta Slab"
+msgstr "Terrakota Zianezko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:16
+msgid "Cyan Terracotta Stairs"
+msgstr "Terrakota Zianezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:17
+msgid "Green Concrete Slab"
+msgstr "Hormigoi Berdezko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:18
+msgid "Green Concrete Stairs"
+msgstr "Hormigoi Berdezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:19
+msgid "Green Terracotta Slab"
+msgstr "Terrakota Berdezko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:20
+msgid "Green Terracotta Stairs"
+msgstr "Terrakota Berdezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:21
+msgid "Grey Concrete Slab"
+msgstr "Hormigoizko Lauza Grisa"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:22
+msgid "Grey Concrete Stairs"
+msgstr "Hormigoi Grisezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:23
+msgid "Grey Terracotta Slab"
+msgstr "Terrakota Grisezko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:24
+msgid "Grey Terracotta Stairs"
+msgstr "Terrakota Grisezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:25
+msgid "Light Blue Concrete Slab"
+msgstr "Hormigoizko Lauza Urdin argia"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:26
+msgid "Light Blue Concrete Stairs"
+msgstr "Hormigoi Urdin Argizko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:27
+msgid "Light Blue Terracotta Slab"
+msgstr "Terrakota Urdin Argizko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:28
+msgid "Light Blue Terracotta Stairs"
+msgstr "Terrakota Urdin Argizko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:29
+msgid "Light Grey Concrete Slab"
+msgstr "Hormigoi Gris Argizko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:30
+msgid "Light Grey Concrete Stairs"
+msgstr "Hormigoi Gris Argizko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:31
+msgid "Light Grey Terracotta Slab"
+msgstr "Terrakota Gris Argizko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:32
+msgid "Light Grey Terracotta Stairs"
+msgstr "Terrakota Gris Argizko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:33
+msgid "Lime Concrete Slab"
+msgstr "Lima Hormigoizko Lauza berdea"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:34
+msgid "Lime Concrete Stairs"
+msgstr "Lima Hormigoi Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:35
+msgid "Lime Terracotta Slab"
+msgstr "Lima Terrakotazko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:36
+msgid "Lime Terracotta Stairs"
+msgstr "Lima Terrakotazko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:37
+msgid "Magenta Concrete Slab"
+msgstr "Hormigoi magentazko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:38
+msgid "Magenta Concrete Stairs"
+msgstr "Hormigoi magentazko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:39
+msgid "Magenta Terracotta Slab"
+msgstr "Terrakota magentako Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:40
+msgid "Magenta Terracotta Stairs"
+msgstr "Terrakota Magentazko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:41
+msgid "Orange Concrete Slab"
+msgstr "Hormigoi Laranjazko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:42
+msgid "Orange Concrete Stairs"
+msgstr "Hormigoi Laranjazko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:43
+msgid "Orange Terracotta Slab"
+msgstr "Terrakota Laranjazko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:44
+msgid "Orange Terracotta Stairs"
+msgstr "Terrakota laranjako Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:45
+msgid "Pink Concrete Slab"
+msgstr "Hormigoi arrosazko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:46
+msgid "Pink Concrete Stairs"
+msgstr "Hormigoi arrosazko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:47
+msgid "Pink Terracotta Slab"
+msgstr "Terrakota arrosazko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:48
+msgid "Pink Terracotta Stairs"
+msgstr "Terrakota arrosazko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:49
+msgid "Purple Concrete Slab"
+msgstr "Hormigoi morezko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:50
+msgid "Purple Concrete Stairs"
+msgstr "Hormigoi morezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:51
+msgid "Purple Terracotta Slab"
+msgstr "Terrakota morezko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:52
+msgid "Purple Terracotta Stairs"
+msgstr "Terrakota Morezko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:53
+msgid "Red Concrete Slab"
+msgstr "Hormigoi Gorrizko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:54
+msgid "Red Concrete Stairs"
+msgstr "Hormigoi gorriko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:55
+msgid "Red Terracotta Slab"
+msgstr "Terrakota gorriko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:56
+msgid "Red Terracotta Stairs"
+msgstr "Terrakota gorriko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:57
+msgid "White Concrete Slab"
+msgstr "Hormigoizko Lauza zuria"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:58
+msgid "White Concrete Stairs"
+msgstr "Hormigoi zurizko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:59
+msgid "White Terracotta Slab"
+msgstr "Terrakota zuriko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:60
+msgid "White Terracotta Stairs"
+msgstr "Terrakota zuriko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:61
+msgid "Yellow Concrete Slab"
+msgstr "Hormigoizko Lauza horia"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:62
+msgid "Yellow Concrete Stairs"
+msgstr "Hormigoi horizko Eskailerak"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:63
+msgid "Yellow Terracotta Slab"
+msgstr "Terrakota horiko Lauza"
+
+#: mods/ITEMS/mclx_stairs/mclx_stairs_translations_tmp.lua:64
+msgid "Yellow Terracotta Stairs"
+msgstr "Terrakota Horizko Eskailerak"

@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-02-21 00:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/HUD/mcl_experience/bottle.lua:66
+msgid "Bottle o' Enchanting"
+msgstr ""
+
+#: mods/HUD/mcl_experience/command.lua:4
+msgid "[[<player>] <xp>]"
+msgstr ""
+
+#: mods/HUD/mcl_experience/command.lua:5
+msgid "Gives a player some XP"
+msgstr ""
+
+#: mods/HUD/mcl_experience/command.lua:15
+msgid "Error: Too many parameters!"
+msgstr ""
+
+#: mods/HUD/mcl_experience/command.lua:28
+msgid "Error: Incorrect value of XP"
+msgstr ""
+
+#: mods/HUD/mcl_experience/command.lua:32
+msgid "Error: Player not found"
+msgstr ""
+
+#: mods/HUD/mcl_experience/command.lua:37
+msgid "Added @1 XP to @2, total: @3, experience level: @4"
+msgstr ""

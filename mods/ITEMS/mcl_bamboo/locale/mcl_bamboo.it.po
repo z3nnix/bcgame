@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_bamboo x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 18:07+0200\n"
+"PO-Revision-Date: 2026-06-01 13:07+0000\n"
+"Last-Translator: cuche <cuche@noreply.codeberg.org>\n"
+"Language-Team: Italian <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_bamboo/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
+
+#: mods/ITEMS/mcl_bamboo/init.lua:14
+msgid "A Block made of Bamboo stalks. Can be crafted into Bamboo Planks."
+msgstr "Un blocco di canne di bambù. Ci si può costruire assi di bambù."
+
+#: mods/ITEMS/mcl_bamboo/init.lua:29
+msgid "Block of Bamboo"
+msgstr "Blocco di bambù"
+
+#: mods/ITEMS/mcl_bamboo/init.lua:36
+msgid "Block of Stripped Bamboo"
+msgstr "Blocco di bambù scortecciato"
+
+#: mods/ITEMS/mcl_bamboo/init.lua:58
+msgid "Bamboo Raft"
+msgstr "Zattera di bambù"
+
+#: mods/ITEMS/mcl_bamboo/init.lua:66
+msgid "Chest Bamboo Raft"
+msgstr "Zattera di bambù con baule"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:1
+msgid "Bamboo Button"
+msgstr "Pulsante di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:2
+msgid "Bamboo Door"
+msgstr "Porta di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:3
+msgid "Bamboo Fence"
+msgstr "Staccionata di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:4
+msgid "Bamboo Fence Gate"
+msgstr "Cancelletto di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:5
+msgid "Bamboo Hanging Sign"
+msgstr "Insegna di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:6
+msgid "Bamboo Planks"
+msgstr "Assi di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:7
+msgid "Bamboo Pressure Plate"
+msgstr "Pedana di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:8
+msgid "Bamboo Sign"
+msgstr "Cartello di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:9
+msgid "Bamboo Slab"
+msgstr "Lastra di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:10
+msgid "Bamboo Stairs"
+msgstr "Scalini di bambù"
+
+#: mods/ITEMS/mcl_bamboo/mcl_bamboo_translations_tmp.lua:11
+msgid "Bamboo Trapdoor"
+msgstr "Botola di bambù"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:67
+msgid "Bamboo"
+msgstr "Bambù"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:185
+msgid "Bamboo Plant"
+msgstr "Pianta di bambù"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:190 mods/ITEMS/mcl_bamboo/nodes.lua:191
+msgid "Bamboo Mosaic Plank"
+msgstr "Assi di bambù intrecciato"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:204
+msgid "Bamboo Mosaic Stairs"
+msgstr "Scalini di bambù intrecciato"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:210
+msgid "Bamboo Mosaic Slab"
+msgstr "Lastra di bambù intrecciato"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:383
+msgid "Scaffolding"
+msgstr "Impalcatura"
+
+#: mods/ITEMS/mcl_bamboo/nodes.lua:384
+msgid ""
+"Scaffolding is a temporary structure to easily climb up while building that "
+"is easily removed"
+msgstr ""
+"L'impalcatura è una struttura temporanea in cui è facile arrampicarsi ed è "
+"veloce da smontare"
+
+#~ msgid "Scaffolding horizontal"
+#~ msgstr "Impalcatura orizzontale"

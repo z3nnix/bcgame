@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-06-30 22:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_dripstone/init.lua:47
+msgid "Dripstone block"
+msgstr ""
+
+#: mods/ITEMS/mcl_dripstone/init.lua:48
+msgid ""
+"Dripstone is type of stone that allows stalagmites and stalagtites to grow "
+"on it"
+msgstr ""
+
+#: mods/ITEMS/mcl_dripstone/init.lua:209
+msgid "Pointed dripstone"
+msgstr ""
+
+#: mods/ITEMS/mcl_dripstone/init.lua:210 mods/ITEMS/mcl_dripstone/init.lua:232
+#: mods/ITEMS/mcl_dripstone/init.lua:257
+msgid "Pointed dripstone is what stalagmites and stalagtites are made of"
+msgstr ""
+
+#: mods/ITEMS/mcl_dripstone/init.lua:231 mods/ITEMS/mcl_dripstone/init.lua:256
+msgid "Pointed dripstone (@1/@2)"
+msgstr ""

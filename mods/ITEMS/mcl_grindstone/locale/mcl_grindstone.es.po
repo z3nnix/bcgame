@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_grindstone x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: 2026-04-27 10:40+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_grindstone/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#: mods/ITEMS/mcl_grindstone/init.lua:13
+msgid "Repair & Disenchant"
+msgstr "Reparar y desencantar"
+
+#: mods/ITEMS/mcl_grindstone/init.lua:26
+msgid "Inventory"
+msgstr "Inventario"
+
+#: mods/ITEMS/mcl_grindstone/init.lua:171
+msgid "Grindstone"
+msgstr "Afiladora"
+
+#: mods/ITEMS/mcl_grindstone/init.lua:172
+msgid "Used to disenchant/fix tools"
+msgstr "Se utiliza para desencantar/reparar herramientas"
+
+#: mods/ITEMS/mcl_grindstone/init.lua:173
+msgid ""
+"Grindstone disenchants tools and armour except for curses, and repairs two "
+"items of the same type it is also the weapon smith's work station."
+msgstr ""
+"La afiladora desencanta herramientas y armaduras, excepto las maldiciones, y "
+"repara dos ítems del mismo tipo; también es la estación de trabajo del "
+"herrero de armas."
+
+#: mods/ITEMS/mcl_grindstone/init.lua:174
+msgid ""
+"To use the grindstone, rightclick it, Two input slots (on the left) and a "
+"single output slot."
+msgstr ""
+"Para usar la afiladora, haz clic derecho en ella, dos ranuras de entrada (a "
+"la izquierda) y una única ranura de salida."
+
+#: mods/ITEMS/mcl_grindstone/init.lua:175
+msgid ""
+"To disenchant an item place enchanted item in one of the input slots and "
+"take the disenchanted item from the output."
+msgstr ""
+"Para desencantar un ítem, coloque el ítem encantado en una de las ranuras de "
+"entrada y tome el ítem desencantado de la salida."
+
+#: mods/ITEMS/mcl_grindstone/init.lua:176
+msgid ""
+"To repair a tool you need a tool of the same type and material, put both "
+"items in the input slot and the output slot will combine two items "
+"durabilities with 5% bonus."
+msgstr ""
+"Para reparar una herramienta necesita una herramienta del mismo tipo y "
+"material, coloque ambos ítems en la ranura de entrada y la ranura de salida "
+"combinará la durabilidad de los dos ítems con una bonificación del 5 %."
+
+#: mods/ITEMS/mcl_grindstone/init.lua:177
+msgid ""
+"If both items have enchantments the player will get xp from both items from "
+"the disenchant."
+msgstr ""
+"Si ambos objetos tienen encantamientos, el jugador obtendrá experiencia de "
+"ambos al desencantarlos."
+
+#: mods/ITEMS/mcl_grindstone/init.lua:178
+msgid ""
+"Curses cannot be removed and will be transfered to the new repaired item, if "
+"both items have a different curse the curses will be combined."
+msgstr ""
+"Las maldiciones no se pueden eliminar y se transferirán al nuevo ítem "
+"reparado; si ambos ítems tienen una maldición diferente, las maldiciones se "
+"combinarán."

@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_mangrove x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-05-30 18:07+0200\n"
+"PO-Revision-Date: 2026-06-21 08:07+0000\n"
+"Last-Translator: syl <syl@noreply.codeberg.org>\n"
+"Language-Team: French <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_mangrove/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/ITEMS/mcl_mangrove/init.lua:99
+msgid "Mangrove Roots"
+msgstr "Racines de palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/init.lua:100 mods/ITEMS/mcl_mangrove/init.lua:281
+msgid ""
+"Mangrove roots are decorative blocks that form as part of mangrove trees."
+msgstr ""
+"Les racines de palétuvier sont des blocs décoratifs qui font partie des "
+"palétuviers."
+
+#: mods/ITEMS/mcl_mangrove/init.lua:141 mods/ITEMS/mcl_mangrove/init.lua:274
+msgid "Mangrove Propagule"
+msgstr "Propagule de palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/init.lua:142
+msgid "Needs soil and light to grow"
+msgstr "A besoin de terre et de lumière pour pousser"
+
+#: mods/ITEMS/mcl_mangrove/init.lua:143
+msgid ""
+"When placed on soil (such as dirt) and exposed to light, an propagule will "
+"grow into an mangrove after some time."
+msgstr ""
+"Lorsque placé sur la terre et exposée à la lumière, une propagule poussera "
+"en palétuvier après un certain temps."
+
+#: mods/ITEMS/mcl_mangrove/init.lua:210
+msgid "Suspended mague propagules grow on the underside of mangrove leaves.\n"
+msgstr ""
+
+#: mods/ITEMS/mcl_mangrove/init.lua:211
+msgid ""
+"They grow in four stages. Using bone meal on a suspended propagule advances "
+"it to the next growth stage.\n"
+msgstr ""
+
+#: mods/ITEMS/mcl_mangrove/init.lua:212
+msgid ""
+"When the propagule reaches the final stage, it drops as an item when broken."
+msgstr ""
+
+#: mods/ITEMS/mcl_mangrove/init.lua:222
+msgid "Hanging Mangrove Propagule"
+msgstr ""
+
+#: mods/ITEMS/mcl_mangrove/init.lua:225
+msgid "Hanging Propagule (Stage @1)"
+msgstr ""
+
+#: mods/ITEMS/mcl_mangrove/init.lua:279
+msgid "Water logged mangrove roots"
+msgstr ""
+
+#: mods/ITEMS/mcl_mangrove/init.lua:282
+msgid ""
+"Mangrove roots, despite being a full block, can be waterlogged and do not "
+"flow water out"
+msgstr ""
+"Les racines de palétuvier sont un bloc plein mais qui peut être immergé et "
+"ne remplace pas l'eau"
+
+#: mods/ITEMS/mcl_mangrove/init.lua:283
+msgid "These cannot be crafted yet only occure when get in contact of water."
+msgstr "Elles ne peuvent être fabriquées mais se forment au contact de l'eau."
+
+#: mods/ITEMS/mcl_mangrove/init.lua:346
+msgid "River water logged mangrove roots"
+msgstr ""
+
+#: mods/ITEMS/mcl_mangrove/init.lua:365
+msgid "Muddy Mangrove Roots"
+msgstr "Racines de palétuvier boueuses"
+
+#: mods/ITEMS/mcl_mangrove/init.lua:366
+msgid "Crafted with Mud and Mangrove roots"
+msgstr "Fabriqué avec de la boue et des racines de palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/init.lua:367
+msgid ""
+"Muddy Mangrove Roots is a block from mangrove swamp.It drowns player a bit "
+"inside it."
+msgstr ""
+"Les racines de palétuvier boueuses sont un bloc du marécage de la mangrove. "
+"Il noie un joueur à l'intérieur."
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:1
+msgid "Mangrove Bark"
+msgstr "Écorce de palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:2
+msgid "Mangrove Bark Slab"
+msgstr "Dalle d'écorce de palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:3
+msgid "Mangrove Bark Stairs"
+msgstr "Escalier en écorce de palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:4
+msgid "Mangrove Boat"
+msgstr "Bateau en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:5
+msgid "Mangrove Button"
+msgstr "Bouton en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:6
+msgid "Mangrove Chest Boat"
+msgstr "Bateau de stockage en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:7
+msgid "Mangrove Door"
+msgstr "Porte en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:8
+msgid "Mangrove Fence"
+msgstr "Barrière en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:9
+msgid "Mangrove Fence Gate"
+msgstr "Portillon en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:10
+msgid "Mangrove Hanging Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:11
+msgid "Mangrove Leaves"
+msgstr "Feuilles de palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:12
+msgid "Mangrove Log"
+msgstr "Bûche de palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:13
+msgid "Mangrove Planks"
+msgstr "Planches de palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:14
+msgid "Mangrove Pressure Plate"
+msgstr "Plaque de pression en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:15
+msgid "Mangrove Sign"
+msgstr "Pancarte en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:16
+msgid "Mangrove Slab"
+msgstr "Dalle en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:17
+msgid "Mangrove Stairs"
+msgstr "Escalier en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:18
+msgid "Mangrove Trapdoor"
+msgstr "Trappe en palétuvier"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:19
+msgid "Mangrove leaves are grown from Mangrove trees."
+msgstr "Les feuilles de palétuvier poussent sur les palétuviers."
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:20
+msgid "Stripped Mangrove Bark"
+msgstr "Écorce de mangrove poncée"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:21
+msgid "Stripped Mangrove Log"
+msgstr "Bûche de palétuvier écorcée"
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:22
+msgid "The stripped trunk of an Mangrove tree."
+msgstr "Le tronc écorcé d'un palétuvier."
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:23
+msgid "The stripped wood of an Mangrove tree."
+msgstr "Le bois écorcé d'un palétuvier."
+
+#: mods/ITEMS/mcl_mangrove/mcl_mangrove_translations_tmp.lua:24
+msgid "The trunk of a Mangrove tree."
+msgstr "Le tronc d'un palétuvier."

@@ -1,0 +1,1880 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_core x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-18 19:32+0200\n"
+"PO-Revision-Date: 2026-07-10 02:07+0000\n"
+"Last-Translator: baka_bo <baka_bo@noreply.codeberg.org>\n"
+"Language-Team: Japanese <https://translate.codeberg.org/projects/mineclonia/"
+"mcl_core-1/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:4
+msgid "Stick"
+msgstr "棒"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:5
+msgid ""
+"Sticks are a very versatile crafting material; used in countless crafting "
+"recipes."
+msgstr ""
+"棒は非常に汎用性の高いクラフト材料で、たくさんのレシピで使われています。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:14
+msgid "Paper"
+msgstr "紙"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:15
+msgid "Paper is used to craft books and maps."
+msgstr "紙は本や地図を作るのに使われています。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:21
+msgid "Coal"
+msgstr "石炭"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:22
+msgid ""
+"“Coal” refers to coal lumps obtained by digging coal ore which can be found "
+"underground. Coal is your standard furnace fuel, but it can also be used to "
+"make torches, coal blocks and a few other things."
+msgstr ""
+"「石炭」とは、地下に埋蔵されている石炭鉱石を掘り出して得られる石炭の塊を指し"
+"ます。石炭はかまどの燃料ですが、松明や石炭ブロックなど、他の様々なものを作る"
+"のにも使用できます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:31
+msgid "Charcoal"
+msgstr "木炭"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:32
+msgid ""
+"Charcoal is an alternative furnace fuel created by cooking wood in a "
+"furnace. It has the same burning time as coal and also shares many of its "
+"crafting recipes, but it can not be used to create coal blocks."
+msgstr ""
+"木炭は、木材をかまどで加熱して作られる代替燃料です。燃焼時間は石炭と同じで、"
+"多くのクラフトレシピも石炭と共通していますが、石炭ブロックを作るために使うこ"
+"とはできません。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:40
+msgid "Iron Nugget"
+msgstr "鉄塊"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:41
+msgid ""
+"Iron nuggets are very small pieces of molten iron; the main purpose is to "
+"create iron ingots."
+msgstr ""
+"鉄塊とは、溶けた鉄のごく小さなかけらのことで、主に鉄インゴットを作ることに使"
+"えます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:48
+msgid "Gold Nugget"
+msgstr "金塊"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:49
+msgid ""
+"Gold nuggets are very small pieces of molten gold; the main purpose is to "
+"create gold ingots."
+msgstr ""
+"鉄塊とは、溶けた金のごく小さなかけらのことで、主に金インゴットを作ることに使"
+"えます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:56
+msgid "Diamond"
+msgstr "ダイヤモンド"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:57
+msgid ""
+"Diamonds are precious minerals and useful to create the highest tier of "
+"armor and tools."
+msgstr ""
+"ダイヤモンドは貴重な鉱石であり、最高級の防具や道具を作るのに役立ちます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:61
+msgid "Diamond Material"
+msgstr "ダイヤモンドの素材"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:66
+msgid "Clay Ball"
+msgstr "粘土玉"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:67
+msgid ""
+"Clay balls are a raw material, mainly used to create bricks in the furnace."
+msgstr "粘土球は原料であり、主にかまどでレンガを作る際に使われます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:76
+msgid "Iron Ingot"
+msgstr "鉄インゴット"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:77
+msgid "Molten iron. It is used to craft armor, tools, and whatnot."
+msgstr "溶かした鉄。防具や道具、その他のクラフトに使われます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:81
+msgid "Iron Material"
+msgstr "鉄の素材"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:89
+msgid "Gold Ingot"
+msgstr "金インゴット"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:90
+msgid "Molten gold. It is used to craft armor, tools, and whatnot."
+msgstr "溶かした金。防具や道具、その他のクラフトに使われます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:94
+msgid "Gold Material"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/craftitems.lua:102
+msgid "Emerald"
+msgstr "エメラルド"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:103
+msgid "Emeralds are used in villager trades as currency."
+msgstr "エメラルドは、村人との取引で通貨として使われます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:107
+msgid "Emerald Material"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/craftitems.lua:112
+msgid "Lapis Lazuli"
+msgstr "ラピスラズリ"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:113
+msgid "Lapis Lazuli are required for enchanting items on an enchanting table."
+msgstr ""
+"ラピスラズリは、エンチャントテーブルでアイテムをエンチャントするのに必要で"
+"す。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:117
+msgid "Lapis Material"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/craftitems.lua:125
+msgid "Brick"
+msgstr "レンガ"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:126
+msgid "Bricks are used to craft brick blocks."
+msgstr "レンガは、レンガブロックのクラフトに使います。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:133
+msgid "Flint"
+msgstr "火打石"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:134
+msgid "Flint is a raw material."
+msgstr "火打石は原料です。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:140
+msgid "Sugar"
+msgstr "砂糖"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:141
+msgid "Sugar comes from sugar canes and is used to make sweet foods."
+msgstr "砂糖はサトウキビから採れ、甘いものを作るのに使われます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:147
+msgid "Bowl"
+msgstr "ボウル"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:148
+msgid "Bowls are mainly used to hold tasty soups."
+msgstr "ボウルは、主に美味しいスープを入れるために使われます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:155
+msgid "Apple"
+msgstr "リンゴ"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:156
+msgid "Apples are food items which can be eaten."
+msgstr "リンゴは食べられるアイテムです。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:165
+msgid "Golden Apple"
+msgstr "金のリンゴ"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:166
+#: mods/ITEMS/mcl_core/craftitems.lua:183
+msgid "Golden apples are precious food items which can be eaten."
+msgstr "金のリンゴは貴重な食材で、食べられます。"
+
+#: mods/ITEMS/mcl_core/craftitems.lua:182
+msgid "Enchanted Golden Apple"
+msgstr "エンチャントされた金のリンゴ"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:1
+msgid "Acacia Bark"
+msgstr "アカシアの樹皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:2
+msgid "Acacia Bark Slab"
+msgstr "アカシアの樹皮のハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:3
+msgid "Acacia Bark Stairs"
+msgstr "アカシアの樹皮の階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:4
+msgid "Acacia Boat"
+msgstr "アカシアのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:5
+msgid "Acacia Button"
+msgstr "アカシアのボタン"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:6
+msgid "Acacia Chest Boat"
+msgstr "チェスト付きのアカシアのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:7
+msgid "Acacia Door"
+msgstr "アカシアのドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:8
+msgid "Acacia Fence"
+msgstr "アカシアのフェンス"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:9
+msgid "Acacia Fence Gate"
+msgstr "アカシアのフェンスゲート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:10
+msgid "Acacia Hanging Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:11
+msgid "Acacia Leaves"
+msgstr "アカシアの葉"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:12
+msgid "Acacia Log"
+msgstr "アカシアの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:13
+msgid "Acacia Planks"
+msgstr "アカシアの板材"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:14
+msgid "Acacia Pressure Plate"
+msgstr "アカシアの感圧板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:15
+msgid "Acacia Sapling"
+msgstr "アカシアの苗木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:16
+msgid "Acacia Sign"
+msgstr "アカシアの看板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:17
+msgid "Acacia Slab"
+msgstr "アカシアのハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:18
+msgid "Acacia Stairs"
+msgstr "アカシアの階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:19
+msgid "Acacia Trapdoor"
+msgstr "アカシアのトラップドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:20
+msgid "Acacia leaves are grown from Acacia trees."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:21
+msgid "Birch Bark"
+msgstr "シラカバの樹皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:22
+msgid "Birch Bark Slab"
+msgstr "シラカバの樹皮のハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:23
+msgid "Birch Bark Stairs"
+msgstr "シラカバの樹皮の階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:24
+msgid "Birch Boat"
+msgstr "シラカバのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:25
+msgid "Birch Button"
+msgstr "シラカバのボタン"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:26
+msgid "Birch Chest Boat"
+msgstr "チェスト付きのシラカバのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:27
+msgid "Birch Door"
+msgstr "シラカバのドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:28
+msgid "Birch Fence"
+msgstr "シラカバのフェンス"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:29
+msgid "Birch Fence Gate"
+msgstr "シラカバのフェンスゲート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:30
+msgid "Birch Hanging Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:31
+msgid "Birch Leaves"
+msgstr "シラカバの葉"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:32
+msgid "Birch Log"
+msgstr "シラカバの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:33
+msgid "Birch Planks"
+msgstr "シラカバの板材"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:34
+msgid "Birch Pressure Plate"
+msgstr "シラカバの感圧板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:35
+msgid "Birch Sapling"
+msgstr "シラカバの苗木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:36
+msgid "Birch Sign"
+msgstr "シラカバの看板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:37
+msgid "Birch Slab"
+msgstr "シラカバのハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:38
+msgid "Birch Stairs"
+msgstr "シラカバの階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:39
+msgid "Birch Trapdoor"
+msgstr "シラカバのトラップドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:40
+msgid "Birch leaves are grown from Birch trees."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:41
+msgid "Black Stained Glass"
+msgstr "黒色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:42
+msgid "Blue Stained Glass"
+msgstr "青色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:43
+msgid "Brown Stained Glass"
+msgstr "茶色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:44
+msgid "Cyan Stained Glass"
+msgstr "青緑色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:45
+msgid "Dark Oak Bark"
+msgstr "ダークオークの樹皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:46
+msgid "Dark Oak Bark Slab"
+msgstr "ダークオークの樹皮のハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:47
+msgid "Dark Oak Bark Stairs"
+msgstr "ダークオークの樹皮の階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:48
+msgid "Dark Oak Boat"
+msgstr "ダークオークのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:49
+msgid "Dark Oak Button"
+msgstr "ダークオークのボタン"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:50
+msgid "Dark Oak Chest Boat"
+msgstr "チェスト付きのダークオークのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:51
+msgid "Dark Oak Door"
+msgstr "ダークオークのドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:52
+msgid "Dark Oak Fence"
+msgstr "ダークオークのフェンス"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:53
+msgid "Dark Oak Fence Gate"
+msgstr "ダークオークのフェンスゲート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:54
+msgid "Dark Oak Hanging Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:55
+msgid "Dark Oak Leaves"
+msgstr "ダークオークの葉"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:56
+msgid "Dark Oak Log"
+msgstr "ダークオークの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:57
+msgid "Dark Oak Planks"
+msgstr "ダークオークの板材"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:58
+msgid "Dark Oak Pressure Plate"
+msgstr "ダークオークの感圧板の"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:59
+msgid "Dark Oak Sapling"
+msgstr "ダークオークの苗木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:60
+msgid "Dark Oak Sign"
+msgstr "ダークオークの看板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:61
+msgid "Dark Oak Slab"
+msgstr "ダークオークのハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:62
+msgid "Dark Oak Stairs"
+msgstr "ダークオークの階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:63
+msgid "Dark Oak Trapdoor"
+msgstr "ダークオークのトラップドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:64
+msgid "Dark Oak leaves are grown from Dark Oak trees."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:65
+msgid "Green Stained Glass"
+msgstr "緑色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:66
+msgid "Grey Stained Glass"
+msgstr "灰色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:67
+msgid "Jungle Bark"
+msgstr "ジャングルの樹皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:68
+msgid "Jungle Bark Slab"
+msgstr "ジャングルの樹皮のハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:69
+msgid "Jungle Bark Stairs"
+msgstr "ジャングルの樹皮の階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:70
+msgid "Jungle Boat"
+msgstr "ジャングルのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:71
+msgid "Jungle Button"
+msgstr "ジャングルのボタン"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:72
+msgid "Jungle Chest Boat"
+msgstr "チェスト付きのジャングルのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:73
+msgid "Jungle Door"
+msgstr "ジャングルのドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:74
+msgid "Jungle Fence"
+msgstr "ジャングルのフェンス"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:75
+msgid "Jungle Fence Gate"
+msgstr "ジャングルのフェンスゲート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:76
+msgid "Jungle Hanging Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:77
+msgid "Jungle Leaves"
+msgstr "ジャングルの葉"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:78
+msgid "Jungle Log"
+msgstr "ジャングルの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:79
+msgid "Jungle Planks"
+msgstr "ジャングルの板材"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:80
+msgid "Jungle Pressure Plate"
+msgstr "ジャングルの感圧板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:81
+msgid "Jungle Sapling"
+msgstr "ジャングルの苗木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:82
+msgid "Jungle Sign"
+msgstr "ジャングルの看板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:83
+msgid "Jungle Slab"
+msgstr "ジャングルのハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:84
+msgid "Jungle Stairs"
+msgstr "ジャングルの階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:85
+msgid "Jungle Trapdoor"
+msgstr "ジャングルのトラップドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:86
+msgid "Jungle leaves are grown from Jungle trees."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:87
+msgid "Light Blue Stained Glass"
+msgstr "空色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:88
+msgid "Light Grey Stained Glass"
+msgstr "薄灰色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:89
+msgid "Lime Stained Glass"
+msgstr "黄緑色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:90
+msgid "Magenta Stained Glass"
+msgstr "赤紫色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:91
+msgid "Oak Bark"
+msgstr "オークの樹皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:92
+msgid "Oak Bark Slab"
+msgstr "オークの樹皮のハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:93
+msgid "Oak Bark Stairs"
+msgstr "オークの樹皮の階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:94
+msgid "Oak Boat"
+msgstr "オークのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:95
+msgid "Oak Button"
+msgstr "オークのボタン"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:96
+msgid "Oak Chest Boat"
+msgstr "チェスト付きのオークのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:97
+msgid "Oak Door"
+msgstr "オークのドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:98
+msgid "Oak Fence"
+msgstr "オークのフェンス"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:99
+msgid "Oak Fence Gate"
+msgstr "オークのフェンスゲート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:100
+msgid "Oak Hanging Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:101
+msgid "Oak Leaves"
+msgstr "オークの葉"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:102
+msgid "Oak Log"
+msgstr "オークの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:103
+msgid "Oak Planks"
+msgstr "オークの板材"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:104
+msgid "Oak Pressure Plate"
+msgstr "オークの感圧板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:105
+msgid "Oak Sapling"
+msgstr "オークの苗木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:106
+msgid "Oak Sign"
+msgstr "オークの看板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:107
+msgid "Oak Slab"
+msgstr "オークのハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:108
+msgid "Oak Stairs"
+msgstr "オークの階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:109
+msgid "Oak Trapdoor"
+msgstr "オークのトラップドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:110
+msgid "Oak leaves are grown from Oak trees."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:111
+msgid "Orange Stained Glass"
+msgstr "橙色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:112
+msgid "Pink Stained Glass"
+msgstr "桃色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:113
+msgid "Purple Stained Glass"
+msgstr "紫色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:114
+msgid "Red Stained Glass"
+msgstr "赤色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:115
+msgid "Spruce Bark"
+msgstr "トウヒの樹皮"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:116
+msgid "Spruce Bark Slab"
+msgstr "トウヒの樹皮のハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:117
+msgid "Spruce Bark Stairs"
+msgstr "トウヒの樹皮の階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:118
+msgid "Spruce Boat"
+msgstr "トウヒのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:119
+msgid "Spruce Button"
+msgstr "トウヒのボタン"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:120
+msgid "Spruce Chest Boat"
+msgstr "チェスト付きのトウヒのボート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:121
+msgid "Spruce Door"
+msgstr "トウヒのドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:122
+msgid "Spruce Fence"
+msgstr "トウヒのフェンス"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:123
+msgid "Spruce Fence Gate"
+msgstr "トウヒのフェンスゲート"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:124
+msgid "Spruce Hanging Sign"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:125
+msgid "Spruce Leaves"
+msgstr "トウヒの葉"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:126
+msgid "Spruce Log"
+msgstr "トウヒの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:127
+msgid "Spruce Planks"
+msgstr "トウヒの板材"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:128
+msgid "Spruce Pressure Plate"
+msgstr "トウヒの感圧板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:129
+msgid "Spruce Sapling"
+msgstr "トウヒの苗木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:130
+msgid "Spruce Sign"
+msgstr "トウヒの看板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:131
+msgid "Spruce Slab"
+msgstr "トウヒのハーフブロック"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:132
+msgid "Spruce Stairs"
+msgstr "トウヒの階段"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:133
+msgid "Spruce Trapdoor"
+msgstr "トウヒのトラップドア"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:134
+msgid "Spruce leaves are grown from Spruce trees."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:135
+msgid "Stripped Acacia Bark"
+msgstr "樹皮を剥いだアカシアの木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:136
+msgid "Stripped Acacia Log"
+msgstr "樹皮を剥いだアカシアの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:137
+msgid "Stripped Birch Bark"
+msgstr "樹皮を剥いだシラカバの木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:138
+msgid "Stripped Birch Log"
+msgstr "樹皮を剥いだシラカバの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:139
+msgid "Stripped Dark Oak Bark"
+msgstr "樹皮を剥いだダークオークの木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:140
+msgid "Stripped Dark Oak Log"
+msgstr "樹皮を剥いだダークオークの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:141
+msgid "Stripped Jungle Bark"
+msgstr "樹皮を剥いだジャングルの木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:142
+msgid "Stripped Jungle Log"
+msgstr "樹皮を剥いだジャングルの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:143
+msgid "Stripped Oak Bark"
+msgstr "樹皮を剥いだオークの木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:144
+msgid "Stripped Oak Log"
+msgstr "樹皮を剥いだオークの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:145
+msgid "Stripped Spruce Bark"
+msgstr "樹皮を剥いだトウヒの木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:146
+msgid "Stripped Spruce Log"
+msgstr "樹皮を剥いだトウヒの原木"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:147
+msgid "The stripped trunk of an Acacia tree."
+msgstr "皮を剥いだ後のアカシアの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:148
+msgid "The stripped trunk of an Birch tree."
+msgstr "皮を剥いだ後のシラカバの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:149
+msgid "The stripped trunk of an Dark Oak tree."
+msgstr "皮を剥いだ後のダークオークの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:150
+msgid "The stripped trunk of an Jungle tree."
+msgstr "皮を剥いだ後のジャングルの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:151
+msgid "The stripped trunk of an Oak tree."
+msgstr "皮を剥いだ後のオークの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:152
+msgid "The stripped trunk of an Spruce tree."
+msgstr "皮を剥いだ後のトウヒの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:153
+msgid "The stripped wood of an Acacia tree."
+msgstr "皮を剥いだ後のアカシアの木。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:154
+msgid "The stripped wood of an Birch tree."
+msgstr "皮を剥いだ後のシラカバの木。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:155
+msgid "The stripped wood of an Dark Oak tree."
+msgstr "皮を剥いだ後のダークオークの木。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:156
+msgid "The stripped wood of an Jungle tree."
+msgstr "皮を剥いだ後のジャングルの木。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:157
+msgid "The stripped wood of an Oak tree."
+msgstr "皮を剥いだ後のオークの木。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:158
+msgid "The stripped wood of an Spruce tree."
+msgstr "皮を剥いだ後のトウヒの木。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:159
+msgid "The trunk of a Acacia tree."
+msgstr "アカシアの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:160
+msgid "The trunk of a Birch tree."
+msgstr "シラカバの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:161
+msgid "The trunk of a Dark Oak tree."
+msgstr "ダークオークの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:162
+msgid "The trunk of a Jungle tree."
+msgstr "ジャングルの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:163
+msgid "The trunk of a Oak tree."
+msgstr "オークの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:164
+msgid "The trunk of a Spruce tree."
+msgstr "トウヒの木の幹。"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:165
+msgid "White Stained Glass"
+msgstr "白色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/mcl_core_translations_tmp.lua:166
+msgid "Yellow Stained Glass"
+msgstr "黄色の色付きガラス板"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:16
+msgid "Stone"
+msgstr "石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:17
+msgid ""
+"One of the most common blocks in the world, almost the entire underground "
+"consists of stone. It sometimes contains ores. Stone may be created when "
+"water meets lava."
+msgstr ""
+"世界で最も一般的なブロックの一つで、地下のほぼ全体が石で構成されています。時"
+"には鉱石を含むこともあります。水と溶岩が出会って石ができる場合もあります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:31
+msgid "Coal Ore"
+msgstr "石炭鉱石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:32
+msgid ""
+"Some coal contained in stone, it is very common and can be found inside "
+"stone in medium to large clusters at nearly every height."
+msgstr ""
+"石に含まれる石炭はとても一般的で、ほぼすべての高さにおいて、中～大規模なまと"
+"まりで見つけることができます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:45
+msgid "Iron Ore"
+msgstr "鉄鉱石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:46
+msgid ""
+"Some iron contained in stone, it is prety common and can be found below sea "
+"level."
+msgstr "石に含まれる鉄はかなり一般的で、海面下の高さで見つけられます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:59
+msgid "Gold Ore"
+msgstr "金鉱石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:60
+msgid "This stone contains pure gold, a rare metal."
+msgstr "この石には、希少金属である純金が含まれています。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:83
+msgid "Redstone Ore"
+msgstr "レッドストーン鉱石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:84
+msgid ""
+"Redstone ore is commonly found near the bottom of the world. It glows when "
+"it is punched or walked upon."
+msgstr ""
+"レッドストーン鉱石は、ワールドの低層に多く見られます。それをパンチしたり、踏"
+"んだりすると光ります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:118
+msgid "Lit Redstone Ore"
+msgstr "発光したレッドストーン鉱石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:152
+msgid "Lapis Lazuli Ore"
+msgstr "ラピスラズリ鉱石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:153
+msgid ""
+"Lapis lazuli ore is the ore of lapis lazuli. It can be rarely found in "
+"clusters near the bottom of the world."
+msgstr ""
+"ラピスラズリ鉱石は、ワールドの深層あたりで群生しているのが稀に見つかります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:175
+msgid "Emerald Ore"
+msgstr "エメラルド鉱石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:176
+msgid ""
+"Emerald ore is the ore of emeralds. It is very rare and can be found alone, "
+"not in clusters."
+msgstr "エメラルド鉱石は非常に希少で、群生しておらず、単独で見つけられます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:188
+msgid "Diamond Ore"
+msgstr "ダイヤモンド鉱石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:189
+msgid ""
+"Diamond ore is rare and can be found in clusters near the bottom of the "
+"world."
+msgstr "ダイヤモンド鉱石は希少で、ワールドの深層近くでまとまって見つかります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:201
+msgid "Stone Bricks"
+msgstr "石レンガ"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:214
+msgid "Chiseled Stone Bricks"
+msgstr "模様入り石レンガ"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:226
+msgid "Cracked Stone Bricks"
+msgstr "ひび割れた石レンガ"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:237
+msgid "Mossy Stone Bricks"
+msgstr "苔むした石レンガ"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:248
+msgid "Smooth Stone"
+msgstr "滑らかな石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:259
+msgid "Granite"
+msgstr "花崗岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:260
+msgid "Granite is an igneous rock."
+msgstr "花崗岩とは、火成岩の一種です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:270
+msgid "Polished Granite"
+msgstr "磨かれた花崗岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:271
+msgid "Polished granite is a decorative building block made from granite."
+msgstr "磨かれた花崗岩は装飾的な建築用ブロックで、花崗岩から作られます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:282
+msgid "Andesite"
+msgstr "安山岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:283
+msgid "Andesite is an igneous rock."
+msgstr "安山岩とは、火成岩の一種です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:293
+msgid "Polished Andesite"
+msgstr "磨かれた安山岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:294
+msgid "Polished andesite is a decorative building block made from andesite."
+msgstr "磨かれた安山岩は装飾的な建築用ブロックで、安山岩から作られます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:305
+msgid "Diorite"
+msgstr "閃緑岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:306
+msgid "Diorite is an igneous rock."
+msgstr "閃緑岩とは、火成岩の一種です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:316
+msgid "Polished Diorite"
+msgstr "磨かれた閃緑岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:317
+msgid "Polished diorite is a decorative building block made from diorite."
+msgstr "磨かれた閃緑岩は装飾的な建築用ブロックで、閃緑岩から作られます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:329
+msgid "Grass Block"
+msgstr "草原"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:330
+msgid ""
+"A grass block is dirt with a grass cover. Grass blocks are resourceful "
+"blocks which allow the growth of all sorts of plants. They can be turned "
+"into farmland with a hoe and turned into grass paths with a shovel. In "
+"light, the grass slowly spreads onto dirt nearby. Under an opaque block or a "
+"liquid, a grass block may turn back to dirt."
+msgstr ""
+"草原とは、土に草を被せたものです。草原は、さまざまな植物を育てることができ"
+"る、資源的なブロックです。クワで農地にしたり、シャベルでオフロードにしたりで"
+"きます。光に当たると、近くの土の上に草がゆっくりと広がっていきます。不透明な"
+"ブロックや液体の下では、草原は土に戻ることがあります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:368
+msgid "Dirt with Snow"
+msgstr "雪が積もった土"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:372
+msgid "Grass Path"
+msgstr "オフロード"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:373
+msgid ""
+"Grass paths are a decorative variant of grass blocks. Their top has a "
+"different color and they are a bit lower than grass blocks, making them "
+"useful to build footpaths. Grass paths can be created with a shovel. A grass "
+"path turns into dirt when it is below a solid block."
+msgstr ""
+"オフロードは、草原の装飾的なバリエーションです。上部の色が異なり、草原より少"
+"し低いので、道にうってつけです。シャベルで作れます。オフロードは、固いブロッ"
+"クの下にあると土になります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:392
+msgid "Mycelium"
+msgstr "菌糸"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:393
+msgid ""
+"Mycelium is a type of dirt and the ideal soil for mushrooms. Unlike other "
+"dirt-type blocks, it can not be turned into farmland with a hoe. In light, "
+"mycelium slowly spreads over nearby dirt. Under an opaque block or a liquid, "
+"it eventually turns back into dirt."
+msgstr ""
+"菌糸は土の一種であり、キノコに最適な土壌です。他の土系ブロックと違い、クワで"
+"農地に変えられません。光に当たると、菌糸は近くの土の上にゆっくりと広がってい"
+"きます。不透明なブロックや液体の下では、それはやがて土に戻ります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:407
+msgid "Mycelium with Snow"
+msgstr "雪が積もった菌糸"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:454
+msgid "Podzol"
+msgstr "ポドゾル"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:455
+msgid ""
+"Podzol is a type of dirt found in taiga forests. Only a few plants are able "
+"to survive on it."
+msgstr ""
+"ポドゾルとは、タイガの森で見つかる土の一種です。その上で生きられる植物はごく"
+"わずかです。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:466
+msgid "Podzol with Snow"
+msgstr "雪が積もったポドゾル"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:469
+msgid "Dirt"
+msgstr "土"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:470
+msgid ""
+"Dirt acts as a soil for a few plants. When in light, this block may grow a "
+"grass or mycelium cover if such blocks are nearby."
+msgstr ""
+"土はいくつかの植物のための土壌として機能します。明るいところで近くに草や菌糸"
+"で覆われたブロックがあれば、このブロックの表層にもそれら成長させることがあり"
+"ます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:481
+msgid "Coarse Dirt"
+msgstr "粗い土"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:482
+msgid ""
+"Coarse dirt acts as a soil for some plants and is similar to dirt, but it "
+"will never grow a cover."
+msgstr ""
+"粗い土は、一部の植物の土として機能し、土と類似してはいますが、表層を何かが覆"
+"うことがありません。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:492
+msgid "Gravel"
+msgstr "砂利"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:493
+msgid ""
+"This block consists of a couple of loose stones and can't support itself."
+msgstr ""
+"このブロックは緩い石の組み合わせで構成されており、自身を支えられません。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:527
+msgid "Sand"
+msgstr "砂"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:528
+msgid "Sand is found in large quantities at beaches and deserts."
+msgstr "砂は、海岸や砂漠で大量に見つかります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:539
+msgid "Sandstone"
+msgstr "砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:541
+msgid "Sandstone is compressed sand and is a rather soft kind of stone."
+msgstr "砂岩は砂を圧縮したもので、やや軟らかい種類の石です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:551
+msgid "Cut Sandstone"
+msgstr "溝入り砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:552
+msgid "Cut sandstone is a decorative building block."
+msgstr "溝入り砂岩は、装飾用ブロックです。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:562
+msgid "Chiseled Sandstone"
+msgstr "模様入り砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:563
+msgid "Chiseled sandstone is a decorative building block."
+msgstr "模様入り砂岩は、装飾用ブロックです。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:573
+msgid "Smooth Sandstone"
+msgstr "滑らかな砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:575
+msgid "Smooth sandstone is compressed sand and is a rather soft kind of stone."
+msgstr "滑らかな砂岩は、装飾的な建築ブロックです。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:588
+msgid "Red Sand"
+msgstr "赤い砂"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:589
+msgid "Red sand is found in large quantities in mesa biomes."
+msgstr "赤い砂は、メサバイオームで大量に見つかります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:599
+msgid "Red Sandstone"
+msgstr "赤い砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:600
+msgid ""
+"Red sandstone is compressed red sand and is a rather soft kind of stone."
+msgstr "赤い砂岩は赤い砂を圧縮したもので、やや軟らかい種類の石です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:610
+msgid "Cut Red Sandstone"
+msgstr "溝入り赤い砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:611
+msgid "Cut red sandstone is a decorative building block."
+msgstr "溝入り赤い砂岩は、装飾用ブロックです。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:621
+msgid "Chiseled Red Sandstone"
+msgstr "模様入り赤い砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:622
+msgid "Chiseled red sandstone is a decorative building block."
+msgstr "模様入り赤い砂岩は、装飾用ブロックです。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:632
+msgid "Smooth Red Sandstone"
+msgstr "滑らかな赤い砂岩"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:633
+msgid "Smooth red sandstone is a decorative building block."
+msgstr "滑らかな赤い砂岩は、装飾的な建築ブロックです。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:645
+msgid "Clay"
+msgstr "粘土"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:646
+msgid "Clay is a versatile kind of earth commonly found at beaches underwater."
+msgstr "粘土は海水浴中によく見つかる、汎用性の高い土の一種です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:659
+msgid "Brick Block"
+msgstr "レンガブロック"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:660
+msgid ""
+"Brick blocks are a good building material for building solid houses and can "
+"take quite a punch."
+msgstr ""
+"レンガブロックは、頑丈な家を建てるのに適した建材で、かなりの衝撃にも耐えられ"
+"ます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:671
+msgid "Bedrock"
+msgstr "岩盤"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:672
+msgid ""
+"Bedrock is a very hard type of rock. It can not be broken, destroyed, "
+"collected or moved by normal means, unless in Creative Mode."
+msgstr ""
+"岩盤は非常に硬い岩石の一種です。（クリエイティブモードでない限り）通常の手段"
+"では壊したり、破壊したり、集めたり、移動させることはできません。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:673
+msgid ""
+"In the End dimension, starting a fire on this block will create an eternal "
+"fire."
+msgstr ""
+"エンドの次元では、このブロック上で火を起こすと、永続的な炎が生まれます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:715
+msgid "Cobblestone"
+msgstr "丸石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:729
+msgid "Mossy Cobblestone"
+msgstr "苔むした丸石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:740
+msgid "Block of Coal"
+msgstr "石炭ブロック"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:741
+msgid ""
+"Blocks of coal are useful as a compact storage of coal and very useful as a "
+"furnace fuel. A block of coal is as efficient as 10 coal."
+msgstr ""
+"石炭ブロックは、石炭をコンパクトに保管でき、炉の燃料として非常に便利です。1個"
+"の石炭ブロックは、10個の石炭と同じ効率です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:753
+msgid "Block of Iron"
+msgstr "鉄ブロック"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:754
+msgid ""
+"A block of iron is mostly a decorative block but also useful as a compact "
+"storage of iron ingots."
+msgstr ""
+"鉄ブロックは、主に装飾用のブロックですが、鉄インゴットをコンパクトに保管する"
+"のにも便利です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:765
+msgid "Block of Gold"
+msgstr "金ブロック"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:766
+msgid ""
+"A block of gold is mostly a shiny decorative block but also useful as a "
+"compact storage of gold ingots."
+msgstr ""
+"金ブロックは、主に装飾用の輝くブロックですが、金インゴットをコンパクトに保管"
+"するのにも便利です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:777
+msgid "Block of Diamond"
+msgstr "ダイヤモンドブロック"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:778
+msgid ""
+"A block of diamond is mostly a shiny decorative block but also useful as a "
+"compact storage of diamonds."
+msgstr ""
+"ダイヤモンドブロックは、主に装飾用の輝くブロックですが、ダイヤモンドをコンパ"
+"クトに保管するのにも便利です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:789
+msgid "Block of Lapis Lazuli"
+msgstr "ラピスラズリブロック"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:790
+msgid ""
+"A lapis lazuli block is mostly a decorative block but also useful as a "
+"compact storage of lapis lazuli."
+msgstr ""
+"ラピスラズリブロックは、主に装飾用のブロックですが、ラピスラズリをコンパクト"
+"に保管するのにも便利です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:800
+msgid "Block of Emerald"
+msgstr "エメラルドブロック"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:801
+msgid ""
+"A block of emerald is mostly a shiny decorative block but also useful as a "
+"compact storage of emeralds."
+msgstr ""
+"エメラルドブロックは、主に装飾用の輝くブロックですが、エメラルドをコンパクト"
+"に保管するのにも便利です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:812
+msgid "Obsidian"
+msgstr "黒曜石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:813
+msgid ""
+"Obsidian is an extremely hard mineral with an enourmous blast-resistance. "
+"Obsidian is formed when water meets lava."
+msgstr ""
+"黒曜石は、とてつもなく硬い鉱物で耐爆性が抜群です。黒曜石は、水と溶岩が出会っ"
+"て形成されたものです。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:823
+msgid "Crying Obsidian"
+msgstr "泣く黒曜石"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:824
+msgid ""
+"Crying obsidian is a luminous obsidian that can generate as part of ruined "
+"portals."
+msgstr ""
+"泣く黒曜石は、廃墟のポータルの一部として生成可能な、発光する黒曜石です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:835
+msgid "Ice"
+msgstr "氷"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:836
+msgid ""
+"Ice is a solid block usually found in cold areas. It melts near block light "
+"sources at a light level of 12 or higher. When it melts or is broken while "
+"resting on top of another block, it will turn into a water source."
+msgstr ""
+"氷は、通常寒い地域にある固体ブロックです。明るさ12以上の光源ブロック付近では"
+"溶けます。他のブロックの上に乗っているときに溶けたり割れたりすると、水源に変"
+"わります。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:854
+msgid "Packed Ice"
+msgstr "氷塊"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:855
+msgid "Packed ice is a compressed form of ice. It is opaque and solid."
+msgstr "氷塊は、氷が圧縮した形態です。不透明で固形です。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:870
+msgid "Blue Ice"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:871
+msgid ""
+"Blue Ice is a still more compressed form of ice.  It is opaque and solid."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:914
+msgid ""
+"Frosted ice is a short-lived solid block. It melts into a water source "
+"within a few seconds."
+msgstr "薄氷は短命の固形ブロックです。水源の中では数秒で融けてしまいます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:917
+msgid "Frosted Ice"
+msgstr "薄氷"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1012
+msgid "Top Snow"
+msgstr "積雪"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1013
+msgid "Stackable"
+msgstr "スタック可能"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1014
+msgid ""
+"Top snow is a layer of snow. It melts near light sources other than the sun "
+"with a light level of 12 or higher."
+msgstr "積雪とは、雪の層です。太陽を除く明るさ12以上の光源付近で融けます。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1014
+msgid ""
+"Top snow can be stacked and has one of 8 different height levels. At levels "
+"2-8, top snow is collidable. Top snow drops 2-9 snowballs, depending on its "
+"height."
+msgstr ""
+"積雪は積み重ねることができ、8段階の高さが選べます。2～8段では、積雪に衝突性が"
+"あります。積雪は高さに応じて2～9個の雪玉を落とします。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1015
+msgid ""
+"This block can only be placed on full solid blocks and on another top snow "
+"(which increases its height)."
+msgstr ""
+"このブロックは、完全な固体ブロックの上と、別の積雪の上にしか置けません（高さ"
+"が増えます）。"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1066
+msgid "Snow"
+msgstr "雪"
+
+#: mods/ITEMS/mcl_core/nodes_base.lua:1067
+msgid ""
+"This is a full block of snow. Snow of this thickness is usually found in "
+"areas of extreme cold."
+msgstr ""
+"これは１ブロックサイズの雪です。この厚さの雪は、おおむね極寒の地で見られま"
+"す。"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:6
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:54
+msgid "Cactus"
+msgstr "サボテン"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:7
+msgid "Grows on sand"
+msgstr "砂の上に生育"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:7
+msgid "Contact damage: @1 per half second"
+msgstr "接触ダメージ：@1/0.5秒"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:8
+msgid ""
+"This is a piece of cactus commonly found in dry areas, especially deserts. "
+"Over time, cacti will grow up to 3 blocks high on sand or red sand. A cactus "
+"hurts living beings touching it with a damage of 1 HP every half second. "
+"When a cactus block is broken, all cactus blocks connected above it will "
+"break as well."
+msgstr ""
+"これは乾燥した地域、特に砂漠によく見られるサボテンの一種です。サボテンは砂や"
+"赤い砂の上で時間が経つと、3ブロックの高さまで成長します。サボテンはそれに触れ"
+"た生物を傷つけます（1HP/0.5秒のダメージ）。サボテンのブロックが壊れると、その"
+"上につながっているすべてのサボテンのブロックも壊れます。"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:9
+msgid "A cactus can only be placed on top of another cactus or any sand."
+msgstr "サボテンは、他のサボテンや砂の上にしか置けません。"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:77
+msgid "Cactus Flower"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:78
+msgid "Grows on cacti"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:101
+msgid "Sugar Canes"
+msgstr "サトウキビ"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:102
+msgid "Grows on sand or dirt next to water"
+msgstr "水辺の砂や土の上に生育"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:103
+msgid ""
+"Sugar canes are a plant which has some uses in crafting. Sugar canes will "
+"slowly grow up to 3 blocks when they are next to water and are placed on a "
+"grass block, dirt, sand, red sand, podzol or coarse dirt. When a sugar cane "
+"is broken, all sugar canes connected above will break as well."
+msgstr ""
+"サトウキビはクラフトに使える植物です。水のある場所で、草原、土、砂、赤い砂、"
+"ポドゾル、粗い土の上にサトウキビを置くと、ゆっくりと3ブロックまで成長します。"
+"サトウキビが折れるときは、上につながっているすべてのサトウキビも折れます。"
+
+#: mods/ITEMS/mcl_core/nodes_cactuscane.lua:104
+msgid ""
+"Sugar canes can only be placed top of other sugar canes and on top of blocks "
+"on which they would grow."
+msgstr ""
+"サトウキビは、他のサトウキビの上や、サトウキビが成長するブロックの上にしか置"
+"けません。"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:15
+msgid "Ladder"
+msgstr "ハシゴ"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:16
+msgid ""
+"A piece of ladder which allows you to climb vertically. Ladders can only be "
+"placed on the side of solid blocks and not on glass, leaves, ice, slabs, "
+"glowstone, nor sea lanterns."
+msgstr ""
+"垂直によじ登ることができるハシゴの一部です。ハシゴは固いブロックの側面にのみ"
+"設置でき、ガラス、葉、氷、スラブ、グローストーン、シーランタンの上には設置で"
+"きません。"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:83
+msgid "Vines"
+msgstr "ツタ"
+
+#: mods/ITEMS/mcl_core/nodes_climb.lua:84
+msgid ""
+"Vines are climbable blocks which can be placed on the sides of solid full-"
+"cube blocks. Vines slowly grow and spread."
+msgstr ""
+"ツタは、フルサイズのブロックの側面に配置できる、よじ登り可能なブロックです。"
+"ツタはゆっくりと成長し、広がっていきます。"
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:6
+msgid "Glass"
+msgstr "ガラス"
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:7
+msgid "A decorative and mostly transparent block."
+msgstr "装飾用の、ほとんどが透明なブロックです。"
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:33
+msgid ""
+"Stained glass is a decorative and mostly transparent block which comes in "
+"various different colors."
+msgstr ""
+"色ガラスは、そのほとんどが透明な装飾ブロックで、さまざまなカラーバリエーショ"
+"ンがあります。"
+
+#: mods/ITEMS/mcl_core/nodes_glass.lua:34
+msgid "Stained Glass"
+msgstr "色ガラス"
+
+#: mods/ITEMS/mcl_core/nodes_glow_lichen.lua:60
+msgid "Glow Lichen"
+msgstr ""
+
+#: mods/ITEMS/mcl_core/nodes_glow_lichen.lua:61
+msgid ""
+"Naturally generating non-solid block that emits a faint light and can attach "
+"to any surface of a solid block."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:11
+msgid "Flowing Water"
+msgstr "流れる水"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:55
+msgid "Water Source"
+msgstr "水源"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:56
+msgid "Water"
+msgstr "水"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:58
+msgid ""
+"Water is abundant in oceans and also appears in a few springs in the ground. "
+"You can swim easily in water, but you need to catch your breath from time to "
+"time."
+msgstr ""
+"水は海に豊富にあり、また地中のわずかな湧水にも現れます。水中では簡単に泳ぐこ"
+"とができますが、時々息を整える必要があります。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:59
+msgid "Water interacts with lava in various ways:"
+msgstr "水は溶岩とさまざまな形で相互作用します："
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:60
+msgid ""
+"• When water is directly above or horizontally next to a lava source, the "
+"lava turns into obsidian."
+msgstr "・溶岩源の上や横に水が隣接すると、溶岩源は黒曜石に変化します。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:61
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:165
+msgid ""
+"• When flowing water touches flowing lava either from above or horizontally, "
+"the lava turns into cobblestone."
+msgstr "・流れる溶岩の上や横に流れる水が触れると、溶岩は丸石に変化します。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:62
+msgid "• When water is directly below lava, the water turns into stone."
+msgstr "・水が溶岩の真下にあると、水は石に変化します。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:103
+msgid "Flowing Lava"
+msgstr "流れる溶岩"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:152
+msgid ""
+"A lava source sets fire to a couple of air blocks above when they're next to "
+"a flammable block."
+msgstr ""
+"溶岩源は、可燃性ブロックの隣にあると、その上の空気ブロック数個に火をつけま"
+"す。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:158
+msgid "Lava Source"
+msgstr "溶岩源"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:161
+msgid ""
+"Lava is hot and rather dangerous. Don't touch it, it will hurt you a lot and "
+"it is hard to get out."
+msgstr ""
+"溶岩は熱くてだいぶ危険です。触れてはいけません、とても痛いし、出るのも大変で"
+"す。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:163
+msgid "Lava interacts with water various ways:"
+msgstr "溶岩は水とさまざまな相互作用をします："
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:164
+msgid ""
+"• When a lava source is directly below or horizontally next to water, the "
+"lava turns into obsidian."
+msgstr "・溶岩源が水の下や横に隣接している場合、溶岩源は黒曜石に変化します。"
+
+#: mods/ITEMS/mcl_core/nodes_liquid.lua:166
+msgid "• When lava is directly above water, the water turns into stone."
+msgstr "・溶岩が水の真上にあると、水は石に変化します。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:5
+msgid "Bone Block"
+msgstr "骨ブロック"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:6
+msgid "Bone blocks are decorative blocks and a compact storage of bone meal."
+msgstr "骨ブロックは装飾用ブロックで、骨粉をコンパクトに保管できます。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:19
+msgid "Slime Block"
+msgstr "スライムブロック"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:20
+msgid "Slime blocks are very bouncy and prevent fall damage."
+msgstr ""
+"スライムブロックは非常に弾力性があり、落下ダメージを防ぐことができます。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:53
+msgid "Cobweb"
+msgstr "クモの巣"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:54
+msgid "Slows down movement"
+msgstr "動きが遅くなる"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:55
+msgid "Cobwebs can be walked through, but significantly slow you down."
+msgstr "クモの巣は歩いて通過できますが、大幅にノロくなります。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:74 mods/ITEMS/mcl_core/nodes_misc.lua:113
+msgid "Dead Bush"
+msgstr "枯れ木"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:75
+msgid ""
+"Dead bushes are unremarkable plants often found in dry areas. They can be "
+"harvested for sticks."
+msgstr ""
+"枯れ木は、乾燥した場所によく見られる、路傍の植物です。棒として採取できます。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:122
+msgid "Barrier"
+msgstr "バリア"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:123
+msgid ""
+"Barriers are invisible walkable blocks. They are used to create boundaries "
+"of adventure maps and the like. Monsters and animals won't appear on "
+"barriers, and fences do not connect to barriers. Other blocks can be built "
+"on barriers like on any other block."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:124
+msgid ""
+"When you hold a barrier in hand, you reveal all placed barriers in a short "
+"distance around you."
+msgstr ""
+"バリアを手にすると、周囲の近距離に配置されたバリアがすべて表示されます。"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:176
+msgid "Realm Barrier"
+msgstr "領域障壁"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:209
+msgid "Light"
+msgstr "光"
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:210
+msgid ""
+"Lights are invisible blocks. They are used to light up adventure maps and "
+"the like."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:211
+msgid ""
+"When you hold a light in hand, you reveal all placed lights in a short "
+"distance around you."
+msgstr ""
+
+#: mods/ITEMS/mcl_core/nodes_misc.lua:263
+msgid "Void"
+msgstr "奈落"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:5
+msgid "Stone Stairs"
+msgstr "石の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:6
+msgid "Stone Slab"
+msgstr "石のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:12
+msgid "Smooth Stone Slab"
+msgstr "滑らかな石のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:19
+msgid "Andesite Stairs"
+msgstr "安山岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:20
+msgid "Andesite Slab"
+msgstr "安山岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:25
+msgid "Granite Stairs"
+msgstr "花崗岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:26
+msgid "Granite Slab"
+msgstr "花崗岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:31
+msgid "Diorite Stairs"
+msgstr "閃緑岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:32
+msgid "Diorite Slab"
+msgstr "閃緑岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:38
+msgid "Cobblestone Stairs"
+msgstr "丸石の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:39
+msgid "Cobblestone Slab"
+msgstr "丸石のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:44
+msgid "Mossy Cobblestone Stairs"
+msgstr "苔むした丸石の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:45
+msgid "Mossy Cobblestone Slab"
+msgstr "苔むした丸石のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:51
+msgid "Brick Stairs"
+msgstr "レンガの階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:52
+msgid "Brick Slab"
+msgstr "レンガのハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:59
+msgid "Sandstone Stairs"
+msgstr "砂岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:60
+msgid "Sandstone Slab"
+msgstr "砂岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:65
+msgid "Smooth Sandstone Stairs"
+msgstr "滑らかな砂岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:66
+msgid "Smooth Sandstone Slab"
+msgstr "滑らかな砂岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:71
+msgid "Cut Sandstone Stairs"
+msgstr "研がれた砂岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:72
+msgid "Cut Sandstone Slab"
+msgstr "研がれた砂岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:82
+msgid "Red Sandstone Stairs"
+msgstr "赤い砂岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:83
+msgid "Red Sandstone Slab"
+msgstr "赤い砂岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:88
+msgid "Smooth Red Sandstone Stairs"
+msgstr "滑らかな赤い砂岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:89
+msgid "Smooth Red Sandstone Slab"
+msgstr "滑らかな赤い砂岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:94
+msgid "Cut Red Sandstone Stairs"
+msgstr "研がれた赤い砂岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:95
+msgid "Cut Red Sandstone Slab"
+msgstr "研がれた赤い砂岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:105
+msgid "Stone Brick Stairs"
+msgstr "石レンガの階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:106
+msgid "Stone Brick Slab"
+msgstr "石レンガのハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:112
+msgid "Polished Andesite Stairs"
+msgstr "磨かれた安山岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:117
+msgid "Polished Andesite Slab"
+msgstr "磨かれた安山岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:124
+msgid "Polished Granite Stairs"
+msgstr "磨かれた花崗岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:129
+msgid "Polished Granite Slab"
+msgstr "磨かれた花崗岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:136
+msgid "Polished Diorite Stairs"
+msgstr "磨かれた閃緑岩の階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:141
+msgid "Polished Diorite Slab"
+msgstr "磨かれた閃緑岩のハーフブロック"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:148
+msgid "Mossy Stone Brick Stairs"
+msgstr "苔むした石レンガの階段"
+
+#: mods/ITEMS/mcl_core/nodes_stairs.lua:149
+msgid "Mossy Stone Brick Slab"
+msgstr "苔むした石レンガのハーフブロック"

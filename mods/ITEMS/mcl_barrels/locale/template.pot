@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-03-30 02:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_barrels/init.lua:36 mods/ITEMS/mcl_barrels/init.lua:96
+msgid "Barrel"
+msgstr ""
+
+#: mods/ITEMS/mcl_barrels/init.lua:50
+msgid "Inventory"
+msgstr ""
+
+#: mods/ITEMS/mcl_barrels/init.lua:97 mods/ITEMS/mcl_barrels/init.lua:158
+msgid "27 inventory slots"
+msgstr ""
+
+#: mods/ITEMS/mcl_barrels/init.lua:98 mods/ITEMS/mcl_barrels/init.lua:159
+msgid "Barrels are containers which provide 27 inventory slots."
+msgstr ""
+
+#: mods/ITEMS/mcl_barrels/init.lua:99 mods/ITEMS/mcl_barrels/init.lua:160
+msgid ""
+"To access its inventory, rightclick it. When broken, the items will drop out."
+msgstr ""
+
+#: mods/ITEMS/mcl_barrels/init.lua:157
+msgid "Barrel Open"
+msgstr ""

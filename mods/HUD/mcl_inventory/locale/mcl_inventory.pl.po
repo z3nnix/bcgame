@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_inventory x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-07-01 06:50+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HUD/mcl_inventory/creative.lua:13
+msgid "Scrollbar"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/creative.lua:14
+msgid "Pagination buttons"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/creative.lua:17
+msgid "Creative inventory scrolling"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/creative.lua:328
+msgid "Building Blocks"
+msgstr "Bloki budowlane"
+
+#: mods/HUD/mcl_inventory/creative.lua:329
+msgid "Decoration Blocks"
+msgstr "Bloki dekoracyjne"
+
+#: mods/HUD/mcl_inventory/creative.lua:330
+msgid "Redstone"
+msgstr "Czerwony kamień"
+
+#: mods/HUD/mcl_inventory/creative.lua:331
+msgid "Transportation"
+msgstr "Transport"
+
+#: mods/HUD/mcl_inventory/creative.lua:332
+msgid "Miscellaneous"
+msgstr "Różne"
+
+#: mods/HUD/mcl_inventory/creative.lua:333
+msgid "Search Items"
+msgstr "Wyszukaj przedmioty"
+
+#: mods/HUD/mcl_inventory/creative.lua:334
+msgid "Foodstuffs"
+msgstr "Jedzenie"
+
+#: mods/HUD/mcl_inventory/creative.lua:335
+msgid "Tools"
+msgstr "Narzędzia"
+
+#: mods/HUD/mcl_inventory/creative.lua:336
+msgid "Combat"
+msgstr "Walka"
+
+#: mods/HUD/mcl_inventory/creative.lua:337
+msgid "Mobs"
+msgstr "Moby"
+
+#: mods/HUD/mcl_inventory/creative.lua:338
+msgid "Brewing"
+msgstr "Warzenie"
+
+#: mods/HUD/mcl_inventory/creative.lua:339
+msgid "Materials"
+msgstr "Materiały"
+
+#: mods/HUD/mcl_inventory/creative.lua:340
+msgid "Survival Inventory"
+msgstr "Ekwipunek przetrwania"
+
+#: mods/HUD/mcl_inventory/creative.lua:341
+msgid "Not in Creative Inventory"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/creative.lua:487
+#: mods/HUD/mcl_inventory/survival.lua:139
+msgid "Recipe book"
+msgstr "Książka z recepturami"
+
+#: mods/HUD/mcl_inventory/creative.lua:491
+#: mods/HUD/mcl_inventory/survival.lua:143
+msgid "Help"
+msgstr "Pomoc"
+
+#: mods/HUD/mcl_inventory/creative.lua:496
+#: mods/HUD/mcl_inventory/survival.lua:151
+msgid "Advancements"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/creative.lua:501
+msgid "Switch stack size"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/creative.lua:505
+#: mods/HUD/mcl_inventory/survival.lua:147
+msgid "Player settings"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/creative.lua:533
+msgid "@1 / @2"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/init.lua:192
+msgid "Return to player inventory"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/init.lua:239
+msgid "Crafting table out of range!"
+msgstr ""
+
+#: mods/HUD/mcl_inventory/survival.lua:123
+msgid "Crafting"
+msgstr "Wytwarzanie"
+
+#: mods/HUD/mcl_inventory/survival.lua:135
+msgid "Fill Craft Grid"
+msgstr "Wypełnij siatkę wytwarzania"

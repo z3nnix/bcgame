@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_armor_stand x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/ITEMS/mcl_armor_stand/init.lua:53
+msgid "Armor Stand"
+msgstr "갑옷 거치대"
+
+#: mods/ITEMS/mcl_armor_stand/init.lua:54
+msgid "Displays pieces of armor"
+msgstr "갑옷 부품 전시"
+
+#: mods/ITEMS/mcl_armor_stand/init.lua:55
+msgid ""
+"An armor stand is a decorative object which can display different pieces of "
+"armor. Anything which players can wear as armor can also be put on an armor "
+"stand."
+msgstr ""
+"갑옷 거치대는 다양한 갑옷을 전시할 수 있는 장식용 오브젝트입니다. 플레이어가 "
+"갑옷으로 입을 수 있는 모든 것은 갑옷 거치대에 놓을 수 있습니다."
+
+#: mods/ITEMS/mcl_armor_stand/init.lua:56
+msgid ""
+"Just place an armor item on the armor stand. To take the top piece of armor "
+"from the armor stand, select your hand and use the place key on the armor "
+"stand."
+msgstr ""
+"갑옷 아이템을 갑옷 거치대에 올려 놓아야 합니다. 가장 위의 갑옷을 거치대에서 "
+"꺼내려면 손을 비우고 거치대에 배치 키를 사용해야 합니다."

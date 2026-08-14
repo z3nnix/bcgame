@@ -1,0 +1,352 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain mcl_doc x.x.x\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-04-01 20:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: mtt_convert 0.1.1\n"
+
+#: mods/HELP/mcl_doc/init.lua:19
+msgid "Water can flow into this block and cause it to drop as an item."
+msgstr ""
+"L'acqua può scorrere in questo blocco e causarne la caduta come elemento."
+
+#: mods/HELP/mcl_doc/init.lua:28
+msgid "This block can be turned into dirt with a hoe."
+msgstr "Questo blocco può venire mutato in terra con una zappa."
+
+#: mods/HELP/mcl_doc/init.lua:30
+msgid "This block can be turned into farmland with a hoe."
+msgstr "Questo blocco può venire mutato in terra arata con una zappa."
+
+#: mods/HELP/mcl_doc/init.lua:38
+msgid "This block can be turned into grass path with a shovel."
+msgstr "Questo blocco può essere trasformato in erba con una pala."
+
+#: mods/HELP/mcl_doc/init.lua:48
+msgid "This block acts as a soil for all saplings."
+msgstr ""
+"Questo blocco può essere usato come suolo per tutti i tipi di arboscello."
+
+#: mods/HELP/mcl_doc/init.lua:50
+msgid "This block acts as a soil for some saplings."
+msgstr ""
+"Questo blocco può essere usato come suolo per alcuni tipi di arboscello."
+
+#: mods/HELP/mcl_doc/init.lua:53
+msgid "Sugar canes will grow on this block."
+msgstr "Le canne da zucchero possono crescere su questo blocco."
+
+#: mods/HELP/mcl_doc/init.lua:56
+msgid "Nether wart will grow on this block."
+msgstr "Le verrucche del nether possono crescere su questo blocco."
+
+#: mods/HELP/mcl_doc/init.lua:65
+msgid ""
+"This block quickly decays when there is no wood block of any species within "
+"a distance of @1. When decaying, it disappears and may drop one of its "
+"regular drops. The block does not decay when the block has been placed by a "
+"player."
+msgstr ""
+"Questo blocco decade se non ci sono tronchi di qualsiasi tipo entro una "
+"distanza di @1. Quando decade, sparisce e può lasciare oggetti come se "
+"distrutto a mano. Questo blocco non decade se posizionato da un giocatore."
+
+#: mods/HELP/mcl_doc/init.lua:67
+msgid ""
+"This block quickly decays and disappears when there is no wood block of any "
+"species within a distance of @1. The block does not decay when the block has "
+"been placed by a player."
+msgstr ""
+"Questo blocco decade se non ci sono tronchi di qualsiasi tipo entro una "
+"distanza di @1. Questo blocco non decade se posizionato da un giocatore."
+
+#: mods/HELP/mcl_doc/init.lua:77
+msgid ""
+"This plant can only grow on grass blocks and dirt. To survive, it needs to "
+"have an unobstructed view to the sky above or be exposed to a light level of "
+"8 or higher."
+msgstr ""
+"Questa pianta può crescere solo sui blocchi d'erba o terra. Per "
+"sopravvivere, deve avere una vista diretta al cielo od essere esposta ad un "
+"livello di luce pari o superiore ad 8."
+
+#: mods/HELP/mcl_doc/init.lua:79
+msgid ""
+"This plant can grow on grass blocks, podzol, dirt and coarse dirt. To "
+"survive, it needs to have an unobstructed view to the sky above or be "
+"exposed to a light level of 8 or higher."
+msgstr ""
+"Questa pianta può crescere solo sui blocchi d'erba, podzol, terra o terra "
+"brulla. Per sopravvivere, deve avere una vista diretta al cielo od essere "
+"esposta ad un livello di luce pari o superiore ad 8."
+
+#: mods/HELP/mcl_doc/init.lua:87
+msgid "This block is flammable."
+msgstr "Questo blocco è infiammabile."
+
+#: mods/HELP/mcl_doc/init.lua:95
+msgid "This block destroys any item it touches."
+msgstr "Questo blocco distrugge qualsiasi oggetto viene a contato con esso."
+
+#: mods/HELP/mcl_doc/init.lua:108
+msgid "To eat it, wield it, then rightclick."
+msgstr "Per mangiarlo, tienilo in mano e fai clic col tasto destro."
+
+#: mods/HELP/mcl_doc/init.lua:110
+msgid "You can eat this even when your hunger bar is full."
+msgstr "Puoi mangiarlo anche se l'indicatore della fame è al massimo."
+
+#: mods/HELP/mcl_doc/init.lua:112
+msgid "You cannot eat this when your hunger bar is full."
+msgstr "Non puoi mangiarlo se l'indicatore della fame è al massimo."
+
+#: mods/HELP/mcl_doc/init.lua:115
+msgid "To drink it, wield it, then rightclick."
+msgstr "Per berlo, tienilo in mano e fai clic col destro."
+
+#: mods/HELP/mcl_doc/init.lua:117
+msgid "You cannot drink this when your hunger bar is full."
+msgstr "Non puoi berlo se l'indicatore della fame è al massimo."
+
+#: mods/HELP/mcl_doc/init.lua:120
+msgid "To consume it, wield it, then rightclick."
+msgstr "Per consumarlo, tienilo in mano e fai clic col destro."
+
+#: mods/HELP/mcl_doc/init.lua:122
+msgid "You cannot consume this when your hunger bar is full."
+msgstr "Non puoi consumarlo se l'indicatore della fame è al massimo."
+
+#: mods/HELP/mcl_doc/init.lua:132
+msgid "Hunger points restored: @1"
+msgstr "Punti fame recuperati: @1"
+
+#: mods/HELP/mcl_doc/init.lua:135
+msgid "Saturation points restored: @1%"
+msgstr "Punti sazietà recuperati: @1%"
+
+#: mods/HELP/mcl_doc/init.lua:149
+msgid "It can be worn on the head."
+msgstr "Si può indossare sulla testa."
+
+#: mods/HELP/mcl_doc/init.lua:153
+msgid "It can be worn on the torso."
+msgstr "Si può indossare sul torso."
+
+#: mods/HELP/mcl_doc/init.lua:157
+msgid "It can be worn on the legs."
+msgstr "Si può indossare sulle gambe."
+
+#: mods/HELP/mcl_doc/init.lua:161
+msgid "It can be worn on the feet."
+msgstr "Si può indossare sui piedi."
+
+#: mods/HELP/mcl_doc/init.lua:172
+msgid "Armor points: @1"
+msgstr "Punti armatura: @1"
+
+#: mods/HELP/mcl_doc/init.lua:176
+msgid "Armor durability: @1"
+msgstr "Durabilità armatura: @1"
+
+#: mods/HELP/mcl_doc/init.lua:183
+msgid "This item cannot be renamed at an anvil."
+msgstr "Questo oggetto non può essere rinominato su un'incudine."
+
+#: mods/HELP/mcl_doc/init.lua:192
+msgid "This block crushes any block it falls into."
+msgstr "Questo blocco distrugge qualsiasi altro blocco su cui cade."
+
+#: mods/HELP/mcl_doc/init.lua:200
+msgid ""
+"When this block falls deeper than 1 block, it causes damage to any player it "
+"hits. The damage dealt is B×2−2 hit points with B = number of blocks fallen. "
+"The damage can never be more than 40 HP."
+msgstr ""
+"Quando questo blocco cade, danneggia i giocatori che colpisce. Il danno è "
+"pari a B×2−2 HP, dove B è il numero di blocchi in altezza in cui è caduto. "
+"Il danno massimo è di 40 HP."
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Diamond Pickaxe"
+msgstr "Piccone di diamante"
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Iron Pickaxe"
+msgstr "Piccone di ferro"
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Stone Pickaxe"
+msgstr "Piccone di pietra"
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Golden Pickaxe"
+msgstr "Piccone d'oro"
+
+#: mods/HELP/mcl_doc/init.lua:207
+msgid "Wooden Pickaxe"
+msgstr "Piccone di legno"
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Diamond Axe"
+msgstr "Ascia di diamante"
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Iron Axe"
+msgstr "Ascia di ferro"
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Stone Axe"
+msgstr "Ascia di pietra"
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Golden Axe"
+msgstr "Ascia d'oro"
+
+#: mods/HELP/mcl_doc/init.lua:208
+msgid "Wooden Axe"
+msgstr "Ascia di legno"
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Diamond Shovel"
+msgstr "Pala di diamante"
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Iron Shovel"
+msgstr "Pala di ferro"
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Stone Shovel"
+msgstr "Pala di pietra"
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Golden Shovel"
+msgstr "Pala d'oro"
+
+#: mods/HELP/mcl_doc/init.lua:209
+msgid "Wooden Shovel"
+msgstr "Pala di legno"
+
+#: mods/HELP/mcl_doc/init.lua:215
+msgid "This block can be mined by any tool instantly."
+msgstr ""
+"Questo blocco può essere scavato istantaneamente da qualsiasi attrezzo."
+
+#: mods/HELP/mcl_doc/init.lua:238
+msgid "• Shears"
+msgstr "• Cesoie"
+
+#: mods/HELP/mcl_doc/init.lua:242
+msgid "• Sword"
+msgstr "• Spada"
+
+#: mods/HELP/mcl_doc/init.lua:246
+msgid "• Hand"
+msgstr "• Mano nuda"
+
+#: mods/HELP/mcl_doc/init.lua:251
+msgid "This block can be mined by:"
+msgstr "Questo blocco può essere scavato con:"
+
+#: mods/HELP/mcl_doc/init.lua:260
+msgid "Hardness: ∞"
+msgstr "Durezza: ∞"
+
+#: mods/HELP/mcl_doc/init.lua:262
+msgid "Hardness: @1"
+msgstr "Durezza: @1"
+
+#: mods/HELP/mcl_doc/init.lua:265
+msgid "Blast Resistance: @1"
+msgstr "Resistenza alle esplosioni: @1"
+
+#: mods/HELP/mcl_doc/init.lua:267
+msgid "This block will not be destroyed by TNT explosions."
+msgstr "Questo blocco non verrà distrutto dalle esplosioni di TNT."
+
+#: mods/HELP/mcl_doc/init.lua:275
+msgid "This block drops itself when mined by shears."
+msgstr ""
+"Questo blocco lascia cadere sé stesso quando distrutto con delle cesoie."
+
+#: mods/HELP/mcl_doc/init.lua:290
+msgid "@1×@2"
+msgstr "@1×@2"
+
+#: mods/HELP/mcl_doc/init.lua:294
+msgid ", "
+msgstr ", "
+
+#: mods/HELP/mcl_doc/init.lua:294
+msgid "This blocks drops the following when mined by shears: @1"
+msgstr "Questo blocco lascia cadere quando distrutto con delle cesoie: @1"
+
+#: mods/HELP/mcl_doc/init.lua:326
+msgid "Painfully slow"
+msgstr "Lentissimo"
+
+#: mods/HELP/mcl_doc/init.lua:328
+msgid "Very slow"
+msgstr "Molto lento"
+
+#: mods/HELP/mcl_doc/init.lua:330
+msgid "Slow"
+msgstr "Lento"
+
+#: mods/HELP/mcl_doc/init.lua:332
+msgid "Fast"
+msgstr "Veloce"
+
+#: mods/HELP/mcl_doc/init.lua:334
+msgid "Very fast"
+msgstr "Molto veloce"
+
+#: mods/HELP/mcl_doc/init.lua:336
+msgid "Extremely fast"
+msgstr "Velocissimo"
+
+#: mods/HELP/mcl_doc/init.lua:338
+msgid "Instantaneous"
+msgstr "Istantaneo"
+
+#: mods/HELP/mcl_doc/init.lua:350
+msgid "@1 uses"
+msgstr "@1 usi"
+
+#: mods/HELP/mcl_doc/init.lua:352
+msgid "Unlimited uses"
+msgstr "Usi infiniti"
+
+#: mods/HELP/mcl_doc/init.lua:357
+msgid "Mining speed: @1"
+msgstr "Velocità di scavo: @1"
+
+#: mods/HELP/mcl_doc/init.lua:360
+msgid "Mining durability: @1"
+msgstr "Durabilità di scavo: @1"
+
+#: mods/HELP/mcl_doc/init.lua:367
+msgid "This tool is capable of mining."
+msgstr "Questo attrezzo è in grado di scavare la pietra."
+
+#: mods/HELP/mcl_doc/init.lua:375
+msgid "Block breaking strength: @1"
+msgstr "Forza distruzione blocco: @1"
+
+#: mods/HELP/mcl_doc/init.lua:394
+msgid "This is a melee weapon which deals damage by punching."
+msgstr "Questa è un'arma bianca che infigge danno quando sferrata."
+
+#: mods/HELP/mcl_doc/init.lua:398
+msgid "Maximum damage: @1 HP"
+msgstr "Danno massimo: @1 HP"
+
+#: mods/HELP/mcl_doc/init.lua:405
+msgid "Full punch interval: @1 s"
+msgstr "Intervallo massimo sferrata: @1 s"

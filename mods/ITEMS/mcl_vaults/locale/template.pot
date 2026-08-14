@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mineclonia package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mineclonia\n"
+"Report-Msgid-Bugs-To: no@example.com\n"
+"POT-Creation-Date: 2026-03-15 07:37+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mods/ITEMS/mcl_vaults/api.lua:73
+msgid "Vault"
+msgstr ""
+
+#: mods/ITEMS/mcl_vaults/api.lua:74
+msgid "Ejects loot when opened with the key"
+msgstr ""
+
+#: mods/ITEMS/mcl_vaults/api.lua:75 mods/ITEMS/mcl_vaults/api.lua:76
+msgid ""
+"A vault ejects loot when opened with the right key. It can only be opened "
+"once by each player."
+msgstr ""
+
+#: mods/ITEMS/mcl_vaults/init.lua:35
+msgid "Trial Key"
+msgstr ""
+
+#: mods/ITEMS/mcl_vaults/init.lua:118
+msgid "Ominous Trial Key"
+msgstr ""
+
+#: mods/ITEMS/mcl_vaults/init.lua:122
+msgid "Ominous Vault"
+msgstr ""
