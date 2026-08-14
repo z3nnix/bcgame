@@ -3,6 +3,17 @@ mcl_player.registered_on_visual_change = {}
 
 local animation_blend = 0.2
 
+-- Resting pose of the empty hand, as seen from the first-person camera.
+--   ARM_REST_PITCH raises the arm forward so the elbow shows in view,
+--   ARM_REST_YAW turns it slightly outward,
+--   ARM_REST_ROLL tilts the arm around its long axis so it reads as a
+--     diamond from the camera, with the inner edge just left of the arm's
+--     visual centre.
+-- Right arm mirrors the left (right: negative yaw / positive roll).
+local ARM_REST_PITCH = math.rad(30)
+local ARM_REST_YAW = math.rad(20)
+local ARM_REST_ROLL = math.rad(40)
+
 local prev_yaw, current_roll
 
 local player_props_elytra = {
@@ -501,16 +512,16 @@ mcl_player.register_globalstep (function (player, dtime)
 		set_bone_pos(player, "Arm_Left_Pitch_Control", nil, left_arm_rot)
 	-- when punching
 	elseif control.LMB and not parent then
-		set_bone_pos(player,"Arm_Right_Pitch_Control", nil, vector.new(pitch, 0, 0))
-		set_bone_pos(player,"Arm_Left_Pitch_Control", nil, vector.zero())
+		set_bone_pos(player,"Arm_Right_Pitch_Control", nil, vector.new(pitch, -ARM_REST_YAW, 0))
+		set_bone_pos(player,"Arm_Left_Pitch_Control", nil, vector.new(0, ARM_REST_YAW, 0))
 	-- when holding an item.
 	elseif wielded:get_name() ~= "" then
-		set_bone_pos(player, "Arm_Right_Pitch_Control", nil, vector.new(20, 0, 0))
-		set_bone_pos(player, "Arm_Left_Pitch_Control", nil, vector.zero())
-	-- resets arms pitch
+		set_bone_pos(player, "Arm_Right_Pitch_Control", nil, vector.new(20, -ARM_REST_YAW, 0))
+		set_bone_pos(player, "Arm_Left_Pitch_Control", nil, vector.new(0, ARM_REST_YAW, 0))
+	-- resets arms pitch to the resting first-person pose
 	else
-		set_bone_pos(player, "Arm_Left_Pitch_Control", nil, vector.zero())
-		set_bone_pos(player, "Arm_Right_Pitch_Control", nil, vector.zero())
+		set_bone_pos(player, "Arm_Left_Pitch_Control", nil, vector.new(ARM_REST_PITCH, ARM_REST_YAW, -ARM_REST_ROLL))
+		set_bone_pos(player, "Arm_Right_Pitch_Control", nil, vector.new(ARM_REST_PITCH, -ARM_REST_YAW, ARM_REST_ROLL))
 	end
 end)
 

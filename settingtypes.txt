@@ -195,6 +195,12 @@ mcl_signs_editable (Editable signs) bool false
 # that looted that vault and prevents them from looting the same vault again.
 mcl_vaults_looter_list_length (Vault memory size) int 128 1 1024
 
+# Enable the content slice: hide every block, item and mob introduced in
+# Minecraft 1.13 or later (pre-1.13 cutoff) from the creative inventory,
+# remove their crafting recipes and stop them from appearing in the world.
+# Structures newer than 1.12 are disabled as well. Only read at startup.
+mcl_slice (Strip post-1.12 content) bool true
+
 [Graphics]
 # Whether to animate chests when open / close
 animated_chests (Animated chests) bool true
