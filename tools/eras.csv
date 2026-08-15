@@ -58,6 +58,11 @@ item:mcl_boats:boat_bamboo,1.19
 item:mcl_boats:boat_bamboo_chest,1.19
 item:mcl_boats:boat_mangrove,1.19
 item:mcl_boats:boat_mangrove_chest,1.19
+item:mcl_compass:compass_lodestone,1.16
+item:mcl_compass:compass_recovery,1.19
+item:mcl_heads:piglin,1.16
+item:mcl_heads:piglin_wall,1.16
+item:mcl_heads:piglin_ceiling,1.16
 mod:mcl_minecarts,beta
 mod:mcl_paintings,beta
 mod:mcl_redstone,beta
@@ -200,6 +205,15 @@ mod:mcl_strongholds,1.0-1.7
 mod:mcl_nether_fortresses,1.0-1.7
 mod:mcl_end_island,1.0-1.7
 mod:mcl_biomes,engine
+# 1.13+ biomes (base names; mcl_slice also strips "<name>_*" variants)
+biome:BambooJungle,1.14-1.15
+biome:MangroveSwamp,1.19
+biome:DeepDark,1.19
+biome:LushCaves,1.17-1.18
+biome:DripstoneCave,1.17-1.18
+biome:Grove,1.17-1.18
+biome:CherryGrove,1.20
+biome:PaleGarden,1.21+
 mod:mcl_biome_dispatch,engine
 mod:mcl_levelgen,engine
 mod:mcl_mapgen_core,engine

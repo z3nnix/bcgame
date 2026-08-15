@@ -42,6 +42,35 @@ STRUCT_CALL = re.compile(
 ORE_FIELD = re.compile(r"register_ore\s*\([^)]*?ore\s*=\s*[\"']([^\"']+)[\"']", re.S)
 BIOME_FIELD = re.compile(r"register_biome\s*\([^)]*?name\s*=\s*[\"']([^\"']+)[\"']", re.S)
 DECO_CALL = re.compile(r"register_decoration\s*\(", re.S)
+# helper-based registrations that hide modern content inside old mods
+WOOD_CALL = re.compile(
+    r"mcl_trees\.register_wood\s*\(\s*[\"']([^\"']+)[\"']", re.S)
+COMPASS_CALL = re.compile(
+    r"mcl_compass\.register_compass\s*\(\s*[\"'][^\"']+[\"']\s*,\s*\{\s*name\s*=\s*[\"']([^\"']+)[\"']", re.S)
+
+# Item names mcl_trees.register_wood() creates in SHARED mod namespaces.
+# These are invisible to the literal-registration scanner because the wood
+# mods (mcl_mangrove, mcl_crimson, ...) are sliced by prefix while the
+# resulting items land in old mods (mcl_trees, mcl_signs, ...).
+# Templates are a superset; entries that were never registered are harmless.
+WOOD_ITEM_TEMPLATES = (
+    "mcl_trees:tree_{w}", "mcl_trees:wood_{w}", "mcl_trees:bark_{w}",
+    "mcl_trees:stripped_{w}", "mcl_trees:bark_stripped_{w}",
+    "mcl_trees:sapling_{w}", "mcl_trees:leaves_{w}",
+    "mcl_trees:leaves_{w}_orphan",
+    "mcl_signs:standing_sign_{w}", "mcl_signs:wall_sign_{w}",
+    "mcl_signs:hanging_sign_{w}", "mcl_signs:hanging_sign_wall_{w}",
+    "mcl_signs:hanging_sign_attached_{w}",
+    "mcl_stairs:stair_{w}", "mcl_stairs:slab_{w}",
+    "mcl_stairs:slab_{w}_top", "mcl_stairs:slab_{w}_double",
+    "mcl_fences:{w}_fence", "mcl_fences:{w}_fence_gate",
+    "mcl_fences:{w}_fence_gate_open",
+    "mcl_buttons:button_{w}_off", "mcl_buttons:button_{w}_on",
+    "mcl_pressureplates:pressure_plate_{w}_off",
+    "mcl_pressureplates:pressure_plate_{w}_on",
+    "mcl_flowerpots:flower_pot_sapling_{w}",
+    "mcl_boats:boat_{w}", "mcl_boats:boat_{w}_chest",
+)
 
 KIND_LABEL = {
     "register_node": "node",
@@ -54,10 +83,10 @@ KIND_LABEL = {
 
 
 def load_eras():
-    """Returns (mod_eras, mob_eras, struct_eras, item_eras) dicts."""
-    mod, mob, struct, item = {}, {}, {}, {}
+    """Returns (mod_eras, mob_eras, struct_eras, item_eras, biome_eras)."""
+    mod, mob, struct, item, biome = {}, {}, {}, {}, {}
     if not os.path.isfile(ERAS):
-        return mod, mob, struct, item
+        return mod, mob, struct, item, biome
     with open(ERAS, newline="", encoding="utf-8") as fh:
         for row in csv.reader(fh):
             if not row:
@@ -76,7 +105,9 @@ def load_eras():
                 struct[key[10:]] = era
             elif key.startswith("item:"):
                 item[key[5:]] = era
-    return mod, mob, struct, item
+            elif key.startswith("biome:"):
+                biome[key[6:]] = era
+    return mod, mob, struct, item, biome
 
 
 def scan():
@@ -105,6 +136,10 @@ def scan():
                 rows.append(("ore", m.group(1), mod, rel))
             for m in BIOME_FIELD.finditer(text):
                 rows.append(("biome", m.group(1), mod, rel))
+            for m in WOOD_CALL.finditer(text):
+                rows.append(("wood", m.group(1), mod, rel))
+            for m in COMPASS_CALL.finditer(text):
+                rows.append(("craftitem", f"mcl_compass:{m.group(1)}", mod, rel))
             if DECO_CALL.search(text):
                 rows.append(("deco", f"{mod}:<deco>", mod, rel))
 
@@ -118,26 +153,43 @@ def scan():
     return rows, dynamic
 
 
-def resolve_era(kind, name, mod, mod_eras, mob_eras, struct_eras, item_eras):
+def resolve_era(kind, name, mod, mod_eras, mob_eras, struct_eras, item_eras, biome_eras):
     if kind in ("mob", "egg"):
         return mob_eras.get(name) or mod_eras.get(mod) or "unknown"
     if kind == "structure":
         return struct_eras.get(name) or mod_eras.get(mod) or "unknown"
     if kind in ("node", "item", "craftitem", "tool"):
         return item_eras.get(name) or mod_eras.get(mod) or "unknown"
+    if kind == "biome":
+        return biome_eras.get(name) or mod_eras.get(mod) or "unknown"
+    if kind == "wood":
+        return mod_eras.get(mod) or "unknown"
     return mod_eras.get(mod) or "unknown"
 
 
 def main():
-    mod_eras, mob_eras, struct_eras, item_eras = load_eras()
+    mod_eras, mob_eras, struct_eras, item_eras, biome_eras = load_eras()
     rows, dynamic = scan()
 
     enriched = []
     for kind, name, mod, rel in rows:
-        era = resolve_era(kind, name, mod, mod_eras, mob_eras, struct_eras, item_eras)
+        era = resolve_era(kind, name, mod, mod_eras, mob_eras, struct_eras,
+                          item_eras, biome_eras)
         modern = era in MODERN_ERAS
         enriched.append({"kind": kind, "itemstring": name, "mod": mod,
                          "era": era, "modern": modern, "file": rel})
+
+    # register_wood in a modern mod (mcl_mangrove, mcl_crimson, ...) means the
+    # whole wood is 1.13+; expand into every item the helper creates in shared
+    # namespaces (mcl_trees, mcl_signs, mcl_stairs, ...).
+    modern_woods = [(r["itemstring"], r["mod"], r["era"], r["file"])
+                    for r in enriched if r["kind"] == "wood" and r["modern"]]
+    for wood, mod, era, rel in modern_woods:
+        for tpl in WOOD_ITEM_TEMPLATES:
+            enriched.append({"kind": "node", "itemstring": tpl.format(w=wood),
+                             "mod": mod, "era": era, "modern": True, "file": rel})
+            if tpl.startswith("mcl_boats:"):
+                enriched[-1]["kind"] = "craftitem"
 
     # dedupe (same itemstring registered several times)
     seen = {}
@@ -235,6 +287,8 @@ def write_lua(enriched, mod_eras, item_eras):
                    if r["modern"] and r["kind"] in ("mob", "egg")})
     structures = sorted({r["itemstring"] for r in enriched
                          if r["modern"] and r["kind"] == "structure"})
+    biomes = sorted({r["itemstring"] for r in enriched
+                     if r["modern"] and r["kind"] == "biome"})
     lines = [
         "-- Generated by tools/gen_content_inventory.py -- do not edit by hand.",
         "-- Modern (1.13+) content consumed by mcl_slice.",
@@ -259,6 +313,10 @@ def write_lua(enriched, mod_eras, item_eras):
     lines += [f'\t"{m}",' for m in mobs]
     lines += ["}", "", "MCL_SLICE.structures = {"]
     lines += [f'\t"{s}",' for s in structures]
+    lines += ["}", "", "-- Modern (1.13+) biomes; base names only, the mcl_slice mod",
+              "-- also matches \"<name>_*\" variants (_ocean, _underground, ...).",
+              "MCL_SLICE.biomes = {"]
+    lines += [f'\t"{b}",' for b in biomes]
     lines += ["}", ""]
     os.makedirs(os.path.dirname(OUT_LUA), exist_ok=True)
     with open(OUT_LUA, "w", encoding="utf-8") as fh:
