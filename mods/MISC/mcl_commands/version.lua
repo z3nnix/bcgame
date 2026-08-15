@@ -44,7 +44,7 @@ do
 	local game_root = core.get_game_info().path
 	local readme_path = game_root .. DIR_DELIM .. "README.md"
 	local contents = read_file(readme_path)
-	local version = contents:match("Version:%s*([%d%.]+)")
+	local version = contents and contents:match("Version:%s*([%d%.]+)")
 	if version then
 		version_str = version
 	end
