@@ -105,8 +105,8 @@ farming_carrot_2.png,carrots_stage_1.png
 farming_carrot_3.png,carrots_stage_2.png
 farming_carrot_4.png,carrots_stage_3.png
 farming_carrot_gold.png,carrot_golden.png
-farming_pumpkin_face.png,pumpkin_face.png
-farming_pumpkin_face_light.png,pumpkin_face.png
+farming_pumpkin_face.png,pumpkin_face_off.png
+farming_pumpkin_face_light.png,pumpkin_face_on.png
 farming_tool_diamondhoe.png,diamond_hoe.png
 farming_tool_goldhoe.png,gold_hoe.png
 farming_tool_steelhoe.png,iron_hoe.png
@@ -154,3 +154,72 @@ mcl_armor_inv_leggings_diamond.png,diamond_leggings.png
 mcl_armor_inv_leggings_gold.png,gold_leggings.png
 mcl_armor_inv_leggings_iron.png,iron_leggings.png
 mcl_armor_inv_leggings_leather.png,leather_leggings.png
+# mcl_core stone variants (1.12 names)
+mcl_core_andesite.png,stone_andesite.png
+mcl_core_andesite_smooth.png,stone_andesite_smooth.png
+mcl_core_diorite_smooth.png,stone_diorite_smooth.png
+mcl_core_granite.png,stone_granite.png
+mcl_core_granite_smooth.png,stone_granite_smooth.png
+# mcl_farming
+mcl_farming_hayblock_side.png,hay_block_side.png
+mcl_farming_hayblock_top.png,hay_block_top.png
+mcl_farming_melon_seeds.png,seeds_melon.png
+mcl_farming_pumpkin_face.png,pumpkin_face_off.png
+mcl_farming_pumpkin_face_light.png,pumpkin_face_on.png
+mcl_farming_pumpkin_seeds.png,seeds_pumpkin.png
+mcl_farming_wheat_seeds.png,seeds_wheat.png
+# mcl_experience
+mcl_experience_bottle.png,experience_bottle.png
+# default_* (1.13 -> 1.12 names)
+default_acacia_leaves.png,leaves_acacia.png
+default_acacia_sapling.png,sapling_acacia.png
+# mesecons
+mesecons_piston_bottom.png,piston_bottom.png
+# clay colors: grey -> silver (1.12 name)
+hardened_clay_stained_grey.png,hardened_clay_stained_silver.png
+# river water bucket -> water bucket (identical tint)
+bucket_river_water.png,bucket_water.png
+# xpanes: glass pane top textures
+xpanes_top_glass_black.png,glass_pane_top_black.png
+xpanes_top_glass_blue.png,glass_pane_top_blue.png
+xpanes_top_glass_brown.png,glass_pane_top_brown.png
+xpanes_top_glass_cyan.png,glass_pane_top_cyan.png
+xpanes_top_glass_gray.png,glass_pane_top_gray.png
+xpanes_top_glass_green.png,glass_pane_top_green.png
+xpanes_top_glass_light_blue.png,glass_pane_top_light_blue.png
+xpanes_top_glass_lime.png,glass_pane_top_lime.png
+xpanes_top_glass_magenta.png,glass_pane_top_magenta.png
+xpanes_top_glass_orange.png,glass_pane_top_orange.png
+xpanes_top_glass_pink.png,glass_pane_top_pink.png
+xpanes_top_glass_purple.png,glass_pane_top_purple.png
+xpanes_top_glass_red.png,glass_pane_top_red.png
+xpanes_top_glass_silver.png,glass_pane_top_silver.png
+xpanes_top_glass_white.png,glass_pane_top_white.png
+xpanes_top_glass_yellow.png,glass_pane_top_yellow.png
+# mobs: horse markings (entity/horse)
+mobs_mc_horse_markings_blackdots.png,entity/horse/horse_markings_blackdots.png
+mobs_mc_horse_markings_white.png,entity/horse/horse_markings_white.png
+mobs_mc_horse_markings_whitedots.png,entity/horse/horse_markings_whitedots.png
+mobs_mc_horse_markings_whitefield.png,entity/horse/horse_markings_whitefield.png
+# doors/trapdoors
+doors_trapdoor.png,trapdoor.png
+doors_trapdoor_steel.png,iron_trapdoor.png
+# xpanes (iron bars, natural glass top)
+xpanes_pane_iron.png,iron_bars.png
+xpanes_top_glass_natural.png,glass_pane_top.png
+# bucket empty
+bucket.png,bucket_empty.png
+# mesecons
+mesecons_noteblock.png,noteblock.png
+mesecons_walllever_lever.png,lever.png
+mesecons_walllever_lever_inv.png,lever.png
+mesecons_piston_on_front.png,piston_top_normal.png
+mesecons_piston_pusher_front.png,piston_inner.png
+mesecons_piston_pusher_front_sticky.png,piston_inner.png
+mesecons_piston_side.png,piston_side.png
+# player skin
+character.png,entity/steve.png
+# fixes for false auto-strips
+default_book.png,items/book_normal.png
+default_wood.png,planks_oak.png
+mcl_heads_creeper.png,entity/creeper/creeper.png
