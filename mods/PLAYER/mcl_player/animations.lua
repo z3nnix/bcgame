@@ -212,7 +212,7 @@ function mcl_player.player_set_armor(player, texture)
 	update_player_textures(player)
 end
 
-function mcl_player.get_player_formspec_model(player, x, y, w, h, fsname)
+function mcl_player.get_player_formspec_model(player, x, y, w, h, fsname, mouse_control, rotation)
 	local model = mcl_player.players[player].model
 	local anim = mcl_player.registered_player_models[model].animations["stand"]
 	local textures = table.copy(mcl_player.players[player].textures)
@@ -222,8 +222,10 @@ function mcl_player.get_player_formspec_model(player, x, y, w, h, fsname)
 	for k,v in pairs(textures) do
 		textures[k] = core.formspec_escape(v)
 	end
-	return string.format("model[%s,%s;%s,%s;%s;%s;%s;-10,200;false;false;%s,%s]",
+	rotation = rotation or "-10,200"
+	return string.format("model[%s,%s;%s,%s;%s;%s;%s;%s;false;%s;%s,%s]",
 		x, y, w, h, fsname, model, table.concat(textures, ","),
+		rotation, mouse_control and "true" or "false",
 		anim.x, anim.y)
 end
 
