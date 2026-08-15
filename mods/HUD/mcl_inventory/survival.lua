@@ -1,5 +1,17 @@
-local S = core.get_translator("mcl_inventory")
 local F = core.formspec_escape
+
+-- Luanti (real_coordinates, formspec_version >= 2) renders list items at a
+-- pitch of 1.25 form units (16px item, 4px spacing). The baked 18px vanilla
+-- slot pitch must be scaled to match that pitch: 18 * P = 1.25 * ITEM_SCALE.
+-- ITEM_SCALE shrinks the whole inventory panel (cells get ~25% smaller).
+local ITEM_SCALE = 0.75
+local P = ITEM_SCALE * 1.25 / 18
+-- Item icons are drawn at ITEM_SIZE, 10% smaller than the slot pitch
+-- (1.25 * ITEM_SCALE). ITEM_SIZE + ITEM_SPACING must equal the slot pitch
+-- so items stay aligned with the baked slots. The hover highlight follows
+-- the item size, so it is ~10% smaller than the cell.
+local ITEM_SIZE = 1.25 * ITEM_SCALE * 0.9
+local ITEM_SPACING = 1.25 * ITEM_SCALE - ITEM_SIZE
 
 mcl_inventory.registered_survival_inventory_tabs = {}
 
@@ -62,16 +74,24 @@ local function build_page(_, content, inventory, tabname)
 
 	return table.concat({
 		"formspec_version[6]",
-		"size[11.75,10.9]",
+		"size[" .. 176 * P .. "," .. 166 * P .. "]",
+
+		--Vanilla inventory panel background
+		"image[0,0;" .. 176 * P .. "," .. 166 * P .. ";mcl_inventory_survival_bg.png]",
+
+		--Shrink list items to match the scaled slot pitch
+		"style_type[list;size=" .. ITEM_SIZE .. ";spacing=" .. ITEM_SPACING .. "]",
+
+		--Transparent slot background so the baked panel (frames, armor
+		--silhouettes) shows through; hovering lightens the whole cell.
+		"listcolors[#00000000;#FFFFFF40]",
 
 		inventory and table.concat({
 			--Main inventory
-			mcl_formspec.get_itemslot_bg_v4(0.375, 5.575, 9, 3),
-			"list[current_player;main;0.375,5.575;9,3;9]",
+			"list[current_player;main;" .. 8 * P .. "," .. 84 * P .. ";9,3;9]",
 
 			--Hotbar
-			mcl_formspec.get_itemslot_bg_v4(0.375, 9.525, 9, 1),
-			"list[current_player;main;0.375,9.525;9,1;]"
+			"list[current_player;main;" .. 8 * P .. "," .. 142 * P .. ";9,1;]"
 		}) or "",
 
 		content,
@@ -82,20 +102,6 @@ end
 local function get_inventory_formspec(player)
 	local inv = player:get_inventory()
 
-	local armor_slots = { "helmet", "chestplate", "leggings", "boots" }
-	local armor_slot_imgs = ""
-	for a = 1, 4 do
-		if inv:get_stack("armor", a + 1):is_empty() then
-			armor_slot_imgs = armor_slot_imgs ..
-				"image[0.375," .. (0.375 + (a - 1) * 1.25) .. ";1,1;mcl_inventory_empty_armor_slot_" .. armor_slots[a] .. ".png]"
-		end
-	end
-
-	local offhand_slot_img = ""
-	if inv:get_stack("offhand", 1):is_empty() then
-		offhand_slot_img = "image[5.375,4.125;1,1;mcl_inventory_empty_armor_slot_shield.png]"
-	end
-
 	local craft_width = inv:get_width("craft")
 	if craft_width == 0 then
 		core.log("warning", "[mcl_inventory] craft width for player " .. player:get_player_name() .. " is 0")
@@ -104,51 +110,17 @@ local function get_inventory_formspec(player)
 
 	return table.concat({
 		--Armor slots
-		mcl_formspec.get_itemslot_bg_v4(0.375, 0.375, 1, 4),
-		"list[current_player;armor;0.375,0.375;1,1;1]",
-		"list[current_player;armor;0.375,1.625;1,1;2]",
-		"list[current_player;armor;0.375,2.875;1,1;3]",
-		"list[current_player;armor;0.375,4.125;1,1;4]",
-		armor_slot_imgs,
-
-		--Player model background
-		"image[1.57,0.343;3.62,4.85;mcl_inventory_background9.png;2]",
-
-		--Offhand
-		mcl_formspec.get_itemslot_bg_v4(5.375, 4.125, 1, 1),
-		"list[current_player;offhand;5.375,4.125;1,1]",
-		offhand_slot_img,
+		"list[current_player;armor;" .. 8 * P .. "," .. 8 * P .. ";1,1;1]",
+		"list[current_player;armor;" .. 8 * P .. "," .. 26 * P .. ";1,1;2]",
+		"list[current_player;armor;" .. 8 * P .. "," .. 44 * P .. ";1,1;3]",
+		"list[current_player;armor;" .. 8 * P .. "," .. 62 * P .. ";1,1;4]",
 
 		--Craft grid
-		"label[6.61,0.5;" .. F(core.colorize(mcl_formspec.label_color, S("Crafting"))) .. "]",
+		"list[current_player;craft;" .. 88 * P .. "," .. 26 * P .. ";2,1]",
+		"list[current_player;craft;" .. 88 * P .. "," .. 44 * P .. ";2,1;", craft_width, "]",
 
-		mcl_formspec.get_itemslot_bg_v4(6.625, 0.875, 2, 2),
-		"list[current_player;craft;6.625,0.875;2,1]",
-		"list[current_player;craft;6.625,2.125;2,1;", craft_width, "]",
-
-		"image[9.125,1;1,1;crafting_formspec_arrow.png]",
-
-		mcl_formspec.get_itemslot_bg_v4(10.375, 1, 1, 1),
-		"list[current_player;craftpreview;10.375,1;1,1;]",
-
-		"image_button[9.125,2.125;1,1;mcl_crafting_table_inv_fill.png;__mcl_crafting_fillgrid;]",
-		"tooltip[__mcl_crafting_fillgrid;" .. F(S("Fill Craft Grid")) .. "]",
-
-		--Crafting guide button
-		"image_button[6.575,4.075;1.1,1.1;craftguide_book.png;__mcl_craftguide;]",
-		"tooltip[__mcl_craftguide;" .. F(S("Recipe book")) .. "]",
-
-		--Help button
-		"image_button[7.825,4.075;1.1,1.1;doc_button_icon_lores.png;__mcl_doc;]",
-		"tooltip[__mcl_doc;" .. F(S("Help")) .. "]",
-
-		--Skins button
-		"image_button[9.075,4.075;1.1,1.1;mcl_player_settings.png;__mcl_player_settings;]",
-		"tooltip[__mcl_player_settings;" .. F(S("Player settings")) .. "]",
-
-		--Achievements button
-		"image_button[10.325,4.075;1.1,1.1;mcl_achievements_button.png;__mcl_achievements;]",
-		"tooltip[__mcl_achievements;" .. F(S("Advancements")) .. "]",
+		--Crafting result
+		"list[current_player;craftpreview;" .. 144 * P .. "," .. 36 * P .. ";1,1;]",
 
 		--Listring
 		"listring[current_player;main]",
@@ -158,11 +130,9 @@ local function get_inventory_formspec(player)
 		"listring[current_player;main]",
 		"listring[current_player;armor]",
 		"listring[current_player;main]",
-		"listring[current_player;offhand]",
-		"listring[current_player;main]",
 
 		-- Player model
-		mcl_player.get_player_formspec_model(player, 1.45, 0.5, 3.62, 4.85, ""),
+		mcl_player.get_player_formspec_model(player, 25 * P, 8 * P, 62 * P, 70 * P, "", true, "-10,180"),
 	})
 end
 
