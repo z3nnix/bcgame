@@ -1,8 +1,8 @@
 --[[
-Explosion API mod for Minetest (adapted to Mineclonia)
+Explosion API mod for Minetest (adapted to Betacraft)
 
 This mod is based on the Minetest explosion API mod, but has been changed
-to have the same explosion mechanics as Minecraft and work with Mineclonia.
+to have the same explosion mechanics as Minecraft and work with Betacraft.
 The computation-intensive parts of the mod has been optimized to allow for
 larger explosions and faster world updating.
 

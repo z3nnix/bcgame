@@ -2,7 +2,7 @@
 A faithful Open Source clone of Minecraft=
 Sneak to skip=
 Jump to speed up (additionally sprint)=
-Show the Mineclonia end credits=
+Show the Betacraft end credits=
 Creators of Mineclonia=
 Creator of MineClone 2=
 Creator of MineClone=

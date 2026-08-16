@@ -97,7 +97,7 @@ local function on_tool_place(itemstack, placer, pointed_thing, tool)
 
 		-- Add wear using the usages of the tool defined in
 		-- _mcl_diggroups. This assumes the tool only has one diggroups
-		-- (which is the case in Mineclonia).
+		-- (which is the case in Betacraft).
 		local tdef = core.registered_tools[itemstack:get_name()]
 		if tdef and tdef._mcl_diggroups then
 			for group, _ in pairs(tdef._mcl_diggroups) do

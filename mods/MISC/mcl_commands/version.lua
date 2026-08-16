@@ -42,16 +42,13 @@ end
 local version_str = "(unknown)"
 do
 	local game_root = core.get_game_info().path
-	local readme_path = game_root .. DIR_DELIM .. "README.md"
-	local contents = read_file(readme_path)
-	local version = contents and contents:match("Version:%s*([%d%.]+)")
-	if version then
-		version_str = version
+	local game_conf = read_file(game_root .. DIR_DELIM .. "game.conf")
+	if game_conf then
+		version_str = game_conf:match("release%s*=%s*([%d%.]+)") or version_str
 	end
 
 	-- <https://git-scm.com/docs/gitrepository-layout>
 	-- while a different Git layout *is* possible, it's very uncommon to be stored differently
-	-- ... at least not for a Mineclonia repo
 	local git_dir = game_root .. DIR_DELIM .. ".git"
 	if core.path_exists(git_dir) then
 		local git_str = get_git_str(git_dir)
@@ -62,10 +59,10 @@ do
 end
 
 core.register_chatcommand("version", {
-	description = S("Displays the Mineclonia version"),
+	description = S("Displays the Betacraft version"),
 	params = "",
 	privs = {},
 	func = function(name)
-		core.chat_send_player(name, "Mineclonia version: " .. version_str)
+		core.chat_send_player(name, "Betacraft version: " .. version_str)
 	end
 })

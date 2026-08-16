@@ -17,7 +17,7 @@ doc.add_category("advanced", {
 doc.add_entry("advanced", "creative", {
 	name = S("Creative Mode"),
 	data = { text =
-S("Enabling Creative Mode in MineClonia applies the following changes:").."\n\n"..
+S("Enabling Creative Mode in Betacraft applies the following changes:").."\n\n"..
 
 S("• You keep the things you've placed").."\n"..
 S("• Creative inventory is available to obtain most items easily").."\n"..

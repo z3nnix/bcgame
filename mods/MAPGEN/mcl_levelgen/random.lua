@@ -460,7 +460,7 @@ end
 
 local function lj_test_assert (cond)
 	assert (cond, [[PRNG validation failed.
-Your LuaJIT installation (or Lua interpreter) is out-of-date and does not generate pseudo-random numbers correctly.  Mineclonia will not function under such a configuration in order to avoid scenarios where structure or level generation proceeds erroneously or inconsistently.  Please refer to https://luajit.org/install.html for details as regards updating your LuaJIT installation.]])
+Your LuaJIT installation (or Lua interpreter) is out-of-date and does not generate pseudo-random numbers correctly.  Betacraft will not function under such a configuration in order to avoid scenarios where structure or level generation proceeds erroneously or inconsistently.  Please refer to https://luajit.org/install.html for details as regards updating your LuaJIT installation.]])
 end
 
 -- Tests.

@@ -106,7 +106,7 @@ if not mapmeta_settings_initialized then
 end
 
 if #levelgen_inhibiting_mods > 0 and mcl_vars.enable_mcl_levelgen then
-	error(string.format("The world has the custom Mineclonia mapgen enabled in combination with mcl_levelgen inhibiting mods. Disable the mods (%s) or update the mcl_singlenode_mapgen setting in %s to play the world.",
+	error(string.format("The world has the custom Betacraft mapgen enabled in combination with mcl_levelgen inhibiting mods. Disable the mods (%s) or update the mcl_singlenode_mapgen setting in %s to play the world.",
 		table.concat(levelgen_inhibiting_mods, ", "), core.get_worldpath().."/map_meta.txt"))
 end
 
@@ -282,7 +282,7 @@ mcl_vars.mg_end_exit_portal_pos = vector.new(0, mcl_vars.mg_end_min + 71, 0)
 mcl_vars.mg_realm_barrier_overworld_end_max = mcl_vars.mg_end_max
 mcl_vars.mg_realm_barrier_overworld_end_min = mcl_vars.mg_end_max - 11
 
--- Use MineClonia-style dungeons
+-- Use Betacraft-style dungeons
 mcl_vars.mg_dungeons = true
 
 -- Set default stack sizes

@@ -287,7 +287,7 @@ end
 
 local function load_weather()
 	local weather = storage:get_string("mcl_weather_state")
-	-- Previous versions of Mineclonia had a redundant snow state
+	-- Previous versions of Betacraft had a redundant snow state
 	-- that would not produce rain in non-snowy biomes.
 	if weather == "snow" then
 		weather = "rain"

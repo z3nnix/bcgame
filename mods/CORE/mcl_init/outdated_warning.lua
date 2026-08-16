@@ -7,7 +7,7 @@ local fs_title = S("Outdated Client version detected!")
 local fs_notagain = S("Do not show again")
 local fs_leave = S("Leave Server")
 local fs_ignore = S("Ignore")
-local low_version_warning = S("You are connecting with an unsupported client. This will generally not keep you from playing the game but you should expect some visual issues, particularly with mobs and certain items.\n\nTo enjoy the best mineclonia experience use a minetest/luanti client of version 5.9.0 or greater.")
+local low_version_warning = S("You are connecting with an unsupported client. This will generally not keep you from playing the game but you should expect some visual issues, particularly with mobs and certain items.\n\nTo enjoy the best Betacraft experience use a minetest/luanti client of version 5.9.0 or greater.")
 
 core.register_on_joinplayer(function(player)
 	local pn = player:get_player_name()

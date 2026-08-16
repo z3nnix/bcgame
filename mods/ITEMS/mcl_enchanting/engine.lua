@@ -313,7 +313,7 @@ end
 -- enchantment.  That function is written to use hash values to only update the
 -- tool if neccessary.
 --
--- This is neccessary for digging times of tools to be in sync when Mineclonia
+-- This is neccessary for digging times of tools to be in sync when Betacraft
 -- or mods add new hardness values.
 local function get_after_use_callback(itemdef)
 	if itemdef.after_use then

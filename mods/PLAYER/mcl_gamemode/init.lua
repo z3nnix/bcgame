@@ -24,7 +24,7 @@ local old_is_creative_enabled = core.is_creative_enabled
 function core.is_creative_enabled(name)
 	if old_is_creative_enabled(name) then return true end
 	if not name or name == "" then return false end
-	assert(type(name) == "string", "core.is_creative_enabled requires a string (the playername) argument. This is likely an error in a non-mineclonia mod.")
+	assert(type(name) == "string", "core.is_creative_enabled requires a string (the playername) argument. This is likely an error in a non-Betacraft mod.")
 	local p = core.get_player_by_name(name)
 	if p then
 		return p:get_meta():get_string("gamemode") == "creative"

@@ -3,7 +3,7 @@ Advanced usage=
 Advanced information which may be nice to know, but is not crucial to gameplay=
 # MCL2 extensions
 Creative Mode=
-Enabling Creative Mode in MineClonia applies the following changes:=
+Enabling Creative Mode in Betacraft applies the following changes:=
 • You keep the things you've placed=
 • Creative inventory is available to obtain most items easily=
 • Hand breaks all default blocks instantly=
@@ -463,4 +463,4 @@ Luanti=
 Luanti (formely Minetest) is a free software game engine for games based on voxel gameplay, inspired by InfiniMiner, Minecraft, and the like. Luanti was originally created by Perttu Ahola (alias “celeron55”).=
 A core feature of Luanti is the built-in modding capability, which all games consist of too. They can be as simple as adding a few decorational blocks or be very complex by e.g. introducing completely new gameplay concepts, generating a completely different kind of world, and many other things.=
 Luanti can be played alone or online together with multiple players. Online play will work out of the box with any mods, with no need for additional software as they are entirely provided by the server.=
-MineClonia is a game that is built on top of the Luanti engine that intends to create a game that is as close to Minecraft as possible. There are many other games for Luanti however, that can be installed from the main menu content browser.=
+Betacraft is a game that is built on top of the Luanti engine that intends to create a game that is as close to Minecraft as possible. There are many other games for Luanti however, that can be installed from the main menu content browser.=

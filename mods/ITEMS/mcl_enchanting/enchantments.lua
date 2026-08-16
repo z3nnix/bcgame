@@ -204,7 +204,7 @@ mcl_walkover.register_global(function(pos, _, player)
 	end
 end)
 
--- requires missing Mineclonia feature
+-- requires missing Betacraft feature
 mcl_enchanting.register_enchantment("impaling", {
 	name = S("Impaling"),
 	max_level = 5,
@@ -520,7 +520,7 @@ mcl_enchanting.register_enchantment("soul_speed", {
 	anvil_book_factor = 4,
 })
 
--- requires missing Mineclonia feature
+-- requires missing Betacraft feature
 --[[mcl_enchanting.enchantments.sweeping_edge = {
 	name = S("Sweeping Edge"),
 	max_level = 3,

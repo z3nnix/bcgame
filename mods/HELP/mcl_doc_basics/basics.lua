@@ -573,6 +573,6 @@ S("A core feature of Luanti is the built-in modding capability, which all games 
 
 S("Luanti can be played alone or online together with multiple players. Online play will work out of the box with any mods, with no need for additional software as they are entirely provided by the server.").."\n\n"..
 
-S("MineClonia is a game that is built on top of the Luanti engine that intends to create a game that is as close to Minecraft as possible. There are many other games for Luanti however, that can be installed from the main menu content browser.")
+S("Betacraft is a game that is built on top of the Luanti engine that intends to create a game that is as close to Minecraft as possible. There are many other games for Luanti however, that can be installed from the main menu content browser.")
 }})
 

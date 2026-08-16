@@ -1198,10 +1198,10 @@ local function gwp_basic_classify (pos)
 	-- Minecraft assigns blocks to one of these classes:
 	-- (See: https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.12.2/net/minecraft/pathfinding/PathNodeType.html)
 	-- BLOCKED
-	-- DAMAGE_CACTUS (not necessary in Mineclonia)
+	-- DAMAGE_CACTUS (not necessary in Betacraft)
 	-- DAMAGE_FIRE
 	-- DAMAGE_OTHER
-	-- DANGER_CACTUS (not necessary in Mineclonia)
+	-- DANGER_CACTUS (not necessary in Betacraft)
 	-- DANGER_FIRE
 	-- DANGER_OTHER
 	-- DOOR_IRON_CLOSED
@@ -1210,7 +1210,7 @@ local function gwp_basic_classify (pos)
 	-- FENCE
 	-- LAVA
 	-- OPEN
-	-- RAIL (not necessary in Mineclonia)
+	-- RAIL (not necessary in Betacraft)
 	-- TRAPDOOR
 	-- WALKABLE
 	-- WATER

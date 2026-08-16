@@ -1,7 +1,7 @@
 -- This file stores the various node types. This makes it easier to plug this mod into games
 -- in which you need to change the node names.
 
--- Adapted for Mineclonia
+-- Adapted for Betacraft
 
 -- Node names (Don't use aliases!)
 tsm_railcorridors.nodes = {
@@ -37,7 +37,7 @@ end
 -- only if the Treasurer mod is not found.
 -- pr: A PcgRandom object
 function tsm_railcorridors.get_default_treasure(_)
-	-- UNUSED IN MINECLONIA
+	-- UNUSED IN Betacraft
 end
 
 -- All spawners spawn cave spiders
@@ -45,7 +45,7 @@ function tsm_railcorridors.on_construct_spawner(pos)
 	mcl_mobspawners.setup_spawner(pos, "mobs_mc:cave_spider", 0, 7)
 end
 
--- Mineclonia's treasure function. Gets all treasures for a single chest.
+-- Betacraft's treasure function. Gets all treasures for a single chest.
 -- Based on information from Minecraft Wiki.
 function tsm_railcorridors.get_treasures(pr)
 	local loottable = {

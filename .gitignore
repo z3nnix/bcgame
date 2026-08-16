@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Editor backups
+*~
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll

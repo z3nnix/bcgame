@@ -1,11 +1,11 @@
--- No-op in Mineclonia (capturing mobs is not possible).
+-- No-op in Betacraft (capturing mobs is not possible).
 -- Provided for compability with Mobs Redo
 function mcl_mobs.capture_mob()
 	mcl_util.log_deprecated_call("error")
 	return false
 end
 
--- No-op in Mineclonia (protecting mobs is not possible).
+-- No-op in Betacraft (protecting mobs is not possible).
 function mcl_mobs.protect()
 	mcl_util.log_deprecated_call("error")
 	return false
