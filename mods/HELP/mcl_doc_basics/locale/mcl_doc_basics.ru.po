@@ -2874,3 +2874,34 @@ msgstr ""
 "создать максимально приблеженную к Minecraft игру. Но для Luanti существует "
 "и множество других игр, которые можно установить через браузер контента в "
 "главном меню."
+#: (added)
+msgid "There is no hunger in this game. Eating food restores health instead."
+msgstr "В этой игре нет голода. Еда восстанавливает здоровье."
+
+#: (added)
+msgid ""
+"Food items restore health points when consumed. The better the food, the "
+"more health it restores."
+msgstr ""
+"Еда восстанавливает очки здоровья при употреблении. Чем лучше еда, тем "
+"больше здоровья она восстанавливает."
+
+#: (added)
+msgid ""
+"Drinking milk removes all status effects, while other drinks may also have "
+"effects."
+msgstr ""
+"Молоко снимает все эффекты, а другие напитки могут обладать собственными "
+"эффектами."
+
+#: (added)
+msgid ""
+"Some food items might induce food poisoning by chance. When you're "
+"poisoned, the health symbols turn sickly green. Food poisoning drains your "
+"health by 1 HP per second, down to 1 HP. Food poisoning goes away after a "
+"while or when you drink milk."
+msgstr ""
+"Некоторые продукты могут случайно вызвать пищевое отравление. При "
+"отравлении символы здоровья становятся болезненно-зелёными. Пищевое "
+"отравление истощает здоровье на 1 HP в секунду, вплоть до 1 HP. Оно "
+"проходит через некоторое время или после употребления молока."

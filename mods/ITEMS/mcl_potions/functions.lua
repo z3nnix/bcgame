@@ -980,24 +980,12 @@ mcl_potions.register_effect({
 		return S("exhausts by @1 per second", factor)
 	end,
 	on_start = function(object)
-		if object:is_player () and mcl_hunger.active then
-			hb.change_hudbar(object, "hunger", nil, nil, "mcl_hunger_icon_foodpoison.png", nil, "mcl_hunger_bar_foodpoison.png")
-		end
 	end,
-	on_load = function(object) -- TODO refactor and add hunger bar modifier API
-		if object:is_player () and mcl_hunger.active then
-			hb.change_hudbar(object, "hunger", nil, nil, "mcl_hunger_icon_foodpoison.png", nil, "mcl_hunger_bar_foodpoison.png")
-		end
+	on_load = function(object)
 	end,
 	on_step = function(dtime, object, factor)
-		if object:is_player () and mcl_hunger.active then
-			mcl_hunger.exhaust(object:get_player_name(), dtime*factor)
-		end
 	end,
 	on_end = function(object)
-		if object:is_player () and mcl_hunger.active then
-			hb.change_hudbar(object, "hunger", nil, nil, "hbhunger_icon.png", nil, "hbhunger_bar.png")
-		end
 	end,
 	particle_color = "#587653",
 	uses_factor = true,
@@ -1044,10 +1032,6 @@ mcl_potions.register_effect({
 		return S("saturates by @1 per second", factor)
 	end,
 	on_step = function(dtime, object, factor)
-		if object:is_player () then
-		mcl_hunger.set_hunger(object, math.min(mcl_hunger.get_hunger(object)+dtime*factor, 20))
-		mcl_hunger.saturate(object:get_player_name(), dtime*factor)
-		end
 	end,
 	particle_color = "#F82423",
 	uses_factor = true,

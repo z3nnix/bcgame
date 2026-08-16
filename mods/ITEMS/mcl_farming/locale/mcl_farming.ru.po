@@ -635,3 +635,11 @@ msgstr "Сноп сена — декоративный блок сделанны
 
 #~ msgid "Faceless Pumpkin"
 #~ msgstr "Тыква"
+#: (added)
+msgid ""
+"This potato doesn't look too healthy. You can eat it to restore some "
+"health, but there's a 60% chance it will poison you briefly."
+msgstr ""
+"Эта картофелина выглядит не очень здоровой. Вы можете съесть её, чтобы "
+"восстановить немного здоровья, но с вероятностью 60% она ненадолго отравит "
+"вас."

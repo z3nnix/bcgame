@@ -55,7 +55,7 @@ msgid "Deepslate Gold Ore"
 msgstr "Mineral de oro de pizarra profunda"
 
 #: mods/ITEMS/mcl_deepslate/deepslate.lua:54
-msgid "Deepslate Emerald Ore"
+msgid "Deepslate Ruby Ore"
 msgstr "Mineral de esmeralda de pizarra profunda"
 
 #: mods/ITEMS/mcl_deepslate/deepslate.lua:55

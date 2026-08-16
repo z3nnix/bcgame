@@ -33,7 +33,7 @@ Fields not mentioned in this document can also be added as custom fields for the
 	type = "monster",
 	-- holds the type of mob that inhabits your world e.g.
 		--"animal" fights as specified by 'specific_attack', 'group_attack', 'passive', and 'retaliates'. Killing mobs of 'type' "animal" won't award XP.
-		-- "monster" enables attacking players or npcs (depending on 'attack_npcs') on sight in addition to 'specific_attack' processing. This behaviour requires setting 'attack_type' and can be modified using 'passive' and 'docile_by_day'. Even child variants will fight and give loot. Mobs of 'type' "npc" will attack mobs of 'type' "monster" on sight. All mobs of 'type' "monster" can be completely disabled by server setting 'only_peaceful_mobs'. Killing a mob of 'type' "monster" awards "Monster Hunter" achievement.
+		-- "monster" enables attacking players or npcs (depending on 'attack_npcs') on sight in addition to 'specific_attack' processing. This behaviour requires setting 'attack_type' and can be modified using 'passive' and 'docile_by_day'. Even child variants will fight and give loot. Mobs of 'type' "npc" will attack mobs of 'type' "monster" on sight. All mobs of 'type' "monster" can be completely disabled by server setting 'only_peaceful_mobs'.
 		-- "npc"  can follow owner. Fights as specified by 'specific_attack', 'group_attack', 'passive', and 'retaliates'. Will additionally attack all mobs of 'type' "monster" on sight (this is not affected by 'passive', bug or feature?).
 
 	persist_in_peaceful = false,

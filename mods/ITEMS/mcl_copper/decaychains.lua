@@ -152,7 +152,6 @@ local function register_unpreserve(nodename,od,def)
 	end
 	nd[def.unpreserve_callback]  = function(itemstack, clicker, pointed_thing)
 		if pointed_thing then
-			awards.unlock(clicker:get_player_name(), "mcl:wax_off")
 			return unpreserve(itemstack, clicker, pointed_thing)
 		end
 		return itemstack
@@ -235,23 +234,22 @@ local function register_preserve(nodename,def,chaindef)
 					else
 						node.name = node.name.."_preserved"
 					end
-					if core.registered_nodes[node.name] then
-						core.swap_node(pointed_thing.under,node)
-						swap_door_part(pointed_thing.under,node)
-						mcl_copper.spawn_particles(pointed_thing.under, "mcl_copper_anti_oxidation_particle.png^[colorize:#fcbf3c:200")
-						if not core.is_creative_enabled(placer and placer:get_player_name() or "") then
-							itemstack:take_item()
-						end
+				if core.registered_nodes[node.name] then
+					core.swap_node(pointed_thing.under,node)
+					swap_door_part(pointed_thing.under,node)
+					mcl_copper.spawn_particles(pointed_thing.under, "mcl_copper_anti_oxidation_particle.png^[colorize:#fcbf3c:200")
+					if not core.is_creative_enabled(placer and placer:get_player_name() or "") then
+						itemstack:take_item()
 					end
-					awards.unlock(placer:get_player_name(), "mcl:wax_on")
 				end
-			else
-				local rc = mcl_util.call_on_rightclick(itemstack, placer, pointed_thing)
-				if rc then return rc end
 			end
-			return itemstack
+		else
+			local rc = mcl_util.call_on_rightclick(itemstack, placer, pointed_thing)
+			if rc then return rc end
 		end
-	})
+		return itemstack
+	end
+})
 end
 
 -- mcl_copper.register_decaychain(name,def)

@@ -145,7 +145,7 @@ local function witch_consume_potion (self, wielditem)
 	mcl_potions.consume_potion (self.object, potion, 0, 0)
 	self:set_wielditem (ItemStack ())
 	 -- Play a sound.
-	mcl_hunger.play_drinking_sound(self.object)
+	mcl_eating.play_drinking_sound(self.object)
 end
 
 local witch_potion_items = {

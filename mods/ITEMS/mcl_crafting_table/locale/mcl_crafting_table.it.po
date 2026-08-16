@@ -29,7 +29,7 @@ msgid "Fill Craft Grid"
 msgstr "Riempi la griglia per costruire"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:80
-msgid "Crafting Table"
+msgid "Workbench"
 msgstr "Banco da lavoro"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:81
@@ -38,14 +38,14 @@ msgstr "Griglia di fabbricazione 3x3"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:82
 msgid ""
-"A crafting table is a block which grants you access to a 3×3 crafting grid "
+"A workbench is a block which grants you access to a 3×3 crafting grid "
 "which allows you to perform advanced crafts."
 msgstr ""
 "Un banco da lavoro è un blocco che permette di accedere alla griglia di "
 "fabbricazione da 3x3 e di realizzare oggetti avanzati."
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:83
-msgid "Rightclick the crafting table to access the 3×3 crafting grid."
+msgid "Rightclick the workbench to access the 3×3 crafting grid."
 msgstr ""
 "Fai clic col destro su un banco da lavoro per aprire la griglia di "
 "fabbricazione 3x3."

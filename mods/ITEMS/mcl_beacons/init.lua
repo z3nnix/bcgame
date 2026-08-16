@@ -374,11 +374,6 @@ local function apply_beacon_formspec (pos, _, fields, sender)
 			end
 		end
 		if successful then
-			if power_level == 4 then
-				awards.unlock(sender_name, "mcl:maxed_beacon")
-			end
-			awards.unlock(sender_name, "mcl:beacon")
-
 			if apply_cost then
 				input:take_item ()
 				inv:set_stack("input",1,input)

@@ -60,7 +60,7 @@ msgstr "• Arimen harea: Behi-kanpaia"
 msgid "• Pumpkin: Didgeridoo"
 msgstr "- Kalabaza: Didgeridoo"
 
-msgid "• Block of Emerald: Square wave"
+msgid "• Block of Ruby: Square wave"
 msgstr "- Esmeralda blokea: uhin karratua"
 
 msgid "• Hay Bale: Banjo"

@@ -72,7 +72,6 @@ function salmon:on_rightclick (clicker)
 	if bn == "mcl_buckets:bucket_water" or bn == "mcl_buckets:bucket_river_water" then
 		self:safe_remove()
 		clicker:set_wielded_item("mcl_buckets:bucket_salmon")
-		awards.unlock(clicker:get_player_name(), "mcl:tacticalFishing")
 	end
 end
 

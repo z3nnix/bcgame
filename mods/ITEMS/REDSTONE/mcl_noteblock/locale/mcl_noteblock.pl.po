@@ -60,7 +60,7 @@ msgstr "• Piasek dusz: krowi dzwonek"
 msgid "• Pumpkin: Didgeridoo"
 msgstr "• Dynia: Didgeridoo"
 
-msgid "• Block of Emerald: Square wave"
+msgid "• Block of Ruby: Square wave"
 msgstr "• Blok szmaragdu: fala kwadratowa"
 
 msgid "• Hay Bale: Banjo"

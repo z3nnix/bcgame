@@ -466,9 +466,6 @@ end
 
 function mob_class:update_driving_hud (player, max_hp)
 	local hp_max = max_hp or self.object:get_properties ().hp_max
-	if mcl_hunger.active then
-		hb.hide_hudbar (player, "hunger")
-	end
 	refresh_player_health_hud (player, self.health, hp_max)
 end
 
@@ -489,15 +486,5 @@ function mcl_mobs.remove_driving_hud (player)
 			player:hud_remove (id)
 		end
 		player_hud_bars[player] = nil
-		if mcl_hunger.active then
-			-- A hidden HUD bar won't be updated when the
-			-- player's hunger level is altered, and
-			-- therefore it must be updated when it is
-			-- restored to account for any changes in the
-			-- meanwhile.
-			hb.unhide_hudbar (player, "hunger")
-			local hunger = mcl_hunger.get_hunger (player)
-			hb.change_hudbar (player, "hunger", hunger)
-		end
 	end
 end

@@ -73,11 +73,6 @@ local function spawn_crystal(pos)
 	for o in core.objects_inside_radius(pos, 64) do
 		local l = o:get_luaentity()
 		if l and l.name == "mobs_mc:enderdragon" then return end
-		if not peaceful then
-			if o:is_player() then
-				awards.unlock(o:get_player_name(), "mcl:theEndAgain")
-			end
-		end
 	end
 	if mcl_end.resurrect_dragon (crystals[1].object:get_pos (),
 				     crystals[2].object:get_pos (),

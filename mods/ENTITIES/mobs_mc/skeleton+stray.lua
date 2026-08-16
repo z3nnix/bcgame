@@ -246,15 +246,6 @@ function skeleton:skelly_generate_default_equipment (mob_factor)
 end
 
 function skeleton:on_die (pos, mcl_reason)
-	if mcl_reason
-		and (mcl_reason.type == "arrow" or mcl_reason.type == "trident")
-		and mcl_reason.source then
-		local source = mcl_reason.source
-		if source:is_player ()
-			and vector.distance (pos, source:get_pos ()) > 20 then
-			awards.unlock(source:get_player_name (), "mcl:snipeSkeleton")
-		end
-	end
 end
 
 function skeleton:step_drowning (_)

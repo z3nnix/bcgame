@@ -549,7 +549,7 @@ core.register_craftitem("mcl_end:chorus_fruit", {
 	groups = { food = 2, transport = 1, eatable = 4, can_eat_when_full = 1 },
 	_mcl_saturation = 2.4,
 	_mcl_eat_effect = function (_, player)
-		-- Randomly teleport player and update hunger
+		-- Randomly teleport player
 		random_teleport(player)
 	end,
 	_mcl_cooking_output = "mcl_end:chorus_fruit_popped"

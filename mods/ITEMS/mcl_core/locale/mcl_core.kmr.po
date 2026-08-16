@@ -120,15 +120,15 @@ msgid "Gold Material"
 msgstr ""
 
 #: mods/ITEMS/mcl_core/craftitems.lua:102
-msgid "Emerald"
+msgid "Ruby"
 msgstr "Zimrûd"
 
 #: mods/ITEMS/mcl_core/craftitems.lua:103
-msgid "Emeralds are used in villager trades as currency."
+msgid "Rubies are used in villager trades as currency."
 msgstr ""
 
 #: mods/ITEMS/mcl_core/craftitems.lua:107
-msgid "Emerald Material"
+msgid "Ruby Material"
 msgstr ""
 
 #: mods/ITEMS/mcl_core/craftitems.lua:112
@@ -924,12 +924,12 @@ msgid ""
 msgstr ""
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:175
-msgid "Emerald Ore"
+msgid "Ruby Ore"
 msgstr ""
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:176
 msgid ""
-"Emerald ore is the ore of emeralds. It is very rare and can be found alone, "
+"Ruby ore is the ore of rubies. It is very rare and can be found alone, "
 "not in clusters."
 msgstr ""
 
@@ -1273,13 +1273,13 @@ msgid ""
 msgstr ""
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:800
-msgid "Block of Emerald"
+msgid "Block of Ruby"
 msgstr ""
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:801
 msgid ""
-"A block of emerald is mostly a shiny decorative block but also useful as a "
-"compact storage of emeralds."
+"A block of ruby is mostly a shiny decorative block but also useful as a "
+"compact storage of rubies."
 msgstr ""
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:812

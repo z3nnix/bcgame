@@ -65,3 +65,16 @@ msgid ""
 msgstr ""
 "Блок мёда. Используется как декорация и в механизмах редстоуна. Липкий по "
 "бокам."
+#: (added)
+msgid "Honey Bottle is used to craft honey blocks and to restore health."
+msgstr ""
+"Бутылочка мёда используется для создания медовых блоков и восстановления "
+"здоровья."
+
+#: (added)
+msgid ""
+"Drinking will restore 6 health points. Can also be used to craft honey "
+"blocks."
+msgstr ""
+"Употребление восстанавливает 6 очков здоровья. Также можно использовать для "
+"создания медовых блоков."

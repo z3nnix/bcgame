@@ -342,9 +342,9 @@ end
 core.register_node("mcl_banners:standing_banner", {
 	_doc_items_entry_name = S("Banner"),
 	_doc_items_image = mcl_banners.make_banner_texture("", nil, "item"),
-	_doc_items_longdesc = S("Banners are tall colorful decorative blocks. They can be placed on the floor and at walls. Banners can be emblazoned with a variety of patterns by placing it with a dye in the loom, or with lots of dyes in crafting table."),
+	_doc_items_longdesc = S("Banners are tall colorful decorative blocks. They can be placed on the floor and at walls. Banners can be emblazoned with a variety of patterns by placing it with a dye in the loom, or with lots of dyes in the workbench."),
 	_doc_items_usagehelp = S("Emblazoned banners can be emblazoned again to combine patterns. Up to @1 patterns can be layered on a banner. To wash off a banner's top-most layer, use it on a cauldron with water.", mcl_banners.max_craftable_layers).."\n"..
-		S("An emblazoned banner can be copied by placing two banners of the same base color in the crafting table — one needs to be emblazoned, the other one must be clean."),
+		S("An emblazoned banner can be copied by placing two banners of the same base color in the workbench — one needs to be emblazoned, the other one must be clean."),
 	walkable = false,
 	is_ground_content = false,
 	paramtype = "light",

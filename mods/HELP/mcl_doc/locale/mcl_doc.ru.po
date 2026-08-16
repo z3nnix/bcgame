@@ -345,3 +345,6 @@ msgstr "Максимальный урон: @1 HP"
 #: mods/HELP/mcl_doc/init.lua:405
 msgid "Full punch interval: @1 s"
 msgstr "Интервал удара: @1 с"
+#: (added)
+msgid "Restores health: +@1"
+msgstr "Восстанавливает здоровье: +@1"

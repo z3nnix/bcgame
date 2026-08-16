@@ -54,13 +54,12 @@ mcl_damage.register_modifier(function(obj, damage, reason)
 						wield:take_item()
 						if in_offhand then
 							obj:get_inventory():set_stack("offhand", 1, wield)
-							mcl_inventory.update_inventory_formspec(obj)
-						else
-							obj:set_wielded_item(wield)
-						end
+						mcl_inventory.update_inventory_formspec(obj)
+					else
+						obj:set_wielded_item(wield)
 					end
-					awards.unlock(obj:get_player_name(), "mcl:postMortal")
-				else
+				end
+			else
 					entity.breath = math.max (entity.breath, 10)
 					entity:set_wielditem (ItemStack ())
 				end

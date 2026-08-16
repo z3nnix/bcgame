@@ -60,8 +60,8 @@ msgstr "• Песок душ: колокольчик"
 msgid "• Pumpkin: Didgeridoo"
 msgstr "• Тыква: диджериду"
 
-msgid "• Block of Emerald: Square wave"
-msgstr "• Изумрудный блок: прямоугольный сигнал"
+msgid "• Block of Ruby: Square wave"
+msgstr "• Рубиновый блок: прямоугольный сигнал"
 
 msgid "• Hay Bale: Banjo"
 msgstr "• Стог сена: банджо"

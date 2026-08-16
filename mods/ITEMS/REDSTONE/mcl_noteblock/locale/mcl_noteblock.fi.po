@@ -60,7 +60,7 @@ msgstr "• Sieluhiekka: Lehmänkello"
 msgid "• Pumpkin: Didgeridoo"
 msgstr "• Kurpitsa: Didgeridoo"
 
-msgid "• Block of Emerald: Square wave"
+msgid "• Block of Ruby: Square wave"
 msgstr "• Smaragdikuutio: Suorakulma-aalto"
 
 msgid "• Hay Bale: Banjo"

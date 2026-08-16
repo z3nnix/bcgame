@@ -29,7 +29,7 @@ msgid "Fill Craft Grid"
 msgstr "Wypełnij siatkę wytwarzania"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:80
-msgid "Crafting Table"
+msgid "Workbench"
 msgstr "Stół rzemieślniczy"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:81
@@ -38,14 +38,14 @@ msgstr "Siatka wytwarzania 3×3"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:82
 msgid ""
-"A crafting table is a block which grants you access to a 3×3 crafting grid "
+"A workbench is a block which grants you access to a 3×3 crafting grid "
 "which allows you to perform advanced crafts."
 msgstr ""
 "Stół rzemieślniczy jest blokiem, który daje dostęp do siatki wytwarzania "
 "rozmiaru 3×3, co daje dostęp do zaawansowanego wytwarzania."
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:83
-msgid "Rightclick the crafting table to access the 3×3 crafting grid."
+msgid "Rightclick the workbench to access the 3×3 crafting grid."
 msgstr ""
 "Kliknij prawym przyciskiem na stół rzemieślniczy aby zyskać dostęp do siatki "
 "wytwarzania rozmiaru 3×3."

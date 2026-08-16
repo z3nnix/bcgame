@@ -31,7 +31,7 @@ msgid "Fill Craft Grid"
 msgstr "Remplir la grille d'artisanat"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:80
-msgid "Crafting Table"
+msgid "Workbench"
 msgstr "Établi"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:81
@@ -40,13 +40,13 @@ msgstr "Grille d'établi 3×3"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:82
 msgid ""
-"A crafting table is a block which grants you access to a 3×3 crafting grid "
+"A workbench is a block which grants you access to a 3×3 crafting grid "
 "which allows you to perform advanced crafts."
 msgstr ""
 "Un établi est un bloc qui vous donne accès à une grille d'établi 3×3 qui "
 "vous permet de fabriquer des objets avancés."
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:83
-msgid "Rightclick the crafting table to access the 3×3 crafting grid."
+msgid "Rightclick the workbench to access the 3×3 crafting grid."
 msgstr ""
 "Faites un clic droit sur l'établi pour accéder à la grille d'établi 3x3."

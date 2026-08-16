@@ -51,7 +51,7 @@ core.register_node("mcl_deepslate:deepslate_reinforced", {
 mcl_deepslate.register_deepslate_ore("coal", S("Deepslate Coal Ore"), {_mcl_cooking_output = "mcl_core:coal_lump"})
 mcl_deepslate.register_deepslate_ore("iron", S("Deepslate Iron Ore"), {_mcl_cooking_output = "mcl_core:iron_ingot"})
 mcl_deepslate.register_deepslate_ore("gold", S("Deepslate Gold Ore"), {_mcl_cooking_output = "mcl_core:gold_ingot"})
-mcl_deepslate.register_deepslate_ore("emerald", S("Deepslate Emerald Ore"), {_mcl_cooking_output = "mcl_core:emerald"})
+mcl_deepslate.register_deepslate_ore("emerald", S("Deepslate Ruby Ore"), {_mcl_cooking_output = "mcl_core:emerald"})
 mcl_deepslate.register_deepslate_ore("diamond", S("Deepslate Diamond Ore"), {_mcl_cooking_output = "mcl_core:diamond"})
 mcl_deepslate.register_deepslate_ore("lapis", S("Deepslate Lapis Lazuli Ore"), {_mcl_cooking_output = "mcl_core:lapis"})
 mcl_deepslate.register_deepslate_ore("redstone", S("Deepslate Redstone Ore"), {

@@ -715,7 +715,6 @@ function mcl_enchanting.handle_formspec_fields(player, formname, fields)
 		core.sound_play("mcl_enchanting_enchant", { to_player = name, gain = 5.0 })
 		mcl_enchanting.reset_table_slots(player)
 		mcl_enchanting.show_enchanting_formspec(player)
-		awards.unlock(player:get_player_name(), "mcl:enchanter")
 	end
 end
 

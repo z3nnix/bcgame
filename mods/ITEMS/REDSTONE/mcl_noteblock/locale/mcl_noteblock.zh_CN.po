@@ -60,7 +60,7 @@ msgstr "• 灵魂沙：牛铃"
 msgid "• Pumpkin: Didgeridoo"
 msgstr "• 南瓜：迪吉里杜管"
 
-msgid "• Block of Emerald: Square wave"
+msgid "• Block of Ruby: Square wave"
 msgstr "• 绿宝石块：方波"
 
 msgid "• Hay Bale: Banjo"

@@ -446,13 +446,13 @@ function mcl_util.call_on_rightclick(itemstack, player, pointed_thing)
 			if on_rightclick_optional then
 				local rc = on_rightclick_optional(pos, node, player, itemstack, pointed_thing)
 				if rc ~= nil then
-					mcl_hunger.prevent_eating (player)
+				mcl_eating.prevent_eating (player)
 					return rc
 				end
 			end
 			local on_rightclick = nodedef and nodedef.on_rightclick
 			if not player:get_player_control().sneak and on_rightclick then
-				mcl_hunger.prevent_eating (player)
+				mcl_eating.prevent_eating (player)
 				return on_rightclick(pos, node, player, itemstack, pointed_thing) or itemstack
 			end
 		end
@@ -464,7 +464,7 @@ function mcl_util.call_on_rightclick(itemstack, player, pointed_thing)
 			local def = core.registered_entities[ent.name]
 			if not def._unplaceable_by_default
 			and (ent.actionable_on_rightclick and ent:actionable_on_rightclick (player)) then
-				mcl_hunger.prevent_eating (player)
+				mcl_eating.prevent_eating (player)
 				return itemstack
 			end
 		end

@@ -60,7 +60,7 @@ msgstr "ソウルサンド：カウベル"
 msgid "• Pumpkin: Didgeridoo"
 msgstr "カボチャ：ディジュリドゥ"
 
-msgid "• Block of Emerald: Square wave"
+msgid "• Block of Ruby: Square wave"
 msgstr "エメラルドブロック：矩形波"
 
 msgid "• Hay Bale: Banjo"

@@ -15,7 +15,6 @@ local function detach_driver(self)
 	end
 	local player = core.get_player_by_name(self._driver)
 	self._driver = nil
-	self._start_pos = nil
 	if player then
 		mcl_player.players[player].attached = nil
 		player:set_detach()
@@ -134,7 +133,6 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 		_passenger = nil, -- for mobs
 		_punched = false, -- used to re-send _velocity and position
 		_velocity = {x=0, y=0, z=0}, -- only used on punch
-		_start_pos = nil, -- Used to calculate distance for “On A Rail” achievement
 		_last_float_check = nil, -- timestamp of last time the cart was checked to be still on a rail
 		_fueltime = nil, -- how many seconds worth of fuel is left. Only used by minecart with furnace
 		_boomtimer = nil, -- how many seconds are left before exploding
@@ -542,12 +540,6 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 			end
 		end
 
-		-- Give achievement when player reached a distance of 1000 nodes from the start position
-		if self._driver and (vector.distance(self._start_pos, pos) >= 1000) then
-			awards.unlock(self._driver, "mcl:onARail")
-		end
-
-
 		if update.pos or self._punched then
 			local yaw = 0
 			if dir.x < 0 then
@@ -752,7 +744,6 @@ register_minecart(
 			detach_driver(self)
 		elseif not self._driver then
 			self._driver = name
-			self._start_pos = self.object:get_pos()
 			mcl_player.players[clicker].attached = true
 			clicker:set_attach(self.object, "", {x=0, y=-1.75, z=-2}, {x=0, y=0, z=0})
 			mcl_attachments.spawn_attachment_entity (clicker)

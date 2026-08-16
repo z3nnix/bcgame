@@ -29,7 +29,7 @@ msgid "Fill Craft Grid"
 msgstr "Naplnit craftovací mřížku"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:80
-msgid "Crafting Table"
+msgid "Workbench"
 msgstr "pracovní stůl"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:81
@@ -38,14 +38,14 @@ msgstr "3×3 pracovní mřížka"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:82
 msgid ""
-"A crafting table is a block which grants you access to a 3×3 crafting grid "
+"A workbench is a block which grants you access to a 3×3 crafting grid "
 "which allows you to perform advanced crafts."
 msgstr ""
 "Pracovní stůl je blok, který vám umožňuje přístup k pracovní mřížce 3×3, "
 "díky níž můžete provádět výrobu složitějších předmětů."
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:83
-msgid "Rightclick the crafting table to access the 3×3 crafting grid."
+msgid "Rightclick the workbench to access the 3×3 crafting grid."
 msgstr ""
 "Klikněte pravým tlačítkem myši na pracovní stůl a otevřete pracovní mřížku "
 "3×3."

@@ -77,10 +77,10 @@ mcl_player.register_globalstep_slow(function(player)
 end)
 
 core.register_node("mcl_crafting_table:crafting_table", {
-	description = S("Crafting Table"),
+	description = S("Workbench"),
 	_tt_help = S("3×3 crafting grid"),
-	_doc_items_longdesc = S("A crafting table is a block which grants you access to a 3×3 crafting grid which allows you to perform advanced crafts."),
-	_doc_items_usagehelp = S("Rightclick the crafting table to access the 3×3 crafting grid."),
+	_doc_items_longdesc = S("A workbench is a block which grants you access to a 3×3 crafting grid which allows you to perform advanced crafts."),
+	_doc_items_usagehelp = S("Rightclick the workbench to access the 3×3 crafting grid."),
 	_doc_items_hidden = false,
 	is_ground_content = false,
 	tiles = { "crafting_workbench_top.png", "default_wood.png", "crafting_workbench_side.png",

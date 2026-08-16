@@ -29,7 +29,7 @@ msgid "Fill Craft Grid"
 msgstr "Encher Grelha de Craft"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:80
-msgid "Crafting Table"
+msgid "Workbench"
 msgstr "Mesa de Trabalho"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:81
@@ -38,13 +38,13 @@ msgstr "Grade de crafting 3×3"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:82
 msgid ""
-"A crafting table is a block which grants you access to a 3×3 crafting grid "
+"A workbench is a block which grants you access to a 3×3 crafting grid "
 "which allows you to perform advanced crafts."
 msgstr ""
 "Uma mesa de trabalho é um bloco que garante acesso a uma grade de crafting "
 "3×3 que permite realizar crafts avançados."
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:83
-msgid "Rightclick the crafting table to access the 3×3 crafting grid."
+msgid "Rightclick the workbench to access the 3×3 crafting grid."
 msgstr ""
 "Clique com o direito na mesa de trabalho para aceder à grade de crafting 3×3."

@@ -545,11 +545,6 @@ function mob_class:on_punch(hitter, tflp, tool_capabilities, dir)
 	local weapon = hitter and mcl_util.get_wielditem (hitter)
 	local punch_interval = 0.5
 
-	-- exhaust attacker
-	if is_player then
-		mcl_hunger.exhaust(hitter_playername, mcl_hunger.EXHAUST_ATTACK)
-	end
-
 	-- calculate mob damage
 	local damage = 0
 	local armor = self.object:get_armor_groups() or {}

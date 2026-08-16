@@ -255,7 +255,6 @@ local function end_teleport_entry_cb (player, data)
 					PcgRandom (0), -1)
 	teleport_object (player, vector.offset (platform, 0, 0.5, 0),
 			 "overworld")
-	awards.unlock(player:get_player_name (), "mcl:enterEndPortal")
 
 	if mod_storage:get_int ("end_entered", 0) == 0 then
 		mod_storage:set_int ("end_entered", 1)
@@ -290,7 +289,6 @@ local function end_portal_teleport_1 (obj)
 				-- do nothing if player is attached to something in portal
 			else
 				mcl_portals.end_teleport(obj, objpos)
-				awards.unlock(obj:get_player_name(), "mcl:enterEndPortal")
 			end
 		end
 	else

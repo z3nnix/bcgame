@@ -159,7 +159,7 @@ mcl_flowerpots.register_potted_flower("mcl_mushrooms:mushroom_red", {
 
 core.register_craftitem("mcl_mushrooms:mushroom_stew", {
 	description = S("Mushroom Stew"),
-	_doc_items_longdesc = S("Mushroom stew is a healthy soup which can be consumed to restore some hunger points."),
+	_doc_items_longdesc = S("Mushroom stew is a healthy soup which can be consumed to restore some health."),
 	inventory_image = "farming_mushroom_stew.png",
 	groups = { food = 2, eatable = 6 },
 	_mcl_saturation = 7.2,

@@ -31,30 +31,26 @@ local tpl_cake = {
 	_mcl_hardness = 0.5,
 	on_rightclick = function(pos, node, clicker)
 		if not mcl_util.check_position_protection(pos, clicker) then
-			local name = clicker:get_player_name()
 			local cake = core.get_item_group(node.name, "cake")
 
-			-- Eat only when you are hungry or in creative mode
-			if not mcl_hunger.is_player_full(clicker) or core.is_creative_enabled(name) then
-				if cake == 1 then
-					core.remove_node(pos)
-					core.check_for_falling(pos)
-					mcl_redstone.update_comparators(pos)
-				else
-					mcl_redstone.swap_node(pos, {name = "mcl_cake:cake_" .. cake - 1})
-				end
-
-				core.do_item_eat(CAKE_HUNGER_POINTS, nil, ItemStack(node.name), clicker, {type = "nothing"})
+			if cake == 1 then
+				core.remove_node(pos)
+				core.check_for_falling(pos)
+				mcl_redstone.update_comparators(pos)
+			else
+				mcl_redstone.swap_node(pos, {name = "mcl_cake:cake_" .. cake - 1})
 			end
+
+			core.do_item_eat(CAKE_HUNGER_POINTS, nil, ItemStack(node.name), clicker, {type = "nothing"})
 		end
 	end,
 	_mcl_spawn_food_particles = false,
 }
 
 core.register_node("mcl_cake:cake", table.merge(tpl_cake, {
-	_tt_help = S("With 7 tasty slices! Hunger points: +@1 per slice", CAKE_HUNGER_POINTS),
-	_doc_items_longdesc = S("Cakes can be placed and eaten to restore hunger points. A cake has 7 slices. Each slice restores @1 hunger points and @2 saturation points. Cakes will be destroyed when dug or when the block below them is broken.", CAKE_HUNGER_POINTS, CAKE_SATURATION_POINTS),
-	_doc_items_usagehelp = S("Place the cake anywhere, then rightclick it to eat a single slice. You can't eat from the cake when your hunger bar is full."),
+	_tt_help = S("With 7 tasty slices! Restores health: +@1 per slice", CAKE_HUNGER_POINTS),
+	_doc_items_longdesc = S("Cakes can be placed and eaten to restore health. A cake has 7 slices. Each slice restores @1 health points. Cakes will be destroyed when dug or when the block below them is broken.", CAKE_HUNGER_POINTS),
+	_doc_items_usagehelp = S("Place the cake anywhere, then rightclick it to eat a single slice."),
 	tiles = {"cake_top.png", "cake_bottom.png", "cake_side.png"},
 	inventory_image = "cake.png",
 	wield_image = "cake.png",

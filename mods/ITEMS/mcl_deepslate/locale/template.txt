@@ -7,7 +7,7 @@ Reinforced deepslate is a very hard block undestructable by even wither explosio
 Deepslate Coal Ore=
 Deepslate Iron Ore=
 Deepslate Gold Ore=
-Deepslate Emerald Ore=
+Deepslate Ruby Ore=
 Deepslate Diamond Ore=
 Deepslate Lapis Lazuli Ore=
 Deepslate Redstone Ore=

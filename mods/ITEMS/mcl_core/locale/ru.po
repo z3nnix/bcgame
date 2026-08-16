@@ -148,16 +148,16 @@ msgid "Gold Material"
 msgstr "Золотой материал"
 
 #: mods/ITEMS/mcl_core/craftitems.lua:102
-msgid "Emerald"
-msgstr "Изумруд"
+msgid "Ruby"
+msgstr "Рубин"
 
 #: mods/ITEMS/mcl_core/craftitems.lua:103
-msgid "Emeralds are used in villager trades as currency."
-msgstr "Изумруды используют деревенские жители в качестве валюты."
+msgid "Rubies are used in villager trades as currency."
+msgstr "Рубины используют деревенские жители в качестве валюты."
 
 #: mods/ITEMS/mcl_core/craftitems.lua:107
-msgid "Emerald Material"
-msgstr "Изумрудный материал"
+msgid "Ruby Material"
+msgstr "Рубиновый материал"
 
 #: mods/ITEMS/mcl_core/craftitems.lua:112
 msgid "Lapis Lazuli"
@@ -963,15 +963,15 @@ msgstr ""
 "скоплений в нижних слоях мира."
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:175
-msgid "Emerald Ore"
-msgstr "Изумрудная руда"
+msgid "Ruby Ore"
+msgstr "Рубиновая руда"
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:176
 msgid ""
-"Emerald ore is the ore of emeralds. It is very rare and can be found alone, "
+"Ruby ore is the ore of rubies. It is very rare and can be found alone, "
 "not in clusters."
 msgstr ""
-"Изумрудная руда встречается очень редко и всегда по одному блоку, а не в "
+"Рубиновая руда встречается очень редко и всегда по одному блоку, а не в "
 "кластерах."
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:188
@@ -1350,16 +1350,16 @@ msgstr ""
 "компактного хранения лазурита."
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:800
-msgid "Block of Emerald"
-msgstr "Изумрудный блок"
+msgid "Block of Ruby"
+msgstr "Рубиновый блок"
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:801
 msgid ""
-"A block of emerald is mostly a shiny decorative block but also useful as a "
-"compact storage of emeralds."
+"A block of ruby is mostly a shiny decorative block but also useful as a "
+"compact storage of rubies."
 msgstr ""
-"Изумрудный блок это, прежде всего, декоративный блок, но он также удобен для "
-"компактного хранения изумрудов."
+"Рубиновый блок это, прежде всего, декоративный блок, но он также удобен для "
+"компактного хранения рубинов."
 
 #: mods/ITEMS/mcl_core/nodes_base.lua:812
 msgid "Obsidian"

@@ -172,8 +172,8 @@ core.register_node("mcl_core:stone_with_lapis", {
 })
 
 core.register_node("mcl_core:stone_with_emerald", {
-	description = S("Emerald Ore"),
-	_doc_items_longdesc = S("Emerald ore is the ore of emeralds. It is very rare and can be found alone, not in clusters."),
+	description = S("Ruby Ore"),
+	_doc_items_longdesc = S("Ruby ore is the ore of rubies. It is very rare and can be found alone, not in clusters."),
 	tiles = {"mcl_core_emerald_ore.png"},
 	groups = {pickaxey=4, building_block=1, material_stone=1, xp=6, blast_furnace_smeltable=1},
 	drop = "mcl_core:emerald",
@@ -797,8 +797,8 @@ core.register_node("mcl_core:lapisblock", {
 })
 
 core.register_node("mcl_core:emeraldblock", {
-	description = S("Block of Emerald"),
-	_doc_items_longdesc = S("A block of emerald is mostly a shiny decorative block but also useful as a compact storage of emeralds."),
+	description = S("Block of Ruby"),
+	_doc_items_longdesc = S("A block of ruby is mostly a shiny decorative block but also useful as a compact storage of rubies."),
 	tiles = {"mcl_core_emerald_block.png"},
 	is_ground_content = false,
 	groups = {pickaxey = 4, building_block = 1, beacon_block = 1},

@@ -206,8 +206,7 @@ local function get_biome_fog_color (nodepos)
 end
 
 function mcl_serverplayer.init_player (client_state, player)
-	local can_sprint = not mcl_hunger.active
-		or mcl_hunger.get_hunger (player) > 6
+	local can_sprint = true
 
 	local inv = player:get_inventory ()
 	local stack = inv:get_stack ("armor", 3)
@@ -381,28 +380,6 @@ end
 
 function mcl_serverplayer.check_movement (state, player, self_pos)
 	local last_pos = state.last_pos
-	if last_pos and not vector.equals (self_pos, last_pos) then
-		local stats = state.movement_statistics
-		local d = vector.distance (self_pos, last_pos)
-		local name = player:get_player_name ()
-		if state.in_water or state.pose == POSE_SWIMMING then
-			local old = math.floor (stats.dist_swum)
-			stats.dist_swum = stats.dist_swum + d
-			local new = math.floor (stats.dist_swum)
-			if new - old > 0 then
-				local exhaustion = mcl_hunger.EXHAUST_SWIM * (new - old)
-				mcl_hunger.exhaust (name, exhaustion)
-			end
-		elseif state.is_sprinting then
-			local old = math.floor (stats.dist_sprinted)
-			stats.dist_sprinted = stats.dist_sprinted + d
-			local new = math.floor (stats.dist_sprinted)
-			if new - old > 0 then
-				local exhaustion = mcl_hunger.EXHAUST_SPRINT * (new - old)
-				mcl_hunger.exhaust (name, exhaustion)
-			end
-		end
-	end
 	if last_pos and (math.abs (self_pos.x - last_pos.x) > 0.05
 				or math.abs (self_pos.z - last_pos.z) > 0.05) then
 		local d = vector.direction (last_pos, self_pos)
@@ -594,19 +571,6 @@ function mcl_serverplayer.globalstep (player, dtime)
 	if state.is_sprinting then
 		mcl_sprint.spawn_particles (player, self_pos)
 	end
-	if mcl_hunger.active then
-		if state.can_sprint and mcl_hunger.get_hunger (player) <= 6 then
-			state.can_sprint = false
-			mcl_serverplayer.send_player_capabilities (player, {
-				can_sprint = false,
-			})
-		elseif not state.can_sprint and mcl_hunger.get_hunger (player) > 6 then
-			state.can_sprint = true
-			mcl_serverplayer.send_player_capabilities (player, {
-				can_sprint = true,
-			})
-		end
-	end
 	mcl_serverplayer.animate_localplayer (state, player)
 	local name = player:get_player_name ()
 	if state.is_fall_flying and not core.is_creative_enabled (name) then
@@ -663,17 +627,7 @@ end
 
 function mcl_serverplayer.handle_movement_event (player, event)
 	if event == PLAYER_EVENT_JUMP then
-		if not mcl_hunger.active then
-			return
-		end
-
-		local exhaustion
-		if mcl_serverplayer.sprinting_locally (player) then
-			exhaustion = mcl_hunger.EXHAUST_SPRINT_JUMP
-		else
-			exhaustion = mcl_hunger.EXHAUST_JUMP
-		end
-		mcl_hunger.exhaust (player:get_player_name (), exhaustion)
+		return
 	else
 		error ("Unknown movement event " .. event)
 	end
@@ -904,8 +858,8 @@ end)
 
 function mcl_serverplayer.update_vitals (player)
 	if mcl_serverplayer.is_csm_at_least (player, 1) then
-		local hunger = mcl_hunger.get_hunger (player)
-		local saturation = math.floor (mcl_hunger.get_saturation (player))
+		local hunger = 20
+		local saturation = 20
 		local health = mcl_damage.get_hp (player)
 		local state = mcl_serverplayer.client_states[player]
 

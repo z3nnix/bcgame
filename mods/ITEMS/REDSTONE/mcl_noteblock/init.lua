@@ -161,7 +161,7 @@ core.register_node("mcl_noteblock:noteblock", {
 	S("• Block of Iron: Iron xylophne").."\n"..
 	S("• Soul Sand: Cow bell").."\n"..
 	S("• Pumpkin: Didgeridoo").."\n"..
-	S("• Block of Emerald: Square wave").."\n"..
+	S("• Block of Ruby: Square wave").."\n"..
 	S("• Hay Bale: Banjo").."\n"..
 	S("• Glowstone: Electric piano").."\n"..
 	S("• Anything else: Piano").."\n\n"..

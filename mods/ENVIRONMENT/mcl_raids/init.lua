@@ -1012,7 +1012,6 @@ local function tick_raid (self, dtime)
 
 		for _, player in pairs (self.heroes) do
 			local obj = core.get_player_by_name (player)
-			awards.unlock (player, "mcl:hero_of_the_village")
 			if obj then
 				mcl_potions.give_effect ("hero_of_village", obj, 0, 2400)
 			end

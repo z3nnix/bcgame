@@ -110,7 +110,7 @@ core.register_craftitem("mcl_farming:potato_item", {
 	on_place = function(itemstack, placer, pointed_thing)
 		local new = mcl_farming:place_seed(itemstack, placer, pointed_thing, "mcl_farming:potato_1")
 		if new then
-			mcl_hunger.prevent_eating (placer)
+			mcl_eating.prevent_eating (placer)
 			return new
 		end
 	end,
@@ -127,7 +127,7 @@ core.register_craftitem("mcl_farming:potato_item_baked", {
 core.register_craftitem("mcl_farming:potato_item_poison", {
 	description = S("Poisonous Potato"),
 	_tt_help = core.colorize(mcl_colors.YELLOW, S("60% chance of poisoning")),
-	_doc_items_longdesc = S("This potato doesn't look too healthy. You can eat it to restore hunger points, but there's a 60% chance it will poison you briefly."),
+	_doc_items_longdesc = S("This potato doesn't look too healthy. You can eat it to restore some health, but there's a 60% chance it will poison you briefly."),
 	inventory_image = "farming_potato_poison.png",
 	groups = { food = 2, eatable = 2 },
 	_mcl_saturation = 1.2,

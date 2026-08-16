@@ -209,15 +209,7 @@ function mcl_furnaces.allow_metadata_inventory_take(pos, listname, _, stack, pla
 end
 
 function mcl_furnaces.on_metadata_inventory_take(pos, listname, _, stack, player)
-	-- Award smelting achievements
 	if listname == "dst" then
-		if stack:get_name() == "mcl_core:iron_ingot" then
-			awards.unlock(player:get_player_name(), "mcl:acquireIron")
-		elseif stack:get_name() == "mcl_fishing:fish_cooked" then
-			awards.unlock(player:get_player_name(), "mcl:cookFish")
-		elseif stack:get_name() == "mcl_fishing:salmon_cooked" then
-			awards.unlock(player:get_player_name(), "mcl:cookFish")
-		end
 		mcl_furnaces.give_xp(pos, player)
 	end
 	mcl_redstone.update_comparators(pos)

@@ -417,14 +417,7 @@ function trident_entity:on_step (dtime, moveresult)
 			end
 			local object_pos = mcl_util.get_nodepos (object:get_pos ())
 			local entity = object:get_luaentity ()
-			local object_type = nil
-			if entity then
-				object_type = entity.name
-			end
 			if mcl_util.deal_damage (object, damage, mcl_reason) then
-				if mcl_reason.source:is_player () then
-					awards.unlock (self._shooter, "mcl:a_throwaway_joke");
-				end
 				-- Utilize different methods of applying knockback for consistency.
 				if entity and entity.is_mob then
 					entity:projectile_knockback (1, vector.normalize (v))
@@ -442,10 +435,6 @@ function trident_entity:on_step (dtime, moveresult)
 				and mcl_enchanting.get_enchantment (self._itemstack,
 								    "channeling") > 0 then
 				mcl_lightning.strike (vector.offset (object_pos, 0, 1, 0), true)
-				if object_type == "mobs_mc:villager"
-					and mcl_reason.source:is_player () then
-					awards.unlock (self._shooter, "mcl:very_very_frightening")
-				end
 				core.sound_play("mcl_tridents_channeling", {
 					pos = object_pos, gain = 1,
 					max_hear_distance = 16

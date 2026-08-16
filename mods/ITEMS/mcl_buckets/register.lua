@@ -12,11 +12,6 @@ mcl_buckets.register_liquid({
 		end
 	end,
 	source_take = {"mcl_core:lava_source", "mcl_nether:nether_lava_source"},
-	on_take = function(user)
-		if user and user:is_player() then
-			awards.unlock(user:get_player_name(), "mcl:hotStuff")
-		end
-	end,
 	bucketname = "mcl_buckets:bucket_lava",
 	inventory_image = "bucket_lava.png",
 	name = S("Lava Bucket"),
