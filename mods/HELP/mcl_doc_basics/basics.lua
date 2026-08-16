@@ -44,7 +44,7 @@ S("• W: Move forwards").."\n"..
 S("• A: Move to the left").."\n"..
 S("• D: Move to the right").."\n"..
 S("• S: Move backwards").."\n"..
-S("• E: Sprint (aux1)").."\n\n"..
+S("• W W (double-tap): Sprint").."\n\n"..
 
 S("While standing on solid ground:").."\n"..
 S("• Space: Jump").."\n"..
@@ -64,6 +64,7 @@ S("World interaction:").."\n"..
 S("• Left mouse button: Punch / mine blocks").."\n"..
 S("• Right mouse button: Build or use pointed block").."\n"..
 S("• Shift+Right mouse button: Build").."\n"..
+S("• Middle mouse button: Take the block you are looking at (creative copies it into your hand, survival selects it from your inventory if you have it)").."\n"..
 S("• Roll mouse wheel / B / N: Select next/previous item in hotbar").."\n"..
 S("• 1-9: Select item in hotbar directly").."\n"..
 S("• Q: Drop item stack").."\n"..

@@ -12,6 +12,10 @@ mcl_sprint = {}
 
 mcl_sprint.SPEED = 1.3
 
+-- Time window in seconds in which two presses of the forward key (W) count
+-- as a double-tap, which starts sprinting.
+mcl_sprint.DOUBLE_TAP_TIME = 0.3
+
 local players = {}
 
 -- Returns true if the player with the given name is sprinting, false if not.
@@ -36,6 +40,9 @@ core.register_on_joinplayer(function(player)
 		lastPos = player:get_pos(),
 		sprintDistance = 0,
 		fov = 1.0,
+		up_was_down = false,
+		double_tap = false,
+		last_up_press = nil,
 	}
 end)
 core.register_on_leaveplayer(function(player)
@@ -135,8 +142,25 @@ core.register_globalstep(function()
 		local player = core.get_player_by_name(playerName)
 		if player and not mcl_serverplayer.is_csm_capable (player) then
 			local ctrl = player:get_player_control()
+
+			-- Double-tap W detection for sprinting
+			local playerData = players[playerName]
+			local now = os.clock()
+			if ctrl.up then
+				if not playerData.up_was_down then
+					if playerData.last_up_press and now - playerData.last_up_press <= mcl_sprint.DOUBLE_TAP_TIME then
+						playerData.double_tap = true
+					end
+					playerData.last_up_press = now
+				end
+			else
+				playerData.double_tap = false
+				playerData.last_up_press = nil
+			end
+			playerData.up_was_down = ctrl.up
+
 			--Check if the player should be sprinting
-			if ctrl.aux1 and ctrl.up and not ctrl.sneak then
+			if playerData.double_tap and ctrl.up and not ctrl.sneak then
 				players[playerName]["shouldSprint"] = true
 			else
 				players[playerName]["shouldSprint"] = false

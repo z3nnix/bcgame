@@ -113,28 +113,4 @@ mcl_gamemode.register_on_gamemode_change(mcl_meshhand.update_player)
 -- with random items in hand in survival mode
 core.override_item("", {
 	tool_capabilities = mcl_meshhand.survival_hand_tool_caps,
-	on_place = function(_, placer, pointed_thing)
-		if core.is_creative_enabled(placer:get_player_name()) then
-			local name = core.get_node(pointed_thing.under).name
-			local stack = ItemStack(name)
-			local def = stack:get_definition()
-			if type(def._mcl_baseitem) == "function" then
-				stack = def._mcl_baseitem(pointed_thing.under)
-			elseif core.get_item_group(name, "not_in_creative_inventory") > 0 then
-				name = def._mcl_baseitem
-				if not name then
-					if type(def.drop) ~= "string" or def.drop == "" then return end
-					name = def.drop
-				end
-				stack = ItemStack(name)
-			end
-			local inv = placer:get_inventory()
-			stack:set_count(stack:get_stack_max())
-			local istack = inv:remove_item("main", stack)
-			if istack:get_count() <= 0 then
-				return stack
-			end
-			return istack
-		end
-	end,
 })
