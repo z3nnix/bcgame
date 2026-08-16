@@ -49,7 +49,7 @@ msgid "Deepslate Gold Ore"
 msgstr "深板岩金礦"
 
 #: mods/ITEMS/mcl_deepslate/deepslate.lua:54
-msgid "Deepslate Emerald Ore"
+msgid "Deepslate Ruby Ore"
 msgstr "深板岩綠寶石礦"
 
 #: mods/ITEMS/mcl_deepslate/deepslate.lua:55

@@ -48,19 +48,6 @@ mcl_itemframes.register_itemframe("invisible_glow_frame", {
 	object_properties = {glow = 15},
 })
 
-awards.register_achievement("mcl_itemframes:glowframe", {
-	title = S("Glow and Behold!"),
-	description = S("Craft a glow item frame."),
-	icon = "mcl_itemframes_glow_item_frame.png",
-	trigger = {
-		type = "craft",
-		item = "mcl_itemframes:glow_frame",
-		target = 1
-	},
-	type = "Advancement",
-	group = "Overworld",
-})
-
 -- Register the base frame's recipes.
 core.register_craft({
 	output = "mcl_itemframes:frame",

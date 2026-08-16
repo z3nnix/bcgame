@@ -402,7 +402,6 @@ function villager_base:complete_transaction (inv, player, trade_id)
 		mcl_experience.throw_xp (self.object:get_pos (), xp)
 	end
 	self:on_transaction (trade, player)
-	awards.unlock (player:get_player_name (), "mcl:whatAdeal")
 
 	-- If any output items remain, drop them at the player.
 	local output = inv:get_stack ("output", 1)

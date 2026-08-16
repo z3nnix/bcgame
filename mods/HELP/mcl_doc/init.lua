@@ -103,24 +103,12 @@ doc.sub.items.register_factoid(nil, "use", function(itemstring, def)
 	local s = ""
 	if core.get_item_group(itemstring, "eatable") ~= 0 and not def._doc_items_usagehelp then
 		local food = core.get_item_group(itemstring, "food")
-		local can_eat_when_full = core.get_item_group(itemstring, "can_eat_when_full")
 		if food == 2 then
 			s = s .. S("To eat it, wield it, then rightclick.")
-			if can_eat_when_full == 1 then
-				s = s .. "\n" .. S("You can eat this even when your hunger bar is full.")
-			else
-				s = s .. "\n" .. S("You cannot eat this when your hunger bar is full.")
-			end
 		elseif food == 3 then
 			s = s .. S("To drink it, wield it, then rightclick.")
-			if can_eat_when_full ~= 1 then
-				s = s .. "\n" .. S("You cannot drink this when your hunger bar is full.")
-			end
 		else
 			s = s .. S("To consume it, wield it, then rightclick.")
-			if can_eat_when_full ~= 1 then
-				s = s .. "\n" .. S("You cannot consume this when your hunger bar is full.")
-			end
 		end
 	end
 	return s
@@ -129,10 +117,7 @@ end)
 doc.sub.items.register_factoid(nil, "groups", function(itemstring, def)
 	local s = ""
 	if core.get_item_group(itemstring, "eatable") > 0 then
-		s = s .. S("Hunger points restored: @1", def.groups.eatable)
-	end
-	if def._mcl_saturation and def._mcl_saturation > 0 then
-		s = s .. "\n" .. S("Saturation points restored: @1%", string.format("%.1f", def._mcl_saturation))
+		s = s .. S("Restores health: +@1", def.groups.eatable)
 	end
 	return s
 end)

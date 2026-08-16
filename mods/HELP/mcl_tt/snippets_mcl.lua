@@ -52,13 +52,7 @@ tt.register_snippet(function(itemstring)
 	local def = core.registered_items[itemstring]
 	local s = ""
 	if core.get_item_group(itemstring, "eatable") > 0 then
-		s = s .. S("Hunger points: +@1", def.groups.eatable)
-	end
-	if def and def._mcl_saturation and def._mcl_saturation > 0 then
-		if s ~= "" then
-			s = s .. "\n"
-		end
-		s = s .. S("Saturation points: +@1", string.format("%.1f", def._mcl_saturation))
+		s = s .. S("Restores health: +@1", def.groups.eatable)
 	end
 	return s ~= "" and s or nil
 end)

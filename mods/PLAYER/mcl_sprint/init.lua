@@ -143,18 +143,8 @@ core.register_globalstep(function()
 			end
 
 			local playerPos = player:get_pos()
-			--If the player is sprinting, create particles behind and cause exhaustion
+			--If the player is sprinting, create particles
 			if playerInfo["sprinting"] == true and not player:get_attach() and gameTime % 0.1 == 0 then
-				-- Exhaust player for sprinting
-				local lastPos = players[playerName].lastPos
-				local dist = vector.distance({x=lastPos.x, y=0, z=lastPos.z}, {x=playerPos.x, y=0, z=playerPos.z})
-				players[playerName].sprintDistance = players[playerName].sprintDistance + dist
-				if players[playerName].sprintDistance >= 1 then
-					local superficial = math.floor(players[playerName].sprintDistance)
-					mcl_hunger.exhaust(playerName, mcl_hunger.EXHAUST_SPRINT * superficial)
-					players[playerName].sprintDistance = players[playerName].sprintDistance - superficial
-				end
-
 				mcl_sprint.spawn_particles (player, playerPos)
 			end
 
@@ -162,9 +152,8 @@ core.register_globalstep(function()
 			players[playerName].lastPos = playerPos
 			if players[playerName]["shouldSprint"] == true then --Stopped
 				local sprinting
-				-- Prevent sprinting if hungry or sleeping
-				if (mcl_hunger.active and mcl_hunger.get_hunger(player) <= 6)
-				or (player:get_meta():get_string("mcl_beds:sleeping") == "true") then
+				-- Prevent sprinting if sleeping
+				if player:get_meta():get_string("mcl_beds:sleeping") == "true" then
 					sprinting = false
 				else
 					sprinting = true

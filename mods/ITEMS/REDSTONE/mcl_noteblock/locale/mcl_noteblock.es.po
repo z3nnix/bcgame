@@ -60,7 +60,7 @@ msgstr "• Arena de almas: Campana de vaca"
 msgid "• Pumpkin: Didgeridoo"
 msgstr "- Calabaza: Didgeridoo"
 
-msgid "• Block of Emerald: Square wave"
+msgid "• Block of Ruby: Square wave"
 msgstr "- Bloque esmeralda: onda cuadrada"
 
 msgid "• Hay Bale: Banjo"

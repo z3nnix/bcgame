@@ -45,7 +45,7 @@ core.register_craftitem("mcl_fishing:clownfish_raw", {
 core.register_craftitem("mcl_fishing:pufferfish_raw", {
 	description = S("Pufferfish"),
 	_tt_help = core.colorize(mcl_colors.YELLOW, S("Very poisonous")),
-	_doc_items_longdesc = S("Pufferfish are a common species of fish and can be obtained by fishing. They can technically be eaten, but they are very bad for humans. Eating a pufferfish only restores 1 hunger point and will poison you very badly (which drains your health non-fatally) and causes serious food poisoning (which increases your hunger)."),
+	_doc_items_longdesc = S("Pufferfish are a common species of fish and can be obtained by fishing. They can technically be eaten, but they are very bad for humans. Eating a pufferfish only restores 1 health point and will poison you very badly (which drains your health non-fatally) and causes serious food poisoning (which drains your health)."),
 	inventory_image = "mcl_fishing_pufferfish_raw.png",
 	groups = { food=2, eatable=1, brewitem = 1 },
 	_mcl_saturation = 0.2,

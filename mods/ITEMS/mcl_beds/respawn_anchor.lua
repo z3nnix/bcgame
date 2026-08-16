@@ -26,9 +26,6 @@ local function rightclick(pos, node, clicker, itemstack)
 	elseif string.match(node.name, "mcl_beds:respawn_anchor_charged_") then
 		core.chat_send_player(player_name, S("New respawn position set!"))
 		mcl_spawn.set_spawn_pos(clicker, pos, nil)
-		if charge_level == 4 then
-			awards.unlock(player_name, "mcl:notQuiteNineLives")
-		end
 	end
 	-- returning the old itemstack here would result in it still being in hand *after* death
 	return mcl_util.return_itemstack_if_alive(clicker, itemstack)

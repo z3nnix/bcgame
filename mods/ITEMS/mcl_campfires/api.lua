@@ -80,7 +80,7 @@ end
 -- on_rightclick function to take items that are cookable in a campfire, and put them in the campfire inventory
 function mcl_campfires.take_item(pos, _, player, itemstack)
 	if core.get_item_group(itemstack:get_name(), "campfire_cookable") ~= 0 then
-		mcl_hunger.prevent_eating (player)
+		mcl_eating.prevent_eating (player)
 		local cookable = core.get_craft_result({method = "cooking", width = 1, items = {itemstack}})
 		if cookable then
 			local ph = core.hash_node_position(vector.round(pos))

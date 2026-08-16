@@ -106,7 +106,7 @@ core.register_craftitem("mcl_farming:sweet_berry", {
 			if not core.is_creative_enabled(placer:get_player_name()) then
 				itemstack:take_item()
 			end
-			mcl_hunger.prevent_eating (placer)
+			mcl_eating.prevent_eating (placer)
 			return itemstack
 		end
 	end,

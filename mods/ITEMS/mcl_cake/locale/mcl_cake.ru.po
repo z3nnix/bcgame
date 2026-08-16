@@ -37,3 +37,20 @@ msgid ""
 msgstr ""
 "Поместите торт куда-нибудь, затем кликните правой кнопкой мыши, чтобы съесть "
 "кусочек."
+#: (added)
+msgid "With 7 tasty slices! Restores health: +@1 per slice"
+msgstr "С 7 вкусными кусочками! Восстанавливает здоровье: +@1 за кусочек"
+
+#: (added)
+msgid ""
+"Cakes can be placed and eaten to restore health. A cake has 7 slices. Each "
+"slice restores @1 health points. Cakes will be destroyed when dug or when "
+"the block below them is broken."
+msgstr ""
+"Торты можно размещать и съедать, чтобы восполнить здоровье. Торт состоит из "
+"7 кусочков. Каждый кусочек восстанавливает @1 очков здоровья. Торт будет "
+"уничтожен, если его выкопать или сломать блок под ним."
+
+#: (added)
+msgid "Place the cake anywhere, then rightclick it to eat a single slice."
+msgstr "Поместите торт куда-нибудь, затем кликните правой кнопкой мыши, чтобы съесть кусочек."

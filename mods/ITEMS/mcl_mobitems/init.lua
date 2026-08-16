@@ -4,7 +4,7 @@ local C = core.colorize
 core.register_craftitem("mcl_mobitems:rotten_flesh", {
 	description = S("Rotten Flesh"),
 	_tt_help = C(mcl_colors.YELLOW, S("80% chance of food poisoning")),
-	_doc_items_longdesc = S("Yuck! This piece of flesh clearly has seen better days. If you're really desperate, you can eat it to restore a few hunger points, but there's a 80% chance it causes food poisoning, which increases your hunger for a while."),
+	_doc_items_longdesc = S("Yuck! This piece of flesh clearly has seen better days. If you're really desperate, you can eat it to restore a few health points, but there's a 80% chance it causes food poisoning, which drains your health for a while."),
 	inventory_image = "mcl_mobitems_rotten_flesh.png",
 	wield_image = "mcl_mobitems_rotten_flesh.png",
 	groups = { food = 2, eatable = 4 },
@@ -120,7 +120,7 @@ core.register_craftitem("mcl_mobitems:cooked_rabbit", {
 core.register_craftitem("mcl_mobitems:milk_bucket", {
 	description = S("Milk"),
 	_tt_help = C(mcl_colors.GREEN, S("Removes all status effects")),
-	_doc_items_longdesc = S("Milk is very refreshing and can be obtained by using a bucket on a cow. Drinking it will remove all status effects, but restores no hunger points."),
+	_doc_items_longdesc = S("Milk is very refreshing and can be obtained by using a bucket on a cow. Drinking it will remove all status effects."),
 	_doc_items_usagehelp = S("Use the placement key to drink the milk."),
 	inventory_image = "mcl_mobitems_bucket_milk.png",
 	wield_image = "mcl_mobitems_bucket_milk.png",

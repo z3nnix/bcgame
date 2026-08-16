@@ -29,7 +29,7 @@ msgid "Fill Craft Grid"
 msgstr "Encher Grade de Produção"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:80
-msgid "Crafting Table"
+msgid "Workbench"
 msgstr "Bancada de Produção"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:81
@@ -38,14 +38,14 @@ msgstr "Grade de produção 3x3"
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:82
 msgid ""
-"A crafting table is a block which grants you access to a 3×3 crafting grid "
+"A workbench is a block which grants you access to a 3×3 crafting grid "
 "which allows you to perform advanced crafts."
 msgstr ""
 "Uma bancada de produção é um bloco que garante acesso a uma grade de "
 "produção de 3x3 que permite produções mais avançadas."
 
 #: mods/ITEMS/mcl_crafting_table/init.lua:83
-msgid "Rightclick the crafting table to access the 3×3 crafting grid."
+msgid "Rightclick the workbench to access the 3×3 crafting grid."
 msgstr ""
 "Aperte com o botão direito na bancada de produção para acessar a grade de "
 "produção de 3x3."

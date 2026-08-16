@@ -184,7 +184,6 @@ local function lay_down(player, pos, bed_pos, state, skip)
 		hud_flags.wielditem = false
 		mcl_player.player_set_animation(player, "lay" , 0)
 		mcl_serverplayer.override_pose (player, mcl_serverplayer.POSE_SLEEPING)
-		awards.unlock(player:get_player_name(), "mcl:sweetDreams")
 	end
 
 	player:hud_set_flags(hud_flags)

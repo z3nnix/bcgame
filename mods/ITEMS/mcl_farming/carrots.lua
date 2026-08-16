@@ -107,7 +107,7 @@ core.register_craftitem("mcl_farming:carrot_item", {
 	on_place = function(itemstack, placer, pointed_thing)
 		local new = mcl_farming:place_seed(itemstack, placer, pointed_thing, "mcl_farming:carrot_1")
 		if new then
-			mcl_hunger.prevent_eating (placer)
+			mcl_eating.prevent_eating (placer)
 			return new
 		end
 	end,

@@ -72,17 +72,6 @@ local formspec = table.concat({
 	"listring[current_player;main]",
 })
 
-local achievement_trims = {
-	["mcl_armor:spire"] = true,
-	["mcl_armor:snout"] = true,
-	["mcl_armor:rib"] = true,
-	["mcl_armor:ward"] = true,
-	["mcl_armor:silence"] = true,
-	["mcl_armor:vex"] = true,
-	["mcl_armor:tide"] = true,
-	["mcl_armor:wayfinder"] = true
-}
-
 function mcl_smithing_table.upgrade_trimmed(itemstack, trim_material, template)
 	local overlay = template:get_name():gsub("mcl_armor:","")
 	--trimming process
@@ -146,7 +135,7 @@ core.register_node("mcl_smithing_table:table", {
 	_doc_items_longdesc = S("A smithing table is a utility block used to alter tools and armor at the cost of a smithing template and the appropriate material. This is the only way to obtain trimmed armor or upgrade diamond equipment with netherite. It also serves as a toolsmith's job site block."),
 	_doc_items_usagehelp = S("Rightclick on a smithing table to access its interface. Put armor or tools in the upper left slot. The top right slot is reserved for mineral items. The bottom slot is for smithing templates. To upgrade your diamond armor and tools to netherite, the netherite upgrade template is required.").."\n"..
 	S("To trim your armor, you need a mineral item and a smithing template. Each piece of armor can be given an trimming pattern. The items are consumed after trimming and the armor piece receives the pattern defined by the template.").."\n\n"..
-	S("List of mineral items:\n• Amethyst Shard\n• Copper Ingot\n• Diamond\n• Emerald\n• Gold Ingot\n• Iron Ingot\n• Lapis Lazuli\n• Netherite Ingot\n• Quartz\n• Redstone"),
+	S("List of mineral items:\n• Amethyst Shard\n• Copper Ingot\n• Diamond\n• Ruby\n• Gold Ingot\n• Iron Ingot\n• Lapis Lazuli\n• Netherite Ingot\n• Quartz\n• Redstone"),
 	groups = { pickaxey = 2, deco_block = 1 },
 	_configures_formspec = true,
 	tiles = {
@@ -249,37 +238,6 @@ core.register_node("mcl_smithing_table:table", {
 		if listname == "upgraded_item" then
 			-- ToDo: make epic sound
 			core.sound_play("mcl_smithing_table_upgrade", { pos = pos, max_hear_distance = 16 })
-
-			if stack:get_name() == "mcl_farming:hoe_netherite"
-			or stack:get_name() == "mcl_farming:hoe_netherite_enchanted" then
-				awards.unlock(player:get_player_name(), "mcl:seriousDedication")
-			elseif mcl_armor.is_trimmed(stack) then
-				local template_name = inv:get_stack("template", 1):get_name()
-				local playername = player:get_player_name()
-				awards.unlock(playername, "mcl:trim")
-
-				if not mcl_achievements.award_unlocked(playername, "mcl:lots_of_trimming") and achievement_trims[template_name] then
-					local meta = player:get_meta()
-					local used_achievement_trims = core.deserialize(meta:get_string("mcl_smithing_table:achievement_trims")) or {}
-					if not used_achievement_trims[template_name] then
-						used_achievement_trims[template_name] = true
-					end
-
-					local used_all = true
-					for name, _ in pairs(achievement_trims) do
-						if not used_achievement_trims[name] then
-							used_all = false
-							break
-						end
-					end
-
-					if used_all then
-						awards.unlock(playername, "mcl:lots_of_trimming")
-					else
-						meta:set_string("mcl_smithing_table:achievement_trims", core.serialize(used_achievement_trims))
-					end
-				end
-			end
 
 			take_item("upgrade_item")
 			take_item("mineral")

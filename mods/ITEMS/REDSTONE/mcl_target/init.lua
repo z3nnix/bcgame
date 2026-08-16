@@ -3,7 +3,6 @@ mcl_target = {}
 local S = core.get_translator("mcl_target")
 local ERROR_MARGIN = 0.08
 local FACE_RADIUS = 0.5
-local ACHIEVEMENT_DISTANCE = 30
 
 local function project_to_face(vec)
 	local ax, ay, az = math.abs(vec.x), math.abs(vec.y), math.abs(vec.z)
@@ -25,20 +24,6 @@ local function calculate_dist(dx, dy)
 	return math.sqrt(dx * dx + dy * dy)
 end
 
-local function check_achievement(pos, arrow, signal)
-	if not arrow then return end
-	local shooter = arrow._shooter
-	if signal ~= 15 or not (shooter and shooter.is_player and shooter:is_player()) then
-		return
-	end
-	local shooter_pos = shooter:get_pos()
-	local rel = vector.subtract(shooter_pos, pos)
-	local dist = calculate_dist(rel.x, rel.z)
-	if math.floor(dist) >= ACHIEVEMENT_DISTANCE then
-		awards.unlock(shooter:get_player_name(), "mcl:bullseye")
-	end
-end
-
 function mcl_target.hit(pos, arrow)
 	local arrow_pos = arrow and arrow.object and arrow.object:get_pos() or pos
 	local rel = vector.subtract(arrow_pos, pos)
@@ -47,7 +32,6 @@ function mcl_target.hit(pos, arrow)
 	local signal = calculate_signal(dist)
 	mcl_redstone.swap_node(pos, {name = "mcl_target:target_on", param2 = signal})
 	core.get_node_timer(pos):start(1)
-	check_achievement(pos, arrow, signal)
 end
 
 local commdef = {

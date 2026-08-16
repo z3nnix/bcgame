@@ -60,7 +60,7 @@ msgstr "• Lélekhomok: kolomp"
 msgid "• Pumpkin: Didgeridoo"
 msgstr "• tök: didzseridu"
 
-msgid "• Block of Emerald: Square wave"
+msgid "• Block of Ruby: Square wave"
 msgstr "• Smaragdblokk: négyszöghullám"
 
 msgid "• Hay Bale: Banjo"

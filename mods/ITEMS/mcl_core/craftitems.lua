@@ -99,12 +99,12 @@ core.register_craftitem("mcl_core:gold_ingot", {
 })
 
 core.register_craftitem("mcl_core:emerald", {
-	description = S("Emerald"),
-	_doc_items_longdesc = S("Emeralds are used in villager trades as currency."),
+	description = S("Ruby"),
+	_doc_items_longdesc = S("Rubies are used in villager trades as currency."),
 	inventory_image = "mcl_core_emerald.png",
 	groups = { craftitem=1, beacon_fuel = 1 },
-	_mcl_armor_trim_color = "#1b9958",
-	_mcl_armor_trim_desc = S("Emerald Material"),
+	_mcl_armor_trim_color = "#b02e26",
+	_mcl_armor_trim_desc = S("Ruby Material"),
 	_mcl_crafting_output = {square3 = {output = "mcl_core:emeraldblock"}}
 })
 

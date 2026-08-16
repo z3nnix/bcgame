@@ -543,7 +543,7 @@ local function get_recipe_fs(data, iY, player)
 				1.1,
 				"mcl_crafting_guide_craft.png",
 				"craft","craft")
-			fs[#fs + 1] = "tooltip[craft;To crafting table]"
+			fs[#fs + 1] = "tooltip[craft;To workbench]"
 		end
 	end
 

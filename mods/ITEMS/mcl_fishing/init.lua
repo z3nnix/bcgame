@@ -119,7 +119,6 @@ local function fish(itemstack, player, pointed_thing)
 			local junk_value = junk_values[index] + fish_value
 			if r <= fish_value then
 				items = mcl_loot.get_loot({ items = mcl_fishing.loot_fish, stacks_min = 1, stacks_max = 1 }, pr)
-				awards.unlock(player:get_player_name(), "mcl:fishyBusiness")
 			elseif r <= junk_value then
 				items = mcl_loot.get_loot({ items = mcl_fishing.loot_junk, stacks_min = 1, stacks_max = 1 }, pr)
 			else
@@ -134,9 +133,6 @@ local function fish(itemstack, player, pointed_thing)
 			local inv = player:get_inventory()
 			if inv:room_for_item("main", item) then
 				inv:add_item("main", item)
-				if item:get_name() == "mcl_mobitems:leather" then
-					awards.unlock(player:get_player_name(), "mcl:killCow")
-				end
 			else
 				core.add_item(pos, item)
 			end

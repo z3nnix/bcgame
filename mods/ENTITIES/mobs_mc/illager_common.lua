@@ -162,13 +162,6 @@ function patrolling_mob:drop_custom (looting_level)
 end
 
 function patrolling_mob:on_die (pos, mcl_reason)
-	if self._raidcaptain
-		and mcl_reason
-		and mcl_reason.type == "player" then
-		local playername = mcl_reason.source:get_player_name ()
-		awards.unlock (playername, "mcl:voluntary_exile")
-	end
-
 	-- TODO
 end
 

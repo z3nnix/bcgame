@@ -53,7 +53,7 @@ msgid "Deepslate Gold Ore"
 msgstr "Arbel sakoneko urre-minerala"
 
 #: mods/ITEMS/mcl_deepslate/deepslate.lua:54
-msgid "Deepslate Emerald Ore"
+msgid "Deepslate Ruby Ore"
 msgstr "Arbel sakoneko esmeralda minerala"
 
 #: mods/ITEMS/mcl_deepslate/deepslate.lua:55

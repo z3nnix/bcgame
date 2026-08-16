@@ -164,14 +164,6 @@ function dragon:restore_portal ()
 			name = "mcl_end:dragon_egg",
 		})
 	end
-
-	-- Free The End Advancement
-	local self_pos = self.object:get_pos ()
-	for players in core.objects_inside_radius (self_pos, 64) do
-		if players:is_player () then
-			awards.unlock (players:get_player_name (), "mcl:freeTheEnd")
-		end
-	end
 end
 
 function dragon:check_dying (dtime)

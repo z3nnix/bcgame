@@ -53,8 +53,8 @@ msgid "Deepslate Gold Ore"
 msgstr "Глубинная золотая руда"
 
 #: mods/ITEMS/mcl_deepslate/deepslate.lua:54
-msgid "Deepslate Emerald Ore"
-msgstr "Глубинная изумрудная руда"
+msgid "Deepslate Ruby Ore"
+msgstr "Глубинная рубинная руда"
 
 #: mods/ITEMS/mcl_deepslate/deepslate.lua:55
 msgid "Deepslate Diamond Ore"

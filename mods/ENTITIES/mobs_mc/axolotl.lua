@@ -71,7 +71,6 @@ local axolotl = {
 				clicker:set_wielded_item(it)
 				self:safe_remove()
 			end
-			awards.unlock(clicker:get_player_name(), "mcl:cutestPredator")
 			return
 		end
 		if self:follow_holding (clicker)

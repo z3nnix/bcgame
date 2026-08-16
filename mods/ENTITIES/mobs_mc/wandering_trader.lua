@@ -219,7 +219,7 @@ function wandering_trader:ai_step (dtime)
 			self:set_wielditem (ItemStack ("mcl_potions:invisibility"))
 			self:use_wielditem ()
 		elseif self._using_wielditem > 1.0 then
-			mcl_hunger.play_drinking_sound(self.object)
+			mcl_eating.play_drinking_sound(self.object)
 			mcl_potions.give_effect ("invisibility", self.object,
 						 0, math.huge)
 			self:set_wielditem (ItemStack ())
@@ -232,7 +232,7 @@ function wandering_trader:ai_step (dtime)
 			self:use_wielditem ()
 		elseif self._using_wielditem > 1.0 then
 			mcl_potions._reset_effects (self.object)
-			mcl_hunger.play_drinking_sound(self.object)
+			mcl_eating.play_drinking_sound(self.object)
 			self:set_wielditem (ItemStack ())
 		end
 	end

@@ -83,13 +83,12 @@ mcl_levelgen_enable_ersatz_carvers (Enable new cave generator) bool false
 #
 # Peaceful: no hostile mobs, excepting shulkers, hoglins, piglins, and
 # the dragon spawn, and nor do spiders or endermen, while players
-# rapidly regenerate health and do not experience hunger. Mobs will
+# rapidly regenerate health. Mobs will
 # not attack players, even in retaliation. TNT ceases to inflict
 # damage, and raids cannot be induced.
 #
 # Easy: mobs deal 0.5x their standard values plus one additional
-# health point in damage. Players experience hunger as usual, but
-# starvation can only damage players to 10 hearts. Cave spiders
+# health point in damage. Cave spiders
 # cannot inflict poison, nor can Withers the Wither effect. Villagers
 # are never converted into zombie villagers, and zombies and skeletons
 # never spawn equipped with armor.
@@ -109,7 +108,7 @@ mcl_difficulty (Difficulty) enum normal peaceful,easy,normal,hard
 
 [Players]
 # If enabled, players eat food and drink potions instantly
-mcl_hunger_instant_eat (Instant eat) bool false
+mcl_eating_instant_eat (Instant eat) bool false
 
 # If enabled, players respawn at the bed they clicked instead of normal spawn.
 # This setting is only read at startup.
@@ -147,10 +146,6 @@ mcl_hand_range (Hand range) float 4.5 1 128
 # How far the player hand can reach in creative mode
 # Default: 10
 mcl_hand_range_creative (Creative mode hand range) float 10 1 128
-
-# If enabled the hunger mechanic will be active
-# If disabled eating food will heal instantly.
-mcl_enable_hunger (Hunger) bool true
 
 [Mobs]
 # If enabled, mobs will spawn naturally.

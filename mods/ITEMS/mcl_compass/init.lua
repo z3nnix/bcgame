@@ -245,7 +245,6 @@ core.register_node("mcl_compass:lodestone",{
 		if compass > 0 and compass < 3 then
 			if compass == 1 then
 				itemstack:set_name("mcl_compass:compass_lodestone")
-				awards.unlock(clicker:get_player_name(), "mcl:countryLode")
 			end
 			itemstack:get_meta():set_string("pointsto", core.pos_to_string(pos))
 		end

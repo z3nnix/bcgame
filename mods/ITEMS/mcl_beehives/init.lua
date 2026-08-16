@@ -33,9 +33,6 @@ local honey_harvest = function(pos, node, player, itemstack)
 				if not is_creative then
 					itemstack:take_item()
 				end
-				if campfire[1] then
-					awards.unlock(player:get_player_name(), "mcl:bee_our_guest")
-				end
 			end
 		else --Must be shears
 			core.add_item(pos, "mcl_honey:honeycomb 3")
@@ -81,7 +78,6 @@ local dig_hive = function(pos, node, _, digger)
 	elseif beenest then
 		if not is_creative then
 			if silk_touch and wield_item:get_name() ~= "mcl_enchanting:book_enchanted" then
-				awards.unlock(digger:get_player_name(), "mcl:total_beelocation")
 				core.add_item(pos, node.name)
 			else
 				mcl_util.deal_damage(digger, 10, {type = "mob"})

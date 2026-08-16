@@ -1,8 +1,5 @@
 mcl_item_entity = {}
 
-local MULTIPLE_AWARDS_DELAY = 3 --Delay when picking up 1 item prouces multiple awards.
-
---basic settings
 local item_drop_settings                 = {} --settings table
 item_drop_settings.dug_buffer            = 0.65 -- the warm up period before a dug item can be collected
 item_drop_settings.age                   = 1.0 --how old a dropped item (_insta_collect==false) has to be before collecting
@@ -21,28 +18,6 @@ local function get_gravity()
 	return tonumber(core.settings:get("movement_gravity")) or 9.81
 end
 mcl_item_entity.get_gravity = get_gravity
-
-local registered_pickup_achievement = {}
-
-function mcl_item_entity.register_pickup_achievement(itemname, award)
-	if not registered_pickup_achievement[itemname] then
-		registered_pickup_achievement[itemname] = {}
-	end
-	table.insert(registered_pickup_achievement[itemname], award)
-end
-
-mcl_item_entity.register_pickup_achievement("cobble", "mcl:stoneAge")
-mcl_item_entity.register_pickup_achievement("tree", "mcl:mineWood")
-mcl_item_entity.register_pickup_achievement("mcl_core:obsidian", "mcl:obsidian")
-mcl_item_entity.register_pickup_achievement("mcl_mobitems:blaze_rod", "mcl:blazeRod")
-mcl_item_entity.register_pickup_achievement("mcl_mobitems:leather", "mcl:killCow")
-mcl_item_entity.register_pickup_achievement("mcl_core:diamond", "mcl:diamonds")
-mcl_item_entity.register_pickup_achievement("mcl_core:crying_obsidian", "mcl:whosCuttingOnions")
-mcl_item_entity.register_pickup_achievement("mcl_nether:ancient_debris", "mcl:hiddenInTheDepths")
-mcl_item_entity.register_pickup_achievement("mcl_end:dragon_egg", "mcl:PickUpDragonEgg")
-mcl_item_entity.register_pickup_achievement("mcl_armor:elytra", "mcl:skysTheLimit")
-mcl_item_entity.register_pickup_achievement("mcl_fishing:fish_cooked", "mcl:cookFish")
-mcl_item_entity.register_pickup_achievement("mcl_fishing:salmon_cooked", "mcl:cookFish")
 
 local enabled_damage = core.settings:get_bool("enable_damage")
 local online_players
@@ -305,6 +280,13 @@ end
 
 local time_to_live = tonumber(core.settings:get("item_entity_ttl")) or 300
 
+-- Blink settings: items smoothly flash white before they despawn.
+-- TEST: blink_time set huge so every dropped item blinks immediately.
+local blink_time = 1e9      -- start flashing this many seconds before despawn
+local blink_fade_in = 0.4  -- seconds to fade to white
+local blink_fade_out = 0.4 -- seconds to fade back to normal
+local blink_update = 0.05  -- how often the flash texture is refreshed
+
 local function cxcz(o, cw, one, zero)
 	if cw < 0 then
 		table.insert(o, { [one]=1, y=0, [zero]=0 })
@@ -314,6 +296,33 @@ local function cxcz(o, cw, one, zero)
 		table.insert(o, { [one]=1, y=0, [zero]=0 })
 	end
 	return o
+end
+
+-- Build the texture of a white silhouette of the item, faded by the given alpha (0-255).
+-- The overlay is drawn over the item while it is blinking, making it smoothly
+-- "color" to white and back.
+local function white_flash_texture(stack, alpha)
+	local def = stack:get_definition()
+	local base = ""
+	if def then
+		local img = def.wield_image
+		if img == nil or img == "" then
+			img = def.inventory_image
+		end
+		if img ~= nil and img ~= "" then
+			base = img
+		else
+			base = def.tiles and def.tiles[1]
+			if type(base) == "table" then
+				base = base.name or ""
+			end
+		end
+	end
+	if base == "" then
+		base = "[fill:16x16:#FFFFFFFF"
+	end
+	local a = math.max(0, math.min(255, alpha))
+	return base .. "^[colorize:white:255^[opacity:" .. a
 end
 
 core.register_entity(":__builtin:item", {
@@ -405,8 +414,6 @@ core.register_entity(":__builtin:item", {
 			return
 		end
 
-		self:check_pickup_achievements(player)
-
 		if leftovers:get_count() < count then
 			-- play sound if something was picked up
 			core.sound_play("item_drop_pickup", {
@@ -431,20 +438,6 @@ core.register_entity(":__builtin:item", {
 		else
 			-- Update entity itemstring
 			self:set_item(leftovers:to_string())
-		end
-	end,
-
-	check_pickup_achievements = function(self, player)
-		local itemname = ItemStack(self.itemstring):get_name()
-		local playername = player:get_player_name()
-		for name,awardstable in pairs(registered_pickup_achievement) do
-			for k,award in pairs(awardstable) do
-				if itemname == name or core.get_item_group(itemname, name) ~= 0 then
-					core.after((k-1) * MULTIPLE_AWARDS_DELAY, function(playername,award)
-						awards.unlock(playername, award)
-					end,playername,award)
-				end
-			end
 		end
 	end,
 
@@ -637,6 +630,7 @@ core.register_entity(":__builtin:item", {
 
 		entity.itemstring = ""
 		entity._removed = true
+		entity:remove_blink_overlay()
 		entity.object:remove()
 		return true
 	end,
@@ -644,8 +638,48 @@ core.register_entity(":__builtin:item", {
 	safe_remove = function(self)
 		self._removed = true
 	end,
+	remove_blink_overlay = function(self)
+		if self._blink_overlay and self._blink_overlay:is_valid() then
+			self._blink_overlay:remove()
+		end
+		self._blink_overlay = nil
+	end,
+	update_blink_overlay = function(self, alpha)
+		local stack = ItemStack(self.itemstring)
+		local def = stack:get_definition()
+		if not def then
+			return
+		end
+		local tex = white_flash_texture(stack, alpha)
+		-- A cube slightly larger than the item covers it from every angle.
+		-- The size bias keeps the overlay in front (same size would z-fight and
+		-- get hidden behind the item itself).
+		local textures = { tex, tex, tex, tex, tex, tex }
+		local bias = 1.08
+		if not self._blink_overlay or not self._blink_overlay:is_valid() then
+			local props = self.object:get_properties()
+			self._blink_overlay = core.add_entity(self.object:get_pos(), "mcl_item_entity:whiteflash")
+			if not self._blink_overlay then
+				return
+			end
+			self._blink_overlay:set_attach(self.object, "", { x = 0, y = 0, z = 0 })
+			local size = props.visual_size or { x = 0.4, y = 0.4, z = 0.4 }
+			self._blink_overlay:set_properties({
+				visual = "cube",
+				visual_size = {
+					x = (size.x or 0.4) * bias,
+					y = (size.y or 0.4) * bias,
+					z = (size.z or size.x or 0.4) * bias,
+				},
+				automatic_rotate = math.pi * 0.5,
+				glow = props.glow,
+			})
+		end
+		self._blink_overlay:set_properties({ textures = textures })
+	end,
 	on_step = function(self, dtime, moveresult)
 		if self._removed then
+			self:remove_blink_overlay()
 			self.object:set_properties({
 				physical = false
 			})
@@ -662,7 +696,37 @@ core.register_entity(":__builtin:item", {
 		if self._collector_timer then
 			self._collector_timer = self._collector_timer + dtime
 		end
+
+		-- Flash white when the item is about to despawn.
+		-- Smooth cycle: tint to white => back to normal => repeat.
+		if time_to_live > 0 and self.age > time_to_live - blink_time then
+			self._blink_timer = (self._blink_timer or 0) + dtime
+			local phase = self._blink_phase or "in"
+			local fade = phase == "in" and blink_fade_in or blink_fade_out
+			local alpha
+			if phase == "in" then
+				alpha = math.floor(255 * math.min(1, self._blink_timer / fade))
+			else
+				alpha = math.floor(255 * math.max(0, 1 - self._blink_timer / fade))
+			end
+			if self._blink_timer >= fade then
+				self._blink_timer = 0
+				self._blink_phase = phase == "in" and "out" or "in"
+			end
+			self._blink_tex_timer = (self._blink_tex_timer or 0) + dtime
+			if self._blink_tex_timer >= blink_update then
+				self._blink_tex_timer = 0
+				self:update_blink_overlay(alpha)
+			end
+		elseif self._blink_timer then
+			self._blink_timer = nil
+			self._blink_phase = nil
+			self._blink_tex_timer = nil
+			self:remove_blink_overlay()
+		end
+
 		if time_to_live > 0 and self.age > time_to_live then
+			self:remove_blink_overlay()
 			self._removed = true
 			self.object:remove()
 			return
@@ -919,4 +983,19 @@ core.register_entity(":__builtin:item", {
 		end
 	end,
 	-- Note: on_punch intentionally left out. The player should *not* be able to collect items by punching
+})
+
+-- Semi-transparent white overlay drawn over an item while it is blinking.
+-- It follows the item via attachment and is refreshed with a new fade value.
+core.register_entity("mcl_item_entity:whiteflash", {
+	initial_properties = {
+		visual = "cube",
+		textures = { "", "", "", "", "", "" },
+		visual_size = { x = 0.4, y = 0.4, z = 0.4 },
+		pointable = false,
+		physical = false,
+		collisionbox = { 0, 0, 0, 0, 0, 0 },
+		static_save = false,
+		use_texture_alpha = true,
+	},
 })

@@ -490,11 +490,6 @@ function mcl_inventory.set_creative_formspec(player)
 			"image_button[11.575,2.075;1.1,1.1;doc_button_icon_lores.png;__mcl_doc;]",
 			"tooltip[__mcl_doc;" .. F(S("Help")) .. "]",
 
-			-- Advancements button
-			"image_button[11.575,3.325;1.1,1.1;mcl_achievements_button.png;__mcl_achievements;]",
-			--"style_type[image_button;border=;bgimg=;bgimg_pressed=]",
-			"tooltip[__mcl_achievements;" .. F(S("Advancements")) .. "]",
-
 			-- Switch stack size button
 			"image_button[11.575,4.575;1.1,1.1;mcl_stacksize_button.png;__switch_stack;]",
 			"label[12.275,5.35;" .. F(C("#FFFFFF", tostring(stack_size ~= 1 and stack_size or ""))) .. "]",

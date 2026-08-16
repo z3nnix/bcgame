@@ -46,7 +46,7 @@ if sorting then
 	end
 else
 	-- Modified in MCL2!
-	hb.settings.sorting = { ["health"] = 0, ["hunger"] = 1, ["armor"] = 2, ["breath"] = 3, ["exhaustion"] = 4, ["saturation"] = 5 }
+	hb.settings.sorting = { ["health"] = 0, ["armor"] = 1, ["breath"] = 2 }
 	hb.settings.sorting_reverse = {}
 	for k,v in pairs(hb.settings.sorting) do
 		hb.settings.sorting_reverse[tonumber(v)] = k

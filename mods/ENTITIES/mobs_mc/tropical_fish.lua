@@ -160,7 +160,6 @@ function tropical_fish:on_rightclick (clicker)
 			clicker:set_wielded_item(it)
 			self:safe_remove()
 		end
-		awards.unlock(clicker:get_player_name(), "mcl:tacticalFishing")
 	end
 end
 

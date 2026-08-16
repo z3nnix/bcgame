@@ -318,9 +318,6 @@ local function allow_take (pos, listname, _, stack, player)
 		core.record_protection_violation(pos, name)
 		return 0
 	else
-		if listname == "stand" then
-			awards.unlock(name, "mcl:localBrewery")
-		end
 		return stack:get_count()
 	end
 end
