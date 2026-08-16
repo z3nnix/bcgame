@@ -147,6 +147,10 @@ mcl_hand_range (Hand range) float 4.5 1 128
 # Default: 10
 mcl_hand_range_creative (Creative mode hand range) float 10 1 128
 
+# If enabled the hunger mechanic will be active
+# If disabled eating food will heal instantly.
+mcl_enable_hunger (Hunger) bool false
+
 [Mobs]
 # If enabled, mobs will spawn naturally.
 # This does not affect mob spawners.

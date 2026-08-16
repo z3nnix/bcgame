@@ -180,8 +180,8 @@ function mcl_experience.setup_hud(player)
 		hud_bars[player] = player:hud_add({
 			type = "image",
 			position = {x = 0.5, y = 1},
-			offset = {x = (-9 * 28) - 3, y = -(48 + 24 + 16 - 5)},
-			scale = {x = 0.35, y = 0.375},
+			offset = {x = -252, y = -(48 + 24 + 16 - 5)},
+			scale = {x = 0.346, y = 0.375},
 			alignment = {x = 1, y = 1},
 			z_index = 11,
 		})
