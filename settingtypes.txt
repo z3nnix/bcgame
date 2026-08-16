@@ -282,3 +282,9 @@ mcl_logging_structures (Log structure generation) bool true
 # Debug logging for mcl_events.
 mcl_logging_event_api (Debug logging for mcl_events) bool false
 
+
+[Discord]
+# Starts the Discord Rich Presence companion (tools/discord_rpc) together
+# with the game, showing "Playing Betacraft" on Discord.
+# Requires the companion binary in mods/CORE/mcl_discord_rpc/bin.
+mcl_discord_rpc_enabled (Enable Discord Rich Presence) bool true
