@@ -1,0 +1,12 @@
+# Whether scare events may trigger at all
+scares_enabled (Enable scare events) bool true
+
+# Accumulating counter: a scare is attempted once the counter reaches a
+# random value in [interval_min, interval_max]. The counter is only reset
+# on a successful scare, so every player is guaranteed to meet an event
+# within interval_max seconds at worst.
+scares_interval_min (Minimum scare interval (seconds)) int 1800 60 3600
+scares_interval_max (Maximum scare interval (seconds)) int 2700 60 7200
+
+# How narrow the player's look must be aligned with the scare to count as eye contact (higher = stricter)
+scares_eye_contact_strictness (Eye contact strictness) float 0.03 0.005 0.2
