@@ -10,17 +10,9 @@ __pycache__/
 *.a
 *.so
 *.dylib
-*.dll
 
-# Engine build outputs (see engine/build.sh)
+# Engine build outputs (see engine/build.sh, engine/build_win64.sh)
 /engine/build/
-/engine/install/
+/engine/build-win64/
+/engine/.toolchain-win64/
 /engine/luanti/bin/
-
-# Engine build outputs (Windows, see engine/build_windows.ps1)
-/engine/build-windows/
-/engine/stage-windows/
-
-# vcpkg manifest install root
-/vcpkg_installed/
-/engine/luanti/vcpkg_installed/
