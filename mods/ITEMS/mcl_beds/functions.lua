@@ -1,8 +1,6 @@
 local S = core.get_translator(core.get_current_modname())
-local F = core.formspec_escape
 
 local player_in_bed = 0
-local is_sp = core.is_singleplayer()
 
 -- Helper functions
 
@@ -205,60 +203,20 @@ mcl_player.register_globalstep_slow(function(player)
 end)
 
 local function update_formspecs(finished, players)
-	local ges = players_in_overworld(players or core.get_connected_players())
-	local form_n = "size[12,5;true]"
-	local all_in_bed = ges and players_in_bed_setting() <= (player_in_bed * 100) / ges or 0
-	local night_skip = is_night_skip_enabled()
-	local button_leave = "button_exit[4,3;4,0.75;leave;"..F(S("Leave bed")).."]"
-	local button_abort = "button_exit[4,3;4,0.75;leave;"..F(S("Abort sleep")).."]"
-	local bg_presleep = "bgcolor[#00000080;true]"
-	local bg_sleep = "bgcolor[#000000FF;true]"
-	local chatbox = "field[0.2,4.5;9,1;chatmessage;"..F(S("Chat:"))..";]"
-	local chatsubmit  = "button[9.2,3.75;1,2;chatsubmit;"..F(S("send!")).."]"
-	local defaultmessagebutton = "button[10.2,3.75;1,2;defaultmessage;zzZzzZ]"
-
-	form_n = form_n .. chatbox .. chatsubmit --because these should be in the formspec in ANY case, they might as well be added here already
-
 	if finished then
 		for name,_ in pairs(mcl_beds.player) do
 			core.close_formspec(name, "mcl_beds_form")
 		end
 		return
-	elseif not is_sp then
-		local text = S("Players in bed: @1/@2", player_in_bed, ges)
-		if not night_skip then
-			text = text .. "\n" .. S("Note: Night skip is disabled.")
-			form_n = form_n .. bg_presleep
-			form_n = form_n .. button_leave
-		elseif all_in_bed then
-			text = text .. "\n" .. S("You're sleeping.")
-			form_n = form_n .. bg_sleep
-			form_n = form_n .. button_abort
-		else
-			local comment
-			if players_in_bed_setting() == 100 then
-				comment = S("You will fall asleep when all players are in bed.")
-			else
-				comment = S("You will fall asleep when @1% of all players are in bed.", players_in_bed_setting())
-			end
-			text = text .. "\n" .. comment
-			form_n = form_n .. bg_presleep
-			form_n = form_n .. button_leave
-			form_n = form_n .. defaultmessagebutton --Players should only be able to see that button when: -Skipping the night is possible  -There aren't enoght players sleeping yet
-		end
-		form_n = form_n .. "label[0.5,1;"..F(text).."]"
+	end
+
+	local ges = players_in_overworld(players or core.get_connected_players())
+	local all_in_bed = ges and players_in_bed_setting() <= (player_in_bed * 100) / ges or 0
+	local form_n = "size[12,5;true]" .. "no_prepend[]"
+	if is_night_skip_enabled() and all_in_bed then
+		form_n = form_n .. "bgcolor[#000000FF;true]"
 	else
-		local text
-		if night_skip then
-			text = S("You're sleeping.")
-			form_n = form_n .. bg_sleep
-			form_n = form_n .. button_abort
-		else
-			text = S("You're in bed.") .. "\n" .. S("Note: Night skip is disabled.")
-			form_n = form_n .. bg_presleep
-			form_n = form_n .. button_leave
-		end
-		form_n = form_n .. "label[0.5,1;"..F(text).."]"
+		form_n = form_n .. "bgcolor[#00000080;true]"
 	end
 
 	for name,_ in pairs(mcl_beds.player) do
@@ -342,10 +300,6 @@ local function recheck_in_beds()
 end
 
 function mcl_beds.on_rightclick(pos, player, is_top)
-	-- Anti-Inception: Don't allow to sleep while you're sleeping
-	if player:get_meta():get_string("mcl_beds:sleeping") == "true" then
-		return
-	end
 	local dim = mcl_worlds.pos_to_dimension(pos)
 	if dim == "nether" or dim == "end" then
 		-- Bed goes BOOM in the Nether or End.
@@ -425,77 +379,14 @@ core.register_on_leaveplayer(function(player)
 	update_formspecs(false, players)
 end)
 
-local message_rate_limit = tonumber(core.settings:get("chat_message_limit_per_10sec")) or 8 --NEVER change this! if this was java, i would've declared it as final
-local playermessagecounter = {}
---[[
-	This table stores how many messages a player XY has sent (only while being in a bed) within 10 secs
-	It gets reset after 10 secs using a globalstep
---]]
-
-local chatbuttonused = false
-local globalstep_timer = 0
-core.register_globalstep(function(dtime)
-	globalstep_timer = globalstep_timer + dtime
-	if globalstep_timer >= 10 then
-		globalstep_timer = 0
-		playermessagecounter = {}
-		chatbuttonused = false
-	end
-end)
-
-local function exceeded_rate_limit(playername) --Note: will also take care of increasing value and sending feedback message if needed
-	if playermessagecounter[playername] == nil then
-		playermessagecounter[playername] = 0
-	end
-	if playermessagecounter[playername] >= message_rate_limit then -- == should do as well
-		core.chat_send_player(playername,S("You exceeded the maximum number of messages per 10 seconds!") .. " (" .. tostring(message_rate_limit) .. ")")
-		return true
-	end
-	playermessagecounter[playername] = playermessagecounter[playername] + 1
-	return false
-end
-
-local function shout_priv_check(player)
-	if not core.check_player_privs(player,"shout") then
-		core.chat_send_player(player:get_player_name(),S("You are missing the 'shout' privilege! It's required in order to talk in chat..."))
-		return false
-	end
-	return true
-end
-
 core.register_on_player_receive_fields(function(player, formname, fields)
 	if formname ~= "mcl_beds_form" then
 		return
 	end
 
-	local custom_sleep_message
-	if fields.chatsubmit and fields.chatmessage ~= "" then
-		custom_sleep_message = fields.chatmessage
-	end
-
-	if custom_sleep_message or fields.defaultmessage then
-		if chatbuttonused then
-			local time_to_wait = math.ceil(10-globalstep_timer)
-			core.chat_send_player(player:get_player_name(),S("Sorry, but you have to wait @1 seconds until you may use this button again!", tostring(time_to_wait)))
-			return
-		end
-
-		if (not exceeded_rate_limit(player:get_player_name())) and shout_priv_check(player) then
-			chatbuttonused = true
-			local message = custom_sleep_message or S("Hey! Would you guys mind sleeping?")
-			core.chat_send_all(core.format_chat_message(player:get_player_name(), message))
-		end
-		return
-	end
-
-	if fields.quit or fields.leave then
+	if fields.quit then
 		lay_down(player, nil, nil, false)
 		update_formspecs(false)
-	end
-
-	if fields.force then
-		update_formspecs(is_night_skip_enabled())
-		mcl_beds.sleep()
 	end
 end)
 
