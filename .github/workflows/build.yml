@@ -1,0 +1,59 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  game-image:
+    name: Game image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble game folder
+        run: |
+          set -euo pipefail
+          STAGING=.staging/betacraft
+          rm -rf .staging
+          mkdir -p "$STAGING"
+          cp -r mods textures menu "$STAGING"/
+          cp game.conf settingtypes.txt "$STAGING"/
+          find "$STAGING" -name '*~' -delete
+          find "$STAGING" -name '*.kra' -delete
+
+      - name: Create archive
+        run: |
+          cd .staging
+          zip -qr betacraft.zip betacraft
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: betacraft-game
+          path: .staging/betacraft.zip
+
+  engine:
+    name: Engine binary
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build engine
+        env:
+          CONTAINER_RUNTIME: docker
+        run: ./engine/build.sh
+
+      - name: Package engine
+        run: |
+          tar -C engine/install -czf luanti-engine.tar.gz .
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: luanti-engine
+          path: luanti-engine.tar.gz

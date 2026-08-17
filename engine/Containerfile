@@ -1,0 +1,17 @@
+FROM voidlinux/voidlinux:latest
+
+RUN rm -f /usr/share/xbps.d/00-repository-main.conf \
+    && mkdir -p /etc/xbps.d \
+    && printf 'repository=https://repo-default.voidlinux.org/current\n' > /etc/xbps.d/99-repo.conf \
+    && xbps-install -Syu xbps \
+    && xbps-install -Suy \
+    && xbps-install -S -y \
+        cmake make pkg-config gcc \
+        LuaJIT-devel libcurl-devel jsoncpp-devel \
+        libpng-devel libjpeg-turbo-devel zlib-devel \
+        sqlite-devel libopenal-devel libvorbis-devel libogg-devel \
+        freetype-devel librsvg-devel libglvnd-devel \
+        gmp-devel bzip2-devel libzstd-devel SDL2-devel \
+        libX11-devel libXext-devel libXi-devel libXcursor-devel libXrandr-devel \
+    && xbps-remove -O \
+    && rm -rf /var/cache/xbps

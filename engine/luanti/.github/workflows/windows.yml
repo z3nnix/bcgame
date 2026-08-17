@@ -1,0 +1,153 @@
+name: windows
+
+# build on c/cpp changes or workflow changes
+on:
+  push:
+    paths:
+      - 'lib/**.[ch]'
+      - 'lib/**.cpp'
+      - 'src/**.[ch]'
+      - 'src/**.cpp'
+      - 'irr/**.[ch]'
+      - 'irr/**.cpp'
+      - '**/CMakeLists.txt'
+      - 'cmake/Modules/**'
+      - 'po/**.po'
+      - 'util/buildbot/**'
+      - 'misc/*'
+      - '.github/workflows/windows.yml'
+  pull_request:
+    paths:
+      - 'lib/**.[ch]'
+      - 'lib/**.cpp'
+      - 'src/**.[ch]'
+      - 'src/**.cpp'
+      - 'irr/**.[ch]'
+      - 'irr/**.cpp'
+      - '**/CMakeLists.txt'
+      - 'cmake/Modules/**'
+      - 'po/**.po'
+      - 'util/buildbot/**'
+      - 'misc/*'
+      - '.github/workflows/windows.yml'
+
+jobs:
+  mingw:
+    name: "MinGW cross-compiler (${{ matrix.config.bits }}-bit)"
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { bits: 32, nsis: false }
+          - { bits: 64, nsis: true }
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install compiler
+        run: |
+          source ./util/ci/common.sh
+          install_mingw_deps '${{matrix.config.bits}}' '${{matrix.config.nsis}}'
+          if '${{matrix.config.nsis}}'; then
+            echo 'CMAKE_CXX_COMPILER_LAUNCHER=ccache' >>$GITHUB_ENV
+          fi
+          sudo ./util/buildbot/download_toolchain.sh /usr
+
+      - name: Build
+        run: |
+           EXISTING_MINETEST_DIR=$PWD \
+           ./util/buildbot/buildwin${{ matrix.config.bits }}.sh B
+           mkdir -p artifact
+           cp -v B/build/*.zip artifact/
+
+      # Check that the resulting binary can run (DLLs etc.)
+      - name: Runtime test
+        run: |
+          dest=$(mktemp -d)
+          unzip -q -d "$dest" artifact/*.zip
+          cd "$dest"/luanti-*-win*
+          wine bin/luanti.exe --version
+
+      - name: Build for NSIS
+        run: |
+           EXISTING_MINETEST_DIR=$PWD \
+           ./util/buildbot/buildwin${{ matrix.config.bits }}.sh B -DRUN_IN_PLACE=0
+           dest=$(mktemp -d)
+           unzip -q -d "$dest" B/build/*.zip
+           cd "$dest"/luanti-*-nsis
+           makensis -WX -V3 sfx-launcher.nsi
+           cp -v "$dest"/*.exe $GITHUB_WORKSPACE/artifact/
+        if: ${{ matrix.config.nsis }}
+
+      - uses: actions/upload-artifact@v5
+        with:
+          name: "mingw${{ matrix.config.bits }}"
+          path: artifact/*.zip
+          if-no-files-found: error
+
+      - uses: actions/upload-artifact@v5
+        with:
+          name: "mingw${{ matrix.config.bits }}-nsis"
+          path: artifact/*.exe
+          if-no-files-found: error
+        if: ${{ matrix.config.nsis }}
+
+  msvc:
+    name: VS 2022 ${{ matrix.config.arch }}
+    runs-on: windows-2025
+    env:
+      VCPKG_DEFAULT_TRIPLET: ${{matrix.config.vcpkg_triplet}}
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {
+              arch: x86,
+              generator: "-G'Visual Studio 17 2022' -A Win32",
+              vcpkg_triplet: x86-windows
+            }
+          - {
+              arch: x64,
+              generator: "-G'Visual Studio 17 2022' -A x64",
+              vcpkg_triplet: x64-windows
+            }
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Restore from cache and run vcpkg
+        uses: lukka/run-vcpkg@v11
+        with:
+          vcpkgDirectory: '${{ github.workspace }}\vcpkg'
+
+      - name: CMake
+        # Note: See #15976 for why CMAKE_POLICY_VERSION_MINIMUM=3.5 is set.
+        run: |
+          cmake ${{matrix.config.generator}}  `
+          -DCMAKE_TOOLCHAIN_FILE="${{ github.workspace }}\vcpkg\scripts\buildsystems\vcpkg.cmake"  `
+          -DCMAKE_BUILD_TYPE=Release  `
+          -DCMAKE_POLICY_VERSION_MINIMUM=3.5  `
+          -DENABLE_POSTGRESQL=OFF  `
+          -DENABLE_LUAJIT=TRUE  `
+          -DREQUIRE_LUAJIT=TRUE  `
+          -DRUN_IN_PLACE=1 .
+
+      - name: Build
+        run: cmake --build . --config Release
+
+      - name: Unittests
+        # need this workaround for stdout to work
+        run: |
+          $proc = start .\bin\Release\luanti.exe --run-unittests -NoNewWindow -Wait -PassThru
+          exit $proc.ExitCode
+        continue-on-error: true # FIXME!!
+
+      - name: CPack
+        run: |
+          cpack -G ZIP -B "$env:GITHUB_WORKSPACE\Package"
+          rm -r $env:GITHUB_WORKSPACE\Package\_CPack_Packages
+
+      - uses: actions/upload-artifact@v5
+        with:
+          name: msvc-${{ matrix.config.arch }}
+          path: .\Package\
+          if-no-files-found: error

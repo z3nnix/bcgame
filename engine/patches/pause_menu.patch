@@ -1,0 +1,253 @@
+# Pause menu override feature
+#
+# Custom patch for the vendored Luanti engine (see engine/README.md).
+#
+# Adds core.register_on_pause_menu() and lets a game ship
+# menu/pause_menu.lua to override the in-game pause menu formspec.
+#
+# Generated against vanilla Luanti 5.16.1. Paths are relative to the
+# repository root (apply with: git apply engine/patches/pause_menu.patch)
+#
+# Re-generate:
+#   git clone --depth 1 --branch 5.16.1 https://github.com/luanti-org/luanti VANILLA
+#   git diff --no-index VANILLA engine/luanti > engine/patches/pause_menu.patch
+
+--- engine/luanti/doc/menu_lua_api.md
++++ engine/luanti/doc/menu_lua_api.md
+@@ -223,6 +223,14 @@
+   * `colorString`: `"#RRGGBB"` format
+ * `core.set_topleft_text(text)`
+ * `core.show_touchscreen_layout()`
++* `core.register_on_pause_menu(function())`
++  * Register a function that overrides the in-game pause menu formspec.
++  * The function is called every time the pause menu is opened and must return a
++    formspec string.
++  * The default pause menu is shown instead if no callback is registered or it
++    returns an empty string.
++  * Note: this only works in singleplayer and locally-hosted games, because the
++    game's files are not available on the client otherwise.
+ * `core.show_path_select_dialog(formname, caption, is_file_select)`
+   * shows a path select dialog
+   * `formname` is base name of dialog response returned in fields
+--- engine/luanti/src/client/game.cpp
++++ engine/luanti/src/client/game.cpp
+@@ -469,7 +469,7 @@
+ 
+ 	m_rendering_engine->initialize(client, hud);
+ 
+-	m_game_formspec.init(client, m_rendering_engine, input);
++	m_game_formspec.init(client, m_rendering_engine, input, start_data.game_spec.path);
+ 
+ 	return true;
+ }
+--- engine/luanti/src/client/game_formspec.cpp
++++ engine/luanti/src/client/game_formspec.cpp
+@@ -192,12 +192,13 @@
+ 
+ //// GameFormSpec
+ 
+-void GameFormSpec::init(Client *client, RenderingEngine *rendering_engine, InputHandler *input)
++void GameFormSpec::init(Client *client, RenderingEngine *rendering_engine, InputHandler *input,
++		const std::string &game_path)
+ {
+ 	m_client = client;
+ 	m_rendering_engine = rendering_engine;
+ 	m_input = input;
+-	m_pause_script = std::make_unique<PauseMenuScripting>(client);
++	m_pause_script = std::make_unique<PauseMenuScripting>(client, game_path);
+ 	m_pause_script->loadBuiltin();
+ 
+ 	// Make sure any remaining game callback requests are cleared out.
+@@ -453,10 +454,15 @@
+ 	}
+ 	os << ";]";
+ 
++	// Allow the game to provide its own pause menu formspec
++	std::string pause_menu_formspec = m_pause_script->getPauseMenuFormspec();
++	if (pause_menu_formspec.empty())
++		pause_menu_formspec = os.str();
++
+ 	/* Create menu */
+ 	/* Note: FormspecFormSource and LocalFormspecHandler  *
+ 	 * are deleted by guiFormSpecMenu                     */
+-	FormspecFormSource *fs_src = new FormspecFormSource(os.str());
++	FormspecFormSource *fs_src = new FormspecFormSource(pause_menu_formspec);
+ 	HardcodedPauseFormspecHandler *txt_dst = new HardcodedPauseFormspecHandler();
+ 
+ 	GUIFormSpecMenu::create(m_formspec, m_client, m_rendering_engine->get_gui_env(),
+--- engine/luanti/src/client/game_formspec.h
++++ engine/luanti/src/client/game_formspec.h
+@@ -23,7 +23,8 @@
+  */
+ struct GameFormSpec
+ {
+-	void init(Client *client, RenderingEngine *rendering_engine, InputHandler *input);
++	void init(Client *client, RenderingEngine *rendering_engine, InputHandler *input,
++			const std::string &game_path);
+ 
+ 	~GameFormSpec() { reset(); }
+ 
+--- engine/luanti/src/script/cpp_api/s_pause_menu.h
++++ engine/luanti/src/script/cpp_api/s_pause_menu.h
+@@ -10,4 +10,12 @@
+ {
+ public:
+ 	void open_settings();
++
++	// Reference to the function registered via core.register_on_pause_menu().
++	// Stored per script environment so it cannot dangle across sessions.
++	void setPauseMenuCallbackRef(int ref) { m_pause_menu_callback_ref = ref; }
++	int getPauseMenuCallbackRef() const { return m_pause_menu_callback_ref; }
++
++private:
++	int m_pause_menu_callback_ref = LUA_NOREF;
+ };
+--- engine/luanti/src/script/lua_api/l_pause_menu.cpp
++++ engine/luanti/src/script/lua_api/l_pause_menu.cpp
+@@ -4,6 +4,7 @@
+ 
+ #include "l_pause_menu.h"
+ #include "client/keycode.h"
++#include "cpp_api/s_pause_menu.h"
+ #include "gui/mainmenumanager.h"
+ #include "lua_api/l_internal.h"
+ #include "client/client.h"
+@@ -23,8 +24,51 @@
+ }
+ 
+ 
++int ModApiPauseMenu::l_register_on_pause_menu(lua_State *L)
++{
++	luaL_checktype(L, 1, LUA_TFUNCTION);
++	auto *script = getScriptApi<ScriptApiPauseMenu>(L);
++	if (script->getPauseMenuCallbackRef() != LUA_NOREF)
++		luaL_unref(L, LUA_REGISTRYINDEX, script->getPauseMenuCallbackRef());
++	script->setPauseMenuCallbackRef(luaL_ref(L, LUA_REGISTRYINDEX));
++	return 0;
++}
++
++std::string ModApiPauseMenu::getPauseMenuFormspec(lua_State *L)
++{
++	auto *script = getScriptApi<ScriptApiPauseMenu>(L);
++	int ref = script->getPauseMenuCallbackRef();
++	if (ref == LUA_NOREF)
++		return std::string();
++
++	lua_rawgeti(L, LUA_REGISTRYINDEX, ref);
++	if (!lua_isfunction(L, -1)) {
++		lua_pop(L, 1);
++		return std::string();
++	}
++
++	if (lua_pcall(L, 0, 1, 0) != 0) {
++		const char *err = lua_tostring(L, -1);
++		warningstream << "Error in pause menu callback: "
++				<< (err ? err : "(unknown error)") << std::endl;
++		lua_pop(L, 1);
++		return std::string();
++	}
++
++	std::string formspec;
++	if (lua_isstring(L, -1)) {
++		size_t len = 0;
++		const char *s = lua_tolstring(L, -1, &len);
++		formspec.assign(s, len);
++	}
++	lua_pop(L, 1);
++	return formspec;
++}
++
++
+ void ModApiPauseMenu::Initialize(lua_State *L, int top)
+ {
+ 	API_FCT(show_touchscreen_layout);
+ 	API_FCT(is_internal_server);
++	API_FCT(register_on_pause_menu);
+ }
+--- engine/luanti/src/script/lua_api/l_pause_menu.h
++++ engine/luanti/src/script/lua_api/l_pause_menu.h
+@@ -11,7 +11,9 @@
+ private:
+ 	static int l_show_touchscreen_layout(lua_State *L);
+ 	static int l_is_internal_server(lua_State *L);
++	static int l_register_on_pause_menu(lua_State *L);
+ 
+ public:
+ 	static void Initialize(lua_State *L, int top);
++	static std::string getPauseMenuFormspec(lua_State *L);
+ };
+--- engine/luanti/src/script/scripting_pause_menu.cpp
++++ engine/luanti/src/script/scripting_pause_menu.cpp
+@@ -12,8 +12,10 @@
+ #include "lua_api/l_settings.h"
+ #include "lua_api/l_util.h"
+ 
+-PauseMenuScripting::PauseMenuScripting(Client *client):
+-		ScriptApiBase(ScriptingType::PauseMenu)
++PauseMenuScripting::PauseMenuScripting(Client *client, const std::string &game_path):
++		ScriptApiBase(ScriptingType::PauseMenu),
++		m_client(client),
++		m_game_path(game_path)
+ {
+ 	setGameDef(client);
+ 
+@@ -51,6 +53,21 @@
+ {
+ 	loadScript(Client::getBuiltinLuaPath() + DIR_DELIM "init.lua");
+ 	checkSetByBuiltin();
++
++	// Allow the game to override the pause menu formspec
++	if (!m_game_path.empty()) {
++		std::string game_pause_menu =
++				m_game_path + DIR_DELIM + "menu" + DIR_DELIM + "pause_menu.lua";
++		if (fs::PathExists(game_pause_menu))
++			loadScript(game_pause_menu);
++	}
++}
++
++std::string PauseMenuScripting::getPauseMenuFormspec()
++{
++	SCRIPTAPI_PRECHECKHEADER
++
++	return ModApiPauseMenu::getPauseMenuFormspec(L);
+ }
+ 
+ bool PauseMenuScripting::checkPathInternal(const std::string &abs_path, bool write_required,
+@@ -65,5 +82,16 @@
+ 		return false;
+ 
+ 	std::string path_builtin = fs::AbsolutePath(Client::getBuiltinLuaPath());
+-	return !path_builtin.empty() && fs::PathStartsWith(abs_path, path_builtin);
++	if (!path_builtin.empty() && fs::PathStartsWith(abs_path, path_builtin))
++		return true;
++
++	// Allow the game to ship a pause menu definition (read-only)
++	if (!m_game_path.empty()) {
++		std::string path_game_menu = fs::AbsolutePath(
++				m_game_path + DIR_DELIM + "menu");
++		if (!path_game_menu.empty() && fs::PathStartsWith(abs_path, path_game_menu))
++			return true;
++	}
++
++	return false;
+ }
+--- engine/luanti/src/script/scripting_pause_menu.h
++++ engine/luanti/src/script/scripting_pause_menu.h
+@@ -16,13 +16,16 @@
+ 		public ScriptApiSecurity
+ {
+ public:
+-	PauseMenuScripting(Client *client);
++	PauseMenuScripting(Client *client, const std::string &game_path);
+ 	void loadBuiltin();
++	std::string getPauseMenuFormspec();
+ 
+ protected:
+ 	bool checkPathInternal(const std::string &abs_path, bool write_required,
+ 			bool *write_allowed) override;
+ 
+ private:
++	Client *m_client;
++	std::string m_game_path;
+ 	void initializeModApi(lua_State *L, int top);
+ };
