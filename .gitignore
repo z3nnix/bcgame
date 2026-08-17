@@ -16,3 +16,11 @@ __pycache__/
 /engine/build/
 /engine/install/
 /engine/luanti/bin/
+
+# Engine build outputs (Windows, see engine/build_windows.ps1)
+/engine/build-windows/
+/engine/stage-windows/
+
+# vcpkg manifest install root
+/vcpkg_installed/
+/engine/luanti/vcpkg_installed/
