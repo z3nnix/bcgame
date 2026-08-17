@@ -324,8 +324,15 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 					return
 				end
 
-				-- Do not drop minecart. It goes off the rails too frequently, and anyone using them for farms won't
-				-- notice and lose their iron and not bother. Not cool until fixed.
+				-- Drop minecart if it isn't on a rail anymore
+				for d = 1, #drop do
+					core.add_item(pos, drop[d])
+				end
+				if player and self._on_destroy_minecart then
+					self:_on_destroy_minecart(player)
+				end
+				self.object:remove()
+				return
 			end
 			self._last_float_check = 0
 		end
