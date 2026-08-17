@@ -156,4 +156,4 @@ jobs:
           args=(--title "Betacraft ${{ inputs.version }}" --notes "${{ inputs.notes }}")
           if [ "${{ inputs.draft }}" = "true" ]; then args+=(--draft); fi
           if [ "${{ inputs.prerelease }}" = "true" ]; then args+=(--prerelease); fi
-          gh release create "${{ inputs.version }}" "${args[@]}" betacraft-*.zip
+          gh release create "${{ inputs.version }}" "${args[@]}" --repo "$GITHUB_REPOSITORY" betacraft-*.zip
