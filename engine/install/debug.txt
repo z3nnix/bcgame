@@ -19,3 +19,17 @@
 -------------
 
 2026-08-17 22:57:10: ERROR[Main]: Could not find or load game: betacraft
+
+
+-------------
+  Separator
+-------------
+
+2026-08-18 09:54:58: ERROR[Main]: Could not find or load game: betacraft
+
+
+-------------
+  Separator
+-------------
+
+2026-08-18 09:55:05: ERROR[Main]: Could not find or load game: betacraft

@@ -5,9 +5,31 @@ mcl_minecarts = {}
 mcl_minecarts.modpath = core.get_modpath(modname)
 mcl_minecarts.speed_max = 10
 mcl_minecarts.check_float_time = 15
+-- Center-to-center spacing a coupled member tries to keep behind its parent.
+mcl_minecarts.train_spacing = 1.0
 
 dofile(mcl_minecarts.modpath.."/functions.lua")
 dofile(mcl_minecarts.modpath.."/rails.lua")
+
+-- Furnace minecart textures: the front shows a lit furnace while fuel burns.
+local FURNACE_TEX_INACTIVE = {
+	"default_furnace_top.png",
+	"default_furnace_top.png",
+	"default_furnace_front.png",
+	"default_furnace_side.png",
+	"default_furnace_side.png",
+	"default_furnace_side.png",
+	"mcl_minecarts_minecart.png",
+}
+local FURNACE_TEX_ACTIVE = {
+	"default_furnace_top.png",
+	"default_furnace_top.png",
+	"default_furnace_front_active.png",
+	"default_furnace_side.png",
+	"default_furnace_side.png",
+	"default_furnace_side.png",
+	"mcl_minecarts_minecart.png",
+}
 
 local function detach_driver(self)
 	if not self._driver then
@@ -143,6 +165,14 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 		_old_vel = {x=0, y=0, z=0},
 		_old_switch = 0,
 		_railtype = nil,
+		-- Train coupling
+		_train_id = nil, -- shared id of the train this cart belongs to
+		_train_parent = nil, -- object ref of the cart in front (towards the head)
+		_train_child = nil, -- object ref of the cart behind
+		_train_dir = 0, -- 1 = forward, 0 = stopped, -1 = backward
+		_prev_ctrl_up = nil, -- for detecting W/S key presses
+		_prev_ctrl_down = nil,
+		_coupling_timer = 0, -- throttle for the coupling scan
 		_mcl_fishing_hookable = true,
 		_mcl_fishing_reelable = true,
 	}
@@ -153,8 +183,28 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 		if type(data) == "table" then
 			self._railtype = data._railtype
 			self._passenger = data._passenger
+			self._train_id = data._train_id
+			self._train_index = data._train_index
+			self._fueltime = data._fueltime
+			self._fuel_totaltime = data._fuel_totaltime
+			self._fuel_item = data._fuel_item
+			self._fuel_inv_id = data._fuel_inv_id
 		end
 		self.object:set_armor_groups({immortal=1})
+
+		-- Object links are not saved to disk, so a coupled train has to be
+		-- reassembled after a world load: the head (index 0) stays put while
+		-- every following cart finds its parent again in on_step.
+		if self._train_id then
+			self._train_dir = 0
+			self._train_child = nil
+			self._train_parent = nil
+			self._old_pos = nil
+			self._old_vel = {x=0, y=0, z=0}
+			if self._train_index and self._train_index > 0 then
+				self._pending_reattach = core.get_gametime() + 30
+			end
+		end
 
 		-- Activate cart if on activator rail
 		if self.on_activate_by_rail then
@@ -182,8 +232,24 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 			return
 		end
 
-		-- Punch+sneak: Pick up minecart (unless TNT was ignited)
+		-- Punch+sneak: uncouple the last cart of a train, or pick up a
+		-- standalone minecart (unless TNT was ignited)
 		if puncher:get_player_control().sneak and not self._boomtimer then
+			if self._train_id then
+				-- Sneak-punching any cart of a train uncouples its last cart.
+				local tail = mcl_minecarts:find_train_tail(self)
+				if tail and tail ~= self then
+					mcl_minecarts:uncouple_cart(tail)
+					return
+				end
+				-- Only one cart left in this (former) train: pick it up below.
+				self._train_id = nil
+				self._train_dir = 0
+			end
+			-- Detach anything still coupled behind before removing ourselves.
+			if self._train_child then
+				mcl_minecarts:detach_children(self)
+			end
 			if self._driver then
 				if self._old_pos then
 					self.object:set_pos(self._old_pos)
@@ -204,6 +270,10 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 				for d=1, #drop do
 					core.add_item(self.object:get_pos(), drop[d])
 				end
+				local fuel = mcl_minecarts:get_fuel_stack(self)
+				if fuel then
+					core.add_item(self.object:get_pos(), fuel)
+				end
 				if self._on_destroy_minecart then
 					self:_on_destroy_minecart (puncher)
 				end
@@ -214,8 +284,16 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 						inv:add_item("main", drop[d])
 					end
 				end
+				local fuel = mcl_minecarts:get_fuel_stack(self)
+				if fuel then
+					inv:add_item("main", fuel)
+				end
 			end
-
+			-- The fuel slot was handed out above; don't drop it again on removal.
+			if self._fuel_inv then
+				self._fuel_inv:set_stack("fuel", 1, ItemStack(""))
+			end
+			self._fuel_item = nil
 			self.object:remove()
 			return
 		end
@@ -260,6 +338,148 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 			end
 		end
 
+		-- A free minecart that touches another minecart couples to it.
+		if not self._train_id then
+			self._coupling_timer = (self._coupling_timer or 0) - dtime
+			if self._coupling_timer <= 0 then
+				self._coupling_timer = 0.1
+				local target = mcl_minecarts:get_coupling_target(self)
+				if target then
+					mcl_minecarts:try_couple(self, target)
+				end
+			end
+		end
+
+		-- Train logic
+		if self._train_id then
+			-- Reassemble a train after a world reload: object links are not
+			-- persisted, so each member re-finds its parent again.
+			if self._pending_reattach then
+				if core.get_gametime() >= self._pending_reattach then
+					self._train_id = nil
+					self._train_index = nil
+					self._pending_reattach = nil
+					self._coupling_timer = nil
+				else
+					local p = mcl_minecarts:find_train_parent(self)
+					if p then
+						self._train_parent = p.object
+						p._train_child = self.object
+						self._pending_reattach = nil
+						self.object:set_velocity(vector.new())
+						self.object:set_acceleration(vector.new())
+					end
+				end
+				if self._pending_reattach then return end
+			end
+
+			-- W/S direction keys (only while a driver rides this cart)
+			if self._driver and player and ctrl then
+				if self._prev_ctrl_up == nil then
+					self._prev_ctrl_up = ctrl.up
+					self._prev_ctrl_down = ctrl.down
+				else
+					if ctrl.up and not self._prev_ctrl_up then
+						local new_dir = mcl_minecarts:handle_direction_key(self, 1)
+						mcl_minecarts:show_direction_feedback(self, player, new_dir)
+					end
+					if ctrl.down and not self._prev_ctrl_down then
+						local new_dir = mcl_minecarts:handle_direction_key(self, -1)
+						mcl_minecarts:show_direction_feedback(self, player, new_dir)
+					end
+					self._prev_ctrl_up = ctrl.up
+					self._prev_ctrl_down = ctrl.down
+				end
+			end
+
+			if self._train_parent then
+				-- Safety net: the cart in front disappeared without the normal
+				-- removal path clearing our links (stale object references).
+				local pe = self._train_parent:get_luaentity()
+				if not pe or not pe.object then
+					mcl_minecarts:release_member(self)
+				end
+			end
+
+			if self._train_parent then
+				-- The tail of the train picks up free carts that are pushed
+				-- against it.
+				if not self._train_child then
+					self._coupling_timer = (self._coupling_timer or 0) - dtime
+					if self._coupling_timer <= 0 then
+						self._coupling_timer = 0.1
+						local target = mcl_minecarts:get_coupling_target(self, nil, true)
+						if target then
+							mcl_minecarts:couple_carts(self, target)
+						end
+					end
+				end
+				-- A member keeps running its own rail physics below; the
+				-- coupling controller keeps it spaced behind its parent.
+			else
+				-- Head of the train: only moves when a driver sits somewhere in
+				-- the train and a direction is commanded.
+				ctrl = mcl_minecarts:find_driver_ctrl(self)
+				self._train_dir = self._train_dir or 0
+				if not ctrl or self._train_dir == 0 then
+					-- Brake smoothly instead of stopping on the spot, so the
+					-- coupled carts roll to a halt one after another.
+					local hvel = self.object:get_velocity()
+					if not hvel or math.abs(hvel.x) + math.abs(hvel.z) < 0.1 then
+						self.object:set_velocity(vector.new())
+						self.object:set_acceleration(vector.new())
+						self._old_pos = nil
+						self._old_vel = {x=0, y=0, z=0}
+						return
+					end
+					local bdir = vector.normalize(hvel)
+					self.object:set_acceleration(vector.multiply(bdir, -3))
+					self._old_pos = nil
+					self._old_vel = vector.new(hvel)
+					return
+				end
+
+				-- Kick the train off from standstill: a stationary cart has no
+				-- velocity to derive a rail direction from. Only with fuel.
+				local hvel = self.object:get_velocity()
+				if math.abs(hvel.x) + math.abs(hvel.z) < 0.01 then
+					-- Pull the next fuel item from the furnace slot before kicking.
+					mcl_minecarts:refill_fuel(self)
+					if self._fueltime and self._fueltime > 0 then
+						-- Resolve the rail in the commanded direction WITHOUT the
+						-- "backwards" fallback: if the rail ends ahead, start_dir
+						-- stays {0,0,0} and the locomotive must not launch into it.
+						local hint = {x = self._train_dir > 0 and 1 or -1, y=0, z=0}
+						local start_dir = mcl_minecarts:get_rail_direction(self.object:get_pos(), hint, nil, 0, self._railtype)
+						if start_dir and not vector.equals(start_dir, {x=0,y=0,z=0}) then
+							self.object:set_velocity(vector.multiply(start_dir, 3))
+						end
+					end
+				end
+			end
+		end
+
+		-- A parked member starts rolling once its parent moves: give it a velocity
+		-- matching the parent's speed along the track, so it follows right away
+		-- instead of lagging behind the locomotive.
+		if self._train_parent then
+			local v = self.object:get_velocity()
+			if v and math.abs(v.x) + math.abs(v.z) < 0.01 then
+				local p = self._train_parent:get_luaentity()
+				if p and p.object then
+					local pv = p.object:get_velocity()
+					if pv and math.abs(pv.x) + math.abs(pv.z) > 0.01 then
+						local d = mcl_minecarts:velocity_to_dir(pv)
+						if d then
+							local speed = math.max(0.5,
+								math.min(mcl_minecarts.speed_max, math.abs(pv.x) + math.abs(pv.z)))
+							self.object:set_velocity(vector.multiply(d, speed))
+						end
+					end
+				end
+			end
+		end
+
 		local vel = self.object:get_velocity()
 		local update = {}
 		if self._last_float_check == nil then
@@ -272,6 +492,9 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 		local r = 0.6
 		for _, node_pos in pairs({{r, 0}, {0, r}, {-r, 0}, {0, -r}}) do
 			if core.get_node(vector.offset(pos, node_pos[1], 0, node_pos[2])).name == "mcl_core:cactus" then
+				if self._train_child then
+					mcl_minecarts:detach_children(self)
+				end
 				detach_driver(self)
 				for d = 1, #drop do
 					core.add_item(pos, drop[d])
@@ -310,7 +533,9 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 			if g ~= self._railtype and self._railtype then
 				-- Detach driver
 				if player then
-					if self._old_pos then
+-- A member's spacing is controlled by the coupling controller; skip the
+		-- teleport/stuck-rollback heuristic that would fight it.
+		if self._old_pos and not self._train_parent then
 						self.object:set_pos(self._old_pos)
 					end
 					mcl_player.players[player].attached = nil
@@ -319,15 +544,21 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 
 				-- Explode if already ignited
 				if self._boomtimer then
+					if self._train_child then
+						mcl_minecarts:detach_children(self)
+					end
 					mcl_explosions.explode(pos, 4, {}, self.object)
 					self.object:remove()
 					return
 				end
 
-				-- Drop minecart if it isn't on a rail anymore
-				for d = 1, #drop do
-					core.add_item(pos, drop[d])
-				end
+			-- Drop minecart if it isn't on a rail anymore
+			if self._train_child then
+				mcl_minecarts:detach_children(self)
+			end
+			for d = 1, #drop do
+				core.add_item(pos, drop[d])
+			end
 				if player and self._on_destroy_minecart then
 					self:_on_destroy_minecart(player)
 				end
@@ -338,23 +569,51 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 		end
 
 		-- Update furnace stuff
-		if self._fueltime and self._fueltime > 0 then
-			self._fueltime = self._fueltime - dtime
-			if self._fueltime <= 0 then
-				self.object:set_properties({textures =
-					{
-					"default_furnace_top.png",
-					"default_furnace_top.png",
-					"default_furnace_front.png",
-					"default_furnace_side.png",
-					"default_furnace_side.png",
-					"default_furnace_side.png",
-					"mcl_minecarts_minecart.png",
-				}})
+		if self._fuel_item or self._fuel_inv_id or self._fueltime then
+			local cur_vel = self.object:get_velocity()
+			local is_moving = math.abs(cur_vel.x) + math.abs(cur_vel.z) > 0.01
+			-- Fuel is only consumed while the cart actually moves (or is
+			-- commanded to move as a locomotive), not when parked.
+			local fuel_active = is_moving or (self._train_dir and self._train_dir ~= 0)
+			if fuel_active then
+				-- Draw the next item from the fuel slot once the current one
+				-- has burned out.
+				mcl_minecarts:refill_fuel(self)
+				if self._fueltime and self._fueltime > 0 then
+					self._fueltime = self._fueltime - dtime
+				end
+			end
+			if self._fueltime and self._fueltime <= 0 then
 				self._fueltime = 0
+			end
+			local burning = self._fueltime and self._fueltime > 0
+			if burning ~= self._burning then
+				self._burning = burning
+				self.object:set_properties({textures = burning and FURNACE_TEX_ACTIVE or FURNACE_TEX_INACTIVE})
 			end
 		end
 		local has_fuel = self._fueltime and self._fueltime > 0
+
+		-- Keep the furnace GUI (fuel slot + fire) up to date for onlookers.
+		if self._inv_viewers then
+			local watching = false
+			for name in pairs(self._inv_viewers) do
+				if core.get_player_by_name(name) then watching = true end
+			end
+			if watching then
+				self._fuel_refresh = (self._fuel_refresh or 0) - dtime
+				if self._fuel_refresh <= 0 then
+					self._fuel_refresh = 0.5
+					local fs = mcl_minecarts:furnace_cart_formspec(self)
+					if fs ~= self._last_fuel_fs then
+						self._last_fuel_fs = fs
+						for name in pairs(self._inv_viewers) do
+							core.show_formspec(name, self._fuel_inv_id, fs)
+						end
+					end
+				end
+			end
+		end
 
 		-- Update TNT stuff
 		if self._boomtimer then
@@ -362,6 +621,9 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 			self._boomtimer = self._boomtimer - dtime
 			local pos = self.object:get_pos()
 			if self._boomtimer <= 0 then
+				if self._train_child then
+					mcl_minecarts:detach_children(self)
+				end
 				mcl_explosions.explode(pos, 4, {}, self.object)
 				self.object:remove()
 				return
@@ -415,7 +677,9 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 		if self._old_pos and not self._punched then
 			local flo_pos = vector.floor(pos)
 			local flo_old = vector.floor(self._old_pos)
-			if vector.equals(flo_pos, flo_old) and (not has_fuel) then
+			-- Members skip the node-boundary gate so the coupling controller
+			-- runs (and updates the acceleration) every tick.
+			if vector.equals(flo_pos, flo_old) and (not has_fuel) and not self._train_parent then
 				return
 				-- Prevent querying the same node over and over again
 			end
@@ -447,8 +711,9 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 			end
 		end
 
-		-- Stop cart if velocity vector flips
-		if self._old_vel and self._old_vel.y == 0 and
+		-- Stop cart if velocity vector flips (only for free carts: train carts
+		-- reverse smoothly through the direction state machine / coupling).
+		if not self._train_id and self._old_vel and self._old_vel.y == 0 and
 				(self._old_vel.x * vel.x < 0 or self._old_vel.z * vel.z < 0) then
 			self._old_vel = {x = 0, y = 0, z = 0}
 			self._old_pos = pos
@@ -474,7 +739,9 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 			end
 		end
 
-		if vel.y == 0 then
+		-- Don't snap a member's small velocity to zero: the coupling controller
+		-- needs it to keep the member rolling with the train.
+		if vel.y == 0 and not self._train_parent then
 			for _,v in ipairs({"x", "z"}) do
 				if vel[v] ~= 0 and math.abs(vel[v]) < 0.9 then
 					vel[v] = 0
@@ -489,8 +756,23 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 			dir, last_switch = mcl_minecarts:get_rail_direction(pos, cart_dir, ctrl, self._old_switch, self._railtype)
 		end
 
+		-- A train cart that reaches the end of a rail stops instead of being
+		-- turned back by the "backwards" fallback of get_rail_direction, which
+		-- would otherwise push it off the track.
+		if self._train_id and not vector.equals(dir, {x=0, y=0, z=0}) then
+			if vel.x * dir.x + vel.z * dir.z < 0 then
+				vel = {x=0, y=0, z=0}
+				update.vel = true
+				self.object:set_velocity(vector.new())
+				self.object:set_acceleration(vector.new())
+				self._old_pos = nil
+				self._old_vel = {x=0, y=0, z=0}
+				return
+			end
+		end
+
 		local new_acc = {x=0, y=0, z=0}
-		if vector.equals(dir, {x=0, y=0, z=0}) and not has_fuel then
+		if vector.equals(dir, {x=0, y=0, z=0}) and (not has_fuel or self._train_id) then
 			vel = {x=0, y=0, z=0}
 			update.vel = true
 		else
@@ -528,6 +810,12 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 
 			if speed_mod and speed_mod ~= 0 then
 				acc = acc + speed_mod + friction
+			end
+
+			-- Coupled member: the coupling controller overrides the free-cart
+			-- acceleration so it keeps the right spacing behind its parent.
+			if self._train_parent then
+				acc = acc + mcl_minecarts:coupling_accel(self, dir, vel)
 			end
 
 			new_acc = vector.multiply(dir, acc)
@@ -600,7 +888,33 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 	end
 
 	function cart:get_staticdata()
-		return core.serialize({_railtype = self._railtype})
+		if self._fuel_inv then
+			mcl_minecarts:save_fuel_slot(self)
+		end
+		return core.serialize({
+			_railtype = self._railtype,
+			_train_id = self._train_id,
+			_train_index = self._train_index,
+			_fueltime = self._fueltime,
+			_fuel_totaltime = self._fuel_totaltime,
+			_fuel_item = self._fuel_item,
+			_fuel_inv_id = self._fuel_inv_id,
+		})
+	end
+
+	-- Clean up the fuel inventory when the cart is deactivated or removed.
+	function cart:on_deactivate(removal)
+		if self._fuel_inv then
+			mcl_minecarts:save_fuel_slot(self)
+			if removal then
+				local fuel = self._fuel_item
+				if fuel then
+					core.add_item(self.object:get_pos(), fuel)
+				end
+			end
+			core.remove_detached_inventory(self._fuel_inv_id)
+			self._fuel_inv = nil
+		end
 	end
 
 	core.register_entity(entity_id, cart)
@@ -808,35 +1122,12 @@ register_minecart(
 	},
 	"mcl_minecarts_minecart_furnace.png",
 	{"mcl_minecarts:minecart", "mcl_furnaces:furnace"},
-	-- Feed furnace with coal
+	-- Open the furnace-style fuel GUI
 	function(self, clicker)
 		if not clicker or not clicker:is_player() then
 			return
 		end
-		if not self._fueltime then
-			self._fueltime = 0
-		end
-		local held = clicker:get_wielded_item()
-		if core.get_item_group(held:get_name(), "coal") == 1 then
-			self._fueltime = self._fueltime + 180
-
-			if not core.is_creative_enabled(clicker:get_player_name()) then
-				held:take_item()
-				local index = clicker:get_wield_index()
-				local inv = clicker:get_inventory()
-				inv:set_stack("main", index, held)
-			end
-			self.object:set_properties({textures =
-			{
-				"default_furnace_top.png",
-				"default_furnace_top.png",
-				"default_furnace_front_active.png",
-				"default_furnace_side.png",
-				"default_furnace_side.png",
-				"default_furnace_side.png",
-				"mcl_minecarts_minecart.png",
-			}})
-		end
+		mcl_minecarts:show_furnace_cart_inv(self, clicker)
 	end, nil, true
 )
 
@@ -967,3 +1258,16 @@ core.register_craft({
 mcl_wip.register_wip_item("mcl_minecarts:chest_minecart")
 mcl_wip.register_wip_item("mcl_minecarts:furnace_minecart")
 mcl_wip.register_wip_item("mcl_minecarts:command_block_minecart")
+
+-- Stop tracking a player once they close the furnace minecart's fuel GUI.
+core.register_on_player_receive_fields(function(player, formname, fields)
+	if fields.quit and formname and formname:match("^mcl_minecarts_furnace_") then
+		local name = player:get_player_name()
+		for _, ent in pairs(core.luaentities) do
+			if ent._fuel_inv_id == formname and ent._inv_viewers then
+				ent._inv_viewers[name] = nil
+				break
+			end
+		end
+	end
+end)
