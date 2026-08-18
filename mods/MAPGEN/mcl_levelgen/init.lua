@@ -181,6 +181,24 @@ dofile (prefix .. "/scripting.lua")
 dofile (prefix .. "/features.lua")
 dofile (prefix .. "/structures.lua")
 
+------------------------------------------------------------------------
+-- Beta 1.7.3 world generation system.
+------------------------------------------------------------------------
+
+dofile (prefix .. "/presets_beta.lua")
+dofile (prefix .. "/beta_generators.lua")
+dofile (prefix .. "/beta_terrain.lua")
+dofile (prefix .. "/beta_aquifer.lua")
+dofile (prefix .. "/beta_surface.lua")
+dofile (prefix .. "/beta_biomes.lua")
+dofile (prefix .. "/beta_ores.lua")
+dofile (prefix .. "/beta_carvers.lua")
+dofile (prefix .. "/beta_trees.lua")
+dofile (prefix .. "/beta_vegetation.lua")
+dofile (prefix .. "/beta_lakes.lua")
+dofile (prefix .. "/beta_dungeons.lua")
+dofile (prefix .. "/beta_population.lua")
+
 -- Is this file being loaded into Luanti?
 if core and core.get_current_modname then
 	dofile (prefix .. "/nodeprops.lua")

@@ -94,16 +94,24 @@ end
 
 function mcl_levelgen.initialize_terrain (dim)
 	if dim then
-		dim.terrain = mcl_levelgen.make_terrain_generator (dim.preset,
-								   chunksize,
-								   ychunksize)
+		if dim.preset.is_beta then
+			dim.terrain = mcl_levelgen.make_beta_terrain_generator (
+				dim.preset, chunksize, ychunksize)
+		else
+			dim.terrain = mcl_levelgen.make_terrain_generator (
+				dim.preset, chunksize, ychunksize)
+		end
 		return
 	end
 
 	for _, dim in ipairs (dimensions_sorted) do
-		dim.terrain = mcl_levelgen.make_terrain_generator (dim.preset,
-								   chunksize,
-								   ychunksize)
+		if dim.preset.is_beta then
+			dim.terrain = mcl_levelgen.make_beta_terrain_generator (
+				dim.preset, chunksize, ychunksize)
+		else
+			dim.terrain = mcl_levelgen.make_terrain_generator (
+				dim.preset, chunksize, ychunksize)
+		end
 	end
 end
 
@@ -206,6 +214,15 @@ mcl_levelgen.register_dimension ("mcl_levelgen:overworld", {
 	y_global = mcl_vars.mg_overworld_min,
 	data_namespace = 0,
 	create_preset = function (self, seed)
+		local use_beta = core and core.get_mapgen_setting
+			and core.get_mapgen_setting (
+				"mcl_levelgen_enable_beta") == "true"
+
+		if use_beta then
+			mcl_levelgen.use_beta = true
+			return mcl_levelgen.make_beta_preset (seed)
+		end
+
 		local use_large_biomes = mcl_levelgen.use_large_biomes
 		return mcl_levelgen.make_overworld_preset (seed, use_large_biomes)
 	end,
