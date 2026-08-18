@@ -424,53 +424,118 @@ function mcl_minecarts:release_member(le)
 	le.object:set_acceleration(vector.new())
 end
 
--- Acceleration controller for a coupled member: it matches the parent's speed
--- and corrects the spacing error, so the member keeps exactly train_spacing
--- nodes behind its parent. Each cart runs its own rail physics; this only
--- modulates the member's speed to hold the distance. dir is the member's rail
--- direction (may be non-unit on slopes), vel its current velocity.
+-- Acceleration controller for a coupled member: it keeps exactly train_spacing
+-- nodes behind its parent and matches the parent's speed. Each cart runs its
+-- own rail physics; this only adds a correction to the member's acceleration.
+-- dir is the member's rail direction (may be non-unit on slopes), vel its
+-- current velocity.
 --
--- Distance (not along-track projection) is used so a corner -- where the
--- parent turns onto another rail while the member is still on the straight --
--- is not misread as the member being too close (which used to stall the carts
--- at every bend). Reversals are detected from the parent's velocity along the
--- member's track and turn the member around too.
+-- The correction is applied as a VECTOR along the line between the carts,
+-- based on the RELATIVE velocity along that line. Too close -> the member is
+-- pushed away from the parent, too far -> it is pulled back. Because it acts
+-- on the distance itself (not on the member's along-track speed), it works
+-- identically whether the train rolls forward or backward: reversing never
+-- lets the locomotive catch up with its own train or scramble the cart order.
 function mcl_minecarts:coupling_accel(le, dir, vel)
 	local parent_le = le._train_parent and le._train_parent:get_luaentity()
-	if not parent_le or not parent_le.object or not le.object then return 0 end
+	if not parent_le or not parent_le.object or not le.object then return {x=0, y=0, z=0} end
 	local mpos = le.object:get_pos()
 	local ppos = parent_le.object:get_pos()
-	if not mpos or not ppos then return 0 end
-	-- Horizontal along-track direction of the member.
-	local hl = math.sqrt(dir.x * dir.x + dir.z * dir.z)
-	if hl < 0.001 then return 0 end
-	local nx, nz = dir.x / hl, dir.z / hl
+	if not mpos or not ppos then return {x=0, y=0, z=0} end
 	local spacing = mcl_minecarts.train_spacing or 1.0
 
-	-- Centre-to-centre horizontal distance; err > 0 = member too far behind,
-	-- err < 0 = too close.
+	-- Centre-to-centre horizontal distance.
 	local dx = mpos.x - ppos.x
 	local dz = mpos.z - ppos.z
-	local err = math.sqrt(dx * dx + dz * dz) - spacing
+	local dist = math.sqrt(dx * dx + dz * dz)
+	if dist < 0.001 then return {x=0, y=0, z=0} end
 
+	-- Unit vector from the parent toward the member.
+	local sepx, sepz = dx / dist, dz / dist
 	local pv = parent_le.object:get_velocity() or vector.new()
-	local parent_mag = math.sqrt(pv.x * pv.x + pv.z * pv.z)
-	local parent_signed = pv.x * nx + pv.z * nz
-	local target_speed
-	if parent_signed < -0.1 then
-		-- The parent is moving back along the member's track: the train is
-		-- reversing, so the member turns around (negative speed along its
-		-- track). Too-far-behind now means it has to reverse harder.
-		target_speed = parent_signed - err * 4
-	else
-		-- Follow the parent at its actual speed. Using the projection onto the
-		-- member's direction would collapse on corners (the parent moves on a
-		-- different rail) and leave the member braking at the bend.
-		target_speed = parent_mag + err * 4
+	local vv = vel or vector.new()
+
+	-- Desired relative velocity along the parent-member line: opens the gap
+	-- when too close, closes it when too far.
+	local target_rel = (spacing - dist) * 4
+	local tvel = {x = pv.x + sepx * target_rel, y = 0, z = pv.z + sepz * target_rel}
+
+	local acc = {x = (tvel.x - vv.x) * 5, y = 0, z = (tvel.z - vv.z) * 5}
+	local mag = math.sqrt(acc.x * acc.x + acc.z * acc.z)
+	if mag > 3 then
+		acc.x, acc.z = acc.x / mag * 3, acc.z / mag * 3
 	end
-	local cur_speed = (vel and vel.x or 0) * nx + (vel and vel.z or 0) * nz
-	local acc = (target_speed - cur_speed) * 5
-	return math.max(-3, math.min(3, acc))
+	return acc
+end
+
+-- HARD spacing floor for coupled members. The coupling controller is soft (it
+-- only nudges acceleration), so during a hard brake a trailing cart can still
+-- roll into the one in front and carts could pass through each other. This
+-- guarantees train_min_spacing centre-to-centre no matter what: whenever the
+-- gap is about to fall below the floor this tick, the member is snapped back
+-- to it (along the rail axis), given an outward velocity so the gap starts
+-- growing again, and its closing acceleration is cancelled. It only fires when
+-- the soft controller is not enough; normal rolling keeps the spacing around
+-- train_spacing (1.0) and never trips it.
+--
+-- Returns the (possibly modified) member acceleration.
+function mcl_minecarts:enforce_min_spacing(le, acc, dtime)
+	local parent_le = le._train_parent and le._train_parent:get_luaentity()
+	if not parent_le or not parent_le.object or not le.object then return acc end
+	local mpos = le.object:get_pos()
+	local ppos = parent_le.object:get_pos()
+	if not mpos or not ppos then return acc end
+	local dx = mpos.x - ppos.x
+	local dz = mpos.z - ppos.z
+	local dist = math.sqrt(dx * dx + dz * dz)
+	if dist < 0.001 then return acc end
+	local floor = mcl_minecarts.train_min_spacing or 0.9
+	dtime = dtime or 0.05
+	local margin, outward = 0.05, 0.5
+
+	-- Remember the rail-aligned direction from the parent toward the member, so
+	-- an enforced member is always pushed back onto the tail side even if a
+	-- momentary collision has crossed the two centres.
+	if dist >= floor then
+		if math.abs(dx) >= math.abs(dz) then
+			le._sep_dir = {x = dx > 0 and 1 or -1, y = 0, z = 0}
+		else
+			le._sep_dir = {x = 0, y = 0, z = dz > 0 and 1 or -1}
+		end
+	end
+
+	-- Closing velocity/acceleration along the parent->member line.
+	local mv = le.object:get_velocity() or vector.new()
+	local pv = parent_le.object:get_velocity() or vector.new()
+	local nx, nz
+	if le._sep_dir then
+		nx, nz = le._sep_dir.x, le._sep_dir.z
+	else
+		nx, nz = dx / dist, dz / dist
+	end
+	local rel = (mv.x - pv.x) * nx + (mv.z - pv.z) * nz
+	local rel_acc = 0
+	if acc then rel_acc = (acc.x or 0) * nx + (acc.z or 0) * nz end
+	local close = 0
+	if rel < 0 then close = close - rel * dtime end
+	if rel_acc < 0 then close = close - rel_acc * 0.5 * dtime * dtime end
+	if dist - close >= floor + margin then return acc end
+
+	-- Snap back to the floor and give the member an outward velocity so the gap
+	-- grows again instead of hovering at the floor.
+	local target = floor + outward * dtime
+	le.object:set_pos({x = ppos.x + nx * target, y = mpos.y, z = ppos.z + nz * target})
+	if rel < outward then
+		local dv = rel - outward
+		mv.x = mv.x - dv * nx
+		mv.z = mv.z - dv * nz
+		le.object:set_velocity(mv)
+	end
+	if acc and rel_acc < 0 then
+		acc.x = acc.x - rel_acc * nx
+		acc.z = acc.z - rel_acc * nz
+	end
+	return acc
 end
 
 -- Determine which of two free carts is "in front" along the rail.
@@ -543,13 +608,50 @@ function mcl_minecarts:handle_direction_key(le, key)
 		elseif dir == 0 then new_dir = 1 end
 	else
 		if dir == 1 then new_dir = 0
-		elseif dir == 0 then new_dir = -1 end
+		elseif dir == 0 then
+			-- Reverse only from a full stop, so the train cannot turn around
+			-- mid-roll (which used to scramble the cart order).
+			local hvel = le.object:get_velocity()
+			if hvel and math.abs(hvel.x) + math.abs(hvel.z) > 0.5 then
+				return dir
+			end
+			new_dir = -1
+		end
 	end
 	if new_dir ~= dir then
 		local head = mcl_minecarts:find_train_head(le)
 		mcl_minecarts:set_train_dir_recursive(head, new_dir)
+		if new_dir == -1 then
+			mcl_minecarts:kick_train_backward(head)
+		end
 	end
 	return new_dir
+end
+
+-- Start the whole train moving backward as one unit: every cart (head first)
+-- is launched along its rail in the reverse of the train's forward direction.
+-- The forward direction is recorded on the head the first time it is kicked,
+-- so reversing always goes back along the same track regardless of how the
+-- train last rolled. Carts whose rail does not accept the reverse direction
+-- (e.g. on a curve) are skipped; the coupling controller pulls them along.
+function mcl_minecarts:kick_train_backward(head)
+	if not head or not head.object then return end
+	local fd = head._forward_dir
+	if not fd then return end
+	local hint = vector.multiply(fd, -1)
+	local current = head
+	local guard = 0
+	while current and current.object and guard < 128 do
+		local pos = current.object:get_pos()
+		if pos then
+			local start_dir = mcl_minecarts:get_rail_direction(pos, hint, nil, 0, current._railtype)
+			if start_dir and not vector.equals(start_dir, {x=0, y=0, z=0}) then
+				current.object:set_velocity(vector.multiply(start_dir, 3))
+			end
+		end
+		current = current._train_child and current._train_child:get_luaentity()
+		guard = guard + 1
+	end
 end
 
 -- Return the player controls of the first driver sitting anywhere in the train.

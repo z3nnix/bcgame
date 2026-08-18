@@ -7,6 +7,10 @@ mcl_minecarts.speed_max = 10
 mcl_minecarts.check_float_time = 15
 -- Center-to-center spacing a coupled member tries to keep behind its parent.
 mcl_minecarts.train_spacing = 1.0
+-- HARD floor: a coupled member must never come closer to its parent than
+-- this, no matter what (braking pile-ups, punch impulses, ...). It keeps the
+-- carts from passing through each other or visibly entering one another.
+mcl_minecarts.train_min_spacing = 0.9
 
 dofile(mcl_minecarts.modpath.."/functions.lua")
 dofile(mcl_minecarts.modpath.."/rails.lua")
@@ -449,10 +453,23 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 						-- Resolve the rail in the commanded direction WITHOUT the
 						-- "backwards" fallback: if the rail ends ahead, start_dir
 						-- stays {0,0,0} and the locomotive must not launch into it.
-						local hint = {x = self._train_dir > 0 and 1 or -1, y=0, z=0}
+						local hint
+						if self._forward_dir then
+							hint = self._train_dir > 0 and self._forward_dir
+								or vector.multiply(self._forward_dir, -1)
+						else
+							hint = {x = self._train_dir > 0 and 1 or -1, y=0, z=0}
+						end
 						local start_dir = mcl_minecarts:get_rail_direction(self.object:get_pos(), hint, nil, 0, self._railtype)
 						if start_dir and not vector.equals(start_dir, {x=0,y=0,z=0}) then
 							self.object:set_velocity(vector.multiply(start_dir, 3))
+							if not self._forward_dir then
+								if self._train_dir > 0 then
+									self._forward_dir = vector.new(start_dir)
+								else
+									self._forward_dir = vector.multiply(start_dir, -1)
+								end
+							end
 						end
 					end
 				end
@@ -817,16 +834,27 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 
 			-- Coupled member: the coupling controller overrides the free-cart
 			-- acceleration so it keeps the right spacing behind its parent.
+			local cacc = {x=0, y=0, z=0}
 			if self._train_parent then
-				acc = acc + mcl_minecarts:coupling_accel(self, dir, vel)
+				cacc = mcl_minecarts:coupling_accel(self, dir, vel)
 			end
 
 			new_acc = vector.multiply(dir, acc)
+			new_acc.x = new_acc.x + cacc.x
+			new_acc.y = new_acc.y + cacc.y
+			new_acc.z = new_acc.z + cacc.z
+
+			-- Hard spacing floor: never let a member come closer to its parent
+			-- than train_min_spacing, even under heavy braking.
+			new_acc = mcl_minecarts:enforce_min_spacing(self, new_acc, dtime)
 		end
 
 		self.object:set_acceleration(new_acc)
 		self._old_pos = vector.new(pos)
 		self._old_dir = vector.new(dir)
+		if dir.x ~= 0 or dir.z ~= 0 then
+			self._last_move_dir = vector.new(dir)
+		end
 		self._old_switch = last_switch
 
 		-- Limits
