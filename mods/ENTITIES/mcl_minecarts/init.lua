@@ -756,10 +756,11 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 			dir, last_switch = mcl_minecarts:get_rail_direction(pos, cart_dir, ctrl, self._old_switch, self._railtype)
 		end
 
-		-- A train cart that reaches the end of a rail stops instead of being
-		-- turned back by the "backwards" fallback of get_rail_direction, which
-		-- would otherwise push it off the track.
-		if self._train_id and not vector.equals(dir, {x=0, y=0, z=0}) then
+		-- A train cart (or any self-propelled locomotive) that reaches the end
+		-- of a rail stops instead of being turned back by the "backwards"
+		-- fallback of get_rail_direction, which would otherwise push it off
+		-- the track (or launch it back the way it came).
+		if (self._train_id or has_fuel) and not vector.equals(dir, {x=0, y=0, z=0}) then
 			if vel.x * dir.x + vel.z * dir.z < 0 then
 				vel = {x=0, y=0, z=0}
 				update.vel = true
@@ -772,7 +773,9 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 		end
 
 		local new_acc = {x=0, y=0, z=0}
-		if vector.equals(dir, {x=0, y=0, z=0}) and (not has_fuel or self._train_id) then
+		if vector.equals(dir, {x=0, y=0, z=0}) then
+			-- No usable rail in any direction: stop (a dead-end rail, a T that
+			-- runs out, or the cart has rolled off the track).
 			vel = {x=0, y=0, z=0}
 			update.vel = true
 		else
