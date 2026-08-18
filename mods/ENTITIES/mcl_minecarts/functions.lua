@@ -95,7 +95,7 @@ function mcl_minecarts:get_rail_direction(pos_, dir, ctrl, old_switch, railtype)
 			if cur then
 				return cur, 2
 			end
-			right_check = true
+			right_check = false
 		end
 	end
 
@@ -193,112 +193,197 @@ function mcl_minecarts:is_train_member(le)
 	return mcl_minecarts:is_minecart(le) and le._train_id ~= nil
 end
 
--- Walk the attachment chain towards the head of the train.
+-- The locomotive of a train. le is the locomotive itself if it has train index
+-- 0; a follower re-finds the locomotive through its cached object reference or
+-- a short scan by train id (needed after a world load, when object references
+-- are not persisted).
 function mcl_minecarts:find_train_head(le)
-	local current = le
-	local guard = 0
-	while current and current._train_parent and guard < 64 do
-		local p = current._train_parent:get_luaentity()
-		if not p or not p._train_id then break end
-		current = p
-		guard = guard + 1
+	if not le or not le.object then return nil end
+	if (le._train_index or 0) == 0 then return le end
+	if le._train_head and le._train_head:is_valid() then
+		local h = le._train_head:get_luaentity()
+		if h and h._train_id == le._train_id then return h end
 	end
-	return current
-end
-
--- Walk the attachment chain towards the tail of the train.
-function mcl_minecarts:find_train_tail(le)
-	local current = le
-	local guard = 0
-	while current and current._train_child and guard < 64 do
-		local c = current._train_child:get_luaentity()
-		if not c or not c._train_id then break end
-		current = c
-		guard = guard + 1
-	end
-	return current
-end
-
--- After a world load a member's stored position is its real position (train
--- carts are free-standing now); locate the parent cart it must follow again.
-function mcl_minecarts:find_train_parent(le)
+	if not le._train_id then return nil end
 	local pos = le.object:get_pos()
-	if not pos or not le._train_id then return nil end
-	local wanted = (le._train_index or 0) - 1
-	for obj in core.objects_inside_radius(pos, 3) do
+	if not pos then return nil end
+	for obj in core.objects_inside_radius(pos, 8) do
 		local e = obj:get_luaentity()
 		if e and e ~= le and e._train_id == le._train_id
-				and e._train_index == wanted then
+				and (e._train_index or 0) == 0 then
+			le._train_head = obj
 			return e
 		end
 	end
 	return nil
 end
 
--- Assign _train_id / _train_dir / _train_index to a whole sub-chain (starting
--- at le, following children). base_index is the index of le itself.
-function mcl_minecarts:set_train_chain(le, id, dir, base_index)
-	local current = le
-	local index = base_index or 0
-	local guard = 0
-	while current and guard < 128 do
-		current._train_id = id
-		current._train_dir = dir
-		current._train_index = index
-		index = index + 1
-		current = current._train_child and current._train_child:get_luaentity()
-		guard = guard + 1
+-- All carts of the train that le belongs to (the locomotive first).
+function mcl_minecarts:get_train_carts(le)
+	local head = mcl_minecarts:find_train_head(le)
+	if not head then return {} end
+	local carts = {head}
+	local pos = head.object:get_pos()
+	local tid = head._train_id
+	if not pos or not tid then return carts end
+	for obj in core.objects_inside_radius(pos, 8) do
+		local e = obj:get_luaentity()
+		if e and e ~= head and e._train_id == tid and e.object then
+			carts[#carts + 1] = e
+		end
 	end
+	return carts
 end
 
--- Assign _train_dir to a whole sub-chain.
-function mcl_minecarts:set_train_dir_recursive(le, dir)
-	local current = le
-	local guard = 0
-	while current and guard < 128 do
-		current._train_dir = dir
-		current = current._train_child and current._train_child:get_luaentity()
-		guard = guard + 1
+-- The rearmost cart of the train (or the locomotive itself if it is alone).
+function mcl_minecarts:find_train_tail(le)
+	local best, best_idx = nil, -1
+	for _, e in ipairs(mcl_minecarts:get_train_carts(le)) do
+		local idx = e._train_index or 0
+		if idx > best_idx then
+			best, best_idx = e, idx
+		end
 	end
+	return best
 end
 
 local function new_train_id()
 	return tostring(core.get_us_time()) .. "_" .. math.random(1000, 999999)
 end
 
--- Train carts are free-standing now (each runs its own rail physics), so the
--- visual position of a cart is simply its real position.
-function mcl_minecarts:get_attached_world_pos(le)
-	if not le or not le.object then return nil end
-	return le.object:get_pos()
+-- Walk `steps` rail nodes backwards from pos, following the rail. dir is the
+-- locomotive's last rail direction (the direction the train faces); the walk
+-- starts from it reversed, so followers trail the locomotive on the same
+-- track. Returns the position of the node reached and the rail direction at
+-- that node, or nil when the rail ends (the follower stays put).
+function mcl_minecarts:get_rail_node_back(pos, dir, steps, railtype)
+	if not pos or not dir then return nil end
+	local cur = vector.round(pos)
+	local railtype = railtype or "default_rail"
+	local back = {x = -dir.x, y = dir.y, z = -dir.z}
+	local node_dir = dir
+	for i = 1, (steps or 0) do
+		-- old_switch=3 keeps the left/right corner checks but disables the
+		-- backwards fallback, so the walk cannot double back on itself.
+		node_dir = mcl_minecarts:get_rail_direction(cur, back, nil, 3, railtype)
+		if not node_dir or vector.equals(node_dir, {x=0, y=0, z=0}) then
+			return nil
+		end
+		cur = vector.add(cur, node_dir)
+	end
+	return {pos = cur, dir = node_dir}
 end
 
--- Couple two carts: parent is in front, child is coupled behind it. Each cart
--- keeps running its own rail physics; the spacing between them is maintained
--- by the coupling controller in coupling_accel().
-function mcl_minecarts:couple_carts(parent_le, child_le)
+-- Place a follower (a train cart that runs no physics of its own) on
+-- the rail node `le._train_index` nodes behind the locomotive, once per tick.
+-- Uses _forward_dir so the physical order stays the same when reversing
+-- (the locomotive pushes the wagons).  Position is interpolated for smooth
+-- visual movement instead of teleporting.
+function mcl_minecarts:place_follower(le, dtime)
+	local head = mcl_minecarts:find_train_head(le)
+	if not head or not head.object then return end
+	if not (le._train_index and le._train_index >= 1) then return end
+	local hpos = head.object:get_pos()
+	if not hpos then return end
+
+	-- When the locomotive has stopped, keep followers at their current
+	-- positions so braking distance is preserved.
+	local hvel = head.object:get_velocity()
+	if hvel and math.abs(hvel.x) + math.abs(hvel.z) < 0.1 then
+		return
+	end
+
+	-- Always trail behind the forward direction so the physical layout
+	-- doesn't flip when the train reverses.
+	local hdir = head._forward_dir or head._last_move_dir
+	if not hdir then return end
+
+	-- Walk the base number of nodes, then interpolate 40 % toward the
+	-- next node so the gap is wider than one rail segment.
+	local base_steps = le._train_index
+	local step_a = mcl_minecarts:get_rail_node_back(hpos, hdir, base_steps, le._railtype)
+	if not step_a then return end
+	local step_b = mcl_minecarts:get_rail_node_back(hpos, hdir, base_steps + 1, le._railtype)
+	local step
+	if step_b then
+		local f = 0.4
+		step = {
+			pos = {
+				x = step_a.pos.x + (step_b.pos.x - step_a.pos.x) * f,
+				y = step_a.pos.y + (step_b.pos.y - step_a.pos.y) * f,
+				z = step_a.pos.z + (step_b.pos.z - step_a.pos.z) * f,
+			},
+			dir = step_a.dir,
+		}
+	else
+		step = step_a
+	end
+
+	-- Smooth interpolation: lerp toward the target position.  Snap
+	-- directly when the distance is large (e.g. first couple or after
+	-- a world load) to avoid a long visible slide.
+	local current = le.object:get_pos()
+	if current then
+		local dist = vector.distance(current, step.pos)
+		if dist > 2 then
+			le.object:set_pos(step.pos)
+		else
+			local t = math.min((dtime or 0.05) * 15, 1)
+			le.object:set_pos({
+				x = current.x + (step.pos.x - current.x) * t,
+				y = current.y + (step.pos.y - current.y) * t,
+				z = current.z + (step.pos.z - current.z) * t,
+			})
+		end
+	else
+		le.object:set_pos(step.pos)
+	end
+
+	-- Compute yaw from the rail direction at the follower's position,
+	-- matching the locomotive's rotation logic.
+	local dir = step.dir
+	if dir then
+		local yaw = 0
+		if dir.x < 0 then
+			yaw = 0.5
+		elseif dir.x > 0 then
+			yaw = 1.5
+		elseif dir.z < 0 then
+			yaw = 1
+		end
+		local yaw_rad = yaw * math.pi
+		local target_pitch = 0
+		if dir.y ~= 0 then
+			target_pitch = dir.y * (math.pi / 4)
+		end
+		le.object:set_rotation(vector.new(target_pitch, yaw_rad, 0))
+	end
+
+	le.object:set_velocity(vector.new())
+	le.object:set_acceleration(vector.new())
+	le._old_pos = vector.new(step.pos)
+	le._old_vel = vector.new()
+end
+
+-- Assign _train_id / _train_index to the free cart child_le, appended to the
+-- train of parent_le (which may be the locomotive or any follower).
+function mcl_minecarts:append_cart(parent_le, child_le)
 	if not parent_le or not child_le or parent_le == child_le then return false end
 	if not parent_le.object or not child_le.object then return false end
-	if child_le._train_parent and child_le._train_parent == parent_le.object then
-		return true
-	end
 
 	local tid = parent_le._train_id
 	if not tid then
 		tid = new_train_id()
 		parent_le._train_id = tid
 		parent_le._train_index = 0
-		parent_le._train_dir = parent_le._train_dir or 0
 	end
-	local train_dir = parent_le._train_dir or 0
-	parent_le._train_index = parent_le._train_index or 0
+	child_le._train_id = tid
+	child_le._train_index = (parent_le._train_index or 0) + 1
+	child_le._train_head = parent_le._train_index == 0 and parent_le.object or nil
 	child_le.object:set_velocity(vector.new())
 	child_le.object:set_acceleration(vector.new())
-	child_le._train_parent = parent_le.object
 	child_le._old_pos = nil
 	child_le._old_vel = nil
-	parent_le._train_child = child_le.object
-	mcl_minecarts:set_train_chain(child_le, tid, train_dir, (parent_le._train_index or 0) + 1)
 
 	local pos = parent_le.object:get_pos()
 	if pos then
@@ -307,56 +392,131 @@ function mcl_minecarts:couple_carts(parent_le, child_le)
 	return true
 end
 
--- Detach le from the cart in front of it. The sub-chain behind le stays coupled.
-function mcl_minecarts:uncouple_cart(le)
-	if not le or not le.object then return end
-	local parent_obj = le._train_parent
-	le._train_parent = nil
-	le.object:set_velocity(vector.new())
-	le.object:set_acceleration(vector.new())
-	if le._train_child then
-		mcl_minecarts:set_train_chain(le, new_train_id(), 0, 0)
-	else
-		le._train_id = nil
-		le._train_dir = 0
-	end
-	le._train_index = nil
-	-- If the cart in front now has no carts behind it, it is a lone cart again.
-	if parent_obj then
-		local pele = parent_obj:get_luaentity()
-		if pele then
-			pele._train_child = nil
-			if not pele._train_parent and not pele._train_child then
-				pele._train_id = nil
-				pele._train_dir = 0
+-- A free cart bumped into another cart: decide the new train arrangement.
+-- The furnace is always the head of the train (index 0); every other cart
+-- becomes a follower that rides on a fixed rail node behind the head.
+function mcl_minecarts:try_couple(free_le, target_le)
+	if free_le.name == "mcl_minecarts:furnace_minecart" then
+		-- Furnace bumps into a train: it takes over as the head, but only when
+		-- it is actually touching the head (not the tail of a long train).
+		if mcl_minecarts:is_train_member(target_le) then
+			local old_head = mcl_minecarts:find_train_head(target_le)
+			local hpos = old_head and old_head.object:get_pos()
+			local fpos = free_le.object:get_pos()
+			if hpos and fpos and vector.distance(hpos, fpos) <= 1.9 then
+				if mcl_minecarts:append_cart(free_le, old_head) then
+					-- old_head (and every follower behind it) now trails the
+					-- new furnace by one extra node.
+					local carts = mcl_minecarts:get_train_carts(free_le)
+					for _, e in ipairs(carts) do
+						if e ~= free_le then
+							e._train_head = free_le.object
+						end
+					end
+					return true
+				end
 			end
+			return false
 		end
+		return mcl_minecarts:append_cart(free_le, target_le)
 	end
-	le._old_pos = nil
-	local pos = le.object:get_pos()
+
+	-- A free cart bumps into a train: it only attaches at the tail, and only
+	-- when it is right behind that tail.
+	local tail = nil
+	if mcl_minecarts:is_train_member(target_le) then
+		tail = mcl_minecarts:find_train_tail(target_le)
+	end
+	if tail then
+		local tpos = tail.object:get_pos()
+		local fpos = free_le.object:get_pos()
+		if tpos and fpos and vector.distance(tpos, fpos) <= 1.9 then
+			return mcl_minecarts:append_cart(tail, free_le)
+		end
+		return false
+	end
+
+	-- Both free: the furnace becomes the head, the other cart trails it.
+	if free_le.name == "mcl_minecarts:furnace_minecart"
+			or target_le.name == "mcl_minecarts:furnace_minecart" then
+		if target_le.name == "mcl_minecarts:furnace_minecart" then
+			return mcl_minecarts:append_cart(target_le, free_le)
+		end
+		return mcl_minecarts:append_cart(free_le, target_le)
+	end
+
+	-- Two free plain carts: couple them anyway (head is the first one).
+	return mcl_minecarts:append_cart(free_le, target_le)
+end
+
+-- Detach the rearmost cart of the train (sneak-punch). Returns true when a
+-- follower was detached; a lone locomotive returns false (it stays a train).
+function mcl_minecarts:uncouple_last_cart(le)
+	local head = mcl_minecarts:find_train_head(le)
+	if not head then return false end
+	local tail = mcl_minecarts:find_train_tail(head)
+	if not tail or tail == head then return false end
+	tail._train_id = nil
+	tail._train_index = nil
+	tail._train_head = nil
+	tail.object:set_velocity(vector.new())
+	tail.object:set_acceleration(vector.new())
+	tail._old_pos = nil
+	tail._old_vel = nil
+	local pos = tail.object:get_pos()
 	if pos then
 		core.sound_play("mcl_minecarts_uncouple", {pos=pos, gain=0.8, max_hear_distance=12}, true)
 	end
+	return true
 end
 
--- Detach the whole sub-chain behind le (used when le itself is removed).
-function mcl_minecarts:detach_children(le)
-	local child_obj = le._train_child
-	le._train_child = nil
-	if not child_obj then return end
-	local child = child_obj:get_luaentity()
-	if not child then return end
-	child._train_parent = nil
-	child.object:set_velocity(vector.new())
-	child.object:set_acceleration(vector.new())
-	if child._train_child then
-		mcl_minecarts:set_train_chain(child, new_train_id(), 0, 0)
-	else
-		child._train_id = nil
+-- Remove le from its train. Removing the locomotive frees every follower;
+-- removing a follower re-indexes the ones behind it.
+function mcl_minecarts:remove_cart_from_train(le)
+	if not le or not le.object then return end
+	local tid = le._train_id
+	local idx = le._train_index or 0
+	le._train_id = nil
+	le._train_index = nil
+	le._train_head = nil
+	le._old_pos = nil
+	le.object:set_velocity(vector.new())
+	le.object:set_acceleration(vector.new())
+	if not tid then return end
+
+	if idx == 0 then
+		-- Locomotive removed: the whole train breaks into free carts.
+		local pos = le.object:get_pos()
+		if pos then
+			for obj in core.objects_inside_radius(pos, 8) do
+				local e = obj:get_luaentity()
+				if e and e ~= le and e._train_id == tid then
+					e._train_id = nil
+					e._train_index = nil
+					e._train_head = nil
+					e._old_pos = nil
+					e.object:set_velocity(vector.new())
+					e.object:set_acceleration(vector.new())
+				end
+			end
+		end
+		return
 	end
-	child._train_index = nil
-	child._train_dir = 0
-	child._old_pos = nil
+
+	-- A follower removed: followers behind it move one node closer to the head.
+	local head = mcl_minecarts:find_train_head(le)
+	if head then
+		local pos = head.object:get_pos()
+		if pos then
+			for obj in core.objects_inside_radius(pos, 8) do
+				local e = obj:get_luaentity()
+				if e and e ~= le and e._train_id == tid
+						and (e._train_index or 0) > idx then
+					e._train_index = (e._train_index or 0) - 1
+				end
+			end
+		end
+	end
 end
 
 -- Find another minecart near scan_pos (the le's visual position) that is
@@ -372,7 +532,7 @@ function mcl_minecarts:get_coupling_target(le, scan_pos, exclude_train)
 		local e = obj:get_luaentity()
 		if e and e ~= le and e._railtype and e._railtype == le._railtype
 				and not e._boomtimer and not (exclude_train and e._train_id) then
-			local opos = mcl_minecarts:get_attached_world_pos(e)
+			local opos = e.object:get_pos()
 			if opos then
 				local dx = opos.x - pos.x
 				local dz = opos.z - pos.z
@@ -395,213 +555,16 @@ function mcl_minecarts:get_coupling_target(le, scan_pos, exclude_train)
 	return best
 end
 
--- Safety net: the cart in front of a member disappeared without the normal
--- removal path clearing our links (stale object references, e.g. after an
--- unload). The member (and any carts behind it) become their own train.
-function mcl_minecarts:release_member(le)
-	if not le or not le.object then return end
-	local parent_obj = le._train_parent
-	le._train_parent = nil
-	le._train_index = nil
-	if le._train_child then
-		mcl_minecarts:set_train_chain(le, new_train_id(), 0, 0)
-	else
-		le._train_id = nil
-		le._train_dir = 0
-	end
-	if parent_obj then
-		local pele = parent_obj:get_luaentity()
-		if pele and pele._train_child == le.object then
-			pele._train_child = nil
-			if not pele._train_parent and not pele._train_child then
-				pele._train_id = nil
-				pele._train_dir = 0
-			end
-		end
-	end
-	le._old_pos = nil
-	le.object:set_velocity(vector.new())
-	le.object:set_acceleration(vector.new())
-end
-
--- Acceleration controller for a coupled member: it keeps exactly train_spacing
--- nodes behind its parent and matches the parent's speed. Each cart runs its
--- own rail physics; this only adds a correction to the member's acceleration.
--- dir is the member's rail direction (may be non-unit on slopes), vel its
--- current velocity.
---
--- The correction is applied as a VECTOR along the line between the carts,
--- based on the RELATIVE velocity along that line. Too close -> the member is
--- pushed away from the parent, too far -> it is pulled back. Because it acts
--- on the distance itself (not on the member's along-track speed), it works
--- identically whether the train rolls forward or backward: reversing never
--- lets the locomotive catch up with its own train or scramble the cart order.
-function mcl_minecarts:coupling_accel(le, dir, vel)
-	local parent_le = le._train_parent and le._train_parent:get_luaentity()
-	if not parent_le or not parent_le.object or not le.object then return {x=0, y=0, z=0} end
-	local mpos = le.object:get_pos()
-	local ppos = parent_le.object:get_pos()
-	if not mpos or not ppos then return {x=0, y=0, z=0} end
-	local spacing = mcl_minecarts.train_spacing or 1.0
-
-	-- Centre-to-centre horizontal distance.
-	local dx = mpos.x - ppos.x
-	local dz = mpos.z - ppos.z
-	local dist = math.sqrt(dx * dx + dz * dz)
-	if dist < 0.001 then return {x=0, y=0, z=0} end
-
-	-- Unit vector from the parent toward the member.
-	local sepx, sepz = dx / dist, dz / dist
-	local pv = parent_le.object:get_velocity() or vector.new()
-	local vv = vel or vector.new()
-
-	-- Desired relative velocity along the parent-member line: opens the gap
-	-- when too close, closes it when too far.
-	local target_rel = (spacing - dist) * 4
-	local tvel = {x = pv.x + sepx * target_rel, y = 0, z = pv.z + sepz * target_rel}
-
-	local acc = {x = (tvel.x - vv.x) * 5, y = 0, z = (tvel.z - vv.z) * 5}
-	local mag = math.sqrt(acc.x * acc.x + acc.z * acc.z)
-	if mag > 3 then
-		acc.x, acc.z = acc.x / mag * 3, acc.z / mag * 3
-	end
-	return acc
-end
-
--- HARD spacing floor for coupled members. The coupling controller is soft (it
--- only nudges acceleration), so during a hard brake a trailing cart can still
--- roll into the one in front and carts could pass through each other. This
--- guarantees train_min_spacing centre-to-centre no matter what: whenever the
--- gap is about to fall below the floor this tick, the member is snapped back
--- to it (along the rail axis), given an outward velocity so the gap starts
--- growing again, and its closing acceleration is cancelled. It only fires when
--- the soft controller is not enough; normal rolling keeps the spacing around
--- train_spacing (1.0) and never trips it.
---
--- Returns the (possibly modified) member acceleration.
-function mcl_minecarts:enforce_min_spacing(le, acc, dtime)
-	local parent_le = le._train_parent and le._train_parent:get_luaentity()
-	if not parent_le or not parent_le.object or not le.object then return acc end
-	local mpos = le.object:get_pos()
-	local ppos = parent_le.object:get_pos()
-	if not mpos or not ppos then return acc end
-	local dx = mpos.x - ppos.x
-	local dz = mpos.z - ppos.z
-	local dist = math.sqrt(dx * dx + dz * dz)
-	if dist < 0.001 then return acc end
-	local floor = mcl_minecarts.train_min_spacing or 0.9
-	dtime = dtime or 0.05
-	local margin, outward = 0.05, 0.5
-
-	-- Remember the rail-aligned direction from the parent toward the member, so
-	-- an enforced member is always pushed back onto the tail side even if a
-	-- momentary collision has crossed the two centres.
-	if dist >= floor then
-		if math.abs(dx) >= math.abs(dz) then
-			le._sep_dir = {x = dx > 0 and 1 or -1, y = 0, z = 0}
-		else
-			le._sep_dir = {x = 0, y = 0, z = dz > 0 and 1 or -1}
-		end
-	end
-
-	-- Closing velocity/acceleration along the parent->member line.
-	local mv = le.object:get_velocity() or vector.new()
-	local pv = parent_le.object:get_velocity() or vector.new()
-	local nx, nz
-	if le._sep_dir then
-		nx, nz = le._sep_dir.x, le._sep_dir.z
-	else
-		nx, nz = dx / dist, dz / dist
-	end
-	local rel = (mv.x - pv.x) * nx + (mv.z - pv.z) * nz
-	local rel_acc = 0
-	if acc then rel_acc = (acc.x or 0) * nx + (acc.z or 0) * nz end
-	local close = 0
-	if rel < 0 then close = close - rel * dtime end
-	if rel_acc < 0 then close = close - rel_acc * 0.5 * dtime * dtime end
-	if dist - close >= floor + margin then return acc end
-
-	-- Snap back to the floor and give the member an outward velocity so the gap
-	-- grows again instead of hovering at the floor.
-	local target = floor + outward * dtime
-	le.object:set_pos({x = ppos.x + nx * target, y = mpos.y, z = ppos.z + nz * target})
-	if rel < outward then
-		local dv = rel - outward
-		mv.x = mv.x - dv * nx
-		mv.z = mv.z - dv * nz
-		le.object:set_velocity(mv)
-	end
-	if acc and rel_acc < 0 then
-		acc.x = acc.x - rel_acc * nx
-		acc.z = acc.z - rel_acc * nz
-	end
-	return acc
-end
-
--- Determine which of two free carts is "in front" along the rail.
--- Returns (parent, child).
-function mcl_minecarts:determine_front(a_le, b_le)
-	local ap = a_le.object:get_pos()
-	local bp = b_le.object:get_pos()
-	local vx = bp.x - ap.x
-	local vz = bp.z - ap.z
-	local axis = "x"
-	if math.abs(vz) > math.abs(vx) then axis = "z" end
-	local a_dir = mcl_minecarts:get_rail_direction(ap, {x=1,y=0,z=0}, nil, nil, a_le._railtype)
-	local sign = (axis == "x") and a_dir.x or a_dir.z
-	if sign == 0 then
-		local b_dir = mcl_minecarts:get_rail_direction(bp, {x=1,y=0,z=0}, nil, nil, b_le._railtype)
-		sign = (axis == "x") and b_dir.x or b_dir.z
-	end
-	if sign == 0 then sign = 1 end
-	if ap[axis] * sign < bp[axis] * sign then
-		return a_le, b_le
-	end
-	return b_le, a_le
-end
-
--- Couple a free cart to whatever it is touching.
-function mcl_minecarts:try_couple(free_le, target_le)
-	if free_le.name == "mcl_minecarts:furnace_minecart" then
-		-- The furnace is always the head of the train.
-		if mcl_minecarts:is_train_member(target_le) then
-			local old_head = mcl_minecarts:find_train_head(target_le)
-			-- Only take over as head when actually touching it; otherwise a
-			-- furnace bumped against the tail of a train would jump to the front.
-			local hpos = mcl_minecarts:get_attached_world_pos(old_head)
-			local fpos = free_le.object:get_pos()
-			if hpos and fpos and vector.distance(hpos, fpos) <= 1.9 then
-				return mcl_minecarts:couple_carts(free_le, old_head)
-			end
-			return false
-		end
-		return mcl_minecarts:couple_carts(free_le, target_le)
-	end
-	-- A free cart attaches to a train only at its tail, and only when it is
-	-- right behind that tail. Carts bumping the middle of a parked train are
-	-- not coupled to the far-away tail.
-	local tail = nil
-	if target_le.name == "mcl_minecarts:furnace_minecart" then
-		tail = mcl_minecarts:find_train_tail(target_le)
-	elseif mcl_minecarts:is_train_member(target_le) then
-		tail = mcl_minecarts:find_train_tail(target_le)
-	end
-	if tail then
-		local tpos = mcl_minecarts:get_attached_world_pos(tail)
-		local fpos = free_le.object:get_pos()
-		if tpos and fpos and vector.distance(tpos, fpos) <= 1.9 then
-			return mcl_minecarts:couple_carts(tail, free_le)
-		end
-		return false
-	end
-	local parent, child = mcl_minecarts:determine_front(free_le, target_le)
-	return mcl_minecarts:couple_carts(parent, child)
-end
+-- Followers are positioned by the locomotive every tick, so no spacing
+-- controller is needed: they can never drift into each other or the head.
 
 -- Toggle the direction of the whole train. key > 0 = W (up), key < 0 = S (down).
--- forward ->(S)-> stop ->(S)-> backward ->(W)-> stop ->(W)-> forward
+-- forward ->(S)-> stop ->(S)-> backward ->(W)-> stop ->(W)-> forward.
+-- Only the locomotive stores _train_dir; followers don't carry direction at all.
 function mcl_minecarts:handle_direction_key(le, key)
-	local dir = le._train_dir or 0
+	local head = mcl_minecarts:find_train_head(le)
+	if not head then return 0 end
+	local dir = head._train_dir or 0
 	local new_dir = dir
 	if key > 0 then
 		if dir == -1 then new_dir = 0
@@ -609,9 +572,8 @@ function mcl_minecarts:handle_direction_key(le, key)
 	else
 		if dir == 1 then new_dir = 0
 		elseif dir == 0 then
-			-- Reverse only from a full stop, so the train cannot turn around
-			-- mid-roll (which used to scramble the cart order).
-			local hvel = le.object:get_velocity()
+			-- Reverse only from a full stop.
+			local hvel = head.object:get_velocity()
 			if hvel and math.abs(hvel.x) + math.abs(hvel.z) > 0.5 then
 				return dir
 			end
@@ -619,52 +581,40 @@ function mcl_minecarts:handle_direction_key(le, key)
 		end
 	end
 	if new_dir ~= dir then
-		local head = mcl_minecarts:find_train_head(le)
-		mcl_minecarts:set_train_dir_recursive(head, new_dir)
-		if new_dir == -1 then
-			mcl_minecarts:kick_train_backward(head)
+		head._train_dir = new_dir
+		if new_dir == -1 and head._forward_dir then
+			-- Kick the locomotive backward along the reverse of the forward dir.
+			local hint = vector.multiply(head._forward_dir, -1)
+			local pos = head.object:get_pos()
+			if pos then
+				local start_dir = mcl_minecarts:get_rail_direction(pos, hint, nil, 0, head._railtype)
+				if start_dir and not vector.equals(start_dir, {x=0, y=0, z=0}) then
+					head.object:set_velocity(vector.multiply(start_dir, 3))
+				end
+			end
+		elseif new_dir == 0 then
+			head.object:set_velocity(vector.new())
 		end
 	end
 	return new_dir
 end
 
--- Start the whole train moving backward as one unit: every cart (head first)
--- is launched along its rail in the reverse of the train's forward direction.
--- The forward direction is recorded on the head the first time it is kicked,
--- so reversing always goes back along the same track regardless of how the
--- train last rolled. Carts whose rail does not accept the reverse direction
--- (e.g. on a curve) are skipped; the coupling controller pulls them along.
-function mcl_minecarts:kick_train_backward(head)
-	if not head or not head.object then return end
-	local fd = head._forward_dir
-	if not fd then return end
-	local hint = vector.multiply(fd, -1)
-	local current = head
-	local guard = 0
-	while current and current.object and guard < 128 do
-		local pos = current.object:get_pos()
-		if pos then
-			local start_dir = mcl_minecarts:get_rail_direction(pos, hint, nil, 0, current._railtype)
-			if start_dir and not vector.equals(start_dir, {x=0, y=0, z=0}) then
-				current.object:set_velocity(vector.multiply(start_dir, 3))
-			end
-		end
-		current = current._train_child and current._train_child:get_luaentity()
-		guard = guard + 1
-	end
-end
-
--- Return the player controls of the first driver sitting anywhere in the train.
+-- Return the player controls of the first driver found anywhere in the
+-- train (head first, then followers).  The furnace minecart's right-click
+-- opens the fuel GUI instead of attaching a player, so drivers typically
+-- sit in follower carts.
 function mcl_minecarts:find_driver_ctrl(le)
-	local current = le
-	local guard = 0
-	while current and guard < 64 do
-		if current._driver then
-			local p = core.get_player_by_name(current._driver)
+	local head = mcl_minecarts:find_train_head(le)
+	if not head then return nil end
+	if head._driver then
+		local p = core.get_player_by_name(head._driver)
+		if p then return p:get_player_control() end
+	end
+	for _, cart in ipairs(mcl_minecarts:get_train_carts(head)) do
+		if cart ~= head and cart._driver then
+			local p = core.get_player_by_name(cart._driver)
 			if p then return p:get_player_control() end
 		end
-		current = current._train_child and current._train_child:get_luaentity()
-		guard = guard + 1
 	end
 	return nil
 end
@@ -713,7 +663,7 @@ end
 function mcl_minecarts:furnace_inv_distance(le, player, count)
 	if not player then return 0 end
 	local ppos = player:get_pos()
-	local epos = mcl_minecarts:get_attached_world_pos(le)
+	local epos = le.object:get_pos()
 	if not ppos or not epos then return 0 end
 	if vector.distance(ppos, epos) > 5 then return 0 end
 	return count
