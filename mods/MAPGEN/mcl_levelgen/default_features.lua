@@ -3260,8 +3260,6 @@ mcl_levelgen.register_placed_feature ("mcl_levelgen:ore_tuff", {
 -- Soil/ground vegetation.
 
 local FIVE = function () return 5 end
-local cid_double_grass = core.get_content_id ("mcl_flowers:double_grass")
-local cid_tallgrass = core.get_content_id ("mcl_flowers:tallgrass")
 local cid_fern = core.get_content_id ("mcl_flowers:fern")
 local cid_double_fern = core.get_content_id ("mcl_flowers:double_fern")
 local cid_dead_bush = core.get_content_id ("mcl_core:deadbush")
@@ -3270,7 +3268,7 @@ local cid_waterlily = core.get_content_id ("mcl_flowers:waterlily")
 mcl_levelgen.register_configured_feature ("mcl_levelgen:block_tall_grass", {
 	feature = "mcl_levelgen:simple_block",
 	content = function (_, _, _, rng)
-		return cid_double_grass, 0
+		return cid_air, 0
 	end,
 })
 
@@ -3321,7 +3319,7 @@ mcl_levelgen.register_placed_feature ("mcl_levelgen:patch_tall_grass_2", {
 mcl_levelgen.register_configured_feature ("mcl_levelgen:block_short_grass", {
 	feature = "mcl_levelgen:simple_block",
 	content = function (_, _, _, rng)
-		return cid_tallgrass, 0
+		return cid_air, 0
 	end,
 })
 
@@ -3418,12 +3416,7 @@ mcl_levelgen.register_configured_feature ("mcl_levelgen:block_taiga_grass", {
 	feature = "mcl_levelgen:simple_block",
 	content = C ({
 		{
-			weight = 1,
-			cid = cid_tallgrass,
-			param2 = 0,
-		},
-		{
-			weight = 4,
+			weight = 5,
 			cid = cid_fern,
 			param2 = 0,
 		},
@@ -3477,11 +3470,6 @@ mcl_levelgen.register_placed_feature ("mcl_levelgen:patch_grass_forest", {
 mcl_levelgen.register_configured_feature ("mcl_levelgen:block_jungle_grass", {
 	feature = "mcl_levelgen:simple_block",
 	content = C ({
-		{
-			weight = 3,
-			cid = cid_tallgrass,
-			param2 = 0,
-		},
 		{
 			weight = 1,
 			cid = cid_fern,

@@ -265,23 +265,6 @@ mcl_flowers.fortune_wheat_seed_drop = {
 	overwrite = true,
 }
 
-mcl_flowers.add_large_plant("double_grass", {
-	desc = S("Double Tallgrass"),
-	longdesc = S("Double tallgrass a variant of tall grass and occupies two blocks. It can be harvested for wheat seeds."),
-	tiles_bottom = {"mcl_flowers_double_plant_grass_bottom.png"},
-	tiles_top = {"mcl_flowers_double_plant_grass_top.png"},
-	inv_img = "mcl_flowers_double_plant_grass_inv.png",
-	bottom = {
-		groups = {compostability = 50},
-		drop = mcl_flowers.wheat_seed_drop,
-		_mcl_fortune_drop = mcl_flowers.fortune_wheat_seed_drop,
-		_mcl_shears_drop = {"mcl_flowers:tallgrass 2"},
-	},
-	selbox_radius = 6/16,
-	selbox_top_height = 4/16,
-	grass_color = true,
-})
-
 mcl_flowers.add_large_plant("double_fern", {
 	desc = S("Large Fern"),
 	longdesc = S("Large fern is a variant of fern and occupies two blocks. It can be harvested for wheat seeds."),
@@ -333,18 +316,6 @@ local def_tallgrass = {
 	on_place = mcl_flowers.on_place_flower,
 	_mcl_hardness = 0,
 }
-core.register_node("mcl_flowers:tallgrass", table.merge(def_tallgrass, {
-	_on_bone_meal = function(_, _, _ , pos, n)
-		local toppos = vector.offset(pos, 0, 1, 0)
-		local topnode = core.get_node(toppos)
-		if core.registered_nodes[topnode.name].buildable_to then
-			core.set_node(pos, {name = "mcl_flowers:double_grass", param2 = n.param2})
-			core.set_node(toppos, {name = "mcl_flowers:double_grass_top", param2 = n.param2})
-			return true
-		end
-	end,
-}))
-
 core.register_node("mcl_flowers:fern", table.merge(def_tallgrass, {
 	description = S("Fern"),
 	longdesc = S("Ferns are small plants which occur naturally in jungles and taigas. They can be harvested for wheat seeds. By using bone meal, a fern can be turned into a large fern which is two blocks high."),

@@ -13,27 +13,21 @@ local vegetation_defs = {
 	[mcl_levelgen.beta.BIOME_TEMPERATE_FOREST] = {
 		{ node = "mcl_flowers:dandelion",    chance = 30 },
 		{ node = "mcl_flowers:poppy",        chance = 20 },
-		{ node = "mcl_core:tallgrass",       chance = 50 },
 	},
 	[mcl_levelgen.beta.BIOME_FOREST] = {
 		{ node = "mcl_flowers:dandelion",    chance = 25 },
 		{ node = "mcl_flowers:poppy",        chance = 25 },
-		{ node = "mcl_core:tallgrass",       chance = 40 },
 	},
 	[mcl_levelgen.beta.BIOME_SHRUBLAND] = {
 		{ node = "mcl_flowers:dandelion",    chance = 15 },
-		{ node = "mcl_core:tallgrass",       chance = 60 },
 	},
 	[mcl_levelgen.beta.BIOME_TAIGA] = {
-		{ node = "mcl_core:tallgrass",       chance = 40 },
 	},
 	[mcl_levelgen.beta.BIOME_PLAINS] = {
 		{ node = "mcl_flowers:dandelion",    chance = 10 },
 		{ node = "mcl_flowers:poppy",        chance = 5 },
-		{ node = "mcl_core:tallgrass",       chance = 50 },
 	},
 	[mcl_levelgen.beta.BIOME_TUNDRA] = {
-		{ node = "mcl_core:tallgrass",       chance = 20 },
 	},
 }
 

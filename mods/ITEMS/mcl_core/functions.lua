@@ -815,23 +815,17 @@ function mcl_core.bone_meal_grass(_, _, pointed_thing)
 
 				if n.name ~= "" and n.name == "air" and (core.get_item_group(n2.name, "grass_block_no_snow") == 1) then
 					-- Randomly generate flowers, tall grass or nothing
-					if math.random(1, 100) <= 90 / ((math.abs(i) + math.abs(j)) / 2)then
-						-- 90% tall grass, 10% flower
-						if math.random(1,100) <= 90 then
-							local col = n2.param2
-							core.set_node(pos, {name="mcl_flowers:tallgrass", param2=col})
-						else
-							local flowers_table = flowers.simple
-							local biome = mcl_biome_dispatch.get_biome_name (pos)
-							for flowerset, predicate in pairs(flowers_biomes) do
-								if predicate (biome) then
-									flowers_table = flowers[flowerset]
-									break
-								end
-							end
-							core.set_node(pos, {name=flowers_table[math.random(1, #flowers_table)]})
+if math.random(1, 100) <= 90 / ((math.abs(i) + math.abs(j)) / 2)then
+					local flowers_table = flowers.simple
+					local biome = mcl_biome_dispatch.get_biome_name (pos)
+					for flowerset, predicate in pairs(flowers_biomes) do
+						if predicate (biome) then
+							flowers_table = flowers[flowerset]
+							break
 						end
 					end
+					core.set_node(pos, {name=flowers_table[math.random(1, #flowers_table)]})
+				end
 				end
 			end
 		end

@@ -3761,15 +3761,12 @@ end
 
 -- Template to register a grass or fern decoration
 function mcl_biomes.register_grass_decoration(grasstype, offset, scale, biomes)
+	if grasstype == "tallgrass" then return end
 	local place_on, seed, decoration
 	if grasstype == "fern" then
 		decoration = "mcl_flowers:fern"
 		place_on = {"group:grass_block_no_snow", "mcl_core:podzol","mcl_mud:mud"}
 		seed = 333
-	elseif grasstype == "tallgrass" then
-		decoration = "mcl_flowers:tallgrass"
-		place_on = {"group:grass_block_no_snow","mcl_mud:mud"}
-		seed = 420
 	elseif grasstype == "litter" then
 		decoration = {"mcl_flowers:leaf_litter_1", "mcl_flowers:leaf_litter_2", "mcl_flowers:leaf_litter_3", "mcl_flowers:leaf_litter_4"}
 		place_on = {"group:grass_block_no_snow","mcl_mud:mud"}
@@ -4046,16 +4043,6 @@ local function register_decorations()
 			biomes = lushcaves[b],
 		})
 	end
-
-	core.register_decoration({
-		decoration = "mcl_flowers:tallgrass",
-		deco_type = "simple",
-		place_on = {"mcl_lush_caves:moss"},
-		biomes = lushcaves,
-		fill_ratio = 0.5,
-		flags = "all_floors",
-		y_min = mcl_vars.mg_overworld_min,
-	})
 
 	core.register_decoration({
 		decoration = "mcl_lush_caves:cave_vines",
@@ -5606,34 +5593,7 @@ local function register_decorations()
 
 	-- Doubletall grass
 	function mcl_biomes.register_doubletall_grass(offset, scale, biomes)
-
-		for b=1, #biomes do
-			local param2 = 0
-			core.register_decoration({
-				deco_type = "schematic",
-				schematic = {
-					size = { x=1, y=3, z=1 },
-					data = {
-						{ name = "air", prob = 0 },
-						{ name = "mcl_flowers:double_grass", param1=255, param2=param2 },
-						{ name = "mcl_flowers:double_grass_top", param1=255, param2=param2 },
-					},
-				},
-				place_on = {"group:grass_block_no_snow"},
-				sidelen = 16,
-				noise_params = {
-					offset = offset,
-					scale = scale,
-					spread = {x = 200, y = 200, z = 200},
-					seed = 420,
-					octaves = 3,
-					persist = 0.6,
-				},
-				y_min = 1,
-				y_max = mcl_vars.mg_overworld_max,
-				biomes = { biomes[b] },
-			})
-		end
+		return
 	end
 
 	local register_doubletall_grass = mcl_biomes.register_doubletall_grass
@@ -5970,26 +5930,6 @@ local function register_decorations()
 	local grass_sparse = {"ExtremeHills", "ExtremeHills+", "ExtremeHills+_snowtop", "ExtremeHillsM", "Jungle" }
 	local grass_mpfm = {"MesaPlateauFM_grasstop" }
 
-	register_grass_decoration("tallgrass", -0.03,  0.09, grass_forest)
-	register_grass_decoration("tallgrass", -0.015, 0.075, grass_forest)
-	register_grass_decoration("tallgrass", 0,      0.06, grass_forest)
-	register_grass_decoration("tallgrass", 0.015,  0.045, grass_forest)
-	register_grass_decoration("tallgrass", 0.03,   0.03, grass_forest)
-	register_grass_decoration("tallgrass", -0.03, 0.09, grass_mpf)
-	register_grass_decoration("tallgrass", -0.015, 0.075, grass_mpf)
-	register_grass_decoration("tallgrass", 0, 0.06, grass_mpf)
-	register_grass_decoration("tallgrass", 0.01, 0.045, grass_mpf)
-	register_grass_decoration("tallgrass", 0.01, 0.05, grass_forest)
-	register_grass_decoration("tallgrass", 0.03, 0.03, grass_plains)
-	register_grass_decoration("tallgrass", 0.05, 0.01, grass_plains)
-	register_grass_decoration("tallgrass", 0.07, -0.01, grass_plains)
-	register_grass_decoration("tallgrass", 0.09, -0.03, grass_plains)
-	register_grass_decoration("tallgrass", 0.18, -0.03, grass_savanna)
-	register_grass_decoration("tallgrass", 0.05, -0.03, grass_sparse)
-	register_grass_decoration("tallgrass", 0.05, 0.05, grass_mpfm)
-
-	register_grass_decoration("tallgrass", 0.04, 0.02, {"PaleGarden"})
-
 	local fern_minimal = { "Jungle", "JungleM", "BambooJungle", "JungleEdge", "JungleEdgeM", "Taiga", "MegaTaiga", "MegaSpruceTaiga", "ColdTaiga", "MangroveSwamp" }
 	local fern_low = { "Jungle", "JungleM", "BambooJungle", "JungleEdge", "JungleEdgeM", "Taiga", "MegaTaiga", "MegaSpruceTaiga" }
 	local fern_Jungle = { "Jungle", "JungleM", "BambooJungle", "JungleEdge", "JungleEdgeM" }
@@ -6056,55 +5996,6 @@ local function register_decorations()
 
 	register_seagrass_decoration("seagrass", 0, 0.5, b_seagrass)
 	register_seagrass_decoration("kelp", -0.5, 1, b_kelp)
-
-	-- Place tall grass on snow in Ice Plains and Extreme Hills+
-	core.register_decoration({
-		deco_type = "schematic",
-		place_on = {"group:grass_block"},
-		sidelen = 16,
-		noise_params = {
-			offset = -0.08,
-			scale = 0.09,
-			spread = {x = 15, y = 15, z = 15},
-			seed = 420,
-			octaves = 3,
-			persist = 0.6,
-		},
-		biomes = {"IcePlains"},
-		y_min = 1,
-		y_max = mcl_vars.mg_overworld_max,
-		schematic = {
-			size = { x=1, y=2, z=1 },
-			data = {
-				{ name = "mcl_core:dirt_with_grass", force_place=true, },
-				{ name = "mcl_flowers:tallgrass", param2 = 0 },
-			},
-		},
-	})
-	core.register_decoration({
-		deco_type = "schematic",
-		place_on = {"group:grass_block"},
-		sidelen = 16,
-		noise_params = {
-			offset = 0.0,
-			scale = 0.09,
-			spread = {x = 15, y = 15, z = 15},
-			seed = 420,
-			octaves = 3,
-			persist = 0.6,
-		},
-		biomes = {"ExtremeHills+_snowtop"},
-		y_min = 1,
-		y_max = mcl_vars.mg_overworld_max,
-		schematic = {
-			size = { x=1, y=2, z=1 },
-			data = {
-				{ name = "mcl_core:dirt_with_grass", force_place=true, },
-				{ name = "mcl_flowers:tallgrass", param2 = 0 },
-			},
-		},
-	})
-
 
 	-- Dead bushes
 	core.register_decoration({

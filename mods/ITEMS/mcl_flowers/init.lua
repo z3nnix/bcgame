@@ -467,7 +467,10 @@ core.register_abm({
 })
 
 -- Legacy support
-core.register_alias("mcl_core:tallgrass", "mcl_flowers:tallgrass")
+core.register_alias("mcl_flowers:tallgrass", "air")
+core.register_alias("mcl_flowers:double_grass", "air")
+core.register_alias("mcl_flowers:double_grass_top", "air")
+core.register_alias("mcl_core:tallgrass", "air")
 
 dofile(modpath.."/register.lua")
 

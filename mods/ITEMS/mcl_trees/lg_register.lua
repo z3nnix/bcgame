@@ -1261,13 +1261,10 @@ local replaceable_by_trees = {
 	"mcl_crimson:nether_sprouts",
 	"mcl_crimson:warped_roots",
 	"mcl_flowers:double_fern",
-	"mcl_flowers:double_grass",
-	"mcl_flowers:double_grass_top",
 	"mcl_flowers:lilac",
 	"mcl_flowers:peony",
 	"mcl_flowers:rose_bush",
 	"mcl_flowers:sunflower",
-	"mcl_flowers:tallgrass",
 	"mcl_lush_caves:hanging_roots",
 	-- TODO:
 	-- "mcl_flowers:pitcher_plant",

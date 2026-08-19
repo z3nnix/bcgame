@@ -147,14 +147,7 @@ core.register_abm({
 })
 
 local function random_moss_vegetation()
-	local x = math.random()
-	if x < 0.5882 then
-		return "mcl_flowers:tallgrass"
-	elseif x < 0.8823 then
-		return "mcl_pale_oak:pale_moss_carpet"
-	else
-		return "mcl_flowers:double_grass"
-	end
+	return "mcl_pale_oak:pale_moss_carpet"
 end
 
 local function set_moss_with_chance_vegetation(pos)
@@ -162,17 +155,7 @@ local function set_moss_with_chance_vegetation(pos)
 	if math.random() < 0.6 then
 		local vegetation = random_moss_vegetation()
 		local pos_up = vector.offset(pos, 0, 1, 0)
-		if vegetation == "mcl_flowers:double_grass" then
-			local pos_up2 = vector.offset(pos, 0, 2, 0)
-			if core.registered_nodes[core.get_node(pos_up2).name].buildable_to then
-				core.set_node(pos_up, { name = "mcl_flowers:double_grass" })
-				core.set_node(pos_up2, { name = "mcl_flowers:double_grass_top" })
-			else
-				core.set_node(pos_up, { name = "mcl_flowers:tallgrass" })
-			end
-		else
-			core.set_node(pos_up, { name = vegetation })
-		end
+		core.set_node(pos_up, { name = vegetation })
 	end
 end
 

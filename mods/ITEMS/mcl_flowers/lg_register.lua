@@ -130,14 +130,12 @@ register_flower_feature ("flower_meadow", {
 		scale = 1.0,
 		seed = ull (0, 2345),
 		content = build_flower_content_list ({
-			"double_grass",
 			"allium",
 			"poppy",
 			"azure_bluet",
 			"dandelion",
 			"cornflower",
 			"oxeye_daisy",
-			"tallgrass",
 		}),
 		slow_noise = {
 			amplitudes = { 1.0, },

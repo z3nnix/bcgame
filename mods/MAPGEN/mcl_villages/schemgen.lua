@@ -1014,14 +1014,6 @@ local village_savannah_house = {
 			amount_max = 3,
 		},
 		{
-			itemstring = "mcl_flowers:tallgrass",
-			weight = 5,
-		},
-		{
-			itemstring = "mcl_flowers:double_grass",
-			weight = 5,
-		},
-		{
 			itemstring = "mcl_farming:bread",
 			amount_min = 1,
 			amount_max = 4,

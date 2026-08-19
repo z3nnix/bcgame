@@ -3,20 +3,14 @@ local modpath = core.get_modpath(modname)
 local S = core.get_translator(modname)
 
 -- Return a vegetation type with the following chances
---   Tall Grass: 52.08%
---   Moss Carpet: 26.04%
---   Double Grass: 10.42%
---   Azalea: 7.29%
---   Flowering Azalea: 4.17%
+--   Moss Carpet: 70%
+--   Azalea: 15%
+--   Flowering Azalea: 15%
 local function random_moss_vegetation()
 	local x = math.random()
-	if x < 0.5208 then
-		return "mcl_flowers:tallgrass"
-	elseif x < 0.7812 then
+	if x < 0.7 then
 		return "mcl_lush_caves:moss_carpet"
-	elseif x < 0.8854 then
-		return "mcl_flowers:double_grass"
-	elseif x < 0.9583 then
+	elseif x < 0.85 then
 		return "mcl_lush_caves:azalea"
 	else
 		return "mcl_lush_caves:azalea_flowering"
@@ -30,17 +24,7 @@ local function set_moss_with_chance_vegetation(pos)
 	if math.random() < 0.6 then
 		local vegetation = random_moss_vegetation()
 		local pos_up = vector.offset(pos, 0, 1, 0)
-		if vegetation == "mcl_flowers:double_grass" then
-			local pos_up2 = vector.offset(pos, 0, 2, 0)
-			if core.registered_nodes[core.get_node(pos_up2).name].buildable_to then
-				core.set_node(pos_up, { name = "mcl_flowers:double_grass" })
-				core.set_node(pos_up2, { name = "mcl_flowers:double_grass_top" })
-			else
-				core.set_node(pos_up, { name = "mcl_flowers:tallgrass" })
-			end
-		else
-			core.set_node(pos_up, { name = vegetation })
-		end
+		core.set_node(pos_up, { name = vegetation })
 	end
 end
 

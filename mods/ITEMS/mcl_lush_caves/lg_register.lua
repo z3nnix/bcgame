@@ -349,10 +349,6 @@ local cid_azalea
 	= core.get_content_id ("mcl_lush_caves:azalea")
 local cid_moss_carpet
 	= core.get_content_id ("mcl_lush_caves:moss_carpet")
-local cid_short_grass
-	= core.get_content_id ("mcl_flowers:tallgrass")
-local cid_double_grass
-	= core.get_content_id ("mcl_flowers:double_grass")
 
 mcl_levelgen.register_configured_feature ("mcl_lush_caves:moss_vegetation", {
 	feature = "mcl_levelgen:simple_block",
@@ -370,16 +366,6 @@ mcl_levelgen.register_configured_feature ("mcl_lush_caves:moss_vegetation", {
 		{
 			weight = 25,
 			cid = cid_moss_carpet,
-			param2 = 0,
-		},
-		{
-			weight = 50,
-			cid = cid_short_grass,
-			param2 = 0,
-		},
-		{
-			weight = 10,
-			cid = cid_double_grass,
 			param2 = 0,
 		},
 	}),
