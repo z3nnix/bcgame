@@ -5,26 +5,6 @@ on:
     branches:
       - main
   workflow_dispatch:
-    inputs:
-      version:
-        description: Release version (e.g. v0.1.0)
-        required: true
-        type: string
-      notes:
-        description: Release notes
-        required: false
-        default: ''
-        type: string
-      draft:
-        description: Create the release as a draft
-        required: false
-        default: true
-        type: boolean
-      prerelease:
-        description: Mark the release as a prerelease
-        required: false
-        default: false
-        type: boolean
 
 concurrency:
   group: build-${{ github.ref }}
@@ -39,11 +19,23 @@ jobs:
 
       - uses: actions/setup-go@v5
         with:
-          go-version: '1.21'
+          go-version: '1.26.x'
           cache: false
+
+      - name: Install webkit2gtk (launcher window)
+        run: |
+          # Azure-hosted runners point apt at azure.archive.ubuntu.com, which
+          # is frequently unreachable and hangs the update. Use the public mirror.
+          sudo sed -i 's|azure\.archive\.ubuntu\.com|archive.ubuntu.com|g' \
+            /etc/apt/sources.list.d/ubuntu.sources || true
+          sudo apt-get update -o Acquire::Retries=3
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libgtk-3-dev
 
       - name: Build Discord RPC companion (Linux)
         run: ./tools/discord_rpc/build.sh linux
+
+      - name: Build launcher (Linux)
+        run: ./launcher/build.sh linux
 
       - name: Assemble game folder
         run: |
@@ -62,10 +54,10 @@ jobs:
           # Docs
           cp LICENSE "$SRC"/
           cp docs/CREDITS.md docs/LEGAL.md "$SRC"/
-          # Starter world + launcher
+          # Starter world + launcher (launcher sits at the game root)
           cp packaging/worlds/default/world.mt "$SRC/worlds/default/world.mt"
-          cp packaging/start.sh "$SRC/start.sh"
-          chmod +x "$SRC/start.sh"
+          cp launcher/bin/launcher "$SRC/launcher"
+          chmod +x "$SRC/launcher"
           # Keep only the Linux Discord RPC companion
           rm -f "$SRC/mods/CORE/mcl_discord_rpc/bin/discord_rpc.exe"
           # Cleanup
@@ -91,11 +83,14 @@ jobs:
 
       - uses: actions/setup-go@v5
         with:
-          go-version: '1.21'
+          go-version: '1.26.x'
           cache: false
 
       - name: Build Discord RPC companion (Windows)
         run: ./tools/discord_rpc/build.sh windows
+
+      - name: Build launcher (Windows)
+        run: ./launcher/build.sh windows
 
       - name: Assemble game folder
         run: |
@@ -114,9 +109,9 @@ jobs:
           # Docs
           cp LICENSE "$SRC"/
           cp docs/CREDITS.md docs/LEGAL.md "$SRC"/
-          # Starter world + launcher
+          # Starter world + launcher (launcher sits at the game root)
           cp packaging/worlds/default/world.mt "$SRC/worlds/default/world.mt"
-          cp packaging/start.cmd "$SRC/start.cmd"
+          cp launcher/bin/launcher.exe "$SRC/launcher.exe"
           # Keep only the Windows Discord RPC companion
           rm -f "$SRC/mods/CORE/mcl_discord_rpc/bin/discord_rpc"
           # Cleanup
@@ -153,7 +148,6 @@ jobs:
       - name: Create release
         run: |
           cd release
-          args=(--title "Betacraft ${{ inputs.version }}" --notes "${{ inputs.notes }}")
-          if [ "${{ inputs.draft }}" = "true" ]; then args+=(--draft); fi
-          if [ "${{ inputs.prerelease }}" = "true" ]; then args+=(--prerelease); fi
-          gh release create "${{ inputs.version }}" "${args[@]}" --repo "$GITHUB_REPOSITORY" betacraft-*.zip
+          TAG="v$(date +%Y.%m.%d)"
+          gh release create "$TAG" --clobber --title "Betacraft $TAG" \
+            --repo "$GITHUB_REPOSITORY" betacraft-*.zip

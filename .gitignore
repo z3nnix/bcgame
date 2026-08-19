@@ -16,3 +16,7 @@ __pycache__/
 /engine/build-win64/
 /engine/.toolchain-win64/
 /engine/luanti/bin/
+
+# Launcher build outputs (see launcher/build.sh)
+/launcher/bin/
+/launcher/config.toml

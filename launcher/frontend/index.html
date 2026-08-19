@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Betacraft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="banner-wrap">
+      <img id="logo" alt="Betacraft">
+      <span id="title" hidden>Betacraft</span>
+    </div>
+
+    <div id="profile-row">
+      <label for="nick">Nickname</label>
+      <input id="nick" type="text" placeholder="Player" autocomplete="off" spellcheck="false">
+    </div>
+
+    <div id="worlds-panel">
+      <div class="panel-head">Worlds</div>
+      <div id="worlds-list">
+        <ul id="worlds"></ul>
+        <p id="empty" hidden>No worlds yet. Create one!</p>
+      </div>
+      <div id="world-btns">
+        <button id="create" class="mc-btn">Create world</button>
+        <button id="delete" class="mc-btn" disabled>Delete</button>
+      </div>
+    </div>
+
+    <footer>
+      <div id="action-row">
+        <button id="play" class="mc-btn play">&#9654;&nbsp; Play</button>
+        <button id="open-folder" class="mc-btn">Open folder</button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Create world dialog -->
+  <div id="dialog-overlay" class="overlay" hidden>
+    <div class="dialog">
+      <h2>Create new world</h2>
+      <div class="form">
+        <label for="world-name">Name</label>
+        <input id="world-name" type="text" placeholder="New World" autocomplete="off" spellcheck="false">
+        <label for="world-seed">Seed</label>
+        <input id="world-seed" type="text" placeholder="(empty = random)" autocomplete="off" spellcheck="false">
+      </div>
+      <div class="dlg-btns">
+        <button id="dialog-cancel" class="mc-btn">Cancel</button>
+        <button id="dialog-ok" class="mc-btn play">Create</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm delete dialog -->
+  <div id="confirm-overlay" class="overlay" hidden>
+    <div class="dialog">
+      <h2>Delete world</h2>
+      <p id="confirm-text" class="muted">Delete &laquo;&hellip;&raquo;?</p>
+      <div class="dlg-btns">
+        <button id="confirm-cancel" class="mc-btn">Cancel</button>
+        <button id="confirm-ok" class="mc-btn danger">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
