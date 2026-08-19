@@ -239,7 +239,7 @@ local function build_scan_queue()
 		local minp = {x = p.x - SCAN_RADIUS, y = math.max(p.y - SCAN_RADIUS, -31000), z = p.z - SCAN_RADIUS}
 		local maxp = {x = p.x + SCAN_RADIUS, y = math.min(p.y + SCAN_RADIUS, 31000), z = p.z + SCAN_RADIUS}
 		-- Find all target nodes in range
-		local targets = core.find_nodes_in_area(minp, maxp, {"group:leaves", "group:grass_block"})
+		local targets = core.find_nodes_in_area(minp, maxp, {"group:leaves", "group:grass_block", "group:grass_block_snow", "group:snow_layer"})
 		for _, pos in ipairs(targets) do
 			table.insert(scan_queue, pos)
 		end
@@ -260,12 +260,42 @@ local function process_scan_batch()
 	while #scan_queue > 0 and count < SCAN_BATCH do
 		local pos = table.remove(scan_queue)
 		local node = core.get_node(pos)
-		local expected = expected_node_name(node.name, mcl_seasons.current)
-		if expected ~= node.name then
-			-- swap_node preserves param1/param2 (light, biome colour,
-			-- leaf distance) and immediately updates connected clients.
-			core.swap_node(pos, {name = expected, param2 = node.param2})
+		local def = core.registered_nodes[node.name]
+		-- Snowed variants (grass/mycelium/podzol under snow) are only
+		-- correct while a snow cover sits directly above them.  The
+		-- snow removal below uses swap_node which skips after_destruct,
+		-- so a leftover snowed block is corrected here as well.
+		if def and def._mcl_snowless then
+			local above = core.get_node(vector.offset(pos, 0, 1, 0))
+			local covered = core.get_item_group(above.name, "snow_cover") > 0
+			if not covered then
+				local expected = expected_node_name(def._mcl_snowless, mcl_seasons.current)
+				if expected ~= node.name then
+					core.swap_node(pos, {name = expected, param2 = node.param2})
+					count = count + 1
+				end
+			end
+		-- In spring, the snow that fell during winter melts away.
+		elseif mcl_seasons.current == "spring"
+			and core.get_item_group(node.name, "snow_layer") > 0 then
+			core.swap_node(pos, {name = "air"})
+			-- swap_node skips after_destruct, so revert a snowed block
+			-- below that is now exposed.
+			local below = core.get_node(vector.offset(pos, 0, -1, 0))
+			local below_def = core.registered_nodes[below.name]
+			if below_def and below_def._mcl_snowless then
+				local expected = expected_node_name(below_def._mcl_snowless, mcl_seasons.current)
+				core.swap_node(vector.offset(pos, 0, -1, 0), {name = expected, param2 = below.param2})
+			end
 			count = count + 1
+		else
+			local expected = expected_node_name(node.name, mcl_seasons.current)
+			if expected ~= node.name then
+				-- swap_node preserves param1/param2 (light, biome colour,
+				-- leaf distance) and immediately updates connected clients.
+				core.swap_node(pos, {name = expected, param2 = node.param2})
+				count = count + 1
+			end
 		end
 	end
 end
@@ -277,6 +307,15 @@ end
 mcl_seasons.register_on_change(function(season)
 	build_scan_queue()
 	scanning = true
+end)
+
+-- Autumn and winter have near-constant rain (snow in winter), so
+-- precipitation starts immediately when the season arrives.
+mcl_seasons.register_on_change(function(season)
+	if mcl_weather and mcl_weather.change_weather
+		and (season == "autumn" or season == "winter") then
+		mcl_weather.change_weather("rain", nil, "mcl_seasons")
+	end
 end)
 
 register_season_variants()

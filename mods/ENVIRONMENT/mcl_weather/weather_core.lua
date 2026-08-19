@@ -160,6 +160,16 @@ end)
 -- Sets random weather (which could be 'none' (no weather)).
 function mcl_weather.set_random_weather(_, weather_meta)
 	if weather_meta == nil then return end
+	-- In autumn and winter it rains (or snows in winter) almost
+	-- constantly, so precipitation is kept going.
+	if mcl_seasons and (mcl_seasons.current == "autumn" or mcl_seasons.current == "winter") then
+		if mcl_weather.state ~= "rain" then
+			mcl_weather.change_weather("rain")
+		else
+			mcl_weather.end_time = mcl_weather.get_rand_end_time()
+		end
+		return
+	end
 	local transitions = weather_meta.transitions
 	local random_roll = math.random(0,100)
 	local new_weather
