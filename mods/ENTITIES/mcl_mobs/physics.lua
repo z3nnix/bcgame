@@ -546,6 +546,7 @@ function mob_class:apply_environment_damage (attach_pos, immersion_depth,
 	end
 
 	if self.ignited_by_sunlight and not skip_burning
+		and mcl_seasons.current ~= "winter"
 		and math.random (scale_chance (dtime, 30)) == 1 then
 		local _, dim = mcl_worlds.y_to_layer (node_pos.y)
 		if dim == "overworld" then

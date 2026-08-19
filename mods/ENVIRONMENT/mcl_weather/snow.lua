@@ -28,6 +28,11 @@ function mcl_weather.has_snow(pos)
 	if not mcl_weather.can_see_outdoors(pos) then
 		return false
 	end
+	-- In winter, snow falls everywhere except arid biomes
+	if mcl_seasons and mcl_seasons.current == "winter" then
+		local name = mcl_biome_dispatch.get_biome_name(pos)
+		return name and not mcl_biome_dispatch.is_position_arid(name)
+	end
 	local name = mcl_biome_dispatch.get_biome_name (pos)
 	return name and mcl_biome_dispatch.is_position_cold (name, pos)
 end

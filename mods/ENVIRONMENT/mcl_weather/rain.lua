@@ -44,6 +44,10 @@ function mcl_weather.is_exposed_to_rain (pos)
 		or not mcl_worlds.has_weather (pos) then
 		return false
 	end
+	-- In winter, precipitation is snow not rain
+	if mcl_seasons and mcl_seasons.current == "winter" then
+		return false
+	end
 	local name = mcl_biome_dispatch.get_biome_name (pos)
 	return not mcl_biome_dispatch.is_position_arid (name)
 		and mcl_weather.is_outdoor (pos)
@@ -195,7 +199,8 @@ function mcl_weather.rain.make_weather()
 				mcl_weather.set_sky_box_clear(player)
 			end
 		else
-			if mcl_weather.has_snow(pos) then
+			-- In winter, always show snow particles instead of rain
+			if mcl_weather.has_snow(pos) or (mcl_seasons and mcl_seasons.current == "winter") then
 				mcl_weather.snow.make_weather_for_player(player)
 			else
 				mcl_weather.rain.add_player(player)

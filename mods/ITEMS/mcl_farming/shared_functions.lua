@@ -85,6 +85,11 @@ end
 -- Returns true if plant has been grown by 1 or more stages.
 -- Returns false if nothing changed.
 function mcl_farming:grow_plant(identifier, pos, node, stages, ignore_light, low_speed)
+	-- Season: no growth in winter
+	if mcl_seasons and mcl_seasons.current == "winter" then
+		return false
+	end
+
 	local average_light_level = get_avg_light_level(pos)
 	local plant_info = plant_lists[identifier]
 	local intervals_counter = get_intervals_counter(pos, plant_info.interval, plant_info.chance)
@@ -110,6 +115,11 @@ function mcl_farming:grow_plant(identifier, pos, node, stages, ignore_light, low
 		if average_light_level < 10 then
 			intervals_counter = intervals_counter * average_light_level / 10
 		end
+	end
+
+	-- Season: 50% growth speed in autumn
+	if mcl_seasons and mcl_seasons.current == "autumn" then
+		intervals_counter = intervals_counter * 0.5
 	end
 
 	local step = nil
