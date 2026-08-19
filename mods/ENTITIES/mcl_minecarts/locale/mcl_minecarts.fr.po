@@ -70,12 +70,12 @@ msgid "Minecart with Chest"
 msgstr "Wagonnet de stockage"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:795
-msgid "Minecart with Furnace"
+msgid "locomotive"
 msgstr "Wagonnet motorisé"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:797
 msgid ""
-"A minecart with furnace is a vehicle that travels on rails. It can propel "
+"A locomotive is a vehicle that travels on rails. It can propel "
 "itself with fuel."
 msgstr ""
 "Une wagonnet motorisé est un véhicule qui se déplace sur rails. Il peut se "

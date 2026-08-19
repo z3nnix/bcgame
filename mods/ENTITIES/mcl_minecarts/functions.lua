@@ -166,7 +166,7 @@ end
 
 -- ---------------------------------------------------------------------------
 -- Train system: minecarts couple to each other and are hauled by a locomotive
--- (the minecart with furnace), which sits at the head of the train.
+-- (the locomotive), which sits at the head of the train.
 -- ---------------------------------------------------------------------------
 
 local train_S = core.get_translator(core.get_current_modname())
@@ -726,7 +726,7 @@ function mcl_minecarts:furnace_cart_formspec(le)
 	return table.concat({
 		"formspec_version[4]",
 		"size[11.75,10.425]",
-		"label[0.375,0.375;" .. core.formspec_escape(core.colorize(mcl_formspec.label_color, train_S("Minecart with Furnace"))) .. "]",
+		"label[0.375,0.375;" .. core.formspec_escape(core.colorize(mcl_formspec.label_color, train_S("Locomotive"))) .. "]",
 		"image[3.5,2;1,1;" .. fire .. "]",
 		mcl_formspec.get_itemslot_bg_v4(3.5, 3.25, 1, 1),
 		"list[detached:" .. le._fuel_inv_id .. ";fuel;3.5,3.25;1,1;]",

@@ -64,12 +64,12 @@ msgid "Minecart with Chest"
 msgstr "运输矿车"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:795
-msgid "Minecart with Furnace"
+msgid "locomotive"
 msgstr "动力矿车"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:797
 msgid ""
-"A minecart with furnace is a vehicle that travels on rails. It can propel "
+"A locomotive is a vehicle that travels on rails. It can propel "
 "itself with fuel."
 msgstr "带熔炉的矿车是一种在铁轨上行驶的交通工具。它可以用燃料来驱动自身。"
 

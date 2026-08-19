@@ -65,12 +65,12 @@ msgid "Minecart with Chest"
 msgstr "チェスト付きトロッコ"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:795
-msgid "Minecart with Furnace"
+msgid "locomotive"
 msgstr "かまど付きトロッコ"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:797
 msgid ""
-"A minecart with furnace is a vehicle that travels on rails. It can propel "
+"A locomotive is a vehicle that travels on rails. It can propel "
 "itself with fuel."
 msgstr "かまど付きトロッコは、レール上を走行する車両です。燃料で自走できます。"
 

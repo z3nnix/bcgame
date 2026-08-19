@@ -66,12 +66,12 @@ msgid "Minecart with Chest"
 msgstr "Lore mit Truhe"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:795
-msgid "Minecart with Furnace"
+msgid "locomotive"
 msgstr "Lore mit Ofen"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:797
 msgid ""
-"A minecart with furnace is a vehicle that travels on rails. It can propel "
+"A locomotive is a vehicle that travels on rails. It can propel "
 "itself with fuel."
 msgstr ""
 "Eine Lore mit Ofen ist ein Fahrzeug, das auf Rädern fährt. Sie kann mit "

@@ -701,9 +701,7 @@ function mcl_levelgen.compile_surface_rule (rule, biome, system)
 		elseif rule.name == "mcl_levelgen:block" then
 			local param2 = rule.param2
 			if param2 == "grass_palette_index" then
-				local biomes = mcl_levelgen.registered_biomes[biome]
-				param2 = biomes.grass_palette_index
-				assert (type (param2) == "number")
+				param2 = 0
 			end
 			table.insert (stmts, { "set", ret, rule.cid, param2, })
 		elseif rule.name == "mcl_levelgen:bandlands" then

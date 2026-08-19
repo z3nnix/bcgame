@@ -1193,17 +1193,13 @@ local registered_biomes = mcl_levelgen.registered_biomes
 
 function mcl_levelgen.apply_biomecolor (x, y, z, index_biome, cid, param2)
 	local value = biome_color_type[cid]
-	if not value or value == 0 then
+	if not value or value == 0 or value == 1 then
 		return param2
 	else
 		local biome = index_biome (x, y, z)
 		local def = registered_biomes[biome]
-		if value == 1 then
-			return def.grass_palette_index
-		else
-			local decay = band (param2, -32)
-			return decay + def.leaves_palette_index
-		end
+		local decay = band (param2, -32)
+		return decay + def.leaves_palette_index
 	end
 end
 

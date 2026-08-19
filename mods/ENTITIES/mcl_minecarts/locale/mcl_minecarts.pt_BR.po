@@ -67,12 +67,12 @@ msgid "Minecart with Chest"
 msgstr "Carrinho com Baú"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:795
-msgid "Minecart with Furnace"
+msgid "locomotive"
 msgstr "Carrinho com Fornalha"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:797
 msgid ""
-"A minecart with furnace is a vehicle that travels on rails. It can propel "
+"A locomotive is a vehicle that travels on rails. It can propel "
 "itself with fuel."
 msgstr ""
 "Um carrinho com fornalha é um veículo que viaja nos trilhos. Se move por "

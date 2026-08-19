@@ -259,8 +259,6 @@ local function set_param2_nodes(vm, data, data2, emin, emax, area, minp, maxp, b
 			-- must be preserved.
 			if get_biome_color_type (data[p_pos]) == 2 then
 				data2[p_pos] = math.floor(data2[p_pos] / 32) * 32 + p2
-			else
-				data2[p_pos] = p2
 			end
 			lvm_used = true
 		end

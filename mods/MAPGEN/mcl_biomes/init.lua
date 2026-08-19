@@ -3784,7 +3784,7 @@ function mcl_biomes.register_grass_decoration(grasstype, offset, scale, biomes)
 		persist = 0.6
 	}
 	for b=1, #biomes do
-		local param2 = core.registered_biomes[biomes[b]]._mcl_palette_index
+		local param2 = 0
 
 		if grasstype == "litter" then
 			param2 = bit.lshift(param2, 2)
@@ -5608,7 +5608,7 @@ local function register_decorations()
 	function mcl_biomes.register_doubletall_grass(offset, scale, biomes)
 
 		for b=1, #biomes do
-			local param2 = core.registered_biomes[biomes[b]]._mcl_palette_index
+			local param2 = 0
 			core.register_decoration({
 				deco_type = "schematic",
 				schematic = {
@@ -5645,7 +5645,7 @@ local function register_decorations()
 	-- Large ferns
 	function mcl_biomes.register_double_fern(offset, scale, biomes)
 		for b=1, #biomes do
-			local param2 = core.registered_biomes[biomes[b]]._mcl_palette_index
+			local param2 = 0
 			core.register_decoration({
 				deco_type = "schematic",
 				schematic = {
@@ -6077,7 +6077,7 @@ local function register_decorations()
 			size = { x=1, y=2, z=1 },
 			data = {
 				{ name = "mcl_core:dirt_with_grass", force_place=true, },
-				{ name = "mcl_flowers:tallgrass", param2 = core.registered_biomes["IcePlains"]._mcl_palette_index },
+				{ name = "mcl_flowers:tallgrass", param2 = 0 },
 			},
 		},
 	})
@@ -6100,7 +6100,7 @@ local function register_decorations()
 			size = { x=1, y=2, z=1 },
 			data = {
 				{ name = "mcl_core:dirt_with_grass", force_place=true, },
-				{ name = "mcl_flowers:tallgrass", param2 = core.registered_biomes["ExtremeHills+_snowtop"]._mcl_palette_index },
+				{ name = "mcl_flowers:tallgrass", param2 = 0 },
 			},
 		},
 	})

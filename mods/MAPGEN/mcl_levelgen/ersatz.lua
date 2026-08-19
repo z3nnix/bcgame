@@ -842,8 +842,7 @@ function ersatz_surface_system:evaluate_for_carver (x, y, z, submerged)
 	if biome == "MushroomIslands" then
 		return cid_mycelium_encoded
 	else
-		local def = registered_biomes[biome]
-		local param2 = def and def.grass_palette_index or 0
+		local param2 = 0
 		return encode_node (cid_grass, param2)
 	end
 end

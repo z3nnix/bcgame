@@ -64,12 +64,12 @@ msgid "Minecart with Chest"
 msgstr "Wagonik ze skrzynią"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:795
-msgid "Minecart with Furnace"
+msgid "locomotive"
 msgstr "Wagonik z piecem"
 
 #: mods/ENTITIES/mcl_minecarts/init.lua:797
 msgid ""
-"A minecart with furnace is a vehicle that travels on rails. It can propel "
+"A locomotive is a vehicle that travels on rails. It can propel "
 "itself with fuel."
 msgstr ""
 "Wagonik z piecem jest pojazdem podróżującym na torach. Napędza on samego "

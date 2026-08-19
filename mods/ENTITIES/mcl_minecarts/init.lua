@@ -160,7 +160,7 @@ local function register_entity(entity_id, mesh, textures, drop, on_rightclick, o
 		_punched = false, -- used to re-send _velocity and position
 		_velocity = {x=0, y=0, z=0}, -- only used on punch
 		_last_float_check = nil, -- timestamp of last time the cart was checked to be still on a rail
-		_fueltime = nil, -- how many seconds worth of fuel is left. Only used by minecart with furnace
+		_fueltime = nil, -- how many seconds worth of fuel is left. Only used by locomotive
 		_boomtimer = nil, -- how many seconds are left before exploding
 		_blinktimer = nil, -- how many seconds are left before TNT blinking
 		_blink = false, -- is TNT blink texture active?
@@ -1056,13 +1056,13 @@ function minecart_with_chest:_on_destroy_minecart (player)
 	mobs_mc.enrage_piglins (player, true)
 end
 
--- Minecart with Furnace
+-- locomotive
 register_minecart(
 	"mcl_minecarts:furnace_minecart",
 	"mcl_minecarts:furnace_minecart",
-	S("Minecart with Furnace"),
+	S("Locomotive"),
 	nil,
-	S("A minecart with furnace is a vehicle that travels on rails. It can propel itself with fuel."),
+	S("A locomotive is a vehicle that travels on rails. It can propel itself with fuel."),
 	S("Place it on rails. If you give it some coal, the furnace will start burning for a long time and the minecart will be able to move itself. Punch it to get it moving.") .. "\n" ..
 	S("To obtain the minecart and furnace, punch them while holding down the sneak key."),
 
