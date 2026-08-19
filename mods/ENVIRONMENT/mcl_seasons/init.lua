@@ -52,61 +52,177 @@ function mcl_seasons.get_season()
 end
 
 ----------------------------------------------------------------
--- Season colours for grass blocks and leaves
+-- Seasonal node variants.
+--
+-- `override_item` changes are not pushed to already connected clients,
+-- so texture swaps only show up after a re-login.  Instead we register
+-- dedicated seasonal variant nodes (copies of the originals with the
+-- season-specific textures) and swap placed nodes between the base node
+-- and its variants with `swap_node`.  A periodic check keeps every
+-- placed node consistent with the current season.
 ----------------------------------------------------------------
 
-local SEASON_COLORS = {
-	winter  = nil,   -- no override (snow covers everything)
-	spring  = nil,   -- default palette colours
-	summer  = "#C4C970",
-	autumn  = "#D4923A",
-}
-
--- Override item definitions for grass blocks and leaves when season
--- changes.  This affects NEWLY placed blocks and (depending on engine
--- rendering) may also update already-placed blocks because the colour
--- is read from the registered definition at render time.
-
-local grass_nodes = {
-	"mcl_core:dirt_with_grass",
-}
-
--- Collect all leaves node names once on mod load.
-local leaves_nodes = {}
-
-local function collect_leaves()
-	for name, def in pairs(core.registered_nodes) do
-		if core.get_item_group(name, "leaves") ~= 0 then
-			table.insert(leaves_nodes, name)
-		end
-	end
-end
-
-local function apply_season_color(season)
-	local col = SEASON_COLORS[season]
-
-	-- Grass blocks
-	for _, name in ipairs(grass_nodes) do
-		if col then
-			core.override_item(name, {color = col})
-		else
-			core.override_item(name, {color = "#8EB971"})
-		end
-	end
-
+-- Map: base texture -> {summer = variant, autumn = variant}.
+-- Spring and winter use the default textures (no entry needed).
+local SEASON_TEXTURES = {
+	-- Grass block
+	["mcl_core_grass_block_top.png"] = {
+		summer = "mcl_core_summer_grass_block_top.png",
+		autumn = "mcl_core_autumn_grass_block_top.png",
+	},
+	["mcl_core_grass_block_side_overlay.png"] = {
+		summer = "mcl_core_summer_grass_block_side_overlay.png",
+		autumn = "mcl_core_autumn_grass_block_side_overlay.png",
+	},
 	-- Leaves
-	for _, name in ipairs(leaves_nodes) do
-		if col then
-			core.override_item(name, {color = col})
-		else
-			core.override_item(name, {color = "#FFFFFF"})
+	["default_leaves.png"] = {
+		summer = "summer_leaves.png",
+		autumn = "autumn_leaves.png",
+	},
+	["default_acacia_leaves.png"] = {
+		summer = "summer_acacia_leaves.png",
+		autumn = "autumn_acacia_leaves.png",
+	},
+	["default_jungleleaves.png"] = {
+		summer = "summer_jungleleaves.png",
+		autumn = "autumn_jungleleaves.png",
+	},
+	["mcl_core_leaves_big_oak.png"] = {
+		summer = "mcl_core_summer_leaves_big_oak.png",
+		autumn = "mcl_core_autumn_leaves_big_oak.png",
+	},
+	["mcl_core_leaves_birch.png"] = {
+		summer = "mcl_core_summer_leaves_birch.png",
+		autumn = "mcl_core_autumn_leaves_birch.png",
+	},
+	["mcl_core_leaves_spruce.png"] = {
+		summer = "mcl_core_summer_leaves_spruce.png",
+		autumn = "mcl_core_autumn_leaves_spruce.png",
+	},
+}
+
+-- Returns the seasonal variant of a tile (string or table) for the given
+-- season, or nil when the tile has no seasonal texture.
+local function swap_texture(tile, season)
+	local base, mods
+	if type(tile) == "string" then
+		base, mods = tile:match("^([^%^]+)%^(.*)$")
+		if not base then base, mods = tile, nil end
+		local entry = SEASON_TEXTURES[base]
+		if entry and entry[season] then
+			return entry[season] .. (mods and "^" .. mods or "")
+		end
+	elseif type(tile) == "table" and tile.name then
+		base, mods = tile.name:match("^([^%^]+)%^(.*)$")
+		if not base then base, mods = tile.name, nil end
+		local entry = SEASON_TEXTURES[base]
+		if entry and entry[season] then
+			local copy = {}
+			for k, v in pairs(tile) do
+				copy[k] = v
+			end
+			copy.name = entry[season] .. (mods and "^" .. mods or "")
+			return copy
+		end
+	end
+	return nil
+end
+
+local SEASONAL_SEASONS = {"summer", "autumn"}
+
+-- [base_node_name] = {summer = variant_name, autumn = variant_name}
+local base_to_variant = {}
+-- [variant_name] = base_node_name
+local variant_to_base = {}
+
+local function copy_tiles(tiles, season)
+	local out = {}
+	for i, t in ipairs(tiles) do
+		out[i] = swap_texture(t, season) or t
+	end
+	return out
+end
+
+local function has_seasonal_tiles(def)
+	if not def.tiles then return false end
+	for _, t in ipairs(def.tiles) do
+		if swap_texture(t, "summer") then
+			return true
+		end
+	end
+	return false
+end
+
+-- Registers a summer and autumn variant for every node whose tiles use a
+-- seasonal texture.  Runs at mod load time, so mcl_seasons must load after
+-- the base nodes are registered (see mod.conf dependencies).
+local function register_season_variants()
+	for name, def in pairs(core.registered_nodes) do
+		if has_seasonal_tiles(def) then
+			base_to_variant[name] = {}
+			for _, season in ipairs(SEASONAL_SEASONS) do
+				local vname = "mcl_seasons:" .. name:gsub(":", "_") .. "_" .. season
+				local vdef = {}
+				for k, v in pairs(def) do
+					vdef[k] = v
+				end
+				vdef.tiles = copy_tiles(def.tiles, season)
+				if def.overlay_tiles then
+					vdef.overlay_tiles = copy_tiles(def.overlay_tiles, season)
+				end
+				vdef.groups = {}
+				if def.groups then
+					for k, v in pairs(def.groups) do
+						vdef.groups[k] = v
+					end
+				end
+				vdef.groups.season_variant = 1
+				vdef.groups.not_in_creative_inventory = 1
+				vdef._mcl_seasons_base = name
+				vdef._doc_items_create_entry = false
+				vdef.description = (def.description or name) .. " (" .. season .. ")"
+				if def._mcl_leaves then
+					vdef._mcl_leaves = vname
+				end
+				core.register_node(vname, vdef)
+				base_to_variant[name][season] = vname
+				variant_to_base[vname] = name
+			end
+		end
+	end
+	-- Link each leaf variant to its seasonal orphan variant, so the leaf
+	-- decay system never converts seasonal nodes back to the base family.
+	for vname, base in pairs(variant_to_base) do
+		local vdef = core.registered_nodes[vname]
+		local basedef = core.registered_nodes[base]
+		if vdef and basedef and basedef._mcl_orphan_leaves then
+			local season = vname:match("_(summer|autumn)$")
+			local vorphan = base_to_variant[basedef._mcl_orphan_leaves]
+			if vorphan and season then
+				vdef._mcl_orphan_leaves = vorphan[season]
+			end
 		end
 	end
 end
 
+-- Returns the node name a position should have for the given season:
+-- the seasonal variant for summer/autumn, the base node for spring/winter.
+local function expected_node_name(name, season)
+	local v = base_to_variant[name]
+	if v then
+		return v[season] or name
+	end
+	local base = variant_to_base[name]
+	if base then
+		local bv = base_to_variant[base]
+		return (bv and bv[season]) or base
+	end
+	return name
+end
+
 ----------------------------------------------------------------
--- Scan placed blocks and update their colour.
--- We walk a cube around every connected player, 128 blocks radius.
+-- Periodically re-check placed nodes and swap them to the correct
+-- seasonal variant.  We walk a cube around every connected player.
 -- Processed in small batches per globalstep to avoid lag spikes.
 ----------------------------------------------------------------
 
@@ -114,18 +230,7 @@ local scan_queue = {}   -- positions to check
 local scanning = false
 local SCAN_BATCH = 2048 -- nodes per step
 local SCAN_RADIUS = 128
-
-local SEASON_COLOR_MAP = {
-	summer = "#C4C970",
-	autumn = "#D4923A",
-}
-local GRASS_DEFAULT = "#8EB971"
-local LEAVES_DEFAULT = "#FFFFFF"
-
-local function is_season_target(nodename)
-	return core.get_item_group(nodename, "leaves") ~= 0
-		or core.get_item_group(nodename, "grass_block") ~= 0
-end
+local CHECK_INTERVAL = tonumber(core.settings:get("mcl_seasons_check_interval")) or 60
 
 local function build_scan_queue()
 	scan_queue = {}
@@ -146,9 +251,6 @@ local function build_scan_queue()
 	end
 end
 
-local season_color_target = nil
-local season_color_default = nil
-
 local function process_scan_batch()
 	if #scan_queue == 0 then
 		scanning = false
@@ -158,43 +260,26 @@ local function process_scan_batch()
 	while #scan_queue > 0 and count < SCAN_BATCH do
 		local pos = table.remove(scan_queue)
 		local node = core.get_node(pos)
-		if is_season_target(node.name) then
-			-- Read current colour from node definition
-			local ndef = core.registered_nodes[node.name]
-			if ndef then
-				local current_color = ndef.color
-				if season_color_target and current_color ~= season_color_target then
-					core.set_node(pos, {name = node.name, param1 = node.param1, param2 = node.param2})
-					count = count + 1
-				elseif not season_color_target and current_color ~= season_color_default then
-					core.set_node(pos, {name = node.name, param1 = node.param1, param2 = node.param2})
-					count = count + 1
-				end
-			end
+		local expected = expected_node_name(node.name, mcl_seasons.current)
+		if expected ~= node.name then
+			-- swap_node preserves param1/param2 (light, biome colour,
+			-- leaf distance) and immediately updates connected clients.
+			core.swap_node(pos, {name = expected, param2 = node.param2})
+			count = count + 1
 		end
 	end
 end
 
 ----------------------------------------------------------------
--- Callback: when season changes, override items + trigger scan
+-- Callback: when season changes, re-check all placed nodes
 ----------------------------------------------------------------
 
 mcl_seasons.register_on_change(function(season)
-	-- Update item definitions
-	apply_season_color(season)
-
-	-- Prepare scan parameters
-	season_color_target = SEASON_COLORS[season]
-	if season == "winter" or season == "spring" then
-		season_color_default = nil
-	else
-		season_color_default = SEASON_COLORS[season]
-	end
-
-	-- Rebuild scan queue and start scanning
 	build_scan_queue()
 	scanning = true
 end)
+
+register_season_variants()
 
 ----------------------------------------------------------------
 -- Sky / fog colour per season
@@ -271,6 +356,7 @@ end
 ----------------------------------------------------------------
 
 local first_step = true
+local tick_count = 0
 
 core.register_globalstep(function(dtime)
 	local gt = core.get_gametime()
@@ -284,7 +370,15 @@ core.register_globalstep(function(dtime)
 		end
 	end
 
-	-- Process colour-scan queue
+	-- Periodic consistency check: swap nodes that don't match the season
+	tick_count = tick_count + 1
+	if tick_count >= CHECK_INTERVAL then
+		tick_count = 0
+		if not scanning then
+			build_scan_queue()
+			scanning = true
+		end
+	end
 	if scanning then
 		process_scan_batch()
 	end
@@ -328,11 +422,6 @@ local function load_season()
 		-- defer the assignment until the first globalstep tick.
 		mcl_seasons.next_change = nil
 	end
-	-- Apply initial season visual overrides
-	core.register_on_mods_loaded(function()
-		collect_leaves()
-		apply_season_color(mcl_seasons.current)
-	end)
 end
 
 load_season()
