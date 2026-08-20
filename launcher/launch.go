@@ -24,9 +24,9 @@ func startGame(w World, nick string) error {
 	gameMu.Unlock()
 
 	args := []string{"--go", "--world", w.Path}
-	if nick != "" {
-		args = append(args, "--name", nick)
-	}
+	// if nick != "" {
+	// 	args = append(args, "--name", nick) // cuz ts force the multiplayer game
+	// }
 
 	cmd := exec.Command(engineBinary(), args...)
 	cmd.Dir = gameRoot()

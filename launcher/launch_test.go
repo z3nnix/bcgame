@@ -60,20 +60,20 @@ func TestLaunchGameArgsAndEnv(t *testing.T) {
 		t.Fatal(err)
 	}
 	lines := strings.Split(strings.TrimSpace(string(data)), "\n")
-	if len(lines) != 7 {
-		t.Fatalf("expected 7 lines (5 args + env + pwd), got %d: %q", len(lines), lines)
+	if len(lines) != 5 {
+		t.Fatalf("expected 5 lines (3 args + env + pwd), got %d: %q", len(lines), lines)
 	}
-	// args[0] is the world path flag pair: --go, --world, <path>, --name, <nick>
-	want := []string{"--go", "--world", w.Path, "--name", "Player One"}
-	for i := 0; i < 5; i++ {
+	// args: --go, --world, <path>
+	want := []string{"--go", "--world", w.Path}
+	for i := 0; i < 3; i++ {
 		if lines[i] != want[i] {
 			t.Errorf("arg[%d] = %q, want %q", i, lines[i], want[i])
 		}
 	}
-	if lines[5] != filepath.Dir(root) {
-		t.Errorf("LUANTI_GAME_PATH = %q, want %q", lines[5], filepath.Dir(root))
+	if lines[3] != filepath.Dir(root) {
+		t.Errorf("LUANTI_GAME_PATH = %q, want %q", lines[3], filepath.Dir(root))
 	}
-	if lines[6] != root {
-		t.Errorf("PWD = %q, want %q", lines[6], root)
+	if lines[4] != root {
+		t.Errorf("PWD = %q, want %q", lines[4], root)
 	}
 }
