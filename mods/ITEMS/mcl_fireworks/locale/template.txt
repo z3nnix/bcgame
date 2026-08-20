@@ -1,3 +1,0 @@
-# textdomain: mcl_fireworks
-Firework Rocket=
-Flight Duration: @1s=

@@ -1,3 +1,0 @@
-# textdomain: mcl_serverplayer
-Elytra not equipped.=
-Elytra not deployed. Jump while falling down to deploy.=
