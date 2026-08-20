@@ -49,6 +49,9 @@ jobs:
           # Game content (creates mods/, textures/, menu/)
           cp -r mods textures menu "$SRC"/
           cp game.conf settingtypes.txt minetest.conf "$SRC"/
+          # Run-in-place builds use the root minetest.conf as the main config;
+          # trust the Discord RPC mod so it can start its companion binary.
+          printf 'secure.trusted_mods = mcl_discord_rpc\n' >> "$SRC/minetest.conf"
           # Engine: binary (committed run-in-place install tree)
           cp -v engine/install/bin/luanti "$SRC/bin/luanti"
           # Engine data (run-in-place installs data in the prefix root)
@@ -104,6 +107,9 @@ jobs:
           # Game content (creates mods/, textures/, menu/)
           cp -r mods textures menu "$SRC"/
           cp game.conf settingtypes.txt minetest.conf "$SRC"/
+          # Run-in-place builds use the root minetest.conf as the main config;
+          # trust the Discord RPC mod so it can start its companion binary.
+          printf 'secure.trusted_mods = mcl_discord_rpc\n' >> "$SRC/minetest.conf"
           # Engine: binary + DLLs (committed run-in-place install tree)
           cp -r engine/install-win64/bin/* "$SRC/bin/"
           # Engine data (run-in-place installs data in the prefix root)
