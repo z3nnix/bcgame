@@ -10,7 +10,8 @@ import (
 
 // Config holds the player profile, persisted next to the launcher as config.toml.
 type Config struct {
-	Nick string `toml:"nick"`
+	Nick    string `toml:"nick"`
+	Version string `toml:"version"` // last applied release tag, e.g. "v2026.08.19"
 }
 
 var configPath string

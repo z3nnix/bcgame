@@ -27,6 +27,7 @@ const api = {
 const state = {
   worlds: [],
   selected: null,
+  running: false,
 };
 
 const $ = (id) => document.getElementById(id);
@@ -87,8 +88,12 @@ function selectWorld(name) {
 
 function updateButtons() {
   const hasSel = state.selected !== null;
-  $("play").disabled = !hasSel;
-  $("delete").disabled = !hasSel;
+  const running = state.running;
+  $("play").disabled = !hasSel || running;
+  $("delete").disabled = !hasSel || running;
+  $("update-check").disabled = running;
+  const now = $("update-now");
+  if (now) now.disabled = running;
 }
 
 // ---------------------------------------------------------------------------
@@ -157,6 +162,8 @@ function pollGame() {
   clearInterval(pollTimer);
   pollTimer = setInterval(() => {
     api.call("GameRunning").then((running) => {
+      state.running = !!running;
+      updateButtons();
       if (!running) {
         clearInterval(pollTimer);
         refreshWorlds();
@@ -166,6 +173,89 @@ function pollGame() {
       }
     }).catch(() => { /* keep polling */ });
   }, 1000);
+}
+
+// ---------------------------------------------------------------------------
+// Updates
+// ---------------------------------------------------------------------------
+let updateInfo = null;
+let updatePoll = null;
+
+function fmtSize(bytes) {
+  const mb = bytes / (1024 * 1024);
+  return mb >= 1 ? mb.toFixed(1) + " MB" : (bytes / 1024).toFixed(0) + " KB";
+}
+
+function checkForUpdate(manual) {
+  api.call("CheckForUpdate").then((info) => {
+    updateInfo = info || null;
+    if (info && info.Available) {
+      openUpdateDialog();
+    } else if (manual) {
+      const v = info && info.Latest ? info.Latest : "";
+      showStatus(v ? "You're up to date (" + v + ")." : "No updates found.", "ok");
+    }
+  }).catch((e) => {
+    if (manual) showStatus("Update check failed: " + e, "error");
+  });
+}
+
+function openUpdateDialog() {
+  if (!updateInfo) return;
+  $("update-title").textContent = "Update available";
+  $("update-text").textContent =
+    "New version " + updateInfo.Latest +
+    " is available (installed: " + (updateInfo.Current || "?") +
+    "). Size " + fmtSize(updateInfo.Size) + ". Update now?";
+  $("update-progress-wrap").hidden = true;
+  $("update-ok").hidden = true;
+  $("update-now").hidden = false;
+  $("update-later").hidden = false;
+  updateButtons();
+  showOverlay("update-overlay");
+}
+
+function setUpdateProgress(done, total, label) {
+  const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+  $("update-progress").value = pct;
+  $("update-progress-text").textContent = label + (total > 0 ? " — " + pct + "%" : "");
+}
+
+function doUpdate() {
+  $("update-now").disabled = true;
+  $("update-later").disabled = true;
+  $("update-progress-wrap").hidden = false;
+  setUpdateProgress(0, 0, "Starting…");
+  api.call("ApplyUpdate").then(() => {
+    updatePoll = setInterval(() => {
+      api.call("UpdateProgress").then((s) => {
+        if (s.Phase) setUpdateProgress(s.Done, s.Total, s.Phase);
+        if (s.Finished) {
+          clearInterval(updatePoll);
+          $("update-progress-wrap").hidden = true;
+          if (s.Err) {
+            $("update-title").textContent = "Update failed";
+            $("update-text").textContent = s.Err;
+            $("update-ok").hidden = false;
+          } else {
+            $("update-title").textContent = "Update installed";
+            $("update-text").textContent =
+              "Betacraft " + (updateInfo ? updateInfo.Latest : "") +
+              " is installed. Close and restart the launcher to finish.";
+            $("update-ok").hidden = false;
+          }
+          updateButtons();
+        }
+      }).catch(() => { /* keep polling */ });
+    }, 400);
+  }).catch((e) => {
+    clearInterval(updatePoll);
+    $("update-title").textContent = "Update failed";
+    $("update-text").textContent = String(e);
+    $("update-progress-wrap").hidden = true;
+    $("update-ok").hidden = false;
+    updateButtons();
+  });
 }
 
 // ---------------------------------------------------------------------------
@@ -188,6 +278,8 @@ function init() {
       $("title").hidden = false;
     }
   });
+
+  checkForUpdate(false);
 }
 
 $("nick").addEventListener("change", (e) => api.call("SetNick", e.target.value));
@@ -199,11 +291,18 @@ $("dialog-ok").addEventListener("click", doCreate);
 $("dialog-cancel").addEventListener("click", () => hideOverlay("dialog-overlay"));
 $("confirm-ok").addEventListener("click", doDelete);
 $("confirm-cancel").addEventListener("click", () => hideOverlay("confirm-overlay"));
+$("update-check").addEventListener("click", () => checkForUpdate(true));
+$("update-now").addEventListener("click", doUpdate);
+$("update-later").addEventListener("click", () => hideOverlay("update-overlay"));
+$("update-ok").addEventListener("click", () => hideOverlay("update-overlay"));
 document.getElementById("dialog-overlay").addEventListener("click", (e) => {
   if (e.target === e.currentTarget) hideOverlay("dialog-overlay");
 });
 document.getElementById("confirm-overlay").addEventListener("click", (e) => {
   if (e.target === e.currentTarget) hideOverlay("confirm-overlay");
+});
+document.getElementById("update-overlay").addEventListener("click", (e) => {
+  if (e.target === e.currentTarget) hideOverlay("update-overlay");
 });
 $("world-name").addEventListener("keydown", (e) => { if (e.key === "Enter") doCreate(); });
 $("world-seed").addEventListener("keydown", (e) => { if (e.key === "Enter") doCreate(); });

@@ -33,7 +33,16 @@
     <footer>
       <div id="action-row">
         <button id="play" class="mc-btn play">&#9654;&nbsp; Play</button>
-        <button id="open-folder" class="mc-btn">Open folder</button>
+        <button id="open-folder" class="mc-btn icon-btn" title="Open folder" aria-label="Open folder">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/>
+          </svg>
+        </button>
+        <button id="update-check" class="mc-btn icon-btn" title="Check for updates" aria-label="Check for updates">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M17.65 6.35A7.95 7.95 0 0 0 12 4a8 8 0 1 0 7.73 10h-2.08A6 6 0 1 1 12 6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/>
+          </svg>
+        </button>
       </div>
     </footer>
   </div>
@@ -63,6 +72,23 @@
       <div class="dlg-btns">
         <button id="confirm-cancel" class="mc-btn">Cancel</button>
         <button id="confirm-ok" class="mc-btn danger">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Update dialog -->
+  <div id="update-overlay" class="overlay" hidden>
+    <div class="dialog">
+      <h2 id="update-title">Update available</h2>
+      <p id="update-text"></p>
+      <div id="update-progress-wrap" class="progress-wrap" hidden>
+        <progress id="update-progress" max="100" value="0"></progress>
+        <span id="update-progress-text" class="muted"></span>
+      </div>
+      <div class="dlg-btns">
+        <button id="update-later" class="mc-btn">Later</button>
+        <button id="update-now" class="mc-btn play">Update now</button>
+        <button id="update-ok" class="mc-btn play" hidden>OK</button>
       </div>
     </div>
   </div>

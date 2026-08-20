@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/base64"
+	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -62,6 +63,33 @@ func (a *App) LaunchGame(worldName, nick string) error {
 // GameRunning reports whether the engine is currently running.
 func (a *App) GameRunning() bool {
 	return gameStatus()
+}
+
+// CheckForUpdate queries GitHub for the latest release and records the version
+// on first run so it does not nag fresh installs.
+func (a *App) CheckForUpdate() (UpdateInfo, error) {
+	info, err := checkForUpdate(a.cfg.Version)
+	if err != nil {
+		return UpdateInfo{}, err
+	}
+	if a.cfg.Version == "" {
+		a.cfg.Version = info.Latest
+		_ = a.cfg.save()
+	}
+	return info, nil
+}
+
+// UpdateProgress returns the snapshot of the running update.
+func (a *App) UpdateProgress() UpdateState {
+	return updateSnapshot()
+}
+
+// ApplyUpdate starts downloading and installing the latest release.
+func (a *App) ApplyUpdate() error {
+	if gameStatus() {
+		return errors.New("quit the game before updating")
+	}
+	return startUpdate()
 }
 
 // OpenFolder opens the game folder in the system file manager.
