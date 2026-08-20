@@ -1,10 +1,10 @@
 -- Betacraft Discord Rich Presence launcher.
 --
 -- The actual presence is handled by a small companion binary
--- (tools/discord_rpc). This mod only starts it when a singleplayer game
--- begins and stops it again on shutdown. The binary connects to the locally
--- running Discord client over its IPC interface and shows a static
--- "Playing Betacraft" activity.
+-- (tools/discord_rpc). This mod starts it as soon as the game session begins
+-- (singleplayer, locally hosted or remote) and stops it again on shutdown.
+-- The binary connects to the locally running Discord client over its IPC
+-- interface and shows a static "Playing Betacraft" activity.
 --
 -- For the mod to be allowed to start the binary it must be listed in the
 -- secure.trusted_mods setting of the main configuration file
@@ -99,11 +99,7 @@ local function start_rpc()
 end
 
 if core.settings:get_bool("mcl_discord_rpc_enabled", true) then
-	if core.is_singleplayer() then
-		start_rpc()
-	else
-		core.log("info", "[mcl_discord_rpc] not a singleplayer game, not starting the companion")
-	end
+	start_rpc()
 end
 
 core.register_on_shutdown(stop_rpc)
